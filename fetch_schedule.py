@@ -101,6 +101,8 @@ ESPN_LEAGUE_LABELS = {
     "Dutch Eredivisie":  "Dutch Eredivisie",
     "English Fa Cup":    "English FA Cup",
 }
+
+def fetch_espn_day(page, date_str: str) -> list[dict]:
     """Scrape ESPN Watch schedule for a single date, return matching games."""
     url = (
         f"https://www.espn.com/watch/schedule/_/type/upcoming"
