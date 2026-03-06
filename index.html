@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SOTLive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f7f6f3;
+      --surface: #ffffff;
+      --border: #e8e6e1;
+      --text: #1a1a1a;
+      --text-muted: #888880;
+      --accent-espn: #cc0000;
+      --accent-cbs: #1a5fb4;
+      --tab-active: #1a1a1a;
+      --tab-inactive: #888880;
+      --radius: 10px;
+    }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 0 0 60px;
+    }
+
+    /* ── Header ── */
+    header {
+      padding: 40px 24px 20px;
+      max-width: 780px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 22px;
+      font-weight: 600;
+      letter-spacing: -0.4px;
+    }
+
+    /* ── Tabs ── */
+    .tabs-wrapper {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 0 24px;
+      border-bottom: 1.5px solid var(--border);
+      display: flex;
+      gap: 0;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+    .tabs-wrapper::-webkit-scrollbar { display: none; }
+
+    .tab {
+      flex-shrink: 0;
+      padding: 12px 18px 10px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--tab-inactive);
+      background: none;
+      border: none;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1.5px;
+      cursor: pointer;
+      transition: color 0.15s, border-color 0.15s;
+      white-space: nowrap;
+    }
+
+    .tab:hover { color: var(--text); }
+
+    .tab.active {
+      color: #000;
+      font-weight: 800;
+      border-bottom-color: #000;
+    }
+
+    .tab-day {
+      display: block;
+      font-size: 11px;
+      font-weight: 400;
+      color: inherit;
+      margin-top: 1px;
+      opacity: 0.7;
+    }
+
+    /* ── Content ── */
+    .content {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 28px 24px 0;
+    }
+
+    .day-panel { display: none; }
+    .day-panel.active { display: block; }
+
+    /* ── Source badge ── */
+    .source-badge {
+      font-family: 'DM Mono', monospace;
+      font-size: 10px;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-weight: 500;
+      flex-shrink: 0;
+    }
+
+    .source-espn {
+      background: #fff0f0;
+      color: var(--accent-espn);
+    }
+
+    .source-cbs {
+      background: #eef3fb;
+      color: var(--accent-cbs);
+    }
+
+    .league-group { margin-bottom: 28px; }
+    .league-label {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }
+    .league-label.uefa {
+      font-weight: 800;
+      color: #1a1a1a;
+      letter-spacing: 0.5px;
+      font-style: italic;
+    }
+
+    /* ── Game card ── */
+    .game-card {
+      background: var(--surface);
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px 18px;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+
+    .game-card:hover {
+      border-color: #ccc;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .game-time {
+      font-family: 'DM Mono', monospace;
+      font-size: 12px;
+      color: #1a1a1a;
+      font-weight: 600;
+      min-width: 64px;
+      flex-shrink: 0;
+    }
+
+    .game-match {
+      font-size: 14px;
+      font-weight: 500;
+      flex: 1;
+    }
+
+    /* ── Empty state ── */
+    .empty {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--text-muted);
+      font-size: 14px;
+    }
+
+    .empty-icon {
+      font-size: 32px;
+      margin-bottom: 12px;
+    }
+
+    /* ── Footer ── */
+    footer {
+      max-width: 780px;
+      margin: 40px auto 0;
+      padding: 0 24px;
+      font-size: 11px;
+      color: var(--text-muted);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1.5px solid var(--border);
+      padding-top: 16px;
+    }
+
+    /* ── About panel ── */
+    .about-panel {
+      display: none;
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 36px 24px 0;
+    }
+    .about-panel.active { display: block; }
+
+    .about-section {
+      margin-bottom: 28px;
+    }
+
+    .about-section h2 {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }
+
+    .about-section p {
+      font-size: 14px;
+      line-height: 1.7;
+      color: var(--text);
+    }
+
+    .about-disclaimer {
+      font-size: 12px;
+      line-height: 1.7;
+      color: var(--text-muted);
+      border-top: 1.5px solid var(--border);
+      padding-top: 20px;
+      margin-top: 8px;
+    }
+
+    @media (max-width: 500px) {
+      h1 { font-size: 18px; }
+      .game-match { font-size: 13px; }
+      .tab { padding: 10px 12px 8px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>⚽ Schedule</h1>
+  </header>
+
+  <div class="tabs-wrapper" id="tabs"></div>
+
+  <div class="content" id="content"></div>
+
+  <div class="about-panel" id="about-panel">
+    <div class="about-section">
+      <h2>Purpose & Scope</h2>
+      <p>This website provides informational listings of association football ("soccer") match broadcast schedules available to viewers within the United States. All match times are displayed in Eastern Time (ET), corresponding to the time zone of New York City (UTC−5 standard / UTC−4 daylight saving). This site is operated as a personal, non-commercial reference tool.</p>
+    </div>
+    <div class="about-section">
+      <h2>Covered Competitions</h2>
+      <p>UEFA Champions League · UEFA Europa League · UEFA Europa Conference League · Premier League · English FA Cup · EFL Championship · Serie A · German Bundesliga · La Liga · Dutch Eredivisie · USL Championship</p>
+    </div>
+    <div class="about-section">
+      <h2>Scope Limitations</h2>
+      <p>This site does not include listings for Spanish-language exclusive broadcasts or women's competitions. Schedule data is sourced from publicly available third-party broadcast platforms and is subject to change without notice. Users are advised to confirm match times directly with the relevant broadcaster prior to viewing.</p>
+    </div>
+    <div class="about-section">
+      <h2>No Affiliation</h2>
+      <p>This website is an independent, unofficial resource and is not affiliated with, endorsed by, authorized by, or sponsored by any football league, governing body, club, team, player, or broadcast provider referenced herein. All league names, club names, competition names, logos, and trademarks are the sole property of their respective owners and are referenced for informational purposes only.</p>
+    </div>
+    <div class="about-section">
+      <h2>Limitation of Liability</h2>
+      <p>The information provided on this website is furnished on an "as is" and "as available" basis, without warranty of any kind, express or implied, including but not limited to warranties of accuracy, completeness, fitness for a particular purpose, or non-infringement. The operator of this website expressly disclaims all liability for any loss, damage, inconvenience, or expense of any nature whatsoever — whether direct, indirect, incidental, consequential, or otherwise — arising out of or in connection with any reliance upon the schedule data, match times, broadcast information, or any other content displayed on this site. Use of this website constitutes acceptance of these terms.</p>
+    </div>
+  </div>
+
+  <script>
+    // Source badge helper
+    const LEAGUE_ORDER = [
+      'UEFA Champions League',
+      'UEFA Europa League',
+      'UEFA Europa Conference League',
+      'Premier League',
+      'English FA Cup',
+      'EFL Championship',
+      'Serie A',
+      'German Bundesliga',
+      'La Liga',
+      'Dutch Eredivisie',
+      'USL Championship'
+    ];
+
+    function normalize(str) {
+      return str.toLowerCase()
+        .replace(/[áàä]/g,'a').replace(/[éèë]/g,'e').replace(/[íìï]/g,'i')
+        .replace(/[óòö]/g,'o').replace(/[úùü]/g,'u')
+        .replace(/\s+/g,' ').trim();
+    }
+
+    function dedup(games) {
+      const seen = [];
+      const result = [];
+      for (const g of games) {
+        const key = normalize(g.match) + '|' + g.time;
+        const existing = seen.find(s => s.key === key);
+        if (existing) {
+          if (!existing.game.source.includes(g.source)) {
+            existing.game.source += ' · ' + g.source;
+          }
+        } else {
+          const clone = {...g};
+          seen.push({key, game: clone});
+          result.push(clone);
+        }
+      }
+      return result;
+    }
+
+    function sourceBadge(src) {
+      if (!src) return '';
+      return src.split(' · ').map(s => {
+        const isESPN = s.includes('ESPN');
+        const cls = isESPN ? 'source-espn' : 'source-cbs';
+        const label = isESPN ? 'ESPN+' : 'CBS / P+';
+        return `<span class="source-badge ${cls}">${label}</span>`;
+      }).join(' ');
+    }
+
+    async function init() {
+      let data;
+      try {
+        const res = await fetch('schedule.json?v=' + Date.now());
+        data = await res.json();
+      } catch (e) {
+        document.getElementById('content').innerHTML =
+          '<div class="empty"><div class="empty-icon">⚠️</div>Could not load schedule.json.<br>Run fetch_schedule.py first.</div>';
+        return;
+      }
+
+      const tabsEl = document.getElementById('tabs');
+      const contentEl = document.getElementById('content');
+
+      const dateKeys = Object.keys(data.days);
+      let firstActive = true;
+
+      dateKeys.forEach((key) => {
+        const day = data.days[key];
+        const { label, short } = tabLabel(key, day.date);
+
+        // Tab button
+        const btn = document.createElement('button');
+        btn.className = 'tab' + (firstActive ? ' active' : '');
+        btn.dataset.key = key;
+        btn.innerHTML = `${label}<span class="tab-day">${short}</span>`;
+        btn.addEventListener('click', () => switchTab(key));
+        tabsEl.appendChild(btn);
+
+        // Panel
+        const panel = document.createElement('div');
+        panel.className = 'day-panel' + (firstActive ? ' active' : '');
+        panel.id = `panel-${key}`;
+
+        const games = day.games || [];
+        if (games.length === 0) {
+          panel.innerHTML = '<div class="empty"><div class="empty-icon">🏟️</div>No matches scheduled.</div>';
+        } else {
+          const grouped = {};
+          for (const g of games) {
+            if (!grouped[g.league]) grouped[g.league] = { source: g.source, items: [] };
+            grouped[g.league].items.push(g);
+          }
+          const sortedGrouped = Object.fromEntries(
+            Object.entries(grouped).sort(([a],[b]) => {
+              const ai = LEAGUE_ORDER.indexOf(a);
+              const bi = LEAGUE_ORDER.indexOf(b);
+              return (ai === -1 ? 999 : ai) - (bi === -1 ? 999 : bi);
+            })
+          );
+          let html = '';
+          for (const [league, info] of Object.entries(sortedGrouped)) {
+            const isUefa = ['UEFA Champions League','UEFA Europa League','UEFA Europa Conference League'].includes(league);
+            html += `<div class="league-group"><div class="league-label${isUefa ? ' uefa' : ''}">${league}</div>`;
+            for (const g of info.items) {
+              html += `<div class="game-card">
+                <span class="game-time">${g.time}</span>
+                <span class="game-match">${g.match}</span>
+                ${sourceBadge(g.source)}
+              </div>`;
+            }
+            html += `</div>`;
+          }
+          panel.innerHTML = html;
+        }
+
+        contentEl.appendChild(panel);
+        firstActive = false;
+      });
+
+      // Append About tab last
+      const aboutBtn = document.createElement('button');
+      aboutBtn.className = 'tab';
+      aboutBtn.id = 'about-tab';
+      aboutBtn.textContent = 'About';
+      aboutBtn.addEventListener('click', switchToAbout);
+      tabsEl.appendChild(aboutBtn);
+    }
+
+    function switchTab(key) {
+      document.querySelectorAll('.tab').forEach(t => {
+        t.classList.toggle('active', t.dataset.key === key);
+      });
+      document.querySelectorAll('.day-panel').forEach(p => {
+        p.classList.toggle('active', p.id === `panel-${key}`);
+      });
+      document.getElementById('about-panel').classList.remove('active');
+      document.getElementById('content').style.display = '';
+    }
+
+    function switchToAbout() {
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      document.getElementById('about-tab').classList.add('active');
+      document.querySelectorAll('.day-panel').forEach(p => p.classList.remove('active'));
+      document.getElementById('content').style.display = 'none';
+      document.getElementById('about-panel').classList.add('active');
+    }
+
+    init();
+  </script>
+</body>
+</html>

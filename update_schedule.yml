@@ -1,0 +1,40 @@
+name: Update Soccer Schedule
+
+on:
+  # Run every 3 hours (at :00 — midnight, 3am, 6am, 9am, 12pm, 3pm, 6pm, 9pm UTC)
+  # UTC is 5 hours ahead of ET (EST) / 4 hours ahead of ET (EDT)
+  # so this covers roughly: 7pm, 10pm, 1am, 4am, 7am, 10am, 1pm, 4pm ET
+  schedule:
+    - cron: '0 */3 * * *'
+  # Allow manual trigger from GitHub Actions tab
+  workflow_dispatch:
+
+jobs:
+  update-schedule:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install playwright
+          playwright install chromium
+          playwright install-deps chromium
+
+      - name: Run fetch script
+        run: python fetch_schedule.py
+
+      - name: Commit updated schedule.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add schedule.json
+          git diff --cached --quiet || git commit -m "chore: update schedule $(date -u +'%Y-%m-%d')"
+          git push
