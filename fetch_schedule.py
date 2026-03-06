@@ -69,7 +69,7 @@ def date_range(days: int):
 def prune_today_games(games: list[dict]) -> list[dict]:
     """
     For TODAY's games only: remove any game whose kickoff time has passed
-    the allowed window (3 hrs for most leagues, 5 hrs for marquee competitions).
+    the allowed window (4 hours for all leagues).
     If a game's time can't be parsed it is kept.
     """
     now = datetime.now(TIMEZONE)
