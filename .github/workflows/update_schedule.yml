@@ -1,9 +1,7 @@
 name: Update Soccer Schedule
 
 on:
-  # Run every 3 hours (midnight, 3am, 6am, 9am, 12pm, 3pm, 6pm, 9pm UTC)
-  # UTC is 5 hours ahead of ET (EST) / 4 hours ahead of ET (EDT)
-  # Covers roughly: 7pm, 10pm, 1am, 4am, 7am, 10am, 1pm, 4pm ET
+  # Run every 3 hours
   schedule:
     - cron: '0 */3 * * *'
   # Allow manual trigger from GitHub Actions tab
@@ -21,12 +19,6 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
-      - name: Install dependencies
-        run: |
-          pip install playwright
-          playwright install chromium
-          playwright install-deps chromium
 
       - name: Run fetch script
         run: python fetch_schedule.py
