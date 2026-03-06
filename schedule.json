@@ -1,25 +1,486 @@
 {
-  "updated": "2026-03-06 16:01 EST",
+  "updated": "2026-03-06 16:16 EST",
   "days": {
     "20260306": {
       "date": "Friday, March 6",
-      "games": []
+      "games": [
+        {
+          "league": "Dutch Eredivisie",
+          "time": "2:00 PM",
+          "match": "Heracles Almelo vs FC Utrecht",
+          "source": "ESPN+"
+        },
+        {
+          "league": "German Bundesliga",
+          "time": "2:30 PM",
+          "match": "Bayern Munich vs Borussia M\u00f6nchengladbach",
+          "source": "ESPN+"
+        },
+        {
+          "league": "Serie A",
+          "time": "2:45 PM",
+          "match": "Napoli vs Torino",
+          "source": "CBS / Paramount+"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "3:00 PM",
+          "match": "Preston North End vs Oxford United",
+          "source": "CBS / Paramount+"
+        },
+        {
+          "league": "English FA Cup",
+          "time": "3:00 PM",
+          "match": "Wolverhampton Wanderers vs Liverpool",
+          "source": "ESPN+"
+        },
+        {
+          "league": "La Liga",
+          "time": "3:00 PM",
+          "match": "Celta Vigo vs Real Madrid",
+          "source": "ESPN+"
+        },
+        {
+          "league": "USL Championship",
+          "time": "7:30 PM",
+          "match": "Lexington vs Louisville City FC",
+          "source": "ESPN+"
+        }
+      ]
     },
     "20260307": {
       "date": "Saturday, March 7",
-      "games": []
+      "games": [
+        {
+          "league": "English FA Cup",
+          "time": "7:15 AM",
+          "match": "Mansfield Town vs Arsenal",
+          "source": "ESPN+"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "7:30 AM",
+          "match": "Blackburn Rovers vs Portsmouth",
+          "source": "CBS / Paramount+"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "7:30 AM",
+          "match": "Hull City vs Millwall",
+          "source": "CBS / Paramount+"
+        },
+        {
+          "league": "La Liga",
+          "time": "8:00 AM",
+          "match": "Osasuna vs Mallorca",
+          "source": "ESPN+"
+        },
+        {
+          "league": "Serie A",
+          "time": "9:00 AM",
+          "match": "Cagliari vs Como",
+          "source": "CBS / Paramount+"
+        },
+        {
+          "league": "German Bundesliga",
+          "time": "9:30 AM",
+          "match": "1. FC Heidenheim 1846 vs TSG Hoffenheim",
+          "source": "ESPN+"
+        },
+        {
+          "league": "German Bundesliga",
+          "time": "9:30 AM",
+          "match": "Mainz vs VfB Stuttgart",
+          "source": "ESPN+"
+        },
+        {
+          "league": "German Bundesliga",
+          "time": "9:30 AM",
+          "match": "RB Leipzig vs FC Augsburg",
+          "source": "ESPN+"
+        },
+        {
+          "league": "German Bundesliga",
+          "time": "9:30 AM",
+          "match": "SC Freiburg vs Bayer Leverkusen",
+          "source": "ESPN+"
+        },
+        {
+          "league": "German Bundesliga",
+          "time": "9:30 AM",
+          "match": "VfL Wolfsburg vs Hamburg SV",
+          "source": "ESPN+"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "10:00 AM",
+          "match": "Bristol City vs Coventry City",
+          "source": "ESPN+"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "10:00 AM",
+          "match": "Charlton Athletic vs Birmingham City",
+          "source": "ESPN+"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "10:00 AM",
+          "match": "Derby County vs Sheffield Wednesday",
+          "source": "CBS / Paramount+"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "10:00 AM",
+          "match": "Ipswich Town vs Leicester City",
+          "source": "CBS / Paramount+"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "10:00 AM",
+          "match": "Sheffield United vs West Bromwich Albion",
+          "source": "ESPN+"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "10:00 AM",
+          "match": "Swansea City vs Stoke City",
+          "source": "ESPN+"
+        },
+        {
+          "league": "La Liga",
+          "time": "10:15 AM",
+          "match": "Levante vs Girona",
+          "source": "ESPN+"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "10:30 AM",
+          "match": "FC Groningen vs Ajax Amsterdam",
+          "source": "ESPN+"
+        },
+        {
+          "league": "Serie A",
+          "time": "12:00 PM",
+          "match": "Atalanta vs Udinese",
+          "source": "CBS / Paramount+"
+        },
+        {
+          "league": "La Liga",
+          "time": "12:30 PM",
+          "match": "Atl\u00e9tico Madrid vs Real Sociedad",
+          "source": "ESPN+"
+        },
+        {
+          "league": "German Bundesliga",
+          "time": "12:30 PM",
+          "match": "FC Cologne vs Borussia Dortmund",
+          "source": "ESPN+"
+        },
+        {
+          "league": "English FA Cup",
+          "time": "12:45 PM",
+          "match": "Wrexham vs Chelsea",
+          "source": "ESPN+"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "2:00 PM",
+          "match": "PSV Eindhoven vs AZ Alkmaar",
+          "source": "ESPN+"
+        },
+        {
+          "league": "Serie A",
+          "time": "2:45 PM",
+          "match": "Juventus vs Pisa",
+          "source": "CBS / Paramount+"
+        },
+        {
+          "league": "English FA Cup",
+          "time": "3:00 PM",
+          "match": "Newcastle United vs Manchester City",
+          "source": "ESPN+"
+        },
+        {
+          "league": "La Liga",
+          "time": "3:00 PM",
+          "match": "Athletic Club vs Barcelona",
+          "source": "ESPN+"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "3:00 PM",
+          "match": "Excelsior vs Heerenveen",
+          "source": "ESPN+"
+        },
+        {
+          "league": "USL Championship",
+          "time": "6:00 PM",
+          "match": "Charleston Battery vs Pittsburgh Riverhounds",
+          "source": "ESPN+"
+        },
+        {
+          "league": "USL Championship",
+          "time": "7:30 PM",
+          "match": "Sporting JAX vs Hartford Athletic",
+          "source": "ESPN+"
+        },
+        {
+          "league": "USL Championship",
+          "time": "8:00 PM",
+          "match": "Birmingham Legion FC vs Tampa Bay Rowdies",
+          "source": "ESPN+"
+        },
+        {
+          "league": "USL Championship",
+          "time": "8:30 PM",
+          "match": "San Antonio FC vs Phoenix Rising FC",
+          "source": "ESPN+"
+        },
+        {
+          "league": "USL Championship",
+          "time": "9:00 PM",
+          "match": "El Paso Locomotive FC vs Colorado Springs Switchbacks FC",
+          "source": "ESPN+"
+        },
+        {
+          "league": "USL Championship",
+          "time": "10:00 PM",
+          "match": "Monterey Bay vs Oakland Roots",
+          "source": "ESPN+"
+        },
+        {
+          "league": "USL Championship",
+          "time": "10:00 PM",
+          "match": "Orange County SC vs Las Vegas Lights FC",
+          "source": "ESPN+"
+        },
+        {
+          "league": "USL Championship",
+          "time": "10:00 PM",
+          "match": "Sacramento Republic FC vs FC Tulsa",
+          "source": "ESPN+"
+        }
+      ]
     },
     "20260308": {
       "date": "Sunday, March 8",
-      "games": []
+      "games": [
+        {
+          "league": "Dutch Eredivisie",
+          "time": "7:15 AM",
+          "match": "Sparta Rotterdam vs PEC Zwolle",
+          "source": "ESPN+"
+        },
+        {
+          "league": "Serie A",
+          "time": "7:30 AM",
+          "match": "Lecce vs Cremonese",
+          "source": "CBS / Paramount+"
+        },
+        {
+          "league": "English FA Cup",
+          "time": "8:00 AM",
+          "match": "Fulham vs Southampton",
+          "source": "ESPN+"
+        },
+        {
+          "league": "La Liga",
+          "time": "9:00 AM",
+          "match": "Villarreal vs Elche",
+          "source": "ESPN+"
+        },
+        {
+          "league": "English FA Cup",
+          "time": "9:30 AM",
+          "match": "Port Vale vs Sunderland",
+          "source": "ESPN+"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "9:30 AM",
+          "match": "Fortuna Sittard vs Telstar",
+          "source": "ESPN+"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "9:30 AM",
+          "match": "Go Ahead Eagles vs FC Twente",
+          "source": "ESPN+"
+        },
+        {
+          "league": "Serie A",
+          "time": "10:00 AM",
+          "match": "Bologna vs Hellas Verona",
+          "source": "CBS / Paramount+"
+        },
+        {
+          "league": "Serie A",
+          "time": "10:00 AM",
+          "match": "Fiorentina vs Parma",
+          "source": "CBS / Paramount+"
+        },
+        {
+          "league": "German Bundesliga",
+          "time": "10:30 AM",
+          "match": "St. Pauli vs Eintracht Frankfurt",
+          "source": "ESPN+"
+        },
+        {
+          "league": "La Liga",
+          "time": "11:15 AM",
+          "match": "Getafe vs Real Betis",
+          "source": "ESPN+"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "11:45 AM",
+          "match": "NAC Breda vs Feyenoord Rotterdam",
+          "source": "ESPN+"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "12:30 PM",
+          "match": "Queens Park Rangers vs Middlesbrough",
+          "source": "CBS / Paramount+"
+        },
+        {
+          "league": "English FA Cup",
+          "time": "12:30 PM",
+          "match": "Leeds United vs Norwich City",
+          "source": "ESPN+"
+        },
+        {
+          "league": "German Bundesliga",
+          "time": "12:30 PM",
+          "match": "1. FC Union Berlin vs Werder Bremen",
+          "source": "ESPN+"
+        },
+        {
+          "league": "Serie A",
+          "time": "1:00 PM",
+          "match": "Genoa vs AS Roma",
+          "source": "CBS / Paramount+"
+        },
+        {
+          "league": "La Liga",
+          "time": "1:30 PM",
+          "match": "Sevilla vs Rayo Vallecano",
+          "source": "ESPN+"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "3:00 PM",
+          "match": "NEC Nijmegen vs FC Volendam",
+          "source": "ESPN+"
+        },
+        {
+          "league": "USL Championship",
+          "time": "3:00 PM",
+          "match": "Brooklyn FC vs Indy Eleven",
+          "source": "ESPN+"
+        },
+        {
+          "league": "Serie A",
+          "time": "3:45 PM",
+          "match": "AC Milan vs Internazionale",
+          "source": "CBS / Paramount+"
+        },
+        {
+          "league": "La Liga",
+          "time": "4:00 PM",
+          "match": "Valencia vs Alav\u00e9s",
+          "source": "ESPN+"
+        }
+      ]
     },
     "20260309": {
       "date": "Monday, March 9",
-      "games": []
+      "games": [
+        {
+          "league": "English FA Cup",
+          "time": "3:30 PM",
+          "match": "West Ham United vs Brentford",
+          "source": "ESPN+"
+        },
+        {
+          "league": "Serie A",
+          "time": "3:45 PM",
+          "match": "Lazio vs Sassuolo",
+          "source": "CBS / Paramount+"
+        },
+        {
+          "league": "La Liga",
+          "time": "4:00 PM",
+          "match": "Espanyol vs Real Oviedo",
+          "source": "ESPN+"
+        }
+      ]
     },
     "20260310": {
       "date": "Tuesday, March 10",
-      "games": []
+      "games": [
+        {
+          "league": "UEFA Champions League",
+          "time": "1:45 PM",
+          "match": "Galatasaray vs Liverpool",
+          "source": "CBS / Paramount+"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "3:45 PM",
+          "match": "Leicester City vs Bristol City",
+          "source": "ESPN+"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "3:45 PM",
+          "match": "Millwall vs Derby County",
+          "source": "CBS / Paramount+"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "3:45 PM",
+          "match": "Portsmouth vs Swansea City",
+          "source": "ESPN+"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "3:45 PM",
+          "match": "Sheffield Wednesday vs Watford",
+          "source": "ESPN+"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "3:45 PM",
+          "match": "Wrexham vs Hull City",
+          "source": "CBS / Paramount+"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "4:00 PM",
+          "match": "Stoke City vs Ipswich Town",
+          "source": "CBS / Paramount+"
+        },
+        {
+          "league": "UEFA Champions League",
+          "time": "4:00 PM",
+          "match": "Atalanta vs Bayern Munich",
+          "source": "CBS / Paramount+"
+        },
+        {
+          "league": "UEFA Champions League",
+          "time": "4:00 PM",
+          "match": "Atl\u00e9tico Madrid vs Tottenham Hotspur",
+          "source": "CBS / Paramount+"
+        },
+        {
+          "league": "UEFA Champions League",
+          "time": "4:00 PM",
+          "match": "Newcastle United vs Barcelona",
+          "source": "CBS / Paramount+"
+        }
+      ]
     }
   }
 }
