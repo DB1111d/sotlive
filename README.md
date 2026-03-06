@@ -1,6 +1,8 @@
-# ⚽ Schedule
+# ⚽ SOTLive
 
-An independent, non-commercial website providing informational listings of football / soccer match broadcast schedules available to viewers within the United States. All times are displayed in Eastern Time (ET) — New York City.
+An independent, non-commercial website listing football / soccer match broadcast schedules available to viewers in the United States. All times are displayed in Eastern Time (ET) — New York City.
+
+Live site: https://db1111d.github.io/sotlive/
 
 ---
 
@@ -16,69 +18,39 @@ An independent, non-commercial website providing informational listings of footb
 | EFL Championship | CBS / Paramount+ |
 | Serie A | CBS / Paramount+ |
 | German Bundesliga | ESPN+ |
-| La Liga | ESPN+ / CBS |
+| La Liga | ESPN+ |
 | Dutch Eredivisie | ESPN+ |
 | USL Championship | ESPN+ |
 
 ---
 
-## Scope Limitations
-
-This site does not include listings for Spanish-language exclusive broadcasts or women's competitions. Schedule data is sourced from publicly available third-party broadcast platforms and is subject to change without notice. Users are advised to confirm match times directly with the relevant broadcaster prior to viewing.
-
----
-
 ## How It Works
 
-```
-GitHub Actions (runs daily at 6AM UTC / 2AM Eastern)
-        ↓
-fetch_schedule.py scrapes ESPN & CBS Sports
-        ↓
-Filters & deduplicates across sources
-        ↓
-Writes schedule.json to the repo
-        ↓
-GitHub Pages serves index.html → reads schedule.json
-```
+Schedule data is pulled from ESPN's API every 4 hours via GitHub Actions and written to schedule.json. The site reads that file and displays the next 5 days of matches grouped by league.
+
+Games on Today's tab are automatically removed 4 hours after kickoff. If all games for a league are gone, the league disappears too.
 
 ---
 
 ## Setup
 
-### 1. Fork / Clone This Repository
+1. Fork this repo
+2. Go to **Settings → Pages** → Deploy from branch → main / root → Save
+3. Go to **Actions** → enable workflows
+4. Go to **Actions → Update Soccer Schedule → Run workflow** to populate data for the first time
 
-### 2. Enable GitHub Pages
-- Go to **Settings → Pages**
-- Set source to **Deploy from a branch**
-- Select branch: `main`, folder: `/ (root)`
-- Save — your site will be live at `https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/`
-
-### 3. Enable GitHub Actions
-- Go to the **Actions** tab
-- If prompted, click "I understand my workflows, enable them"
-
-### 4. Run Manually for the First Time
-- Go to **Actions → Update Soccer Schedule → Run workflow**
-- This generates the initial `schedule.json`
-
-Subsequent runs execute automatically every day. No further action required.
+After that it runs automatically every 4 hours. You never touch it again.
 
 ---
 
-## Run Locally
+## Manual Trigger
 
-```bash
-pip install playwright
-playwright install chromium
-python fetch_schedule.py
-# Then open index.html in your browser
-```
+Go to **Actions → Update Soccer Schedule → Run workflow** at any time to force a refresh.
 
 ---
 
-## Disclaimer & Limitation of Liability
+## Disclaimer
 
 This website is an independent, unofficial resource and is not affiliated with, endorsed by, authorized by, or sponsored by any football league, governing body, club, team, player, or broadcast provider referenced herein. All league names, club names, competition names, logos, and trademarks are the sole property of their respective owners and are referenced for informational purposes only.
 
-The information provided on this website is furnished on an "as is" and "as available" basis, without warranty of any kind, express or implied, including but not limited to warranties of accuracy, completeness, fitness for a particular purpose, or non-infringement. The operator of this website expressly disclaims all liability for any loss, damage, inconvenience, or expense of any nature whatsoever — whether direct, indirect, incidental, consequential, or otherwise — arising out of or in connection with any reliance upon the schedule data, match times, broadcast information, or any other content displayed on this site. Use of this website constitutes acceptance of these terms.
+The information provided is furnished on an "as is" and "as available" basis without warranty of any kind. The operator expressly disclaims all liability for any loss, damage, or inconvenience arising from reliance on this data. Use of this website constitutes acceptance of these terms.
