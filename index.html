@@ -288,6 +288,18 @@
       'USL Championship'
     ];
 
+    function tabLabel(key, dateStr) {
+      const today = new Date();
+      const tomorrow = new Date(); tomorrow.setDate(today.getDate() + 1);
+      const fmt = d => d.toISOString().slice(0,10).replace(/-/g,'');
+      if (key === fmt(today)) return { label: 'Today', short: dateStr };
+      if (key === fmt(tomorrow)) return { label: 'Tomorrow', short: dateStr };
+      // Return day name e.g. "Saturday"
+      const year = key.slice(0,4), mon = key.slice(4,6), day = key.slice(6,8);
+      const d = new Date(`${year}-${mon}-${day}T12:00:00`);
+      return { label: d.toLocaleDateString('en-US',{weekday:'long'}), short: dateStr };
+    }
+
     function normalize(str) {
       return str.toLowerCase()
         .replace(/[áàä]/g,'a').replace(/[éèë]/g,'e').replace(/[íìï]/g,'i')
