@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-07 09:30 EST",
+  "updated": "2026-03-07 09:42 EST",
   "days": {
     "20260307": {
       "date": "Saturday, March 7",
@@ -165,6 +165,84 @@
           "time": "3:00 PM",
           "match": "Excelsior vs Heerenveen",
           "source": "ESPN+"
+        },
+        {
+          "league": "MLS",
+          "time": "2:30 PM",
+          "match": "New England Revolution vs Houston Dynamo FC",
+          "source": "Apple TV"
+        },
+        {
+          "league": "MLS",
+          "time": "2:30 PM",
+          "match": "New York City FC vs Orlando City SC",
+          "source": "Apple TV"
+        },
+        {
+          "league": "MLS",
+          "time": "4:30 PM",
+          "match": "D.C. United vs Inter Miami CF",
+          "source": "Apple TV"
+        },
+        {
+          "league": "MLS",
+          "time": "7:30 PM",
+          "match": "Atlanta United FC vs Real Salt Lake",
+          "source": "Apple TV"
+        },
+        {
+          "league": "MLS",
+          "time": "7:30 PM",
+          "match": "Charlotte FC vs Austin FC",
+          "source": "Apple TV"
+        },
+        {
+          "league": "MLS",
+          "time": "7:30 PM",
+          "match": "Columbus Crew vs Chicago Fire FC",
+          "source": "Apple TV"
+        },
+        {
+          "league": "MLS",
+          "time": "7:30 PM",
+          "match": "Philadelphia Union vs San Jose Earthquakes",
+          "source": "Apple TV"
+        },
+        {
+          "league": "MLS",
+          "time": "8:30 PM",
+          "match": "Nashville SC vs Minnesota United FC",
+          "source": "Apple TV"
+        },
+        {
+          "league": "MLS",
+          "time": "8:30 PM",
+          "match": "Sporting Kansas City vs San Diego FC",
+          "source": "Apple TV"
+        },
+        {
+          "league": "MLS",
+          "time": "8:30 PM",
+          "match": "St. Louis CITY SC vs Seattle Sounders FC",
+          "source": "Apple TV"
+        },
+        {
+          "league": "MLS",
+          "time": "9:30 PM",
+          "match": "Colorado Rapids vs LA Galaxy",
+          "source": "Apple TV"
+        },
+        {
+          "league": "MLS",
+          "time": "10:30 PM",
+          "match": "LAFC vs FC Dallas",
+          "source": "Apple TV"
+        },
+        {
+          "league": "MLS",
+          "time": "10:30 PM",
+          "match": "Portland Timbers vs Vancouver Whitecaps",
+          "source": "Apple TV"
         },
         {
           "league": "USL Championship",
@@ -338,6 +416,18 @@
           "time": "3:00 PM",
           "match": "NEC Nijmegen vs FC Volendam",
           "source": "ESPN+"
+        },
+        {
+          "league": "MLS",
+          "time": "4:30 PM",
+          "match": "Red Bull New York vs CF Montr\u00e9al",
+          "source": "Apple TV"
+        },
+        {
+          "league": "MLS",
+          "time": "7:00 PM",
+          "match": "FC Cincinnati vs Toronto FC",
+          "source": "Apple TV"
         },
         {
           "league": "USL Championship",
