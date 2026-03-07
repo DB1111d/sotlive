@@ -289,15 +289,11 @@
     ];
 
     function tabLabel(key, dateStr) {
-      const today = new Date();
-      const tomorrow = new Date(); tomorrow.setDate(today.getDate() + 1);
-      const fmt = d => d.toISOString().slice(0,10).replace(/-/g,'');
-      if (key === fmt(today)) return { label: 'Today', short: dateStr };
-      if (key === fmt(tomorrow)) return { label: 'Tomorrow', short: dateStr };
-      // Return day name e.g. "Saturday"
       const year = key.slice(0,4), mon = key.slice(4,6), day = key.slice(6,8);
       const d = new Date(`${year}-${mon}-${day}T12:00:00`);
-      return { label: d.toLocaleDateString('en-US',{weekday:'long'}), short: dateStr };
+      const label = d.toLocaleDateString('en-US',{weekday:'long'});
+      const short = d.toLocaleDateString('en-US',{month:'long', day:'numeric', year:'numeric'});
+      return { label, short };
     }
 
     function normalize(str) {
@@ -343,7 +339,7 @@
         data = await res.json();
       } catch (e) {
         document.getElementById('content').innerHTML =
-          '<div class="empty"><div class="empty-icon">⚠️</div>Could not load schedule.json.<br>Run fetch_schedule.py first.</div>';
+          '<div class="empty"><div class="empty-icon">⚠️</div>Whoopsies — we\'re working to get games shown.</div>';
         return;
       }
 
