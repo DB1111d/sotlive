@@ -166,18 +166,34 @@ def prune_today_games(games: list) -> list:
     now = datetime.now(TIMEZONE)
     kept = []
     for g in games:
+        # Try parsing the display time first
+        kickoff = None
         try:
             kickoff = datetime.strptime(g["time"].strip(), "%I:%M %p")
             kickoff = kickoff.replace(
                 year=now.year, month=now.month, day=now.day, tzinfo=TIMEZONE
             )
-            cutoff = kickoff + timedelta(hours=WINDOW_HOURS)
-            if now <= cutoff:
-                kept.append(g)
-            else:
-                print(f"  Removed past game: [{g['league']}] {g['time']} {g['match']}")
         except Exception:
+            pass
+
+        # Fall back to stored UTC kickoff (e.g. for postponed games)
+        if kickoff is None and g.get("kick_utc"):
+            try:
+                kickoff = datetime.fromisoformat(g["kick_utc"].replace("Z", "+00:00"))
+                kickoff = kickoff.astimezone(TIMEZONE)
+            except Exception:
+                pass
+
+        if kickoff is None:
+            # No time info at all — keep it
             kept.append(g)
+            continue
+
+        cutoff = kickoff + timedelta(hours=WINDOW_HOURS)
+        if now <= cutoff:
+            kept.append(g)
+        else:
+            print(f"  Removed past game: [{g['league']}] {g['time']} {g['match']}")
     return kept
 
 
@@ -253,10 +269,11 @@ def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> 
             }
             if status_name in non_scheduled:
                 games.append({
-                    "league": league_name,
-                    "time": non_scheduled[status_name],
-                    "match": match_title,
-                    "source": "",
+                    "league":    league_name,
+                    "time":      non_scheduled[status_name],
+                    "match":     match_title,
+                    "source":    "",
+                    "kick_utc":  raw_date,
                 })
                 continue
 
@@ -296,10 +313,11 @@ def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> 
             source = " · ".join(source_names) if source_names else "ESPN+"
 
             games.append({
-                "league": league_name,
-                "time": time_str,
-                "match": match_title,
-                "source": source,
+                "league":   league_name,
+                "time":     time_str,
+                "match":    match_title,
+                "source":   source,
+                "kick_utc": raw_date,
             })
 
         except Exception as e:
