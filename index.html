@@ -17,6 +17,10 @@
       --text-muted: #888880;
       --accent-espn: #cc0000;
       --accent-cbs: #1a5fb4;
+      --accent-peacock: #000000;
+      --accent-usa: #0033a0;
+      --accent-appletv: #555555;
+      --accent-fox: #003087;
       --tab-active: #1a1a1a;
       --tab-inactive: #888880;
       --radius: 10px;
@@ -117,6 +121,26 @@
     .source-cbs {
       background: #eef3fb;
       color: var(--accent-cbs);
+    }
+
+    .source-peacock {
+      background: #f0f0f0;
+      color: var(--accent-peacock);
+    }
+
+    .source-usa {
+      background: #eef1fb;
+      color: var(--accent-usa);
+    }
+
+    .source-appletv {
+      background: #f5f5f5;
+      color: var(--accent-appletv);
+    }
+
+    .source-fox {
+      background: #eef1fb;
+      color: var(--accent-fox);
     }
 
     .league-group { margin-bottom: 28px; }
@@ -256,7 +280,7 @@
     </div>
     <div class="about-section">
       <h2>Covered Competitions</h2>
-      <p>UEFA Champions League · UEFA Europa League · UEFA Europa Conference League · Premier League · English FA Cup · EFL Championship · Serie A · German Bundesliga · La Liga · Dutch Eredivisie · USL Championship</p>
+      <p>UEFA Champions League · UEFA Europa League · UEFA Europa Conference League · Premier League · English FA Cup · EFL Championship · Serie A · German Bundesliga · La Liga · Dutch Eredivisie · MLS · USL Championship</p>
     </div>
     <div class="about-section">
       <h2>Scope Limitations</h2>
@@ -285,6 +309,7 @@
       'German Bundesliga',
       'La Liga',
       'Dutch Eredivisie',
+      'MLS',
       'USL Championship'
     ];
 
@@ -322,13 +347,24 @@
       return result;
     }
 
+    const BADGE_MAP = {
+      'ESPN+':              { cls: 'source-espn',    label: 'ESPN+' },
+      'CBS / Paramount+':   { cls: 'source-cbs',     label: 'CBS / P+' },
+      'Peacock':            { cls: 'source-peacock',  label: 'Peacock' },
+      'USA Network':        { cls: 'source-usa',      label: 'USA Network' },
+      'Apple TV':           { cls: 'source-appletv',  label: 'Apple TV' },
+      'FOX':                { cls: 'source-fox',      label: 'FOX' },
+      'FS1':                { cls: 'source-fox',      label: 'FS1' },
+      'FS2':                { cls: 'source-fox',      label: 'FS2' },
+    };
+
     function sourceBadge(src) {
       if (!src) return '';
       return src.split(' · ').map(s => {
-        const isESPN = s.includes('ESPN');
-        const cls = isESPN ? 'source-espn' : 'source-cbs';
-        const label = isESPN ? 'ESPN+' : 'CBS / P+';
-        return `<span class="source-badge ${cls}">${label}</span>`;
+        const b = BADGE_MAP[s.trim()];
+        if (b) return `<span class="source-badge ${b.cls}">${b.label}</span>`;
+        // fallback for unknown sources
+        return `<span class="source-badge source-appletv">${s.trim()}</span>`;
       }).join(' ');
     }
 

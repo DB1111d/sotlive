@@ -13,6 +13,9 @@ import urllib.error
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
+# If ESPN returns one of these instead of a kickoff time, show it as-is with no broadcaster
+NON_TIME_STATUSES = {"postponed", "canceled", "cancelled", "suspended", "tbd", "delayed"}
+
 # ─── Configuration ────────────────────────────────────────────────────────────
 
 DAYS_AHEAD = 5
@@ -24,7 +27,8 @@ WINDOW_HOURS = 4
 # ESPN API league slugs mapped to friendly names
 # Format: https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard?dates=YYYYMMDD
 ESPN_LEAGUES = {
-    "eng.1":        "Premier League",
+    # eng.1 (Premier League) is fetched separately via ESPN scoreboard scraper
+    # to capture Peacock / USA Network broadcast info accurately
     "eng.2":        "EFL Championship",
     "eng.fa":       "English FA Cup",
     "esp.1":        "La Liga",
@@ -49,6 +53,28 @@ ESPN_SOURCE_MAP = {
     "CBSSN":        "CBS / Paramount+",
 }
 
+# Broadcaster names for Premier League (scraped from ESPN scoreboard page)
+PL_SOURCE_MAP = {
+    "Peacock":   "Peacock",
+    "USA Net":   "USA Network",
+    "NBC":       "USA Network",
+    "NBCSN":     "USA Network",
+}
+
+# Spanish-language broadcasters to exclude from PL results
+PL_SPANISH_EXCLUDE = {"universo", "telemundo", "tele", "espn deportes", "univision"}
+
+# Broadcaster names for MLS (scraped from ESPN scoreboard page)
+MLS_SOURCE_MAP = {
+    "Apple TV": "Apple TV",
+    "FOX":      "FOX",
+    "FS1":      "FS1",
+    "FS2":      "FS2",
+}
+
+# Spanish-language broadcasters to exclude from MLS results
+MLS_SPANISH_EXCLUDE = {"universo", "telemundo", "tele", "espn deportes", "univision", "fox deportes"}
+
 # Keywords to skip (shows, not matches)
 SHOW_KEYWORDS = [
     "golazo", "espn fc", "futbol picante", "fútbol picante",
@@ -67,12 +93,29 @@ LEAGUE_ORDER = [
     "German Bundesliga",
     "La Liga",
     "Dutch Eredivisie",
+    "MLS",
     "USL Championship",
 ]
 
 # ─── Helpers ──────────────────────────────────────────────────────────────────
 
-def normalize(s: str) -> str:
+def is_time_value(s: str) -> bool:
+    """Returns True if the string looks like a kickoff time (e.g. '7:30 PM'), False if it's a status."""
+    return bool(re.match(r'^\d{1,2}:\d{2}\s*(AM|PM)$', s.strip(), re.IGNORECASE))
+
+
+STATUS_DISPLAY = {
+    "postponed": "Postponed",
+    "canceled":  "Canceled",
+    "cancelled": "Canceled",
+    "suspended": "Suspended",
+    "delayed":   "Delayed",
+    "tbd":       "TBD",
+}
+
+def normalize_status(s: str) -> str:
+    """Normalize a non-time status string to a clean display label."""
+    return STATUS_DISPLAY.get(s.strip().lower(), s.strip())
     s = unicodedata.normalize("NFD", s.lower())
     s = "".join(c for c in s if unicodedata.category(c) != "Mn")
     return " ".join(s.split())
@@ -219,6 +262,242 @@ def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> 
     return games
 
 
+# ─── Premier League Scraper (ESPN Scoreboard Page) ───────────────────────────
+
+def fetch_pl_day(date_str: str) -> list:
+    """
+    Scrape ESPN's scoreboard page for Premier League games on a given date.
+    This captures Peacock / USA Network broadcast info that the JSON API misses.
+    """
+    from html.parser import HTMLParser
+
+    url = f"https://www.espn.com/soccer/scoreboard/_/date/{date_str}"
+    try:
+        data = fetch_json.__wrapped__(url) if hasattr(fetch_json, '__wrapped__') else None
+    except Exception:
+        data = None
+
+    # Fall back to raw HTML fetch
+    try:
+        req = urllib.request.Request(
+            url,
+            headers={"User-Agent": "Mozilla/5.0 (compatible; SOTLive/1.0)"}
+        )
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            html = resp.read().decode("utf-8")
+    except Exception as e:
+        print(f"    PL scrape error for {date_str}: {e}")
+        return []
+
+    # ── Parse HTML to find PL section ──
+    # Strategy: find "English Premier League" header, then extract game rows
+    # using string-based parsing of class attributes
+
+    games = []
+    try:
+        # Find PL section boundaries
+        pl_start = html.find('>English Premier League<')
+        if pl_start == -1:
+            return []
+
+        # Find the next league header after PL section (or end of scoreboard)
+        next_league = html.find('Card__Header__Title', pl_start + 100)
+        pl_section = html[pl_start:next_league] if next_league != -1 else html[pl_start:pl_start + 50000]
+
+        # Extract each game row: find ScoreboardScoreCell__Overview blocks
+        cell_marker = 'ScoreboardScoreCell__Overview'
+        pos = 0
+        while True:
+            idx = pl_section.find(cell_marker, pos)
+            if idx == -1:
+                break
+
+            # Find the opening div for this overview
+            div_start = pl_section.rfind('<div', 0, idx)
+            # Find matching closing div (rough approach: find next overview or parent close)
+            next_idx = pl_section.find(cell_marker, idx + len(cell_marker))
+            chunk = pl_section[div_start: next_idx if next_idx != -1 else div_start + 3000]
+
+            # Extract time
+            time_val = ""
+            time_marker = 'ScoreCell__Time'
+            t_idx = chunk.find(time_marker)
+            if t_idx != -1:
+                t_close = chunk.find('>', t_idx)
+                t_end = chunk.find('<', t_close + 1)
+                time_val = chunk[t_close + 1:t_end].strip()
+
+            # Extract networks
+            raw_networks = []
+            net_marker = 'ScoreCell__NetworkItem'
+            n_pos = 0
+            while True:
+                n_idx = chunk.find(net_marker, n_pos)
+                if n_idx == -1:
+                    break
+                n_close = chunk.find('>', n_idx)
+                n_end = chunk.find('<', n_close + 1)
+                net_name = chunk[n_close + 1:n_end].strip()
+                if net_name:
+                    raw_networks.append(net_name)
+                n_pos = n_idx + len(net_marker)
+
+            # We need teams — they're in the parent element, so look ahead
+            # Use the full parent chunk up to the next overview
+            parent_chunk = pl_section[div_start: next_idx if next_idx != -1 else div_start + 5000]
+            team_marker = 'ScoreCell__TeamName--shortDisplayName'
+            teams = []
+            tp = 0
+            while len(teams) < 2:
+                t_idx2 = parent_chunk.find(team_marker, tp)
+                if t_idx2 == -1:
+                    break
+                t_close2 = parent_chunk.find('>', t_idx2)
+                t_end2 = parent_chunk.find('<', t_close2 + 1)
+                team = parent_chunk[t_close2 + 1:t_end2].strip()
+                if team:
+                    teams.append(team)
+                tp = t_idx2 + len(team_marker)
+
+            pos = next_idx if next_idx != -1 else len(pl_section)
+
+            if not time_val or len(teams) < 2:
+                continue
+
+            # Filter to English-language networks only
+            mapped = []
+            if is_time_value(time_val):
+                for net in raw_networks:
+                    net_lower = net.lower()
+                    if net_lower in PL_SPANISH_EXCLUDE:
+                        continue
+                    label = PL_SOURCE_MAP.get(net)
+                    if label and label not in mapped:
+                        mapped.append(label)
+                source = " · ".join(mapped) if mapped else "Peacock"
+            else:
+                time_val = normalize_status(time_val)
+                source = ""
+
+            games.append({
+                "league": "Premier League",
+                "time": time_val,
+                "match": f"{teams[0]} vs {teams[1]}",
+                "source": source,
+            })
+
+    except Exception as e:
+        print(f"    PL parse error for {date_str}: {e}")
+
+    return games
+
+
+def fetch_mls_day(date_str: str) -> list:
+    """
+    Scrape ESPN's scoreboard page for MLS games on a given date.
+    Captures Apple TV, FOX, FS1 broadcast info.
+    """
+    url = f"https://www.espn.com/soccer/scoreboard/_/date/{date_str}"
+    try:
+        req = urllib.request.Request(
+            url,
+            headers={"User-Agent": "Mozilla/5.0 (compatible; SOTLive/1.0)"}
+        )
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            html = resp.read().decode("utf-8")
+    except Exception as e:
+        print(f"    MLS scrape error for {date_str}: {e}")
+        return []
+
+    games = []
+    try:
+        # Find MLS section — header text is just "MLS"
+        mls_start = html.find('>MLS<')
+        if mls_start == -1:
+            return []
+
+        next_league = html.find('Card__Header__Title', mls_start + 100)
+        mls_section = html[mls_start:next_league] if next_league != -1 else html[mls_start:mls_start + 50000]
+
+        cell_marker = 'ScoreboardScoreCell__Overview'
+        pos = 0
+        while True:
+            idx = mls_section.find(cell_marker, pos)
+            if idx == -1:
+                break
+
+            div_start = mls_section.rfind('<div', 0, idx)
+            next_idx = mls_section.find(cell_marker, idx + len(cell_marker))
+            chunk = mls_section[div_start: next_idx if next_idx != -1 else div_start + 3000]
+            parent_chunk = mls_section[div_start: next_idx if next_idx != -1 else len(mls_section)]
+
+            # Extract time
+            time_val = ""
+            t_idx = chunk.find('ScoreCell__Time')
+            if t_idx != -1:
+                t_close = chunk.find('>', t_idx)
+                t_end = chunk.find('<', t_close + 1)
+                time_val = chunk[t_close + 1:t_end].strip()
+
+            # Extract networks
+            raw_networks = []
+            n_pos = 0
+            while True:
+                n_idx = chunk.find('ScoreCell__NetworkItem', n_pos)
+                if n_idx == -1:
+                    break
+                n_close = chunk.find('>', n_idx)
+                n_end = chunk.find('<', n_close + 1)
+                net_name = chunk[n_close + 1:n_end].strip()
+                if net_name:
+                    raw_networks.append(net_name)
+                n_pos = n_idx + len('ScoreCell__NetworkItem')
+
+            # Extract teams
+            teams = []
+            tp = 0
+            while len(teams) < 2:
+                t_idx2 = parent_chunk.find('ScoreCell__TeamName--shortDisplayName', tp)
+                if t_idx2 == -1:
+                    break
+                t_close2 = parent_chunk.find('>', t_idx2)
+                t_end2 = parent_chunk.find('<', t_close2 + 1)
+                team = parent_chunk[t_close2 + 1:t_end2].strip()
+                if team:
+                    teams.append(team)
+                tp = t_idx2 + len('ScoreCell__TeamName--shortDisplayName')
+
+            pos = next_idx if next_idx != -1 else len(mls_section)
+
+            if not time_val or len(teams) < 2:
+                continue
+
+            mapped = []
+            if is_time_value(time_val):
+                for net in raw_networks:
+                    if net.lower() in MLS_SPANISH_EXCLUDE:
+                        continue
+                    label = MLS_SOURCE_MAP.get(net)
+                    if label and label not in mapped:
+                        mapped.append(label)
+                source = " · ".join(mapped) if mapped else "Apple TV"
+            else:
+                time_val = normalize_status(time_val)
+                source = ""
+
+            games.append({
+                "league": "MLS",
+                "time": time_val,
+                "match": f"{teams[0]} vs {teams[1]}",
+                "source": source,
+            })
+
+    except Exception as e:
+        print(f"    MLS parse error for {date_str}: {e}")
+
+    return games
+
+
 # ─── Main ─────────────────────────────────────────────────────────────────────
 
 def main():
@@ -232,6 +511,21 @@ def main():
             "games": [],
         }
 
+    # Fetch Premier League & MLS separately via scoreboard page scraper
+    print("Fetching Premier League (scoreboard scrape)...")
+    for date_obj, date_str in dates:
+        games = fetch_pl_day(date_str)
+        if games:
+            print(f"  {date_str}: {len(games)} PL games")
+        schedule[date_str]["games"].extend(games)
+
+    print("Fetching MLS (scoreboard scrape)...")
+    for date_obj, date_str in dates:
+        games = fetch_mls_day(date_str)
+        if games:
+            print(f"  {date_str}: {len(games)} MLS games")
+        schedule[date_str]["games"].extend(games)
+
     for slug, league_name in ESPN_LEAGUES.items():
         print(f"Fetching {league_name}...")
         for date_obj, date_str in dates:
@@ -240,11 +534,14 @@ def main():
                 print(f"  {date_str}: {len(games)} games")
             schedule[date_str]["games"].extend(games)
 
-    def sort_key(g):
+    def sort_key(g, order, first_game_times):
+        league_pos = order.index(g["league"]) if g["league"] in order else len(order)
+        league_first_time = first_game_times.get(g["league"], datetime.max)
         try:
-            return datetime.strptime(g["time"].strip(), "%I:%M %p")
+            game_time = datetime.strptime(g["time"].strip(), "%I:%M %p")
         except Exception:
-            return datetime.min
+            game_time = datetime.max
+        return (league_pos, league_first_time, game_time)
 
     ordered = {}
     for _, date_str in dates:
@@ -252,7 +549,17 @@ def main():
         day["games"] = dedup_games(day["games"])
         if date_str == today_str:
             day["games"] = prune_today_games(day["games"])
-        day["games"].sort(key=sort_key)
+        # Compute the earliest kickoff time per league for ordering
+        first_game_times = {}
+        for g in day["games"]:
+            try:
+                t = datetime.strptime(g["time"].strip(), "%I:%M %p")
+            except Exception:
+                t = datetime.max
+            if g["league"] not in first_game_times or t < first_game_times[g["league"]]:
+                first_game_times[g["league"]] = t
+
+        day["games"].sort(key=lambda g: sort_key(g, LEAGUE_ORDER, first_game_times))
         ordered[date_str] = day
 
     output = {
