@@ -101,13 +101,13 @@ LEAGUE_ORDER = [
     "UEFA Europa League",
     "UEFA Europa Conference League",
     "Premier League",
+    "MLS",
     "English FA Cup",
     "EFL Championship",
     "Serie A",
     "German Bundesliga",
     "La Liga",
     "Dutch Eredivisie",
-    "MLS",
     "USL Championship",
 ]
 
@@ -242,6 +242,23 @@ def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> 
                 continue
 
             time_str = et_dt.strftime("%-I:%M %p")
+
+            # Check game status — postponed/cancelled games get no broadcaster
+            status_name = event.get("status", {}).get("type", {}).get("name", "")
+            non_scheduled = {
+                "STATUS_POSTPONED": "Postponed",
+                "STATUS_CANCELED":  "Canceled",
+                "STATUS_DELAYED":   "Delayed",
+                "STATUS_SUSPENDED": "Suspended",
+            }
+            if status_name in non_scheduled:
+                games.append({
+                    "league": league_name,
+                    "time": non_scheduled[status_name],
+                    "match": match_title,
+                    "source": "",
+                })
+                continue
 
             # Get broadcaster
             broadcasts = competition.get("geoBroadcasts", [])
