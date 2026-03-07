@@ -1,17 +1,6 @@
 {
-  "updated": "2026-03-06 21:01 EST",
+  "updated": "2026-03-07 00:00 EST",
   "days": {
-    "20260306": {
-      "date": "Friday, March 6",
-      "games": [
-        {
-          "league": "USL Championship",
-          "time": "7:30 PM",
-          "match": "Lexington vs Louisville City FC",
-          "source": "ESPN+"
-        }
-      ]
-    },
     "20260307": {
       "date": "Saturday, March 7",
       "games": [
@@ -442,6 +431,77 @@
           "league": "UEFA Champions League",
           "time": "4:00 PM",
           "match": "Newcastle United vs Barcelona",
+          "source": "CBS / Paramount+"
+        }
+      ]
+    },
+    "20260311": {
+      "date": "Wednesday, March 11",
+      "games": [
+        {
+          "league": "USL Championship",
+          "time": "12:00 PM",
+          "match": "Birmingham Legion FC vs Hartford Athletic",
+          "source": "ESPN+"
+        },
+        {
+          "league": "UEFA Champions League",
+          "time": "1:45 PM",
+          "match": "Bayer Leverkusen vs Arsenal",
+          "source": "CBS / Paramount+"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "3:45 PM",
+          "match": "Birmingham City vs Queens Park Rangers",
+          "source": "ESPN+"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "3:45 PM",
+          "match": "Middlesbrough vs Charlton Athletic",
+          "source": "CBS / Paramount+"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "3:45 PM",
+          "match": "Norwich City vs Sheffield United",
+          "source": "ESPN+"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "3:45 PM",
+          "match": "Oxford United vs Blackburn Rovers",
+          "source": "ESPN+"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "3:45 PM",
+          "match": "West Bromwich Albion vs Southampton",
+          "source": "ESPN+"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "4:00 PM",
+          "match": "Coventry City vs Preston North End",
+          "source": "CBS / Paramount+"
+        },
+        {
+          "league": "UEFA Champions League",
+          "time": "4:00 PM",
+          "match": "Bodo/Glimt vs Sporting CP",
+          "source": "CBS / Paramount+"
+        },
+        {
+          "league": "UEFA Champions League",
+          "time": "4:00 PM",
+          "match": "Paris Saint-Germain vs Chelsea",
+          "source": "CBS / Paramount+"
+        },
+        {
+          "league": "UEFA Champions League",
+          "time": "4:00 PM",
+          "match": "Real Madrid vs Manchester City",
           "source": "CBS / Paramount+"
         }
       ]
