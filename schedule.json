@@ -1,45 +1,9 @@
 {
-  "updated": "2026-03-06 16:27 EST",
+  "updated": "2026-03-06 21:01 EST",
   "days": {
     "20260306": {
       "date": "Friday, March 6",
       "games": [
-        {
-          "league": "Dutch Eredivisie",
-          "time": "2:00 PM",
-          "match": "Heracles Almelo vs FC Utrecht",
-          "source": "ESPN+"
-        },
-        {
-          "league": "German Bundesliga",
-          "time": "2:30 PM",
-          "match": "Bayern Munich vs Borussia M\u00f6nchengladbach",
-          "source": "ESPN+"
-        },
-        {
-          "league": "Serie A",
-          "time": "2:45 PM",
-          "match": "Napoli vs Torino",
-          "source": "CBS / Paramount+"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "3:00 PM",
-          "match": "Preston North End vs Oxford United",
-          "source": "CBS / Paramount+"
-        },
-        {
-          "league": "English FA Cup",
-          "time": "3:00 PM",
-          "match": "Wolverhampton Wanderers vs Liverpool",
-          "source": "ESPN+"
-        },
-        {
-          "league": "La Liga",
-          "time": "3:00 PM",
-          "match": "Celta Vigo vs Real Madrid",
-          "source": "ESPN+"
-        },
         {
           "league": "USL Championship",
           "time": "7:30 PM",
