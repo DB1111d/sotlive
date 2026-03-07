@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-07 10:03 EST",
+  "updated": "2026-03-07 11:29 EST",
   "days": {
     "20260307": {
       "date": "Saturday, March 7",
@@ -94,13 +94,6 @@
           "match": "New England Revolution vs Houston Dynamo FC",
           "source": "",
           "kick_utc": "2026-03-07T19:30Z"
-        },
-        {
-          "league": "English FA Cup",
-          "time": "7:15 AM",
-          "match": "Mansfield Town vs Arsenal",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-07T12:15Z"
         },
         {
           "league": "English FA Cup",
