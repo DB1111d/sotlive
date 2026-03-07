@@ -27,19 +27,18 @@ WINDOW_HOURS = 4
 # ESPN API league slugs mapped to friendly names
 # Format: https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard?dates=YYYYMMDD
 ESPN_LEAGUES = {
-    # eng.1 (Premier League) is fetched separately via ESPN scoreboard scraper
-    # to capture Peacock / USA Network broadcast info accurately
+    "eng.1":        "Premier League",
     "eng.2":        "EFL Championship",
     "eng.fa":       "English FA Cup",
     "esp.1":        "La Liga",
     "ger.1":        "German Bundesliga",
     "ita.1":        "Serie A",
     "ned.1":        "Dutch Eredivisie",
+    "usa.1":        "MLS",
     "usa.usl.1":    "USL Championship",
     "uefa.champions": "UEFA Champions League",
     "uefa.europa":    "UEFA Europa League",
-    # uefa.conference slug returns 400 — Conference League is included via
-    # the ESPN scoreboard scraper when games are scheduled
+    # uefa.conference returns 400 — Conference League is fetched via scoreboard scraper
 }
 
 # ESPN broadcaster names to map to our badges
@@ -52,6 +51,20 @@ ESPN_SOURCE_MAP = {
     "CBS":          "CBS / Paramount+",
     "CBS Sports Network": "CBS / Paramount+",
     "CBSSN":        "CBS / Paramount+",
+    "Peacock":      "Peacock",
+    "USA Net":      "USA Network",
+    "NBC":          "USA Network",
+    "NBCSN":        "USA Network",
+    "Apple TV":     "Apple TV",
+    "FOX":          "FOX",
+    "FS1":          "FS1",
+    "FS2":          "FS2",
+}
+
+# Spanish-language broadcasters to always exclude
+SPANISH_EXCLUDE = {
+    "universo", "telemundo", "tele", "espn deportes",
+    "univision", "fox deportes", "tudn"
 }
 
 # Broadcaster names for Premier League (scraped from ESPN scoreboard page)
@@ -238,6 +251,8 @@ def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> 
                 lang = b.get("lang", "en")
                 if lang != "en":
                     continue
+                if short.lower() in SPANISH_EXCLUDE:
+                    continue
                 mapped = ESPN_SOURCE_MAP.get(short)
                 if mapped and mapped not in source_names:
                     source_names.append(mapped)
@@ -246,9 +261,20 @@ def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> 
                 # Fall back to broadcasts array
                 for b in competition.get("broadcasts", []):
                     for name in b.get("names", []):
+                        if name.lower() in SPANISH_EXCLUDE:
+                            continue
                         mapped = ESPN_SOURCE_MAP.get(name)
                         if mapped and mapped not in source_names:
                             source_names.append(mapped)
+
+            # Default source per league if none found
+            if not source_names:
+                if league_name == "MLS":
+                    source_names = ["Apple TV"]
+                elif league_name == "Premier League":
+                    source_names = ["Peacock"]
+                else:
+                    source_names = ["ESPN+"]
 
             source = " · ".join(source_names) if source_names else "ESPN+"
 
@@ -389,46 +415,6 @@ def main():
             "games": [],
         }
 
-    # Leagues fetched via ESPN scoreboard page scraper
-    scoreboard_leagues = [
-        {
-            "header":          "English Premier League",
-            "league_name":     "Premier League",
-            "source_map":      PL_SOURCE_MAP,
-            "spanish_exclude": PL_SPANISH_EXCLUDE,
-            "default_source":  "Peacock",
-        },
-        {
-            "header":          "UEFA Europa Conference League",
-            "league_name":     "UEFA Europa Conference League",
-            "source_map":      {"CBS": "CBS / Paramount+", "Paramount+": "CBS / Paramount+", "ESPN+": "ESPN+"},
-            "spanish_exclude": PL_SPANISH_EXCLUDE,
-            "default_source":  "CBS / Paramount+",
-        },
-        {
-            "header":          "MLS",
-            "league_name":     "MLS",
-            "source_map":      MLS_SOURCE_MAP,
-            "spanish_exclude": MLS_SPANISH_EXCLUDE,
-            "default_source":  "Apple TV",
-        },
-    ]
-
-    for league_cfg in scoreboard_leagues:
-        print(f"Fetching {league_cfg['league_name']} (scoreboard scrape)...")
-        for date_obj, date_str in dates:
-            games = fetch_scoreboard_league(
-                date_str,
-                league_cfg["header"],
-                league_cfg["league_name"],
-                league_cfg["source_map"],
-                league_cfg["spanish_exclude"],
-                league_cfg["default_source"],
-            )
-            if games:
-                print(f"  {date_str}: {len(games)} games")
-            schedule[date_str]["games"].extend(games)
-
     for slug, league_name in ESPN_LEAGUES.items():
         print(f"Fetching {league_name}...")
         for date_obj, date_str in dates:
@@ -436,6 +422,21 @@ def main():
             if games:
                 print(f"  {date_str}: {len(games)} games")
             schedule[date_str]["games"].extend(games)
+
+    # Conference League via scoreboard scraper (no valid JSON API slug exists)
+    print("Fetching UEFA Europa Conference League (scoreboard scrape)...")
+    for date_obj, date_str in dates:
+        games = fetch_scoreboard_league(
+            date_str,
+            "UEFA Europa Conference League",
+            "UEFA Europa Conference League",
+            {"CBS": "CBS / Paramount+", "Paramount+": "CBS / Paramount+", "ESPN+": "ESPN+"},
+            SPANISH_EXCLUDE,
+            "CBS / Paramount+",
+        )
+        if games:
+            print(f"  {date_str}: {len(games)} games")
+        schedule[date_str]["games"].extend(games)
 
     def sort_key(g, order, first_game_times):
         league_pos = order.index(g["league"]) if g["league"] in order else len(order)
