@@ -113,35 +113,12 @@
       flex-shrink: 0;
     }
 
-    .source-espn {
-      background: #fff0f0;
-      color: var(--accent-espn);
-    }
-
-    .source-cbs {
-      background: #eef3fb;
-      color: var(--accent-cbs);
-    }
-
-    .source-peacock {
-      background: #f0f0f0;
-      color: var(--accent-peacock);
-    }
-
-    .source-usa {
-      background: #eef1fb;
-      color: var(--accent-usa);
-    }
-
-    .source-appletv {
-      background: #f5f5f5;
-      color: var(--accent-appletv);
-    }
-
-    .source-fox {
-      background: #eef1fb;
-      color: var(--accent-fox);
-    }
+    .source-espn    { background: #fff0f0; color: var(--accent-espn); }
+    .source-cbs     { background: #eef3fb; color: var(--accent-cbs); }
+    .source-peacock { background: #f0f0f0; color: var(--accent-peacock); }
+    .source-usa     { background: #eef1fb; color: var(--accent-usa); }
+    .source-appletv { background: #f5f5f5; color: var(--accent-appletv); }
+    .source-fox     { background: #eef1fb; color: var(--accent-fox); }
     .source-postponed {
       background: #f0f0f0;
       color: #888;
@@ -262,10 +239,98 @@
       margin-top: 8px;
     }
 
+    /* ── Contact form (inside About) ── */
+    .contact-section {
+      border-top: 1.5px solid var(--border);
+      padding-top: 28px;
+      margin-bottom: 28px;
+    }
+
+    .contact-section h2 {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 14px;
+    }
+
+    .contact-form {
+      max-width: 520px;
+    }
+
+    .contact-form .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 11px 14px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 13px;
+      background: var(--surface);
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius);
+      color: var(--text);
+      outline: none;
+      transition: border-color 0.15s;
+      margin-bottom: 10px;
+    }
+
+    .contact-form input:focus,
+    .contact-form textarea:focus {
+      border-color: #aaa;
+    }
+
+    .contact-form input::placeholder,
+    .contact-form textarea::placeholder {
+      color: var(--text-muted);
+    }
+
+    .contact-form textarea {
+      resize: vertical;
+      min-height: 110px;
+      margin-bottom: 14px;
+    }
+
+    .contact-submit {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 11px 26px;
+      background: #1a1a1a;
+      color: #fff;
+      border: none;
+      border-radius: var(--radius);
+      cursor: pointer;
+      transition: background 0.15s, transform 0.1s;
+    }
+
+    .contact-submit:hover  { background: #333; }
+    .contact-submit:active { transform: scale(0.98); }
+    .contact-submit:disabled {
+      background: #ccc;
+      cursor: not-allowed;
+    }
+
+    .contact-status {
+      margin-top: 12px;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .contact-status.success { color: #2a7a2a; }
+    .contact-status.error   { color: #cc0000; }
+
     @media (max-width: 500px) {
       h1 { font-size: 18px; }
       .game-match { font-size: 13px; }
       .tab { padding: 10px 12px 8px; }
+      .contact-form .form-row { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -288,10 +353,24 @@
       <h2>Limitation of Liability</h2>
       <p>The information provided on this website is furnished on an "as is" and "as available" basis, without warranty of any kind, express or implied, including but not limited to warranties of accuracy, completeness, fitness for a particular purpose, or non-infringement. The operator of this website expressly disclaims all liability for any loss, damage, inconvenience, or expense of any nature whatsoever — whether direct, indirect, incidental, consequential, or otherwise — arising out of or in connection with any reliance upon the schedule data, match times, broadcast information, or any other content displayed on this site. Use of this website constitutes acceptance of these terms.</p>
     </div>
+
+    <!-- Contact form -->
+    <div class="contact-section">
+      <h2>Get in Touch</h2>
+      <div class="contact-form">
+        <div class="form-row">
+          <input type="text"  id="cf-name"    placeholder="Name"  />
+          <input type="email" id="cf-email"   placeholder="Email" />
+        </div>
+        <input type="text" id="cf-subject" placeholder="Subject" />
+        <textarea id="cf-message" placeholder="Your message…"></textarea>
+        <button class="contact-submit" id="cf-submit" onclick="submitContact()">Send Message</button>
+        <div class="contact-status" id="cf-status"></div>
+      </div>
+    </div>
   </div>
 
   <script>
-    // Source badge helper
     const LEAGUE_ORDER = [
       'UEFA Champions League',
       'UEFA Europa League',
@@ -307,7 +386,7 @@
       'USL Championship'
     ];
 
-    function tabLabel(key, dateStr) {
+    function tabLabel(key) {
       const year = key.slice(0,4), mon = key.slice(4,6), day = key.slice(6,8);
       const d = new Date(`${year}-${mon}-${day}T12:00:00`);
       const label = d.toLocaleDateString('en-US',{weekday:'long'});
@@ -342,14 +421,14 @@
     }
 
     const BADGE_MAP = {
-      'ESPN+':              { cls: 'source-espn',    label: 'ESPN+' },
-      'CBS / Paramount+':   { cls: 'source-cbs',     label: 'CBS / P+' },
-      'Peacock':            { cls: 'source-peacock',  label: 'Peacock' },
-      'USA Network':        { cls: 'source-usa',      label: 'USA Network' },
-      'Apple TV':           { cls: 'source-appletv',  label: 'Apple TV' },
-      'FOX':                { cls: 'source-fox',      label: 'FOX' },
-      'FS1':                { cls: 'source-fox',      label: 'FS1' },
-      'FS2':                { cls: 'source-fox',      label: 'FS2' },
+      'ESPN+':            { cls: 'source-espn',    label: 'ESPN+' },
+      'CBS / Paramount+': { cls: 'source-cbs',     label: 'CBS / P+' },
+      'Peacock':          { cls: 'source-peacock', label: 'Peacock' },
+      'USA Network':      { cls: 'source-usa',     label: 'USA Network' },
+      'Apple TV':         { cls: 'source-appletv', label: 'Apple TV' },
+      'FOX':              { cls: 'source-fox',     label: 'FOX' },
+      'FS1':              { cls: 'source-fox',     label: 'FS1' },
+      'FS2':              { cls: 'source-fox',     label: 'FS2' },
     };
 
     function sourceBadge(src) {
@@ -357,9 +436,52 @@
       return src.split(' · ').map(s => {
         const b = BADGE_MAP[s.trim()];
         if (b) return `<span class="source-badge ${b.cls}">${b.label}</span>`;
-        // fallback for unknown sources
         return `<span class="source-badge source-appletv">${s.trim()}</span>`;
       }).join(' ');
+    }
+
+    async function submitContact() {
+      const name    = document.getElementById('cf-name').value.trim();
+      const email   = document.getElementById('cf-email').value.trim();
+      const subject = document.getElementById('cf-subject').value.trim();
+      const message = document.getElementById('cf-message').value.trim();
+      const status  = document.getElementById('cf-status');
+      const btn     = document.getElementById('cf-submit');
+
+      if (!name || !email || !subject || !message) {
+        status.className = 'contact-status error';
+        status.textContent = 'Please fill in all fields.';
+        return;
+      }
+
+      btn.disabled = true;
+      btn.textContent = 'Sending…';
+      status.textContent = '';
+
+      try {
+        const res = await fetch('https://xh66q28v71.execute-api.us-east-2.amazonaws.com/contact', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ source: 'sotlive', name, email, subject, message })
+        });
+
+        if (res.ok) {
+          status.className = 'contact-status success';
+          status.textContent = '✓ Message sent! We\'ll get back to you soon.';
+          document.getElementById('cf-name').value    = '';
+          document.getElementById('cf-email').value   = '';
+          document.getElementById('cf-subject').value = '';
+          document.getElementById('cf-message').value = '';
+        } else {
+          throw new Error('Server error');
+        }
+      } catch (e) {
+        status.className = 'contact-status error';
+        status.textContent = 'Something went wrong. Please try again.';
+      }
+
+      btn.textContent = 'Send Message';
+      btn.disabled = false;
     }
 
     async function init() {
@@ -373,17 +495,15 @@
         return;
       }
 
-      const tabsEl = document.getElementById('tabs');
+      const tabsEl    = document.getElementById('tabs');
       const contentEl = document.getElementById('content');
-
-      const dateKeys = Object.keys(data.days);
+      const dateKeys  = Object.keys(data.days);
       let firstActive = true;
 
       dateKeys.forEach((key) => {
         const day = data.days[key];
-        const { label, short } = tabLabel(key, day.date);
+        const { label, short } = tabLabel(key);
 
-        // Tab button
         const btn = document.createElement('button');
         btn.className = 'tab' + (firstActive ? ' active' : '');
         btn.dataset.key = key;
@@ -391,7 +511,6 @@
         btn.addEventListener('click', () => switchTab(key));
         tabsEl.appendChild(btn);
 
-        // Panel
         const panel = document.createElement('div');
         panel.className = 'day-panel' + (firstActive ? ' active' : '');
         panel.id = `panel-${key}`;
@@ -432,7 +551,7 @@
         firstActive = false;
       });
 
-      // Append About tab last
+      // About tab
       const aboutBtn = document.createElement('button');
       aboutBtn.className = 'tab';
       aboutBtn.id = 'about-tab';
