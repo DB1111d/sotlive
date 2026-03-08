@@ -608,5 +608,57 @@
 
     init();
   </script>
+<script>
+(function() {
+  const TRACK_API = 'https://nlmytm1ro3.execute-api.us-east-2.amazonaws.com/prod/track';
+  const SITE = 'db1111d.github.io/sotlive';
+
+  let sessionId = sessionStorage.getItem('_bsid');
+  if (!sessionId) {
+    sessionId = Math.random().toString(36).slice(2) + Date.now().toString(36);
+    sessionStorage.setItem('_bsid', sessionId);
+  }
+
+  function send(payload) {
+    const body = Object.assign({
+      site: SITE,
+      path: location.pathname,
+      referrer: document.referrer || 'direct',
+      userAgent: navigator.userAgent,
+      sessionId,
+    }, payload);
+
+    if (payload.eventType === 'pageleave' && navigator.sendBeacon) {
+      navigator.sendBeacon(TRACK_API, JSON.stringify(body));
+    } else {
+      fetch(TRACK_API, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body),
+        keepalive: true,
+      }).catch(() => {});
+    }
+  }
+
+  const pageStart = Date.now();
+  send({ eventType: 'pageview' });
+
+  function onLeave() {
+    send({ eventType: 'pageleave', duration: Date.now() - pageStart });
+  }
+  window.addEventListener('pagehide', onLeave);
+  window.addEventListener('beforeunload', onLeave);
+
+  document.addEventListener('click', function(e) {
+    const el = e.target.closest('a, button, [role="button"], input[type="submit"], input[type="button"]');
+    if (!el) return;
+    const tag = el.tagName.toLowerCase();
+    const text = (el.innerText || el.value || el.getAttribute('aria-label') || '').trim().slice(0, 100);
+    const href = el.getAttribute('href') || '';
+    if (tag === 'a' && (!href || href === '#')) return;
+    send({ eventType: 'click', elementTag: tag, elementText: text || undefined, elementHref: href || undefined });
+  }, true);
+})();
+</script>
 </body>
 </html>
