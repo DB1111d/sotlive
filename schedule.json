@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-08 08:51 EDT",
+  "updated": "2026-03-08 12:30 EDT",
   "days": {
     "20260308": {
       "date": "Sunday, March 8",
@@ -17,13 +17,6 @@
           "match": "FC Cincinnati vs Toronto FC",
           "source": "Apple TV",
           "kick_utc": "2026-03-08T23:00Z"
-        },
-        {
-          "league": "English FA Cup",
-          "time": "8:00 AM",
-          "match": "Fulham vs Southampton",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-08T12:00Z"
         },
         {
           "league": "English FA Cup",
@@ -45,13 +38,6 @@
           "match": "Queens Park Rangers vs Middlesbrough",
           "source": "CBS / Paramount+",
           "kick_utc": "2026-03-08T16:30Z"
-        },
-        {
-          "league": "Serie A",
-          "time": "7:30 AM",
-          "match": "Lecce vs Cremonese",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-08T11:30Z"
         },
         {
           "league": "Serie A",
@@ -122,13 +108,6 @@
           "match": "Valencia vs Alav\u00e9s",
           "source": "ESPN+",
           "kick_utc": "2026-03-08T20:00Z"
-        },
-        {
-          "league": "Dutch Eredivisie",
-          "time": "7:15 AM",
-          "match": "Sparta Rotterdam vs PEC Zwolle",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-08T11:15Z"
         },
         {
           "league": "Dutch Eredivisie",
