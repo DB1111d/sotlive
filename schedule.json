@@ -1,23 +1,9 @@
 {
-  "updated": "2026-03-07 15:27 EST",
+  "updated": "2026-03-07 21:11 EST",
   "days": {
     "20260307": {
       "date": "Saturday, March 7",
       "games": [
-        {
-          "league": "MLS",
-          "time": "2:30 PM",
-          "match": "New York City FC vs Orlando City SC",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-07T19:30Z"
-        },
-        {
-          "league": "MLS",
-          "time": "4:30 PM",
-          "match": "D.C. United vs Inter Miami CF",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-07T21:30Z"
-        },
         {
           "league": "MLS",
           "time": "7:30 PM",
@@ -87,76 +73,6 @@
           "match": "Portland Timbers vs Vancouver Whitecaps",
           "source": "Apple TV",
           "kick_utc": "2026-03-08T03:30Z"
-        },
-        {
-          "league": "MLS",
-          "time": "Postponed",
-          "match": "New England Revolution vs Houston Dynamo FC",
-          "source": "",
-          "kick_utc": "2026-03-07T19:30Z"
-        },
-        {
-          "league": "English FA Cup",
-          "time": "12:45 PM",
-          "match": "Wrexham vs Chelsea",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-07T17:45Z"
-        },
-        {
-          "league": "English FA Cup",
-          "time": "3:00 PM",
-          "match": "Newcastle United vs Manchester City",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-07T20:00Z"
-        },
-        {
-          "league": "Serie A",
-          "time": "12:00 PM",
-          "match": "Atalanta vs Udinese",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-07T17:00Z"
-        },
-        {
-          "league": "Serie A",
-          "time": "2:45 PM",
-          "match": "Juventus vs Pisa",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-07T19:45Z"
-        },
-        {
-          "league": "German Bundesliga",
-          "time": "12:30 PM",
-          "match": "FC Cologne vs Borussia Dortmund",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-07T17:30Z"
-        },
-        {
-          "league": "La Liga",
-          "time": "12:30 PM",
-          "match": "Atl\u00e9tico Madrid vs Real Sociedad",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-07T17:30Z"
-        },
-        {
-          "league": "La Liga",
-          "time": "3:00 PM",
-          "match": "Athletic Club vs Barcelona",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-07T20:00Z"
-        },
-        {
-          "league": "Dutch Eredivisie",
-          "time": "2:00 PM",
-          "match": "PSV Eindhoven vs AZ Alkmaar",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-07T19:00Z"
-        },
-        {
-          "league": "Dutch Eredivisie",
-          "time": "3:00 PM",
-          "match": "Excelsior vs Heerenveen",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-07T20:00Z"
         },
         {
           "league": "USL Championship",
