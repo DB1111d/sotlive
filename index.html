@@ -6,6 +6,30 @@
   <title>SOTLive</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<!-- Beacon Analytics -->
+<script>
+(function() {
+  var TRACKING_URL = 'https://nlmytm1ro3.execute-api.us-east-2.amazonaws.com/prod/track';
+  var SITE = 'db1111d.github.io/sotlive';
+  if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
+  if (/bot|crawler|spider|crawling/i.test(navigator.userAgent)) return;
+  try {
+    fetch(TRACKING_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        site: SITE,
+        path: location.pathname,
+        referrer: document.referrer || 'direct',
+        userAgent: navigator.userAgent,
+      }),
+      keepalive: true,
+    });
+  } catch (e) {}
+})();
+</script>
+<!-- End Beacon Analytics -->
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
