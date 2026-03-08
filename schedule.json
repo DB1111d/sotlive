@@ -1,137 +1,6 @@
 {
-  "updated": "2026-03-07 21:11 EST",
+  "updated": "2026-03-08 00:10 EST",
   "days": {
-    "20260307": {
-      "date": "Saturday, March 7",
-      "games": [
-        {
-          "league": "MLS",
-          "time": "7:30 PM",
-          "match": "Atlanta United FC vs Real Salt Lake",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-08T00:30Z"
-        },
-        {
-          "league": "MLS",
-          "time": "7:30 PM",
-          "match": "Charlotte FC vs Austin FC",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-08T00:30Z"
-        },
-        {
-          "league": "MLS",
-          "time": "7:30 PM",
-          "match": "Columbus Crew vs Chicago Fire FC",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-08T00:30Z"
-        },
-        {
-          "league": "MLS",
-          "time": "7:30 PM",
-          "match": "Philadelphia Union vs San Jose Earthquakes",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-08T00:30Z"
-        },
-        {
-          "league": "MLS",
-          "time": "8:30 PM",
-          "match": "Nashville SC vs Minnesota United FC",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-08T01:30Z"
-        },
-        {
-          "league": "MLS",
-          "time": "8:30 PM",
-          "match": "Sporting Kansas City vs San Diego FC",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-08T01:30Z"
-        },
-        {
-          "league": "MLS",
-          "time": "8:30 PM",
-          "match": "St. Louis CITY SC vs Seattle Sounders FC",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-08T01:30Z"
-        },
-        {
-          "league": "MLS",
-          "time": "9:30 PM",
-          "match": "Colorado Rapids vs LA Galaxy",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-08T02:30Z"
-        },
-        {
-          "league": "MLS",
-          "time": "10:30 PM",
-          "match": "LAFC vs FC Dallas",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-08T03:30Z"
-        },
-        {
-          "league": "MLS",
-          "time": "10:30 PM",
-          "match": "Portland Timbers vs Vancouver Whitecaps",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-08T03:30Z"
-        },
-        {
-          "league": "USL Championship",
-          "time": "6:00 PM",
-          "match": "Charleston Battery vs Pittsburgh Riverhounds",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-07T23:00Z"
-        },
-        {
-          "league": "USL Championship",
-          "time": "7:30 PM",
-          "match": "Sporting JAX vs Hartford Athletic",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-08T00:30Z"
-        },
-        {
-          "league": "USL Championship",
-          "time": "8:00 PM",
-          "match": "Birmingham Legion FC vs Tampa Bay Rowdies",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-08T01:00Z"
-        },
-        {
-          "league": "USL Championship",
-          "time": "8:30 PM",
-          "match": "San Antonio FC vs Phoenix Rising FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-08T01:30Z"
-        },
-        {
-          "league": "USL Championship",
-          "time": "9:00 PM",
-          "match": "El Paso Locomotive FC vs Colorado Springs Switchbacks FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-08T02:00Z"
-        },
-        {
-          "league": "USL Championship",
-          "time": "10:00 PM",
-          "match": "Monterey Bay vs Oakland Roots",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-08T03:00Z"
-        },
-        {
-          "league": "USL Championship",
-          "time": "10:00 PM",
-          "match": "Orange County SC vs Las Vegas Lights FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-08T03:00Z"
-        },
-        {
-          "league": "USL Championship",
-          "time": "10:00 PM",
-          "match": "Sacramento Republic FC vs FC Tulsa",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-08T03:00Z"
-        }
-      ]
-    },
     "20260308": {
       "date": "Sunday, March 8",
       "games": [
@@ -478,6 +347,67 @@
           "match": "Birmingham Legion FC vs Hartford Athletic",
           "source": "ESPN+",
           "kick_utc": "2026-03-11T16:00Z"
+        }
+      ]
+    },
+    "20260312": {
+      "date": "Thursday, March 12",
+      "games": [
+        {
+          "league": "UEFA Europa League",
+          "time": "1:45 PM",
+          "match": "Bologna vs AS Roma",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-12T17:45Z"
+        },
+        {
+          "league": "UEFA Europa League",
+          "time": "1:45 PM",
+          "match": "Lille vs Aston Villa",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-12T17:45Z"
+        },
+        {
+          "league": "UEFA Europa League",
+          "time": "1:45 PM",
+          "match": "Panathinaikos vs Real Betis",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-12T17:45Z"
+        },
+        {
+          "league": "UEFA Europa League",
+          "time": "1:45 PM",
+          "match": "VfB Stuttgart vs FC Porto",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-12T17:45Z"
+        },
+        {
+          "league": "UEFA Europa League",
+          "time": "4:00 PM",
+          "match": "Celta Vigo vs Lyon",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-12T20:00Z"
+        },
+        {
+          "league": "UEFA Europa League",
+          "time": "4:00 PM",
+          "match": "Ferencvaros vs Braga",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-12T20:00Z"
+        },
+        {
+          "league": "UEFA Europa League",
+          "time": "4:00 PM",
+          "match": "Nottingham Forest vs FC Midtjylland",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-12T20:00Z"
+        },
+        {
+          "league": "UEFA Europa League",
+          "time": "4:00 PM",
+          "match": "Racing Genk vs SC Freiburg",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-12T20:00Z"
         }
       ]
     }
