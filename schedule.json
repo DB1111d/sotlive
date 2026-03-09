@@ -1,85 +1,15 @@
 {
-  "updated": "2026-03-08 16:28 EDT",
+  "updated": "2026-03-08 22:12 EDT",
   "days": {
     "20260308": {
       "date": "Sunday, March 8",
       "games": [
         {
           "league": "MLS",
-          "time": "4:30 PM",
-          "match": "Red Bull New York vs CF Montr\u00e9al",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-08T20:30Z"
-        },
-        {
-          "league": "MLS",
           "time": "7:00 PM",
           "match": "FC Cincinnati vs Toronto FC",
           "source": "Apple TV",
           "kick_utc": "2026-03-08T23:00Z"
-        },
-        {
-          "league": "English FA Cup",
-          "time": "12:30 PM",
-          "match": "Leeds United vs Norwich City",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-08T16:30Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "12:30 PM",
-          "match": "Queens Park Rangers vs Middlesbrough",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-08T16:30Z"
-        },
-        {
-          "league": "Serie A",
-          "time": "1:00 PM",
-          "match": "Genoa vs AS Roma",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-08T17:00Z"
-        },
-        {
-          "league": "Serie A",
-          "time": "3:45 PM",
-          "match": "AC Milan vs Internazionale",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-08T19:45Z"
-        },
-        {
-          "league": "German Bundesliga",
-          "time": "12:30 PM",
-          "match": "1. FC Union Berlin vs Werder Bremen",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-08T16:30Z"
-        },
-        {
-          "league": "La Liga",
-          "time": "1:30 PM",
-          "match": "Sevilla vs Rayo Vallecano",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-08T17:30Z"
-        },
-        {
-          "league": "La Liga",
-          "time": "4:00 PM",
-          "match": "Valencia vs Alav\u00e9s",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-08T20:00Z"
-        },
-        {
-          "league": "Dutch Eredivisie",
-          "time": "3:00 PM",
-          "match": "NEC Nijmegen vs FC Volendam",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-08T19:00Z"
-        },
-        {
-          "league": "USL Championship",
-          "time": "3:30 PM",
-          "match": "Brooklyn FC vs Indy Eleven",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-08T19:30Z"
         }
       ]
     },
