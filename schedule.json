@@ -1,18 +1,6 @@
 {
-  "updated": "2026-03-08 22:12 EDT",
+  "updated": "2026-03-09 01:20 EDT",
   "days": {
-    "20260308": {
-      "date": "Sunday, March 8",
-      "games": [
-        {
-          "league": "MLS",
-          "time": "7:00 PM",
-          "match": "FC Cincinnati vs Toronto FC",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-08T23:00Z"
-        }
-      ]
-    },
     "20260309": {
       "date": "Monday, March 9",
       "games": [
@@ -254,6 +242,46 @@
           "match": "Racing Genk vs SC Freiburg",
           "source": "CBS / Paramount+",
           "kick_utc": "2026-03-12T20:00Z"
+        }
+      ]
+    },
+    "20260313": {
+      "date": "Friday, March 13",
+      "games": [
+        {
+          "league": "EFL Championship",
+          "time": "4:00 PM",
+          "match": "Wrexham vs Swansea City",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-13T20:00Z"
+        },
+        {
+          "league": "Serie A",
+          "time": "3:45 PM",
+          "match": "Torino vs Parma",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-13T19:45Z"
+        },
+        {
+          "league": "German Bundesliga",
+          "time": "3:30 PM",
+          "match": "Borussia M\u00f6nchengladbach vs St. Pauli",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-13T19:30Z"
+        },
+        {
+          "league": "La Liga",
+          "time": "4:00 PM",
+          "match": "Alav\u00e9s vs Villarreal",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-13T20:00Z"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "3:00 PM",
+          "match": "PEC Zwolle vs FC Groningen",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-13T19:00Z"
         }
       ]
     }
