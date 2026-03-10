@@ -1,31 +1,9 @@
 {
-  "updated": "2026-03-09 16:36 EDT",
+  "updated": "2026-03-09 22:05 EDT",
   "days": {
     "20260309": {
       "date": "Monday, March 9",
-      "games": [
-        {
-          "league": "English FA Cup",
-          "time": "3:30 PM",
-          "match": "West Ham United vs Brentford",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-09T19:30Z"
-        },
-        {
-          "league": "Serie A",
-          "time": "3:45 PM",
-          "match": "Lazio vs Sassuolo",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-09T19:45Z"
-        },
-        {
-          "league": "La Liga",
-          "time": "4:00 PM",
-          "match": "Espanyol vs Real Oviedo",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-09T20:00Z"
-        }
-      ]
+      "games": []
     },
     "20260310": {
       "date": "Tuesday, March 10",
