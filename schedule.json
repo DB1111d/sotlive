@@ -1,10 +1,6 @@
 {
-  "updated": "2026-03-09 22:05 EDT",
+  "updated": "2026-03-10 01:10 EDT",
   "days": {
-    "20260309": {
-      "date": "Monday, March 9",
-      "games": []
-    },
     "20260310": {
       "date": "Tuesday, March 10",
       "games": [
@@ -260,6 +256,382 @@
           "match": "PEC Zwolle vs FC Groningen",
           "source": "ESPN+",
           "kick_utc": "2026-03-13T19:00Z"
+        }
+      ]
+    },
+    "20260314": {
+      "date": "Saturday, March 14",
+      "games": [
+        {
+          "league": "Premier League",
+          "time": "11:00 AM",
+          "match": "Burnley vs AFC Bournemouth",
+          "source": "Peacock",
+          "kick_utc": "2026-03-14T15:00Z"
+        },
+        {
+          "league": "Premier League",
+          "time": "11:00 AM",
+          "match": "Sunderland vs Brighton & Hove Albion",
+          "source": "USA Network",
+          "kick_utc": "2026-03-14T15:00Z"
+        },
+        {
+          "league": "Premier League",
+          "time": "1:30 PM",
+          "match": "Arsenal vs Everton",
+          "source": "USA Network",
+          "kick_utc": "2026-03-14T17:30Z"
+        },
+        {
+          "league": "Premier League",
+          "time": "1:30 PM",
+          "match": "Chelsea vs Newcastle United",
+          "source": "Peacock",
+          "kick_utc": "2026-03-14T17:30Z"
+        },
+        {
+          "league": "Premier League",
+          "time": "4:00 PM",
+          "match": "West Ham United vs Manchester City",
+          "source": "USA Network",
+          "kick_utc": "2026-03-14T20:00Z"
+        },
+        {
+          "league": "MLS",
+          "time": "1:00 PM",
+          "match": "Toronto FC vs Red Bull New York",
+          "source": "Apple TV",
+          "kick_utc": "2026-03-14T17:00Z"
+        },
+        {
+          "league": "MLS",
+          "time": "3:15 PM",
+          "match": "Atlanta United FC vs Philadelphia Union",
+          "source": "FOX \u00b7 Apple TV",
+          "kick_utc": "2026-03-14T19:15Z"
+        },
+        {
+          "league": "MLS",
+          "time": "6:15 PM",
+          "match": "Columbus Crew vs Nashville SC",
+          "source": "FS1 \u00b7 Apple TV",
+          "kick_utc": "2026-03-14T22:15Z"
+        },
+        {
+          "league": "MLS",
+          "time": "7:30 PM",
+          "match": "Charlotte FC vs Inter Miami CF",
+          "source": "Apple TV",
+          "kick_utc": "2026-03-14T23:30Z"
+        },
+        {
+          "league": "MLS",
+          "time": "7:30 PM",
+          "match": "New York City FC vs Colorado Rapids",
+          "source": "Apple TV",
+          "kick_utc": "2026-03-14T23:30Z"
+        },
+        {
+          "league": "MLS",
+          "time": "7:30 PM",
+          "match": "Orlando City SC vs CF Montr\u00e9al",
+          "source": "Apple TV",
+          "kick_utc": "2026-03-14T23:30Z"
+        },
+        {
+          "league": "MLS",
+          "time": "8:30 PM",
+          "match": "Chicago Fire FC vs D.C. United",
+          "source": "Apple TV",
+          "kick_utc": "2026-03-15T00:30Z"
+        },
+        {
+          "league": "MLS",
+          "time": "8:30 PM",
+          "match": "FC Dallas vs San Diego FC",
+          "source": "Apple TV",
+          "kick_utc": "2026-03-15T00:30Z"
+        },
+        {
+          "league": "MLS",
+          "time": "8:30 PM",
+          "match": "Houston Dynamo FC vs Portland Timbers",
+          "source": "Apple TV",
+          "kick_utc": "2026-03-15T00:30Z"
+        },
+        {
+          "league": "MLS",
+          "time": "9:30 PM",
+          "match": "LA Galaxy vs Sporting Kansas City",
+          "source": "Apple TV",
+          "kick_utc": "2026-03-15T01:30Z"
+        },
+        {
+          "league": "MLS",
+          "time": "9:30 PM",
+          "match": "Real Salt Lake vs Austin FC",
+          "source": "Apple TV",
+          "kick_utc": "2026-03-15T01:30Z"
+        },
+        {
+          "league": "MLS",
+          "time": "10:30 PM",
+          "match": "LAFC vs St. Louis CITY SC",
+          "source": "Apple TV",
+          "kick_utc": "2026-03-15T02:30Z"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "8:30 AM",
+          "match": "Coventry City vs Southampton",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-14T12:30Z"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "8:30 AM",
+          "match": "Middlesbrough vs Bristol City",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-14T12:30Z"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "8:30 AM",
+          "match": "Oxford United vs Charlton Athletic",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-14T12:30Z"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "11:00 AM",
+          "match": "Birmingham City vs Sheffield United",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-14T15:00Z"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "11:00 AM",
+          "match": "Leicester City vs Queens Park Rangers",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-14T15:00Z"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "11:00 AM",
+          "match": "Millwall vs Blackburn Rovers",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-14T15:00Z"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "11:00 AM",
+          "match": "Norwich City vs Preston North End",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-14T15:00Z"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "11:00 AM",
+          "match": "Sheffield Wednesday vs Ipswich Town",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-14T15:00Z"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "11:00 AM",
+          "match": "Stoke City vs Watford",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-14T15:00Z"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "11:00 AM",
+          "match": "West Bromwich Albion vs Hull City",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-14T15:00Z"
+        },
+        {
+          "league": "Serie A",
+          "time": "10:00 AM",
+          "match": "Internazionale vs Atalanta",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-14T14:00Z"
+        },
+        {
+          "league": "Serie A",
+          "time": "1:00 PM",
+          "match": "Napoli vs Lecce",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-14T17:00Z"
+        },
+        {
+          "league": "Serie A",
+          "time": "3:45 PM",
+          "match": "Udinese vs Juventus",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-14T19:45Z"
+        },
+        {
+          "league": "German Bundesliga",
+          "time": "10:30 AM",
+          "match": "Bayer Leverkusen vs Bayern Munich",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-14T14:30Z"
+        },
+        {
+          "league": "German Bundesliga",
+          "time": "10:30 AM",
+          "match": "Borussia Dortmund vs FC Augsburg",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-14T14:30Z"
+        },
+        {
+          "league": "German Bundesliga",
+          "time": "10:30 AM",
+          "match": "Eintracht Frankfurt vs 1. FC Heidenheim 1846",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-14T14:30Z"
+        },
+        {
+          "league": "German Bundesliga",
+          "time": "10:30 AM",
+          "match": "TSG Hoffenheim vs VfL Wolfsburg",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-14T14:30Z"
+        },
+        {
+          "league": "German Bundesliga",
+          "time": "1:30 PM",
+          "match": "Hamburg SV vs FC Cologne",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-14T17:30Z"
+        },
+        {
+          "league": "La Liga",
+          "time": "9:00 AM",
+          "match": "Girona vs Athletic Club",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-14T13:00Z"
+        },
+        {
+          "league": "La Liga",
+          "time": "11:15 AM",
+          "match": "Atl\u00e9tico Madrid vs Getafe",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-14T15:15Z"
+        },
+        {
+          "league": "La Liga",
+          "time": "1:30 PM",
+          "match": "Real Oviedo vs Valencia",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-14T17:30Z"
+        },
+        {
+          "league": "La Liga",
+          "time": "4:00 PM",
+          "match": "Real Madrid vs Elche",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-14T20:00Z"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "11:30 AM",
+          "match": "FC Volendam vs Fortuna Sittard",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-14T15:30Z"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "1:45 PM",
+          "match": "PSV Eindhoven vs NEC Nijmegen",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-14T17:45Z"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "3:00 PM",
+          "match": "Heerenveen vs Telstar",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-14T19:00Z"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "4:00 PM",
+          "match": "Ajax Amsterdam vs Sparta Rotterdam",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-14T20:00Z"
+        },
+        {
+          "league": "USL Championship",
+          "time": "3:00 PM",
+          "match": "Loudoun United FC vs Pittsburgh Riverhounds",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-14T19:00Z"
+        },
+        {
+          "league": "USL Championship",
+          "time": "4:00 PM",
+          "match": "Detroit City FC vs Brooklyn FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-14T20:00Z"
+        },
+        {
+          "league": "USL Championship",
+          "time": "4:00 PM",
+          "match": "Louisville City FC vs Miami FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-14T20:00Z"
+        },
+        {
+          "league": "USL Championship",
+          "time": "4:00 PM",
+          "match": "Rhode Island FC vs Sporting JAX",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-14T20:00Z"
+        },
+        {
+          "league": "USL Championship",
+          "time": "5:00 PM",
+          "match": "Colorado Springs Switchbacks FC vs Las Vegas Lights FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-14T21:00Z"
+        },
+        {
+          "league": "USL Championship",
+          "time": "7:00 PM",
+          "match": "Lexington vs Sacramento Republic FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-14T23:00Z"
+        },
+        {
+          "league": "USL Championship",
+          "time": "8:00 PM",
+          "match": "FC Tulsa vs San Antonio FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-15T00:00Z"
+        },
+        {
+          "league": "USL Championship",
+          "time": "10:00 PM",
+          "match": "Monterey Bay vs El Paso Locomotive FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-15T02:00Z"
+        },
+        {
+          "league": "USL Championship",
+          "time": "10:00 PM",
+          "match": "Oakland Roots vs New Mexico United",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-15T02:00Z"
+        },
+        {
+          "league": "USL Championship",
+          "time": "10:00 PM",
+          "match": "Phoenix Rising FC vs Orange County SC",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-15T02:00Z"
         }
       ]
     }
