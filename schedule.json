@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-11 09:03 EDT",
+  "updated": "2026-03-11 12:54 EDT",
   "days": {
     "20260311": {
       "date": "Wednesday, March 11",
@@ -191,7 +191,7 @@
           "league": "Premier League",
           "time": "11:00 AM",
           "match": "Burnley vs AFC Bournemouth",
-          "source": "Peacock",
+          "source": "USA Network \u00b7 Peacock",
           "kick_utc": "2026-03-14T15:00Z"
         },
         {
@@ -212,7 +212,7 @@
           "league": "Premier League",
           "time": "1:30 PM",
           "match": "Chelsea vs Newcastle United",
-          "source": "Peacock",
+          "source": "USA Network \u00b7 Peacock",
           "kick_utc": "2026-03-14T17:30Z"
         },
         {
@@ -581,14 +581,14 @@
           "league": "Premier League",
           "time": "10:00 AM",
           "match": "Nottingham Forest vs Fulham",
-          "source": "Peacock",
+          "source": "USA Network \u00b7 Peacock",
           "kick_utc": "2026-03-15T14:00Z"
         },
         {
           "league": "Premier League",
           "time": "12:30 PM",
           "match": "Liverpool vs Tottenham Hotspur",
-          "source": "Peacock",
+          "source": "USA Network \u00b7 Peacock",
           "kick_utc": "2026-03-15T16:30Z"
         },
         {
