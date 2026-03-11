@@ -1,80 +1,9 @@
 {
-  "updated": "2026-03-10 16:36 EDT",
+  "updated": "2026-03-10 22:04 EDT",
   "days": {
     "20260310": {
       "date": "Tuesday, March 10",
-      "games": [
-        {
-          "league": "UEFA Champions League",
-          "time": "1:45 PM",
-          "match": "Galatasaray vs Liverpool",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-10T17:45Z"
-        },
-        {
-          "league": "UEFA Champions League",
-          "time": "4:00 PM",
-          "match": "Atalanta vs Bayern Munich",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-10T20:00Z"
-        },
-        {
-          "league": "UEFA Champions League",
-          "time": "4:00 PM",
-          "match": "Atl\u00e9tico Madrid vs Tottenham Hotspur",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-10T20:00Z"
-        },
-        {
-          "league": "UEFA Champions League",
-          "time": "4:00 PM",
-          "match": "Newcastle United vs Barcelona",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-10T20:00Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "3:45 PM",
-          "match": "Leicester City vs Bristol City",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-10T19:45Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "3:45 PM",
-          "match": "Millwall vs Derby County",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-10T19:45Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "3:45 PM",
-          "match": "Portsmouth vs Swansea City",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-10T19:45Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "3:45 PM",
-          "match": "Sheffield Wednesday vs Watford",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-10T19:45Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "3:45 PM",
-          "match": "Wrexham vs Hull City",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-10T19:45Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "4:00 PM",
-          "match": "Stoke City vs Ipswich Town",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-10T20:00Z"
-        }
-      ]
+      "games": []
     },
     "20260311": {
       "date": "Wednesday, March 11",
