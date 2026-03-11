@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-11 12:54 EDT",
+  "updated": "2026-03-11 16:35 EDT",
   "days": {
     "20260311": {
       "date": "Wednesday, March 11",
@@ -73,13 +73,6 @@
           "match": "Coventry City vs Preston North End",
           "source": "CBS / Paramount+",
           "kick_utc": "2026-03-11T20:00Z"
-        },
-        {
-          "league": "USL Championship",
-          "time": "12:00 PM",
-          "match": "Birmingham Legion FC vs Hartford Athletic",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-11T16:00Z"
         }
       ]
     },
