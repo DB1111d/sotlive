@@ -1,80 +1,9 @@
 {
-  "updated": "2026-03-11 16:35 EDT",
+  "updated": "2026-03-11 22:11 EDT",
   "days": {
     "20260311": {
       "date": "Wednesday, March 11",
-      "games": [
-        {
-          "league": "UEFA Champions League",
-          "time": "1:45 PM",
-          "match": "Bayer Leverkusen vs Arsenal",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-11T17:45Z"
-        },
-        {
-          "league": "UEFA Champions League",
-          "time": "4:00 PM",
-          "match": "Bodo/Glimt vs Sporting CP",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-11T20:00Z"
-        },
-        {
-          "league": "UEFA Champions League",
-          "time": "4:00 PM",
-          "match": "Paris Saint-Germain vs Chelsea",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-11T20:00Z"
-        },
-        {
-          "league": "UEFA Champions League",
-          "time": "4:00 PM",
-          "match": "Real Madrid vs Manchester City",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-11T20:00Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "3:45 PM",
-          "match": "Birmingham City vs Queens Park Rangers",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-11T19:45Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "3:45 PM",
-          "match": "Middlesbrough vs Charlton Athletic",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-11T19:45Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "3:45 PM",
-          "match": "Norwich City vs Sheffield United",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-11T19:45Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "3:45 PM",
-          "match": "Oxford United vs Blackburn Rovers",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-11T19:45Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "3:45 PM",
-          "match": "West Bromwich Albion vs Southampton",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-11T19:45Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "4:00 PM",
-          "match": "Coventry City vs Preston North End",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-11T20:00Z"
-        }
-      ]
+      "games": []
     },
     "20260312": {
       "date": "Thursday, March 12",
