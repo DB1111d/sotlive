@@ -1,10 +1,6 @@
 {
-  "updated": "2026-03-12 22:08 EDT",
+  "updated": "2026-03-13 01:13 EDT",
   "days": {
-    "20260312": {
-      "date": "Thursday, March 12",
-      "games": []
-    },
     "20260313": {
       "date": "Friday, March 13",
       "games": [
@@ -617,6 +613,46 @@
           "match": "Rayo Vallecano vs Levante",
           "source": "ESPN+",
           "kick_utc": "2026-03-16T20:00Z"
+        }
+      ]
+    },
+    "20260317": {
+      "date": "Tuesday, March 17",
+      "games": [
+        {
+          "league": "UEFA Champions League",
+          "time": "1:45 PM",
+          "match": "Sporting CP vs Bodo/Glimt",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-17T17:45Z"
+        },
+        {
+          "league": "UEFA Champions League",
+          "time": "4:00 PM",
+          "match": "Arsenal vs Bayer Leverkusen",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-17T20:00Z"
+        },
+        {
+          "league": "UEFA Champions League",
+          "time": "4:00 PM",
+          "match": "Chelsea vs Paris Saint-Germain",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-17T20:00Z"
+        },
+        {
+          "league": "UEFA Champions League",
+          "time": "4:00 PM",
+          "match": "Manchester City vs Real Madrid",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-17T20:00Z"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "3:45 PM",
+          "match": "Watford vs Wrexham",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-17T19:45Z"
         }
       ]
     }
