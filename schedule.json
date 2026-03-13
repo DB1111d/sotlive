@@ -1,66 +1,9 @@
 {
-  "updated": "2026-03-12 16:37 EDT",
+  "updated": "2026-03-12 22:08 EDT",
   "days": {
     "20260312": {
       "date": "Thursday, March 12",
-      "games": [
-        {
-          "league": "UEFA Europa League",
-          "time": "1:45 PM",
-          "match": "Bologna vs AS Roma",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-12T17:45Z"
-        },
-        {
-          "league": "UEFA Europa League",
-          "time": "1:45 PM",
-          "match": "Lille vs Aston Villa",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-12T17:45Z"
-        },
-        {
-          "league": "UEFA Europa League",
-          "time": "1:45 PM",
-          "match": "Panathinaikos vs Real Betis",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-12T17:45Z"
-        },
-        {
-          "league": "UEFA Europa League",
-          "time": "1:45 PM",
-          "match": "VfB Stuttgart vs FC Porto",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-12T17:45Z"
-        },
-        {
-          "league": "UEFA Europa League",
-          "time": "4:00 PM",
-          "match": "Celta Vigo vs Lyon",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-12T20:00Z"
-        },
-        {
-          "league": "UEFA Europa League",
-          "time": "4:00 PM",
-          "match": "Ferencvaros vs Braga",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-12T20:00Z"
-        },
-        {
-          "league": "UEFA Europa League",
-          "time": "4:00 PM",
-          "match": "Nottingham Forest vs FC Midtjylland",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-12T20:00Z"
-        },
-        {
-          "league": "UEFA Europa League",
-          "time": "4:00 PM",
-          "match": "Racing Genk vs SC Freiburg",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-12T20:00Z"
-        }
-      ]
+      "games": []
     },
     "20260313": {
       "date": "Friday, March 13",
