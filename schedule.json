@@ -1,23 +1,9 @@
 {
-  "updated": "2026-03-14 14:50 EDT",
+  "updated": "2026-03-14 15:00 EDT",
   "days": {
     "20260314": {
       "date": "Saturday, March 14",
       "games": [
-        {
-          "league": "Premier League",
-          "time": "11:00 AM",
-          "match": "Burnley vs AFC Bournemouth",
-          "source": "USA Network \u00b7 Peacock",
-          "kick_utc": "2026-03-14T15:00Z"
-        },
-        {
-          "league": "Premier League",
-          "time": "11:00 AM",
-          "match": "Sunderland vs Brighton & Hove Albion",
-          "source": "USA Network",
-          "kick_utc": "2026-03-14T15:00Z"
-        },
         {
           "league": "Premier League",
           "time": "1:30 PM",
@@ -122,55 +108,6 @@
           "match": "LAFC vs St. Louis CITY SC",
           "source": "Apple TV",
           "kick_utc": "2026-03-15T02:30Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "11:00 AM",
-          "match": "Birmingham City vs Sheffield United",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-14T15:00Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "11:00 AM",
-          "match": "Leicester City vs Queens Park Rangers",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-14T15:00Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "11:00 AM",
-          "match": "Millwall vs Blackburn Rovers",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-14T15:00Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "11:00 AM",
-          "match": "Norwich City vs Preston North End",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-14T15:00Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "11:00 AM",
-          "match": "Sheffield Wednesday vs Ipswich Town",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-14T15:00Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "11:00 AM",
-          "match": "Stoke City vs Watford",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-14T15:00Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "11:00 AM",
-          "match": "West Bromwich Albion vs Hull City",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-14T15:00Z"
         },
         {
           "league": "Serie A",
