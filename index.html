@@ -61,7 +61,7 @@
 
     /* ── Header ── */
     header {
-      padding: 40px 24px 20px;
+      padding: 40px 24px 12px;
       max-width: 780px;
       margin: 0 auto;
     }
@@ -70,6 +70,40 @@
       font-size: 22px;
       font-weight: 600;
       letter-spacing: -0.4px;
+    }
+
+    /* ── Timezone picker row ── */
+    .tz-picker {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 0 24px 14px;
+    }
+
+    .tz-select {
+      font-family: 'DM Mono', monospace;
+      font-size: 10px;
+      font-weight: 500;
+      padding: 4px 8px;
+      background: var(--surface);
+      border: 1.5px solid var(--border);
+      border-radius: 5px;
+      color: var(--text-muted);
+      cursor: pointer;
+      outline: none;
+      appearance: auto;
+      transition: border-color 0.15s, color 0.15s;
+    }
+
+    .tz-select:hover { border-color: #bbb; color: var(--text); }
+    .tz-select:focus { border-color: #aaa; }
+
+    /* ── Disabled state (empty day) ── */
+    .tz-disabled .tz-select {
+      color: #ccc;
+      border-color: var(--border);
+      background: none;
+      cursor: default;
+      pointer-events: none;
     }
 
     /* ── Tabs ── */
@@ -117,42 +151,6 @@
       color: inherit;
       margin-top: 1px;
       opacity: 0.7;
-    }
-
-    /* ── Timezone dropdown ── */
-    .tz-picker {
-      display: flex;
-      align-items: center;
-      margin-left: 10px;
-      margin-bottom: 1.5px;
-      flex-shrink: 0;
-    }
-
-    .tz-select {
-      font-family: 'DM Mono', monospace;
-      font-size: 10px;
-      font-weight: 500;
-      padding: 4px 8px;
-      background: var(--surface);
-      border: 1.5px solid var(--border);
-      border-radius: 5px;
-      color: var(--text-muted);
-      cursor: pointer;
-      outline: none;
-      appearance: auto;
-      transition: border-color 0.15s, color 0.15s;
-    }
-
-    .tz-select:hover  { border-color: #bbb; color: var(--text); }
-    .tz-select:focus  { border-color: #aaa; }
-
-    /* ── Disabled state (empty day) ── */
-    .tz-disabled .tz-select {
-      color: #ccc;
-      border-color: var(--border);
-      background: none;
-      cursor: default;
-      pointer-events: none;
     }
 
     /* ── Content ── */
@@ -412,6 +410,8 @@
   <header>
     <h1>⚽ Schedule</h1>
   </header>
+
+  <div class="tz-picker" id="tz-picker"></div>
 
   <div class="tabs-wrapper" id="tabs"></div>
 

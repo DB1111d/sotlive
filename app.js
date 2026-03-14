@@ -94,11 +94,10 @@ function sourceBadge(src) {
   return `<div class="badge-stack">${badges}</div>`;
 }
 
-// ── Timezone picker (dropdown) ────────────────────────────────────
+// ── Timezone picker (above tabs) ──────────────────────────────────
 function buildTzPicker() {
-  const wrapper = document.createElement('div');
-  wrapper.className = 'tz-picker';
-  wrapper.id = 'tz-picker';
+  const wrapper = document.getElementById('tz-picker');
+  if (!wrapper) return;
 
   const select = document.createElement('select');
   select.className = 'tz-select';
@@ -119,7 +118,6 @@ function buildTzPicker() {
   });
 
   wrapper.appendChild(select);
-  return wrapper;
 }
 
 function setTzPickerDisabled(disabled) {
@@ -129,13 +127,17 @@ function setTzPickerDisabled(disabled) {
   if (!select) return;
   picker.classList.toggle('tz-disabled', disabled);
   select.disabled = disabled;
-  // blank out the display when disabled
   if (disabled) {
     select.dataset.savedValue = select.value;
     select.value = '';
   } else {
     select.value = select.dataset.savedValue || currentTZ;
   }
+}
+
+function hideTzPicker() {
+  const picker = document.getElementById('tz-picker');
+  if (picker) picker.style.display = 'none';
 }
 
 function refreshAllTimes() {
@@ -271,18 +273,22 @@ async function init() {
     const res = await fetch('schedule.json?v=' + Date.now());
     data = await res.json();
   } catch (e) {
-    // Schedule fetch failed — show error, no picker (disappears like tabs)
+    // Schedule fetch failed — show error, hide picker
     document.getElementById('content').innerHTML =
       '<div class="empty"><div class="empty-icon">⚠️</div>Whoopsies — we\'re working to get games shown.</div>';
+    hideTzPicker();
     return;
   }
+
+  // Build the picker now that we know schedule loaded
+  buildTzPicker();
 
   const tabsEl    = document.getElementById('tabs');
   const contentEl = document.getElementById('content');
   const dateKeys  = Object.keys(data.days);
   let firstActive = true;
 
-  dateKeys.forEach((key, index) => {
+  dateKeys.forEach((key) => {
     const day = data.days[key];
     const { label, short } = tabLabel(key);
 
@@ -293,21 +299,11 @@ async function init() {
     btn.addEventListener('click', () => switchTab(key));
     tabsEl.appendChild(btn);
 
-    // Insert timezone picker after the 5th tab (index 4)
-    if (index === 4) {
-      tabsEl.appendChild(buildTzPicker());
-    }
-
     const panel = buildPanel(key, day);
     if (firstActive) panel.classList.add('active');
     contentEl.appendChild(panel);
     firstActive = false;
   });
-
-  // If fewer than 5 days, append tz picker before About
-  if (dateKeys.length <= 4) {
-    tabsEl.appendChild(buildTzPicker());
-  }
 
   // About tab
   const aboutBtn = document.createElement('button');
