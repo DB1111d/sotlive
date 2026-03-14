@@ -37,7 +37,7 @@ ESPN_LEAGUES = {
     "usa.1":        "MLS",
     "concacaf.champions": "CONCACAF Champions Cup",
     "usa.usl.1":    "USL Championship",
-    "usa.usl.2":    "USL League One",
+    "usa.usl.l1":   "USL League One",
     "mex.1":        "Liga MX",
     "uefa.champions": "UEFA Champions League",
     "uefa.europa":    "UEFA Europa League",
