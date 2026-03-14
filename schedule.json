@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-14 18:18 EDT",
+  "updated": "2026-03-14 19:41 EDT",
   "days": {
     "20260314": {
       "date": "Saturday, March 14",
@@ -10,13 +10,6 @@
           "match": "West Ham United vs Manchester City",
           "source": "USA Network",
           "kick_utc": "2026-03-14T20:00Z"
-        },
-        {
-          "league": "MLS",
-          "time": "3:15 PM",
-          "match": "Atlanta United FC vs Philadelphia Union",
-          "source": "FOX \u00b7 Apple TV",
-          "kick_utc": "2026-03-14T19:15Z"
         },
         {
           "league": "MLS",
@@ -104,24 +97,10 @@
         },
         {
           "league": "Dutch Eredivisie",
-          "time": "3:00 PM",
-          "match": "Heerenveen vs Telstar",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-14T19:00Z"
-        },
-        {
-          "league": "Dutch Eredivisie",
           "time": "4:00 PM",
           "match": "Ajax Amsterdam vs Sparta Rotterdam",
           "source": "ESPN+",
           "kick_utc": "2026-03-14T20:00Z"
-        },
-        {
-          "league": "USL Championship",
-          "time": "3:00 PM",
-          "match": "Loudoun United FC vs Pittsburgh Riverhounds",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-14T19:00Z"
         },
         {
           "league": "USL Championship",
