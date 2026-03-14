@@ -119,45 +119,37 @@
       opacity: 0.7;
     }
 
-    /* ── Timezone picker ── */
+    /* ── Timezone dropdown ── */
     .tz-picker {
       display: flex;
       align-items: center;
-      gap: 2px;
       margin-left: 10px;
       margin-bottom: 1.5px;
       flex-shrink: 0;
     }
 
-    .tz-btn {
+    .tz-select {
       font-family: 'DM Mono', monospace;
       font-size: 10px;
       font-weight: 500;
       padding: 4px 8px;
-      background: none;
+      background: var(--surface);
       border: 1.5px solid var(--border);
       border-radius: 5px;
       color: var(--text-muted);
       cursor: pointer;
-      transition: color 0.15s, border-color 0.15s, background 0.15s;
-      white-space: nowrap;
+      outline: none;
+      appearance: auto;
+      transition: border-color 0.15s, color 0.15s;
     }
 
-    .tz-btn:hover {
-      color: var(--text);
-      border-color: #bbb;
-    }
+    .tz-select:hover  { border-color: #bbb; color: var(--text); }
+    .tz-select:focus  { border-color: #aaa; }
 
-    .tz-btn.active {
-      color: #fff;
-      background: #1a1a1a;
-      border-color: #1a1a1a;
-    }
-
-    /* ── Timezone picker disabled state ── */
-    .tz-disabled .tz-btn {
+    /* ── Disabled state (empty day) ── */
+    .tz-disabled .tz-select {
       color: #ccc;
-      border-color: #e8e6e1;
+      border-color: var(--border);
       background: none;
       cursor: default;
       pointer-events: none;
@@ -173,14 +165,22 @@
     .day-panel { display: none; }
     .day-panel.active { display: block; }
 
-    /* ── Source badge ── */
+    /* ── Source badges ── */
+    .badge-stack {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 4px;
+      flex-shrink: 0;
+    }
+
     .source-badge {
       font-family: 'DM Mono', monospace;
       font-size: 10px;
       padding: 3px 8px;
       border-radius: 4px;
       font-weight: 500;
-      flex-shrink: 0;
+      white-space: nowrap;
     }
 
     .source-espn    { background: #fff0f0; color: var(--accent-espn); }

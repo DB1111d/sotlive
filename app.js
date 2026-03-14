@@ -1,9 +1,9 @@
 // ── Timezone config ──────────────────────────────────────────────
 const TIMEZONES = [
-  { label: 'ET', iana: 'America/New_York' },
-  { label: 'CT', iana: 'America/Chicago' },
-  { label: 'MT', iana: 'America/Denver' },
-  { label: 'PT', iana: 'America/Los_Angeles' },
+  { label: 'Eastern (ET)',  iana: 'America/New_York' },
+  { label: 'Central (CT)',  iana: 'America/Chicago' },
+  { label: 'Mountain (MT)', iana: 'America/Denver' },
+  { label: 'Pacific (PT)',  iana: 'America/Los_Angeles' },
 ];
 
 let currentTZ = localStorage.getItem('sotlive_tz') || 'America/New_York';
@@ -85,44 +85,57 @@ const BADGE_MAP = {
 };
 
 function sourceBadge(src) {
-  if (!src) return `<span class="source-badge source-postponed">😵</span>`;
-  return src.split(' · ').map(s => {
+  if (!src) return `<div class="badge-stack"><span class="source-badge source-postponed">😵</span></div>`;
+  const badges = src.split(' · ').map(s => {
     const b = BADGE_MAP[s.trim()];
     if (b) return `<span class="source-badge ${b.cls}">${b.label}</span>`;
     return `<span class="source-badge source-appletv">${s.trim()}</span>`;
-  }).join(' ');
+  }).join('');
+  return `<div class="badge-stack">${badges}</div>`;
 }
 
-// ── Timezone picker ───────────────────────────────────────────────
-function buildTzPicker(disabled = false) {
+// ── Timezone picker (dropdown) ────────────────────────────────────
+function buildTzPicker() {
   const wrapper = document.createElement('div');
-  wrapper.className = 'tz-picker' + (disabled ? ' tz-disabled' : '');
+  wrapper.className = 'tz-picker';
   wrapper.id = 'tz-picker';
-  wrapper.innerHTML = TIMEZONES.map(tz =>
-    `<button class="tz-btn${(!disabled && tz.iana === currentTZ) ? ' active' : ''}" data-iana="${tz.iana}" ${disabled ? 'disabled' : ''}>${tz.label}</button>`
-  ).join('');
 
-  wrapper.addEventListener('click', e => {
-    const btn = e.target.closest('.tz-btn');
-    if (!btn || btn.disabled) return;
-    currentTZ = btn.dataset.iana;
+  const select = document.createElement('select');
+  select.className = 'tz-select';
+  select.id = 'tz-select';
+
+  TIMEZONES.forEach(tz => {
+    const opt = document.createElement('option');
+    opt.value = tz.iana;
+    opt.textContent = tz.label;
+    if (tz.iana === currentTZ) opt.selected = true;
+    select.appendChild(opt);
+  });
+
+  select.addEventListener('change', () => {
+    currentTZ = select.value;
     localStorage.setItem('sotlive_tz', currentTZ);
-    wrapper.querySelectorAll('.tz-btn').forEach(b =>
-      b.classList.toggle('active', b.dataset.iana === currentTZ)
-    );
     refreshAllTimes();
   });
+
+  wrapper.appendChild(select);
   return wrapper;
 }
 
 function setTzPickerDisabled(disabled) {
   const picker = document.getElementById('tz-picker');
   if (!picker) return;
+  const select = picker.querySelector('.tz-select');
+  if (!select) return;
   picker.classList.toggle('tz-disabled', disabled);
-  picker.querySelectorAll('.tz-btn').forEach(b => {
-    b.disabled = disabled;
-    b.classList.toggle('active', !disabled && b.dataset.iana === currentTZ);
-  });
+  select.disabled = disabled;
+  // blank out the display when disabled
+  if (disabled) {
+    select.dataset.savedValue = select.value;
+    select.value = '';
+  } else {
+    select.value = select.dataset.savedValue || currentTZ;
+  }
 }
 
 function refreshAllTimes() {
@@ -258,10 +271,9 @@ async function init() {
     const res = await fetch('schedule.json?v=' + Date.now());
     data = await res.json();
   } catch (e) {
-    // Schedule fetch failed — show error, render picker disabled
+    // Schedule fetch failed — show error, no picker (disappears like tabs)
     document.getElementById('content').innerHTML =
       '<div class="empty"><div class="empty-icon">⚠️</div>Whoopsies — we\'re working to get games shown.</div>';
-    document.getElementById('tabs').appendChild(buildTzPicker(true));
     return;
   }
 
