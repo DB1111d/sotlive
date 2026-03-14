@@ -1,36 +1,15 @@
 {
-  "updated": "2026-03-14 16:29 EDT",
+  "updated": "2026-03-14 18:12 EDT",
   "days": {
     "20260314": {
       "date": "Saturday, March 14",
       "games": [
         {
           "league": "Premier League",
-          "time": "1:30 PM",
-          "match": "Arsenal vs Everton",
-          "source": "USA Network",
-          "kick_utc": "2026-03-14T17:30Z"
-        },
-        {
-          "league": "Premier League",
-          "time": "1:30 PM",
-          "match": "Chelsea vs Newcastle United",
-          "source": "USA Network \u00b7 Peacock",
-          "kick_utc": "2026-03-14T17:30Z"
-        },
-        {
-          "league": "Premier League",
           "time": "4:00 PM",
           "match": "West Ham United vs Manchester City",
           "source": "USA Network",
           "kick_utc": "2026-03-14T20:00Z"
-        },
-        {
-          "league": "MLS",
-          "time": "1:00 PM",
-          "match": "Toronto FC vs Red Bull New York",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-14T17:00Z"
         },
         {
           "league": "MLS",
@@ -111,31 +90,10 @@
         },
         {
           "league": "Serie A",
-          "time": "1:00 PM",
-          "match": "Napoli vs Lecce",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-14T17:00Z"
-        },
-        {
-          "league": "Serie A",
           "time": "3:45 PM",
           "match": "Udinese vs Juventus",
           "source": "CBS / Paramount+",
           "kick_utc": "2026-03-14T19:45Z"
-        },
-        {
-          "league": "German Bundesliga",
-          "time": "1:30 PM",
-          "match": "Hamburg SV vs FC Cologne",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-14T17:30Z"
-        },
-        {
-          "league": "La Liga",
-          "time": "1:30 PM",
-          "match": "Real Oviedo vs Valencia",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-14T17:30Z"
         },
         {
           "league": "La Liga",
@@ -143,13 +101,6 @@
           "match": "Real Madrid vs Elche",
           "source": "ESPN+",
           "kick_utc": "2026-03-14T20:00Z"
-        },
-        {
-          "league": "Dutch Eredivisie",
-          "time": "1:45 PM",
-          "match": "PSV Eindhoven vs NEC Nijmegen",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-14T17:45Z"
         },
         {
           "league": "Dutch Eredivisie",
@@ -234,13 +185,6 @@
           "match": "Phoenix Rising FC vs Orange County SC",
           "source": "ESPN+",
           "kick_utc": "2026-03-15T02:00Z"
-        },
-        {
-          "league": "USL League One",
-          "time": "2:00 PM",
-          "match": "New York Cosmos vs Portland Hearts of Pine",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-14T18:00Z"
         },
         {
           "league": "USL League One",
