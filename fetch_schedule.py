@@ -222,6 +222,32 @@ def dedup_games(games: list) -> list:
     return result
 
 
+# ─── Round label helper ───────────────────────────────────────────────────────
+
+def slug_to_round_label(slug: str) -> str:
+    """Convert an ESPN season slug to a clean round label."""
+    if not slug:
+        return "Group"
+    SLUG_MAP = {
+        "group-stage":    "Group",
+        "groups":         "Group",
+        "league-phase":   "Group",
+        "playoff-round":  "Playoff Round",
+        "round-one":      "Round One",
+        "round-of-32":    "Round of 32",
+        "round-of-16":    "Round of 16",
+        "quarter-final":  "Quarter-final",
+        "quarterfinals":  "Quarter-final",
+        "semi-final":     "Semi-final",
+        "semifinals":     "Semi-final",
+        "final":          "Final",
+    }
+    if slug in SLUG_MAP:
+        return SLUG_MAP[slug]
+    # Fallback: title-case and replace hyphens
+    return slug.replace("-", " ").title()
+
+
 # ─── ESPN API Scraper ─────────────────────────────────────────────────────────
 
 def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> list:
@@ -236,7 +262,7 @@ def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> 
         print(f"    API error for {league_slug} on {date_str}: {e}")
         return []
 
-    DEBUG_LEAGUES = {
+    ROUND_LABEL_LEAGUES = {
         "UEFA Champions League", "UEFA Europa League",
         "UEFA Europa Conference League", "CONCACAF Champions Cup"
     }
@@ -249,19 +275,6 @@ def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> 
             competitors = competition.get("competitors", [])
             if len(competitors) < 2:
                 continue
-
-            # Debug: dump round/leg/series fields for knockout leagues
-            if league_name in DEBUG_LEAGUES:
-                print(f"  [DEBUG] event.name={event.get('name')}")
-                print(f"  [DEBUG] event.shortName={event.get('shortName')}")
-                print(f"  [DEBUG] season.slug={event.get('season', {}).get('slug')}")
-                print(f"  [DEBUG] season.type.name={event.get('season', {}).get('type', {}).get('name')}")
-                print(f"  [DEBUG] competition.notes={competition.get('notes')}")
-                print(f"  [DEBUG] competition.series={competition.get('series')}")
-                print(f"  [DEBUG] competition.type={competition.get('type')}")
-                print(f"  [DEBUG] event.week={event.get('week')}")
-                print(f"  [DEBUG] event.links_names={[l.get('text') for l in event.get('links', [])]}")
-                print("  ---")
 
             # Home/away
             home = next((c for c in competitors if c.get("homeAway") == "home"), competitors[0])
@@ -304,11 +317,16 @@ def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> 
                 })
                 continue
 
-            # Get broadcaster
+            # Get broadcaster — guard against media being an int (ESPN API quirk on knockout games)
             broadcasts = competition.get("geoBroadcasts", [])
             source_names = []
             for b in broadcasts:
-                short = b.get("media", {}).get("shortName", "")
+                if not isinstance(b, dict):
+                    continue
+                media = b.get("media", {})
+                if not isinstance(media, dict):
+                    continue
+                short = media.get("shortName", "")
                 lang = b.get("lang", "en")
                 if lang != "en":
                     continue
@@ -321,6 +339,8 @@ def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> 
             if not source_names:
                 # Fall back to broadcasts array
                 for b in competition.get("broadcasts", []):
+                    if not isinstance(b, dict):
+                        continue
                     for name in b.get("names", []):
                         if name.lower() in SPANISH_EXCLUDE:
                             continue
@@ -331,7 +351,6 @@ def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> 
             # Default source per league if none found
             if not source_names:
                 if league_name in ENGLISH_ONLY_LEAGUES:
-                    # No English broadcaster found — skip this game entirely
                     continue
                 elif league_name == "MLS":
                     source_names = ["Apple TV"]
@@ -342,13 +361,43 @@ def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> 
 
             source = " · ".join(source_names) if source_names else "ESPN+"
 
-            games.append({
+            # Round/leg label for knockout competitions
+            round_label = None
+            if league_name in ROUND_LABEL_LEAGUES:
+                season = event.get("season", {})
+                if not isinstance(season, dict):
+                    season = {}
+                slug = season.get("slug", "")
+                base_label = slug_to_round_label(slug)
+
+                # Determine leg number from week within the round
+                # ESPN uses week.number incrementing per leg (1 = Leg 1, 2 = Leg 2)
+                week = event.get("week", {})
+                if isinstance(week, dict):
+                    leg_num = week.get("number")
+                else:
+                    leg_num = None
+
+                if base_label == "Group":
+                    round_label = "Group"
+                elif base_label == "Final":
+                    round_label = "Final"
+                elif leg_num in (1, 2):
+                    round_label = f"{base_label} · Leg {leg_num}"
+                else:
+                    round_label = base_label
+
+            game = {
                 "league":   league_name,
                 "time":     time_str,
                 "match":    match_title,
                 "source":   source,
                 "kick_utc": raw_date,
-            })
+            }
+            if round_label:
+                game["round_label"] = round_label
+
+            games.append(game)
 
         except Exception as e:
             print(f"    Error parsing event: {e}")

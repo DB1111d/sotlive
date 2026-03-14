@@ -267,8 +267,12 @@ function buildPanel(key, day) {
     for (const g of info.items) {
       const displayTime = (g.kick_utc ? formatTime(g.kick_utc, currentTZ) : null) || g.time;
       const utcAttr = g.kick_utc ? `data-utc="${g.kick_utc}"` : '';
+      const roundLabel = g.round_label ? `<div class="round-label">${g.round_label}</div>` : '';
       html += `<div class="game-card" ${utcAttr}>
-        <span class="game-time">${displayTime}</span>
+        <div class="game-card-left">
+          ${roundLabel}
+          <span class="game-time">${displayTime}</span>
+        </div>
         <span class="game-match">${g.match}</span>
         ${sourceBadge(g.source)}
       </div>`;
