@@ -161,6 +161,15 @@ function populateLeagueFilter(leagues) {
   // Remove all options except the first "Show All"
   while (select.options.length > 1) select.remove(1);
 
+  // If 1 or fewer leagues, nothing useful to filter — disable and show only "Show All"
+  if (leagues.length <= 1) {
+    select.disabled = true;
+    select.value = '';
+    return;
+  }
+
+  select.disabled = false;
+
   // Add options for leagues present on this day, in LEAGUE_ORDER order
   const sorted = leagues.slice().sort((a, b) => {
     const ai = LEAGUE_ORDER.indexOf(a);
@@ -303,6 +312,10 @@ function switchToAbout() {
   document.querySelectorAll('.day-panel').forEach(p => p.classList.remove('active'));
   document.getElementById('content').style.display = 'none';
   document.getElementById('about-panel').classList.add('active');
+
+  // Reset league filter to Show All only, disabled
+  showLeagueFilter();
+  populateLeagueFilter([]);
 }
 
 // ── Contact form ──────────────────────────────────────────────────
