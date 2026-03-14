@@ -61,16 +61,53 @@
 
     /* ── Header ── */
     header {
-      padding: 40px 24px 12px;
+      padding: 40px 24px 8px;
       max-width: 780px;
       margin: 0 auto;
     }
 
     h1 {
-      font-size: 22px;
+      font-size: 25px;
       font-weight: 600;
       letter-spacing: -0.4px;
+      line-height: 1;
     }
+
+    /* ── Sport nav ── */
+    .sport-nav {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 10px 24px 4px;
+      display: flex;
+      gap: 18px;
+      align-items: center;
+    }
+
+    .sport-btn {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--tab-inactive);
+      background: none;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 0;
+      border-bottom: 2px solid transparent;
+      transition: color 0.15s, border-color 0.15s;
+    }
+
+    .sport-btn:hover { color: var(--text); }
+
+    .sport-btn.active {
+      color: #000;
+      font-weight: 700;
+      border-bottom-color: #000;
+    }
+
+    .sport-icon { font-size: 17px; }
 
     /* ── Timezone picker row ── */
     .tz-picker {
@@ -446,8 +483,17 @@
 <body>
 
   <header>
-    <h1>⚽ Schedule</h1>
+    <h1>📺 SOTLive</h1>
   </header>
+
+  <div class="sport-nav">
+    <button class="sport-btn active" id="sport-soccer" onclick="switchSport('soccer')">
+      <span class="sport-icon">⚽</span> Soccer
+    </button>
+    <button class="sport-btn" id="sport-ncaa" onclick="switchSport('ncaa')">
+      <span class="sport-icon">🏀</span> NCAA Men
+    </button>
+  </div>
 
   <div class="tz-picker" id="tz-picker"></div>
 
