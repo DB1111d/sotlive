@@ -250,7 +250,7 @@ def slug_to_round_label(slug: str) -> str:
 
 # ─── ESPN API Scraper ─────────────────────────────────────────────────────────
 
-def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> list:
+def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str, seen_ties: dict) -> list:
     """Fetch games for one league on one date via ESPN's scoreboard API."""
     url = (
         f"https://site.api.espn.com/apis/site/v2/sports/soccer"
@@ -370,25 +370,20 @@ def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> 
                 slug = season.get("slug", "")
                 base_label = slug_to_round_label(slug)
 
-                week = event.get("week", {})
-                print(f"  [DEBUG leg] match={match_title} | week={week} | season={season}")
-
-                # Determine leg number from week within the round
-                # ESPN uses week.number incrementing per leg (1 = Leg 1, 2 = Leg 2)
-                week = event.get("week", {})
-                if isinstance(week, dict):
-                    leg_num = week.get("number")
-                else:
-                    leg_num = None
-
                 if base_label == "Group":
                     round_label = "Group"
                 elif base_label == "Final":
                     round_label = "Final"
-                elif leg_num in (1, 2):
-                    round_label = f"{base_label} · Leg {leg_num}"
                 else:
-                    round_label = base_label
+                    # Determine leg by tracking ties seen in this round
+                    # Key: frozenset of team names + slug (safe — knockout only)
+                    tie_key = frozenset([home_name, away_name, slug])
+                    if tie_key not in seen_ties:
+                        seen_ties[tie_key] = 1
+                    else:
+                        seen_ties[tie_key] += 1
+                    leg_num = seen_ties[tie_key]
+                    round_label = f"{base_label} · Leg {leg_num}"
 
             game = {
                 "league":   league_name,
@@ -534,8 +529,9 @@ def main():
 
     for slug, league_name in ESPN_LEAGUES.items():
         print(f"Fetching {league_name}...")
+        seen_ties = {}  # reset per league, persists across all dates for that league
         for date_obj, date_str in dates:
-            games = fetch_espn_league_day(slug, league_name, date_str)
+            games = fetch_espn_league_day(slug, league_name, date_str, seen_ties)
             if games:
                 print(f"  {date_str}: {len(games)} games")
             schedule[date_str]["games"].extend(games)
