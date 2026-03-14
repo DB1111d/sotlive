@@ -298,6 +298,9 @@ function switchTab(key) {
     hideLeagueFilter();
   } else {
     showTzPicker();
+    // Re-enable tz picker in case it was frozen on About
+    const tzSelect = document.getElementById('tz-select');
+    if (tzSelect) tzSelect.disabled = false;
     showLeagueFilter();
     // Reset filter and repopulate for this day's leagues
     const leagues = activePanel.dataset.leagues ? JSON.parse(activePanel.dataset.leagues) : [];
@@ -312,6 +315,10 @@ function switchToAbout() {
   document.querySelectorAll('.day-panel').forEach(p => p.classList.remove('active'));
   document.getElementById('content').style.display = 'none';
   document.getElementById('about-panel').classList.add('active');
+
+  // Freeze tz picker — keep value visible but not interactive
+  const tzSelect = document.getElementById('tz-select');
+  if (tzSelect) tzSelect.disabled = true;
 
   // Reset league filter to Show All only, disabled
   showLeagueFilter();
