@@ -28,13 +28,16 @@ const LEAGUE_ORDER = [
   'UEFA Europa Conference League',
   'Premier League',
   'MLS',
+  'CONCACAF Champions Cup',
   'English FA Cup',
   'EFL Championship',
   'Serie A',
   'German Bundesliga',
   'La Liga',
   'Dutch Eredivisie',
-  'USL Championship'
+  'USL Championship',
+  'USL League One',
+  'Liga MX',
 ];
 
 // ── Helpers ───────────────────────────────────────────────────────
@@ -94,7 +97,7 @@ function sourceBadge(src) {
   return `<div class="badge-stack">${badges}</div>`;
 }
 
-// ── Timezone picker (above tabs) ──────────────────────────────────
+// ── Timezone picker ───────────────────────────────────────────────
 function buildTzPicker() {
   const wrapper = document.getElementById('tz-picker');
   if (!wrapper) return;
@@ -120,26 +123,93 @@ function buildTzPicker() {
   wrapper.appendChild(select);
 }
 
-function setTzPickerDisabled(disabled) {
-  const picker = document.getElementById('tz-picker');
-  if (!picker) return;
-  const select = picker.querySelector('.tz-select');
-  if (!select) return;
-  picker.classList.toggle('tz-disabled', disabled);
-  select.disabled = disabled;
-  if (disabled) {
-    select.dataset.savedValue = select.value;
-    select.value = '';
-  } else {
-    select.value = select.dataset.savedValue || currentTZ;
-  }
-}
-
 function hideTzPicker() {
   const picker = document.getElementById('tz-picker');
   if (picker) picker.style.display = 'none';
 }
 
+function showTzPicker() {
+  const picker = document.getElementById('tz-picker');
+  if (picker) picker.style.display = '';
+}
+
+// ── League filter ─────────────────────────────────────────────────
+function buildLeagueFilter() {
+  const wrapper = document.getElementById('league-filter');
+  if (!wrapper) return;
+
+  const select = document.createElement('select');
+  select.className = 'tz-select';
+  select.id = 'league-select';
+
+  const defaultOpt = document.createElement('option');
+  defaultOpt.value = '';
+  defaultOpt.textContent = 'Show All';
+  select.appendChild(defaultOpt);
+
+  select.addEventListener('change', () => {
+    applyLeagueFilter(select.value);
+  });
+
+  wrapper.appendChild(select);
+}
+
+function populateLeagueFilter(leagues) {
+  const select = document.getElementById('league-select');
+  if (!select) return;
+
+  // Remove all options except the first "Show All"
+  while (select.options.length > 1) select.remove(1);
+
+  // Add options for leagues present on this day, in LEAGUE_ORDER order
+  const sorted = leagues.slice().sort((a, b) => {
+    const ai = LEAGUE_ORDER.indexOf(a);
+    const bi = LEAGUE_ORDER.indexOf(b);
+    return (ai === -1 ? 999 : ai) - (bi === -1 ? 999 : bi);
+  });
+
+  sorted.forEach(league => {
+    const opt = document.createElement('option');
+    opt.value = league;
+    opt.textContent = league;
+    select.appendChild(opt);
+  });
+
+  // Reset to Show All
+  select.value = '';
+}
+
+function applyLeagueFilter(selectedLeague) {
+  const activePanel = document.querySelector('.day-panel.active');
+  if (!activePanel) return;
+
+  activePanel.querySelectorAll('.league-group').forEach(group => {
+    if (!selectedLeague) {
+      group.style.display = '';
+    } else {
+      const label = group.querySelector('.league-label');
+      group.style.display = (label && label.textContent.trim() === selectedLeague) ? '' : 'none';
+    }
+  });
+}
+
+function hideLeagueFilter() {
+  const el = document.getElementById('league-filter');
+  if (el) el.style.display = 'none';
+}
+
+function showLeagueFilter() {
+  const el = document.getElementById('league-filter');
+  if (el) el.style.display = '';
+}
+
+function resetLeagueFilter() {
+  const select = document.getElementById('league-select');
+  if (select) select.value = '';
+  applyLeagueFilter('');
+}
+
+// ── Refresh times ─────────────────────────────────────────────────
 function refreshAllTimes() {
   document.querySelectorAll('.game-card[data-utc]').forEach(card => {
     const utc = card.dataset.utc;
@@ -178,6 +248,9 @@ function buildPanel(key, day) {
     })
   );
 
+  // Store the leagues present on this day on the panel element
+  panel.dataset.leagues = JSON.stringify(Object.keys(sortedGrouped));
+
   let html = '';
   for (const [league, info] of Object.entries(sortedGrouped)) {
     const isUefa = ['UEFA Champions League', 'UEFA Europa League', 'UEFA Europa Conference League'].includes(league);
@@ -208,9 +281,20 @@ function switchTab(key) {
   document.getElementById('about-panel').classList.remove('active');
   document.getElementById('content').style.display = '';
 
-  // Gray out picker when the selected day has no games
   const activePanel = document.getElementById(`panel-${key}`);
-  setTzPickerDisabled(activePanel && activePanel.dataset.empty === 'true');
+  const isEmpty = activePanel && activePanel.dataset.empty === 'true';
+
+  if (isEmpty) {
+    hideTzPicker();
+    hideLeagueFilter();
+  } else {
+    showTzPicker();
+    showLeagueFilter();
+    // Reset filter and repopulate for this day's leagues
+    const leagues = activePanel.dataset.leagues ? JSON.parse(activePanel.dataset.leagues) : [];
+    populateLeagueFilter(leagues);
+    resetLeagueFilter();
+  }
 }
 
 function switchToAbout() {
@@ -273,15 +357,17 @@ async function init() {
     const res = await fetch('schedule.json?v=' + Date.now());
     data = await res.json();
   } catch (e) {
-    // Schedule fetch failed — show error, hide picker
+    // Schedule fetch failed — show error, hide both pickers
     document.getElementById('content').innerHTML =
       '<div class="empty"><div class="empty-icon">⚠️</div>Whoopsies — we\'re working to get games shown.</div>';
     hideTzPicker();
+    hideLeagueFilter();
     return;
   }
 
-  // Build the picker now that we know schedule loaded
+  // Build pickers now that we know schedule loaded
   buildTzPicker();
+  buildLeagueFilter();
 
   const tabsEl    = document.getElementById('tabs');
   const contentEl = document.getElementById('content');
@@ -313,12 +399,16 @@ async function init() {
   aboutBtn.addEventListener('click', switchToAbout);
   tabsEl.appendChild(aboutBtn);
 
-  // If the first day shown has no games, disable the picker on load
+  // Handle initial state
   const firstKey = dateKeys[0];
   if (firstKey) {
     const firstPanel = document.getElementById(`panel-${firstKey}`);
     if (firstPanel && firstPanel.dataset.empty === 'true') {
-      setTzPickerDisabled(true);
+      hideTzPicker();
+      hideLeagueFilter();
+    } else if (firstPanel) {
+      const leagues = firstPanel.dataset.leagues ? JSON.parse(firstPanel.dataset.leagues) : [];
+      populateLeagueFilter(leagues);
     }
   }
 }

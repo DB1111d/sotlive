@@ -35,7 +35,10 @@ ESPN_LEAGUES = {
     "ita.1":        "Serie A",
     "ned.1":        "Dutch Eredivisie",
     "usa.1":        "MLS",
+    "concacaf.champions": "CONCACAF Champions Cup",
     "usa.usl.1":    "USL Championship",
+    "usa.usl.2":    "USL League One",
+    "mex.1":        "Liga MX",
     "uefa.champions": "UEFA Champions League",
     "uefa.europa":    "UEFA Europa League",
     # uefa.conference returns 400 — Conference League is fetched via scoreboard scraper
@@ -66,6 +69,9 @@ SPANISH_EXCLUDE = {
     "universo", "telemundo", "tele", "espn deportes",
     "univision", "fox deportes", "tudn"
 }
+
+# Leagues where games with NO English broadcaster should be dropped entirely (not defaulted)
+ENGLISH_ONLY_LEAGUES = {"Liga MX"}
 
 # Broadcaster names for Premier League (scraped from ESPN scoreboard page)
 PL_SOURCE_MAP = {
@@ -102,6 +108,7 @@ LEAGUE_ORDER = [
     "UEFA Europa Conference League",
     "Premier League",
     "MLS",
+    "CONCACAF Champions Cup",
     "English FA Cup",
     "EFL Championship",
     "Serie A",
@@ -109,6 +116,8 @@ LEAGUE_ORDER = [
     "La Liga",
     "Dutch Eredivisie",
     "USL Championship",
+    "USL League One",
+    "Liga MX",
 ]
 
 # ─── Helpers ──────────────────────────────────────────────────────────────────
@@ -303,7 +312,10 @@ def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> 
 
             # Default source per league if none found
             if not source_names:
-                if league_name == "MLS":
+                if league_name in ENGLISH_ONLY_LEAGUES:
+                    # No English broadcaster found — skip this game entirely
+                    continue
+                elif league_name == "MLS":
                     source_names = ["Apple TV"]
                 elif league_name == "Premier League":
                     source_names = ["Peacock"]
