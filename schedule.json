@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-14 19:41 EDT",
+  "updated": "2026-03-14 19:49 EDT",
   "days": {
     "20260314": {
       "date": "Saturday, March 14",
@@ -80,13 +80,6 @@
           "match": "LAFC vs St. Louis CITY SC",
           "source": "Apple TV",
           "kick_utc": "2026-03-15T02:30Z"
-        },
-        {
-          "league": "Serie A",
-          "time": "3:45 PM",
-          "match": "Udinese vs Juventus",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-14T19:45Z"
         },
         {
           "league": "La Liga",
