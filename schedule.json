@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-14 14:40 EDT",
+  "updated": "2026-03-14 14:50 EDT",
   "days": {
     "20260314": {
       "date": "Saturday, March 14",
@@ -571,7 +571,7 @@
           "match": "Sporting CP vs Bodo/Glimt",
           "source": "CBS / Paramount+",
           "kick_utc": "2026-03-17T17:45Z",
-          "round_label": "Round of 16"
+          "round_label": "Round of 16 \u00b7 Leg 1"
         },
         {
           "league": "UEFA Champions League",
@@ -579,7 +579,7 @@
           "match": "Arsenal vs Bayer Leverkusen",
           "source": "CBS / Paramount+",
           "kick_utc": "2026-03-17T20:00Z",
-          "round_label": "Round of 16"
+          "round_label": "Round of 16 \u00b7 Leg 1"
         },
         {
           "league": "UEFA Champions League",
@@ -587,7 +587,7 @@
           "match": "Chelsea vs Paris Saint-Germain",
           "source": "CBS / Paramount+",
           "kick_utc": "2026-03-17T20:00Z",
-          "round_label": "Round of 16"
+          "round_label": "Round of 16 \u00b7 Leg 1"
         },
         {
           "league": "UEFA Champions League",
@@ -595,7 +595,7 @@
           "match": "Manchester City vs Real Madrid",
           "source": "CBS / Paramount+",
           "kick_utc": "2026-03-17T20:00Z",
-          "round_label": "Round of 16"
+          "round_label": "Round of 16 \u00b7 Leg 1"
         },
         {
           "league": "CONCACAF Champions Cup",
@@ -603,7 +603,7 @@
           "match": "Alajuelense vs LAFC",
           "source": "FS1",
           "kick_utc": "2026-03-18T01:00Z",
-          "round_label": "Round of 16"
+          "round_label": "Round of 16 \u00b7 Leg 1"
         },
         {
           "league": "CONCACAF Champions Cup",
@@ -611,7 +611,7 @@
           "match": "Cruz Azul vs Monterrey",
           "source": "FS1",
           "kick_utc": "2026-03-18T03:00Z",
-          "round_label": "Round of 16"
+          "round_label": "Round of 16 \u00b7 Leg 1"
         },
         {
           "league": "EFL Championship",
@@ -631,7 +631,7 @@
           "match": "Barcelona vs Newcastle United",
           "source": "CBS / Paramount+",
           "kick_utc": "2026-03-18T17:45Z",
-          "round_label": "Round of 16"
+          "round_label": "Round of 16 \u00b7 Leg 1"
         },
         {
           "league": "UEFA Champions League",
@@ -639,7 +639,7 @@
           "match": "Bayern Munich vs Atalanta",
           "source": "CBS / Paramount+",
           "kick_utc": "2026-03-18T20:00Z",
-          "round_label": "Round of 16"
+          "round_label": "Round of 16 \u00b7 Leg 1"
         },
         {
           "league": "UEFA Champions League",
@@ -647,7 +647,7 @@
           "match": "Liverpool vs Galatasaray",
           "source": "CBS / Paramount+",
           "kick_utc": "2026-03-18T20:00Z",
-          "round_label": "Round of 16"
+          "round_label": "Round of 16 \u00b7 Leg 1"
         },
         {
           "league": "UEFA Champions League",
@@ -655,7 +655,7 @@
           "match": "Tottenham Hotspur vs Atl\u00e9tico Madrid",
           "source": "CBS / Paramount+",
           "kick_utc": "2026-03-18T20:00Z",
-          "round_label": "Round of 16"
+          "round_label": "Round of 16 \u00b7 Leg 1"
         },
         {
           "league": "UEFA Europa League",
@@ -663,7 +663,7 @@
           "match": "Braga vs Ferencvaros",
           "source": "CBS / Paramount+",
           "kick_utc": "2026-03-18T15:30Z",
-          "round_label": "Round of 16"
+          "round_label": "Round of 16 \u00b7 Leg 1"
         },
         {
           "league": "CONCACAF Champions Cup",
@@ -671,7 +671,7 @@
           "match": "Inter Miami CF vs Nashville SC",
           "source": "FS1",
           "kick_utc": "2026-03-18T23:00Z",
-          "round_label": "Round of 16"
+          "round_label": "Round of 16 \u00b7 Leg 1"
         },
         {
           "league": "CONCACAF Champions Cup",
@@ -679,7 +679,7 @@
           "match": "Am\u00e9rica vs Philadelphia Union",
           "source": "FS1",
           "kick_utc": "2026-03-19T01:00Z",
-          "round_label": "Round of 16"
+          "round_label": "Round of 16 \u00b7 Leg 1"
         },
         {
           "league": "CONCACAF Champions Cup",
@@ -687,7 +687,7 @@
           "match": "Seattle Sounders FC vs Vancouver Whitecaps",
           "source": "FS1",
           "kick_utc": "2026-03-19T03:00Z",
-          "round_label": "Round of 16"
+          "round_label": "Round of 16 \u00b7 Leg 1"
         },
         {
           "league": "CONCACAF Champions Cup",
@@ -695,7 +695,7 @@
           "match": "Toluca vs San Diego FC",
           "source": "FS2",
           "kick_utc": "2026-03-19T03:00Z",
-          "round_label": "Round of 16"
+          "round_label": "Round of 16 \u00b7 Leg 1"
         },
         {
           "league": "EFL Championship",
