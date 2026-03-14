@@ -197,17 +197,16 @@
     .league-group { margin-bottom: 28px; }
     .league-label {
       font-size: 11px;
-      font-weight: 600;
+      font-weight: 400;
       letter-spacing: 0.8px;
       text-transform: uppercase;
-      color: var(--text-muted);
+      color: #1a1a1a;
       margin-bottom: 10px;
     }
     .league-label.uefa {
       font-weight: 800;
       color: #1a1a1a;
       letter-spacing: 0.5px;
-      font-style: italic;
     }
 
     /* ── Game card ── */
@@ -221,6 +220,15 @@
       align-items: center;
       gap: 14px;
       transition: border-color 0.15s, box-shadow 0.15s;
+    }
+
+    .game-card:has(.round-label) {
+      align-items: flex-start;
+    }
+
+    .game-card:has(.round-label) .game-match,
+    .game-card:has(.round-label) .badge-stack {
+      padding-top: 14px;
     }
 
     .game-card:hover {
@@ -240,6 +248,7 @@
     .game-card-left {
       display: flex;
       flex-direction: column;
+      justify-content: center;
       min-width: 64px;
       flex-shrink: 0;
     }
@@ -248,7 +257,7 @@
       font-family: 'DM Mono', monospace;
       font-size: 9px;
       font-weight: 500;
-      color: var(--text-muted);
+      color: #1a1a1a;
       text-transform: uppercase;
       letter-spacing: 0.4px;
       margin-bottom: 3px;

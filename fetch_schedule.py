@@ -370,6 +370,9 @@ def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> 
                 slug = season.get("slug", "")
                 base_label = slug_to_round_label(slug)
 
+                week = event.get("week", {})
+                print(f"  [DEBUG leg] match={match_title} | week={week} | season={season}")
+
                 # Determine leg number from week within the round
                 # ESPN uses week.number incrementing per leg (1 = Leg 1, 2 = Leg 2)
                 week = event.get("week", {})
