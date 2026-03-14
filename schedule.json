@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-14 08:54 EDT",
+  "updated": "2026-03-14 10:35 EDT",
   "days": {
     "20260314": {
       "date": "Saturday, March 14",
@@ -608,6 +608,20 @@
           "kick_utc": "2026-03-17T20:00Z"
         },
         {
+          "league": "CONCACAF Champions Cup",
+          "time": "9:00 PM",
+          "match": "Alajuelense vs LAFC",
+          "source": "FS1",
+          "kick_utc": "2026-03-18T01:00Z"
+        },
+        {
+          "league": "CONCACAF Champions Cup",
+          "time": "11:00 PM",
+          "match": "Cruz Azul vs Monterrey",
+          "source": "FS1",
+          "kick_utc": "2026-03-18T03:00Z"
+        },
+        {
           "league": "EFL Championship",
           "time": "3:45 PM",
           "match": "Watford vs Wrexham",
@@ -653,6 +667,34 @@
           "match": "Braga vs Ferencvaros",
           "source": "CBS / Paramount+",
           "kick_utc": "2026-03-18T15:30Z"
+        },
+        {
+          "league": "CONCACAF Champions Cup",
+          "time": "7:00 PM",
+          "match": "Inter Miami CF vs Nashville SC",
+          "source": "FS1",
+          "kick_utc": "2026-03-18T23:00Z"
+        },
+        {
+          "league": "CONCACAF Champions Cup",
+          "time": "9:00 PM",
+          "match": "Am\u00e9rica vs Philadelphia Union",
+          "source": "FS1",
+          "kick_utc": "2026-03-19T01:00Z"
+        },
+        {
+          "league": "CONCACAF Champions Cup",
+          "time": "11:00 PM",
+          "match": "Seattle Sounders FC vs Vancouver Whitecaps",
+          "source": "FS1",
+          "kick_utc": "2026-03-19T03:00Z"
+        },
+        {
+          "league": "CONCACAF Champions Cup",
+          "time": "11:00 PM",
+          "match": "Toluca vs San Diego FC",
+          "source": "FS2",
+          "kick_utc": "2026-03-19T03:00Z"
         },
         {
           "league": "EFL Championship",
