@@ -171,6 +171,14 @@ def date_range(days: int):
         yield d, d.strftime("%Y%m%d")
 
 
+def lookback_date_range(days: int):
+    """Yields date strings for the past N days (not including today)."""
+    today = datetime.now(TIMEZONE).date()
+    for i in range(1, days + 1):
+        d = today - timedelta(days=i)
+        yield d.strftime("%Y%m%d")
+
+
 def prune_today_games(games: list) -> list:
     now = datetime.now(TIMEZONE)
     kept = []
@@ -250,7 +258,7 @@ def slug_to_round_label(slug: str) -> str:
 
 # ─── ESPN API Scraper ─────────────────────────────────────────────────────────
 
-def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str, seen_ties: dict) -> list:
+def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> list:
     """Fetch games for one league on one date via ESPN's scoreboard API."""
     url = (
         f"https://site.api.espn.com/apis/site/v2/sports/soccer"
@@ -375,15 +383,8 @@ def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str, see
                 elif base_label == "Final":
                     round_label = "Final"
                 else:
-                    # Determine leg by tracking ties seen in this round
-                    # Key: frozenset of team names + slug (safe — knockout only)
-                    tie_key = frozenset([home_name, away_name, slug])
-                    if tie_key not in seen_ties:
-                        seen_ties[tie_key] = 1
-                    else:
-                        seen_ties[tie_key] += 1
-                    leg_num = seen_ties[tie_key]
-                    round_label = f"{base_label} · Leg {leg_num}"
+                    # Store base label only — leg number assigned in main() second pass
+                    round_label = base_label
 
             game = {
                 "league":   league_name,
@@ -529,12 +530,36 @@ def main():
 
     for slug, league_name in ESPN_LEAGUES.items():
         print(f"Fetching {league_name}...")
-        seen_ties = {}  # reset per league, persists across all dates for that league
+        # First pass: collect all games across forward-looking dates
+        all_league_games = []  # list of (date_str, game)
         for date_obj, date_str in dates:
-            games = fetch_espn_league_day(slug, league_name, date_str, seen_ties)
+            games = fetch_espn_league_day(slug, league_name, date_str)
             if games:
                 print(f"  {date_str}: {len(games)} games")
-            schedule[date_str]["games"].extend(games)
+            for g in games:
+                all_league_games.append((date_str, g))
+
+        # For knockout leagues, look back 30 days to find rounds already played
+        # This tells us if games in our window are Leg 1 or Leg 2
+        knockout_slugs_seen = set()
+        if league_name in {"UEFA Champions League", "UEFA Europa League",
+                           "UEFA Europa Conference League", "CONCACAF Champions Cup"}:
+            for past_date_str in lookback_date_range(30):
+                past_games = fetch_espn_league_day(slug, league_name, past_date_str)
+                for g in past_games:
+                    rl = g.get("round_label", "")
+                    if rl and rl not in ("Group", "Final"):
+                        knockout_slugs_seen.add(rl)
+
+        # Second pass: assign leg numbers
+        # If a round slug was already seen in the lookback, current games are Leg 2
+        for date_str, g in all_league_games:
+            rl = g.get("round_label", "")
+            if rl and rl not in ("Group", "Final") and "·" not in rl:
+                leg = 2 if rl in knockout_slugs_seen else 1
+                g["round_label"] = f"{rl} · Leg {leg}"
+
+            schedule[date_str]["games"].append(g)
 
     # Conference League via scoreboard scraper (no valid JSON API slug exists)
     print("Fetching UEFA Europa Conference League (scoreboard scrape)...")
