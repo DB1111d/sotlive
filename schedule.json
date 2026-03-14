@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-14 11:18 EDT",
+  "updated": "2026-03-14 12:33 EDT",
   "days": {
     "20260314": {
       "date": "Saturday, March 14",
@@ -122,27 +122,6 @@
           "match": "LAFC vs St. Louis CITY SC",
           "source": "Apple TV",
           "kick_utc": "2026-03-15T02:30Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "8:30 AM",
-          "match": "Coventry City vs Southampton",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-14T12:30Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "8:30 AM",
-          "match": "Middlesbrough vs Bristol City",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-14T12:30Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "8:30 AM",
-          "match": "Oxford United vs Charlton Athletic",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-14T12:30Z"
         },
         {
           "league": "EFL Championship",
