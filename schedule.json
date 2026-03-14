@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-14 15:17 EDT",
+  "updated": "2026-03-14 16:29 EDT",
   "days": {
     "20260314": {
       "date": "Saturday, March 14",
@@ -143,13 +143,6 @@
           "match": "Real Madrid vs Elche",
           "source": "ESPN+",
           "kick_utc": "2026-03-14T20:00Z"
-        },
-        {
-          "league": "Dutch Eredivisie",
-          "time": "11:30 AM",
-          "match": "FC Volendam vs Fortuna Sittard",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-14T15:30Z"
         },
         {
           "league": "Dutch Eredivisie",
