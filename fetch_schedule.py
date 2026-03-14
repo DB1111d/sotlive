@@ -236,6 +236,11 @@ def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> 
         print(f"    API error for {league_slug} on {date_str}: {e}")
         return []
 
+    DEBUG_LEAGUES = {
+        "UEFA Champions League", "UEFA Europa League",
+        "UEFA Europa Conference League", "CONCACAF Champions Cup"
+    }
+
     games = []
     for event in data.get("events", []):
         try:
@@ -244,6 +249,19 @@ def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> 
             competitors = competition.get("competitors", [])
             if len(competitors) < 2:
                 continue
+
+            # Debug: dump round/leg/series fields for knockout leagues
+            if league_name in DEBUG_LEAGUES:
+                print(f"  [DEBUG] event.name={event.get('name')}")
+                print(f"  [DEBUG] event.shortName={event.get('shortName')}")
+                print(f"  [DEBUG] season.slug={event.get('season', {}).get('slug')}")
+                print(f"  [DEBUG] season.type.name={event.get('season', {}).get('type', {}).get('name')}")
+                print(f"  [DEBUG] competition.notes={competition.get('notes')}")
+                print(f"  [DEBUG] competition.series={competition.get('series')}")
+                print(f"  [DEBUG] competition.type={competition.get('type')}")
+                print(f"  [DEBUG] event.week={event.get('week')}")
+                print(f"  [DEBUG] event.links_names={[l.get('text') for l in event.get('links', [])]}")
+                print("  ---")
 
             # Home/away
             home = next((c for c in competitors if c.get("homeAway") == "home"), competitors[0])
