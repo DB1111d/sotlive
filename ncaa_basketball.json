@@ -1,0 +1,341 @@
+{
+  "updated": "2026-03-14 18:18 EDT",
+  "days": {
+    "20260314": {
+      "date": "Saturday, March 14",
+      "games": [
+        {
+          "conference": "Independent",
+          "tourney_round": null,
+          "time": "3:00 PM",
+          "match": "South Florida Bulls vs Charlotte 49ers",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-14T19:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": null,
+          "time": "3:30 PM",
+          "match": "Arkansas Razorbacks vs Ole Miss Rebels",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-14T19:30Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": null,
+          "time": "3:30 PM",
+          "match": "UCLA Bruins vs Purdue Boilermakers",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-14T19:30Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": null,
+          "time": "4:00 PM",
+          "match": "VCU Rams vs Saint Joseph's Hawks",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-14T20:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": null,
+          "time": "5:40 PM",
+          "match": "Wichita State Shockers vs Tulsa Golden Hurricane",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-14T21:40Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": null,
+          "time": "6:00 PM",
+          "match": "Utah State Aggies vs San Diego State Aztecs",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-14T22:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": null,
+          "time": "6:10 PM",
+          "match": "Arizona Wildcats vs Houston Cougars",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-14T22:10Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": null,
+          "time": "6:30 PM",
+          "match": "St. John's Red Storm vs UConn Huskies",
+          "source": "FOX",
+          "kick_utc": "2026-03-14T22:30Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": null,
+          "time": "7:30 PM",
+          "match": "Southern Jaguars vs Prairie View A&M Panthers",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-14T23:30Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": null,
+          "time": "8:00 PM",
+          "match": "Akron Zips vs Toledo Rockets",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-15T00:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": null,
+          "time": "8:30 PM",
+          "match": "Duke Blue Devils vs Virginia Cavaliers",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-15T00:30Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": null,
+          "time": "8:30 PM",
+          "match": "Louisiana Tech Bulldogs vs Kennesaw State Owls",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-15T00:30Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": null,
+          "time": "10:00 PM",
+          "match": "UC Irvine Anteaters vs Hawai'i Rainbow Warriors",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-15T02:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": null,
+          "time": "11:59 PM",
+          "match": "Utah Valley Wolverines vs California Baptist Lancers",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-15T03:59Z"
+        }
+      ]
+    },
+    "20260315": {
+      "date": "Sunday, March 15",
+      "games": [
+        {
+          "conference": "Independent",
+          "tourney_round": null,
+          "time": "12:00 PM",
+          "match": "Yale Bulldogs vs Pennsylvania Quakers",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-15T16:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": null,
+          "time": "1:00 PM",
+          "match": "Arkansas Razorbacks vs Vanderbilt Commodores",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-15T17:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": null,
+          "time": "1:00 PM",
+          "match": "VCU Rams vs Dayton Flyers",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-15T17:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": null,
+          "time": "3:15 PM",
+          "match": "South Florida Bulls vs TBD",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-15T19:15Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": null,
+          "time": "3:30 PM",
+          "match": "Michigan Wolverines vs Purdue Boilermakers",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-15T19:30Z"
+        }
+      ]
+    },
+    "20260316": {
+      "date": "Monday, March 16",
+      "games": []
+    },
+    "20260317": {
+      "date": "Tuesday, March 17",
+      "games": [
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "12:00 AM",
+          "match": "TBD vs TBD",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-17T04:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "12:00 AM",
+          "match": "TBD vs TBD",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-17T04:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "12:00 AM",
+          "match": "TBD vs TBD",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-17T04:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "12:00 AM",
+          "match": "TBD vs TBD",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-17T04:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "12:00 AM",
+          "match": "TBD vs TBD",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-17T04:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "12:00 AM",
+          "match": "TBD vs TBD",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-17T04:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "12:00 AM",
+          "match": "TBD vs TBD",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-17T04:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "12:00 AM",
+          "match": "TBD vs TBD",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-17T04:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "12:00 AM",
+          "match": "TBD vs TBD",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-17T04:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "12:00 AM",
+          "match": "TBD vs TBD",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-17T04:00Z"
+        }
+      ]
+    },
+    "20260318": {
+      "date": "Wednesday, March 18",
+      "games": [
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "12:00 AM",
+          "match": "TBD vs TBD",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-18T04:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "12:00 AM",
+          "match": "TBD vs TBD",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-18T04:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "12:00 AM",
+          "match": "TBD vs TBD",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-18T04:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "12:00 AM",
+          "match": "TBD vs TBD",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-18T04:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "12:00 AM",
+          "match": "TBD vs TBD",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-18T04:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "12:00 AM",
+          "match": "TBD vs TBD",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-18T04:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "12:00 AM",
+          "match": "TBD vs TBD",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-18T04:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "12:00 AM",
+          "match": "TBD vs TBD",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-18T04:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "12:00 AM",
+          "match": "TBD vs TBD",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-18T04:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "12:00 AM",
+          "match": "TBD vs TBD",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-18T04:00Z"
+        }
+      ]
+    }
+  }
+}
