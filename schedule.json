@@ -1,10 +1,6 @@
 {
-  "updated": "2026-03-13 22:06 EDT",
+  "updated": "2026-03-14 01:10 EDT",
   "days": {
-    "20260313": {
-      "date": "Friday, March 13",
-      "games": []
-    },
     "20260314": {
       "date": "Saturday, March 14",
       "games": [
@@ -617,6 +613,53 @@
           "match": "Watford vs Wrexham",
           "source": "ESPN+",
           "kick_utc": "2026-03-17T19:45Z"
+        }
+      ]
+    },
+    "20260318": {
+      "date": "Wednesday, March 18",
+      "games": [
+        {
+          "league": "UEFA Champions League",
+          "time": "1:45 PM",
+          "match": "Barcelona vs Newcastle United",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-18T17:45Z"
+        },
+        {
+          "league": "UEFA Champions League",
+          "time": "4:00 PM",
+          "match": "Bayern Munich vs Atalanta",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-18T20:00Z"
+        },
+        {
+          "league": "UEFA Champions League",
+          "time": "4:00 PM",
+          "match": "Liverpool vs Galatasaray",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-18T20:00Z"
+        },
+        {
+          "league": "UEFA Champions League",
+          "time": "4:00 PM",
+          "match": "Tottenham Hotspur vs Atl\u00e9tico Madrid",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-18T20:00Z"
+        },
+        {
+          "league": "UEFA Europa League",
+          "time": "11:30 AM",
+          "match": "Braga vs Ferencvaros",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-18T15:30Z"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "3:45 PM",
+          "match": "Southampton vs Norwich City",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-18T19:45Z"
         }
       ]
     }
