@@ -9,8 +9,3 @@ Browse daily upcoming matches, broadcast times, and competition fixtures.
 
 This project is not affiliated with, endorsed by, or sponsored by any football league, club, or broadcast provider. All names and trademarks belong to their respective owners. Schedule data is provided as-is with no guarantees of accuracy.
 
----
-
-## Contact
-
-Have a suggestion or spotted an issue? Use the [Get in Touch](https://db1111d.github.io/sotlive/) form on the site.
