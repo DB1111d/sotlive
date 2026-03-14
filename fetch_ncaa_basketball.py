@@ -108,7 +108,48 @@ TOURNEY_ROUND_ORDER = [
     "National Championship",
 ]
 
-# Conference display order — power conferences first, mid-majors after
+# ESPN conferenceId → conference name
+# These are ESPN's internal numeric IDs for each D-I conference
+CONFERENCE_ID_MAP = {
+    1:   "ACC",
+    2:   "Big East",
+    3:   "Big 12",
+    4:   "Pac-12",
+    5:   "Big Ten",
+    6:   "SEC",
+    7:   "American Athletic",
+    8:   "Mountain West",
+    9:   "Missouri Valley",
+    10:  "West Coast",
+    11:  "Atlantic 10",
+    12:  "Conference USA",
+    13:  "MAC",
+    14:  "Sun Belt",
+    15:  "Big Sky",
+    16:  "Big South",
+    17:  "Big West",
+    18:  "CAA",
+    19:  "Horizon",
+    20:  "Ivy League",
+    21:  "MAAC",
+    22:  "MEAC",
+    23:  "NEC",
+    24:  "OVC",
+    25:  "Patriot",
+    26:  "Pioneer",
+    27:  "Southern",
+    28:  "Southland",
+    29:  "SWAC",
+    30:  "Summit",
+    31:  "WAC",
+    32:  "Big East",
+    49:  "America East",
+    50:  "Atlantic Sun",
+    51:  "Big South",
+    52:  "Colonial",
+    62:  "WAC",
+    63:  "Independent",
+}
 CONFERENCE_ORDER = [
     "ACC",
     "Big 12",
@@ -268,23 +309,12 @@ def fetch_ncaa_day(date_str: str) -> list:
         return []
 
     games = []
-    debug_printed = False  # Print one raw event structure to help diagnose conference field
     for event in data.get("events", []):
         try:
             competition = event["competitions"][0]
             competitors = competition.get("competitors", [])
             if len(competitors) < 2:
                 continue
-
-            # Debug: print raw conference-related fields from first event
-            if not debug_printed:
-                debug_printed = True
-                home_debug = next((c for c in competitors if c.get("homeAway") == "home"), competitors[0])
-                print(f"  [DEBUG] event.groups: {event.get('groups')}")
-                print(f"  [DEBUG] event.season: {event.get('season')}")
-                print(f"  [DEBUG] home team keys: {list(home_debug.get('team', {}).keys())}")
-                print(f"  [DEBUG] home team groups: {home_debug.get('team', {}).get('groups')}")
-                print(f"  [DEBUG] home team conferenceId: {home_debug.get('team', {}).get('conferenceId')}")
 
             # Teams — TBD for unset bracket slots
             home       = next((c for c in competitors if c.get("homeAway") == "home"), competitors[0])
@@ -301,44 +331,12 @@ def fetch_ncaa_day(date_str: str) -> list:
             tourney_round = parse_tourney_round(event)
 
             # Conference — only matters when not in the tournament
-            # ESPN stores conference on the team object, not the event
+            # ESPN stores conference as a numeric conferenceId on the team object
             conference = "Independent"
             if tourney_round is None:
-                # Try event-level groups first
-                groups = event.get("groups", {})
-                if isinstance(groups, dict):
-                    conf_name = groups.get("name", "")
-                    if conf_name:
-                        if " - " in conf_name:
-                            conf_name = conf_name.split(" - ", 1)[-1].strip()
-                        conference = conf_name
-
-                # Fall back to home team's conference name
-                if conference == "Independent":
-                    for conf_field in ["conferenceId", "conference"]:
-                        val = home.get("team", {}).get(conf_field, "")
-                        if val:
-                            conference = str(val)
-                            break
-
-                # Fall back to checking links/groups on the team object
-                if conference == "Independent":
-                    team_groups = home.get("team", {}).get("groups", {})
-                    if isinstance(team_groups, dict):
-                        conf_name = team_groups.get("name", "")
-                        if conf_name:
-                            if " - " in conf_name:
-                                conf_name = conf_name.split(" - ", 1)[-1].strip()
-                            conference = conf_name
-
-                # Last resort — check event notes for conference name
-                if conference == "Independent":
-                    for note in event.get("notes", []):
-                        if isinstance(note, dict):
-                            headline = note.get("headline", "")
-                            if headline:
-                                conference = headline
-                                break
+                conf_id = home.get("team", {}).get("conferenceId")
+                if conf_id is not None:
+                    conference = CONFERENCE_ID_MAP.get(int(conf_id), f"Conference {conf_id}")
 
             # Time
             raw_date = event.get("date", "")
