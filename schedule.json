@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-14 12:33 EDT",
+  "updated": "2026-03-14 14:40 EDT",
   "days": {
     "20260314": {
       "date": "Saturday, March 14",
@@ -174,13 +174,6 @@
         },
         {
           "league": "Serie A",
-          "time": "10:00 AM",
-          "match": "Internazionale vs Atalanta",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-14T14:00Z"
-        },
-        {
-          "league": "Serie A",
           "time": "1:00 PM",
           "match": "Napoli vs Lecce",
           "source": "CBS / Paramount+",
@@ -195,45 +188,10 @@
         },
         {
           "league": "German Bundesliga",
-          "time": "10:30 AM",
-          "match": "Bayer Leverkusen vs Bayern Munich",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-14T14:30Z"
-        },
-        {
-          "league": "German Bundesliga",
-          "time": "10:30 AM",
-          "match": "Borussia Dortmund vs FC Augsburg",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-14T14:30Z"
-        },
-        {
-          "league": "German Bundesliga",
-          "time": "10:30 AM",
-          "match": "Eintracht Frankfurt vs 1. FC Heidenheim 1846",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-14T14:30Z"
-        },
-        {
-          "league": "German Bundesliga",
-          "time": "10:30 AM",
-          "match": "TSG Hoffenheim vs VfL Wolfsburg",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-14T14:30Z"
-        },
-        {
-          "league": "German Bundesliga",
           "time": "1:30 PM",
           "match": "Hamburg SV vs FC Cologne",
           "source": "ESPN+",
           "kick_utc": "2026-03-14T17:30Z"
-        },
-        {
-          "league": "La Liga",
-          "time": "9:00 AM",
-          "match": "Girona vs Athletic Club",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-14T13:00Z"
         },
         {
           "league": "La Liga",
