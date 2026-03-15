@@ -348,7 +348,7 @@ function buildNetflixPanel(data) {
   let html = `<div class="netflix-week-label">${data.week_label || ''}</div>`;
 
   for (const [groupName, shows] of Object.entries(groups)) {
-    html += `<div class="league-group"><div class="league-label">${groupName}</div>`;
+    html += `<div class="league-group"><div class="netflix-group-label">${groupName}</div>`;
     for (const show of shows) {
       const genres  = show.genres && show.genres.length ? show.genres.join(', ') : '';
       const genreEl = genres ? `<div class="netflix-genres">${genres}</div>` : '';
@@ -429,6 +429,10 @@ async function switchSport(sport) {
   const contentEl = document.getElementById('content');
   tabsEl.innerHTML    = '';
   contentEl.innerHTML = '';
+
+  // Always reset about panel state when switching sports
+  document.getElementById('about-panel').classList.remove('active');
+  contentEl.style.display = '';
 
   // Hide pickers — netflix doesn't use them
   hideTzPicker();
