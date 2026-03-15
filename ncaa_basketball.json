@@ -1,59 +1,6 @@
 {
-  "updated": "2026-03-14 22:32 EDT",
+  "updated": "2026-03-15 01:28 EDT",
   "days": {
-    "20260314": {
-      "date": "Saturday, March 14",
-      "games": [
-        {
-          "conference": "Big East",
-          "tourney_round": null,
-          "time": "8:40 PM",
-          "match": "Duke Blue Devils vs Virginia Cavaliers",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-15T00:40Z"
-        },
-        {
-          "conference": "Atlantic 10",
-          "tourney_round": null,
-          "time": "8:30 PM",
-          "match": "Louisiana Tech Bulldogs vs Kennesaw State Owls",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-15T00:30Z"
-        },
-        {
-          "conference": "Missouri Valley",
-          "tourney_round": null,
-          "time": "10:05 PM",
-          "match": "UC Irvine Anteaters vs Hawai'i Rainbow Warriors",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-15T02:05Z"
-        },
-        {
-          "conference": "Sun Belt",
-          "tourney_round": null,
-          "time": "8:00 PM",
-          "match": "Akron Zips vs Toledo Rockets",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-15T00:00Z"
-        },
-        {
-          "conference": "Pioneer",
-          "tourney_round": null,
-          "time": "7:30 PM",
-          "match": "Southern Jaguars vs Prairie View A&M Panthers",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-14T23:30Z"
-        },
-        {
-          "conference": "Summit",
-          "tourney_round": null,
-          "time": "11:59 PM",
-          "match": "Utah Valley Wolverines vs California Baptist Lancers",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-15T03:59Z"
-        }
-      ]
-    },
     "20260315": {
       "date": "Sunday, March 15",
       "games": [
@@ -109,6 +56,10 @@
     },
     "20260318": {
       "date": "Wednesday, March 18",
+      "games": []
+    },
+    "20260319": {
+      "date": "Thursday, March 19",
       "games": []
     }
   }

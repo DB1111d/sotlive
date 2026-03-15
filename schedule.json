@@ -1,144 +1,6 @@
 {
-  "updated": "2026-03-14 22:32 EDT",
+  "updated": "2026-03-15 01:28 EDT",
   "days": {
-    "20260314": {
-      "date": "Saturday, March 14",
-      "games": [
-        {
-          "league": "MLS",
-          "time": "7:30 PM",
-          "match": "Charlotte FC vs Inter Miami CF",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-14T23:30Z"
-        },
-        {
-          "league": "MLS",
-          "time": "7:30 PM",
-          "match": "New York City FC vs Colorado Rapids",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-14T23:30Z"
-        },
-        {
-          "league": "MLS",
-          "time": "7:30 PM",
-          "match": "Orlando City SC vs CF Montr\u00e9al",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-14T23:30Z"
-        },
-        {
-          "league": "MLS",
-          "time": "8:30 PM",
-          "match": "Chicago Fire FC vs D.C. United",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-15T00:30Z"
-        },
-        {
-          "league": "MLS",
-          "time": "8:30 PM",
-          "match": "FC Dallas vs San Diego FC",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-15T00:30Z"
-        },
-        {
-          "league": "MLS",
-          "time": "8:30 PM",
-          "match": "Houston Dynamo FC vs Portland Timbers",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-15T00:30Z"
-        },
-        {
-          "league": "MLS",
-          "time": "9:30 PM",
-          "match": "LA Galaxy vs Sporting Kansas City",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-15T01:30Z"
-        },
-        {
-          "league": "MLS",
-          "time": "9:30 PM",
-          "match": "Real Salt Lake vs Austin FC",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-15T01:30Z"
-        },
-        {
-          "league": "MLS",
-          "time": "10:30 PM",
-          "match": "LAFC vs St. Louis CITY SC",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-15T02:30Z"
-        },
-        {
-          "league": "USL Championship",
-          "time": "7:00 PM",
-          "match": "Lexington vs Sacramento Republic FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-14T23:00Z"
-        },
-        {
-          "league": "USL Championship",
-          "time": "8:00 PM",
-          "match": "FC Tulsa vs San Antonio FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-15T00:00Z"
-        },
-        {
-          "league": "USL Championship",
-          "time": "10:00 PM",
-          "match": "Monterey Bay vs El Paso Locomotive FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-15T02:00Z"
-        },
-        {
-          "league": "USL Championship",
-          "time": "10:00 PM",
-          "match": "Oakland Roots vs New Mexico United",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-15T02:00Z"
-        },
-        {
-          "league": "USL Championship",
-          "time": "10:00 PM",
-          "match": "Phoenix Rising FC vs Orange County SC",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-15T02:00Z"
-        },
-        {
-          "league": "USL League One",
-          "time": "7:00 PM",
-          "match": "FC Naples vs Corpus Christi FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-14T23:00Z"
-        },
-        {
-          "league": "USL League One",
-          "time": "7:00 PM",
-          "match": "Greenville Triumph vs Chattanooga Red Wolves",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-14T23:00Z"
-        },
-        {
-          "league": "USL League One",
-          "time": "7:00 PM",
-          "match": "One Knoxville vs Forward Madison FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-14T23:00Z"
-        },
-        {
-          "league": "USL League One",
-          "time": "7:00 PM",
-          "match": "Westchester SC vs Charlotte Independence",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-14T23:00Z"
-        },
-        {
-          "league": "USL League One",
-          "time": "7:30 PM",
-          "match": "Sarasota Paradise vs Fort Wayne",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-14T23:30Z"
-        }
-      ]
-    },
     "20260315": {
       "date": "Sunday, March 15",
       "games": [
@@ -486,6 +348,83 @@
           "match": "Southampton vs Norwich City",
           "source": "CBS / Paramount+",
           "kick_utc": "2026-03-18T19:45Z"
+        }
+      ]
+    },
+    "20260319": {
+      "date": "Thursday, March 19",
+      "games": [
+        {
+          "league": "UEFA Europa League",
+          "time": "1:45 PM",
+          "match": "FC Midtjylland vs Nottingham Forest",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-19T17:45Z",
+          "round_label": "Round of 16 \u00b7 Leg 2"
+        },
+        {
+          "league": "UEFA Europa League",
+          "time": "1:45 PM",
+          "match": "Lyon vs Celta Vigo",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-19T17:45Z",
+          "round_label": "Round of 16 \u00b7 Leg 2"
+        },
+        {
+          "league": "UEFA Europa League",
+          "time": "1:45 PM",
+          "match": "SC Freiburg vs Racing Genk",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-19T17:45Z",
+          "round_label": "Round of 16 \u00b7 Leg 2"
+        },
+        {
+          "league": "UEFA Europa League",
+          "time": "4:00 PM",
+          "match": "AS Roma vs Bologna",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-19T20:00Z",
+          "round_label": "Round of 16 \u00b7 Leg 2"
+        },
+        {
+          "league": "UEFA Europa League",
+          "time": "4:00 PM",
+          "match": "Aston Villa vs Lille",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-19T20:00Z",
+          "round_label": "Round of 16 \u00b7 Leg 2"
+        },
+        {
+          "league": "UEFA Europa League",
+          "time": "4:00 PM",
+          "match": "FC Porto vs VfB Stuttgart",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-19T20:00Z",
+          "round_label": "Round of 16 \u00b7 Leg 2"
+        },
+        {
+          "league": "UEFA Europa League",
+          "time": "4:00 PM",
+          "match": "Real Betis vs Panathinaikos",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-19T20:00Z",
+          "round_label": "Round of 16 \u00b7 Leg 2"
+        },
+        {
+          "league": "CONCACAF Champions Cup",
+          "time": "7:00 PM",
+          "match": "Mount Pleasant FA vs LA Galaxy",
+          "source": "FS1",
+          "kick_utc": "2026-03-19T23:00Z",
+          "round_label": "Round of 16 \u00b7 Leg 2"
+        },
+        {
+          "league": "CONCACAF Champions Cup",
+          "time": "9:00 PM",
+          "match": "Tigres UANL vs FC Cincinnati",
+          "source": "FS1",
+          "kick_utc": "2026-03-20T01:00Z",
+          "round_label": "Round of 16 \u00b7 Leg 2"
         }
       ]
     }
