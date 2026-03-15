@@ -330,7 +330,47 @@ function buildNcaaPanel(key, day) {
   return panel;
 }
 
-// ── Tab switching ─────────────────────────────────────────────────
+// ── Render a Netflix panel ────────────────────────────────────────
+function buildNetflixPanel(data) {
+  const panel = document.createElement('div');
+  panel.className = 'day-panel';
+  panel.id = 'panel-netflix';
+
+  const groups = data.groups || {};
+  const keys   = Object.keys(groups);
+
+  if (keys.length === 0) {
+    panel.dataset.empty = 'true';
+    panel.innerHTML = '<div class="empty"><div class="empty-icon">🎬</div>No new releases this week.</div>';
+    return panel;
+  }
+
+  let html = `<div class="netflix-week-label">${data.week_label || ''}</div>`;
+
+  for (const [groupName, shows] of Object.entries(groups)) {
+    html += `<div class="league-group"><div class="league-label">${groupName}</div>`;
+    for (const show of shows) {
+      const genres  = show.genres && show.genres.length ? show.genres.join(', ') : '';
+      const genreEl = genres ? `<div class="netflix-genres">${genres}</div>` : '';
+      const overviewEl = show.overview
+        ? `<div class="netflix-overview">${show.overview}</div>`
+        : '';
+      html += `
+        <div class="netflix-card">
+          <div class="netflix-card-header">
+            <span class="netflix-title">${show.title}</span>
+            <span class="netflix-date">${show.added_date || ''}</span>
+          </div>
+          ${genreEl}
+          ${overviewEl}
+        </div>`;
+    }
+    html += `</div>`;
+  }
+
+  panel.innerHTML = html;
+  return panel;
+}
 function switchTab(key) {
   const prefix = currentSport === 'ncaa' ? 'ncaa-panel' : 'panel';
 
@@ -390,12 +430,38 @@ async function switchSport(sport) {
   tabsEl.innerHTML    = '';
   contentEl.innerHTML = '';
 
-  // Reset filters
+  // Hide pickers — netflix doesn't use them
   hideTzPicker();
   hideLeagueFilter();
   resetLeagueFilter();
 
-  // Load the correct JSON
+  // Netflix is a completely different layout — no day tabs
+  if (sport === 'netflix') {
+    let data;
+    try {
+      const res = await fetch('netflix.json?v=' + Date.now());
+      data = await res.json();
+    } catch (e) {
+      contentEl.innerHTML =
+        '<div class="empty"><div class="empty-icon">⚠️</div>Whoopsies — we\'re working to get releases shown.</div>';
+      return;
+    }
+
+    const panel = buildNetflixPanel(data);
+    panel.classList.add('active');
+    contentEl.appendChild(panel);
+
+    // About tab only
+    const aboutBtn = document.createElement('button');
+    aboutBtn.className = 'tab';
+    aboutBtn.id = 'about-tab';
+    aboutBtn.textContent = 'About';
+    aboutBtn.addEventListener('click', switchToAbout);
+    tabsEl.appendChild(aboutBtn);
+    return;
+  }
+
+  // Load the correct JSON for sports
   const file = sport === 'ncaa' ? 'ncaa_basketball.json' : 'schedule.json';
   let data;
   try {
@@ -407,7 +473,7 @@ async function switchSport(sport) {
     return;
   }
 
-  // Build tabs and panels for the selected sport
+  // Build tabs and panels for sports
   const dateKeys  = Object.keys(data.days);
   let firstActive = true;
 
