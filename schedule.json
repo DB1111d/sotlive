@@ -1,23 +1,9 @@
 {
-  "updated": "2026-03-14 19:49 EDT",
+  "updated": "2026-03-14 22:32 EDT",
   "days": {
     "20260314": {
       "date": "Saturday, March 14",
       "games": [
-        {
-          "league": "Premier League",
-          "time": "4:00 PM",
-          "match": "West Ham United vs Manchester City",
-          "source": "USA Network",
-          "kick_utc": "2026-03-14T20:00Z"
-        },
-        {
-          "league": "MLS",
-          "time": "6:15 PM",
-          "match": "Columbus Crew vs Nashville SC",
-          "source": "FS1 \u00b7 Apple TV",
-          "kick_utc": "2026-03-14T22:15Z"
-        },
         {
           "league": "MLS",
           "time": "7:30 PM",
@@ -80,48 +66,6 @@
           "match": "LAFC vs St. Louis CITY SC",
           "source": "Apple TV",
           "kick_utc": "2026-03-15T02:30Z"
-        },
-        {
-          "league": "La Liga",
-          "time": "4:00 PM",
-          "match": "Real Madrid vs Elche",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-14T20:00Z"
-        },
-        {
-          "league": "Dutch Eredivisie",
-          "time": "4:00 PM",
-          "match": "Ajax Amsterdam vs Sparta Rotterdam",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-14T20:00Z"
-        },
-        {
-          "league": "USL Championship",
-          "time": "4:00 PM",
-          "match": "Detroit City FC vs Brooklyn FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-14T20:00Z"
-        },
-        {
-          "league": "USL Championship",
-          "time": "4:00 PM",
-          "match": "Louisville City FC vs Miami FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-14T20:00Z"
-        },
-        {
-          "league": "USL Championship",
-          "time": "4:00 PM",
-          "match": "Rhode Island FC vs Sporting JAX",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-14T20:00Z"
-        },
-        {
-          "league": "USL Championship",
-          "time": "5:00 PM",
-          "match": "Colorado Springs Switchbacks FC vs Las Vegas Lights FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-14T21:00Z"
         },
         {
           "league": "USL Championship",
