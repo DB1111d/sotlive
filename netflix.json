@@ -1,5 +1,115 @@
 {
-  "updated": "2026-03-15 08:34 EDT",
+  "updated": "2026-03-15 08:44 EDT",
   "week_label": "Week of March 15 \u2013 March 21",
-  "groups": {}
+  "groups": {
+    "TV Series": [
+      {
+        "type": "series",
+        "title": "Toriko",
+        "overview": "The world is full of deliciously deadly ingredients that the wealthiest appetites in existence can't wait to devour. Toriko, the legendary Gourmet Hunter, is ready and willing to track down the rarest...",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Animation"
+        ],
+        "added_date": "March 15",
+        "added_ts": 1773577373,
+        "link": "https://www.netflix.com/title/82107992/"
+      },
+      {
+        "type": "series",
+        "title": "Intervention",
+        "overview": "Emmy-Award winning series of profiles in addiction, with backstories and the current crisis that brings about family intervention and hope in rehab.",
+        "genres": [
+          "Documentary"
+        ],
+        "added_date": "March 15",
+        "added_ts": 1773573744,
+        "link": ""
+      },
+      {
+        "type": "series",
+        "title": "Cold Case Files: Murder in the Bayou",
+        "overview": "Narrated by Keith David, \"Cold Case Files: Murder In the Bayou\" features stories that the swamp threatened to swallow forever, but detectives managed to drag out into the light. These investigators, f...",
+        "genres": [
+          "Crime",
+          "Documentary"
+        ],
+        "added_date": "March 15",
+        "added_ts": 1773561274,
+        "link": ""
+      },
+      {
+        "type": "series",
+        "title": "Incredible Northern Vets",
+        "overview": "Follow the adventures of three Indigenous veterinarians across western Canada as they keep pets and wildlife healthy and happy.",
+        "genres": [
+          "Documentary",
+          "Reality"
+        ],
+        "added_date": "March 15",
+        "added_ts": 1773560161,
+        "link": ""
+      },
+      {
+        "type": "series",
+        "title": "Ugly Betty",
+        "overview": "In the superficial world of high fashion, image is everything. Styles come and go, and the only constants are the super thin beauties who wear them. How can an ordinary girl from Queens possibly fit i...",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "added_date": "March 15",
+        "added_ts": 1773553683,
+        "link": ""
+      },
+      {
+        "type": "series",
+        "title": "Daughter of Fire",
+        "overview": "A woman returns to her town under a new identity to take revenge on those who tried to kill her.",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "added_date": "March 15",
+        "added_ts": 1773553095,
+        "link": ""
+      }
+    ],
+    "Movies": [
+      {
+        "type": "movie",
+        "title": "Gaslit by My Husband: The Morgan Metzer Story",
+        "overview": "A woman's ex-husband shows up minutes after a masked intruder has assaulted her in her home. His answers to the authorities don't seem to add up, which makes him the prime suspect in the attack.",
+        "genres": [
+          "Drama"
+        ],
+        "added_date": "March 15",
+        "added_ts": 1773577369,
+        "link": "https://www.netflix.com/title/82095255/"
+      },
+      {
+        "type": "movie",
+        "title": "Angel On The Clock",
+        "overview": "Una ni\u00f1a enferma desea detener el tiempo, pero este deseo la llevar\u00e1 a una aventura transicional.",
+        "genres": [
+          "Animation",
+          "Family"
+        ],
+        "added_date": "March 15",
+        "added_ts": 1773560238,
+        "link": ""
+      },
+      {
+        "type": "movie",
+        "title": "1938: When Mexico Recovered Its Oil",
+        "overview": "En 1938, L\u00e1zaro C\u00e1rdenas enfrenta el reto de expropiar la industria petrolera. El filme retrata tensiones entre gobierno, compa\u00f1\u00edas y pueblo, mostrando la unidad nacional que marc\u00f3 el rumbo de M\u00e9xico.",
+        "genres": [],
+        "added_date": "March 15",
+        "added_ts": 1773549146,
+        "link": ""
+      }
+    ]
+  }
 }
