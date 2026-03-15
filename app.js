@@ -455,7 +455,23 @@ async function switchSport(sport) {
     panel.classList.add('active');
     contentEl.appendChild(panel);
 
-    // About tab only
+    // "New This Week" tab — lets users return from About
+    const netflixHomeBtn = document.createElement('button');
+    netflixHomeBtn.className = 'tab active';
+    netflixHomeBtn.id = 'netflix-home-tab';
+    netflixHomeBtn.textContent = 'New This Week';
+    netflixHomeBtn.addEventListener('click', () => {
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      netflixHomeBtn.classList.add('active');
+      document.getElementById('about-panel').classList.remove('active');
+      contentEl.style.display = '';
+      document.getElementById('panel-netflix').classList.add('active');
+      hideTzPicker();
+      hideLeagueFilter();
+    });
+    tabsEl.appendChild(netflixHomeBtn);
+
+    // About tab
     const aboutBtn = document.createElement('button');
     aboutBtn.className = 'tab';
     aboutBtn.id = 'about-tab';
