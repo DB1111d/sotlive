@@ -96,30 +96,38 @@ def fetch_netflix_releases(from_ts: int, to_ts: int) -> list:
         print(f"  [DEBUG] Response keys: {list(data.keys())}")
         print(f"  [DEBUG] Raw: {str(data)[:500]}")
 
+        # Debug — show raw response
+        print(f"  [DEBUG] Response keys: {list(data.keys())}")
+        print(f"  [DEBUG] Raw: {str(data)[:500]}")
+
         changes  = data.get("changes", [])
+        shows    = data.get("shows", {})  # dict of showId -> show object
         has_more = data.get("hasMore", False)
         cursor   = data.get("nextCursor", None)
 
         print(f"  Got {len(changes)} changes (hasMore={has_more})")
 
         for change in changes:
-            show = change.get("show", {})
+            show_id = change.get("showId")
+            if not show_id:
+                continue
+
+            # Deduplicate
+            if show_id in seen_ids:
+                continue
+            seen_ids.add(show_id)
+
+            # Look up show details from the shows dict
+            show = shows.get(str(show_id), {})
             if not show:
                 continue
 
-            # Deduplicate by show id
-            show_id = show.get("id") or show.get("imdbId") or show.get("tmdbId")
-            if show_id and show_id in seen_ids:
-                continue
-            if show_id:
-                seen_ids.add(show_id)
-
-            show_type  = show.get("showType", "movie").lower()
+            show_type  = change.get("showType", show.get("showType", "movie")).lower()
             title      = show.get("title", "Unknown")
             overview   = show.get("overview", "")
             genres     = [g.get("name", "") for g in show.get("genres", [])]
             added_ts   = change.get("timestamp", 0)
-            added_date = datetime.fromtimestamp(added_ts, tz=TIMEZONE).strftime("%B %-d")
+            added_date = datetime.fromtimestamp(added_ts, tz=TIMEZONE).strftime("%B %-d") if added_ts else ""
 
             # Get Netflix deep link
             link = ""
