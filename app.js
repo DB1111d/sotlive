@@ -652,6 +652,19 @@ async function init() {
       populateLeagueFilter(leagues);
     }
   }
+
+  // Show/hide NCAA Men button based on whether any games exist
+  try {
+    const ncaaRes  = await fetch('ncaa_basketball.json?v=' + Date.now());
+    const ncaaData = await ncaaRes.json();
+    const hasGames = Object.values(ncaaData.days || {}).some(d => d.games && d.games.length > 0);
+    const ncaaBtn  = document.getElementById('sport-ncaa');
+    if (ncaaBtn) ncaaBtn.style.display = hasGames ? '' : 'none';
+  } catch (e) {
+    // If fetch fails just hide the button to be safe
+    const ncaaBtn = document.getElementById('sport-ncaa');
+    if (ncaaBtn) ncaaBtn.style.display = 'none';
+  }
 }
 
 init();
