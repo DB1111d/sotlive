@@ -1,0 +1,26 @@
+name: Update Netflix Releases
+on:
+  schedule:
+    - cron: '0 8 * * *'  # Runs once daily at 8am UTC (4am ET)
+  workflow_dispatch:
+jobs:
+  update-netflix:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run Netflix fetch
+        env:
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+        run: python fetch_netflix.py
+      - name: Commit updated netflix.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add netflix.json
+          git diff --cached --quiet || git commit -m "chore: update netflix releases $(date -u +'%Y-%m-%d')"
+          git push
