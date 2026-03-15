@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-15 12:34 EDT",
+  "updated": "2026-03-15 16:32 EDT",
   "days": {
     "20260315": {
       "date": "Sunday, March 15",
@@ -19,14 +19,6 @@
           "match": "Michigan Wolverines vs Purdue Boilermakers",
           "source": "CBS / Paramount+",
           "kick_utc": "2026-03-15T19:30Z"
-        },
-        {
-          "conference": "Conference USA",
-          "tourney_round": null,
-          "time": "12:00 PM",
-          "match": "Yale Bulldogs vs Pennsylvania Quakers",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-15T16:00Z"
         },
         {
           "conference": "NEC",

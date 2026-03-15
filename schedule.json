@@ -1,37 +1,9 @@
 {
-  "updated": "2026-03-15 12:34 EDT",
+  "updated": "2026-03-15 16:32 EDT",
   "days": {
     "20260315": {
       "date": "Sunday, March 15",
       "games": [
-        {
-          "league": "Premier League",
-          "time": "10:00 AM",
-          "match": "Crystal Palace vs Leeds United",
-          "source": "Peacock",
-          "kick_utc": "2026-03-15T14:00Z"
-        },
-        {
-          "league": "Premier League",
-          "time": "10:00 AM",
-          "match": "Manchester United vs Aston Villa",
-          "source": "USA Network",
-          "kick_utc": "2026-03-15T14:00Z"
-        },
-        {
-          "league": "Premier League",
-          "time": "10:00 AM",
-          "match": "Nottingham Forest vs Fulham",
-          "source": "USA Network \u00b7 Peacock",
-          "kick_utc": "2026-03-15T14:00Z"
-        },
-        {
-          "league": "Premier League",
-          "time": "12:30 PM",
-          "match": "Liverpool vs Tottenham Hotspur",
-          "source": "USA Network \u00b7 Peacock",
-          "kick_utc": "2026-03-15T16:30Z"
-        },
         {
           "league": "MLS",
           "time": "2:30 PM",
@@ -55,20 +27,6 @@
         },
         {
           "league": "Serie A",
-          "time": "10:00 AM",
-          "match": "Pisa vs Cagliari",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-15T14:00Z"
-        },
-        {
-          "league": "Serie A",
-          "time": "10:00 AM",
-          "match": "Sassuolo vs Bologna",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-15T14:00Z"
-        },
-        {
-          "league": "Serie A",
           "time": "1:00 PM",
           "match": "Como vs AS Roma",
           "source": "CBS / Paramount+",
@@ -83,38 +41,10 @@
         },
         {
           "league": "German Bundesliga",
-          "time": "10:30 AM",
-          "match": "Werder Bremen vs Mainz",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-15T14:30Z"
-        },
-        {
-          "league": "German Bundesliga",
-          "time": "12:30 PM",
-          "match": "SC Freiburg vs 1. FC Union Berlin",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-15T16:30Z"
-        },
-        {
-          "league": "German Bundesliga",
           "time": "2:30 PM",
           "match": "VfB Stuttgart vs RB Leipzig",
           "source": "ESPN+",
           "kick_utc": "2026-03-15T18:30Z"
-        },
-        {
-          "league": "La Liga",
-          "time": "9:00 AM",
-          "match": "Mallorca vs Espanyol",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-15T13:00Z"
-        },
-        {
-          "league": "La Liga",
-          "time": "11:15 AM",
-          "match": "Barcelona vs Sevilla",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-15T15:15Z"
         },
         {
           "league": "La Liga",
@@ -129,27 +59,6 @@
           "match": "Real Sociedad vs Osasuna",
           "source": "ESPN+",
           "kick_utc": "2026-03-15T20:00Z"
-        },
-        {
-          "league": "Dutch Eredivisie",
-          "time": "9:30 AM",
-          "match": "AZ Alkmaar vs Heracles Almelo",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-15T13:30Z"
-        },
-        {
-          "league": "Dutch Eredivisie",
-          "time": "9:30 AM",
-          "match": "Feyenoord Rotterdam vs Excelsior",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-15T13:30Z"
-        },
-        {
-          "league": "Dutch Eredivisie",
-          "time": "11:45 AM",
-          "match": "Go Ahead Eagles vs NAC Breda",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-15T15:45Z"
         },
         {
           "league": "USL League One",
