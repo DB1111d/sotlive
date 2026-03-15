@@ -410,8 +410,12 @@ function switchToAbout() {
   const tzSelect = document.getElementById('tz-select');
   if (tzSelect) tzSelect.disabled = true;
 
-  showLeagueFilter();
-  populateLeagueFilter([]);
+  if (currentSport === 'netflix') {
+    hideLeagueFilter();
+  } else {
+    showLeagueFilter();
+    populateLeagueFilter([]);
+  }
 }
 
 // ── Sport switching ───────────────────────────────────────────────
