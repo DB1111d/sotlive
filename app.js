@@ -348,15 +348,19 @@ function buildNetflixPanel(data) {
   let html = `<div class="netflix-week-label">${data.week_label || ''}</div>`;
 
   for (const [groupName, shows] of Object.entries(groups)) {
-    html += `<div class="league-group"><div class="netflix-group-label">${groupName}</div>`;
+    html += `<div class="league-group"><div class="netflix-group-label">${groupName}</div><div class="netflix-grid">`;
     for (const show of shows) {
       const genres  = show.genres && show.genres.length ? show.genres.join(', ') : '';
       const genreEl = genres ? `<div class="netflix-genres">${genres}</div>` : '';
       const overviewEl = show.overview
         ? `<div class="netflix-overview">${show.overview}</div>`
         : '';
-      html += `
-        <div class="netflix-card">
+      const posterEl = show.thumbnail
+        ? `<img class="netflix-poster" src="${show.thumbnail}" alt="${show.title}" loading="lazy">`
+        : `<div class="netflix-poster-placeholder">🎬</div>`;
+      const cardInner = `
+        ${posterEl}
+        <div class="netflix-card-body">
           <div class="netflix-card-header">
             <span class="netflix-title">${show.title}</span>
             <span class="netflix-date">${show.added_date || ''}</span>
@@ -364,8 +368,13 @@ function buildNetflixPanel(data) {
           ${genreEl}
           ${overviewEl}
         </div>`;
+      if (show.link) {
+        html += `<a class="netflix-card" href="${show.link}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">${cardInner}</a>`;
+      } else {
+        html += `<div class="netflix-card">${cardInner}</div>`;
+      }
     }
-    html += `</div>`;
+    html += `</div></div>`;
   }
 
   panel.innerHTML = html;

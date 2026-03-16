@@ -92,13 +92,7 @@ def fetch_netflix_releases(from_ts: int, to_ts: int) -> list:
             print(f"  API error: {e}")
             break
 
-        # Debug — show raw response
-        print(f"  [DEBUG] Response keys: {list(data.keys())}")
-        print(f"  [DEBUG] Raw: {str(data)[:500]}")
 
-        # Debug — show raw response
-        print(f"  [DEBUG] Response keys: {list(data.keys())}")
-        print(f"  [DEBUG] Raw: {str(data)[:500]}")
 
         changes  = data.get("changes", [])
         shows    = data.get("shows", {})  # dict of showId -> show object
@@ -140,6 +134,16 @@ def fetch_netflix_releases(from_ts: int, to_ts: int) -> list:
             if netflix_option:
                 link = netflix_option.get("link", "")
 
+            # Thumbnail — prefer vertical poster, fall back to horizontal
+            image_set = show.get("imageSet", {})
+            thumbnail = (
+                image_set.get("verticalPoster", {}).get("w240")
+                or image_set.get("verticalPoster", {}).get("w360")
+                or image_set.get("horizontalPoster", {}).get("w360")
+                or image_set.get("horizontalPoster", {}).get("w480")
+                or ""
+            )
+
             all_shows.append({
                 "type":       show_type,
                 "title":      title,
@@ -148,6 +152,7 @@ def fetch_netflix_releases(from_ts: int, to_ts: int) -> list:
                 "added_date": added_date,
                 "added_ts":   added_ts,
                 "link":       link,
+                "thumbnail":  thumbnail,
             })
 
         if not has_more or not cursor:
