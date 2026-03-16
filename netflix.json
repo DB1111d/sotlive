@@ -1,8 +1,32 @@
 {
-  "updated": "2026-03-15 08:44 EDT",
+  "updated": "2026-03-16 04:44 EDT",
   "week_label": "Week of March 15 \u2013 March 21",
   "groups": {
     "TV Series": [
+      {
+        "type": "series",
+        "title": "For the Win: NWSL",
+        "overview": "For The Win is an immersive docuseries that follows players like icon Alex Morgan, rising superstar Trinity Rodman, and soccer phenom Marta through the 2024 NWSL playoffs as dynasties crumble, history...",
+        "genres": [
+          "Documentary",
+          "Reality"
+        ],
+        "added_date": "March 15",
+        "added_ts": 1773605408,
+        "link": ""
+      },
+      {
+        "type": "series",
+        "title": "Call My Agent Berlin",
+        "overview": "Welcome to Stern Talent Agency, where stars, drama, and intrigue are part of daily life. After the founder\u2019s death, the agency faces collapse. Only by discovering new talent, keeping old stars, and se...",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "added_date": "March 15",
+        "added_ts": 1773586105,
+        "link": ""
+      },
       {
         "type": "series",
         "title": "Toriko",
@@ -78,6 +102,90 @@
       }
     ],
     "Movies": [
+      {
+        "type": "movie",
+        "title": "Good Savage",
+        "overview": "Jesse y Maggie, artistas en busca de inspiraci\u00f3n, se mudan a un remoto pueblo mexicano y conocen a Melit\u00f3n, un encantador estafador, hasta que ficci\u00f3n y realidad comienzan a confundirse peligrosamente...",
+        "genres": [
+          "Comedy"
+        ],
+        "added_date": "March 15",
+        "added_ts": 1773621850,
+        "link": ""
+      },
+      {
+        "type": "movie",
+        "title": "Point Break",
+        "overview": "An FBI agent is lured by the thrill of the deep when he goes undercover to catch a band of surfers who rob banks to fund their addiction to danger.",
+        "genres": [
+          "Action",
+          "Crime",
+          "Thriller"
+        ],
+        "added_date": "March 15",
+        "added_ts": 1773620911,
+        "link": ""
+      },
+      {
+        "type": "movie",
+        "title": "Sugar Kisses",
+        "overview": "Nacho falls for Mayra, the daughter of a vicious gang leader. When the two youngsters begin their relationship, they discover the pains of adulthood.",
+        "genres": [
+          "Drama"
+        ],
+        "added_date": "March 15",
+        "added_ts": 1773607444,
+        "link": ""
+      },
+      {
+        "type": "movie",
+        "title": "Chilangolandia",
+        "overview": "Ramiro, un taxista, sue\u00f1a con que su sobrino va a hacerse millonario al jugar f\u00fatbol. Una pareja recibe por error un paquete lleno de dinero. As\u00ed, cinco desconocidos con sue\u00f1os diferentes buscan un bo...",
+        "genres": [
+          "Comedy"
+        ],
+        "added_date": "March 15",
+        "added_ts": 1773605794,
+        "link": ""
+      },
+      {
+        "type": "movie",
+        "title": "A Husband to Die For: The Lisa Aguilar Story",
+        "overview": "Lisa is viciously attacked in her own home, and she and her unborn baby are left for dead. Lisa miraculously survives and begins to unravel a horrifying truth: the man she trusted most may have tried ...",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "added_date": "March 15",
+        "added_ts": 1773605594,
+        "link": ""
+      },
+      {
+        "type": "movie",
+        "title": "Fight Club",
+        "overview": "Sick of his dead end, mundane existence, Jack encounters an intriguing stranger who alters his relationship with reality.",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "added_date": "March 15",
+        "added_ts": 1773582370,
+        "link": ""
+      },
+      {
+        "type": "movie",
+        "title": "BlackBerry",
+        "overview": "The meteoric rise then demise of the smartphone, BlackBerry.",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "added_date": "March 15",
+        "added_ts": 1773579557,
+        "link": "https://www.netflix.com/title/81725542/"
+      },
       {
         "type": "movie",
         "title": "Gaslit by My Husband: The Morgan Metzer Story",
