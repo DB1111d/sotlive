@@ -295,9 +295,18 @@ def parse_tourney_round(event: dict) -> str | None:
     slug        = season.get("slug", "").lower()
     event_name  = event.get("name", "").lower()
     short_name  = event.get("shortName", "").lower()
+    notes_text  = " ".join(
+        n.get("headline", "") for n in event.get("notes", []) if isinstance(n, dict)
+    ).lower()
+
+    # ── DEBUG: print raw ESPN fields for postseason games ────────────
+    if "post" in type_name or "tournament" in type_name or season_type.get("type", 0) in (3, 4):
+        print(f"  [DEBUG] {event.get('name')}")
+        print(f"          type_name={type_name!r}  slug={slug!r}")
+        print(f"          notes={notes_text!r}")
 
     # ── NIT detection (check before generic postseason) ──────────────
-    all_text = f"{type_name} {slug} {event_name} {short_name}"
+    all_text = f"{type_name} {slug} {event_name} {short_name} {notes_text}"
     is_nit = any(k in all_text for k in NIT_KEYWORDS)
 
     if is_nit:
@@ -412,7 +421,6 @@ def fetch_ncaa_day(date_str: str) -> list:
             if status_name in NON_STATUSES:
                 games.append({
                     "conference":    conference,
-                    "tournament":    "NIT" if tourney_round and "nit" in tourney_round.lower() else ("NCAA Tournament" if tourney_round else None),
                     "tourney_round": tourney_round,
                     "time":          NON_STATUSES[status_name],
                     "match":         match_title,
@@ -457,7 +465,6 @@ def fetch_ncaa_day(date_str: str) -> list:
 
             games.append({
                 "conference":    conference,
-                "tournament":    "NIT" if tourney_round and "nit" in tourney_round.lower() else ("NCAA Tournament" if tourney_round else None),
                 "tourney_round": tourney_round,
                 "time":          time_str,
                 "match":         match_title,
@@ -502,16 +509,13 @@ def main():
             day["games"] = prune_today_games(day["games"])
 
         def sort_key(g):
-            tournament = g.get("tournament")
-            if tournament == "NCAA Tournament":
-                # NCAA Tournament comes first (bucket 0), sort by time within
-                group_pos = 0
-            elif tournament == "NIT":
-                # NIT comes second (bucket 1), sort by time within
-                group_pos = 1
+            tr = g.get("tourney_round")
+            if tr:
+                # NCAA Tournament — sort by round order, then tip-off time
+                group_pos = tourney_round_sort_key(tr)
             else:
-                # Regular season / conference tournament — offset after tournaments
-                group_pos = 2 + conference_sort_key(g["conference"])
+                # Regular season / conference tournament — sort by conference, then time
+                group_pos = conference_sort_key(g["conference"])
 
             try:
                 t = datetime.strptime(g["time"].strip(), "%I:%M %p")
