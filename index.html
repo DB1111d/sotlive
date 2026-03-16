@@ -118,13 +118,14 @@
       font-family: 'DM Mono', monospace;
     }
 
-    .netflix-group-label {
-      font-size: 20px;
+    .netflix-section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 38px;
       font-weight: 700;
-      letter-spacing: -0.3px;
+      letter-spacing: -0.5px;
       color: #1a1a1a;
-      margin-bottom: 12px;
-      text-transform: none;
+      margin-bottom: 20px;
+      line-height: 1.1;
     }
 
     .netflix-grid {
@@ -215,6 +216,7 @@
 
     @media (max-width: 500px) {
       .netflix-grid { grid-template-columns: 1fr; }
+      .netflix-section-title { font-size: 30px; }
     }
 
     /* ── Timezone picker row ── */

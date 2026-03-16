@@ -461,7 +461,6 @@ async function switchSport(sport) {
     if (groupNames.length === 0) {
       contentEl.innerHTML =
         '<div class="empty"><div class="empty-icon">🎬</div>No new releases this week.</div>';
-      // Still add About tab
       const aboutBtn = document.createElement('button');
       aboutBtn.className = 'tab';
       aboutBtn.id = 'about-tab';
@@ -471,25 +470,23 @@ async function switchSport(sport) {
       return;
     }
 
-    // Build one panel per category
     let firstTab = true;
     groupNames.forEach(groupName => {
       const panelId = `panel-netflix-${groupName.replace(/\s+/g, '-').toLowerCase()}`;
 
-      // Build panel for this category
       const panel = document.createElement('div');
       panel.className = 'day-panel';
       panel.id = panelId;
 
       const shows = groups[groupName];
       let html = `<div class="netflix-week-label">${data.week_label || ''}</div>`;
+      html += `<div class="netflix-section-title">${groupName}</div>`;
       html += `<div class="netflix-grid">`;
       for (const show of shows) {
-        const genres   = show.genres && show.genres.length ? show.genres.join(', ') : '';
-        const genreEl  = genres ? `<div class="netflix-genres">${genres}</div>` : '';
-        const overviewEl = show.overview
-          ? `<div class="netflix-overview">${show.overview}</div>` : '';
-        const posterEl = show.thumbnail
+        const genres    = show.genres && show.genres.length ? show.genres.join(', ') : '';
+        const genreEl   = genres ? `<div class="netflix-genres">${genres}</div>` : '';
+        const overviewEl = show.overview ? `<div class="netflix-overview">${show.overview}</div>` : '';
+        const posterEl  = show.thumbnail
           ? `<img class="netflix-poster" src="${show.thumbnail}" alt="${show.title}" loading="lazy">`
           : `<div class="netflix-poster-placeholder">🎬</div>`;
         const cardInner = `
@@ -514,7 +511,6 @@ async function switchSport(sport) {
       if (firstTab) panel.classList.add('active');
       contentEl.appendChild(panel);
 
-      // Build tab for this category
       const btn = document.createElement('button');
       btn.className = 'tab' + (firstTab ? ' active' : '');
       btn.dataset.netflixCategory = panelId;
@@ -533,7 +529,6 @@ async function switchSport(sport) {
       firstTab = false;
     });
 
-    // About tab
     const aboutBtn = document.createElement('button');
     aboutBtn.className = 'tab';
     aboutBtn.id = 'about-tab';
