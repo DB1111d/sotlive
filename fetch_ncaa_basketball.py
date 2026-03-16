@@ -412,7 +412,7 @@ def fetch_ncaa_day(date_str: str) -> list:
             if status_name in NON_STATUSES:
                 games.append({
                     "conference":    conference,
-                    "tourney_round": tourney_round,
+                    "tournament":    tourney_round,
                     "time":          NON_STATUSES[status_name],
                     "match":         match_title,
                     "source":        "",
@@ -456,7 +456,7 @@ def fetch_ncaa_day(date_str: str) -> list:
 
             games.append({
                 "conference":    conference,
-                "tourney_round": tourney_round,
+                "tournament":    tourney_round,
                 "time":          time_str,
                 "match":         match_title,
                 "source":        source,
@@ -500,13 +500,11 @@ def main():
             day["games"] = prune_today_games(day["games"])
 
         def sort_key(g):
-            tr = g.get("tourney_round")
+            tr = g.get("tournament")
             if tr == "NCAA Tournament":
                 group_pos = 0
             elif tr == "NIT":
                 group_pos = 1
-            elif tr:
-                group_pos = 0  # any other tourney label — treat as NCAA
             else:
                 # Regular season / conference tournament
                 group_pos = 2 + conference_sort_key(g["conference"])
