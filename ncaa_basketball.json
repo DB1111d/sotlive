@@ -1,10 +1,6 @@
 {
-  "updated": "2026-03-15 22:33 EDT",
+  "updated": "2026-03-16 01:49 EDT",
   "days": {
-    "20260315": {
-      "date": "Sunday, March 15",
-      "games": []
-    },
     "20260316": {
       "date": "Monday, March 16",
       "games": []
@@ -133,7 +129,7 @@
           "conference": "Independent",
           "tourney_round": "NCAA Tournament",
           "time": "9:00 PM",
-          "match": "Dayton Flyers vs Bradley Braves",
+          "match": "Bradley Braves vs Dayton Flyers",
           "source": "ESPN+",
           "kick_utc": "2026-03-19T01:00Z"
         },
@@ -309,6 +305,139 @@
           "match": "Houston Cougars vs Idaho Vandals",
           "source": "TBS / TNT",
           "kick_utc": "2026-03-20T02:10Z"
+        }
+      ]
+    },
+    "20260320": {
+      "date": "Friday, March 20",
+      "games": [
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "12:15 PM",
+          "match": "Kentucky Wildcats vs Santa Clara Broncos",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-20T16:15Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "12:40 PM",
+          "match": "Texas Tech Red Raiders vs Akron Zips",
+          "source": "TBS / TNT",
+          "kick_utc": "2026-03-20T16:40Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "1:35 PM",
+          "match": "Arizona Wildcats vs Long Island University Sharks",
+          "source": "TBS / TNT",
+          "kick_utc": "2026-03-20T17:35Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "1:50 PM",
+          "match": "Virginia Cavaliers vs Wright State Raiders",
+          "source": "TBS / TNT",
+          "kick_utc": "2026-03-20T17:50Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "2:50 PM",
+          "match": "Iowa State Cyclones vs Tennessee State Tigers",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-20T18:50Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "3:15 PM",
+          "match": "Alabama Crimson Tide vs Hofstra Pride",
+          "source": "TBS / TNT",
+          "kick_utc": "2026-03-20T19:15Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "4:10 PM",
+          "match": "Villanova Wildcats vs Utah State Aggies",
+          "source": "TBS / TNT",
+          "kick_utc": "2026-03-20T20:10Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "4:25 PM",
+          "match": "Tennessee Volunteers vs TBD",
+          "source": "TBS / TNT",
+          "kick_utc": "2026-03-20T20:25Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "6:50 PM",
+          "match": "Clemson Tigers vs Iowa Hawkeyes",
+          "source": "TBS / TNT",
+          "kick_utc": "2026-03-20T22:50Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "7:10 PM",
+          "match": "St. John's Red Storm vs Northern Iowa Panthers",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-20T23:10Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "7:25 PM",
+          "match": "UCLA Bruins vs UCF Knights",
+          "source": "TBS / TNT",
+          "kick_utc": "2026-03-20T23:25Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "7:35 PM",
+          "match": "Purdue Boilermakers vs Queens University Royals",
+          "source": "TBS / TNT",
+          "kick_utc": "2026-03-20T23:35Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "9:25 PM",
+          "match": "Florida Gators vs TBD",
+          "source": "TBS / TNT",
+          "kick_utc": "2026-03-21T01:25Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "9:45 PM",
+          "match": "Kansas Jayhawks vs California Baptist Lancers",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-21T01:45Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "10:00 PM",
+          "match": "UConn Huskies vs Furman Paladins",
+          "source": "TBS / TNT",
+          "kick_utc": "2026-03-21T02:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "10:10 PM",
+          "match": "Miami Hurricanes vs Missouri Tigers",
+          "source": "TBS / TNT",
+          "kick_utc": "2026-03-21T02:10Z"
         }
       ]
     }
