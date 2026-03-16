@@ -1,42 +1,9 @@
 {
-  "updated": "2026-03-15 16:32 EDT",
+  "updated": "2026-03-15 22:27 EDT",
   "days": {
     "20260315": {
       "date": "Sunday, March 15",
-      "games": [
-        {
-          "conference": "Big 12",
-          "tourney_round": null,
-          "time": "1:00 PM",
-          "match": "VCU Rams vs Dayton Flyers",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-15T17:00Z"
-        },
-        {
-          "conference": "American Athletic",
-          "tourney_round": null,
-          "time": "3:30 PM",
-          "match": "Michigan Wolverines vs Purdue Boilermakers",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-15T19:30Z"
-        },
-        {
-          "conference": "NEC",
-          "tourney_round": null,
-          "time": "1:00 PM",
-          "match": "Arkansas Razorbacks vs Vanderbilt Commodores",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-15T17:00Z"
-        },
-        {
-          "conference": "WAC",
-          "tourney_round": null,
-          "time": "3:15 PM",
-          "match": "South Florida Bulls vs Wichita State Shockers",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-15T19:15Z"
-        }
-      ]
+      "games": []
     },
     "20260316": {
       "date": "Monday, March 16",
@@ -44,15 +11,306 @@
     },
     "20260317": {
       "date": "Tuesday, March 17",
-      "games": []
+      "games": [
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "6:00 PM",
+          "match": "George Mason Patriots vs Liberty Flames",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-17T22:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "6:40 PM",
+          "match": "Howard Bison vs UMBC Retrievers",
+          "source": "TBS / TNT",
+          "kick_utc": "2026-03-17T22:40Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "7:00 PM",
+          "match": "Yale Bulldogs vs UNC Wilmington Seahawks",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-17T23:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "7:00 PM",
+          "match": "Wichita State Shockers vs Wyoming Cowboys",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-17T23:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "8:00 PM",
+          "match": "Oklahoma State Cowboys vs Davidson Wildcats",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-18T00:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "9:00 PM",
+          "match": "Tulsa Golden Hurricane vs Stephen F. Austin Lumberjacks",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-18T01:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "9:15 PM",
+          "match": "NC State Wolfpack vs Texas Longhorns",
+          "source": "TBS / TNT",
+          "kick_utc": "2026-03-18T01:15Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "10:00 PM",
+          "match": "Seattle U Redhawks vs St. Thomas-Minnesota Tommies",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-18T02:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "10:00 PM",
+          "match": "Auburn Tigers vs South Alabama Jaguars",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-18T02:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "11:00 PM",
+          "match": "UC Irvine Anteaters vs UNLV Rebels",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-18T03:00Z"
+        }
+      ]
     },
     "20260318": {
       "date": "Wednesday, March 18",
-      "games": []
+      "games": [
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "6:40 PM",
+          "match": "Lehigh Mountain Hawks vs Prairie View A&M Panthers",
+          "source": "TBS / TNT",
+          "kick_utc": "2026-03-18T22:40Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "7:00 PM",
+          "match": "Wake Forest Demon Deacons vs Navy Midshipmen",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-18T23:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "8:00 PM",
+          "match": "Illinois State Redbirds vs Kent State Golden Flashes",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-19T00:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "8:00 PM",
+          "match": "Utah Valley Wolverines vs George Washington Revolutionaries",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-19T00:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "9:00 PM",
+          "match": "Dayton Flyers vs Bradley Braves",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-19T01:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "9:00 PM",
+          "match": "New Mexico Lobos vs Sam Houston Bearkats",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-19T01:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "9:15 PM",
+          "match": "SMU Mustangs vs Miami (OH) RedHawks",
+          "source": "TBS / TNT",
+          "kick_utc": "2026-03-19T01:15Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "10:00 PM",
+          "match": "Nevada Wolf Pack vs Murray State Racers",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-19T02:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "11:00 PM",
+          "match": "Colorado State Rams vs Saint Joseph's Hawks",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-19T03:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "11:00 PM",
+          "match": "California Golden Bears vs UIC Flames",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-19T03:00Z"
+        }
+      ]
     },
     "20260319": {
       "date": "Thursday, March 19",
-      "games": []
+      "games": [
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "12:15 PM",
+          "match": "Ohio State Buckeyes vs TCU Horned Frogs",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-19T16:15Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "12:40 PM",
+          "match": "Nebraska Cornhuskers vs Troy Trojans",
+          "source": "TBS / TNT",
+          "kick_utc": "2026-03-19T16:40Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "1:30 PM",
+          "match": "Louisville Cardinals vs South Florida Bulls",
+          "source": "TBS / TNT",
+          "kick_utc": "2026-03-19T17:30Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "1:50 PM",
+          "match": "Wisconsin Badgers vs High Point Panthers",
+          "source": "TBS / TNT",
+          "kick_utc": "2026-03-19T17:50Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "2:50 PM",
+          "match": "Duke Blue Devils vs Siena Saints",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-19T18:50Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "3:15 PM",
+          "match": "Vanderbilt Commodores vs McNeese Cowboys",
+          "source": "TBS / TNT",
+          "kick_utc": "2026-03-19T19:15Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "4:05 PM",
+          "match": "Michigan State Spartans vs North Dakota State Bison",
+          "source": "TBS / TNT",
+          "kick_utc": "2026-03-19T20:05Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "4:25 PM",
+          "match": "Arkansas Razorbacks vs Hawai'i Rainbow Warriors",
+          "source": "TBS / TNT",
+          "kick_utc": "2026-03-19T20:25Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "6:50 PM",
+          "match": "North Carolina Tar Heels vs VCU Rams",
+          "source": "TBS / TNT",
+          "kick_utc": "2026-03-19T22:50Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "7:10 PM",
+          "match": "Michigan Wolverines vs TBD",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-19T23:10Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "7:25 PM",
+          "match": "BYU Cougars vs TBD",
+          "source": "TBS / TNT",
+          "kick_utc": "2026-03-19T23:25Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "7:35 PM",
+          "match": "Saint Mary's Gaels vs Texas A&M Aggies",
+          "source": "TBS / TNT",
+          "kick_utc": "2026-03-19T23:35Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "9:25 PM",
+          "match": "Illinois Fighting Illini vs Pennsylvania Quakers",
+          "source": "TBS / TNT",
+          "kick_utc": "2026-03-20T01:25Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "9:45 PM",
+          "match": "Georgia Bulldogs vs Saint Louis Billikens",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-20T01:45Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "10:00 PM",
+          "match": "Gonzaga Bulldogs vs Kennesaw State Owls",
+          "source": "TBS / TNT",
+          "kick_utc": "2026-03-20T02:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "10:10 PM",
+          "match": "Houston Cougars vs Idaho Vandals",
+          "source": "TBS / TNT",
+          "kick_utc": "2026-03-20T02:10Z"
+        }
+      ]
     }
   }
 }

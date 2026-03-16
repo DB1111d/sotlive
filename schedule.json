@@ -1,71 +1,15 @@
 {
-  "updated": "2026-03-15 16:32 EDT",
+  "updated": "2026-03-15 22:27 EDT",
   "days": {
     "20260315": {
       "date": "Sunday, March 15",
       "games": [
         {
           "league": "MLS",
-          "time": "2:30 PM",
-          "match": "New England Revolution vs FC Cincinnati",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-15T18:30Z"
-        },
-        {
-          "league": "MLS",
-          "time": "4:30 PM",
-          "match": "Vancouver Whitecaps vs Minnesota United FC",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-15T20:30Z"
-        },
-        {
-          "league": "MLS",
           "time": "7:00 PM",
           "match": "San Jose Earthquakes vs Seattle Sounders FC",
           "source": "Apple TV",
           "kick_utc": "2026-03-15T23:00Z"
-        },
-        {
-          "league": "Serie A",
-          "time": "1:00 PM",
-          "match": "Como vs AS Roma",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-15T17:00Z"
-        },
-        {
-          "league": "Serie A",
-          "time": "3:45 PM",
-          "match": "Lazio vs AC Milan",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-15T19:45Z"
-        },
-        {
-          "league": "German Bundesliga",
-          "time": "2:30 PM",
-          "match": "VfB Stuttgart vs RB Leipzig",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-15T18:30Z"
-        },
-        {
-          "league": "La Liga",
-          "time": "1:30 PM",
-          "match": "Real Betis vs Celta Vigo",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-15T17:30Z"
-        },
-        {
-          "league": "La Liga",
-          "time": "4:00 PM",
-          "match": "Real Sociedad vs Osasuna",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-15T20:00Z"
-        },
-        {
-          "league": "USL League One",
-          "time": "6:00 PM",
-          "match": "Spokane Velocity FC vs Union Omaha",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-15T22:00Z"
         }
       ]
     },
