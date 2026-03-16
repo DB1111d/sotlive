@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-16 16:35 EDT",
+  "updated": "2026-03-16 16:40 EDT",
   "days": {
     "20260316": {
       "date": "Monday, March 16",
@@ -10,7 +10,7 @@
       "games": [
         {
           "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
+          "tourney_round": "NIT",
           "time": "6:00 PM",
           "match": "George Mason Patriots vs Liberty Flames",
           "source": "ESPN+",
@@ -26,7 +26,7 @@
         },
         {
           "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
+          "tourney_round": "NIT",
           "time": "7:00 PM",
           "match": "Yale Bulldogs vs UNC Wilmington Seahawks",
           "source": "ESPN+",
@@ -34,7 +34,7 @@
         },
         {
           "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
+          "tourney_round": "NIT",
           "time": "7:00 PM",
           "match": "Wichita State Shockers vs Wyoming Cowboys",
           "source": "ESPN+",
@@ -42,7 +42,7 @@
         },
         {
           "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
+          "tourney_round": "NIT",
           "time": "8:00 PM",
           "match": "Oklahoma State Cowboys vs Davidson Wildcats",
           "source": "ESPN+",
@@ -50,7 +50,7 @@
         },
         {
           "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
+          "tourney_round": "NIT",
           "time": "9:00 PM",
           "match": "Tulsa Golden Hurricane vs Stephen F. Austin Lumberjacks",
           "source": "ESPN+",
@@ -66,7 +66,7 @@
         },
         {
           "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
+          "tourney_round": "NIT",
           "time": "10:00 PM",
           "match": "Seattle U Redhawks vs St. Thomas-Minnesota Tommies",
           "source": "ESPN+",
@@ -74,7 +74,7 @@
         },
         {
           "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
+          "tourney_round": "NIT",
           "time": "10:00 PM",
           "match": "Auburn Tigers vs South Alabama Jaguars",
           "source": "ESPN+",
@@ -82,7 +82,7 @@
         },
         {
           "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
+          "tourney_round": "NIT",
           "time": "11:00 PM",
           "match": "UC Irvine Anteaters vs UNLV Rebels",
           "source": "ESPN+",
@@ -103,7 +103,7 @@
         },
         {
           "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
+          "tourney_round": "NIT",
           "time": "7:00 PM",
           "match": "Wake Forest Demon Deacons vs Navy Midshipmen",
           "source": "ESPN+",
@@ -111,7 +111,7 @@
         },
         {
           "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
+          "tourney_round": "NIT",
           "time": "8:00 PM",
           "match": "Illinois State Redbirds vs Kent State Golden Flashes",
           "source": "ESPN+",
@@ -119,7 +119,7 @@
         },
         {
           "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
+          "tourney_round": "NIT",
           "time": "8:00 PM",
           "match": "Utah Valley Wolverines vs George Washington Revolutionaries",
           "source": "ESPN+",
@@ -127,7 +127,7 @@
         },
         {
           "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
+          "tourney_round": "NIT",
           "time": "9:00 PM",
           "match": "Bradley Braves vs Dayton Flyers",
           "source": "ESPN+",
@@ -135,7 +135,7 @@
         },
         {
           "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
+          "tourney_round": "NIT",
           "time": "9:00 PM",
           "match": "New Mexico Lobos vs Sam Houston Bearkats",
           "source": "ESPN+",
@@ -151,7 +151,7 @@
         },
         {
           "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
+          "tourney_round": "NIT",
           "time": "10:00 PM",
           "match": "Nevada Wolf Pack vs Murray State Racers",
           "source": "ESPN+",
@@ -159,7 +159,7 @@
         },
         {
           "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
+          "tourney_round": "NIT",
           "time": "11:00 PM",
           "match": "Colorado State Rams vs Saint Joseph's Hawks",
           "source": "ESPN+",
@@ -167,7 +167,7 @@
         },
         {
           "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
+          "tourney_round": "NIT",
           "time": "11:00 PM",
           "match": "California Golden Bears vs UIC Flames",
           "source": "ESPN+",
