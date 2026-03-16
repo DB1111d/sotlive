@@ -348,19 +348,15 @@ function buildNetflixPanel(data) {
   let html = `<div class="netflix-week-label">${data.week_label || ''}</div>`;
 
   for (const [groupName, shows] of Object.entries(groups)) {
-    html += `<div class="league-group"><div class="netflix-group-label">${groupName}</div><div class="netflix-grid">`;
+    html += `<div class="league-group"><div class="netflix-group-label">${groupName}</div>`;
     for (const show of shows) {
       const genres  = show.genres && show.genres.length ? show.genres.join(', ') : '';
       const genreEl = genres ? `<div class="netflix-genres">${genres}</div>` : '';
       const overviewEl = show.overview
         ? `<div class="netflix-overview">${show.overview}</div>`
         : '';
-      const posterEl = show.thumbnail
-        ? `<img class="netflix-poster" src="${show.thumbnail}" alt="${show.title}" loading="lazy">`
-        : `<div class="netflix-poster-placeholder">🎬</div>`;
-      const cardInner = `
-        ${posterEl}
-        <div class="netflix-card-body">
+      html += `
+        <div class="netflix-card">
           <div class="netflix-card-header">
             <span class="netflix-title">${show.title}</span>
             <span class="netflix-date">${show.added_date || ''}</span>
@@ -368,13 +364,8 @@ function buildNetflixPanel(data) {
           ${genreEl}
           ${overviewEl}
         </div>`;
-      if (show.link) {
-        html += `<a class="netflix-card" href="${show.link}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">${cardInner}</a>`;
-      } else {
-        html += `<div class="netflix-card">${cardInner}</div>`;
-      }
     }
-    html += `</div></div>`;
+    html += `</div>`;
   }
 
   panel.innerHTML = html;
@@ -464,25 +455,83 @@ async function switchSport(sport) {
       return;
     }
 
-    const panel = buildNetflixPanel(data);
-    panel.classList.add('active');
-    contentEl.appendChild(panel);
+    const groups = data.groups || {};
+    const groupNames = Object.keys(groups).filter(k => groups[k].length > 0);
 
-    // "New This Week" tab — lets users return from About
-    const netflixHomeBtn = document.createElement('button');
-    netflixHomeBtn.className = 'tab active';
-    netflixHomeBtn.id = 'netflix-home-tab';
-    netflixHomeBtn.textContent = 'New This Week';
-    netflixHomeBtn.addEventListener('click', () => {
-      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-      netflixHomeBtn.classList.add('active');
-      document.getElementById('about-panel').classList.remove('active');
-      contentEl.style.display = '';
-      document.getElementById('panel-netflix').classList.add('active');
-      hideTzPicker();
-      hideLeagueFilter();
+    if (groupNames.length === 0) {
+      contentEl.innerHTML =
+        '<div class="empty"><div class="empty-icon">🎬</div>No new releases this week.</div>';
+      // Still add About tab
+      const aboutBtn = document.createElement('button');
+      aboutBtn.className = 'tab';
+      aboutBtn.id = 'about-tab';
+      aboutBtn.textContent = 'About';
+      aboutBtn.addEventListener('click', switchToAbout);
+      tabsEl.appendChild(aboutBtn);
+      return;
+    }
+
+    // Build one panel per category
+    let firstTab = true;
+    groupNames.forEach(groupName => {
+      const panelId = `panel-netflix-${groupName.replace(/\s+/g, '-').toLowerCase()}`;
+
+      // Build panel for this category
+      const panel = document.createElement('div');
+      panel.className = 'day-panel';
+      panel.id = panelId;
+
+      const shows = groups[groupName];
+      let html = `<div class="netflix-week-label">${data.week_label || ''}</div>`;
+      html += `<div class="netflix-grid">`;
+      for (const show of shows) {
+        const genres   = show.genres && show.genres.length ? show.genres.join(', ') : '';
+        const genreEl  = genres ? `<div class="netflix-genres">${genres}</div>` : '';
+        const overviewEl = show.overview
+          ? `<div class="netflix-overview">${show.overview}</div>` : '';
+        const posterEl = show.thumbnail
+          ? `<img class="netflix-poster" src="${show.thumbnail}" alt="${show.title}" loading="lazy">`
+          : `<div class="netflix-poster-placeholder">🎬</div>`;
+        const cardInner = `
+          ${posterEl}
+          <div class="netflix-card-body">
+            <div class="netflix-card-header">
+              <span class="netflix-title">${show.title}</span>
+              <span class="netflix-date">${show.added_date || ''}</span>
+            </div>
+            ${genreEl}
+            ${overviewEl}
+          </div>`;
+        if (show.link) {
+          html += `<a class="netflix-card" href="${show.link}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">${cardInner}</a>`;
+        } else {
+          html += `<div class="netflix-card">${cardInner}</div>`;
+        }
+      }
+      html += `</div>`;
+      panel.innerHTML = html;
+
+      if (firstTab) panel.classList.add('active');
+      contentEl.appendChild(panel);
+
+      // Build tab for this category
+      const btn = document.createElement('button');
+      btn.className = 'tab' + (firstTab ? ' active' : '');
+      btn.dataset.netflixCategory = panelId;
+      btn.textContent = groupName;
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        btn.classList.add('active');
+        document.getElementById('about-panel').classList.remove('active');
+        contentEl.style.display = '';
+        document.querySelectorAll('.day-panel').forEach(p => p.classList.remove('active'));
+        document.getElementById(panelId).classList.add('active');
+        hideTzPicker();
+        hideLeagueFilter();
+      });
+      tabsEl.appendChild(btn);
+      firstTab = false;
     });
-    tabsEl.appendChild(netflixHomeBtn);
 
     // About tab
     const aboutBtn = document.createElement('button');
