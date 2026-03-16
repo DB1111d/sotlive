@@ -300,10 +300,10 @@ function buildNcaaPanel(key, day) {
     return panel;
   }
 
-  // Group by tourney_round (if set) or conference
+  // Group by tournament bucket (NCAA Tournament / NIT) or conference
   const grouped = {};
   for (const g of games) {
-    const groupKey = g.tourney_round || g.conference || 'Other';
+    const groupKey = g.tournament || g.conference || 'Other';
     if (!grouped[groupKey]) grouped[groupKey] = [];
     grouped[groupKey].push(g);
   }

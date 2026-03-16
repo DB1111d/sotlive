@@ -412,6 +412,7 @@ def fetch_ncaa_day(date_str: str) -> list:
             if status_name in NON_STATUSES:
                 games.append({
                     "conference":    conference,
+                    "tournament":    "NIT" if tourney_round and "nit" in tourney_round.lower() else ("NCAA Tournament" if tourney_round else None),
                     "tourney_round": tourney_round,
                     "time":          NON_STATUSES[status_name],
                     "match":         match_title,
@@ -456,6 +457,7 @@ def fetch_ncaa_day(date_str: str) -> list:
 
             games.append({
                 "conference":    conference,
+                "tournament":    "NIT" if tourney_round and "nit" in tourney_round.lower() else ("NCAA Tournament" if tourney_round else None),
                 "tourney_round": tourney_round,
                 "time":          time_str,
                 "match":         match_title,
@@ -500,13 +502,16 @@ def main():
             day["games"] = prune_today_games(day["games"])
 
         def sort_key(g):
-            tr = g.get("tourney_round")
-            if tr:
-                # NCAA Tournament — sort by round order, then tip-off time
-                group_pos = tourney_round_sort_key(tr)
+            tournament = g.get("tournament")
+            if tournament == "NCAA Tournament":
+                # NCAA Tournament comes first (bucket 0), sort by time within
+                group_pos = 0
+            elif tournament == "NIT":
+                # NIT comes second (bucket 1), sort by time within
+                group_pos = 1
             else:
-                # Regular season / conference tournament — sort by conference, then time
-                group_pos = conference_sort_key(g["conference"])
+                # Regular season / conference tournament — offset after tournaments
+                group_pos = 2 + conference_sort_key(g["conference"])
 
             try:
                 t = datetime.strptime(g["time"].strip(), "%I:%M %p")
