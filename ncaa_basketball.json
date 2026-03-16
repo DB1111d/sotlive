@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-16 13:02 EDT",
+  "updated": "2026-03-16 16:08 EDT",
   "days": {
     "20260316": {
       "date": "Monday, March 16",
@@ -10,7 +10,6 @@
       "games": [
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "6:00 PM",
           "match": "George Mason Patriots vs Liberty Flames",
@@ -19,7 +18,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "6:40 PM",
           "match": "Howard Bison vs UMBC Retrievers",
@@ -28,7 +26,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "7:00 PM",
           "match": "Yale Bulldogs vs UNC Wilmington Seahawks",
@@ -37,7 +34,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "7:00 PM",
           "match": "Wichita State Shockers vs Wyoming Cowboys",
@@ -46,7 +42,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "8:00 PM",
           "match": "Oklahoma State Cowboys vs Davidson Wildcats",
@@ -55,7 +50,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "9:00 PM",
           "match": "Tulsa Golden Hurricane vs Stephen F. Austin Lumberjacks",
@@ -64,7 +58,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "9:15 PM",
           "match": "NC State Wolfpack vs Texas Longhorns",
@@ -73,7 +66,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "10:00 PM",
           "match": "Seattle U Redhawks vs St. Thomas-Minnesota Tommies",
@@ -82,7 +74,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "10:00 PM",
           "match": "Auburn Tigers vs South Alabama Jaguars",
@@ -91,7 +82,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "11:00 PM",
           "match": "UC Irvine Anteaters vs UNLV Rebels",
@@ -105,7 +95,6 @@
       "games": [
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "6:40 PM",
           "match": "Lehigh Mountain Hawks vs Prairie View A&M Panthers",
@@ -114,7 +103,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "7:00 PM",
           "match": "Wake Forest Demon Deacons vs Navy Midshipmen",
@@ -123,7 +111,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "8:00 PM",
           "match": "Illinois State Redbirds vs Kent State Golden Flashes",
@@ -132,7 +119,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "8:00 PM",
           "match": "Utah Valley Wolverines vs George Washington Revolutionaries",
@@ -141,7 +127,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "9:00 PM",
           "match": "Bradley Braves vs Dayton Flyers",
@@ -150,7 +135,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "9:00 PM",
           "match": "New Mexico Lobos vs Sam Houston Bearkats",
@@ -159,7 +143,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "9:15 PM",
           "match": "SMU Mustangs vs Miami (OH) RedHawks",
@@ -168,7 +151,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "10:00 PM",
           "match": "Nevada Wolf Pack vs Murray State Racers",
@@ -177,7 +159,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "11:00 PM",
           "match": "Colorado State Rams vs Saint Joseph's Hawks",
@@ -186,7 +167,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "11:00 PM",
           "match": "California Golden Bears vs UIC Flames",
@@ -200,7 +180,6 @@
       "games": [
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "12:15 PM",
           "match": "Ohio State Buckeyes vs TCU Horned Frogs",
@@ -209,7 +188,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "12:40 PM",
           "match": "Nebraska Cornhuskers vs Troy Trojans",
@@ -218,7 +196,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "1:30 PM",
           "match": "Louisville Cardinals vs South Florida Bulls",
@@ -227,7 +204,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "1:50 PM",
           "match": "Wisconsin Badgers vs High Point Panthers",
@@ -236,7 +212,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "2:50 PM",
           "match": "Duke Blue Devils vs Siena Saints",
@@ -245,7 +220,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "3:15 PM",
           "match": "Vanderbilt Commodores vs McNeese Cowboys",
@@ -254,7 +228,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "4:05 PM",
           "match": "Michigan State Spartans vs North Dakota State Bison",
@@ -263,7 +236,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "4:25 PM",
           "match": "Arkansas Razorbacks vs Hawai'i Rainbow Warriors",
@@ -272,7 +244,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "6:50 PM",
           "match": "North Carolina Tar Heels vs VCU Rams",
@@ -281,7 +252,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "7:10 PM",
           "match": "Michigan Wolverines vs TBD",
@@ -290,7 +260,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "7:25 PM",
           "match": "BYU Cougars vs TBD",
@@ -299,7 +268,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "7:35 PM",
           "match": "Saint Mary's Gaels vs Texas A&M Aggies",
@@ -308,7 +276,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "9:25 PM",
           "match": "Illinois Fighting Illini vs Pennsylvania Quakers",
@@ -317,7 +284,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "9:45 PM",
           "match": "Georgia Bulldogs vs Saint Louis Billikens",
@@ -326,7 +292,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "10:00 PM",
           "match": "Gonzaga Bulldogs vs Kennesaw State Owls",
@@ -335,7 +300,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "10:10 PM",
           "match": "Houston Cougars vs Idaho Vandals",
@@ -349,7 +313,6 @@
       "games": [
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "12:15 PM",
           "match": "Kentucky Wildcats vs Santa Clara Broncos",
@@ -358,7 +321,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "12:40 PM",
           "match": "Texas Tech Red Raiders vs Akron Zips",
@@ -367,7 +329,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "1:35 PM",
           "match": "Arizona Wildcats vs Long Island University Sharks",
@@ -376,7 +337,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "1:50 PM",
           "match": "Virginia Cavaliers vs Wright State Raiders",
@@ -385,7 +345,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "2:50 PM",
           "match": "Iowa State Cyclones vs Tennessee State Tigers",
@@ -394,7 +353,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "3:15 PM",
           "match": "Alabama Crimson Tide vs Hofstra Pride",
@@ -403,7 +361,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "4:10 PM",
           "match": "Villanova Wildcats vs Utah State Aggies",
@@ -412,7 +369,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "4:25 PM",
           "match": "Tennessee Volunteers vs TBD",
@@ -421,7 +377,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "6:50 PM",
           "match": "Clemson Tigers vs Iowa Hawkeyes",
@@ -430,7 +385,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "7:10 PM",
           "match": "St. John's Red Storm vs Northern Iowa Panthers",
@@ -439,7 +393,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "7:25 PM",
           "match": "UCLA Bruins vs UCF Knights",
@@ -448,7 +401,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "7:35 PM",
           "match": "Purdue Boilermakers vs Queens University Royals",
@@ -457,7 +409,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "9:25 PM",
           "match": "Florida Gators vs TBD",
@@ -466,7 +417,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "9:45 PM",
           "match": "Kansas Jayhawks vs California Baptist Lancers",
@@ -475,7 +425,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "10:00 PM",
           "match": "UConn Huskies vs Furman Paladins",
@@ -484,7 +433,6 @@
         },
         {
           "conference": "Independent",
-          "tournament": "NCAA Tournament",
           "tourney_round": "NCAA Tournament",
           "time": "10:10 PM",
           "match": "Miami Hurricanes vs Missouri Tigers",
