@@ -273,31 +273,80 @@ def tourney_round_sort_key(round_label: str) -> int:
         return len(TOURNEY_ROUND_ORDER)
 
 
-def parse_tourney_round(event: dict, competition: dict = None) -> str | None:
+def parse_tourney_round(event: dict) -> str | None:
     """
-    Returns 'NIT' or 'NCAA Tournament' for postseason games, None otherwise.
-    Uses competition.notes headline — the only reliable ESPN field that
-    distinguishes NIT from NCAA Tournament (both have slug='post-season').
+    Returns a clean round label ONLY for NCAA Tournament or NIT games.
+    Returns None for regular season, conference tournaments, or any other postseason event.
+
+    Detection order:
+      1. Check event name / shortName for NIT keywords first (NIT is also postseason)
+      2. Check season type + slug for NCAA Tournament
+      3. Search notes headlines and event name for round keywords
+      4. Fall back to a generic label if tournament is confirmed but round unknown
     """
-    season = event.get("season", {})
+    season      = event.get("season", {})
+    season_type = event.get("seasonType", {})
     if not isinstance(season, dict):
         season = {}
+    if not isinstance(season_type, dict):
+        season_type = {}
 
-    if season.get("type") != 3:
-        return None
+    type_name   = season_type.get("name", "").lower()
+    slug        = season.get("slug", "").lower()
+    event_name  = event.get("name", "").lower()
+    short_name  = event.get("shortName", "").lower()
 
-    # competition.notes headline contains the answer
-    notes = competition.get("notes", []) if competition else []
-    headline = next(
-        (n.get("headline", "") for n in notes if isinstance(n, dict)),
-        ""
-    ).lower()
+    # ── NIT detection (check before generic postseason) ──────────────
+    all_text = f"{type_name} {slug} {event_name} {short_name}"
+    is_nit = any(k in all_text for k in NIT_KEYWORDS)
 
-    if "nit" in headline:
+    if is_nit:
+        # Try to identify the NIT round from notes, event name, or slug
+        for note in event.get("notes", []):
+            if not isinstance(note, dict):
+                continue
+            headline = note.get("headline", "").lower()
+            for key, label in NIT_ROUND_MAP.items():
+                if key in headline:
+                    return label
+        for key, label in NIT_ROUND_MAP.items():
+            if key in event_name or key in slug:
+                return label
         return "NIT"
 
+    # ── NCAA Tournament detection ─────────────────────────────────────
+    is_ncaa_tourney = (
+        any(t in type_name for t in NCAA_TOURNEY_SEASON_TYPES)
+        or any(t in slug for t in NCAA_TOURNEY_SEASON_TYPES)
+        or any(t in event_name for t in NCAA_TOURNEY_KEYWORDS)
+    )
+    if not is_ncaa_tourney:
+        return None  # Regular season or conference tournament — no round label
+
+    # Try event notes first (most specific)
+    for note in event.get("notes", []):
+        if not isinstance(note, dict):
+            continue
+        headline = note.get("headline", "").lower()
+        for key, label in TOURNEY_ROUND_MAP.items():
+            if key in headline:
+                return label
+
+    # Try event name and shortName
+    for key, label in TOURNEY_ROUND_MAP.items():
+        if key in event_name or key in short_name:
+            return label
+
+    # Fall back to season slug
+    for key, label in TOURNEY_ROUND_MAP.items():
+        if key in slug:
+            return label
+
+    # Confirmed NCAA Tournament but round unknown
     return "NCAA Tournament"
 
+
+# ─── Fetch one day ────────────────────────────────────────────────────────────
 
 def fetch_ncaa_day(date_str: str) -> list:
     """
@@ -334,7 +383,7 @@ def fetch_ncaa_day(date_str: str) -> list:
                 continue
 
             # NCAA Tournament round detection — None if regular season / conf tourney
-            tourney_round = parse_tourney_round(event, competition)
+            tourney_round = parse_tourney_round(event)
 
 
             # Conference — only matters when not in the tournament
@@ -452,12 +501,15 @@ def main():
 
         def sort_key(g):
             tr = g.get("tourney_round")
-            if tr:
-                # NCAA Tournament — sort by round order, then tip-off time
-                group_pos = tourney_round_sort_key(tr)
+            if tr == "NCAA Tournament":
+                group_pos = 0
+            elif tr == "NIT":
+                group_pos = 1
+            elif tr:
+                group_pos = 0  # any other tourney label — treat as NCAA
             else:
-                # Regular season / conference tournament — sort by conference, then time
-                group_pos = conference_sort_key(g["conference"])
+                # Regular season / conference tournament
+                group_pos = 2 + conference_sort_key(g["conference"])
 
             try:
                 t = datetime.strptime(g["time"].strip(), "%I:%M %p")
