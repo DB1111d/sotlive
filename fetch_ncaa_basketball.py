@@ -299,11 +299,10 @@ def parse_tourney_round(event: dict) -> str | None:
         n.get("headline", "") for n in event.get("notes", []) if isinstance(n, dict)
     ).lower()
 
-    # ── DEBUG: print raw ESPN fields for postseason games ────────────
-    if "post" in type_name or "tournament" in type_name or season_type.get("type", 0) in (3, 4):
-        print(f"  [DEBUG] {event.get('name')}")
-        print(f"          type_name={type_name!r}  slug={slug!r}")
-        print(f"          notes={notes_text!r}")
+    # ── DEBUG: print raw ESPN fields for every event ─────────────────
+    print(f"  [DEBUG] {event.get('name')}")
+    print(f"          season={event.get('season')}  seasonType={event.get('seasonType')}")
+    print(f"          notes={notes_text!r}")
 
     # ── NIT detection (check before generic postseason) ──────────────
     all_text = f"{type_name} {slug} {event_name} {short_name} {notes_text}"
