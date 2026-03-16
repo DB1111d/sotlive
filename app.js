@@ -316,8 +316,13 @@ function buildNcaaPanel(key, day) {
     for (const g of items) {
       const displayTime = (g.kick_utc ? formatTime(g.kick_utc, currentTZ) : null) || g.time;
       const utcAttr = g.kick_utc ? `data-utc="${g.kick_utc}"` : '';
+      // Show tourney round label above time only for NCAA Tournament / NIT games
+      const roundLine = g.tourney_round
+        ? `<div class="round-label">${g.tourney_round}</div>`
+        : '';
       html += `<div class="game-card" ${utcAttr}>
         <div class="game-card-left">
+          ${roundLine}
           <span class="game-time">${displayTime}</span>
         </div>
         <span class="game-match">${g.match}</span>

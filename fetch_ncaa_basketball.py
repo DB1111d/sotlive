@@ -71,13 +71,24 @@ NON_STATUSES = {
     "STATUS_SUSPENDED": "Suspended",
 }
 
-# ESPN season type names / slugs that indicate NCAA Tournament
+# ESPN season type names / slugs that indicate NCAA Tournament or NIT
 NCAA_TOURNEY_SEASON_TYPES = {
     "postseason", "post-season", "ncaa tournament",
     "ncaa men's basketball tournament",
 }
 
-# ESPN slugs / headline keywords → clean round label
+# Keywords that identify specifically the NCAA Tournament (not NIT)
+NCAA_TOURNEY_KEYWORDS = {
+    "ncaa tournament", "ncaa men's basketball tournament",
+    "march madness",
+}
+
+# Keywords that identify the NIT
+NIT_KEYWORDS = {
+    "nit", "national invitation tournament",
+}
+
+# ESPN slugs / headline keywords → clean round label (NCAA Tournament)
 TOURNEY_ROUND_MAP = {
     "first-four":            "First Four",
     "first-round":           "First Round",
@@ -95,6 +106,18 @@ TOURNEY_ROUND_MAP = {
     "national-championship": "National Championship",
     "championship":          "National Championship",
     "final":                 "National Championship",
+}
+
+# NIT round keywords → clean round label
+NIT_ROUND_MAP = {
+    "first-round":    "NIT First Round",
+    "first round":    "NIT First Round",
+    "second-round":   "NIT Second Round",
+    "second round":   "NIT Second Round",
+    "quarterfinal":   "NIT Quarterfinals",
+    "semifinal":      "NIT Semifinals",
+    "final":          "NIT Final",
+    "championship":   "NIT Final",
 }
 
 # Display order for tournament rounds
@@ -252,9 +275,14 @@ def tourney_round_sort_key(round_label: str) -> int:
 
 def parse_tourney_round(event: dict) -> str | None:
     """
-    Returns a clean round label if this is an NCAA Tournament game,
-    otherwise returns None (regular season or conference tournament).
-    Checks season type, season slug, and event notes.
+    Returns a clean round label ONLY for NCAA Tournament or NIT games.
+    Returns None for regular season, conference tournaments, or any other postseason event.
+
+    Detection order:
+      1. Check event name / shortName for NIT keywords first (NIT is also postseason)
+      2. Check season type + slug for NCAA Tournament
+      3. Search notes headlines and event name for round keywords
+      4. Fall back to a generic label if tournament is confirmed but round unknown
     """
     season      = event.get("season", {})
     season_type = event.get("seasonType", {})
@@ -263,15 +291,37 @@ def parse_tourney_round(event: dict) -> str | None:
     if not isinstance(season_type, dict):
         season_type = {}
 
-    type_name = season_type.get("name", "").lower()
-    slug      = season.get("slug", "").lower()
+    type_name   = season_type.get("name", "").lower()
+    slug        = season.get("slug", "").lower()
+    event_name  = event.get("name", "").lower()
+    short_name  = event.get("shortName", "").lower()
 
-    is_tourney = (
+    # ── NIT detection (check before generic postseason) ──────────────
+    all_text = f"{type_name} {slug} {event_name} {short_name}"
+    is_nit = any(k in all_text for k in NIT_KEYWORDS)
+
+    if is_nit:
+        # Try to identify the NIT round from notes, event name, or slug
+        for note in event.get("notes", []):
+            if not isinstance(note, dict):
+                continue
+            headline = note.get("headline", "").lower()
+            for key, label in NIT_ROUND_MAP.items():
+                if key in headline:
+                    return label
+        for key, label in NIT_ROUND_MAP.items():
+            if key in event_name or key in slug:
+                return label
+        return "NIT"
+
+    # ── NCAA Tournament detection ─────────────────────────────────────
+    is_ncaa_tourney = (
         any(t in type_name for t in NCAA_TOURNEY_SEASON_TYPES)
         or any(t in slug for t in NCAA_TOURNEY_SEASON_TYPES)
+        or any(t in event_name for t in NCAA_TOURNEY_KEYWORDS)
     )
-    if not is_tourney:
-        return None
+    if not is_ncaa_tourney:
+        return None  # Regular season or conference tournament — no round label
 
     # Try event notes first (most specific)
     for note in event.get("notes", []):
@@ -282,12 +332,17 @@ def parse_tourney_round(event: dict) -> str | None:
             if key in headline:
                 return label
 
+    # Try event name and shortName
+    for key, label in TOURNEY_ROUND_MAP.items():
+        if key in event_name or key in short_name:
+            return label
+
     # Fall back to season slug
     for key, label in TOURNEY_ROUND_MAP.items():
         if key in slug:
             return label
 
-    # We know it's the tournament but couldn't identify the round
+    # Confirmed NCAA Tournament but round unknown
     return "NCAA Tournament"
 
 
