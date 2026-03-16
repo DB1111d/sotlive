@@ -385,6 +385,7 @@ def fetch_ncaa_day(date_str: str) -> list:
             # NCAA Tournament round detection — None if regular season / conf tourney
             tourney_round = parse_tourney_round(event)
 
+
             # Conference — only matters when not in the tournament
             # ESPN stores conference as a numeric conferenceId on the team object
             conference = "Independent"
