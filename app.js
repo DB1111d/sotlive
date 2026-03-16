@@ -303,7 +303,15 @@ function buildNcaaPanel(key, day) {
   // Group by tournament bucket (NCAA Tournament / NIT) or conference
   const grouped = {};
   for (const g of games) {
-    const groupKey = g.tournament || g.conference || 'Other';
+    let groupKey;
+    if (g.tournament) {
+      groupKey = g.tournament;
+    } else if (g.tourney_round) {
+      // backward compat: derive from tourney_round if tournament field missing
+      groupKey = g.tourney_round.toLowerCase().includes('nit') ? 'NIT' : 'NCAA Tournament';
+    } else {
+      groupKey = g.conference || 'Other';
+    }
     if (!grouped[groupKey]) grouped[groupKey] = [];
     grouped[groupKey].push(g);
   }
