@@ -502,7 +502,6 @@
 
     .faq-item {
       border-bottom: 1px solid var(--border);
-      padding: 16px 0;
     }
 
     .faq-item:first-child {
@@ -513,13 +512,34 @@
       font-size: 16px;
       font-weight: 600;
       color: var(--text);
-      margin-bottom: 10px;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      list-style: none;
+      user-select: none;
+      padding: 16px 0;
+    }
+
+    .faq-question::-webkit-details-marker { display: none; }
+
+    .faq-chevron {
+      font-size: 11px;
+      color: var(--text-muted);
+      flex-shrink: 0;
+      transition: transform 0.2s;
+    }
+
+    details[open] .faq-chevron {
+      transform: rotate(180deg);
     }
 
     .faq-answer {
       font-size: 15px;
       line-height: 1.7;
       color: #555;
+      padding-bottom: 16px;
     }
 
     .faq-answer ul {
@@ -527,6 +547,15 @@
       display: flex;
       flex-direction: column;
       gap: 2px;
+    }
+
+    .about-section h2.faq-title {
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 0;
+      text-transform: none;
+      color: var(--text);
+      margin-bottom: 10px;
     }
 
     /* ── About panel ── */
@@ -694,18 +723,24 @@
 
     <!-- FAQ -->
     <div class="about-section">
-      <h2>FAQ</h2>
+      <h2 class="faq-title">FAQ</h2>
       <div class="faq-list">
 
-        <div class="faq-item">
-          <div class="faq-question">What is SOTLive?</div>
+        <details class="faq-item">
+          <summary class="faq-question">
+            What is SOTLive?
+            <span class="faq-chevron">▼</span>
+          </summary>
           <div class="faq-answer">
             SOTLive is a media aggregator that surfaces upcoming sports games and newly released TV shows and movies across multiple streaming and broadcast platforms — all in one place, so you never miss what's on.
           </div>
-        </div>
+        </details>
 
-        <div class="faq-item">
-          <div class="faq-question">What soccer leagues do you cover?</div>
+        <details class="faq-item">
+          <summary class="faq-question">
+            What soccer leagues do you cover?
+            <span class="faq-chevron">▼</span>
+          </summary>
           <div class="faq-answer">
             We currently cover the following competitions:
             <ul>
@@ -726,21 +761,27 @@
               <li>USL League One</li>
             </ul>
           </div>
-        </div>
+        </details>
 
-        <div class="faq-item">
-          <div class="faq-question">What basketball do you cover?</div>
+        <details class="faq-item">
+          <summary class="faq-question">
+            What basketball do you cover?
+            <span class="faq-chevron">▼</span>
+          </summary>
           <div class="faq-answer">
             Currently, we cover men's college basketball — including the NCAA Tournament and NIT. Additional coverage may be added in the future.
           </div>
-        </div>
+        </details>
 
-        <div class="faq-item">
-          <div class="faq-question">Why are some games no longer showing for today?</div>
+        <details class="faq-item">
+          <summary class="faq-question">
+            Why are some games no longer showing for today?
+            <span class="faq-chevron">▼</span>
+          </summary>
           <div class="faq-answer">
             The schedule refreshes every few hours. Once a game is confirmed over and well in the past, it rolls off the page — we keep things focused on what's upcoming, currently live, or recently finished. If something seems to have disappeared, it's likely already wrapped up.
           </div>
-        </div>
+        </details>
 
       </div>
     </div>

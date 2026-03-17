@@ -89,6 +89,7 @@ const BADGE_MAP = {
   'FS2':              { cls: 'source-fox',     label: 'FS2' },
   'TBS / TNT':        { cls: 'source-cbs',     label: 'TBS / TNT' },
   'ABC / ESPN+':      { cls: 'source-espn',    label: 'ABC / ESPN+' },
+  'YouTube':          { cls: 'source-appletv', label: 'YouTube' },
 };
 
 function sourceBadge(src) {
