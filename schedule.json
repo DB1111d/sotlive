@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-17 13:05 EDT",
+  "updated": "2026-03-17 16:19 EDT",
   "days": {
     "20260317": {
       "date": "Tuesday, March 17",
@@ -54,11 +54,66 @@
         },
         {
           "league": "US Open Cup",
-          "time": "TBD",
-          "match": "TBD",
-          "source": "TBD",
-          "kick_utc": null,
-          "round_label": "Round 1"
+          "time": "6:30 PM",
+          "match": "Richmond Kickers vs Northern Virginia FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-17T22:30Z"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "7:00 PM",
+          "match": "Rhode Island FC vs CD Faialense",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-17T23:00Z"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "7:00 PM",
+          "match": "Vermont Green vs Portland Hearts of Pine",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-17T23:00Z"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "7:30 PM",
+          "match": "Detroit City FC vs Michigan Rangers FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-17T23:30Z"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "7:30 PM",
+          "match": "West Chester vs Loudoun United FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-17T23:30Z"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "8:00 PM",
+          "match": "Colorado Springs Switchbacks FC vs Azteca FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-18T00:00Z"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "8:00 PM",
+          "match": "Indy Eleven vs Des Moines Menace",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-18T00:00Z"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "10:00 PM",
+          "match": "Phoenix Rising FC vs San Ramon FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-18T02:00Z"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "Canceled",
+          "match": "South Georgia Tormenta FC vs FC America CFL Spurs",
+          "source": "",
+          "kick_utc": "2026-03-17T22:00Z"
         },
         {
           "league": "EFL Championship",
@@ -145,6 +200,111 @@
           "round_label": "Round of 16 \u00b7 Leg 2"
         },
         {
+          "league": "US Open Cup",
+          "time": "6:00 PM",
+          "match": "Chattanooga FC vs Kalonji Pro Profile",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-18T22:00Z"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "6:30 PM",
+          "match": "Asheville City SC vs Greenville Triumph",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-18T22:30Z"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "6:30 PM",
+          "match": "Charleston Battery vs Florida Badgers FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-18T22:30Z"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "7:00 PM",
+          "match": "FC Motown vs Hartford Athletic",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-18T23:00Z"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "7:00 PM",
+          "match": "FC Naples vs Red Force",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-18T23:00Z"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "7:00 PM",
+          "match": "Louisville City FC vs Southern Indiana FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-18T23:00Z"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "7:30 PM",
+          "match": "SC Vistula Garfield vs One Knoxville",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-18T23:30Z"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "8:00 PM",
+          "match": "BOHFS St. Louis vs Union Omaha",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-19T00:00Z"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "8:00 PM",
+          "match": "Little Rock Rangers vs FC Tulsa",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-19T00:00Z"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "8:30 PM",
+          "match": "San Antonio FC vs ASC New Stars",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-19T00:30Z"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "9:30 PM",
+          "match": "New Mexico United vs Cruizers FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-19T01:30Z"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "10:00 PM",
+          "match": "Sacramento Republic FC vs El Farolito",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-19T02:00Z"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "10:30 PM",
+          "match": "AV Alta FC vs Valley 559 FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-19T02:30Z"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "10:30 PM",
+          "match": "Orange County SC vs Laguna United FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-19T02:30Z"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "10:30 PM",
+          "match": "Ventura County Fusion vs Spokane Velocity FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-19T02:30Z"
+        },
+        {
           "league": "EFL Championship",
           "time": "3:45 PM",
           "match": "Southampton vs Norwich City",
@@ -227,6 +387,55 @@
           "source": "FS1",
           "kick_utc": "2026-03-20T01:00Z",
           "round_label": "Round of 16 \u00b7 Leg 2"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "6:00 PM",
+          "match": "Carolina Core FC vs Virginia Dream FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-19T22:00Z"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "6:30 PM",
+          "match": "Charlotte Independence vs Ristozi FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-19T22:30Z"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "6:30 PM",
+          "match": "Flint City Bucks vs Forward Madison FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-19T22:30Z"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "7:00 PM",
+          "match": "Lexington vs Flower City Union",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-19T23:00Z"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "7:30 PM",
+          "match": "Westchester SC vs NY Renegades FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-19T23:30Z"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "8:00 PM",
+          "match": "Tennessee Tempo FC vs Chattanooga Red Wolves",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-20T00:00Z"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "8:30 PM",
+          "match": "Laredo Heat vs El Paso Locomotive FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-20T00:30Z"
         }
       ]
     },
