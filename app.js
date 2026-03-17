@@ -30,6 +30,7 @@ const LEAGUE_ORDER = [
   'Premier League',
   'MLS',
   'CONCACAF Champions Cup',
+  'US Open Cup',
   'English FA Cup',
   'EFL Championship',
   'Serie A',

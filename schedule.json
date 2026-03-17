@@ -53,6 +53,14 @@
           "round_label": "Round of 16 \u00b7 Leg 2"
         },
         {
+          "league": "US Open Cup",
+          "time": "TBD",
+          "match": "TBD",
+          "source": "TBD",
+          "kick_utc": null,
+          "round_label": "Round 1"
+        },
+        {
           "league": "EFL Championship",
           "time": "3:45 PM",
           "match": "Watford vs Wrexham",
