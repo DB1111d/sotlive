@@ -265,8 +265,10 @@ function buildPanel(key, day) {
     const isUefa = ['UEFA Champions League', 'UEFA Europa League', 'UEFA Europa Conference League'].includes(league);
     html += `<div class="league-group"><div class="league-label${isUefa ? ' uefa' : ''}">${league}</div>`;
     for (const g of info.items) {
-      const displayTime = (g.kick_utc ? formatTime(g.kick_utc, currentTZ) : null) || g.time;
-      const utcAttr = g.kick_utc ? `data-utc="${g.kick_utc}"` : '';
+      const NON_TIMES = new Set(['canceled','cancelled','postponed','suspended','delayed','tbd']);
+      const isNonTime = NON_TIMES.has(g.time.trim().toLowerCase());
+      const displayTime = (!isNonTime && g.kick_utc ? formatTime(g.kick_utc, currentTZ) : null) || g.time;
+      const utcAttr = (!isNonTime && g.kick_utc) ? `data-utc="${g.kick_utc}"` : '';
       let roundLine = '';
       if (g.round_label) {
         const parts = g.round_label.split(' · ');
@@ -316,8 +318,10 @@ function buildNcaaPanel(key, day) {
   for (const [groupName, items] of Object.entries(grouped)) {
     html += `<div class="league-group"><div class="league-label">${groupName}</div>`;
     for (const g of items) {
-      const displayTime = (g.kick_utc ? formatTime(g.kick_utc, currentTZ) : null) || g.time;
-      const utcAttr = g.kick_utc ? `data-utc="${g.kick_utc}"` : '';
+      const NON_TIMES = new Set(['canceled','cancelled','postponed','suspended','delayed','tbd']);
+      const isNonTime = NON_TIMES.has(g.time.trim().toLowerCase());
+      const displayTime = (!isNonTime && g.kick_utc ? formatTime(g.kick_utc, currentTZ) : null) || g.time;
+      const utcAttr = (!isNonTime && g.kick_utc) ? `data-utc="${g.kick_utc}"` : '';
       html += `<div class="game-card" ${utcAttr}>
         <div class="game-card-left">
           <span class="game-time">${displayTime}</span>
