@@ -487,7 +487,12 @@ async function switchSport(sport) {
       for (const show of shows) {
         const genres    = show.genres && show.genres.length ? show.genres.join(', ') : '';
         const genreEl   = genres ? `<div class="netflix-genres">${genres}</div>` : '';
-        const overviewEl = show.overview ? `<div class="netflix-overview">${show.overview}</div>` : '';
+        const overviewEl = show.overview
+          ? `<div class="netflix-overview-wrap">
+               <div class="netflix-overview netflix-overview-clamped">${show.overview}</div>
+               <button class="netflix-show-more" onclick="toggleOverview(event,this)" type="button">Show more</button>
+             </div>`
+          : '';
         const posterEl  = show.thumbnail
           ? `<img class="netflix-poster" src="${show.thumbnail}" alt="${show.title}" loading="lazy">`
           : `<div class="netflix-poster-placeholder">🎬</div>`;
@@ -509,6 +514,17 @@ async function switchSport(sport) {
       }
       html += `</div>`;
       panel.innerHTML = html;
+
+      // Hide "Show more" buttons where text fits without clamping
+      requestAnimationFrame(() => {
+        panel.querySelectorAll('.netflix-overview-wrap').forEach(wrap => {
+          const overview = wrap.querySelector('.netflix-overview');
+          const btn = wrap.querySelector('.netflix-show-more');
+          if (overview && btn && overview.scrollHeight <= overview.clientHeight + 2) {
+            btn.style.display = 'none';
+          }
+        });
+      });
 
       if (firstTab) panel.classList.add('active');
       contentEl.appendChild(panel);
@@ -644,6 +660,29 @@ async function submitContact() {
 
   btn.textContent = 'Send Message';
   btn.disabled = false;
+}
+
+// ── Netflix "Show more" toggle ────────────────────────────────────
+function toggleOverview(e, btn) {
+  // Prevent the card's <a> link from firing
+  e.preventDefault();
+  e.stopPropagation();
+
+  const card = btn.closest('.netflix-card');
+  const overview = btn.previousElementSibling;
+  const isExpanded = card.classList.contains('expanded');
+
+  if (isExpanded) {
+    // Collapse
+    overview.classList.add('netflix-overview-clamped');
+    card.classList.remove('expanded');
+    btn.textContent = 'Show more';
+  } else {
+    // Expand: remove clamp and go full-width on desktop
+    overview.classList.remove('netflix-overview-clamped');
+    card.classList.add('expanded');
+    btn.textContent = 'Show less';
+  }
 }
 
 // ── Init ──────────────────────────────────────────────────────────
