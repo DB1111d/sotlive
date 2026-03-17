@@ -147,7 +147,7 @@ def fetch_netflix_releases(from_ts: int, to_ts: int) -> list:
             all_shows.append({
                 "type":       show_type,
                 "title":      title,
-                "overview":   overview[:200] + "..." if len(overview) > 200 else overview,
+                "overview":   overview,
                 "genres":     genres,
                 "added_date": added_date,
                 "added_ts":   added_ts,

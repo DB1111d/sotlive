@@ -129,8 +129,8 @@
     }
 
     .netflix-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      display: flex;
+      flex-direction: column;
       gap: 16px;
       margin-bottom: 8px;
     }
@@ -142,7 +142,8 @@
       overflow: hidden;
       transition: border-color 0.15s, box-shadow 0.15s;
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
+      align-items: flex-start;
     }
 
     .netflix-card:hover {
@@ -151,7 +152,8 @@
     }
 
     .netflix-poster {
-      width: 100%;
+      width: 140px;
+      flex-shrink: 0;
       aspect-ratio: 2/3;
       object-fit: cover;
       display: block;
@@ -159,7 +161,8 @@
     }
 
     .netflix-poster-placeholder {
-      width: 100%;
+      width: 140px;
+      flex-shrink: 0;
       aspect-ratio: 2/3;
       background: var(--border);
       display: flex;
@@ -170,10 +173,11 @@
     }
 
     .netflix-card-body {
-      padding: 14px 16px 16px;
+      padding: 16px 18px 16px;
       flex: 1;
       display: flex;
       flex-direction: column;
+      min-width: 0;
     }
 
     .netflix-card-header {
@@ -234,35 +238,23 @@
       color: #555;
       background: none;
       border: none;
+      outline: none;
       padding: 0;
       cursor: pointer;
       text-align: left;
       text-decoration: underline;
       text-underline-offset: 2px;
+      align-self: flex-start;
     }
     .netflix-show-more:hover { color: #000; }
 
-    /* When a card is expanded on desktop, span both columns */
-    @media (min-width: 501px) {
-      .netflix-card.expanded {
-        grid-column: 1 / -1;
-        flex-direction: row;
-        align-items: flex-start;
-      }
-      .netflix-card.expanded .netflix-poster,
-      .netflix-card.expanded .netflix-poster-placeholder {
-        width: 240px;
-        flex-shrink: 0;
-        aspect-ratio: 2/3;
-      }
-      .netflix-card.expanded .netflix-card-body {
-        flex: 1;
-      }
-    }
-
+    /* Mobile: stack vertically */
     @media (max-width: 500px) {
-      .netflix-grid { grid-template-columns: 1fr; }
       .netflix-section-title { font-size: 30px; }
+      .netflix-card { flex-direction: column; }
+      .netflix-poster,
+      .netflix-poster-placeholder { width: 100%; }
+      .netflix-card-body { padding: 14px 16px 16px; }
     }
 
     /* ── Timezone picker row ── */

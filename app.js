@@ -664,24 +664,18 @@ async function submitContact() {
 
 // ── Netflix "Show more" toggle ────────────────────────────────────
 function toggleOverview(e, btn) {
-  // Prevent the card's <a> link from firing
   e.preventDefault();
   e.stopPropagation();
 
-  const card = btn.closest('.netflix-card');
   const overview = btn.previousElementSibling;
-  const isExpanded = card.classList.contains('expanded');
+  const isClamped = overview.classList.contains('netflix-overview-clamped');
 
-  if (isExpanded) {
-    // Collapse
-    overview.classList.add('netflix-overview-clamped');
-    card.classList.remove('expanded');
-    btn.textContent = 'Show more';
-  } else {
-    // Expand: remove clamp and go full-width on desktop
+  if (isClamped) {
     overview.classList.remove('netflix-overview-clamped');
-    card.classList.add('expanded');
     btn.textContent = 'Show less';
+  } else {
+    overview.classList.add('netflix-overview-clamped');
+    btn.textContent = 'Show more';
   }
 }
 
