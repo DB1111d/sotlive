@@ -493,6 +493,62 @@
       padding-top: 16px;
     }
 
+    /* ── FAQ ── */
+    .faq-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid var(--border);
+      padding: 14px 0;
+    }
+
+    .faq-item:first-child {
+      border-top: 1px solid var(--border);
+    }
+
+    .faq-question {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text);
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      list-style: none;
+      user-select: none;
+    }
+
+    .faq-question::-webkit-details-marker { display: none; }
+
+    .faq-chevron {
+      font-size: 11px;
+      color: var(--text-muted);
+      flex-shrink: 0;
+      transition: transform 0.2s;
+    }
+
+    details[open] .faq-chevron {
+      transform: rotate(180deg);
+    }
+
+    .faq-answer {
+      font-size: 14px;
+      line-height: 1.7;
+      color: #555;
+      padding-top: 10px;
+    }
+
+    .faq-answer ul {
+      margin: 6px 0 0 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
     /* ── About panel ── */
     .about-panel {
       display: none;
@@ -655,6 +711,69 @@
   <div class="content" id="content"></div>
 
   <div class="about-panel" id="about-panel">
+
+    <!-- FAQ -->
+    <div class="about-section">
+      <h2>FAQ</h2>
+      <div class="faq-list">
+
+        <details class="faq-item">
+          <summary class="faq-question">
+            What is SOTLive?
+            <span class="faq-chevron">▼</span>
+          </summary>
+          <div class="faq-answer">
+            SOTLive is a media aggregator that surfaces upcoming sports games and newly released TV shows and movies across multiple streaming and broadcast platforms — all in one place, so you never miss what's on.
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-question">
+            What soccer leagues do you cover?
+            <span class="faq-chevron">▼</span>
+          </summary>
+          <div class="faq-answer">
+            We currently cover the following competitions:
+            <ul>
+              <li>UEFA Champions League</li>
+              <li>UEFA Europa League</li>
+              <li>CONCACAF Champions Cup</li>
+              <li>Premier League</li>
+              <li>EFL Championship</li>
+              <li>Serie A</li>
+              <li>German Bundesliga</li>
+              <li>La Liga</li>
+              <li>Dutch Eredivisie</li>
+              <li>USL Championship</li>
+              <li>USL League One</li>
+              <li>US Open Cup</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-question">
+            What basketball do you cover?
+            <span class="faq-chevron">▼</span>
+          </summary>
+          <div class="faq-answer">
+            Currently, we cover men's college basketball — including the NCAA Tournament and NIT. Additional coverage may be added in the future.
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-question">
+            Why are some games no longer showing for today?
+            <span class="faq-chevron">▼</span>
+          </summary>
+          <div class="faq-answer">
+            The schedule refreshes every few hours. Once a game is confirmed over and well in the past, it rolls off the page — we keep things focused on what's upcoming, currently live, or recently finished. If something seems to have disappeared, it's likely already wrapped up.
+          </div>
+        </details>
+
+      </div>
+    </div>
+
     <div class="about-section">
       <h2>No Affiliation</h2>
       <p>This website is an independent, unofficial resource and is not affiliated with, endorsed by, authorized by, or sponsored by any football league, governing body, club, team, player, or broadcast provider referenced herein. All league names, club names, competition names, logos, and trademarks are the sole property of their respective owners and are referenced for informational purposes only.</p>
