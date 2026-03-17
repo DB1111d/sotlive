@@ -1,38 +1,9 @@
 {
-  "updated": "2026-03-16 17:18 EDT",
+  "updated": "2026-03-16 22:11 EDT",
   "days": {
     "20260316": {
       "date": "Monday, March 16",
-      "games": [
-        {
-          "league": "Premier League",
-          "time": "4:00 PM",
-          "match": "Brentford vs Wolverhampton Wanderers",
-          "source": "USA Network",
-          "kick_utc": "2026-03-16T20:00Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "4:00 PM",
-          "match": "Portsmouth vs Derby County",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-16T20:00Z"
-        },
-        {
-          "league": "Serie A",
-          "time": "3:45 PM",
-          "match": "Cremonese vs Fiorentina",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-16T19:45Z"
-        },
-        {
-          "league": "La Liga",
-          "time": "4:00 PM",
-          "match": "Rayo Vallecano vs Levante",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-16T20:00Z"
-        }
-      ]
+      "games": []
     },
     "20260317": {
       "date": "Tuesday, March 17",
@@ -89,7 +60,7 @@
           "league": "EFL Championship",
           "time": "3:45 PM",
           "match": "Watford vs Wrexham",
-          "source": "ESPN+",
+          "source": "CBS / Paramount+",
           "kick_utc": "2026-03-17T19:45Z"
         }
       ]
