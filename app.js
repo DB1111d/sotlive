@@ -413,6 +413,8 @@ function switchToAbout() {
   if (currentSport === 'netflix') {
     hideLeagueFilter();
   } else {
+    const tzPicker = document.getElementById('tz-picker');
+    if (tzPicker) tzPicker.style.display = '';
     showLeagueFilter();
     populateLeagueFilter([]);
   }
