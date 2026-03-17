@@ -1,10 +1,6 @@
 {
-  "updated": "2026-03-16 22:11 EDT",
+  "updated": "2026-03-17 01:22 EDT",
   "days": {
-    "20260316": {
-      "date": "Monday, March 16",
-      "games": []
-    },
     "20260317": {
       "date": "Tuesday, March 17",
       "games": [
@@ -440,6 +436,10 @@
           "kick_utc": "2026-03-21T02:10Z"
         }
       ]
+    },
+    "20260321": {
+      "date": "Saturday, March 21",
+      "games": []
     }
   }
 }

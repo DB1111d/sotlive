@@ -1,10 +1,6 @@
 {
-  "updated": "2026-03-16 22:11 EDT",
+  "updated": "2026-03-17 01:22 EDT",
   "days": {
-    "20260316": {
-      "date": "Monday, March 16",
-      "games": []
-    },
     "20260317": {
       "date": "Tuesday, March 17",
       "games": [
@@ -277,6 +273,403 @@
           "match": "Heracles Almelo vs Excelsior",
           "source": "ESPN+",
           "kick_utc": "2026-03-20T19:00Z"
+        }
+      ]
+    },
+    "20260321": {
+      "date": "Saturday, March 21",
+      "games": [
+        {
+          "league": "Premier League",
+          "time": "8:30 AM",
+          "match": "Brighton & Hove Albion vs Liverpool",
+          "source": "Peacock",
+          "kick_utc": "2026-03-21T12:30Z"
+        },
+        {
+          "league": "Premier League",
+          "time": "11:00 AM",
+          "match": "Fulham vs Burnley",
+          "source": "Peacock",
+          "kick_utc": "2026-03-21T15:00Z"
+        },
+        {
+          "league": "Premier League",
+          "time": "1:30 PM",
+          "match": "Everton vs Chelsea",
+          "source": "Peacock",
+          "kick_utc": "2026-03-21T17:30Z"
+        },
+        {
+          "league": "Premier League",
+          "time": "4:00 PM",
+          "match": "Leeds United vs Brentford",
+          "source": "Peacock",
+          "kick_utc": "2026-03-21T20:00Z"
+        },
+        {
+          "league": "Premier League",
+          "time": "Postponed",
+          "match": "Manchester City vs Crystal Palace",
+          "source": "",
+          "kick_utc": "2026-03-21T15:00Z"
+        },
+        {
+          "league": "MLS",
+          "time": "1:00 PM",
+          "match": "Toronto FC vs Columbus Crew",
+          "source": "Apple TV",
+          "kick_utc": "2026-03-21T17:00Z"
+        },
+        {
+          "league": "MLS",
+          "time": "4:30 PM",
+          "match": "Philadelphia Union vs Chicago Fire FC",
+          "source": "Apple TV",
+          "kick_utc": "2026-03-21T20:30Z"
+        },
+        {
+          "league": "MLS",
+          "time": "6:15 PM",
+          "match": "Nashville SC vs Orlando City SC",
+          "source": "FOX \u00b7 Apple TV",
+          "kick_utc": "2026-03-21T22:15Z"
+        },
+        {
+          "league": "MLS",
+          "time": "7:30 PM",
+          "match": "Atlanta United FC vs D.C. United",
+          "source": "Apple TV",
+          "kick_utc": "2026-03-21T23:30Z"
+        },
+        {
+          "league": "MLS",
+          "time": "7:30 PM",
+          "match": "Charlotte FC vs Red Bull New York",
+          "source": "Apple TV",
+          "kick_utc": "2026-03-21T23:30Z"
+        },
+        {
+          "league": "MLS",
+          "time": "8:30 PM",
+          "match": "FC Dallas vs Houston Dynamo FC",
+          "source": "Apple TV",
+          "kick_utc": "2026-03-22T00:30Z"
+        },
+        {
+          "league": "MLS",
+          "time": "8:30 PM",
+          "match": "Sporting Kansas City vs Colorado Rapids",
+          "source": "Apple TV",
+          "kick_utc": "2026-03-22T00:30Z"
+        },
+        {
+          "league": "MLS",
+          "time": "8:30 PM",
+          "match": "St. Louis CITY SC vs New England Revolution",
+          "source": "Apple TV",
+          "kick_utc": "2026-03-22T00:30Z"
+        },
+        {
+          "league": "MLS",
+          "time": "8:45 PM",
+          "match": "Austin FC vs LAFC",
+          "source": "FOX \u00b7 Apple TV",
+          "kick_utc": "2026-03-22T00:45Z"
+        },
+        {
+          "league": "MLS",
+          "time": "10:30 PM",
+          "match": "Vancouver Whitecaps vs San Jose Earthquakes",
+          "source": "Apple TV",
+          "kick_utc": "2026-03-22T02:30Z"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "8:30 AM",
+          "match": "Blackburn Rovers vs Middlesbrough",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-21T12:30Z"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "8:30 AM",
+          "match": "Derby County vs Birmingham City",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-21T12:30Z"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "8:30 AM",
+          "match": "Ipswich Town vs Millwall",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-21T12:30Z"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "11:00 AM",
+          "match": "Bristol City vs West Bromwich Albion",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-21T15:00Z"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "11:00 AM",
+          "match": "Charlton Athletic vs Norwich City",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-21T15:00Z"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "11:00 AM",
+          "match": "Hull City vs Sheffield Wednesday",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-21T15:00Z"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "11:00 AM",
+          "match": "Queens Park Rangers vs Portsmouth",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-21T15:00Z"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "11:00 AM",
+          "match": "Sheffield United vs Wrexham",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-21T15:00Z"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "11:00 AM",
+          "match": "Southampton vs Oxford United",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-21T15:00Z"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "11:00 AM",
+          "match": "Watford vs Leicester City",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-21T15:00Z"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "1:15 PM",
+          "match": "Swansea City vs Coventry City",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-21T17:15Z"
+        },
+        {
+          "league": "Serie A",
+          "time": "10:00 AM",
+          "match": "Parma vs Cremonese",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-21T14:00Z"
+        },
+        {
+          "league": "Serie A",
+          "time": "1:00 PM",
+          "match": "AC Milan vs Torino",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-21T17:00Z"
+        },
+        {
+          "league": "Serie A",
+          "time": "3:45 PM",
+          "match": "Juventus vs Sassuolo",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-21T19:45Z"
+        },
+        {
+          "league": "German Bundesliga",
+          "time": "10:30 AM",
+          "match": "1. FC Heidenheim 1846 vs Bayer Leverkusen",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-21T14:30Z"
+        },
+        {
+          "league": "German Bundesliga",
+          "time": "10:30 AM",
+          "match": "Bayern Munich vs 1. FC Union Berlin",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-21T14:30Z"
+        },
+        {
+          "league": "German Bundesliga",
+          "time": "10:30 AM",
+          "match": "FC Cologne vs Borussia M\u00f6nchengladbach",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-21T14:30Z"
+        },
+        {
+          "league": "German Bundesliga",
+          "time": "10:30 AM",
+          "match": "VfL Wolfsburg vs Werder Bremen",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-21T14:30Z"
+        },
+        {
+          "league": "German Bundesliga",
+          "time": "1:30 PM",
+          "match": "Borussia Dortmund vs Hamburg SV",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-21T17:30Z"
+        },
+        {
+          "league": "La Liga",
+          "time": "9:00 AM",
+          "match": "Elche vs Mallorca",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-21T13:00Z"
+        },
+        {
+          "league": "La Liga",
+          "time": "11:15 AM",
+          "match": "Espanyol vs Getafe",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-21T15:15Z"
+        },
+        {
+          "league": "La Liga",
+          "time": "1:30 PM",
+          "match": "Levante vs Real Oviedo",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-21T17:30Z"
+        },
+        {
+          "league": "La Liga",
+          "time": "1:30 PM",
+          "match": "Osasuna vs Girona",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-21T17:30Z"
+        },
+        {
+          "league": "La Liga",
+          "time": "4:00 PM",
+          "match": "Sevilla vs Valencia",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-21T20:00Z"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "11:30 AM",
+          "match": "Fortuna Sittard vs FC Twente",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-21T15:30Z"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "1:45 PM",
+          "match": "Sparta Rotterdam vs FC Volendam",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-21T17:45Z"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "4:00 PM",
+          "match": "PEC Zwolle vs NAC Breda",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-21T20:00Z"
+        },
+        {
+          "league": "USL Championship",
+          "time": "3:00 PM",
+          "match": "Loudoun United FC vs Miami FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-21T19:00Z"
+        },
+        {
+          "league": "USL Championship",
+          "time": "4:00 PM",
+          "match": "Louisville City FC vs Rhode Island FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-21T20:00Z"
+        },
+        {
+          "league": "USL Championship",
+          "time": "7:00 PM",
+          "match": "Brooklyn FC vs Hartford Athletic",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-21T23:00Z"
+        },
+        {
+          "league": "USL Championship",
+          "time": "7:00 PM",
+          "match": "Charleston Battery vs Birmingham Legion FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-21T23:00Z"
+        },
+        {
+          "league": "USL Championship",
+          "time": "7:00 PM",
+          "match": "Indy Eleven vs Detroit City FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-21T23:00Z"
+        },
+        {
+          "league": "USL Championship",
+          "time": "7:30 PM",
+          "match": "Tampa Bay Rowdies vs Pittsburgh Riverhounds",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-21T23:30Z"
+        },
+        {
+          "league": "USL Championship",
+          "time": "8:00 PM",
+          "match": "FC Tulsa vs Las Vegas Lights FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-22T00:00Z"
+        },
+        {
+          "league": "USL Championship",
+          "time": "8:30 PM",
+          "match": "San Antonio FC vs New Mexico United",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-22T00:30Z"
+        },
+        {
+          "league": "USL Championship",
+          "time": "10:00 PM",
+          "match": "Orange County SC vs Colorado Springs Switchbacks FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-22T02:00Z"
+        },
+        {
+          "league": "USL Championship",
+          "time": "10:00 PM",
+          "match": "Phoenix Rising FC vs Oakland Roots",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-22T02:00Z"
+        },
+        {
+          "league": "USL Championship",
+          "time": "10:00 PM",
+          "match": "Sacramento Republic FC vs Monterey Bay",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-22T02:00Z"
+        },
+        {
+          "league": "USL League One",
+          "time": "3:00 PM",
+          "match": "Spokane Velocity FC vs New York Cosmos",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-21T19:00Z"
+        },
+        {
+          "league": "USL League One",
+          "time": "6:00 PM",
+          "match": "Richmond Kickers vs FC Naples",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-21T22:00Z"
+        },
+        {
+          "league": "USL League One",
+          "time": "10:30 PM",
+          "match": "AV Alta FC vs Portland Hearts of Pine",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-22T02:30Z"
         }
       ]
     }
