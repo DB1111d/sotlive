@@ -30,6 +30,10 @@ TYPE_LABELS = {
     "special":     "Specials",
 }
 
+# Maximum items kept per content type. Caps bulk catalogue noise while preserving
+# all genuine new releases (a normal week has ~20-80 real additions per type).
+MAX_PER_TYPE = 150
+
 # ─── Helpers ──────────────────────────────────────────────────────────────────
 
 def week_bounds():
@@ -160,6 +164,11 @@ def fetch_netflix_releases(from_ts: int, to_ts: int) -> list:
         if not has_more or not cursor:
             break
 
+        # Early exit once we have far more than we'll ever keep
+        if len(all_shows) > MAX_PER_TYPE * len(TYPE_ORDER) * 2:
+            print(f"  Early exit: {len(all_shows)} items collected, stopping pagination")
+            break
+
     return all_shows
 
 
@@ -186,9 +195,12 @@ def main():
             grouped[t] = []
         grouped[t].append(show)
 
-    # Sort each group newest first
+    # Sort each group newest first, then cap to remove bulk catalogue noise
     for t in grouped:
         grouped[t].sort(key=lambda s: s["added_ts"], reverse=True)
+        if len(grouped[t]) > MAX_PER_TYPE:
+            print(f"  Capping {TYPE_LABELS.get(t, t)}: {len(grouped[t])} → {MAX_PER_TYPE} items")
+            grouped[t] = grouped[t][:MAX_PER_TYPE]
 
     # Order groups by TYPE_ORDER
     ordered_groups = {}
