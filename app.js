@@ -488,10 +488,19 @@ async function switchSport(sport) {
       });
     }
 
-    // Build all panels up front — switching is pure .active toggle, no re-render
+    // Flush images in a panel: swap data-src -> src so they only load when tab is first opened
+    function flushImages(panel) {
+      panel.querySelectorAll('img[data-src]').forEach(img => {
+        img.src = img.dataset.src;
+        img.removeAttribute('data-src');
+      });
+    }
+
+    // Build all panels up front with data-src on inactive panels — switching is pure .active toggle
     const netflixPanels = {};
-    groupNames.forEach(groupName => {
+    groupNames.forEach((groupName, idx) => {
       const panelId = `panel-netflix-${groupName.replace(/\s+/g, '-').toLowerCase()}`;
+      const isFirst = idx === 0;
 
       const panel = document.createElement('div');
       panel.className = 'day-panel';
@@ -510,8 +519,11 @@ async function switchSport(sport) {
                <button class="netflix-show-more" onclick="toggleOverview(event,this)" type="button">Show more</button>
              </div>`
           : '';
-        const posterEl  = show.thumbnail
-          ? `<img class="netflix-poster" src="${show.thumbnail}" alt="${show.title}" loading="lazy" decoding="async" width="140" height="210">`
+        // First panel loads images immediately; inactive panels use data-src to defer loading
+        const posterEl = show.thumbnail
+          ? (isFirst
+              ? `<img class="netflix-poster" src="${show.thumbnail}" alt="${show.title}" loading="lazy" decoding="async" width="140" height="210">`
+              : `<img class="netflix-poster" data-src="${show.thumbnail}" alt="${show.title}" width="140" height="210">`)
           : `<div class="netflix-poster-placeholder">🎬</div>`;
         const cardInner = `
           ${posterEl}
@@ -545,10 +557,11 @@ async function switchSport(sport) {
       panel.classList.add('active');
       hideTzPicker();
       hideLeagueFilter();
-      // Run show-more check once on first activation
-      if (!panel._showMoreChecked) {
+      // Flush deferred images and show-more check on first activation
+      if (!panel._activated) {
+        panel._activated = true;
+        flushImages(panel);
         requestAnimationFrame(() => checkShowMoreButtons(panel));
-        panel._showMoreChecked = true;
       }
     }
 
@@ -566,8 +579,8 @@ async function switchSport(sport) {
 
       if (firstTab) {
         panel.classList.add('active');
+        panel._activated = true;
         requestAnimationFrame(() => checkShowMoreButtons(panel));
-        panel._showMoreChecked = true;
       }
       firstTab = false;
     });
