@@ -488,13 +488,15 @@ async function switchSport(sport) {
       });
     }
 
-    let firstTab = true;
+    // Build all panels up front — switching is pure show/hide, no re-render
+    const netflixPanels = {};
     groupNames.forEach(groupName => {
       const panelId = `panel-netflix-${groupName.replace(/\s+/g, '-').toLowerCase()}`;
 
       const panel = document.createElement('div');
       panel.className = 'day-panel';
       panel.id = panelId;
+      panel.style.display = 'none'; // hidden until activated
 
       const shows = groups[groupName];
       let html = `<div class="netflix-week-label">${data.week_label || ''}</div>`;
@@ -530,37 +532,45 @@ async function switchSport(sport) {
       }
       html += `</div>`;
       panel.innerHTML = html;
-
-      if (firstTab) panel.classList.add('active');
-
-      if (firstTab) {
-        requestAnimationFrame(() => checkShowMoreButtons(panel));
-      } else {
-        panel._checkShowMoreButtons = () => checkShowMoreButtons(panel);
-      }
       contentEl.appendChild(panel);
+      netflixPanels[panelId] = panel;
+    });
+
+    function activateNetflixPanel(panelId, tabBtn) {
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      tabBtn.classList.add('active');
+      document.getElementById('about-panel').classList.remove('active');
+      contentEl.style.display = '';
+      Object.entries(netflixPanels).forEach(([id, p]) => {
+        p.style.display = id === panelId ? '' : 'none';
+      });
+      hideTzPicker();
+      hideLeagueFilter();
+      // Run show-more check once on first activation
+      const panel = netflixPanels[panelId];
+      if (panel && !panel._showMoreChecked) {
+        requestAnimationFrame(() => checkShowMoreButtons(panel));
+        panel._showMoreChecked = true;
+      }
+    }
+
+    let firstTab = true;
+    groupNames.forEach(groupName => {
+      const panelId = `panel-netflix-${groupName.replace(/\s+/g, '-').toLowerCase()}`;
+      const panel = netflixPanels[panelId];
 
       const btn = document.createElement('button');
       btn.className = 'tab' + (firstTab ? ' active' : '');
       btn.dataset.netflixCategory = panelId;
       btn.textContent = groupName;
-      btn.addEventListener('click', () => {
-        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-        btn.classList.add('active');
-        document.getElementById('about-panel').classList.remove('active');
-        contentEl.style.display = '';
-        document.querySelectorAll('.day-panel').forEach(p => p.classList.remove('active'));
-        const activePanel = document.getElementById(panelId);
-        activePanel.classList.add('active');
-        hideTzPicker();
-        hideLeagueFilter();
-        // Run deferred Show more check on first activation
-        if (activePanel._checkShowMoreButtons) {
-          requestAnimationFrame(activePanel._checkShowMoreButtons);
-          delete activePanel._checkShowMoreButtons;
-        }
-      });
+      btn.addEventListener('click', () => activateNetflixPanel(panelId, btn));
       tabsEl.appendChild(btn);
+
+      if (firstTab) {
+        panel.style.display = '';
+        requestAnimationFrame(() => checkShowMoreButtons(panel));
+        panel._showMoreChecked = true;
+      }
       firstTab = false;
     });
 
@@ -617,7 +627,10 @@ async function switchSport(sport) {
   aboutBtn.addEventListener('click', switchToAbout);
   tabsEl.appendChild(aboutBtn);
 
-  // Handle initial state
+  // Handle initial state — always re-enable tzSelect in case switchToAbout disabled it
+  const tzSelect = document.getElementById('tz-select');
+  if (tzSelect) tzSelect.disabled = false;
+
   const firstKey = dateKeys[0];
   if (firstKey) {
     const prefix = sport === 'ncaa' ? 'ncaa-panel' : 'panel';
