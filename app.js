@@ -478,8 +478,37 @@ async function switchSport(sport) {
       return;
     }
 
-    function checkShowMoreButtons(panel) {
-      panel.querySelectorAll('.netflix-overview-wrap').forEach(wrap => {
+    const PAGE_SIZE = 30;
+
+    function buildCardHTML(show) {
+      const genres = show.genres && show.genres.length ? show.genres.join(', ') : '';
+      const genreEl = genres ? `<div class="netflix-genres">${genres}</div>` : '';
+      const overviewEl = show.overview
+        ? `<div class="netflix-overview-wrap">
+             <div class="netflix-overview netflix-overview-clamped">${show.overview}</div>
+             <button class="netflix-show-more" onclick="toggleOverview(event,this)" type="button">Show more</button>
+           </div>`
+        : '';
+      const posterEl = show.thumbnail
+        ? `<img class="netflix-poster" src="${show.thumbnail}" alt="${show.title}" loading="lazy" decoding="async" width="140" height="210">`
+        : `<div class="netflix-poster-placeholder">🎬</div>`;
+      const cardInner = `
+        ${posterEl}
+        <div class="netflix-card-body">
+          <div class="netflix-card-header">
+            <span class="netflix-title">${show.title}</span>
+            <span class="netflix-date">${show.added_date || ''}</span>
+          </div>
+          ${genreEl}
+          ${overviewEl}
+        </div>`;
+      return show.link
+        ? `<a class="netflix-card" href="${show.link}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">${cardInner}</a>`
+        : `<div class="netflix-card">${cardInner}</div>`;
+    }
+
+    function checkShowMoreButtons(grid) {
+      grid.querySelectorAll('.netflix-overview-wrap').forEach(wrap => {
         const overview = wrap.querySelector('.netflix-overview');
         const btn = wrap.querySelector('.netflix-show-more');
         if (overview && btn && overview.scrollHeight <= overview.clientHeight + 2) {
@@ -488,63 +517,64 @@ async function switchSport(sport) {
       });
     }
 
-    // Flush images in a panel: swap data-src -> src so they only load when tab is first opened
-    function flushImages(panel) {
-      panel.querySelectorAll('img[data-src]').forEach(img => {
-        img.src = img.dataset.src;
-        img.removeAttribute('data-src');
-      });
+    // Per-panel scroll state
+    const netflixState = {}; // panelId -> { shows, offset, grid, sentinel, observer }
+
+    function appendNextPage(panelId) {
+      const state = netflixState[panelId];
+      if (!state || state.offset >= state.shows.length) return;
+      const slice = state.shows.slice(state.offset, state.offset + PAGE_SIZE);
+      state.offset += slice.length;
+      const frag = document.createDocumentFragment();
+      const tmp = document.createElement('div');
+      tmp.innerHTML = slice.map(buildCardHTML).join('');
+      while (tmp.firstChild) frag.appendChild(tmp.firstChild);
+      state.grid.insertBefore(frag, state.sentinel);
+      checkShowMoreButtons(state.grid);
+      // If all loaded, remove sentinel and disconnect observer
+      if (state.offset >= state.shows.length) {
+        state.sentinel.remove();
+        state.observer.disconnect();
+      }
     }
 
-    // Build all panels up front with data-src on inactive panels — switching is pure .active toggle
+    // Build panel shells — only first page of cards rendered immediately
     const netflixPanels = {};
     groupNames.forEach((groupName, idx) => {
       const panelId = `panel-netflix-${groupName.replace(/\s+/g, '-').toLowerCase()}`;
-      const isFirst = idx === 0;
+      const shows = groups[groupName];
 
       const panel = document.createElement('div');
       panel.className = 'day-panel';
       panel.id = panelId;
 
-      const shows = groups[groupName];
-      let html = `<div class="netflix-week-label">${data.week_label || ''}</div>`;
-      html += `<div class="netflix-section-title">${groupName}</div>`;
-      html += `<div class="netflix-grid">`;
-      for (const show of shows) {
-        const genres    = show.genres && show.genres.length ? show.genres.join(', ') : '';
-        const genreEl   = genres ? `<div class="netflix-genres">${genres}</div>` : '';
-        const overviewEl = show.overview
-          ? `<div class="netflix-overview-wrap">
-               <div class="netflix-overview netflix-overview-clamped">${show.overview}</div>
-               <button class="netflix-show-more" onclick="toggleOverview(event,this)" type="button">Show more</button>
-             </div>`
-          : '';
-        // First panel loads images immediately; inactive panels use data-src to defer loading
-        const posterEl = show.thumbnail
-          ? (isFirst
-              ? `<img class="netflix-poster" src="${show.thumbnail}" alt="${show.title}" loading="lazy" decoding="async" width="140" height="210">`
-              : `<img class="netflix-poster" data-src="${show.thumbnail}" alt="${show.title}" width="140" height="210">`)
-          : `<div class="netflix-poster-placeholder">🎬</div>`;
-        const cardInner = `
-          ${posterEl}
-          <div class="netflix-card-body">
-            <div class="netflix-card-header">
-              <span class="netflix-title">${show.title}</span>
-              <span class="netflix-date">${show.added_date || ''}</span>
-            </div>
-            ${genreEl}
-            ${overviewEl}
-          </div>`;
-        if (show.link) {
-          html += `<a class="netflix-card" href="${show.link}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">${cardInner}</a>`;
-        } else {
-          html += `<div class="netflix-card">${cardInner}</div>`;
-        }
-      }
-      html += `</div>`;
-      panel.innerHTML = html;
+      const grid = document.createElement('div');
+      grid.className = 'netflix-grid';
+
+      // Sentinel div at end of grid — IntersectionObserver triggers next page load
+      const sentinel = document.createElement('div');
+      sentinel.className = 'netflix-sentinel';
+      sentinel.style.cssText = 'height:1px;margin-top:40px;';
+      grid.appendChild(sentinel);
+
+      const observer = new IntersectionObserver(entries => {
+        if (entries[0].isIntersecting && panel.classList.contains('active')) appendNextPage(panelId);
+      }, { rootMargin: '400px' });
+      observer.observe(sentinel);
+
+      netflixState[panelId] = { shows, offset: 0, grid, sentinel, observer };
+
+      let headerHTML = `<div class="netflix-week-label">${data.week_label || ''}</div>`;
+      headerHTML += `<div class="netflix-section-title">${groupName}</div>`;
+      panel.innerHTML = headerHTML;
+      panel.appendChild(grid);
       contentEl.appendChild(panel);
       netflixPanels[panelId] = panel;
+
+      // Render first page immediately only for first tab; others render on first activation
+      if (idx === 0) {
+        appendNextPage(panelId);
+      }
     });
 
     function activateNetflixPanel(panelId, tabBtn) {
@@ -557,31 +587,21 @@ async function switchSport(sport) {
       panel.classList.add('active');
       hideTzPicker();
       hideLeagueFilter();
-      // Flush deferred images and show-more check on first activation
-      if (!panel._activated) {
-        panel._activated = true;
-        flushImages(panel);
-        requestAnimationFrame(() => checkShowMoreButtons(panel));
-      }
+      // Render first page on first activation
+      const state = netflixState[panelId];
+      if (state && state.offset === 0) appendNextPage(panelId);
     }
 
     let firstTab = true;
     groupNames.forEach(groupName => {
       const panelId = `panel-netflix-${groupName.replace(/\s+/g, '-').toLowerCase()}`;
-      const panel = netflixPanels[panelId];
-
       const btn = document.createElement('button');
       btn.className = 'tab' + (firstTab ? ' active' : '');
       btn.dataset.netflixCategory = panelId;
       btn.textContent = groupName;
       btn.addEventListener('click', () => activateNetflixPanel(panelId, btn));
       tabsEl.appendChild(btn);
-
-      if (firstTab) {
-        panel.classList.add('active');
-        panel._activated = true;
-        requestAnimationFrame(() => checkShowMoreButtons(panel));
-      }
+      if (firstTab) netflixPanels[panelId].classList.add('active');
       firstTab = false;
     });
 
