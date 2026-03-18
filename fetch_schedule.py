@@ -63,6 +63,8 @@ ESPN_SOURCE_MAP = {
     "FOX":          "FOX",
     "FS1":          "FS1",
     "FS2":          "FS2",
+    "YouTube":      "YouTube",
+    "YouTube TV":   "YouTube",
 }
 
 # Spanish-language broadcasters to always exclude
@@ -366,10 +368,13 @@ def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> 
                     source_names = ["Apple TV"]
                 elif league_name == "Premier League":
                     source_names = ["Peacock"]
+                elif league_name in {"US Open Cup", "USL Championship", "USL League One"}:
+                    # These have varied broadcasters — don't guess, show no badge
+                    source_names = []
                 else:
                     source_names = ["ESPN+"]
 
-            source = " · ".join(source_names) if source_names else "ESPN+"
+            source = " · ".join(source_names) if source_names else ""
 
             # Round/leg label for knockout competitions
             round_label = None
