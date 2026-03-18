@@ -1,83 +1,6 @@
 {
-  "updated": "2026-03-17 22:23 EDT",
+  "updated": "2026-03-18 01:26 EDT",
   "days": {
-    "20260317": {
-      "date": "Tuesday, March 17",
-      "games": [
-        {
-          "league": "CONCACAF Champions Cup",
-          "time": "9:00 PM",
-          "match": "Alajuelense vs LAFC",
-          "source": "FS1",
-          "kick_utc": "2026-03-18T01:00Z",
-          "round_label": "Round of 16 \u00b7 Leg 2"
-        },
-        {
-          "league": "CONCACAF Champions Cup",
-          "time": "11:00 PM",
-          "match": "Cruz Azul vs Monterrey",
-          "source": "FS1",
-          "kick_utc": "2026-03-18T03:00Z",
-          "round_label": "Round of 16 \u00b7 Leg 2"
-        },
-        {
-          "league": "US Open Cup",
-          "time": "6:30 PM",
-          "match": "Richmond Kickers vs Northern Virginia FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-17T22:30Z"
-        },
-        {
-          "league": "US Open Cup",
-          "time": "7:00 PM",
-          "match": "Rhode Island FC vs CD Faialense",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-17T23:00Z"
-        },
-        {
-          "league": "US Open Cup",
-          "time": "7:00 PM",
-          "match": "Vermont Green vs Portland Hearts of Pine",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-17T23:00Z"
-        },
-        {
-          "league": "US Open Cup",
-          "time": "7:30 PM",
-          "match": "Detroit City FC vs Michigan Rangers FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-17T23:30Z"
-        },
-        {
-          "league": "US Open Cup",
-          "time": "7:30 PM",
-          "match": "West Chester vs Loudoun United FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-17T23:30Z"
-        },
-        {
-          "league": "US Open Cup",
-          "time": "8:00 PM",
-          "match": "Colorado Springs Switchbacks FC vs Azteca FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-18T00:00Z"
-        },
-        {
-          "league": "US Open Cup",
-          "time": "8:00 PM",
-          "match": "Indy Eleven vs Des Moines Menace",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-18T00:00Z"
-        },
-        {
-          "league": "US Open Cup",
-          "time": "10:00 PM",
-          "match": "Phoenix Rising FC vs San Ramon FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-18T02:00Z"
-        }
-      ]
-    },
     "20260318": {
       "date": "Wednesday, March 18",
       "games": [
@@ -841,6 +764,193 @@
           "match": "AV Alta FC vs Portland Hearts of Pine",
           "source": "ESPN+",
           "kick_utc": "2026-03-22T02:30Z"
+        }
+      ]
+    },
+    "20260322": {
+      "date": "Sunday, March 22",
+      "games": [
+        {
+          "league": "Premier League",
+          "time": "8:00 AM",
+          "match": "Newcastle United vs Sunderland",
+          "source": "USA Network",
+          "kick_utc": "2026-03-22T12:00Z"
+        },
+        {
+          "league": "Premier League",
+          "time": "10:15 AM",
+          "match": "Aston Villa vs West Ham United",
+          "source": "Peacock",
+          "kick_utc": "2026-03-22T14:15Z"
+        },
+        {
+          "league": "Premier League",
+          "time": "10:15 AM",
+          "match": "Tottenham Hotspur vs Nottingham Forest",
+          "source": "USA Network",
+          "kick_utc": "2026-03-22T14:15Z"
+        },
+        {
+          "league": "MLS",
+          "time": "1:00 PM",
+          "match": "FC Cincinnati vs CF Montr\u00e9al",
+          "source": "Apple TV",
+          "kick_utc": "2026-03-22T17:00Z"
+        },
+        {
+          "league": "MLS",
+          "time": "1:00 PM",
+          "match": "New York City FC vs Inter Miami CF",
+          "source": "Apple TV",
+          "kick_utc": "2026-03-22T17:00Z"
+        },
+        {
+          "league": "MLS",
+          "time": "2:30 PM",
+          "match": "Minnesota United FC vs Seattle Sounders FC",
+          "source": "FOX \u00b7 Apple TV",
+          "kick_utc": "2026-03-22T18:30Z"
+        },
+        {
+          "league": "MLS",
+          "time": "4:45 PM",
+          "match": "Portland Timbers vs LA Galaxy",
+          "source": "FOX \u00b7 Apple TV",
+          "kick_utc": "2026-03-22T20:45Z"
+        },
+        {
+          "league": "MLS",
+          "time": "7:00 PM",
+          "match": "San Diego FC vs Real Salt Lake",
+          "source": "Apple TV",
+          "kick_utc": "2026-03-22T23:00Z"
+        },
+        {
+          "league": "Serie A",
+          "time": "7:30 AM",
+          "match": "Como vs Pisa",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-22T11:30Z"
+        },
+        {
+          "league": "Serie A",
+          "time": "10:00 AM",
+          "match": "Atalanta vs Hellas Verona",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-22T14:00Z"
+        },
+        {
+          "league": "Serie A",
+          "time": "10:00 AM",
+          "match": "Bologna vs Lazio",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-22T14:00Z"
+        },
+        {
+          "league": "Serie A",
+          "time": "1:00 PM",
+          "match": "AS Roma vs Lecce",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-22T17:00Z"
+        },
+        {
+          "league": "Serie A",
+          "time": "3:45 PM",
+          "match": "Fiorentina vs Internazionale",
+          "source": "CBS / Paramount+",
+          "kick_utc": "2026-03-22T19:45Z"
+        },
+        {
+          "league": "German Bundesliga",
+          "time": "10:30 AM",
+          "match": "Mainz vs Eintracht Frankfurt",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-22T14:30Z"
+        },
+        {
+          "league": "German Bundesliga",
+          "time": "12:30 PM",
+          "match": "St. Pauli vs SC Freiburg",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-22T16:30Z"
+        },
+        {
+          "league": "German Bundesliga",
+          "time": "2:30 PM",
+          "match": "FC Augsburg vs VfB Stuttgart",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-22T18:30Z"
+        },
+        {
+          "league": "La Liga",
+          "time": "9:00 AM",
+          "match": "Barcelona vs Rayo Vallecano",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-22T13:00Z"
+        },
+        {
+          "league": "La Liga",
+          "time": "11:15 AM",
+          "match": "Celta Vigo vs Alav\u00e9s",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-22T15:15Z"
+        },
+        {
+          "league": "La Liga",
+          "time": "1:30 PM",
+          "match": "Athletic Club vs Real Betis",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-22T17:30Z"
+        },
+        {
+          "league": "La Liga",
+          "time": "4:00 PM",
+          "match": "Real Madrid vs Atl\u00e9tico Madrid",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-22T20:00Z"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "7:15 AM",
+          "match": "NEC Nijmegen vs Heerenveen",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-22T11:15Z"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "9:30 AM",
+          "match": "FC Utrecht vs Go Ahead Eagles",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-22T13:30Z"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "9:30 AM",
+          "match": "Feyenoord Rotterdam vs Ajax Amsterdam",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-22T13:30Z"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "11:45 AM",
+          "match": "FC Groningen vs AZ Alkmaar",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-22T15:45Z"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "11:45 AM",
+          "match": "Telstar vs PSV Eindhoven",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-22T15:45Z"
+        },
+        {
+          "league": "USL League One",
+          "time": "5:00 PM",
+          "match": "Union Omaha vs Athletic Club Boise",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-22T21:00Z"
         }
       ]
     }

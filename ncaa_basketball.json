@@ -1,83 +1,6 @@
 {
-  "updated": "2026-03-17 22:23 EDT",
+  "updated": "2026-03-18 01:26 EDT",
   "days": {
-    "20260317": {
-      "date": "Tuesday, March 17",
-      "games": [
-        {
-          "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
-          "time": "6:40 PM",
-          "match": "Howard Bison vs UMBC Retrievers",
-          "source": "TBS / TNT",
-          "kick_utc": "2026-03-17T22:40Z"
-        },
-        {
-          "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
-          "time": "9:29 PM",
-          "match": "NC State Wolfpack vs Texas Longhorns",
-          "source": "TBS / TNT",
-          "kick_utc": "2026-03-18T01:29Z"
-        },
-        {
-          "conference": "Independent",
-          "tourney_round": "NIT",
-          "time": "7:00 PM",
-          "match": "Yale Bulldogs vs UNC Wilmington Seahawks",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-17T23:00Z"
-        },
-        {
-          "conference": "Independent",
-          "tourney_round": "NIT",
-          "time": "7:00 PM",
-          "match": "Wichita State Shockers vs Wyoming Cowboys",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-17T23:00Z"
-        },
-        {
-          "conference": "Independent",
-          "tourney_round": "NIT",
-          "time": "8:00 PM",
-          "match": "Oklahoma State Cowboys vs Davidson Wildcats",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-18T00:00Z"
-        },
-        {
-          "conference": "Independent",
-          "tourney_round": "NIT",
-          "time": "9:00 PM",
-          "match": "Tulsa Golden Hurricane vs Stephen F. Austin Lumberjacks",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-18T01:00Z"
-        },
-        {
-          "conference": "Independent",
-          "tourney_round": "NIT",
-          "time": "10:00 PM",
-          "match": "Seattle U Redhawks vs St. Thomas-Minnesota Tommies",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-18T02:00Z"
-        },
-        {
-          "conference": "Independent",
-          "tourney_round": "NIT",
-          "time": "10:05 PM",
-          "match": "Auburn Tigers vs South Alabama Jaguars",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-18T02:05Z"
-        },
-        {
-          "conference": "Independent",
-          "tourney_round": "NIT",
-          "time": "11:00 PM",
-          "match": "UC Irvine Anteaters vs UNLV Rebels",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-18T03:00Z"
-        }
-      ]
-    },
     "20260318": {
       "date": "Wednesday, March 18",
       "games": [
@@ -250,7 +173,7 @@
           "conference": "Independent",
           "tourney_round": "NCAA Tournament",
           "time": "7:25 PM",
-          "match": "BYU Cougars vs TBD",
+          "match": "BYU Cougars vs Texas Longhorns",
           "source": "TBS / TNT",
           "kick_utc": "2026-03-19T23:25Z"
         },
@@ -431,6 +354,10 @@
     },
     "20260321": {
       "date": "Saturday, March 21",
+      "games": []
+    },
+    "20260322": {
+      "date": "Sunday, March 22",
       "games": []
     }
   }
