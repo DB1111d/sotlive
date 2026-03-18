@@ -30,9 +30,9 @@ TYPE_LABELS = {
     "special":     "Specials",
 }
 
-# Any single calendar day where additions arrive faster than this rate (items/hour)
-# is treated as a machine bulk-import, not genuine new releases. Those days are dropped.
-BULK_RATE_THRESHOLD = 20  # items per hour
+# Maximum items per content type. Netflix adds ~20-80 genuine titles per week per
+# type. Anything beyond this cap is bulk catalogue noise — keep only the newest.
+MAX_PER_TYPE = 150
 
 # ─── Helpers ──────────────────────────────────────────────────────────────────
 
@@ -162,6 +162,11 @@ def fetch_netflix_releases(from_ts: int, to_ts: int) -> list:
         if not has_more or not cursor:
             break
 
+        # Early exit — if we already have far more than we'll ever keep, stop paging
+        if len(all_shows) > MAX_PER_TYPE * len(TYPE_ORDER) * 2:
+            print(f"  Early exit: {len(all_shows)} items collected, stopping pagination")
+            break
+
     return all_shows
 
 
@@ -178,35 +183,7 @@ def main():
                            23, 59, 59, tzinfo=TIMEZONE).timestamp())
 
     shows = fetch_netflix_releases(from_ts, to_ts)
-    print(f"  Total raw: {len(shows)} releases found")
-
-    # ── Drop bulk-import days ──────────────────────────────────────────────────
-    # Compute items-per-hour for each calendar day. Machine bulk-imports run at
-    # 20–200+/hr; genuine new-release days run at <10/hr. Drop the fast ones.
-    from collections import defaultdict
-    by_day = defaultdict(list)
-    for s in shows:
-        if s["added_ts"]:
-            day = datetime.fromtimestamp(s["added_ts"], tz=TIMEZONE).date()
-            by_day[day].append(s["added_ts"])
-
-    bulk_days = set()
-    for day, ts_list in by_day.items():
-        ts_list = sorted(ts_list)
-        span_hours = max((ts_list[-1] - ts_list[0]) / 3600, 0.5)
-        rate = len(ts_list) / span_hours
-        if rate > BULK_RATE_THRESHOLD:
-            bulk_days.add(day)
-            print(f"  Dropping bulk-import day {day}: {len(ts_list)} items at {rate:.0f}/hr")
-
-    if bulk_days:
-        shows = [
-            s for s in shows
-            if s["added_ts"] and
-               datetime.fromtimestamp(s["added_ts"], tz=TIMEZONE).date() not in bulk_days
-        ]
-        print(f"  After filter: {len(shows)} releases remaining")
-    # ──────────────────────────────────────────────────────────────────────────
+    print(f"  Total: {len(shows)} releases found")
 
     # Group by type
     grouped = {}
@@ -216,9 +193,12 @@ def main():
             grouped[t] = []
         grouped[t].append(show)
 
-    # Sort each group newest first
+    # Sort each group newest first, then cap to remove bulk catalogue noise
     for t in grouped:
         grouped[t].sort(key=lambda s: s["added_ts"], reverse=True)
+        if len(grouped[t]) > MAX_PER_TYPE:
+            print(f"  Capping {TYPE_LABELS.get(t, t)}: {len(grouped[t])} → {MAX_PER_TYPE} items")
+            grouped[t] = grouped[t][:MAX_PER_TYPE]
 
     # Order groups by TYPE_ORDER
     ordered_groups = {}
