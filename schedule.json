@@ -1,41 +1,9 @@
 {
-  "updated": "2026-03-17 16:40 EDT",
+  "updated": "2026-03-17 22:23 EDT",
   "days": {
     "20260317": {
       "date": "Tuesday, March 17",
       "games": [
-        {
-          "league": "UEFA Champions League",
-          "time": "1:45 PM",
-          "match": "Sporting CP vs Bodo/Glimt",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-17T17:45Z",
-          "round_label": "Round of 16 \u00b7 Leg 2"
-        },
-        {
-          "league": "UEFA Champions League",
-          "time": "4:00 PM",
-          "match": "Arsenal vs Bayer Leverkusen",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-17T20:00Z",
-          "round_label": "Round of 16 \u00b7 Leg 2"
-        },
-        {
-          "league": "UEFA Champions League",
-          "time": "4:00 PM",
-          "match": "Chelsea vs Paris Saint-Germain",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-17T20:00Z",
-          "round_label": "Round of 16 \u00b7 Leg 2"
-        },
-        {
-          "league": "UEFA Champions League",
-          "time": "4:00 PM",
-          "match": "Manchester City vs Real Madrid",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-17T20:00Z",
-          "round_label": "Round of 16 \u00b7 Leg 2"
-        },
         {
           "league": "CONCACAF Champions Cup",
           "time": "9:00 PM",
@@ -107,20 +75,6 @@
           "match": "Phoenix Rising FC vs San Ramon FC",
           "source": "ESPN+",
           "kick_utc": "2026-03-18T02:00Z"
-        },
-        {
-          "league": "US Open Cup",
-          "time": "Canceled",
-          "match": "South Georgia Tormenta FC vs FC America CFL Spurs",
-          "source": "",
-          "kick_utc": "2026-03-17T22:00Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "3:45 PM",
-          "match": "Watford vs Wrexham",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-17T19:45Z"
         }
       ]
     },
@@ -446,7 +400,7 @@
           "league": "Premier League",
           "time": "4:00 PM",
           "match": "AFC Bournemouth vs Manchester United",
-          "source": "Peacock",
+          "source": "USA Network",
           "kick_utc": "2026-03-20T20:00Z"
         },
         {
@@ -500,28 +454,28 @@
           "league": "Premier League",
           "time": "8:30 AM",
           "match": "Brighton & Hove Albion vs Liverpool",
-          "source": "Peacock",
+          "source": "USA Network",
           "kick_utc": "2026-03-21T12:30Z"
         },
         {
           "league": "Premier League",
           "time": "11:00 AM",
           "match": "Fulham vs Burnley",
-          "source": "Peacock",
+          "source": "USA Network",
           "kick_utc": "2026-03-21T15:00Z"
         },
         {
           "league": "Premier League",
           "time": "1:30 PM",
           "match": "Everton vs Chelsea",
-          "source": "Peacock",
+          "source": "USA Network",
           "kick_utc": "2026-03-21T17:30Z"
         },
         {
           "league": "Premier League",
           "time": "4:00 PM",
           "match": "Leeds United vs Brentford",
-          "source": "Peacock",
+          "source": "USA Network",
           "kick_utc": "2026-03-21T20:00Z"
         },
         {
