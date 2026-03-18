@@ -521,8 +521,12 @@ async function switchSport(sport) {
       html += `</div>`;
       panel.innerHTML = html;
 
-      // Hide "Show more" buttons where text fits without clamping
-      requestAnimationFrame(() => {
+      if (firstTab) panel.classList.add('active');
+
+      // Hide "Show more" buttons where text fits without clamping.
+      // Must run after the panel is in the DOM and visible so clientHeight is accurate.
+      // For the first (active) panel use rAF; for hidden panels defer until tab click.
+      function checkShowMoreButtons() {
         panel.querySelectorAll('.netflix-overview-wrap').forEach(wrap => {
           const overview = wrap.querySelector('.netflix-overview');
           const btn = wrap.querySelector('.netflix-show-more');
@@ -530,9 +534,13 @@ async function switchSport(sport) {
             btn.style.display = 'none';
           }
         });
-      });
+      }
 
-      if (firstTab) panel.classList.add('active');
+      if (firstTab) {
+        requestAnimationFrame(checkShowMoreButtons);
+      } else {
+        panel._checkShowMoreButtons = checkShowMoreButtons;
+      }
       contentEl.appendChild(panel);
 
       const btn = document.createElement('button');
@@ -545,9 +553,15 @@ async function switchSport(sport) {
         document.getElementById('about-panel').classList.remove('active');
         contentEl.style.display = '';
         document.querySelectorAll('.day-panel').forEach(p => p.classList.remove('active'));
-        document.getElementById(panelId).classList.add('active');
+        const activePanel = document.getElementById(panelId);
+        activePanel.classList.add('active');
         hideTzPicker();
         hideLeagueFilter();
+        // Run deferred Show more check on first activation
+        if (activePanel._checkShowMoreButtons) {
+          requestAnimationFrame(activePanel._checkShowMoreButtons);
+          delete activePanel._checkShowMoreButtons;
+        }
       });
       tabsEl.appendChild(btn);
       firstTab = false;
