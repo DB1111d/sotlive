@@ -484,7 +484,7 @@ async function switchSport(sport) {
       const genres = show.genres && show.genres.length ? show.genres.join(', ') : '';
       const genreEl = genres ? `<div class="netflix-genres">${genres}</div>` : '';
       const ratingEl = (show.rating != null && show.rating > 0)
-        ? `<div class="netflix-rating">⭐ ${show.rating}<span class="netflix-rating-max">/100</span></div>`
+        ? `<div class="netflix-rating"><span class="netflix-rating-star">★</span> ${show.rating}<span class="netflix-rating-max">/100</span></div>`
         : '';
       const overviewEl = show.overview
         ? `<div class="netflix-overview-wrap">
