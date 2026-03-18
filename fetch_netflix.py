@@ -1,9 +1,10 @@
 """
 fetch_netflix.py
-Fetches Netflix US new releases for the current week using the
-Streaming Availability API (via RapidAPI) /changes endpoint.
-All languages included — no language filtering.
-Writes output to netflix.json grouped by type, sorted newest first.
+Fetches upcoming Netflix US releases for the current week using the
+Streaming Availability API (via RapidAPI) /changes endpoint with
+change_type=upcoming. Netflix explicitly announces upcoming titles,
+so this avoids bulk catalogue import noise entirely.
+Writes output to netflix.json grouped by type, sorted soonest first.
 Runs once daily via GitHub Actions.
 """
 
@@ -30,13 +31,10 @@ TYPE_LABELS = {
     "special":     "Specials",
 }
 
-# Maximum items kept per content type. Caps bulk catalogue noise while preserving
-# all genuine new releases (a normal week has ~20-80 real additions per type).
-MAX_PER_TYPE = 150
-
 # ─── Helpers ──────────────────────────────────────────────────────────────────
 
 def week_bounds():
+    """Return Sunday–Saturday bounds for the current week."""
     today = datetime.now(TIMEZONE).date()
     days_since_sunday = (today.weekday() + 1) % 7
     sunday   = today - timedelta(days=days_since_sunday)
@@ -73,10 +71,10 @@ def fetch_netflix_releases(from_ts: int, to_ts: int) -> list:
     while True:
         params = {
             "country":         "us",
-            "service":         "netflix",
-            "change_type":     "new",
+            "catalogs":        "netflix",
+            "change_type":     "upcoming",
             "item_type":       "show",
-            "order_direction": "desc",
+            "order_direction": "asc",
             "from":            from_ts,
             "to":              to_ts,
         }
@@ -96,10 +94,8 @@ def fetch_netflix_releases(from_ts: int, to_ts: int) -> list:
             print(f"  API error: {e}")
             break
 
-
-
         changes  = data.get("changes", [])
-        shows    = data.get("shows", {})  # dict of showId -> show object
+        shows    = data.get("shows", {})
         has_more = data.get("hasMore", False)
         cursor   = data.get("nextCursor", None)
 
@@ -107,15 +103,10 @@ def fetch_netflix_releases(from_ts: int, to_ts: int) -> list:
 
         for change in changes:
             show_id = change.get("showId")
-            if not show_id:
-                continue
-
-            # Deduplicate
-            if show_id in seen_ids:
+            if not show_id or show_id in seen_ids:
                 continue
             seen_ids.add(show_id)
 
-            # Look up show details from the shows dict
             show = shows.get(str(show_id), {})
             if not show:
                 continue
@@ -125,21 +116,21 @@ def fetch_netflix_releases(from_ts: int, to_ts: int) -> list:
             overview   = show.get("overview", "")
             genres     = [g.get("name", "") for g in show.get("genres", [])]
             added_ts   = change.get("timestamp", 0)
-            added_date = datetime.fromtimestamp(added_ts, tz=TIMEZONE).strftime("%B %-d") if added_ts else ""
-            rating     = show.get("rating", None)  # 0–100 averaged score
+            added_date = datetime.fromtimestamp(added_ts, tz=TIMEZONE).strftime("%B %-d") if added_ts else "TBD"
+            rating     = show.get("rating", None)
 
-            # Get Netflix deep link
-            link = ""
-            streaming_options = show.get("streamingOptions", {}).get("us", [])
-            netflix_option = next(
-                (s for s in streaming_options
-                 if isinstance(s, dict) and s.get("service", {}).get("id") == "netflix"),
-                None
-            )
-            if netflix_option:
-                link = netflix_option.get("link", "")
+            # For upcoming, the deep link is on the change object itself
+            link = change.get("link", "") or ""
+            if not link:
+                streaming_options = show.get("streamingOptions", {}).get("us", [])
+                netflix_option = next(
+                    (s for s in streaming_options
+                     if isinstance(s, dict) and s.get("service", {}).get("id") == "netflix"),
+                    None
+                )
+                if netflix_option:
+                    link = netflix_option.get("link", "")
 
-            # Thumbnail — prefer vertical poster, fall back to horizontal
             image_set = show.get("imageSet", {})
             thumbnail = (
                 image_set.get("verticalPoster", {}).get("w240")
@@ -164,11 +155,6 @@ def fetch_netflix_releases(from_ts: int, to_ts: int) -> list:
         if not has_more or not cursor:
             break
 
-        # Early exit once we have far more than we'll ever keep
-        if len(all_shows) > MAX_PER_TYPE * len(TYPE_ORDER) * 2:
-            print(f"  Early exit: {len(all_shows)} items collected, stopping pagination")
-            break
-
     return all_shows
 
 
@@ -177,15 +163,22 @@ def fetch_netflix_releases(from_ts: int, to_ts: int) -> list:
 def main():
     sunday, saturday = week_bounds()
     label = week_label(sunday, saturday)
-    print(f"Fetching Netflix releases for: {label}")
+    print(f"Fetching upcoming Netflix releases for: {label}")
 
+    # upcoming requires from/to to be between today and 31 days from now
+    today = datetime.now(TIMEZONE).date()
     from_ts = int(datetime(sunday.year, sunday.month, sunday.day,
                            tzinfo=TIMEZONE).timestamp())
     to_ts   = int(datetime(saturday.year, saturday.month, saturday.day,
                            23, 59, 59, tzinfo=TIMEZONE).timestamp())
 
+    # Clamp from_ts to today — can't query upcoming in the past
+    today_ts = int(datetime(today.year, today.month, today.day, tzinfo=TIMEZONE).timestamp())
+    if from_ts < today_ts:
+        from_ts = today_ts
+
     shows = fetch_netflix_releases(from_ts, to_ts)
-    print(f"  Total: {len(shows)} releases found")
+    print(f"  Total: {len(shows)} upcoming releases found")
 
     # Group by type
     grouped = {}
@@ -195,12 +188,9 @@ def main():
             grouped[t] = []
         grouped[t].append(show)
 
-    # Sort each group newest first, then cap to remove bulk catalogue noise
+    # Sort each group soonest first
     for t in grouped:
-        grouped[t].sort(key=lambda s: s["added_ts"], reverse=True)
-        if len(grouped[t]) > MAX_PER_TYPE:
-            print(f"  Capping {TYPE_LABELS.get(t, t)}: {len(grouped[t])} → {MAX_PER_TYPE} items")
-            grouped[t] = grouped[t][:MAX_PER_TYPE]
+        grouped[t].sort(key=lambda s: s["added_ts"] or 0)
 
     # Order groups by TYPE_ORDER
     ordered_groups = {}
@@ -208,7 +198,6 @@ def main():
         label_key = TYPE_LABELS.get(t, t.title())
         if t in grouped:
             ordered_groups[label_key] = grouped[t]
-    # Any unlisted types go at the end
     for t, items in grouped.items():
         label_key = TYPE_LABELS.get(t, t.title())
         if label_key not in ordered_groups:
@@ -224,7 +213,7 @@ def main():
         json.dump(output, f, indent=2)
 
     total = sum(len(v) for v in ordered_groups.values())
-    print(f"Done! {total} releases written to netflix.json")
+    print(f"Done! {total} upcoming releases written to netflix.json")
 
 
 if __name__ == "__main__":
