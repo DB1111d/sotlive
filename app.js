@@ -455,7 +455,7 @@ async function switchSport(sport) {
   if (sport === 'netflix') {
     let data;
     try {
-      const res = await fetch('netflix.json?v=' + Date.now());
+      const res = await fetch('netflix.json?v=' + Math.floor(Date.now() / 3600000));
       data = await res.json();
     } catch (e) {
       contentEl.innerHTML =
@@ -476,6 +476,16 @@ async function switchSport(sport) {
       aboutBtn.addEventListener('click', switchToAbout);
       tabsEl.appendChild(aboutBtn);
       return;
+    }
+
+    function checkShowMoreButtons(panel) {
+      panel.querySelectorAll('.netflix-overview-wrap').forEach(wrap => {
+        const overview = wrap.querySelector('.netflix-overview');
+        const btn = wrap.querySelector('.netflix-show-more');
+        if (overview && btn && overview.scrollHeight <= overview.clientHeight + 2) {
+          btn.style.display = 'none';
+        }
+      });
     }
 
     let firstTab = true;
@@ -500,7 +510,7 @@ async function switchSport(sport) {
              </div>`
           : '';
         const posterEl  = show.thumbnail
-          ? `<img class="netflix-poster" src="${show.thumbnail}" alt="${show.title}" loading="lazy">`
+          ? `<img class="netflix-poster" src="${show.thumbnail}" alt="${show.title}" loading="lazy" decoding="async" width="140" height="210">`
           : `<div class="netflix-poster-placeholder">🎬</div>`;
         const cardInner = `
           ${posterEl}
@@ -523,23 +533,10 @@ async function switchSport(sport) {
 
       if (firstTab) panel.classList.add('active');
 
-      // Hide "Show more" buttons where text fits without clamping.
-      // Must run after the panel is in the DOM and visible so clientHeight is accurate.
-      // For the first (active) panel use rAF; for hidden panels defer until tab click.
-      function checkShowMoreButtons() {
-        panel.querySelectorAll('.netflix-overview-wrap').forEach(wrap => {
-          const overview = wrap.querySelector('.netflix-overview');
-          const btn = wrap.querySelector('.netflix-show-more');
-          if (overview && btn && overview.scrollHeight <= overview.clientHeight + 2) {
-            btn.style.display = 'none';
-          }
-        });
-      }
-
       if (firstTab) {
-        requestAnimationFrame(checkShowMoreButtons);
+        requestAnimationFrame(() => checkShowMoreButtons(panel));
       } else {
-        panel._checkShowMoreButtons = checkShowMoreButtons;
+        panel._checkShowMoreButtons = () => checkShowMoreButtons(panel);
       }
       contentEl.appendChild(panel);
 
