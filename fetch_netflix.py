@@ -30,10 +30,6 @@ TYPE_LABELS = {
     "special":     "Specials",
 }
 
-# Maximum items per content type. Netflix adds ~20-80 genuine titles per week per
-# type. Anything beyond this cap is bulk catalogue noise — keep only the newest.
-MAX_PER_TYPE = 150
-
 # ─── Helpers ──────────────────────────────────────────────────────────────────
 
 def week_bounds():
@@ -126,6 +122,7 @@ def fetch_netflix_releases(from_ts: int, to_ts: int) -> list:
             genres     = [g.get("name", "") for g in show.get("genres", [])]
             added_ts   = change.get("timestamp", 0)
             added_date = datetime.fromtimestamp(added_ts, tz=TIMEZONE).strftime("%B %-d") if added_ts else ""
+            rating     = show.get("rating", None)  # 0–100 averaged score
 
             # Get Netflix deep link
             link = ""
@@ -157,14 +154,10 @@ def fetch_netflix_releases(from_ts: int, to_ts: int) -> list:
                 "added_ts":   added_ts,
                 "link":       link,
                 "thumbnail":  thumbnail,
+                "rating":     rating,
             })
 
         if not has_more or not cursor:
-            break
-
-        # Early exit — if we already have far more than we'll ever keep, stop paging
-        if len(all_shows) > MAX_PER_TYPE * len(TYPE_ORDER) * 2:
-            print(f"  Early exit: {len(all_shows)} items collected, stopping pagination")
             break
 
     return all_shows
@@ -193,12 +186,9 @@ def main():
             grouped[t] = []
         grouped[t].append(show)
 
-    # Sort each group newest first, then cap to remove bulk catalogue noise
+    # Sort each group newest first
     for t in grouped:
         grouped[t].sort(key=lambda s: s["added_ts"], reverse=True)
-        if len(grouped[t]) > MAX_PER_TYPE:
-            print(f"  Capping {TYPE_LABELS.get(t, t)}: {len(grouped[t])} → {MAX_PER_TYPE} items")
-            grouped[t] = grouped[t][:MAX_PER_TYPE]
 
     # Order groups by TYPE_ORDER
     ordered_groups = {}

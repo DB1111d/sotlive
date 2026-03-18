@@ -483,6 +483,9 @@ async function switchSport(sport) {
     function buildCardHTML(show) {
       const genres = show.genres && show.genres.length ? show.genres.join(', ') : '';
       const genreEl = genres ? `<div class="netflix-genres">${genres}</div>` : '';
+      const ratingEl = (show.rating != null && show.rating > 0)
+        ? `<div class="netflix-rating">⭐ ${show.rating}<span class="netflix-rating-max">/100</span></div>`
+        : '';
       const overviewEl = show.overview
         ? `<div class="netflix-overview-wrap">
              <div class="netflix-overview netflix-overview-clamped">${show.overview}</div>
@@ -500,6 +503,7 @@ async function switchSport(sport) {
             <span class="netflix-date">${show.added_date || ''}</span>
           </div>
           ${genreEl}
+          ${ratingEl}
           ${overviewEl}
         </div>`;
       return show.link
