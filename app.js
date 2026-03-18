@@ -488,7 +488,7 @@ async function switchSport(sport) {
       });
     }
 
-    // Build all panels up front — switching is pure show/hide, no re-render
+    // Build all panels up front — switching is pure .active toggle, no re-render
     const netflixPanels = {};
     groupNames.forEach(groupName => {
       const panelId = `panel-netflix-${groupName.replace(/\s+/g, '-').toLowerCase()}`;
@@ -496,7 +496,6 @@ async function switchSport(sport) {
       const panel = document.createElement('div');
       panel.className = 'day-panel';
       panel.id = panelId;
-      panel.style.display = 'none'; // hidden until activated
 
       const shows = groups[groupName];
       let html = `<div class="netflix-week-label">${data.week_label || ''}</div>`;
@@ -541,14 +540,13 @@ async function switchSport(sport) {
       tabBtn.classList.add('active');
       document.getElementById('about-panel').classList.remove('active');
       contentEl.style.display = '';
-      Object.entries(netflixPanels).forEach(([id, p]) => {
-        p.style.display = id === panelId ? '' : 'none';
-      });
+      Object.values(netflixPanels).forEach(p => p.classList.remove('active'));
+      const panel = netflixPanels[panelId];
+      panel.classList.add('active');
       hideTzPicker();
       hideLeagueFilter();
       // Run show-more check once on first activation
-      const panel = netflixPanels[panelId];
-      if (panel && !panel._showMoreChecked) {
+      if (!panel._showMoreChecked) {
         requestAnimationFrame(() => checkShowMoreButtons(panel));
         panel._showMoreChecked = true;
       }
@@ -567,7 +565,7 @@ async function switchSport(sport) {
       tabsEl.appendChild(btn);
 
       if (firstTab) {
-        panel.style.display = '';
+        panel.classList.add('active');
         requestAnimationFrame(() => checkShowMoreButtons(panel));
         panel._showMoreChecked = true;
       }
