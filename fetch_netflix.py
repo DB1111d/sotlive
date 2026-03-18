@@ -30,6 +30,10 @@ TYPE_LABELS = {
     "special":     "Specials",
 }
 
+# Any single calendar day where additions arrive faster than this rate (items/hour)
+# is treated as a machine bulk-import, not genuine new releases. Those days are dropped.
+BULK_RATE_THRESHOLD = 20  # items per hour
+
 # ─── Helpers ──────────────────────────────────────────────────────────────────
 
 def week_bounds():
@@ -174,7 +178,35 @@ def main():
                            23, 59, 59, tzinfo=TIMEZONE).timestamp())
 
     shows = fetch_netflix_releases(from_ts, to_ts)
-    print(f"  Total: {len(shows)} releases found")
+    print(f"  Total raw: {len(shows)} releases found")
+
+    # ── Drop bulk-import days ──────────────────────────────────────────────────
+    # Compute items-per-hour for each calendar day. Machine bulk-imports run at
+    # 20–200+/hr; genuine new-release days run at <10/hr. Drop the fast ones.
+    from collections import defaultdict
+    by_day = defaultdict(list)
+    for s in shows:
+        if s["added_ts"]:
+            day = datetime.fromtimestamp(s["added_ts"], tz=TIMEZONE).date()
+            by_day[day].append(s["added_ts"])
+
+    bulk_days = set()
+    for day, ts_list in by_day.items():
+        ts_list = sorted(ts_list)
+        span_hours = max((ts_list[-1] - ts_list[0]) / 3600, 0.5)
+        rate = len(ts_list) / span_hours
+        if rate > BULK_RATE_THRESHOLD:
+            bulk_days.add(day)
+            print(f"  Dropping bulk-import day {day}: {len(ts_list)} items at {rate:.0f}/hr")
+
+    if bulk_days:
+        shows = [
+            s for s in shows
+            if s["added_ts"] and
+               datetime.fromtimestamp(s["added_ts"], tz=TIMEZONE).date() not in bulk_days
+        ]
+        print(f"  After filter: {len(shows)} releases remaining")
+    # ──────────────────────────────────────────────────────────────────────────
 
     # Group by type
     grouped = {}
