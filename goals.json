@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-19T22:00:17Z",
+  "updated": "2026-03-19T22:11:17Z",
   "date": "2026-03-19",
   "matches": [
     {
@@ -18,19 +18,6 @@
           "videoEmbed": "https://streamain.com/y47hn6c6Q9ecLfs/watch",
           "directMp4": null,
           "postedAt": 1773954832000
-        },
-        {
-          "postId": "1ryclma",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1ryclma",
-          "scorer": "John McGinn",
-          "minute": 54,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/h93iemybi2qg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/h93iemybi2qg1/CMAF_1080.mp4?source=fallback",
-          "postedAt": 1773954790000
         },
         {
           "postId": "1rydfkr",
@@ -128,19 +115,6 @@
           "videoEmbed": "https://streamff.link/v/78be5f78",
           "directMp4": null,
           "postedAt": 1773956479000
-        },
-        {
-          "postId": "1rydc33",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rydc33",
-          "scorer": "Lorenzo Pellegrini",
-          "minute": 80,
-          "homeScore": 3,
-          "awayScore": 3,
-          "videoUrl": "https://streamain.com/8FQXZG8ZnxNogCD/watch",
-          "videoEmbed": "https://streamain.com/8FQXZG8ZnxNogCD/watch",
-          "directMp4": null,
-          "postedAt": 1773956461000
         }
       ]
     },
@@ -609,25 +583,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/gb9oywzrw1qg1/CMAF_720.mp4?source=fallback",
           "postedAt": 1773947552000
-        }
-      ]
-    },
-    {
-      "home": "AEK Athens",
-      "away": "Celje",
-      "goals": [
-        {
-          "postId": "1ry8huw",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1ry8huw",
-          "scorer": "Rudi Požeg Vancaš",
-          "minute": 42,
-          "homeScore": 0,
-          "awayScore": 2,
-          "videoUrl": "https://v.redd.it/t4h6wzs7p1qg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/t4h6wzs7p1qg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1773945014000
         }
       ]
     }
