@@ -1,11 +1,69 @@
 {
-  "updated": "2026-03-19T20:53:38Z",
+  "updated": "2026-03-19T21:03:59Z",
   "date": "2026-03-19",
   "matches": [
     {
-      "home": "Roma",
-      "away": "Bologna [2-3 on agg.]",
+      "home": "Shakhtar Donetsk",
+      "away": "Lech Poznań",
       "goals": [
+        {
+          "postId": "1ryb3ma",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ryb3ma",
+          "scorer": "Mikael Ishak",
+          "minute": 13,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/0y4n5gu582qg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/0y4n5gu582qg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1773951374000
+        },
+        {
+          "postId": "1ryc3ht",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ryc3ht",
+          "scorer": "Mikael Ishak penalty",
+          "minute": 45,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/cmmvl3vxe2qg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/cmmvl3vxe2qg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1773953647000
+        }
+      ]
+    },
+    {
+      "home": "Roma",
+      "away": "Bologna",
+      "goals": [
+        {
+          "postId": "1rybdac",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rybdac",
+          "scorer": "Jonathan Rowe",
+          "minute": 22,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/dgdhmp0z92qg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/dgdhmp0z92qg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1773951986000
+        },
+        {
+          "postId": "1rybk1z",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rybk1z",
+          "scorer": "Evan Ndicka",
+          "minute": 32,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/fljcA3NvtGB4GDR/watch",
+          "videoEmbed": "https://streamain.com/fljcA3NvtGB4GDR/watch",
+          "directMp4": null,
+          "postedAt": 1773952418000
+        },
         {
           "postId": "1rybz0g",
           "subreddit": "soccer",
@@ -23,8 +81,21 @@
     },
     {
       "home": "Betis",
-      "away": "Panathinaikos [2-1 on agg.]",
+      "away": "Panathinaikos",
       "goals": [
+        {
+          "postId": "1ryawub",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ryawub",
+          "scorer": "Aitor Ruibal",
+          "minute": 8,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/phzd3j4v62qg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/phzd3j4v62qg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1773950960000
+        },
         {
           "postId": "1rybws9",
           "subreddit": "soccer",
@@ -37,25 +108,6 @@
           "videoEmbed": "https://streamain.com/WPLGgfPamaUyEKp/watch",
           "directMp4": null,
           "postedAt": 1773953212000
-        }
-      ]
-    },
-    {
-      "home": "Roma",
-      "away": "Bologna [2-2 on agg.]",
-      "goals": [
-        {
-          "postId": "1rybk1z",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rybk1z",
-          "scorer": "Evan Ndicka",
-          "minute": 32,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://streamain.com/fljcA3NvtGB4GDR/watch",
-          "videoEmbed": "https://streamain.com/fljcA3NvtGB4GDR/watch",
-          "directMp4": null,
-          "postedAt": 1773952418000
         }
       ]
     },
@@ -79,25 +131,6 @@
       ]
     },
     {
-      "home": "Roma",
-      "away": "Bologna",
-      "goals": [
-        {
-          "postId": "1rybdac",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rybdac",
-          "scorer": "Jonathan Rowe",
-          "minute": 22,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/dgdhmp0z92qg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/dgdhmp0z92qg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1773951986000
-        }
-      ]
-    },
-    {
       "home": "FC Porto",
       "away": "VfB Stuttgart",
       "goals": [
@@ -117,25 +150,6 @@
       ]
     },
     {
-      "home": "Shakhtar Donetsk",
-      "away": "Lech Poznań",
-      "goals": [
-        {
-          "postId": "1ryb3ma",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1ryb3ma",
-          "scorer": "Mikael Ishak",
-          "minute": 13,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/0y4n5gu582qg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/0y4n5gu582qg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1773951374000
-        }
-      ]
-    },
-    {
       "home": "Sparta Praha",
       "away": "AZ",
       "goals": [
@@ -151,25 +165,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/9dqd0eb872qg1/CMAF_720.mp4?source=fallback",
           "postedAt": 1773951065000
-        }
-      ]
-    },
-    {
-      "home": "Betis",
-      "away": "Panathinaikos",
-      "goals": [
-        {
-          "postId": "1ryawub",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1ryawub",
-          "scorer": "Aitor Ruibal",
-          "minute": 8,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/phzd3j4v62qg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/phzd3j4v62qg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1773950960000
         }
       ]
     },
