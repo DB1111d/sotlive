@@ -458,14 +458,11 @@ async function switchSport(sport) {
       const res = await fetch('goals.json?v=' + Date.now());
       data = await res.json();
     } catch (e) {
-      contentEl.innerHTML =
-        '<div class="empty"><div class="empty-icon">🥅</div>Could not load goal feed.</div>';
-      const aboutBtn = document.createElement('button');
-      aboutBtn.className = 'tab';
-      aboutBtn.id = 'about-tab';
-      aboutBtn.textContent = 'About';
-      aboutBtn.addEventListener('click', switchToAbout);
-      tabsEl.appendChild(aboutBtn);
+      contentEl.innerHTML = '<div class="empty"><div class="empty-icon">🥅</div>Could not load goal feed.</div>';
+      const ab = document.createElement('button');
+      ab.className = 'tab'; ab.id = 'about-tab'; ab.textContent = 'About';
+      ab.addEventListener('click', switchToAbout);
+      tabsEl.appendChild(ab);
       return;
     }
 
@@ -506,20 +503,22 @@ async function switchSport(sport) {
 
     contentEl.appendChild(panel);
 
-    const aboutBtn = document.createElement('button');
-    aboutBtn.className = 'tab';
-    aboutBtn.id = 'about-tab';
-    aboutBtn.textContent = 'About';
-    aboutBtn.addEventListener('click', switchToAbout);
-    tabsEl.appendChild(aboutBtn);
+    const ab = document.createElement('button');
+    ab.className = 'tab'; ab.id = 'about-tab'; ab.textContent = 'About';
+    ab.addEventListener('click', switchToAbout);
+    tabsEl.appendChild(ab);
 
-    const updatedEl = document.createElement('div');
-    updatedEl.id = 'goals-last-updated';
-    updatedEl.style.cssText = 'font-family:"DM Mono",monospace;font-size:0.68rem;color:#888880;text-align:right;margin-bottom:16px;letter-spacing:0.05em;max-width:780px;margin-left:auto;margin-right:auto;padding:0 24px;';
-    if (data.updated) updatedEl.textContent = 'LAST UPDATED  ' + new Date(data.updated).toLocaleTimeString();
-    contentEl.prepend(updatedEl);
+    if (data.updated) {
+      const updatedEl = document.createElement('div');
+      updatedEl.style.cssText = 'font-family:"DM Mono",monospace;font-size:0.68rem;color:#888880;text-align:right;margin-bottom:16px;letter-spacing:0.05em;max-width:780px;margin-left:auto;margin-right:auto;padding:0 24px;';
+      updatedEl.textContent = 'LAST UPDATED  ' + new Date(data.updated).toLocaleTimeString();
+      contentEl.prepend(updatedEl);
+    }
     return;
   }
+
+  // Netflix is a completely different layout — no day tabs
+  if (sport === 'netflix') {
     let data;
     try {
       const res = await fetch('netflix.json?v=' + Math.floor(Date.now() / 3600000));
@@ -811,26 +810,6 @@ function toggleOverview(e, btn) {
   }
 }
 
-// ── GoalFeed helpers ──────────────────────────────────────────────
-function escHtml(str) {
-  return String(str)
-    .replace(/&/g, '&amp;').replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-}
-
-function buildGoalVideo(goal) {
-  if (goal.videoEmbed && !/redditmedia/.test(goal.videoEmbed)) {
-    return `<div class="goal-video-wrap">
-      <iframe src="${escHtml(goal.videoEmbed)}" allowfullscreen allow="autoplay;fullscreen" scrolling="no"></iframe>
-    </div>`;
-  }
-  return `<div class="goal-video-wrap">
-    <div class="goal-video-fallback">
-      <a href="${goal.permalink || goal.videoUrl}" target="_blank" rel="noopener">▶ Watch here — Reddit videos can't be embedded</a>
-    </div>
-  </div>`;
-}
-
 // ── Init ──────────────────────────────────────────────────────────
 async function init() {
   let data;
@@ -908,3 +887,23 @@ async function init() {
 }
 
 init();
+
+// ── GoalFeed helpers ──────────────────────────────────────────────
+function escHtml(str) {
+  return String(str)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function buildGoalVideo(goal) {
+  if (goal.videoEmbed && !/redditmedia/.test(goal.videoEmbed)) {
+    return `<div class="goal-video-wrap">
+      <iframe src="${escHtml(goal.videoEmbed)}" allowfullscreen allow="autoplay;fullscreen" scrolling="no"></iframe>
+    </div>`;
+  }
+  return `<div class="goal-video-wrap">
+    <div class="goal-video-fallback">
+      <a href="${goal.permalink || goal.videoUrl}" target="_blank" rel="noopener">▶ Watch here — Reddit videos can't be embedded</a>
+    </div>
+  </div>`;
+}
