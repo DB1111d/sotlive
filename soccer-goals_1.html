@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GOAL FEED</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #f5f4f0;
+    --surface: #ffffff;
+    --surface2: #eeede9;
+    --border: #e0ddd6;
+    --accent: #1a6b3c;
+    --accent2: #c0392b;
+    --text: #111111;
+    --muted: #999;
+    --mono: 'DM Mono', monospace;
+    --display: 'Bebas Neue', sans-serif;
+    --body: 'DM Sans', sans-serif;
+  }
+
+  html, body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--body);
+    min-height: 100vh;
+  }
+
+  /* ── Header ── */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 40px;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    background: rgba(245,244,240,0.92);
+    backdrop-filter: blur(12px);
+    z-index: 100;
+  }
+
+  .logo {
+    font-family: var(--display);
+    font-size: 2rem;
+    letter-spacing: 0.05em;
+    color: var(--accent);
+  }
+
+  .logo span {
+    color: var(--text);
+  }
+
+  .status-bar {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    color: var(--muted);
+  }
+
+  .live-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--accent);
+    animation: pulse 2s infinite;
+    flex-shrink: 0;
+  }
+
+  .live-dot.error { background: var(--accent2); animation: none; }
+  .live-dot.loading { background: var(--muted); animation: pulse 1s infinite; }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(0.8); }
+  }
+
+/* ── Main layout ── */
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+
+  /* ── Match card ── */
+  .match-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 2px;
+    margin-bottom: 2px;
+    overflow: hidden;
+    animation: slideIn 0.4s ease;
+  }
+
+  @keyframes slideIn {
+    from { opacity: 0; transform: translateY(12px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .match-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 24px;
+    border-bottom: 1px solid var(--border);
+    gap: 16px;
+    flex-wrap: wrap;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .match-header:hover {
+    background: var(--surface2);
+  }
+
+  .match-toggle {
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    color: var(--muted);
+    flex-shrink: 0;
+    transition: transform 0.2s ease;
+  }
+
+  .match-card.collapsed .match-toggle {
+    transform: rotate(-90deg);
+  }
+
+  .match-goals {
+    display: block;
+  }
+
+  .match-card.collapsed .match-goals {
+    display: none;
+  }
+
+  .match-teams {
+    font-family: var(--display);
+    font-size: 1.5rem;
+    letter-spacing: 0.04em;
+    line-height: 1;
+  }
+
+  .match-meta {
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  /* ── Goal rows ── */
+  .goal-row {
+    display: grid;
+    grid-template-columns: 52px 1fr;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .goal-row:last-child { border-bottom: none; }
+
+  .goal-minute {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px 0 0;
+    font-family: var(--display);
+    font-size: 1.1rem;
+    color: var(--accent);
+    border-right: 1px solid var(--border);
+  }
+
+  .goal-content {
+    padding: 16px 20px;
+  }
+
+  .goal-title-line {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+  }
+
+  .goal-scorer {
+    font-family: var(--display);
+    font-size: 1.1rem;
+    letter-spacing: 0.04em;
+    color: var(--text);
+  }
+
+  .goal-score-badge {
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    background: var(--accent);
+    color: #fff;
+    padding: 2px 7px;
+    border-radius: 2px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+  }
+
+  /* ── Video embed ── */
+  .video-wrap {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+    background: #000;
+    border-radius: 1px;
+    overflow: hidden;
+  }
+
+  .video-wrap iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+    overflow: hidden;
+  }
+
+  .video-fallback {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background: var(--surface2);
+    color: var(--muted);
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .video-fallback a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+    word-break: break-all;
+  }
+
+  /* ── Empty / loading states ── */
+  #feed-container {
+    min-height: 300px;
+  }
+
+  .state-msg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 80px 20px;
+    color: var(--muted);
+    font-family: var(--mono);
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .state-msg .big {
+    font-family: var(--display);
+    font-size: 3rem;
+    color: var(--border);
+    letter-spacing: 0.1em;
+  }
+
+  /* ── Last updated bar ── */
+  #last-updated {
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    color: var(--muted);
+    text-align: right;
+    margin-bottom: 24px;
+    letter-spacing: 0.05em;
+  }
+
+  /* ── Scrollbar ── */
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: var(--bg); }
+  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+  /* ── Mobile ── */
+  @media (max-width: 600px) {
+    header {
+      padding: 16px 16px;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+    }
+
+    .status-bar {
+      font-size: 0.65rem;
+      gap: 8px;
+    }
+
+    main {
+      padding: 24px 12px 60px;
+    }
+
+    #last-updated {
+      font-size: 0.62rem;
+      margin-bottom: 16px;
+    }
+
+    .match-header {
+      padding: 14px 16px;
+    }
+
+    .match-teams {
+      font-size: 1.15rem;
+    }
+
+    .goal-row {
+      grid-template-columns: 40px 1fr;
+    }
+
+    .goal-minute {
+      font-size: 0.95rem;
+      padding: 14px 0 0;
+    }
+
+    .goal-content {
+      padding: 12px 14px;
+    }
+
+    .goal-scorer {
+      font-size: 0.95rem;
+    }
+
+    .goal-score-badge {
+      font-size: 0.62rem;
+      padding: 2px 5px;
+    }
+
+    .goal-title-line {
+      margin-bottom: 8px;
+      gap: 8px;
+    }
+
+    .state-msg .big {
+      font-size: 2.2rem;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">🥅 GOAL<span>FEED</span></div>
+  <div class="status-bar">
+    <div class="live-dot" id="dot"></div>
+    <span id="status-text">Connecting...</span>
+  </div>
+</header>
+
+<main>
+  <div id="last-updated"></div>
+  <div id="feed-container">
+    <div class="state-msg">
+      <div class="big">⚽</div>
+      <div>Fetching latest goals...</div>
+    </div>
+  </div>
+</main>
+
+<script>
+// ── Config ──────────────────────────────────────────────
+const POLL_MS = 15 * 60 * 1000; // 15 minutes — matches GitHub Actions schedule
+
+// ── State ───────────────────────────────────────────────
+let matches = {}; // key: "home vs away", value: { home, away, goals[] }
+
+// ── Fetch goals.json ────────────────────────────────────
+async function fetchGoals() {
+  setStatus('loading', 'Fetching...');
+  try {
+    const res = await fetch('goals.json?v=' + Date.now());
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+
+    // Load all matches from JSON — already filtered to today by the scraper
+    for (const match of data.matches || []) {
+      const key = matchKey(match.home, match.away);
+      matches[key] = match;
+    }
+
+    render();
+    setStatus('ok', 'Live');
+    const updated = data.updated
+      ? new Date(data.updated).toLocaleTimeString()
+      : new Date().toLocaleTimeString();
+    document.getElementById('last-updated').textContent = `LAST UPDATED  ${updated}`;
+  } catch (err) {
+    setStatus('error', `Error: ${err.message}`);
+    console.error(err);
+  }
+}
+
+// ── Match key (canonical, alphabetical so A vs B == B vs A) ──
+function matchKey(home, away) {
+  return [home.toLowerCase(), away.toLowerCase()].sort().join(' vs ');
+}
+
+// ── Render ────────────────────────────────────────────────
+function render() {
+  const container = document.getElementById('feed-container');
+
+  const matchList = Object.values(matches);
+  if (matchList.length === 0) {
+    container.innerHTML = `
+      <div class="state-msg">
+        <div class="big">⚽</div>
+        <div>No goals found yet — check back soon</div>
+      </div>`;
+    return;
+  }
+
+  // Sort matches: most recent goal first
+  matchList.sort((a, b) => {
+    const latestA = Math.max(...a.goals.map(g => g.postedAt));
+    const latestB = Math.max(...b.goals.map(g => g.postedAt));
+    return latestB - latestA;
+  });
+
+  // Preserve existing collapsed states before re-rendering
+  const collapsedKeys = new Set();
+  document.querySelectorAll('.match-card').forEach(card => {
+    if (card.classList.contains('collapsed')) {
+      collapsedKeys.add(card.dataset.key);
+    }
+  });
+
+  // Most recent match key — always force open
+  const newestKey = matchList[0] ? matchKey(matchList[0].home, matchList[0].away) : null;
+
+  container.innerHTML = matchList.map((match, i) => {
+    const key = matchKey(match.home, match.away);
+    // First/newest always open; others collapsed unless user opened them
+    const isCollapsed = key === newestKey ? true : (collapsedKeys.size > 0 ? collapsedKeys.has(key) : true);
+    return renderMatch(match, key, isCollapsed);
+  }).join('');
+}
+
+function renderMatch(match, key, isCollapsed) {
+  const collapsed = isCollapsed ? 'collapsed' : '';
+  const goalRows = match.goals.map(g => `
+    <div class="goal-row">
+      <div class="goal-minute">${g.minute}'</div>
+      <div class="goal-content">
+        <div class="goal-title-line">
+          <span class="goal-scorer">${escHtml(g.scorer)}</span>
+          <span class="goal-score-badge">${g.homeScore}–${g.awayScore}</span>
+        </div>
+        ${renderVideo(g)}
+      </div>
+    </div>
+  `).join('');
+
+  return `
+    <div class="match-card ${collapsed}" data-key="${escHtml(key)}">
+      <div class="match-header" onclick="this.closest('.match-card').classList.toggle('collapsed')">
+        <div class="match-teams">${escHtml(match.home)} <span style="color:var(--muted)">vs</span> ${escHtml(match.away)}</div>
+        <span class="match-toggle">▼</span>
+      </div>
+      <div class="match-goals">
+        ${goalRows}
+      </div>
+    </div>
+  `;
+}
+
+function renderVideo(goal) {
+  if (goal.directMp4 && !/v\.redd\.it/.test(goal.directMp4)) {
+    return `
+      <div class="video-wrap">
+        <video controls playsinline preload="metadata"
+          style="width:100%;height:100%;display:block;background:#000;">
+          <source src="${escHtml(goal.directMp4)}" type="video/mp4">
+        </video>
+      </div>`;
+  }
+  if (goal.videoEmbed && !/redditmedia/.test(goal.videoEmbed)) {
+    return `
+      <div class="video-wrap">
+        <iframe src="${escHtml(goal.videoEmbed)}"
+          allowfullscreen allow="autoplay; fullscreen"
+          scrolling="no"></iframe>
+      </div>`;
+  }
+  // Reddit hosted video — link to the actual post which always works
+  return `
+    <div class="video-wrap">
+      <div class="video-fallback">
+        <a href="${goal.permalink || goal.videoUrl}" target="_blank" rel="noopener"
+          style="display:inline-flex;align-items:center;gap:8px;background:#ff4500;color:#fff;
+          padding:10px 20px;border-radius:4px;text-decoration:none;font-family:var(--mono);
+          font-size:0.8rem;letter-spacing:0.05em;border:none;">
+          ▶ Watch here — Reddit videos can't be embedded
+        </a>
+      </div>
+    </div>`;
+}
+
+// ── Status indicator ──────────────────────────────────────
+function setStatus(state, text) {
+  const dot = document.getElementById('dot');
+  const label = document.getElementById('status-text');
+  dot.className = 'live-dot' + (state === 'error' ? ' error' : state === 'loading' ? ' loading' : '');
+  label.textContent = text;
+}
+
+// ── Utils ─────────────────────────────────────────────────
+function escHtml(str) {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+// ── Boot ──────────────────────────────────────────────────
+fetchGoals();
+setInterval(fetchGoals, POLL_MS);
+</script>
+</body>
+</html>

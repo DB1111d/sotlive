@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SOTLive</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&family=Playfair+Display:wght@600;700&family=Bebas+Neue&display=swap" rel="stylesheet">
 
   <!-- Beacon Analytics -->
   <script>
@@ -713,6 +713,42 @@
       .game-match { font-size: 13px; }
       .tab { padding: 10px 12px 8px; }
       .contact-form .form-row { grid-template-columns: 1fr; }
+    }
+
+    /* ── GoalFeed banner ── */
+    .goalfeed-banner {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      margin-bottom: 20px;
+      padding: 10px 16px;
+      background: #ffffff;
+      border: 1.5px solid #e8e6e1;
+      border-radius: 10px;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+
+    .goalfeed-banner:hover {
+      border-color: #1a6b3c;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    }
+
+    .goalfeed-banner-icon {
+      font-size: 22px;
+      line-height: 1;
+    }
+
+    .goalfeed-banner-text {
+      font-family: 'Bebas Neue', 'DM Sans', sans-serif;
+      font-size: 22px;
+      letter-spacing: 0.04em;
+      color: #111111;
+      line-height: 1;
+    }
+
+    .goalfeed-green {
+      color: #1a6b3c;
     }
   </style>
 </head>
