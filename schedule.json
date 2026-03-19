@@ -1,141 +1,6 @@
 {
-  "updated": "2026-03-18 22:24 EDT",
+  "updated": "2026-03-19 01:22 EDT",
   "days": {
-    "20260318": {
-      "date": "Wednesday, March 18",
-      "games": [
-        {
-          "league": "CONCACAF Champions Cup",
-          "time": "7:00 PM",
-          "match": "Inter Miami CF vs Nashville SC",
-          "source": "FS1",
-          "kick_utc": "2026-03-18T23:00Z",
-          "round_label": "Round of 16 \u00b7 Leg 2"
-        },
-        {
-          "league": "CONCACAF Champions Cup",
-          "time": "9:00 PM",
-          "match": "Am\u00e9rica vs Philadelphia Union",
-          "source": "FS1",
-          "kick_utc": "2026-03-19T01:00Z",
-          "round_label": "Round of 16 \u00b7 Leg 2"
-        },
-        {
-          "league": "CONCACAF Champions Cup",
-          "time": "11:00 PM",
-          "match": "Seattle Sounders FC vs Vancouver Whitecaps",
-          "source": "FS1",
-          "kick_utc": "2026-03-19T03:00Z",
-          "round_label": "Round of 16 \u00b7 Leg 2"
-        },
-        {
-          "league": "CONCACAF Champions Cup",
-          "time": "11:00 PM",
-          "match": "Toluca vs San Diego FC",
-          "source": "FS2",
-          "kick_utc": "2026-03-19T03:00Z",
-          "round_label": "Round of 16 \u00b7 Leg 2"
-        },
-        {
-          "league": "US Open Cup",
-          "time": "6:30 PM",
-          "match": "Asheville City SC vs Greenville Triumph",
-          "source": "YouTube",
-          "kick_utc": "2026-03-18T22:30Z"
-        },
-        {
-          "league": "US Open Cup",
-          "time": "6:30 PM",
-          "match": "Charleston Battery vs Florida Badgers FC",
-          "source": "YouTube",
-          "kick_utc": "2026-03-18T22:30Z"
-        },
-        {
-          "league": "US Open Cup",
-          "time": "7:00 PM",
-          "match": "FC Motown vs Hartford Athletic",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-18T23:00Z"
-        },
-        {
-          "league": "US Open Cup",
-          "time": "7:00 PM",
-          "match": "FC Naples vs Red Force",
-          "source": "YouTube",
-          "kick_utc": "2026-03-18T23:00Z"
-        },
-        {
-          "league": "US Open Cup",
-          "time": "7:00 PM",
-          "match": "Louisville City FC vs Southern Indiana FC",
-          "source": "YouTube",
-          "kick_utc": "2026-03-18T23:00Z"
-        },
-        {
-          "league": "US Open Cup",
-          "time": "7:30 PM",
-          "match": "SC Vistula Garfield vs One Knoxville",
-          "source": "YouTube",
-          "kick_utc": "2026-03-18T23:30Z"
-        },
-        {
-          "league": "US Open Cup",
-          "time": "8:00 PM",
-          "match": "BOHFS St. Louis vs Union Omaha",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-19T00:00Z"
-        },
-        {
-          "league": "US Open Cup",
-          "time": "8:00 PM",
-          "match": "Little Rock Rangers vs FC Tulsa",
-          "source": "YouTube",
-          "kick_utc": "2026-03-19T00:00Z"
-        },
-        {
-          "league": "US Open Cup",
-          "time": "8:30 PM",
-          "match": "San Antonio FC vs ASC New Stars",
-          "source": "YouTube",
-          "kick_utc": "2026-03-19T00:30Z"
-        },
-        {
-          "league": "US Open Cup",
-          "time": "9:30 PM",
-          "match": "New Mexico United vs Cruizers FC",
-          "source": "YouTube",
-          "kick_utc": "2026-03-19T01:30Z"
-        },
-        {
-          "league": "US Open Cup",
-          "time": "10:00 PM",
-          "match": "Sacramento Republic FC vs El Farolito",
-          "source": "YouTube",
-          "kick_utc": "2026-03-19T02:00Z"
-        },
-        {
-          "league": "US Open Cup",
-          "time": "10:30 PM",
-          "match": "AV Alta FC vs Valley 559 FC",
-          "source": "YouTube",
-          "kick_utc": "2026-03-19T02:30Z"
-        },
-        {
-          "league": "US Open Cup",
-          "time": "10:30 PM",
-          "match": "Orange County SC vs Laguna United FC",
-          "source": "YouTube",
-          "kick_utc": "2026-03-19T02:30Z"
-        },
-        {
-          "league": "US Open Cup",
-          "time": "10:30 PM",
-          "match": "Ventura County Fusion vs Spokane Velocity FC",
-          "source": "YouTube",
-          "kick_utc": "2026-03-19T02:30Z"
-        }
-      ]
-    },
     "20260319": {
       "date": "Thursday, March 19",
       "games": [
@@ -899,6 +764,10 @@
           "kick_utc": "2026-03-22T21:00Z"
         }
       ]
+    },
+    "20260323": {
+      "date": "Monday, March 23",
+      "games": []
     }
   }
 }
