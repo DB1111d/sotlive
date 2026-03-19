@@ -1,25 +1,9 @@
 {
-  "updated": "2026-03-19 13:00 EDT",
+  "updated": "2026-03-19 16:40 EDT",
   "days": {
     "20260319": {
       "date": "Thursday, March 19",
       "games": [
-        {
-          "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
-          "time": "12:15 PM",
-          "match": "Ohio State Buckeyes vs TCU Horned Frogs",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-19T16:15Z"
-        },
-        {
-          "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
-          "time": "12:40 PM",
-          "match": "Nebraska Cornhuskers vs Troy Trojans",
-          "source": "TBS / TNT",
-          "kick_utc": "2026-03-19T16:40Z"
-        },
         {
           "conference": "Independent",
           "tourney_round": "NCAA Tournament",
@@ -39,10 +23,10 @@
         {
           "conference": "Independent",
           "tourney_round": "NCAA Tournament",
-          "time": "2:50 PM",
+          "time": "3:00 PM",
           "match": "Duke Blue Devils vs Siena Saints",
           "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-19T18:50Z"
+          "kick_utc": "2026-03-19T19:00Z"
         },
         {
           "conference": "Independent",
@@ -55,18 +39,18 @@
         {
           "conference": "Independent",
           "tourney_round": "NCAA Tournament",
-          "time": "4:05 PM",
+          "time": "4:27 PM",
           "match": "Michigan State Spartans vs North Dakota State Bison",
           "source": "TBS / TNT",
-          "kick_utc": "2026-03-19T20:05Z"
+          "kick_utc": "2026-03-19T20:27Z"
         },
         {
           "conference": "Independent",
           "tourney_round": "NCAA Tournament",
-          "time": "4:25 PM",
+          "time": "4:27 PM",
           "match": "Arkansas Razorbacks vs Hawai'i Rainbow Warriors",
           "source": "TBS / TNT",
-          "kick_utc": "2026-03-19T20:25Z"
+          "kick_utc": "2026-03-19T20:27Z"
         },
         {
           "conference": "Independent",
@@ -270,6 +254,14 @@
     "20260321": {
       "date": "Saturday, March 21",
       "games": [
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "12:00 AM",
+          "match": "Nebraska Cornhuskers vs TBD",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-21T04:00Z"
+        },
         {
           "conference": "Independent",
           "tourney_round": "NIT",
