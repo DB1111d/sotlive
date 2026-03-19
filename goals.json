@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-19T23:27:41Z",
+  "updated": "2026-03-19T23:54:13Z",
   "date": "2026-03-19",
   "matches": [
     {
@@ -454,25 +454,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/pdkixjeez1qg1/CMAF_720.mp4?source=fallback",
           "postedAt": 1773948437000
-        }
-      ]
-    },
-    {
-      "home": "Freiburg",
-      "away": "Genk",
-      "goals": [
-        {
-          "postId": "1ry9pxr",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1ry9pxr",
-          "scorer": "Maximilian Eggestein",
-          "minute": 79,
-          "homeScore": 5,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/w13kh2ory1qg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/w13kh2ory1qg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1773948231000
         }
       ]
     }
