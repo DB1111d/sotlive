@@ -1,39 +1,7 @@
 {
-  "updated": "2026-03-19T22:20:58Z",
+  "updated": "2026-03-19T22:48:16Z",
   "date": "2026-03-19",
   "matches": [
-    {
-      "home": "Aston Villa",
-      "away": "Lille",
-      "goals": [
-        {
-          "postId": "1rycmb6",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rycmb6",
-          "scorer": "John McGinn",
-          "minute": 54,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamain.com/y47hn6c6Q9ecLfs/watch",
-          "videoEmbed": "https://streamain.com/y47hn6c6Q9ecLfs/watch",
-          "directMp4": null,
-          "postedAt": 1773954832000
-        },
-        {
-          "postId": "1rydfkr",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rydfkr",
-          "scorer": "Leon Bailey",
-          "minute": 85,
-          "homeScore": 2,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/0r89tn1zn2qg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/0r89tn1zn2qg1/CMAF_1080.mp4?source=fallback",
-          "postedAt": 1773956685000
-        }
-      ]
-    },
     {
       "home": "Roma",
       "away": "Bologna",
@@ -115,6 +83,51 @@
           "videoEmbed": "https://streamff.link/v/78be5f78",
           "directMp4": null,
           "postedAt": 1773956479000
+        },
+        {
+          "postId": "1ryej34",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ryej34",
+          "scorer": "Nicolo Cambiaghi",
+          "minute": 111,
+          "homeScore": 3,
+          "awayScore": 4,
+          "videoUrl": "https://streamain.com/5j1JRBgWqVBQ4BD/watch",
+          "videoEmbed": "https://streamain.com/5j1JRBgWqVBQ4BD/watch",
+          "directMp4": null,
+          "postedAt": 1773959190000
+        }
+      ]
+    },
+    {
+      "home": "Aston Villa",
+      "away": "Lille",
+      "goals": [
+        {
+          "postId": "1rycmb6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rycmb6",
+          "scorer": "John McGinn",
+          "minute": 54,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/y47hn6c6Q9ecLfs/watch",
+          "videoEmbed": "https://streamain.com/y47hn6c6Q9ecLfs/watch",
+          "directMp4": null,
+          "postedAt": 1773954832000
+        },
+        {
+          "postId": "1rydfkr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rydfkr",
+          "scorer": "Leon Bailey",
+          "minute": 85,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/0r89tn1zn2qg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/0r89tn1zn2qg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1773956685000
         }
       ]
     },
@@ -405,19 +418,6 @@
       "away": "Fiorentina",
       "goals": [
         {
-          "postId": "1ry929r",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1ry929r",
-          "scorer": "Karol Struski",
-          "minute": 46,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/k7d4nh6xs1qg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/k7d4nh6xs1qg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1773946242000
-        },
-        {
           "postId": "1ry9lfb",
           "subreddit": "soccer",
           "permalink": "https://redd.it/1ry9lfb",
@@ -482,19 +482,6 @@
       "away": "Sigma Olomouc",
       "goals": [
         {
-          "postId": "1ry93rf",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1ry93rf",
-          "scorer": "Stefan Posch",
-          "minute": 46,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/3mftf9m5t1qg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/3mftf9m5t1qg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1773946336000
-        },
-        {
           "postId": "1ry9rd5",
           "subreddit": "soccer",
           "permalink": "https://redd.it/1ry9rd5",
@@ -514,32 +501,6 @@
       "away": "Genk",
       "goals": [
         {
-          "postId": "1ry99ra",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1ry99ra",
-          "scorer": "Vincenzo Grifo",
-          "minute": 53,
-          "homeScore": 3,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/vmj81av7u1qg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/vmj81av7u1qg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1773946695000
-        },
-        {
-          "postId": "1ry9c62",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1ry9c62",
-          "scorer": "Yuito Suzuki",
-          "minute": 56,
-          "homeScore": 4,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/dc0pc88pu1qg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/dc0pc88pu1qg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1773946847000
-        },
-        {
           "postId": "1ry9pxr",
           "subreddit": "soccer",
           "permalink": "https://redd.it/1ry9pxr",
@@ -558,19 +519,6 @@
       "home": "Midtjylland",
       "away": "Nottingham Forest",
       "goals": [
-        {
-          "postId": "1ry97jz",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1ry97jz",
-          "scorer": "Ryan Yates",
-          "minute": 52,
-          "homeScore": 0,
-          "awayScore": 2,
-          "videoUrl": "https://v.redd.it/kis8ywytt1qg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/kis8ywytt1qg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1773946558000
-        },
         {
           "postId": "1ry9kqw",
           "subreddit": "soccer",
