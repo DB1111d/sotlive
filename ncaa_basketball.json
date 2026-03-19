@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-19 09:08 EDT",
+  "updated": "2026-03-19 13:00 EDT",
   "days": {
     "20260319": {
       "date": "Thursday, March 19",
@@ -269,11 +269,77 @@
     },
     "20260321": {
       "date": "Saturday, March 21",
-      "games": []
+      "games": [
+        {
+          "conference": "Independent",
+          "tourney_round": "NIT",
+          "time": "7:00 PM",
+          "match": "UNC Wilmington Seahawks vs Dayton Flyers",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-21T23:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NIT",
+          "time": "9:00 PM",
+          "match": "Nevada Wolf Pack vs Liberty Flames",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-22T01:00Z"
+        }
+      ]
     },
     "20260322": {
       "date": "Sunday, March 22",
-      "games": []
+      "games": [
+        {
+          "conference": "Independent",
+          "tourney_round": "NIT",
+          "time": "4:30 PM",
+          "match": "Wake Forest Demon Deacons vs Illinois State Redbirds",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-22T20:30Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NIT",
+          "time": "6:30 PM",
+          "match": "Auburn Tigers vs Seattle U Redhawks",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-22T22:30Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NIT",
+          "time": "7:00 PM",
+          "match": "Tulsa Golden Hurricane vs UNLV Rebels",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-22T23:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NIT",
+          "time": "8:00 PM",
+          "match": "New Mexico Lobos vs George Washington Revolutionaries",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-23T00:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NIT",
+          "time": "8:30 PM",
+          "match": "Oklahoma State Cowboys vs Wichita State Shockers",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-23T00:30Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NIT",
+          "time": "9:00 PM",
+          "match": "California Golden Bears vs Saint Joseph's Hawks",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-23T01:00Z"
+        }
+      ]
     },
     "20260323": {
       "date": "Monday, March 23",
