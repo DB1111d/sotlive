@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-19T22:48:16Z",
+  "updated": "2026-03-19T23:27:41Z",
   "date": "2026-03-19",
   "matches": [
     {
@@ -386,19 +386,6 @@
       "away": "Crystal Palace",
       "goals": [
         {
-          "postId": "1ry9hq0",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1ry9hq0",
-          "scorer": "Enric Saborit",
-          "minute": 63,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/u0h5jqrpv1qg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/u0h5jqrpv1qg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1773947200000
-        },
-        {
           "postId": "1ryai16",
           "subreddit": "soccer",
           "permalink": "https://redd.it/1ryai16",
@@ -418,19 +405,6 @@
       "away": "Fiorentina",
       "goals": [
         {
-          "postId": "1ry9lfb",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1ry9lfb",
-          "scorer": "Cher Ndour",
-          "minute": 68,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/plv6ny61x1qg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/plv6ny61x1qg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1773947636000
-        },
-        {
           "postId": "1rya67s",
           "subreddit": "soccer",
           "permalink": "https://redd.it/1rya67s",
@@ -449,19 +423,6 @@
       "home": "Lyon",
       "away": "Celta Vigo",
       "goals": [
-        {
-          "postId": "1ry9gau",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1ry9gau",
-          "scorer": "Javi Rueda",
-          "minute": 61,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/juj1lrgev1qg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/juj1lrgev1qg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1773947090000
-        },
         {
           "postId": "1ry9zh0",
           "subreddit": "soccer",
@@ -512,25 +473,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/w13kh2ory1qg1/CMAF_720.mp4?source=fallback",
           "postedAt": 1773948231000
-        }
-      ]
-    },
-    {
-      "home": "Midtjylland",
-      "away": "Nottingham Forest",
-      "goals": [
-        {
-          "postId": "1ry9kqw",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1ry9kqw",
-          "scorer": "Martin Erlić",
-          "minute": 69,
-          "homeScore": 1,
-          "awayScore": 2,
-          "videoUrl": "https://v.redd.it/gb9oywzrw1qg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/gb9oywzrw1qg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1773947552000
         }
       ]
     }
