@@ -19,9 +19,16 @@ from datetime import datetime, timezone, timedelta
 
 SUBREDDIT   = "soccer"
 PAGES       = 3       # 3 × 100 = up to 300 posts
-USER_AGENT  = "goalfeed/1.0 (github.com/db1111d/sotlive)"
 VIDEO_HOSTS = {"streamff.link", "streamff.com", "streamable.com",
                "youtu.be", "youtube.com", "v.redd.it"}
+
+# Reddit requires a real-looking User-Agent + Accept headers to avoid 403
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Cache-Control": "no-cache",
+}
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -35,7 +42,7 @@ def fetch_page(after=None):
     url = f"https://www.reddit.com/r/{SUBREDDIT}/new.json?limit=100"
     if after:
         url += f"&after={after}"
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    req = urllib.request.Request(url, headers=HEADERS)
     with urllib.request.urlopen(req, timeout=15) as resp:
         return json.loads(resp.read().decode("utf-8"))
 
