@@ -1,37 +1,8 @@
 {
-  "updated": "2026-03-18 18:36 EDT",
+  "updated": "2026-03-19 04:31 EDT",
   "week_label": "Week of March 15 \u2013 March 21",
   "groups": {
     "TV Series": [
-      {
-        "type": "series",
-        "title": "Hoarders",
-        "overview": "This series delves into the mental disorder of hoarding, as experts work to help individuals overcome obsessive collecting and reclaim their lives.",
-        "genres": [
-          "Documentary",
-          "Reality"
-        ],
-        "added_date": "March 18",
-        "added_ts": 1773817200,
-        "link": "https://www.netflix.com/title/70157400/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/23355216/poster/vertical/en/240.jpg?Expires=1791328789&Signature=HxZEeHjdpu7Khxclgvu~3F43e~A6HSVd9YbfNQLvH5bACLtFa4i1MqVOIAWYkilmrL9plObvQcnYUTj3FOorndOEeR-b8jeNx-beSIg5Ecjb-K5e2YfUhgO7vA-0hD02k9oIwzM6UCJkgVmvzCYN1bfTQPOHNSEcJbNfOfocRp9Di91TUk2obI5ZmL1~RVcact5xlkOqWxyvc3KH27a0zJFUEq-2JJbcHGJX4~m~hQtt72urPqselt~SLm8x~3Zg7CxW1TH4nPIQbBrjWEN4PoXSrhWPD9ZGjK78lYga7qgQ~HaRplHuGOnINCEkdicpzcFrBCVeXciRyKw7KjOmlQ__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 61
-      },
-      {
-        "type": "series",
-        "title": "Radioactive Emergency",
-        "overview": "",
-        "genres": [
-          "Drama",
-          "History",
-          "Thriller"
-        ],
-        "added_date": "March 18",
-        "added_ts": 1773817200,
-        "link": "https://www.netflix.com/title/81696429/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/24862466/poster/vertical/en/240.jpg?Expires=1805369818&Signature=NPo4G5xFzFyNseqTnbFnJIUHSw7w7jAHaN81b8mBrZqvBCZaNtZfnQdlwB0HRx2IOQJXUygsX~uFP05I2r4IVSlCpsThghT-SBtxvNb6C7FfC5gSwYeVIx-c2Fr5-XVW5iFpha1-LJmt6dgswguhtRy1ngiKXVI56itDvGGwiEP4KlOgjxpMtrVdimAYQCGntVoOHFk-NjP1NkdVSeViE5gNe5-DUAFgQPqEjnleXk8mOYeLYo3g~Z6smBLlBd0K2sQdRq5NqAEqLF3eETxyafz~F4WoT4rTgQC8gxdZsH7GGwKeMvEsvvYeetgj8yqvcez1-tIKvmnDzYda~RIhTg__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 0
-      },
       {
         "type": "series",
         "title": "JoJo's Bizarre Adventure",
@@ -64,20 +35,6 @@
       }
     ],
     "Movies": [
-      {
-        "type": "movie",
-        "title": "In a Relationship",
-        "overview": "Over the course of a summer in LA, steadfast couple Owen and Hallie stare down the end of their relationship while Matt and Willa are just beginning.",
-        "genres": [
-          "Comedy",
-          "Drama"
-        ],
-        "added_date": "March 18",
-        "added_ts": 1773817200,
-        "link": "https://www.netflix.com/title/81006259/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/47849/poster/vertical/en/240.jpg?Expires=1803619279&Signature=P0L-Y-KNDNE0cumUesEQnPEf6TDYYRI-XE-2kRMawPD~cs0itACciSeQcxwjBIO4Ke1dhmpTNiBRk6VYXS4gvzWppv-mHE2EzaOUwNm6Gce-QP5mPbxhJEJag9hryKByz5pSAZD6dj0z0f9CjZlPeAiVE2S4P7mas-Wl3TJ7u8ArbyfEboWECweNYLO4-OO-toTQDz4DM~Pkv1OfFpIsKqPZKFBEiYCj8fKHMQK8TQNkDbgJW7eZoUtm8lzqM5ygNGcJQcIVYX6LQKGFErIgV3qJZiyr0eP5kucw840wcAsP1~jmzYeKtp~LNmkSw3nRETL0cn0XQRiPTaTAph4pDg__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 55
-      },
       {
         "type": "movie",
         "title": "Saw X",
