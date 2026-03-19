@@ -260,15 +260,7 @@ function buildPanel(key, day) {
 
   panel.dataset.leagues = JSON.stringify(Object.keys(sortedGrouped));
 
-  // GoalFeed banner — only on today's date
-  const todayKey = new Date().toLocaleDateString('en-CA', { timeZone: 'America/New_York' }).replace(/-/g, '');
-  const goalfeedBanner = key === todayKey ? `
-    <a href="soccer-goals.html" class="goalfeed-banner">
-      <span class="goalfeed-banner-icon">🥅</span>
-      <span class="goalfeed-banner-text"><span class="goalfeed-green">GOAL</span>FEED</span>
-    </a>` : '';
-
-  let html = goalfeedBanner;
+  let html = '';
   for (const [league, info] of Object.entries(sortedGrouped)) {
     const isUefa = ['UEFA Champions League', 'UEFA Europa League', 'UEFA Europa Conference League'].includes(league);
     html += `<div class="league-group"><div class="league-label${isUefa ? ' uefa' : ''}">${league}</div>`;
@@ -459,8 +451,75 @@ async function switchSport(sport) {
   hideLeagueFilter();
   resetLeagueFilter();
 
-  // Netflix is a completely different layout — no day tabs
-  if (sport === 'netflix') {
+  // GoalFeed — loads goals.json and renders inline
+  if (sport === 'goals') {
+    let data;
+    try {
+      const res = await fetch('goals.json?v=' + Date.now());
+      data = await res.json();
+    } catch (e) {
+      contentEl.innerHTML =
+        '<div class="empty"><div class="empty-icon">🥅</div>Could not load goal feed.</div>';
+      const aboutBtn = document.createElement('button');
+      aboutBtn.className = 'tab';
+      aboutBtn.id = 'about-tab';
+      aboutBtn.textContent = 'About';
+      aboutBtn.addEventListener('click', switchToAbout);
+      tabsEl.appendChild(aboutBtn);
+      return;
+    }
+
+    const matches = data.matches || [];
+    const panel = document.createElement('div');
+    panel.className = 'day-panel active';
+    panel.id = 'panel-goals';
+
+    if (matches.length === 0) {
+      panel.innerHTML = '<div class="empty"><div class="empty-icon">🥅</div>No goals found yet — check back soon.</div>';
+    } else {
+      let html = '';
+      matches.forEach((match, idx) => {
+        const collapsed = idx > 0 ? 'collapsed' : '';
+        const goalRows = match.goals.map(g => {
+          const videoHtml = buildGoalVideo(g);
+          return `<div class="goal-row">
+            <div class="goal-minute">${g.minute}'</div>
+            <div class="goal-content">
+              <div class="goal-title-line">
+                <span class="goal-scorer">${escHtml(g.scorer || '')}</span>
+                <span class="goal-score-badge">${g.homeScore}–${g.awayScore}</span>
+              </div>
+              ${videoHtml}
+            </div>
+          </div>`;
+        }).join('');
+        html += `<div class="match-card ${collapsed}" data-key="${escHtml(match.home + ' vs ' + match.away)}">
+          <div class="match-header" onclick="this.closest('.match-card').classList.toggle('collapsed')">
+            <div class="match-teams">${escHtml(match.home)} <span class="vs-text">vs</span> ${escHtml(match.away)}</div>
+            <span class="match-toggle">▼</span>
+          </div>
+          <div class="match-goals">${goalRows}</div>
+        </div>`;
+      });
+      panel.innerHTML = html;
+    }
+
+    contentEl.appendChild(panel);
+
+    const aboutBtn = document.createElement('button');
+    aboutBtn.className = 'tab';
+    aboutBtn.id = 'about-tab';
+    aboutBtn.textContent = 'About';
+    aboutBtn.addEventListener('click', switchToAbout);
+    tabsEl.appendChild(aboutBtn);
+
+    const updatedEl = document.createElement('div');
+    updatedEl.id = 'goals-last-updated';
+    updatedEl.style.cssText = 'font-family:"DM Mono",monospace;font-size:0.68rem;color:#888880;text-align:right;margin-bottom:16px;letter-spacing:0.05em;max-width:780px;margin-left:auto;margin-right:auto;padding:0 24px;';
+    if (data.updated) updatedEl.textContent = 'LAST UPDATED  ' + new Date(data.updated).toLocaleTimeString();
+    contentEl.prepend(updatedEl);
+    return;
+  }
     let data;
     try {
       const res = await fetch('netflix.json?v=' + Math.floor(Date.now() / 3600000));
@@ -750,6 +809,26 @@ function toggleOverview(e, btn) {
     overview.classList.add('netflix-overview-clamped');
     btn.textContent = 'Show more';
   }
+}
+
+// ── GoalFeed helpers ──────────────────────────────────────────────
+function escHtml(str) {
+  return String(str)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function buildGoalVideo(goal) {
+  if (goal.videoEmbed && !/redditmedia/.test(goal.videoEmbed)) {
+    return `<div class="goal-video-wrap">
+      <iframe src="${escHtml(goal.videoEmbed)}" allowfullscreen allow="autoplay;fullscreen" scrolling="no"></iframe>
+    </div>`;
+  }
+  return `<div class="goal-video-wrap">
+    <div class="goal-video-fallback">
+      <a href="${goal.permalink || goal.videoUrl}" target="_blank" rel="noopener">▶ Watch here — Reddit videos can't be embedded</a>
+    </div>
+  </div>`;
 }
 
 // ── Init ──────────────────────────────────────────────────────────
