@@ -144,8 +144,17 @@ def main():
         if key not in matches:
             matches[key] = {"home": parsed["home"], "away": parsed["away"], "goals": []}
 
-        if any(g["postId"] == post_id for g in matches[key]["goals"]):
-            continue
+        # Check for duplicate by same minute (not just postId)
+        existing = next((g for g in matches[key]["goals"] if g["minute"] == parsed["minute"]), None)
+        if existing:
+            # Prefer non-Reddit video over v.redd.it
+            existing_is_reddit = existing["videoUrl"].startswith("https://v.redd.it")
+            new_is_reddit = video_url.startswith("https://v.redd.it")
+            if existing_is_reddit and not new_is_reddit:
+                # Replace with better source
+                matches[key]["goals"].remove(existing)
+            else:
+                continue  # keep existing, skip this one
 
         direct_mp4 = None
         secure_media = post.get("secure_media") or {}
