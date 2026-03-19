@@ -38,6 +38,20 @@ def fetch_posts(after_ts):
         print(f"  Fetch error: {e}")
         return []
 
+def clean_team(name):
+    # Strip anything in brackets/parens e.g. "[2-1 on agg.]", "(2-1 on agg.)"
+    name = re.sub(r'[\[\(][^\]\)]*[\]\)]', '', name)
+    # Strip trailing pipe and anything after e.g. "| agg. 2-1"
+    name = re.sub(r'\s*\|.*$', '', name)
+    return name.strip()
+
+def clean_scorer(scorer):
+    # Strip trailing descriptors like "great goal", "penalty", "own goal" qualifiers after name
+    # Keep "penalty" and "own goal" as they're meaningful but strip things like "great goal"
+    scorer = re.sub(r'\s*\|.*$', '', scorer)  # strip pipe and after
+    scorer = re.sub(r'\bgreat goal\b', '', scorer, flags=re.IGNORECASE)
+    return scorer.strip()
+
 def parse_title(title):
     if re.search(r"red card|yellow card", title, re.IGNORECASE):
         return None
@@ -53,17 +67,17 @@ def parse_title(title):
     home_score = int(score_match.group(1))
     away_score = int(score_match.group(2))
     score_idx = title.index(score_match.group(0))
-    home = title[:score_idx].strip()
+    home = clean_team(title[:score_idx])
     if not home:
         return None
     after_score = title[score_idx + len(score_match.group(0)):].strip()
     dash_parts = after_score.split(" - ")
-    away = dash_parts[0].strip()
+    away = clean_team(dash_parts[0])
     if not away:
         return None
     scorer = ""
     if len(dash_parts) > 1:
-        scorer = re.sub(r"\s*\d+.*$", "", dash_parts[1]).strip()
+        scorer = clean_scorer(re.sub(r"\s*\d+['\+].*$", "", dash_parts[1]))
     return {"home": home, "homeScore": home_score, "awayScore": away_score,
             "away": away, "scorer": scorer, "minute": minute}
 
@@ -94,8 +108,12 @@ def build_embed(url, post_id):
         pass
     return None
 
+def clean_team(name):
+    # Strip anything in brackets/parens like "[2-1 on agg.]" or "(2-1 on agg.)"
+    return re.sub(r'[\[\(][^\]\)]*[\]\)]', '', name).strip()
+
 def match_key(home, away):
-    return " vs ".join(sorted([home.lower(), away.lower()]))
+    return " vs ".join(sorted([clean_team(home).lower(), clean_team(away).lower()]))
 
 def main():
     today_ts = today_utc_midnight_ts()
