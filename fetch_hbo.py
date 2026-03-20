@@ -219,15 +219,6 @@ def main():
         print("  No upcoming matches — using new releases directly")
         matched = new_shows
 
-    # ── Intersect: keep only shows in both lists ──────────────────────────────
-    announced_ids = set(upcoming_shows.keys())
-    matched = {sid: entry for sid, entry in new_shows.items() if sid in announced_ids}
-    print(f"  Matched (in both): {len(matched)}")
-
-    if not matched and new_shows:
-        print("  No upcoming matches found — falling back to new_shows only")
-        matched = new_shows
-
     # ── Build show records ────────────────────────────────────────────────────
     shows = [build_show(sid, entry) for sid, entry in matched.items()]
 

@@ -425,8 +425,8 @@ function switchToAbout() {
   if (tzSelect) tzSelect.disabled = true;
 
   if (currentSport === 'netflix' || currentSport === 'hbo') {
-    hideLeagueFilter();
     hideTzPicker();
+    hideLeagueFilter();
   } else {
     const tzPicker = document.getElementById('tz-picker');
     if (tzPicker) tzPicker.style.display = '';
@@ -460,12 +460,11 @@ async function switchSport(sport) {
   hideLeagueFilter();
   resetLeagueFilter();
 
-  // Netflix and HBO Max share the same tile layout — no day tabs
-  if (sport === 'netflix' || sport === 'hbo') {
-    const jsonFile = sport === 'hbo' ? 'hbo.json' : 'netflix.json';
+  // Netflix is a completely different layout — no day tabs
+  if (sport === 'netflix') {
     let data;
     try {
-      const res = await fetch(jsonFile + '?v=' + Math.floor(Date.now() / 3600000));
+      const res = await fetch('netflix.json?v=' + Math.floor(Date.now() / 3600000));
       data = await res.json();
     } catch (e) {
       contentEl.innerHTML =
@@ -522,7 +521,6 @@ async function switchSport(sport) {
     }
 
     function checkShowMoreButtons(grid) {
-      // Defer until after browser paint so scrollHeight/clientHeight are accurate
       requestAnimationFrame(() => {
         grid.querySelectorAll('.netflix-overview-wrap').forEach(wrap => {
           const overview = wrap.querySelector('.netflix-overview');
@@ -558,7 +556,7 @@ async function switchSport(sport) {
     // Build panel shells — only first page of cards rendered immediately
     const netflixPanels = {};
     groupNames.forEach((groupName, idx) => {
-      const panelId = `panel-${sport}-${groupName.replace(/\s+/g, '-').toLowerCase()}`;
+      const panelId = `panel-netflix-${groupName.replace(/\s+/g, '-').toLowerCase()}`;
       const shows = groups[groupName];
 
       const panel = document.createElement('div');
@@ -611,7 +609,7 @@ async function switchSport(sport) {
 
     let firstTab = true;
     groupNames.forEach(groupName => {
-      const panelId = `panel-${sport}-${groupName.replace(/\s+/g, '-').toLowerCase()}`;
+      const panelId = `panel-netflix-${groupName.replace(/\s+/g, '-').toLowerCase()}`;
       const btn = document.createElement('button');
       btn.className = 'tab' + (firstTab ? ' active' : '');
       btn.dataset.netflixCategory = panelId;
