@@ -1,7 +1,155 @@
 {
-  "updated": "2026-03-20T20:29:08Z",
+  "updated": "2026-03-20T20:56:37Z",
   "date": "2026-03-20",
   "matches": [
+    {
+      "home": "Lens",
+      "away": "Angers",
+      "goals": [
+        {
+          "postId": "1rz6ycc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rz6ycc",
+          "scorer": "Florian Thauvin",
+          "minute": 13,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/g1h2IpxAIQCM6VA/watch",
+          "videoEmbed": "https://streamain.com/g1h2IpxAIQCM6VA/watch",
+          "directMp4": null,
+          "postedAt": 1774037623000
+        },
+        {
+          "postId": "1rz6ypq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rz6ypq",
+          "scorer": "Odsonne Édouard",
+          "minute": 25,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/foRIabeiR4dpTan/watch",
+          "videoEmbed": "https://streamain.com/foRIabeiR4dpTan/watch",
+          "directMp4": null,
+          "postedAt": 1774037649000
+        },
+        {
+          "postId": "1rz7hdp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rz7hdp",
+          "scorer": "Mamadou Sangaré",
+          "minute": 39,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/EadHjHcXsiS0sdk/watch",
+          "videoEmbed": "https://streamain.com/EadHjHcXsiS0sdk/watch",
+          "directMp4": null,
+          "postedAt": 1774038864000
+        },
+        {
+          "postId": "1rz805l",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rz805l",
+          "scorer": "Odsonne Édouard",
+          "minute": 48,
+          "homeScore": 4,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/1gxOG8c0tbMS5Qa/watch",
+          "videoEmbed": "https://streamain.com/1gxOG8c0tbMS5Qa/watch",
+          "directMp4": null,
+          "postedAt": 1774040059000
+        }
+      ]
+    },
+    {
+      "home": "Laval",
+      "away": "Grenoble",
+      "goals": [
+        {
+          "postId": "1rz5fkt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rz5fkt",
+          "scorer": "Jessy Benet",
+          "minute": 13,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/0FEf0dd3Evh9L0b/watch",
+          "videoEmbed": "https://streamain.com/0FEf0dd3Evh9L0b/watch",
+          "directMp4": null,
+          "postedAt": 1774034139000
+        },
+        {
+          "postId": "1rz7d3y",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rz7d3y",
+          "scorer": "Mamadou Camara",
+          "minute": 51,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/WbwuVocMNIrgQzf/watch",
+          "videoEmbed": "https://streamain.com/WbwuVocMNIrgQzf/watch",
+          "directMp4": null,
+          "postedAt": 1774038598000
+        },
+        {
+          "postId": "1rz7mqy",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rz7mqy",
+          "scorer": "Evans Maurin",
+          "minute": 82,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/mRxs10A6CDgqYYu/watch",
+          "videoEmbed": "https://streamain.com/mRxs10A6CDgqYYu/watch",
+          "directMp4": null,
+          "postedAt": 1774039205000
+        },
+        {
+          "postId": "1rz7u2b",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rz7u2b",
+          "scorer": "Mamadou Camara",
+          "minute": 89,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/24MrpADdr1jaiao/watch",
+          "videoEmbed": "https://streamain.com/24MrpADdr1jaiao/watch",
+          "directMp4": null,
+          "postedAt": 1774039676000
+        },
+        {
+          "postId": "1rz7x61",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rz7x61",
+          "scorer": "Malik Sellouki",
+          "minute": 90,
+          "homeScore": 3,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/eExVRej5rOhMZzy/watch",
+          "videoEmbed": "https://streamain.com/eExVRej5rOhMZzy/watch",
+          "directMp4": null,
+          "postedAt": 1774039874000
+        }
+      ]
+    },
+    {
+      "home": "Motor Lublin",
+      "away": "Zagłębie Lubin",
+      "goals": [
+        {
+          "postId": "1rz7tv4",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rz7tv4",
+          "scorer": "Mbaye N'Diaye",
+          "minute": 52,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/q9vfomjni9qg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/q9vfomjni9qg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1774039663000
+        }
+      ]
+    },
     {
       "home": "Clermont",
       "away": "Red Star",
@@ -37,19 +185,6 @@
           "videoEmbed": "https://streamain.com/9JzsD9GOzhYTRBz/watch",
           "directMp4": null,
           "postedAt": 1774037436000
-        },
-        {
-          "postId": "1rz72wt",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rz72wt",
-          "scorer": "Gerard Moreno",
-          "minute": 9,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamin.link/v/6fa6c1b6",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1774037922000
         },
         {
           "postId": "1rz72eh",
@@ -299,38 +434,6 @@
       ]
     },
     {
-      "home": "Lens",
-      "away": "Angers",
-      "goals": [
-        {
-          "postId": "1rz6ycc",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rz6ycc",
-          "scorer": "Florian Thauvin",
-          "minute": 13,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamain.com/g1h2IpxAIQCM6VA/watch",
-          "videoEmbed": "https://streamain.com/g1h2IpxAIQCM6VA/watch",
-          "directMp4": null,
-          "postedAt": 1774037623000
-        },
-        {
-          "postId": "1rz6ypq",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rz6ypq",
-          "scorer": "Odsonne Édouard",
-          "minute": 25,
-          "homeScore": 2,
-          "awayScore": 0,
-          "videoUrl": "https://streamain.com/foRIabeiR4dpTan/watch",
-          "videoEmbed": "https://streamain.com/foRIabeiR4dpTan/watch",
-          "directMp4": null,
-          "postedAt": 1774037649000
-        }
-      ]
-    },
-    {
       "home": "Rodez",
       "away": "Bastia",
       "goals": [
@@ -363,85 +466,21 @@
       ]
     },
     {
-      "home": "Karlsruhe",
-      "away": "Greuther Fürth",
-      "goals": [
-        {
-          "postId": "1rz2vkt",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rz2vkt",
-          "scorer": "Noel Futkeu",
-          "minute": 5,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/77f4d521",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1774028326000
-        },
-        {
-          "postId": "1rz4ji5",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rz4ji5",
-          "scorer": "Rafael Pinto Pedrosa",
-          "minute": 48,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/37a85aff",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1774032121000
-        },
-        {
-          "postId": "1rz5swr",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rz5swr",
-          "scorer": "Fabian Schleusener",
-          "minute": 90,
-          "homeScore": 3,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/20e915cc",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1774034990000
-        }
-      ]
-    },
-    {
-      "home": "Laval",
-      "away": "Grenoble",
-      "goals": [
-        {
-          "postId": "1rz5fkt",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rz5fkt",
-          "scorer": "Jessy Benet",
-          "minute": 13,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamain.com/0FEf0dd3Evh9L0b/watch",
-          "videoEmbed": "https://streamain.com/0FEf0dd3Evh9L0b/watch",
-          "directMp4": null,
-          "postedAt": 1774034139000
-        }
-      ]
-    },
-    {
       "home": "Piast Gliwice",
       "away": "Radomiak Radom",
       "goals": [
         {
-          "postId": "1rz22ov",
+          "postId": "1rz3t67",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1rz22ov",
-          "scorer": "Jorge Félix",
-          "minute": 7,
+          "permalink": "https://redd.it/1rz3t67",
+          "scorer": "Filip Majchrowicz penalty save",
+          "minute": 52,
           "homeScore": 1,
           "awayScore": 0,
-          "videoUrl": "https://v.redd.it/mjbmobimf8qg1",
+          "videoUrl": "https://v.redd.it/310afygar8qg1",
           "videoEmbed": null,
-          "directMp4": "https://v.redd.it/mjbmobimf8qg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1774026543000
+          "directMp4": "https://v.redd.it/310afygar8qg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1774030450000
         },
         {
           "postId": "1rz3zxm",
@@ -500,63 +539,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/cbft74nqw8qg1/CMAF_1080.mp4?source=fallback",
           "postedAt": 1774032326000
-        }
-      ]
-    },
-    {
-      "home": "Wehen Wiesbaden",
-      "away": "Hansa Rostock",
-      "goals": [
-        {
-          "postId": "1rz3o2e",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rz3o2e",
-          "scorer": "Kenan Fatkic",
-          "minute": 4,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/b61c8b94",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1774030120000
-        }
-      ]
-    },
-    {
-      "home": "Hannover",
-      "away": "Eintracht Braunschweig",
-      "goals": [
-        {
-          "postId": "1rz3iz0",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rz3iz0",
-          "scorer": "Maik Nawrocki",
-          "minute": 31,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamin.link/v/b1e1bda4",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1774029792000
-        }
-      ]
-    },
-    {
-      "home": "Cagliari",
-      "away": "Napoli",
-      "goals": [
-        {
-          "postId": "1rz2r7j",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rz2r7j",
-          "scorer": "Scott McTominay",
-          "minute": 2,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.top/v/e92d740a",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1774028049000
         }
       ]
     }
