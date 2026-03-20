@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-20T22:36:34Z",
+  "updated": "2026-03-20T23:01:48Z",
   "date": "2026-03-20",
   "matches": [
     {
@@ -405,19 +405,6 @@
       "home": "Amiens",
       "away": "Le Mans",
       "goals": [
-        {
-          "postId": "1rz54yp",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rz54yp",
-          "scorer": "Antoine Rabillard",
-          "minute": 2,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamain.com/kPCaaIqUd9gGYLj/watch",
-          "videoEmbed": "https://streamain.com/kPCaaIqUd9gGYLj/watch",
-          "directMp4": null,
-          "postedAt": 1774033461000
-        },
         {
           "postId": "1rz5evi",
           "subreddit": "soccer",
