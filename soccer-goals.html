@@ -501,7 +501,10 @@ function renderVideo(goal) {
       </div>`;
   }
   // No embeddable source — show a watch button
-  const watchUrl = goal.permalink || goal.videoUrl;
+  // For streamin hosts use the video URL directly, otherwise use reddit permalink
+  const streaminHosts = ['streamin.me', 'streamin.link', 'streamin.top'];
+  const videoHost = (() => { try { return new URL(goal.videoUrl || '').hostname.replace('www.',''); } catch(e) { return ''; } })();
+  const watchUrl = streaminHosts.includes(videoHost) ? goal.videoUrl : (goal.permalink || goal.videoUrl);
   const host = (() => { try { return new URL(watchUrl).hostname.replace('www.',''); } catch(e) { return ''; } })();
   const isReddit = /redd\.it|reddit\.com/.test(host);
   const btnColor = isReddit ? '#ff4500' : '#1a6b3c';

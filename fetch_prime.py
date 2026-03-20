@@ -23,8 +23,13 @@ API_BASE = "https://press.amazonmgmstudios.com/api/whatson/get-whatson-schedules
 INCLUDE_TYPES = {"Original"}
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (compatible; SOTLive/1.0)",
-    "Accept": "application/json",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Referer": "https://press.amazonmgmstudios.com/us/en/whatson/",
+    "Origin": "https://press.amazonmgmstudios.com",
+    "Connection": "keep-alive",
 }
 
 
@@ -38,11 +43,20 @@ def fetch_month(year: int, month: int) -> list:
     req  = urllib.request.Request(url, headers=HEADERS)
     try:
         with urllib.request.urlopen(req, timeout=30) as resp:
-            data = json.loads(resp.read().decode("utf-8"))
+            raw = resp.read()
+            # Handle gzip
+            if resp.info().get('Content-Encoding') == 'gzip':
+                import gzip
+                raw = gzip.decompress(raw)
+            data = json.loads(raw.decode("utf-8"))
             print(f"  [{slug}] got {len(data)} entries")
             return data
     except urllib.error.HTTPError as e:
         print(f"  HTTP error [{slug}]: {e.code} {e.reason}")
+        try:
+            print(f"  Body: {e.read().decode('utf-8')[:200]}")
+        except Exception:
+            pass
         return []
     except Exception as e:
         print(f"  Error [{slug}]: {e}")
