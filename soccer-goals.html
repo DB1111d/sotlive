@@ -210,15 +210,14 @@
     position: relative;
     width: 100%;
     aspect-ratio: 16/9;
-    background: transparent;
+    background: #000;
     border-radius: 1px;
     overflow: hidden;
   }
 
   .video-wrap iframe {
     width: 100%;
-    height: 130%;
-    margin-top: -12%;
+    height: 100%;
     border: none;
     display: block;
     overflow: hidden;
@@ -351,13 +350,10 @@
       font-size: 2.2rem;
     }
 
-    /* Clip Streamain's internal header bar on mobile */
-    .video-wrap {
-      aspect-ratio: 16/11;
-    }
+    /* Mobile video */
     .video-wrap iframe {
-      height: 130%;
-      margin-top: -12%;
+      height: 100%;
+      margin-top: 0;
     }
   }
 </style>
@@ -497,6 +493,24 @@ function renderVideo(goal) {
       </div>`;
   }
   if (goal.videoEmbed && !/redditmedia/.test(goal.videoEmbed)) {
+    const isStreamain = /streamain\.com/.test(goal.videoEmbed);
+    if (isStreamain) {
+      return `
+        <div class="video-wrap" id="vw-${goal.postId}">
+          <div class="video-fallback" id="vf-${goal.postId}" style="display:none;">
+            <a href="${escHtml(goal.videoUrl)}" target="_blank" rel="noopener"
+              style="display:inline-flex;align-items:center;gap:8px;background:#1a6b3c;color:#fff;
+              padding:10px 20px;border-radius:4px;text-decoration:none;font-family:var(--mono);
+              font-size:0.8rem;letter-spacing:0.05em;border:none;">
+              ▶ Watch on Streamain
+            </a>
+          </div>
+          <iframe src="${escHtml(goal.videoEmbed)}"
+            allowfullscreen allow="autoplay; fullscreen"
+            scrolling="no"
+            onload="(function(f,w){if(/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)){f.style.display='none';w.style.display='flex';w.style.alignItems='center';w.style.justifyContent='center';}})(document.getElementById('vf-${goal.postId}'),document.getElementById('vw-${goal.postId}'))"></iframe>
+        </div>`;
+    }
     return `
       <div class="video-wrap">
         <iframe src="${escHtml(goal.videoEmbed)}"
@@ -504,23 +518,15 @@ function renderVideo(goal) {
           scrolling="no"></iframe>
       </div>`;
   }
-  // No embeddable source — show a watch button
-  // For streamin hosts use the video URL directly, otherwise use reddit permalink
-  const streaminHosts = ['streamin.me', 'streamin.link', 'streamin.top'];
-  const videoHost = (() => { try { return new URL(goal.videoUrl || '').hostname.replace('www.',''); } catch(e) { return ''; } })();
-  const watchUrl = streaminHosts.includes(videoHost) ? goal.videoUrl : (goal.permalink || goal.videoUrl);
-  const host = (() => { try { return new URL(watchUrl).hostname.replace('www.',''); } catch(e) { return ''; } })();
-  const isReddit = /redd\.it|reddit\.com/.test(host);
-  const btnColor = isReddit ? '#ff4500' : '#1a6b3c';
-  const btnLabel = isReddit ? '▶ Watch here — Reddit videos can\'t be embedded' : `▶ Watch on ${host}`;
+  // Reddit hosted video — link to the actual post which always works
   return `
     <div class="video-wrap">
       <div class="video-fallback">
-        <a href="${escHtml(watchUrl)}" target="_blank" rel="noopener"
-          style="display:inline-flex;align-items:center;gap:8px;background:${btnColor};color:#fff;
+        <a href="${goal.permalink || goal.videoUrl}" target="_blank" rel="noopener"
+          style="display:inline-flex;align-items:center;gap:8px;background:#ff4500;color:#fff;
           padding:10px 20px;border-radius:4px;text-decoration:none;font-family:var(--mono);
           font-size:0.8rem;letter-spacing:0.05em;border:none;">
-          ${btnLabel}
+          ▶ Watch here — Reddit videos can't be embedded
         </a>
       </div>
     </div>`;
