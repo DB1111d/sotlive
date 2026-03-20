@@ -108,12 +108,12 @@
       border-bottom-color: #000;
     }
 
+    .sport-icon { font-size: 17px; }
+
     @media (max-width: 500px) {
       .sport-btn { font-size: 13px; }
       .sport-icon { font-size: 15px; }
     }
-
-    .sport-icon { font-size: 17px; }
 
     /* ── Netflix grid ── */
     .netflix-week-label {
@@ -225,21 +225,9 @@
       margin-bottom: 8px;
     }
 
-    .netflix-rating-label {
-      font-weight: 400;
-      color: #cc0000;
-    }
-
-    .netflix-rating-score {
-      font-weight: 700;
-      color: #cc0000;
-    }
-
-    .netflix-rating-max {
-      font-size: 11px;
-      font-weight: 400;
-      color: #cc0000;
-    }
+    .netflix-rating-label { font-weight: 400; color: #cc0000; }
+    .netflix-rating-score { font-weight: 700; color: #cc0000; }
+    .netflix-rating-max  { font-size: 11px; font-weight: 400; color: #cc0000; }
 
     .netflix-overview {
       font-size: 15px;
@@ -436,14 +424,9 @@
       transition: border-color 0.15s, box-shadow 0.15s;
     }
 
-    .game-card:has(.round-label) {
-      align-items: flex-start;
-    }
-
+    .game-card:has(.round-label) { align-items: flex-start; }
     .game-card:has(.round-label) .game-match,
-    .game-card:has(.round-label) .badge-stack {
-      padding-top: 28px;
-    }
+    .game-card:has(.round-label) .badge-stack { padding-top: 28px; }
 
     .game-card:hover {
       border-color: #ccc;
@@ -529,13 +512,8 @@
       gap: 0;
     }
 
-    .faq-item {
-      border-bottom: 1px solid var(--border);
-    }
-
-    .faq-item:first-child {
-      border-top: 1px solid var(--border);
-    }
+    .faq-item { border-bottom: 1px solid var(--border); }
+    .faq-item:first-child { border-top: 1px solid var(--border); }
 
     .faq-question {
       font-size: 16px;
@@ -560,9 +538,7 @@
       transition: transform 0.2s;
     }
 
-    details[open] .faq-chevron {
-      transform: rotate(180deg);
-    }
+    details[open] .faq-chevron { transform: rotate(180deg); }
 
     .faq-answer {
       font-size: 15px;
@@ -596,9 +572,7 @@
     }
     .about-panel.active { display: block; }
 
-    .about-section {
-      margin-bottom: 28px;
-    }
+    .about-section { margin-bottom: 28px; }
 
     .about-section h2 {
       font-size: 11px;
@@ -642,10 +616,7 @@
       text-align: center;
     }
 
-    .contact-form {
-      max-width: 520px;
-      margin: 0 auto;
-    }
+    .contact-form { max-width: 520px; margin: 0 auto; }
 
     .contact-form .form-row {
       display: grid;
@@ -670,14 +641,10 @@
     }
 
     .contact-form input:focus,
-    .contact-form textarea:focus {
-      border-color: #aaa;
-    }
+    .contact-form textarea:focus { border-color: #aaa; }
 
     .contact-form input::placeholder,
-    .contact-form textarea::placeholder {
-      color: var(--text-muted);
-    }
+    .contact-form textarea::placeholder { color: var(--text-muted); }
 
     .contact-form textarea {
       resize: vertical;
@@ -700,17 +667,9 @@
 
     .contact-submit:hover  { background: #333; }
     .contact-submit:active { transform: scale(0.98); }
-    .contact-submit:disabled {
-      background: #ccc;
-      cursor: not-allowed;
-    }
+    .contact-submit:disabled { background: #ccc; cursor: not-allowed; }
 
-    .contact-status {
-      margin-top: 12px;
-      font-size: 13px;
-      line-height: 1.5;
-    }
-
+    .contact-status { margin-top: 12px; font-size: 13px; line-height: 1.5; }
     .contact-status.success { color: #2a7a2a; }
     .contact-status.error   { color: #cc0000; }
 
@@ -768,14 +727,14 @@
     <button class="sport-btn" id="sport-hbo" onclick="switchSport('hbo')">
       <span class="sport-icon">📼</span> HBO Max
     </button>
+    <button class="sport-btn" id="sport-prime" onclick="switchSport('prime')">
+      <span class="sport-icon">📦</span> Prime Video
+    </button>
   </div>
 
   <div class="tz-picker" id="tz-picker"></div>
-
   <div class="tz-picker" id="league-filter"></div>
-
   <div class="tabs-wrapper" id="tabs"></div>
-
   <div class="content" id="content"></div>
 
   <div class="about-panel" id="about-panel">
@@ -857,7 +816,7 @@
             <span class="faq-chevron">▼</span>
           </summary>
           <div class="faq-answer">
-            Only newly released content for the current week displays.
+            Only newly released content from the last 30 days displays, updated daily.
           </div>
         </details>
 
