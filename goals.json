@@ -1,23 +1,62 @@
 {
-  "updated": "2026-03-20T21:38:50Z",
+  "updated": "2026-03-20T21:58:41Z",
   "date": "2026-03-20",
   "matches": [
     {
-      "home": "Bournemouth",
-      "away": "Manchester Utd",
+      "home": "Estrela",
+      "away": "Casa Pia",
       "goals": [
         {
-          "postId": "1rz8wz5",
+          "postId": "1rz85l4",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1rz8wz5",
-          "scorer": "James Hill",
-          "minute": 71,
+          "permalink": "https://redd.it/1rz85l4",
+          "scorer": "Rodrigo Pinho penalty",
+          "minute": 11,
           "homeScore": 1,
-          "awayScore": 2,
-          "videoUrl": "https://streamff.link/v/b9da5a10",
-          "videoEmbed": "https://streamff.link/v/b9da5a10",
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/4hyBeI4XcaLR3yR/watch",
+          "videoEmbed": "https://streamain.com/4hyBeI4XcaLR3yR/watch",
           "directMp4": null,
-          "postedAt": 1774042239000
+          "postedAt": 1774040410000
+        },
+        {
+          "postId": "1rz87ky",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rz87ky",
+          "scorer": "Abraham Marcus",
+          "minute": 37,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/uIk6mk9W6oGW99Z/watch",
+          "videoEmbed": "https://streamain.com/uIk6mk9W6oGW99Z/watch",
+          "directMp4": null,
+          "postedAt": 1774040525000
+        },
+        {
+          "postId": "1rz8gqq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rz8gqq",
+          "scorer": "Rodrigo Pinho",
+          "minute": 45,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/ad5DVg7nLpvEtMb/watch",
+          "videoEmbed": "https://streamain.com/ad5DVg7nLpvEtMb/watch",
+          "directMp4": null,
+          "postedAt": 1774041134000
+        },
+        {
+          "postId": "1rz9kbt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rz9kbt",
+          "scorer": "Gueladan Doué",
+          "minute": 76,
+          "homeScore": 4,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/LuDBwSbnGbNPkL6/watch",
+          "videoEmbed": "https://streamain.com/LuDBwSbnGbNPkL6/watch",
+          "directMp4": null,
+          "postedAt": 1774043785000
         }
       ]
     },
@@ -37,6 +76,38 @@
           "videoEmbed": "https://streamain.com/WCO2fsMCOhAT6K3/watch",
           "directMp4": null,
           "postedAt": 1774041819000
+        },
+        {
+          "postId": "1rz998a",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rz998a",
+          "scorer": "Keinan Davis",
+          "minute": 90,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/QqgBKcqQYBA0P80/watch",
+          "videoEmbed": "https://streamain.com/QqgBKcqQYBA0P80/watch",
+          "directMp4": null,
+          "postedAt": 1774043047000
+        }
+      ]
+    },
+    {
+      "home": "Bournemouth",
+      "away": "Manchester Utd",
+      "goals": [
+        {
+          "postId": "1rz8wz5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rz8wz5",
+          "scorer": "James Hill",
+          "minute": 71,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamff.link/v/b9da5a10",
+          "videoEmbed": "https://streamff.link/v/b9da5a10",
+          "directMp4": null,
+          "postedAt": 1774042239000
         }
       ]
     },
@@ -269,51 +340,6 @@
           "videoEmbed": "https://streamain.com/icarnrZGCqjGx1c/watch",
           "directMp4": null,
           "postedAt": 1774041280000
-        }
-      ]
-    },
-    {
-      "home": "Estrela",
-      "away": "Casa Pia",
-      "goals": [
-        {
-          "postId": "1rz85l4",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rz85l4",
-          "scorer": "Rodrigo Pinho penalty",
-          "minute": 11,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamain.com/4hyBeI4XcaLR3yR/watch",
-          "videoEmbed": "https://streamain.com/4hyBeI4XcaLR3yR/watch",
-          "directMp4": null,
-          "postedAt": 1774040410000
-        },
-        {
-          "postId": "1rz87ky",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rz87ky",
-          "scorer": "Abraham Marcus",
-          "minute": 37,
-          "homeScore": 2,
-          "awayScore": 0,
-          "videoUrl": "https://streamain.com/uIk6mk9W6oGW99Z/watch",
-          "videoEmbed": "https://streamain.com/uIk6mk9W6oGW99Z/watch",
-          "directMp4": null,
-          "postedAt": 1774040525000
-        },
-        {
-          "postId": "1rz8gqq",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rz8gqq",
-          "scorer": "Rodrigo Pinho",
-          "minute": 45,
-          "homeScore": 3,
-          "awayScore": 0,
-          "videoUrl": "https://streamain.com/ad5DVg7nLpvEtMb/watch",
-          "videoEmbed": "https://streamain.com/ad5DVg7nLpvEtMb/watch",
-          "directMp4": null,
-          "postedAt": 1774041134000
         }
       ]
     },
@@ -649,19 +675,6 @@
       "home": "Piast Gliwice",
       "away": "Radomiak Radom",
       "goals": [
-        {
-          "postId": "1rz3t67",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rz3t67",
-          "scorer": "Filip Majchrowicz penalty save",
-          "minute": 52,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/310afygar8qg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/310afygar8qg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1774030450000
-        },
         {
           "postId": "1rz3zxm",
           "subreddit": "soccer",
