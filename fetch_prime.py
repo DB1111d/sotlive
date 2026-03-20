@@ -38,7 +38,7 @@ def api_request(path: str, params: dict) -> dict:
         return json.loads(resp.read().decode("utf-8"))
 
 
-def fetch_changes(from_ts: int, to_ts: int) -> dict:
+def fetch_changes(change_type: str, from_ts: int, to_ts: int) -> dict:
     if not API_KEY:
         print("ERROR: RAPIDAPI_KEY environment variable not set.")
         return {}
@@ -50,7 +50,7 @@ def fetch_changes(from_ts: int, to_ts: int) -> dict:
         params = {
             "country":         "us",
             "catalogs":        "prime",
-            "change_type":     "new",
+            "change_type":     change_type,
             "item_type":       "show",
             "order_direction": "desc",
             "from":            from_ts,
@@ -62,14 +62,14 @@ def fetch_changes(from_ts: int, to_ts: int) -> dict:
         try:
             data = api_request("/changes", params)
         except urllib.error.HTTPError as e:
-            print(f"  HTTP error: {e.code} {e.reason}")
+            print(f"  HTTP error ({change_type}): {e.code} {e.reason}")
             try:
                 print(f"  Body: {e.read().decode('utf-8')[:500]}")
             except Exception:
                 pass
             break
         except Exception as e:
-            print(f"  API error: {e} — retrying in 10s...")
+            print(f"  API error ({change_type}): {e} — retrying in 10s...")
             import time
             time.sleep(10)
             try:
@@ -83,7 +83,7 @@ def fetch_changes(from_ts: int, to_ts: int) -> dict:
         has_more = data.get("hasMore", False)
         cursor   = data.get("nextCursor", None)
 
-        print(f"  [prime/new] got {len(changes)} changes (hasMore={has_more})")
+        print(f"  [prime/{change_type}] got {len(changes)} changes (hasMore={has_more})")
 
         for change in changes:
             show_id = change.get("showId")
@@ -162,9 +162,23 @@ def main():
     from_ts = int(thirty_days_ago.replace(hour=0, minute=0, second=0, microsecond=0).timestamp())
     to_ts   = int(today.replace(hour=23, minute=59, second=59, microsecond=0).timestamp())
 
-    print("Fetching new releases...")
-    matched = fetch_changes(from_ts, to_ts)
-    print(f"  Total new: {len(matched)}")
+    print("Pass 1: fetching new releases...")
+    new_shows = fetch_changes("new", from_ts, to_ts)
+    print(f"  Total new: {len(new_shows)}")
+
+    today_ts = int(today.replace(hour=0, minute=0, second=0, microsecond=0).timestamp())
+    upcoming_from = max(from_ts, today_ts)
+    print("Pass 2: fetching upcoming announcements...")
+    upcoming_shows = fetch_changes("upcoming", upcoming_from, to_ts)
+    print(f"  Total upcoming: {len(upcoming_shows)}")
+
+    announced_ids = set(upcoming_shows.keys())
+    matched = {sid: entry for sid, entry in new_shows.items() if sid in announced_ids}
+    print(f"  Matched (in both): {len(matched)}")
+
+    if not matched and new_shows:
+        print("  No upcoming matches — falling back to new releases only")
+        matched = new_shows
 
     shows = [build_show(sid, entry) for sid, entry in matched.items()]
 
