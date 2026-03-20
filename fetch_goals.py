@@ -11,7 +11,8 @@ from datetime import datetime, timezone
 
 SUBREDDIT   = "soccer"
 VIDEO_HOSTS = {"streamff.link", "streamff.com", "streamable.com",
-               "youtu.be", "youtube.com", "v.redd.it", "streamain.com"}
+               "youtu.be", "youtube.com", "v.redd.it", "streamain.com",
+               "streamin.link", "streamin.top", "streamin.me"}
 
 HEADERS = {
     "User-Agent": "sotlive-goalfeed/1.0",
@@ -46,10 +47,9 @@ def clean_team(name):
     return name.strip()
 
 def clean_scorer(scorer):
-    # Strip trailing descriptors like "great goal", "penalty", "own goal" qualifiers after name
-    # Keep "penalty" and "own goal" as they're meaningful but strip things like "great goal"
     scorer = re.sub(r'\s*\|.*$', '', scorer)  # strip pipe and after
     scorer = re.sub(r'\bgreat goal\b', '', scorer, flags=re.IGNORECASE)
+    scorer = re.sub(r'\s*\([^)]*\)\s*$', '', scorer)  # strip trailing (league name) etc
     return scorer.strip()
 
 def parse_title(title):
@@ -104,6 +104,9 @@ def build_embed(url, post_id):
             v = urllib.parse.parse_qs(u.query).get("v", [vid_id])[0]
             return f"https://www.youtube.com/embed/{v}"
         if host == "streamain.com":  return url  # direct link, no embed
+        if host == "streamin.link":  return f"https://streamin.link/v/{vid_id}"
+        if host == "streamin.top":   return f"https://streamin.top/v/{vid_id}"
+        if host == "streamin.me":    return f"https://streamin.me/v/{vid_id}"
     except Exception:
         pass
     return None

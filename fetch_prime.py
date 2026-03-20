@@ -49,7 +49,7 @@ def fetch_changes(change_type: str, from_ts: int, to_ts: int) -> dict:
     while True:
         params = {
             "country":         "us",
-            "catalogs":        "prime",
+            "catalogs":        "prime.subscription",
             "change_type":     change_type,
             "item_type":       "show",
             "order_direction": "desc",
