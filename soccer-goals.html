@@ -349,24 +349,28 @@
     .state-msg .big {
       font-size: 2.2rem;
     }
+
+    /* Clip Streamain's internal header bar on mobile */
+    .video-wrap iframe {
+      height: 115%;
+      margin-top: -15%;
+    }
   }
 </style>
 </head>
 <body>
 
 <header>
-  <a href="index.html" style="display:flex;align-items:center;gap:6px;text-decoration:none;color:var(--text);font-family:var(--body);font-size:0.9rem;font-weight:500;">
-    ← <span style="font-size:1.1rem;">📺</span> SOTLive
+  <a href="index.html" style="display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--text);line-height:1;">
+    <span style="font-family:var(--body);font-size:1.3rem;font-weight:500;">← 📺 SOTLive</span>
   </a>
-  <div class="logo">🥅 GOAL<span>FEED</span></div>
-  <div class="status-bar">
-    <div class="live-dot" id="dot"></div>
-    <span id="status-text">Connecting...</span>
-  </div>
+  <div id="last-updated" style="font-family:var(--mono);font-size:0.68rem;color:var(--muted);letter-spacing:0.05em;"></div>
 </header>
 
 <main>
-  <div id="last-updated"></div>
+  <div style="text-align:center;margin-bottom:16px;margin-top:10px;">
+    <span style="font-family:var(--display);font-size:3.2rem;letter-spacing:0.05em;color:var(--accent);"><span style="font-size:3.8rem;">🥅</span> GOAL<span style="color:var(--text);">FEED</span></span>
+  </div>
   <div id="feed-container">
     <div class="state-msg">
       <div class="big">⚽</div>
@@ -397,13 +401,11 @@ async function fetchGoals() {
     }
 
     render();
-    setStatus('ok', 'Live');
     const updated = data.updated
       ? new Date(data.updated).toLocaleTimeString()
       : new Date().toLocaleTimeString();
     document.getElementById('last-updated').textContent = `LAST UPDATED  ${updated}`;
   } catch (err) {
-    setStatus('error', `Error: ${err.message}`);
     console.error(err);
   }
 }
