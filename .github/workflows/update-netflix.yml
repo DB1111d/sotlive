@@ -24,6 +24,6 @@ jobs:
           git stash
           git pull --rebase
           git stash pop
-          git add netflix.json hbo.json
+          git add netflix.json hbo.json prime.json
           git diff --cached --quiet || git commit -m "chore: update netflix + hbo releases $(date -u +'%Y-%m-%d')"
           git push
