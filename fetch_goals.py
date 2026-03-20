@@ -104,9 +104,9 @@ def build_embed(url, post_id):
             v = urllib.parse.parse_qs(u.query).get("v", [vid_id])[0]
             return f"https://www.youtube.com/embed/{v}"
         if host == "streamain.com":  return url  # direct link, no embed
-        if host == "streamin.link":  return f"https://streamin.link/v/{vid_id}"
-        if host == "streamin.top":   return f"https://streamin.top/v/{vid_id}"
-        if host == "streamin.me":    return f"https://streamin.me/v/{vid_id}"
+        if host == "streamin.link":  return None  # blocks iframes, use link fallback
+        if host == "streamin.top":   return None  # blocks iframes, use link fallback
+        if host == "streamin.me":    return None  # blocks iframes, use link fallback
     except Exception:
         pass
     return None

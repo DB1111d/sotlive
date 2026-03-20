@@ -1,196 +1,139 @@
 """
 fetch_prime.py
-Fetches Prime Video US new releases for the current calendar month.
+Fetches Prime Video US new original releases using Amazon's official press API.
+No RapidAPI needed — completely free with no quota limits.
+
+Source: https://press.amazonmgmstudios.com/api/whatson/get-whatson-schedules/{month-year}
+Only fetches "Original" schedule type to avoid bulk library re-uploads.
+Covers the last 30 days (current month + previous month if needed).
 Writes output to prime.json grouped by type, sorted newest first.
-Runs as part of the Netflix GitHub Actions job (combined to save API quota).
+Runs as part of the Netflix GitHub Actions job.
 """
 
 import json
-import os
+import re
 import urllib.request
-import urllib.parse
 import urllib.error
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 TIMEZONE = ZoneInfo("America/New_York")
-API_HOST = "streaming-availability.p.rapidapi.com"
-API_KEY  = os.environ.get("RAPIDAPI_KEY", "")
+API_BASE = "https://press.amazonmgmstudios.com/api/whatson/get-whatson-schedules"
 
-TYPE_ORDER = ["series", "movie", "documentary", "short_film", "special"]
-TYPE_LABELS = {
-    "series":      "TV Series",
-    "movie":       "Movies",
-    "documentary": "Documentaries",
-    "short_film":  "Short Films",
-    "special":     "Specials",
+INCLUDE_TYPES = {"Original"}
+
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (compatible; SOTLive/1.0)",
+    "Accept": "application/json",
 }
 
 
-def api_request(path: str, params: dict) -> dict:
-    query = "&".join(f"{k}={urllib.parse.quote(str(v))}" for k, v in params.items())
-    url   = f"https://{API_HOST}{path}?{query}"
-    req   = urllib.request.Request(url, headers={
-        "x-rapidapi-host": API_HOST,
-        "x-rapidapi-key":  API_KEY,
-    })
-    with urllib.request.urlopen(req, timeout=1000) as resp:
-        return json.loads(resp.read().decode("utf-8"))
+def month_slug(year: int, month: int) -> str:
+    return datetime(year, month, 1).strftime("%B-%Y").lower()
 
 
-def fetch_changes(from_ts: int, to_ts: int) -> dict:
-    if not API_KEY:
-        print("ERROR: RAPIDAPI_KEY environment variable not set.")
-        return {}
-
-    results = {}
-    cursor  = None
-
-    while True:
-        params = {
-            "country":         "us",
-            "catalogs":        "prime.subscription",
-            "change_type":     "new",
-            "item_type":       "show",
-            "order_direction": "desc",
-            "from":            from_ts,
-            "to":              to_ts,
-        }
-        if cursor:
-            params["cursor"] = cursor
-
-        try:
-            data = api_request("/changes", params)
-        except urllib.error.HTTPError as e:
-            print(f"  HTTP error: {e.code} {e.reason}")
-            try:
-                print(f"  Body: {e.read().decode('utf-8')[:500]}")
-            except Exception:
-                pass
-            break
-        except Exception as e:
-            print(f"  API error: {e} — retrying in 10s...")
-            import time
-            time.sleep(10)
-            try:
-                data = api_request("/changes", params)
-            except Exception as e2:
-                print(f"  Retry failed: {e2} — stopping.")
-                break
-
-        changes  = data.get("changes", [])
-        shows    = data.get("shows", {})
-        has_more = data.get("hasMore", False)
-        cursor   = data.get("nextCursor", None)
-
-        print(f"  [prime/new] got {len(changes)} changes (hasMore={has_more})")
-
-        for change in changes:
-            show_id = change.get("showId")
-            if not show_id or show_id in results:
-                continue
-
-            show = shows.get(str(show_id), {})
-            if not show:
-                continue
-
-            added_ts = change.get("timestamp", 0)
-
-            link = change.get("link", "") or ""
-            if not link:
-                streaming_options = show.get("streamingOptions", {}).get("us", [])
-                prime_option = next(
-                    (s for s in streaming_options
-                     if isinstance(s, dict) and s.get("service", {}).get("id") == "prime"),
-                    None
-                )
-                if prime_option:
-                    link = prime_option.get("link", "")
-
-            results[show_id] = {
-                "show":     show,
-                "added_ts": added_ts,
-                "link":     link,
-            }
-
-        if not has_more or not cursor:
-            break
-
-    return results
+def fetch_month(year: int, month: int) -> list:
+    slug = month_slug(year, month)
+    url  = f"{API_BASE}/{slug}"
+    req  = urllib.request.Request(url, headers=HEADERS)
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+            print(f"  [{slug}] got {len(data)} entries")
+            return data
+    except urllib.error.HTTPError as e:
+        print(f"  HTTP error [{slug}]: {e.code} {e.reason}")
+        return []
+    except Exception as e:
+        print(f"  Error [{slug}]: {e}")
+        return []
 
 
-def build_show(show_id: str, entry: dict) -> dict:
-    show     = entry["show"]
-    added_ts = entry["added_ts"]
-
-    show_type  = show.get("showType", "movie").lower()
-    title      = show.get("title", "Unknown")
-    overview   = show.get("overview", "")
-    genres     = [g.get("name", "") for g in show.get("genres", [])]
-    added_date = datetime.fromtimestamp(added_ts, tz=TIMEZONE).strftime("%B %-d") if added_ts else ""
-    rating     = show.get("rating", None)
-    link       = entry["link"]
-
-    # Filter out old library content — only keep titles released in 2024 or newer
-    release_year = show.get("releaseYear", 0) or 0
-    if release_year and release_year < 2024:
+def parse_date(date_str: str):
+    try:
+        return datetime.fromisoformat(date_str).replace(tzinfo=TIMEZONE)
+    except Exception:
         return None
-
-    image_set = show.get("imageSet", {})
-    thumbnail = (
-        image_set.get("verticalPoster", {}).get("w240")
-        or image_set.get("verticalPoster", {}).get("w360")
-        or image_set.get("horizontalPoster", {}).get("w360")
-        or image_set.get("horizontalPoster", {}).get("w480")
-        or ""
-    )
-
-    return {
-        "type":       show_type,
-        "title":      title,
-        "overview":   overview,
-        "genres":     genres,
-        "added_date": added_date,
-        "added_ts":   added_ts,
-        "link":       link,
-        "thumbnail":  thumbnail,
-        "rating":     rating,
-    }
 
 
 def main():
     today = datetime.now(TIMEZONE)
     thirty_days_ago = today - timedelta(days=30)
-    label = f"{thirty_days_ago.strftime('%B %-d')} – {today.strftime('%B %-d, %Y')}"
-    print(f"Fetching Prime Video releases for: {label}")
+    label = f"{thirty_days_ago.strftime('%B %-d')} \u2013 {today.strftime('%B %-d, %Y')}"
+    print(f"Fetching Prime Video originals for: {label}")
 
-    from_ts = int(thirty_days_ago.replace(hour=0, minute=0, second=0, microsecond=0).timestamp())
-    to_ts   = int(today.replace(hour=23, minute=59, second=59, microsecond=0).timestamp())
+    months_to_fetch = [(today.year, today.month)]
+    if (thirty_days_ago.month != today.month or thirty_days_ago.year != today.year):
+        months_to_fetch.insert(0, (thirty_days_ago.year, thirty_days_ago.month))
 
-    print("Fetching new releases...")
-    matched = fetch_changes(from_ts, to_ts)
-    print(f"  Total new: {len(matched)}")
+    all_entries = []
+    for year, month in months_to_fetch:
+        entries = fetch_month(year, month)
+        all_entries.extend(entries)
 
-    shows = [build_show(sid, entry) for sid, entry in matched.items()]
-    shows = [s for s in shows if s is not None]
+    print(f"  Total entries fetched: {len(all_entries)}")
+
+    cutoff_ts = thirty_days_ago.replace(hour=0, minute=0, second=0, microsecond=0).timestamp()
+    end_ts    = today.replace(hour=23, minute=59, second=59, microsecond=0).timestamp()
+
+    seen_titles = set()
+    shows = []
+
+    for entry in all_entries:
+        if entry.get("scheduleTypeText") not in INCLUDE_TYPES:
+            continue
+        if not entry.get("isActive", True):
+            continue
+
+        dt = parse_date(entry.get("date", ""))
+        if not dt:
+            continue
+
+        ts = dt.timestamp()
+        if ts < cutoff_ts or ts > end_ts:
+            continue
+
+        title = entry.get("show", "").strip()
+        if not title or title in seen_titles:
+            continue
+        seen_titles.add(title)
+
+        clean_title = re.sub(r'\s*\(\d{4}\)\s*$', '', title).strip()
+        season = entry.get("season") or ""
+        link   = entry.get("showUrl") or ""
+
+        shows.append({
+            "type":       "series" if season else "movie",
+            "title":      clean_title,
+            "overview":   "",
+            "genres":     [],
+            "added_date": dt.strftime("%B %-d"),
+            "added_ts":   int(ts),
+            "link":       link,
+            "thumbnail":  "",
+            "rating":     None,
+            "season":     season,
+        })
+
+    shows.sort(key=lambda s: s["added_ts"], reverse=True)
+    print(f"  Originals in window: {len(shows)}")
 
     grouped = {}
     for show in shows:
         t = show["type"]
         grouped.setdefault(t, []).append(show)
 
-    for t in grouped:
-        grouped[t].sort(key=lambda s: s["added_ts"], reverse=True)
+    TYPE_ORDER  = ["series", "movie"]
+    TYPE_LABELS = {"series": "TV Series", "movie": "Movies"}
 
     ordered_groups = {}
     for t in TYPE_ORDER:
-        label_key = TYPE_LABELS.get(t, t.title())
         if t in grouped:
-            ordered_groups[label_key] = grouped[t]
+            ordered_groups[TYPE_LABELS[t]] = grouped[t]
     for t, items in grouped.items():
-        label_key = TYPE_LABELS.get(t, t.title())
-        if label_key not in ordered_groups:
-            ordered_groups[label_key] = items
+        lbl = TYPE_LABELS.get(t, t.title())
+        if lbl not in ordered_groups:
+            ordered_groups[lbl] = items
 
     output = {
         "updated":    today.strftime("%Y-%m-%d %H:%M %Z"),
@@ -202,7 +145,7 @@ def main():
         json.dump(output, f, indent=2)
 
     total = sum(len(v) for v in ordered_groups.values())
-    print(f"Done! {total} releases written to prime.json")
+    print(f"Done! {total} originals written to prime.json")
 
 
 if __name__ == "__main__":
