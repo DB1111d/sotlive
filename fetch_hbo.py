@@ -45,7 +45,8 @@ def week_bounds():
 
 
 def week_label(sunday, saturday):
-    return f"Week of {sunday.strftime('%B %-d')} \u2013 {saturday.strftime('%B %-d')}"
+    today = datetime.now(TIMEZONE)
+    return today.strftime("%B %Y")
 
 
 def api_request(path: str, params: dict) -> dict:
@@ -184,12 +185,17 @@ def main():
     label = week_label(sunday, saturday)
     print(f"Fetching HBO Max releases for: {label}")
 
-    week_from_ts = int(datetime(sunday.year, sunday.month, sunday.day,
-                                tzinfo=TIMEZONE).timestamp())
-    week_to_ts   = int(datetime(saturday.year, saturday.month, saturday.day,
-                                23, 59, 59, tzinfo=TIMEZONE).timestamp())
-    today_ts     = int(datetime.now(TIMEZONE).replace(
-                       hour=0, minute=0, second=0, microsecond=0).timestamp())
+    today = datetime.now(TIMEZONE)
+    month_start = today.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
+    if today.month == 12:
+        month_end = today.replace(year=today.year + 1, month=1, day=1, hour=0, minute=0, second=0, microsecond=0)
+    else:
+        month_end = today.replace(month=today.month + 1, day=1, hour=0, minute=0, second=0, microsecond=0)
+    month_end = month_end.replace(tzinfo=TIMEZONE) - timedelta(seconds=1)
+
+    week_from_ts = int(month_start.replace(tzinfo=TIMEZONE).timestamp())
+    week_to_ts   = int(month_end.timestamp())
+    today_ts     = int(today.replace(hour=0, minute=0, second=0, microsecond=0).timestamp())
 
     # ── Pass 1: what actually appeared as new this week ──────────────────────
     # "hbo" is the correct catalog ID — "max" is not recognized by this API.

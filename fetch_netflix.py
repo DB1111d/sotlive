@@ -45,7 +45,8 @@ def week_bounds():
 
 
 def week_label(sunday, saturday):
-    return f"Week of {sunday.strftime('%B %-d')} \u2013 {saturday.strftime('%B %-d')}"
+    today = datetime.now(TIMEZONE)
+    return today.strftime("%B %Y")
 
 
 def api_request(path: str, params: dict) -> dict:
@@ -184,22 +185,41 @@ def main():
     label = week_label(sunday, saturday)
     print(f"Fetching Netflix releases for: {label}")
 
-    week_from_ts = int(datetime(sunday.year, sunday.month, sunday.day,
-                                tzinfo=TIMEZONE).timestamp())
-    week_to_ts   = int(datetime(saturday.year, saturday.month, saturday.day,
-                                23, 59, 59, tzinfo=TIMEZONE).timestamp())
-    today_ts     = int(datetime.now(TIMEZONE).replace(
-                       hour=0, minute=0, second=0, microsecond=0).timestamp())
+    today = datetime.now(TIMEZONE)
+    month_start = today.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
+    # Last second of the last day of the current month
+    if today.month == 12:
+        month_end = today.replace(year=today.year + 1, month=1, day=1, hour=0, minute=0, second=0, microsecond=0)
+    else:
+        month_end = today.replace(month=today.month + 1, day=1, hour=0, minute=0, second=0, microsecond=0)
+    month_end = month_end.replace(tzinfo=TIMEZONE) - timedelta(seconds=1)
+
+    week_from_ts = int(month_start.replace(tzinfo=TIMEZONE).timestamp())
+    week_to_ts   = int(month_end.timestamp())
+    today_ts     = int(today.replace(hour=0, minute=0, second=0, microsecond=0).timestamp())
 
     # ── Pass 1: what actually appeared as new this week ──────────────────────
     print("Pass 1: fetching new releases...")
     new_shows = fetch_changes("new", week_from_ts, week_to_ts)
     print(f"  Total new: {len(new_shows)}")
 
-    # Skip the upcoming/intersection filter — it's too aggressive and removes
-    # genuine new releases. Use new releases directly.
-    matched = new_shows
-    print(f"  Using all new releases: {len(matched)}")
+    # ── Pass 2: what Netflix announced as upcoming this week ─────────────────
+    # upcoming can only query today → future, so clamp from_ts to today
+    upcoming_from = max(week_from_ts, today_ts)
+    print("Pass 2: fetching upcoming announcements...")
+    upcoming_shows = fetch_changes("upcoming", upcoming_from, week_to_ts)
+    print(f"  Total upcoming: {len(upcoming_shows)}")
+
+    # ── Intersect: keep only shows in both lists ──────────────────────────────
+    announced_ids = set(upcoming_shows.keys())
+    matched = {sid: entry for sid, entry in new_shows.items() if sid in announced_ids}
+    print(f"  Matched (in both): {len(matched)}")
+
+    # If upcoming returns nothing (e.g. early in the week before announcements),
+    # fall back to new_shows only so the page isn't empty
+    if not matched and new_shows:
+        print("  No upcoming matches found — falling back to new_shows only")
+        matched = new_shows
 
     # ── Build show records ────────────────────────────────────────────────────
     shows = [build_show(sid, entry) for sid, entry in matched.items()]
