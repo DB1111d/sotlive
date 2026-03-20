@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-20T23:01:48Z",
+  "updated": "2026-03-20T23:43:31Z",
   "date": "2026-03-20",
   "matches": [
     {
@@ -406,19 +406,6 @@
       "away": "Le Mans",
       "goals": [
         {
-          "postId": "1rz5evi",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rz5evi",
-          "scorer": "Samuel Yohou",
-          "minute": 13,
-          "homeScore": 0,
-          "awayScore": 2,
-          "videoUrl": "https://streamain.com/BogkBy1JPpEnFZt/watch",
-          "videoEmbed": "https://streamain.com/BogkBy1JPpEnFZt/watch",
-          "directMp4": null,
-          "postedAt": 1774034094000
-        },
-        {
           "postId": "1rz5stw",
           "subreddit": "soccer",
           "permalink": "https://redd.it/1rz5stw",
@@ -489,19 +476,6 @@
       "home": "Laval",
       "away": "Grenoble",
       "goals": [
-        {
-          "postId": "1rz5fkt",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rz5fkt",
-          "scorer": "Jessy Benet",
-          "minute": 13,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamain.com/0FEf0dd3Evh9L0b/watch",
-          "videoEmbed": "https://streamain.com/0FEf0dd3Evh9L0b/watch",
-          "directMp4": null,
-          "postedAt": 1774034139000
-        },
         {
           "postId": "1rz7d3y",
           "subreddit": "soccer",
