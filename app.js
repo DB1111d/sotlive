@@ -459,11 +459,12 @@ async function switchSport(sport) {
   hideLeagueFilter();
   resetLeagueFilter();
 
-  // Netflix is a completely different layout — no day tabs
-  if (sport === 'netflix') {
+  // Netflix and HBO Max share the same tile layout — no day tabs
+  if (sport === 'netflix' || sport === 'hbo') {
+    const jsonFile = sport === 'hbo' ? 'hbo.json' : 'netflix.json';
     let data;
     try {
-      const res = await fetch('netflix.json?v=' + Math.floor(Date.now() / 3600000));
+      const res = await fetch(jsonFile + '?v=' + Math.floor(Date.now() / 3600000));
       data = await res.json();
     } catch (e) {
       contentEl.innerHTML =
@@ -553,7 +554,7 @@ async function switchSport(sport) {
     // Build panel shells — only first page of cards rendered immediately
     const netflixPanels = {};
     groupNames.forEach((groupName, idx) => {
-      const panelId = `panel-netflix-${groupName.replace(/\s+/g, '-').toLowerCase()}`;
+      const panelId = `panel-${sport}-${groupName.replace(/\s+/g, '-').toLowerCase()}`;
       const shows = groups[groupName];
 
       const panel = document.createElement('div');
@@ -606,7 +607,7 @@ async function switchSport(sport) {
 
     let firstTab = true;
     groupNames.forEach(groupName => {
-      const panelId = `panel-netflix-${groupName.replace(/\s+/g, '-').toLowerCase()}`;
+      const panelId = `panel-${sport}-${groupName.replace(/\s+/g, '-').toLowerCase()}`;
       const btn = document.createElement('button');
       btn.className = 'tab' + (firstTab ? ' active' : '');
       btn.dataset.netflixCategory = panelId;

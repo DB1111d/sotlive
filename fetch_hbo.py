@@ -1,14 +1,14 @@
 """
-fetch_netflix.py
-Fetches Netflix US new releases for the current Sunday–Saturday week.
-Uses a two-pass approach to eliminate bulk re-upload noise:
+fetch_hbo.py
+Fetches HBO Max (Max) US new releases for the current Sunday–Saturday week.
+Uses the same two-pass approach as fetch_netflix.py:
   1. Fetch change_type=new  for the full week (what actually appeared)
-  2. Fetch change_type=upcoming for the full week (what Netflix announced)
+  2. Fetch change_type=upcoming for the full week (what Max announced)
   3. Keep only shows that appear in BOTH lists
 Bulk catalogue re-uploads are never announced as upcoming, so they
 are automatically filtered out. Genuine new releases are in both.
-Writes output to netflix.json grouped by type, sorted newest first.
-Runs once daily via GitHub Actions.
+Writes output to hbo.json grouped by type, sorted newest first.
+Runs as part of the Netflix GitHub Actions job (combined to save API quota).
 """
 
 import json
@@ -76,7 +76,7 @@ def fetch_changes(change_type: str, from_ts: int, to_ts: int) -> dict:
     while True:
         params = {
             "country":         "us",
-            "catalogs":        "netflix",
+            "catalogs":        "hbo",
             "change_type":     change_type,
             "item_type":       "show",
             "order_direction": "desc",
@@ -104,7 +104,7 @@ def fetch_changes(change_type: str, from_ts: int, to_ts: int) -> dict:
         has_more = data.get("hasMore", False)
         cursor   = data.get("nextCursor", None)
 
-        print(f"  [{change_type}] got {len(changes)} changes (hasMore={has_more})")
+        print(f"  [hbo/{change_type}] got {len(changes)} changes (hasMore={has_more})")
 
         for change in changes:
             show_id = change.get("showId")
@@ -117,17 +117,16 @@ def fetch_changes(change_type: str, from_ts: int, to_ts: int) -> dict:
 
             added_ts = change.get("timestamp", 0)
 
-            # Prefer the deep link from the change object (guaranteed for upcoming)
             link = change.get("link", "") or ""
             if not link:
                 streaming_options = show.get("streamingOptions", {}).get("us", [])
-                netflix_option = next(
+                hbo_option = next(
                     (s for s in streaming_options
-                     if isinstance(s, dict) and s.get("service", {}).get("id") == "netflix"),
+                     if isinstance(s, dict) and s.get("service", {}).get("id") in ("hbo", "max")),
                     None
                 )
-                if netflix_option:
-                    link = netflix_option.get("link", "")
+                if hbo_option:
+                    link = hbo_option.get("link", "")
 
             results[show_id] = {
                 "show":     show,
@@ -182,7 +181,7 @@ def build_show(show_id: str, entry: dict) -> dict:
 def main():
     sunday, saturday = week_bounds()
     label = week_label(sunday, saturday)
-    print(f"Fetching Netflix releases for: {label}")
+    print(f"Fetching HBO Max releases for: {label}")
 
     week_from_ts = int(datetime(sunday.year, sunday.month, sunday.day,
                                 tzinfo=TIMEZONE).timestamp())
@@ -196,8 +195,7 @@ def main():
     new_shows = fetch_changes("new", week_from_ts, week_to_ts)
     print(f"  Total new: {len(new_shows)}")
 
-    # ── Pass 2: what Netflix announced as upcoming this week ─────────────────
-    # upcoming can only query today → future, so clamp from_ts to today
+    # ── Pass 2: what Max announced as upcoming this week ─────────────────────
     upcoming_from = max(week_from_ts, today_ts)
     print("Pass 2: fetching upcoming announcements...")
     upcoming_shows = fetch_changes("upcoming", upcoming_from, week_to_ts)
@@ -208,8 +206,6 @@ def main():
     matched = {sid: entry for sid, entry in new_shows.items() if sid in announced_ids}
     print(f"  Matched (in both): {len(matched)}")
 
-    # If upcoming returns nothing (e.g. early in the week before announcements),
-    # fall back to new_shows only so the page isn't empty
     if not matched and new_shows:
         print("  No upcoming matches found — falling back to new_shows only")
         matched = new_shows
@@ -223,11 +219,9 @@ def main():
         t = show["type"]
         grouped.setdefault(t, []).append(show)
 
-    # Sort each group newest first
     for t in grouped:
         grouped[t].sort(key=lambda s: s["added_ts"], reverse=True)
 
-    # Order groups by TYPE_ORDER
     ordered_groups = {}
     for t in TYPE_ORDER:
         label_key = TYPE_LABELS.get(t, t.title())
@@ -244,17 +238,12 @@ def main():
         "groups":     ordered_groups,
     }
 
-    with open("netflix.json", "w") as f:
+    with open("hbo.json", "w") as f:
         json.dump(output, f, indent=2)
 
     total = sum(len(v) for v in ordered_groups.values())
-    print(f"Done! {total} releases written to netflix.json")
+    print(f"Done! {total} releases written to hbo.json")
 
 
 if __name__ == "__main__":
     main()
-    # Also fetch HBO Max in the same run to share the GitHub Actions job
-    # and conserve free-tier API quota (both use the same RAPIDAPI_KEY).
-    print("\n--- Running HBO Max fetch ---")
-    import fetch_hbo
-    fetch_hbo.main()
