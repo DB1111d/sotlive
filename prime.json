@@ -1,5 +1,190 @@
 {
-  "updated": "2026-03-20 15:21 EDT",
+  "updated": "2026-03-20 15:34 EDT",
   "week_label": "February 18 \u2013 March 20, 2026",
-  "groups": {}
+  "groups": {
+    "TV Series": [
+      {
+        "type": "series",
+        "title": "Deadloch",
+        "overview": "",
+        "genres": [],
+        "added_date": "March 20",
+        "added_ts": 1773979200,
+        "link": "https://press.amazonmgmstudios.com/us/en/original-series/deadloch/2",
+        "thumbnail": "",
+        "rating": null,
+        "season": "Season 2"
+      },
+      {
+        "type": "series",
+        "title": "Last One Laughing",
+        "overview": "",
+        "genres": [],
+        "added_date": "March 19",
+        "added_ts": 1773892800,
+        "link": "https://press.amazonmgmstudios.com/us/en/original-series/lol-last-one-laughing-uk/2",
+        "thumbnail": "",
+        "rating": null,
+        "season": "Season 2"
+      },
+      {
+        "type": "series",
+        "title": "Invincible",
+        "overview": "",
+        "genres": [],
+        "added_date": "March 18",
+        "added_ts": 1773806400,
+        "link": "https://press.amazonmgmstudios.com/us/en/original-series/invincible/4",
+        "thumbnail": "",
+        "rating": null,
+        "season": "Season 4"
+      },
+      {
+        "type": "series",
+        "title": "Tribunal Justice",
+        "overview": "",
+        "genres": [],
+        "added_date": "March 2",
+        "added_ts": 1772427600,
+        "link": "https://press.amazonmgmstudios.com/us/en/original-series/tribunal-justice-1/3",
+        "thumbnail": "",
+        "rating": null,
+        "season": "Season 3"
+      }
+    ],
+    "Movies": [
+      {
+        "type": "movie",
+        "title": "Jury Duty Presents: Company Retreat",
+        "overview": "",
+        "genres": [],
+        "added_date": "March 20",
+        "added_ts": 1773979200,
+        "link": "https://press.amazonmgmstudios.com/us/en/original-series/jury-duty-1/2",
+        "thumbnail": "",
+        "rating": null,
+        "season": ""
+      },
+      {
+        "type": "movie",
+        "title": "Zeta",
+        "overview": "",
+        "genres": [],
+        "added_date": "March 20",
+        "added_ts": 1773979200,
+        "link": "https://press.amazonmgmstudios.com/es/es/original-movies/zeta",
+        "thumbnail": "",
+        "rating": null,
+        "season": ""
+      },
+      {
+        "type": "movie",
+        "title": "Meal Ticket",
+        "overview": "",
+        "genres": [],
+        "added_date": "March 19",
+        "added_ts": 1773892800,
+        "link": "https://press.amazonmgmstudios.com/us/en/sports/meal-ticket",
+        "thumbnail": "",
+        "rating": null,
+        "season": ""
+      },
+      {
+        "type": "movie",
+        "title": "The Silent Service Season Two: The Battle of Arctic Ocean",
+        "overview": "",
+        "genres": [],
+        "added_date": "March 19",
+        "added_ts": 1773892800,
+        "link": "",
+        "thumbnail": "",
+        "rating": null,
+        "season": ""
+      },
+      {
+        "type": "movie",
+        "title": "Scarpetta",
+        "overview": "",
+        "genres": [],
+        "added_date": "March 11",
+        "added_ts": 1773201600,
+        "link": "https://press.amazonmgmstudios.com/us/en/original-series/scarpetta/1",
+        "thumbnail": "",
+        "rating": null,
+        "season": ""
+      },
+      {
+        "type": "movie",
+        "title": "Young Sherlock",
+        "overview": "",
+        "genres": [],
+        "added_date": "March 4",
+        "added_ts": 1772600400,
+        "link": "https://press.amazonmgmstudios.com/us/en/original-series/young-sherlock/1",
+        "thumbnail": "",
+        "rating": null,
+        "season": ""
+      },
+      {
+        "type": "movie",
+        "title": "Siren\u2019s Kiss",
+        "overview": "",
+        "genres": [],
+        "added_date": "March 2",
+        "added_ts": 1772427600,
+        "link": "https://press.amazonmgmstudios.com/us/en/original-series/sirens-kiss/1",
+        "thumbnail": "",
+        "rating": null,
+        "season": ""
+      },
+      {
+        "type": "movie",
+        "title": "Final Siren: Inside the AFL",
+        "overview": "",
+        "genres": [],
+        "added_date": "February 27",
+        "added_ts": 1772168400,
+        "link": "",
+        "thumbnail": "",
+        "rating": null,
+        "season": ""
+      },
+      {
+        "type": "movie",
+        "title": "The Bluff",
+        "overview": "",
+        "genres": [],
+        "added_date": "February 25",
+        "added_ts": 1771995600,
+        "link": "https://www.amazon.com/gp/video/detail/B0G565KPS4/ref=atv_dp_share_cu_r",
+        "thumbnail": "",
+        "rating": null,
+        "season": ""
+      },
+      {
+        "type": "movie",
+        "title": "The CEO Club",
+        "overview": "",
+        "genres": [],
+        "added_date": "February 23",
+        "added_ts": 1771822800,
+        "link": "https://press.amazonmgmstudios.com/us/en/original-series/the-ceo-club/1",
+        "thumbnail": "",
+        "rating": null,
+        "season": ""
+      },
+      {
+        "type": "movie",
+        "title": "56 Days",
+        "overview": "",
+        "genres": [],
+        "added_date": "February 18",
+        "added_ts": 1771390800,
+        "link": "https://press.amazonmgmstudios.com/us/en/original-series/56-days/1",
+        "thumbnail": "",
+        "rating": null,
+        "season": ""
+      }
+    ]
+  }
 }
