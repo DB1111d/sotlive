@@ -11,8 +11,7 @@ from datetime import datetime, timezone
 
 SUBREDDIT   = "soccer"
 VIDEO_HOSTS = {"streamff.link", "streamff.com", "streamable.com",
-               "youtu.be", "youtube.com", "v.redd.it", "streamain.com",
-               "streamin.link", "streamin.top", "streamin.me"}
+               "youtu.be", "youtube.com", "v.redd.it", "streamain.com"}
 
 HEADERS = {
     "User-Agent": "sotlive-goalfeed/1.0",
@@ -47,13 +46,14 @@ def clean_team(name):
     return name.strip()
 
 def clean_scorer(scorer):
+    # Strip trailing descriptors like "great goal", "penalty", "own goal" qualifiers after name
+    # Keep "penalty" and "own goal" as they're meaningful but strip things like "great goal"
     scorer = re.sub(r'\s*\|.*$', '', scorer)  # strip pipe and after
     scorer = re.sub(r'\bgreat goal\b', '', scorer, flags=re.IGNORECASE)
-    scorer = re.sub(r'\s*\([^)]*\)\s*$', '', scorer)  # strip trailing (league name) etc
     return scorer.strip()
 
 def parse_title(title):
-    if re.search(r"red card|yellow card|\bsave\b", title, re.IGNORECASE):
+    if re.search(r"red card|yellow card", title, re.IGNORECASE):
         return None
     minute_match = re.search(r"\s(\d{1,3})(?:\+\d+)?\s*'", title)
     if not minute_match:
@@ -104,9 +104,6 @@ def build_embed(url, post_id):
             v = urllib.parse.parse_qs(u.query).get("v", [vid_id])[0]
             return f"https://www.youtube.com/embed/{v}"
         if host == "streamain.com":  return url  # direct link, no embed
-        if host == "streamin.link":  return None  # blocks iframes, use link fallback
-        if host == "streamin.top":   return None  # blocks iframes, use link fallback
-        if host == "streamin.me":    return None  # blocks iframes, use link fallback
     except Exception:
         pass
     return None
@@ -147,8 +144,8 @@ def main():
         if key not in matches:
             matches[key] = {"home": parsed["home"], "away": parsed["away"], "goals": []}
 
-        # Check for duplicate by same minute (not just postId)
-        existing = next((g for g in matches[key]["goals"] if g["minute"] == parsed["minute"]), None)
+        # Check for duplicate by same score (handles same goal posted at slightly different minutes)
+        existing = next((g for g in matches[key]["goals"] if g["homeScore"] == parsed["homeScore"] and g["awayScore"] == parsed["awayScore"]), None)
         if existing:
             # Prefer non-Reddit video over v.redd.it
             existing_is_reddit = existing["videoUrl"].startswith("https://v.redd.it")
