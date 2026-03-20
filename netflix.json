@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-20 13:20 EDT",
+  "updated": "2026-03-20 13:31 EDT",
   "week_label": "February 18 \u2013 March 20, 2026",
   "groups": {
     "TV Series": [
@@ -449,6 +449,33 @@
         "link": "https://www.netflix.com/title/81928842/",
         "thumbnail": "https://cdn.movieofthenight.com/show/24859515/poster/vertical/en/240.jpg?Expires=1803464434&Signature=iVvd3X8Rr2veEY7i6cTtywRdqP6ecUG6l9QJNLR7ufY1qvhQsJZE4YdYHfO3cNIF6QhuIZHhuY1Aqu-qgFSZzmUBCwCE7sGZOcK4upoGFagI9Q-09Gc2CFZ1Iev-5GbhWCUh8xwOkHQag2qIQtOOZy1FWPk41WpL3vS6i30AuQRLXmuHvEkSLwGcM9srjEloRbqRvvXyjtYji6eJ-ekjD-dy3ytiUrytywocXVV8cPUN6jkFBJlqyNbTfCp6hIxqh-K2unLFoFZXDWhm3FiNGKCYjqW3hbFOk6NAACwLMzXsF~2zbga0XpXrn4IrO-knWGI~Kv6qh0ojVA4JgwbCjg__&Key-Pair-Id=KK4HN3OO4AT5R",
         "rating": 67
+      },
+      {
+        "type": "series",
+        "title": "Strip Law",
+        "overview": "An uptight lawyer teams with a flashy Las Vegas magician to bring some pizzazz to the city's stupidest cases in this irreverent adult animated comedy.",
+        "genres": [
+          "Animation",
+          "Comedy"
+        ],
+        "added_date": "February 20",
+        "added_ts": 1771591753,
+        "link": "https://www.netflix.com/title/81677608/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/24602222/poster/vertical/en/240.jpg?Expires=1803463909&Signature=TNbd9-zB3jbU~Rjt0XSxWdqtTG4Zfe1p8anbKqiXpmlOX3RcsYM2dS69lsOCuPiKF6z5H7dl3YtRCvrIWYUI8GHXk2wXVUiFtWS1LCcsXGMm4nlDqexh8pq-Jl4dttL2DZTfnbq5xjgqI0FuCe1dpcaYQ9F3QG4h4DSjdR6DnT36qvJXxIlD-W4ldiXFomxdobVmZbHG63nPfGjqLHEGVdE8NCeuTEEIQmMSRwwNb9Zv3ydbKTDvV2QDI46spzpNoWr7eZwcOMQhhUSwEWypBIFIVtJsNRIdbCRzrD6eeTXb7b7pp~TZi1~K5wB2Sl8~fUXE55XHYXurq5QxFIqQAQ__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 62
+      },
+      {
+        "type": "series",
+        "title": "Being Gordon Ramsay",
+        "overview": "He's bold, brash, and\u2026 vulnerable? Get to know the real Gordon as he and wife Tana juggle home life and a big business gamble in this honest documentary.",
+        "genres": [
+          "Documentary"
+        ],
+        "added_date": "February 18",
+        "added_ts": 1771409811,
+        "link": "https://www.netflix.com/title/81901623/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/24811918/poster/vertical/en/240.jpg?Expires=1803464164&Signature=TNYHMiYfwptQr64OJjttZivVtm6-zRFEASv98NZYW1smB05thH2EsXBRlw5xuFfVXT2VpcfSkBWvu~Vs6wmPu5ACfJ1jf-YaGWsE-V-yANAamlpCgmMyAWDj-~ASa7YOPjavkAEP5R~maaWfQcs-L7cu-Qltem83fbk7K1~Kfi6igUEQew5zXzV12L2ezQ9DXm3atRezoOu0hNpVuv1Snugpw9L1E9WJnGjaUMD7-ZiBgMwWK12XTp0L-qTsCXCPqFrrh7N4vL-HxNVjGAtL2w1jQQcCab34j~3ye7VB8XPJA6XR4eIZDIDJDIaYXfmiyql~aKLm2FWkISU8IgCrRA__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 70
       }
     ],
     "Movies": [
@@ -2141,6 +2168,358 @@
         "link": "https://www.netflix.com/title/70299451/",
         "thumbnail": "https://cdn.movieofthenight.com/show/111515/poster/vertical/en/240.jpg?Expires=1803739453&Signature=aLWXgza3cxPnCChruz93dG99~b4oDjEGeLEbuI2KovLU7mgusQqq4soLWPzYGvWZ-of0UOtefMSOkPZ4FE-zEHs7IzsuVnTK0SbVT1H54B0h2rG6b9fVzEDItGzIZzxLIzx0NKjXypVaEU1m1t9WVzGwvZsgzd~KEvFJkdlRI~W52thXVCjUbY2fLlY8jyBEKYIth8Z5R1X-qsipq60slyth4ix0~JBRspLLrQobTLlJAByLixlKicoM7jzSSCNYX9R67oxhVgshAqi7CtuDOCzwH4chjpGM8UPw~HdSKmZZFLTDtY6IiqU-ics1vwgjzin5xLReCpie3djAPD-mjQ__&Key-Pair-Id=KK4HN3OO4AT5R",
         "rating": 53
+      },
+      {
+        "type": "movie",
+        "title": "The Expendables 3",
+        "overview": "Barney, Christmas and the rest of the team comes face-to-face with Conrad Stonebanks, who years ago co-founded The Expendables with Barney. Stonebanks became a ruthless arms trader and someone who Barney was forced to kill\u2026 or so he thought.",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "added_date": "February 24",
+        "added_ts": 1771929397,
+        "link": "https://www.netflix.com/title/70307662/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/2474/poster/vertical/en/240.jpg?Expires=1800303068&Signature=PpxSy-YcldBfn9tDJmY3vrv1kdEDPt-uVlZ71x-JqdHoSAeELaE3NIggW~WszP~CkaaHpMUQDl9puClqwe4R6Pr~dVl3a6MMGPQ1QLlSaizmi7wUJXw8r05AegOcqSQ08QkY253Lpe1RPcoqOBSKSOZjvDx2gHD7w8GucjEK7DOw-2vL2utAD2QgTpY~4gNwHKpNUfMUlz1OQ0o9smL4PNf9Uuvx8jFBrYshqzI2ZJGNLLVpnLIADy020~jt6YSy8CzWxtrWKJQTbizLB8XJsmWQHbHQe0UCTGUmZxNBreq2t-CWqfbqoIxdOmPF72HjgNFgxnh~8rp0XkbMsiu5pw__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 61
+      },
+      {
+        "type": "movie",
+        "title": "Wakefield",
+        "overview": "A successful businessman mysteriously vanishes, leaving those around him perplexed, but the truth behind his disappearance is not what it seems.",
+        "genres": [
+          "Drama"
+        ],
+        "added_date": "February 24",
+        "added_ts": 1771928976,
+        "link": "https://www.netflix.com/title/80156212/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/15804/poster/vertical/en/240.jpg?Expires=1800389627&Signature=deNTJ65mIu3Vd36rmqjrN7ZWaJvtSfhQuPtdeHfw9lTbDe6Q09AaqejDv-cZgAMVBcjYTlkHaHHdCE6xqltm3Y5Z6qKHEpc9RbHTXeTWe-721q5FEujIBWKBrqRscdqn0-t4ggMzVpF9XO-XwDG376Tws7-ENySH2STSLdkVrSPMk6~uh8NGeg7v7yuBaCT6uGP~6vYf1eUhgyvph8Fk7lz3NdHBfND3ItZAGncOQQWwSC0RnQeClLIRGu48lZtPWFzlgTbnR4ZvYbi82cdxk-jXpOzXbD9JwCilP68jpykxA05RHEzVwq0-OXh264LSvwbzuEUN65uyyGzIKCp1mg__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 62
+      },
+      {
+        "type": "movie",
+        "title": "Thalaivar Thambi Thalaimaiyil",
+        "overview": "A rural village official takes on feuding families, missing brides and logistical mishaps when a wedding and funeral fall on the same day.",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Drama"
+        ],
+        "added_date": "February 24",
+        "added_ts": 1771926040,
+        "link": "https://www.netflix.com/title/82709712/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/24761445/poster/vertical/en/240.jpg?Expires=1803463709&Signature=KL3rx29mvB5~bjjeGaJgYSEHG9XWjQzl0DZy30x6d80YdfLgpYO6~FtXH6zUT1NMknGQqX3JrxQMJxFiDWiFjsqztEp5A-KeK~zvHUjW4-Svu8CTVl9c~jf5aYH0f4wGJdK2ysAlzlrnVWdMEUUk79i5SoULQ2Iwnvv1IRFVvLJpa32-WM828Z813Y8WS1jyexKGwiULeEwtqSSOdT7Y~L3a6WLXOyT0fGxhPpiR83UsiEg5y8XbzvxB6cmBfSbk5BF9k8miwnuCh20lHl~qpGPs0nEe7maN6ENwLOgO1bIG0qFFziK~dewhHZLaelX7pG3TyO2IhfByXcWZiILWKg__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 64
+      },
+      {
+        "type": "movie",
+        "title": "Saathiya",
+        "overview": "\"Running away from home can\u2019t keep a couple together. Love can. While for most Love Stories, marriage is the goal, the fact remains -marriage is just the beginning. A story of Aditya (Vivek) and Suhani (Rani Mukerji) SAATHIYA continues from where most love stories end. From the infatuation stage when a couple thinks they are in love right through to when they discover the true meaning of love.\"",
+        "genres": [
+          "Drama",
+          "Family",
+          "Romance"
+        ],
+        "added_date": "February 24",
+        "added_ts": 1771923884,
+        "link": "https://www.netflix.com/title/60034293/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/26509/poster/vertical/en/240.jpg?Expires=1803463574&Signature=FVmtMneXpX3JrmHbqGDtFqpk3GzpvsTx4UhAMoqG6qaPUhyQwColiDD9DnK4EUiSc51DwTXkwrAe9qV2unOxfnpxZQ8VlIdwhuGpJMUKqdSjto4Zdy-h9VNMyL8AY9MMe2WJnwKNAw3uGW~Cu1GzvxGqERQpNpTRUbEouLeSSMs3i2AL0fZ10Vaq0MZfi9I0fsJCarYgSnOPtOr4m-NlyVpcSc0vqvXU-go19LoGWAbsASzHxXBJDQiu5vnNGA54A2cAkCdzjqPloP3NnTxyyMmaBgX-sr4q5Qqso~3xBkSdm60gl3trKwdfcHgqJS-JOglAvtKm83dH~ewNlUO04A__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 55
+      },
+      {
+        "type": "movie",
+        "title": "Bachna Ae Haseeno",
+        "overview": "Meet Raj (Ranbir Kapoor),who keeps falling in love. It\u2019s not his fault that he\u2019s a heartbreaker. Come discover his three love stories; Raj & Mahi (Minissha Lamba), Raj & Radhika (Bipasha Basu), Raj & Gayatri (Deepika Padukone). Different ladyloves at different times in his life. And each of them, teach him a little bit about love & a little bit about life, in their own sweet, sexy or sassy way.",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "added_date": "February 24",
+        "added_ts": 1771923392,
+        "link": "https://www.netflix.com/title/70104309/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/19829/poster/vertical/en/240.jpg?Expires=1801611602&Signature=GpQu2dGEWHOzph6Lz-atWEULh96bTX5ZDfZ9YvpUDbV2qKnbAxVHJT1wS6uF-Fg4JlrJUnoI3t4JH2a70X~QHSG6qHXJrn7mrNo3bzydXwX66Vsf66RTvCGDHfCgALsfEKEWvm1Twg2J~CClPOFvpc2JQtyePa~kvOgbTUiYeWRet-2CiAdK~cUITqgPZ2CwU8PdDPuZSTYGgO18-RsFByPuuLqApnehtCceZGUKMqrpMbpd4swnzqQoj0xsJxP9OltCVpk5Cnh4XjbUm~m2SVjnM4gTbRdubX6h00YMqLOWeadtj0HAaQFjRnOf1DEhEfbV-FAI8Q60TdZath-vIQ__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 57
+      },
+      {
+        "type": "movie",
+        "title": "Gevi",
+        "overview": "To save a woman in labor, a rural village fights the system that left them without adequate medical care \u2014 and the vengeful authorities who enforce it.",
+        "genres": [
+          "Action"
+        ],
+        "added_date": "February 24",
+        "added_ts": 1771922237,
+        "link": "https://www.netflix.com/title/82719386/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/23191284/poster/vertical/en/240.jpg?Expires=1802954822&Signature=acvUxyOQ8uLZ0CmX-7u57UUqzW9M6e1IqE9qNRUxJqsPj1xq9LXTF684xh398ej7468oEbiDaUBg~IC~MVGbuK8ihaULlxClpBihlnukB5-aMWOBRncF9dC-zO4WsfYLBdQ2ZuyTvy3V~fmYchekqg2aYIo4WLVV0GWcyFXegniFr0bI7kRY3xuCFbYLUE6nhN2NO3gzaCI8Xssoc2VUHWi1SYRlpiC0Bp0dFoqv2Iu5XfDSYoH3MONlFXnh1HXAEm1Km5tfNdx-wlXWE2PDT1X~ck1VZz3APu4UJLyDUd1uRufZN4o4BBzpzcsPDuMJe--P-oycG4tcE504FRYhkA__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 45
+      },
+      {
+        "type": "movie",
+        "title": "The Expendables 2",
+        "overview": "The Expendables are reunited when Mr. Church enlists them to take on a seemingly simple job. But when one of their own is viciously killed, they are compelled to seek revenge in hostile territory where the odds are stacked against them.",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "added_date": "February 24",
+        "added_ts": 1771921643,
+        "link": "https://www.netflix.com/title/70230088/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/1274/poster/vertical/en/240.jpg?Expires=1800288535&Signature=c6voZ3m1YZwhPhh5JnuvhNH~Xt5vtjVm3XDSm7SEjPceQtK2ekcY26MTi5BxJPYrMbqxOky1wPuhcx0NKPKTx6dXDHwuX3LYb5huP4KJ~23EKMMoBoLLTgs7HeksqBEFLNo4EuKiMUdczXS1ysRAYYpi8IENcIEPbjqwSzpaVYZ~9wvM-aLCWBEDu7X8K5dhFjBCzT3VY5017B6hewfj0w99tRpOSRuUoybG4Xqp~Z-d1gbWxZtd4Mqkj3bAat20pdu34b7FU~fawye-eTpEyhouFzychj2omHn1OW44NEXve26zQJ09NpIKI64-loXjQx369Rfmj4ABkTsH9CXn4A__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 65
+      },
+      {
+        "type": "movie",
+        "title": "Free Fire",
+        "overview": "When a black market arms deal goes wrong, Justine is caught in the crossfire and forced to navigate a warehouse full of trigger-happy madmen.",
+        "genres": [
+          "Action",
+          "Crime"
+        ],
+        "added_date": "February 24",
+        "added_ts": 1771918470,
+        "link": "https://www.netflix.com/title/80091310/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/8246/poster/vertical/en/240.jpg?Expires=1801769882&Signature=E9MdQgW6Ckxiwqc2z0zRgvzYwjb1YHLhMApMquvTl2EYcE9UeFgb3zjyx92XeOW3Fehf5L9T5CZTBJr1CREscdpjoZpPSpxqtrI-XzG0eg~KawE29kXDXRLKkFCB97sF-b9z63A2u7ZEiyMw3zGNPg1JXS5ktZf0xYG4s4LrRjwgb-49ok2LG0h9nnJCDeHSbk5G842x1Y6CJV1fE3P5X4pFfsSDoTFixWU~g029w6jz6zNhNuKhuM49WmpVtJzoZMAjY2VqAN1G-JTT81GfL7NwiJddEVUp0ZFXCKyD5AgyGD91ftoaHMAMllMKheG5OHKVd6uF3zJdJXSC8zrwnA__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 62
+      },
+      {
+        "type": "movie",
+        "title": "The D Train",
+        "overview": "All his life, Dan Landsman (Jack Black) has never been the cool guy. He hopes to change everything by befriending former high school hero Oliver Lawless (James Marsden) and convincing him to show up at their class reunion.",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "added_date": "February 23",
+        "added_ts": 1771904560,
+        "link": "https://www.netflix.com/title/80036657/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/20475/poster/vertical/en/240.jpg?Expires=1800266726&Signature=WgKNso63GzaCYI-189UqCYLXHCcFyPXc5QJTYeKu6tjtaRj2GO84AlRvaPIaTezHTqD-w1f5ruYKvhxAP6aoQ5HLkm3vF4m15nDuP6sdgbq4YSI1LDUaeC9WHNcqMDoBu75g1RLTlrisQYhPON5xAGSACE7x6bpRaTLOxv~gRY9ywE4ScYsT-L-ZOSM7~hBhwlSh3xH9H-VjH1h5D4WnmP8w6gcQQFKrIpeTGp8bXGuyQeEfhwfL2hc9t0DxpoNBYvea7ZAtR81NNgnXBkiTiYle3NsSoIuivf0UdRNF~Abt1xVPh3mdi9yaGEDkxFsnpuseltHdigsZQLJF9MXH3A__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 50
+      },
+      {
+        "type": "movie",
+        "title": "Katt Williams: The Last Report",
+        "overview": "Comedy icon Katt Williams delivers his famously bold takes on conspiracies, celebrities and the world at large in this electrifying stand-up special.",
+        "genres": [
+          "Comedy"
+        ],
+        "added_date": "February 23",
+        "added_ts": 1771860317,
+        "link": "https://www.netflix.com/title/82155429/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/24860865/poster/vertical/en/240.jpg?Expires=1803486524&Signature=e5M9QPEUhfQBWZbOHOslTQxLwlze98nERT7eKOHYv2l~JIkJwEG2V4YWCkh3rM2Bod-0~DO0IFPHq33ut64IbSp3Rx-qnktsmqnn5u9fM1c2n-ey5lvLVICyS-EuuRJw-9pbo9gTI6B3dZF4Oo716MI~B~kL2KGRgj~YIDJ6hPtCZ3vcazBvGxtt7~razg3P-Er15HjcxR9-LjjndvKH4YfmRHqZLlkkcQDhvUYslP~7Gsg~jcfJw-eeSSjuYjL5Ez6TplrO06NvSRtg5Z4PhNL9Usj1fLAUEsNIFgHuRLMxqTylwCKKVvAxh8UPr8d-IlzjJWaxEqrF9Dks8iGM3w__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 53
+      },
+      {
+        "type": "movie",
+        "title": "Famous Last Words: Eric Dane",
+        "overview": "In this emotional interview, the late actor and ALS advocate Eric Dane shared his final message for the world \u2014 knowing it would not air until his death.",
+        "genres": [
+          "Documentary",
+          "Talk Show"
+        ],
+        "added_date": "February 23",
+        "added_ts": 1771843421,
+        "link": "https://www.netflix.com/title/82125158/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/24860449/poster/vertical/en/240.jpg?Expires=1803486526&Signature=lJnnkD6j6Csc~RyjZ06qdoLx28l2akyCCsWsbPe9PpGWe2l2ffwl1N094E~9TZt2jjx6bR6~7qZVm7v9Ufn0jESwHXCOXbBv37zmj-Kca0nLyxPzLC7suRJTGwC0Ua19-lIIuDuojWUSowpB0~DgJzfr~DTbMUvJ49SdS95hf5P-X6JmcaKIrQQ4W47XBQFzJB63xzhcSLA1c7GMLOlgrdLcnDcsXFSU4vbUzYxHOZQIGYOPfRAsXrxdDHuym1WGvkV4W4Br2As0zI3FZAkXZxWKUNtcJaxCWSetNdA9o4HyFqfCcbuZwuLP2g7hedXgHk9oAjgMR3ZiaUicZQ0T6Q__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 72
+      },
+      {
+        "type": "movie",
+        "title": "The Orphans",
+        "overview": "Two childhood friends must overcome their differences when their old flame dies in a suspicious car accident and her teenage daughter seeks revenge.",
+        "genres": [
+          "Action"
+        ],
+        "added_date": "February 23",
+        "added_ts": 1771840805,
+        "link": "https://www.netflix.com/title/81754057/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/16243163/poster/vertical/en/240.jpg?Expires=1803464528&Signature=ZQvDchK9XyNueOJBP~FvPRWDHK9Q2LeAWN8F6FD~ua~lv39aOrmxpmK-9dP6~iNR~MoNxy6BINEzSrBHdpc91qFkozNeJxpDzqAd7BXdyLWXgj7wnaza1Co7ygfFEgybrBPO-9wyIMfO8FuH-BBBz47aiW0gS1F60f0Almpx48PfKJRBQsDTgyq42L1rZUiBxzo1YDdAWYc1-2FtIJxyQ3iYmAeMaiZdQDgzGe8VOJT198wNf474L51XrIdbT466VxCX6Gwg61QquRT~ST2erjG6xEkBSmCpQ5nLQ1t1I~TOj~V0smjjwSIAxhm2yXGunlkOB-3rpzJGIWTPfzLg0w__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 56
+      },
+      {
+        "type": "movie",
+        "title": "10x10",
+        "overview": "After a man abducts a seemingly innocent flower shop owner, he holds her captive in a small room, desperately trying to get her to confess a secret.",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Thriller"
+        ],
+        "added_date": "February 23",
+        "added_ts": 1771840777,
+        "link": "https://www.netflix.com/title/80988902/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/22773/poster/vertical/en/240.jpg?Expires=1800317537&Signature=FgM0CLEJcaa8c9cK338qAcN-3K0RqsBIRokv-50xqzNFEfR2ELjDXLtM4iaG~2jU8kGjPCuxR3fkO9PWi-o3o8AA0cLvNBZH499kmWA6MbBUA3k8BRKTU8ympnBL-M6BBf2XjMOP-oDmiFxXH-ugk4XbEc4IGJQpRNGuyP4fjqpxs802yUw2syJia3C98LXrKnVWbUyGbB3tmZKkDIge0OGzRvQfH9us6OIQZEj6PqoP-7wCKFsNpdJkCwu5MtzZ-uloweHU6~psPN7uMLK3KbUYmkesbeblDbXlWdcEx~e71lS4Kj11DhjDcCRCfjkQznwniXJMWJlaOhhyqls6hw__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 52
+      },
+      {
+        "type": "movie",
+        "title": "Firebreak",
+        "overview": "An eight-year-old girl goes missing during a fire on a mountainside. But is the danger in the approaching blaze \u2014 or in the mysterious house next door?",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "added_date": "February 20",
+        "added_ts": 1771591801,
+        "link": "https://www.netflix.com/title/81744440/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/24811466/poster/vertical/en/240.jpg?Expires=1803464687&Signature=QiOlj0bsdS3lXsZdOY0EihjH88d2YnbxtJYw10Xei6rxJ4XbaJD7EvEwnQlzDf60NjT4ukF9o5kGpLSW~aNj-zNzChUeFGdzG~P8JoZ-CUz253T~4-jHQegPDFijxvLbeKrCCFyTUFMdPQsIYGHCCO~dv5Msrpylp2GAXkz6-jg7Fi0a2zYl-4OM1EvyU-62A0WoLeMzGZU~7KPRgoF8L2JpaakqAKCscUSxld7jbPDvn5g5eDSbDUwq6cGKs1~Nqy4qNMJUSJ-wN~FKYjx7hCVa48RqMvs-oP4ZGXgK5jSpCbB7HeA9eaUeL2gZu4snt9uKvn2VwfwWTg6ejaKE-g__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 58
+      },
+      {
+        "type": "movie",
+        "title": "Pavane",
+        "overview": "Three lonely strangers meet at their department store jobs and find solace in each other's company while they explore connection and the nature of love.",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "added_date": "February 20",
+        "added_ts": 1771591755,
+        "link": "https://www.netflix.com/title/82103772/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/24811176/poster/vertical/en/240.jpg?Expires=1803463651&Signature=j9TH0CXMJvaqRoYuLPf6lA8mq1aul6nQe70QqtVdhtNhFOiESpsz-XiKdoHFSMMayAsH0~pu0YUO2bnk4sOqEnyptPR621jPDEn30UiHvUhBqmRqG6nTZU4YHsTJAw3tSLU6RuClrGd842ge40i6OFAMHtsh8vh~2wDW44tqG~q3KT9e-DlIq2TgKf92ggwQnXlhNRHfjQGp6s3iPpyUxrkyxm9HrndInG1PxcZy71Hs~XjKJNjztx1oMWbr9FyuZNlhl29wc6pe9ME0wzqSejVIBglvVFoPLgHRqPjtUEVlp~cL1aHUtovrMlB--LqoPi3QVvXJfysav2k0bGHF4w__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 68
+      },
+      {
+        "type": "movie",
+        "title": "Expend4bles",
+        "overview": "Armed with every weapon possible, the team that gets called when all other options are off the table sets out to prevent World War III.",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "added_date": "February 20",
+        "added_ts": 1771591688,
+        "link": "https://www.netflix.com/title/81674656/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/4793197/poster/vertical/en/240.jpg?Expires=1799539652&Signature=hTwxka4Vx5HkGyQWpp~jTdHEvljVeReRuGHH7z6lfDVHzp59R13efF2x8V3Bqnoa4YkE9bIJqN~u248C~xtkS3KUNo1F4GgA0n2wNPKuDim3rBF9SCo~w5rS4kNAApunImmJryeX~PQF3eo--osHyBUHSI2Zzl0j5KuylYpetpI27UfHMDjcOXdWhp~U7u8npd4nBynkYLhcSCRTI4exYFMn59fcA3GGhjYqetvSBdzIVbyMNhrrDVnZiBUmMVRrXtED7zwjgVQ49nSL2cHtzYYK4UdivLZsYih4P~89g7S9CtHizraKz8CDOGU3DD0fxEAX5xQX1IsD887M-u0blA__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 51
+      },
+      {
+        "type": "movie",
+        "title": "The Addams Family 2",
+        "overview": "Everyone's favorite spooky family is back! Morticia and Gomez are distraught that their children are growing up. To reclaim their bond they decide to cram everyone into their haunted camper and hit the road for one last miserable family vacation.",
+        "genres": [
+          "Adventure",
+          "Animation",
+          "Comedy"
+        ],
+        "added_date": "February 20",
+        "added_ts": 1771591685,
+        "link": "https://www.netflix.com/title/81438332/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/18357/poster/vertical/en/240.jpg?Expires=1803464602&Signature=FF5eKAm1R7bRHEM4paaiBfGxrtwfAD4tjgYCWR7K1JRiDf3C-YQ~ZvXrquPGL030WpgDN92FwajpAGICoIPdF~KXU2Fe99VcCHj2y3l~UkykALDTWdaCX4Xxt0X0tAbEzAZQRDQHVPvmeNlt~5PkUIkq0oyjLLRpeJybsNruXFUbgGnEhEfYv3gFrUxxXjwgJMjNIgPoJ1Kr2KUcQBIWgsHUFMWCkDnBxdzNGU6t-DRyA4nxmuqdcK1n7qnlo0bbQbIpWkfiOVcDDzPKmdBzHJ67kimrQaYHnw1IfgfqO0WpfmeaerMdXSqEvhdPXg73PlRtwDYpX-E5wTRc3yWXoA__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 57
+      },
+      {
+        "type": "movie",
+        "title": "The Addams Family",
+        "overview": "Leading gloomy lives in isolation, a family of ghouls moves to a bland suburb where a reality TV show host's community plan cramps their style.",
+        "genres": [
+          "Animation",
+          "Comedy",
+          "Family"
+        ],
+        "added_date": "February 20",
+        "added_ts": 1771591635,
+        "link": "https://www.netflix.com/title/81034769/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/9100/poster/vertical/en/240.jpg?Expires=1801060875&Signature=R7TDAtsuyXkHOpTwy6tVmzzdRd9Qq3yx2olXamZfhcXJM56BpP2qC0rr1IXd7UdaUsxcUVdb9MxDvPRYeNjKwaWuIMItEeE8rnXl7OXBpbcbUOZF6ZGqOQR~KqoPHBP6nwdV~bT9aljz4UV3lAfMPnZpGeygEIAarJ7Dhpzeb3lxnpEEXtq1fhKt2ziUU0EenD~QhIQtmxtFSV~Y~IqSQHzvFdY-23q~BrRkI36qwCE3c2QcdWdCmJ8L6weUfSwXe0LpkoEFWx9CAnXlnBZeicw8NITZPq5VZ7BgFsy64I3m0pZZ1~lY6qh8-rvjh9iUnY6x4VM0SLdvHs4EcJZrkw__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 60
+      },
+      {
+        "type": "movie",
+        "title": "East of Wall",
+        "overview": "After the death of her husband, Tabatha - a young, tattooed, rebellious horse trainer - wrestles with financial insecurity and unresolved grief while providing refuge for a group of wayward teenagers on her broken-down ranch in the Badlands.",
+        "genres": [
+          "Drama"
+        ],
+        "added_date": "February 19",
+        "added_ts": 1771505021,
+        "link": "https://www.netflix.com/title/82194686/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/14625722/poster/vertical/en/240.jpg?Expires=1795807666&Signature=JAq7LYryd2FamOAPx4Rf8IyIE6IQIwZ9yLGZuGHXjwTGZu~htPLYNujc2F7J~IgclzeQ8JWfO59SlvURx~Y2g2jtb19JStC2sIWgoEDGDzIWEP3HMJ4dlzEuYzyO3QpCJhNl1sR-ny5rfeOeiO9mTLECWeKiRaYAKedf8dSjR4456qERe5qQdbJaAPtI1xiF1wzcqTF~geiRuoomVKpi99gYlcElx4fkFBA8i1dB5MuaapuS5Lg2RXG3C7SeBjE4icF3SRogUvzEEUaio3kjlAM331fzE8pP9K2Ov3nz4ogxmEURCGeeTOpQ7wOQ~tHK~clmNVyOX-nu4mvaBwbTqg__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 59
+      },
+      {
+        "type": "movie",
+        "title": "Mayday",
+        "overview": "Transported to a parallel world, Ana finds strength through joining an army of female soldiers. But is she really the killer they want her to be?",
+        "genres": [
+          "Drama",
+          "Fantasy",
+          "Mystery"
+        ],
+        "added_date": "February 19",
+        "added_ts": 1771505019,
+        "link": "https://www.netflix.com/title/81481587/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/71355/poster/vertical/en/240.jpg?Expires=1800472107&Signature=DwBRAf~gyQKgamxQk-BbdPbyHD6LRBQB94qaepJ8-l~Ci6LKRlggJWlWq7PetVQr9WnKd~olj3skbs-AlAg1LfydQFJ5DBUXQREboJLBeLFr9z403qq9w4yRZ8-mVcQ8R2EAu3mBYDWQSMnAtqMw8W6JtXr5qxzhkXFt7lLkRxaqOTkSkrqoVOTz0aeNeg0j75g6Q5DHCR-jxDp~fyxC7qpQDCmKEv4JXFur0F7IlHrWJ4uAw94uEnI0ZmchII~4V7LhXts8Sq8Iuqxpl~YvuiM6XZefX-D97a3nMD6w2DaYcLapRuhb8KCAakJ-xnomhWhAAVpnpwdumUcWHhYgtQ__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 46
+      },
+      {
+        "type": "movie",
+        "title": "Meet, Greet & Bye",
+        "overview": "When a devoted mother with cancer wishes to meet her favorite K-drama idol, her children unite to make it happen, in hopes that she'll keep fighting.",
+        "genres": [
+          "Drama",
+          "Family"
+        ],
+        "added_date": "February 19",
+        "added_ts": 1771504994,
+        "link": "https://www.netflix.com/title/82638239/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/24318188/poster/vertical/en/240.jpg?Expires=1803463263&Signature=JRNXtxjAW4bJtuRyWTfXfY2vDLOJuBr6LHZSAQvJ2G7WDqL7eTQpLdzSvo2aZnL6LoTZ~IUc4YaG32bdkRfva2aMdSMxFI6qJ1kvat7854kekAk~w1xESEVJ~mvbh~2ZPkrUAIkhjjVZXDzO8D4aVcX2hfavvGU8aBKBVPAYgEc3OxiP-4E60lmGgrU7N7DmQz2PcQU0lZ6b~y8ywxHtgvkfmH~rSF09v3C3ZcfKdfGX3RNkB0a44W7X7KplT7rrilvpoMgfTHU~1AFi3lAeFf0QrKKZO9uOrPCdLD8-6CYpp-zqalXv~uiYxlZThKFxvQIksQmZxq1WvedLfakO9A__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 52
+      },
+      {
+        "type": "movie",
+        "title": "The Swedish Connection",
+        "overview": "In this little-known true story, a Swedish bureaucrat becomes an unlikely war hero as he attempts to save Jewish lives during the darkest days of WWII.",
+        "genres": [
+          "Drama",
+          "History"
+        ],
+        "added_date": "February 19",
+        "added_ts": 1771504992,
+        "link": "https://www.netflix.com/title/81713119/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/24761479/poster/vertical/en/240.jpg?Expires=1803463388&Signature=ExuRGFJYUyIyTXIrXONJd0iPqIrIsxYciyZcIHePcPAMBrrT9qQKuwgtqe-4h4F2u6LAVsG9L9HFU4MIUn4mVCOWEUmQ~VkpWrz46b-C6-pgyez0WgrDOqGFfnq2Nbxt2KqixZsYrjstr9kc~AybbpyB345ec3YhkGh5cZ30Tn40HtXIGF7DxgSOoq2bvEvPEz3NIBtt4g3zan4hNxIqM6NNgPRHL3Bzeja-i1zIpxl0EXANtx2z0XB93kSEjVz~tdRREtaRoJDf0SHBCwzeIozNGtlhxjJNqnBETMVgPTkoqR2cMy9HVmUCWHtM9eCBO2HOz4cx0TIRCzEzF92HTQ__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 71
+      },
+      {
+        "type": "movie",
+        "title": "The Iron Claw",
+        "overview": "Inspired by a true story, the Von Erich brothers rise through sacrifices, struggles and bitter tragedy to become a professional wrestling dynasty.",
+        "genres": [
+          "Drama"
+        ],
+        "added_date": "February 19",
+        "added_ts": 1771504965,
+        "link": "https://www.netflix.com/title/81725563/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/5749731/poster/vertical/en/240.jpg?Expires=1805456185&Signature=OY6r~d8A1qqSMcUeDZNYUEuN-StoznLLFm-7KnVmXpBIeoxzc8hR0t8zzLpW3e2trkOc1lqZa6ouPRp1R~nnaY6e8micpDDNQY0yUCG5AlD0CrW5okrvEONsPAWM1mPzN6wSq9PfbZ1QSGYKhzpV5hqgyKOaGbr6wFoD3GB6DQ3cPiWnHD9rCG-aYziKH8EAvu0VJeBNhEmIkTzK2RiYX6EZ75EgqFTSNtO8jbcjI0kUVQEfm2WwPFDGafZC17gjzxFV3d4LfNPfE2Mh~Q35VYppvAe2izmBje0AwvQ7HlTtSU-M51z3FLuFLHh-gFau-KudPy3XXeh~lDEB~6XP3A__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 75
+      },
+      {
+        "type": "movie",
+        "title": "Sommore: Chandelier Fly",
+        "overview": "From riffing on hot topics to breaking down celebrity scandals, \"Queen of Comedy\" Sommore delivers her unapologetic perspective with bravado and style.",
+        "genres": [
+          "Comedy"
+        ],
+        "added_date": "February 18",
+        "added_ts": 1771422090,
+        "link": "https://www.netflix.com/title/81900912/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/24811256/poster/vertical/en/240.jpg?Expires=1803464424&Signature=j9Z36qKIKh-gFFFr3qpA2Ng4DtCVFiwxmMifn7L-6lhgiOHnmFLp2l1jZnRfsg4UO6ewM7kTBJDeJIQEagUA1RHjw-BJWyrhCMmeYYWDx2A5p33xs2EVlMf7WU~UdbF~YPeer2IJ8Q9b~omWSHsVkGBM0uyBUKKVoeBv~EdgTOfMc8t5y2DNUreMFlaxsSIDQpozm-FhfyJwL~smLWHTQCZAoCHTqUirQwpmNDumM~y345mYvh6DHaJjODpnwjf2l9fMg6Bs2haRtrdNYog7HKQRnEwuvV3Zm~iIaTsRtNvJnBaQc4W6lgZTrpbDyhvosrAdyWuBACsZUye9GD4UCQ__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 57
+      },
+      {
+        "type": "movie",
+        "title": "Fall",
+        "overview": "For best friends Becky (Grace Caroline Currey) and Hunter (Virginia Gardner), life is all about conquering fears and pushing limits.",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "added_date": "February 18",
+        "added_ts": 1771409832,
+        "link": "https://www.netflix.com/title/81619345/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/7801/poster/vertical/en/240.jpg?Expires=1800322741&Signature=aQtMiiqsbw4T5hZwJNBIU~-iLgQkMFkB8uGeqzlKAwIKeDGLpLFsIsHwdYAsutALh9p9JMgAZIPoCcoFz3K1WkqOnA0GPs6-6xWOsFONpl2EMS9h-luCx5j0GsHwLUztCkeP7dZTiXe3u8~-D86wXRtUrqbQX3EVq85Ql7OqE9YEUe~ptGg6sgFo02B9HZu7yDscj4gf60sHoXdgvXj7pjmOpsvgRoFL-O6BpI56YXyJooGS0j0h-BJx8R-xRXE3K5hyiuQ0E43qBlGZ9ooRys2BIC3dlxvkX2zS2C25IIfTN0AWUl3B5mmpVENhoYjq48RKq9EHi2XaQROEl4LY9w__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 65
       }
     ]
   }
