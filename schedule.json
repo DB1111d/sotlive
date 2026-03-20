@@ -1,65 +1,9 @@
 {
-  "updated": "2026-03-19 16:40 EDT",
+  "updated": "2026-03-19 22:10 EDT",
   "days": {
     "20260319": {
       "date": "Thursday, March 19",
       "games": [
-        {
-          "league": "UEFA Europa League",
-          "time": "1:45 PM",
-          "match": "FC Midtjylland vs Nottingham Forest",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-19T17:45Z",
-          "round_label": "Round of 16 \u00b7 Leg 2"
-        },
-        {
-          "league": "UEFA Europa League",
-          "time": "1:45 PM",
-          "match": "Lyon vs Celta Vigo",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-19T17:45Z",
-          "round_label": "Round of 16 \u00b7 Leg 2"
-        },
-        {
-          "league": "UEFA Europa League",
-          "time": "1:45 PM",
-          "match": "SC Freiburg vs Racing Genk",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-19T17:45Z",
-          "round_label": "Round of 16 \u00b7 Leg 2"
-        },
-        {
-          "league": "UEFA Europa League",
-          "time": "4:00 PM",
-          "match": "AS Roma vs Bologna",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-19T20:00Z",
-          "round_label": "Round of 16 \u00b7 Leg 2"
-        },
-        {
-          "league": "UEFA Europa League",
-          "time": "4:00 PM",
-          "match": "Aston Villa vs Lille",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-19T20:00Z",
-          "round_label": "Round of 16 \u00b7 Leg 2"
-        },
-        {
-          "league": "UEFA Europa League",
-          "time": "4:00 PM",
-          "match": "FC Porto vs VfB Stuttgart",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-19T20:00Z",
-          "round_label": "Round of 16 \u00b7 Leg 2"
-        },
-        {
-          "league": "UEFA Europa League",
-          "time": "4:00 PM",
-          "match": "Real Betis vs Panathinaikos",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-19T20:00Z",
-          "round_label": "Round of 16 \u00b7 Leg 2"
-        },
         {
           "league": "CONCACAF Champions Cup",
           "time": "7:00 PM",
@@ -75,13 +19,6 @@
           "source": "FS1",
           "kick_utc": "2026-03-20T01:00Z",
           "round_label": "Round of 16 \u00b7 Leg 2"
-        },
-        {
-          "league": "US Open Cup",
-          "time": "6:00 PM",
-          "match": "Carolina Core FC vs Virginia Dream FC",
-          "source": "YouTube",
-          "kick_utc": "2026-03-19T22:00Z"
         },
         {
           "league": "US Open Cup",
@@ -113,17 +50,17 @@
         },
         {
           "league": "US Open Cup",
-          "time": "8:00 PM",
-          "match": "Tennessee Tempo FC vs Chattanooga Red Wolves",
-          "source": "YouTube",
-          "kick_utc": "2026-03-20T00:00Z"
-        },
-        {
-          "league": "US Open Cup",
           "time": "8:30 PM",
           "match": "Laredo Heat vs El Paso Locomotive FC",
           "source": "YouTube",
           "kick_utc": "2026-03-20T00:30Z"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "9:15 PM",
+          "match": "Tennessee Tempo FC vs Chattanooga Red Wolves",
+          "source": "YouTube",
+          "kick_utc": "2026-03-20T01:15Z"
         }
       ]
     },
