@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SOTLive</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&family=Playfair+Display:wght@600;700&family=Bebas+Neue&display=swap" rel="stylesheet">
 
   <!-- Beacon Analytics -->
   <script>
@@ -715,48 +715,32 @@
       .contact-form .form-row { grid-template-columns: 1fr; }
     }
 
-    /* ── GoalFeed nav ── */
-    .goalfeed-nav-text {
+    /* ── GoalFeed banner ── */
+    .goalfeed-banner {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      margin-bottom: 20px;
+      padding: 10px 16px;
+      background: #ffffff;
+      border: 1.5px solid #e8e6e1;
+      border-radius: 10px;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+    .goalfeed-banner:hover {
+      border-color: #1a6b3c;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    }
+    .goalfeed-banner-icon { font-size: 22px; line-height: 1; }
+    .goalfeed-banner-text {
       font-family: 'Bebas Neue', sans-serif;
-      font-size: 15px;
+      font-size: 22px;
       letter-spacing: 0.04em;
+      color: #111111;
       line-height: 1;
     }
-    .goalfeed-nav-green { color: #1a6b3c; }
-
-    /* ── GoalFeed match cards ── */
-    .match-card {
-      background: var(--surface);
-      border: 1.5px solid var(--border);
-      border-radius: var(--radius);
-      margin-bottom: 8px;
-      overflow: hidden;
-    }
-    .match-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 14px 18px;
-      cursor: pointer;
-      user-select: none;
-      gap: 12px;
-    }
-    .match-header:hover { background: #f7f6f3; }
-    .match-teams { font-family: 'DM Sans', sans-serif; font-size: 15px; font-weight: 600; line-height: 1.2; }
-    .vs-text { color: var(--text-muted); font-weight: 400; }
-    .match-toggle { font-size: 11px; color: var(--text-muted); transition: transform 0.2s; flex-shrink: 0; }
-    .match-card.collapsed .match-toggle { transform: rotate(-90deg); }
-    .match-card.collapsed .match-goals { display: none; }
-    .goal-row { display: grid; grid-template-columns: 44px 1fr; border-top: 1px solid var(--border); }
-    .goal-minute { display: flex; align-items: flex-start; justify-content: center; padding: 14px 0 0; font-family: 'DM Mono', monospace; font-size: 12px; font-weight: 500; color: #1a6b3c; border-right: 1px solid var(--border); }
-    .goal-content { padding: 12px 16px; }
-    .goal-title-line { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; flex-wrap: wrap; }
-    .goal-scorer { font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 600; color: var(--text); }
-    .goal-score-badge { font-family: 'DM Mono', monospace; font-size: 11px; background: #1a6b3c; color: #fff; padding: 2px 6px; border-radius: 4px; font-weight: 500; }
-    .goal-video-wrap { position: relative; width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 4px; overflow: hidden; }
-    .goal-video-wrap iframe { width: 100%; height: 100%; border: none; display: block; overflow: hidden; }
-    .goal-video-fallback { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: #f7f6f3; }
-    .goal-video-fallback a { font-family: 'DM Mono', monospace; font-size: 12px; color: #fff; background: #ff4500; padding: 10px 18px; border-radius: 6px; text-decoration: none; }
+    .goalfeed-green { color: #1a6b3c; }
   </style>
 </head>
 <body>
@@ -771,9 +755,6 @@
     </button>
     <button class="sport-btn" id="sport-ncaa" onclick="switchSport('ncaa')">
       <span class="sport-icon">🏀</span> NCAA Men
-    </button>
-    <button class="sport-btn" id="sport-goals" onclick="switchSport('goals')">
-      <span class="sport-icon">🥅</span> <span class="goalfeed-nav-text"><span class="goalfeed-nav-green">GOAL</span>FEED</span>
     </button>
     <button class="sport-btn" id="sport-netflix" onclick="switchSport('netflix')">
       <span class="sport-icon">🎬</span> Netflix
@@ -800,7 +781,7 @@
             <span class="faq-chevron">▼</span>
           </summary>
           <div class="faq-answer">
-            SOTLive is a media aggregator that surfaces upcoming sports games and newly released TV shows and movies across multiple streaming and broadcast platforms — all in one place, so you never miss what's on. The <span style="font-family:'Bebas Neue',sans-serif;font-size:1em;letter-spacing:0.04em;">🥅 <span style="color:#1a6b3c;">GOAL</span>FEED</span> tab shows today's goals from r/soccer with embedded video clips, updated every 15 minutes.
+            SOTLive is a media aggregator that surfaces upcoming sports games and newly released TV shows and movies across multiple streaming and broadcast platforms — all in one place, so you never miss what's on. On match days, look for the <span style="font-family:'Bebas Neue',sans-serif;letter-spacing:0.04em;font-size:0.95em;">🥅 <span style="color:#1a6b3c;">GOAL</span>FEED</span> link in the Soccer tab to watch today's goals.
           </div>
         </details>
 
