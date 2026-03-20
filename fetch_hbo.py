@@ -34,7 +34,7 @@ def api_request(path: str, params: dict) -> dict:
         "x-rapidapi-host": API_HOST,
         "x-rapidapi-key":  API_KEY,
     })
-    with urllib.request.urlopen(req, timeout=15) as resp:
+    with urllib.request.urlopen(req, timeout=60) as resp:
         return json.loads(resp.read().decode("utf-8"))
 
 
