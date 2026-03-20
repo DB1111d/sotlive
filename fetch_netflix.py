@@ -97,8 +97,14 @@ def fetch_changes(change_type: str, from_ts: int, to_ts: int) -> dict:
                 pass
             break
         except Exception as e:
-            print(f"  API error ({change_type}): {e}")
-            break
+            print(f"  API error ({change_type}): {e} — retrying in 10s...")
+            import time
+            time.sleep(10)
+            try:
+                data = api_request("/changes", params)
+            except Exception as e2:
+                print(f"  Retry failed: {e2} — stopping.")
+                break
 
         changes  = data.get("changes", [])
         shows    = data.get("shows", {})
