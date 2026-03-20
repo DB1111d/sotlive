@@ -388,7 +388,6 @@ let matches = {}; // key: "home vs away", value: { home, away, goals[] }
 
 // ── Fetch goals.json ────────────────────────────────────
 async function fetchGoals() {
-  setStatus('loading', 'Fetching...');
   try {
     const res = await fetch('goals.json?v=' + Date.now());
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -516,12 +515,6 @@ function renderVideo(goal) {
 }
 
 // ── Status indicator ──────────────────────────────────────
-function setStatus(state, text) {
-  const dot = document.getElementById('dot');
-  const label = document.getElementById('status-text');
-  dot.className = 'live-dot' + (state === 'error' ? ' error' : state === 'loading' ? ' loading' : '');
-  label.textContent = text;
-}
 
 // ── Utils ─────────────────────────────────────────────────
 function escHtml(str) {
