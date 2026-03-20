@@ -1,17 +1,9 @@
 {
-  "updated": "2026-03-20 12:45 EDT",
+  "updated": "2026-03-20 16:34 EDT",
   "days": {
     "20260320": {
       "date": "Friday, March 20",
       "games": [
-        {
-          "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
-          "time": "12:15 PM",
-          "match": "Kentucky Wildcats vs Santa Clara Broncos",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-20T16:15Z"
-        },
         {
           "conference": "Independent",
           "tourney_round": "NCAA Tournament",
@@ -39,10 +31,10 @@
         {
           "conference": "Independent",
           "tourney_round": "NCAA Tournament",
-          "time": "2:50 PM",
+          "time": "3:07 PM",
           "match": "Iowa State Cyclones vs Tennessee State Tigers",
           "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-20T18:50Z"
+          "kick_utc": "2026-03-20T19:07Z"
         },
         {
           "conference": "Independent",
@@ -222,6 +214,22 @@
     "20260322": {
       "date": "Sunday, March 22",
       "games": [
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "12:00 AM",
+          "match": "Arizona Wildcats vs TBD",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-22T04:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "12:00 AM",
+          "match": "Virginia Cavaliers vs TBD",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-22T04:00Z"
+        },
         {
           "conference": "Independent",
           "tourney_round": "NIT",
