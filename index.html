@@ -80,17 +80,8 @@
       padding: 10px 24px 4px;
       display: flex;
       flex-wrap: wrap;
-      gap: 18px;
+      gap: 14px 20px;
       align-items: center;
-    }
-
-    @media (max-width: 500px) {
-      .sport-nav {
-        gap: 14px 18px;
-      }
-      #sport-prime {
-        flex-basis: 100%;
-      }
     }
 
     .sport-btn {
@@ -115,6 +106,11 @@
       color: #000;
       font-weight: 700;
       border-bottom-color: #000;
+    }
+
+    @media (max-width: 500px) {
+      .sport-btn { font-size: 13px; }
+      .sport-icon { font-size: 15px; }
     }
 
     .sport-icon { font-size: 17px; }
@@ -771,9 +767,6 @@
     </button>
     <button class="sport-btn" id="sport-hbo" onclick="switchSport('hbo')">
       <span class="sport-icon">📼</span> HBO Max
-    </button>
-    <button class="sport-btn" id="sport-prime" onclick="switchSport('prime')">
-      <span class="sport-icon">📦</span> Prime Video
     </button>
   </div>
 

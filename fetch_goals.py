@@ -53,7 +53,7 @@ def clean_scorer(scorer):
     return scorer.strip()
 
 def parse_title(title):
-    if re.search(r"red card|yellow card", title, re.IGNORECASE):
+    if re.search(r"red card|yellow card|\bsave\b", title, re.IGNORECASE):
         return None
     minute_match = re.search(r"\s(\d{1,3})(?:\+\d+)?\s*'", title)
     if not minute_match:

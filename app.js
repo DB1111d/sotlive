@@ -497,7 +497,7 @@ async function switchSport(sport) {
         : '';
       const posterEl = show.thumbnail
         ? `<img class="netflix-poster" src="${show.thumbnail}" alt="${show.title}" loading="lazy" decoding="async" width="140" height="210">`
-        : `<div class="netflix-poster-placeholder">🎬</div>`;
+        : `<div class="netflix-poster-placeholder">${sport === 'hbo' ? '📼' : sport === 'prime' ? '📦' : '🎬'}</div>`;
       const cardInner = `
         ${posterEl}
         <div class="netflix-card-body">
