@@ -1,7 +1,26 @@
 {
-  "updated": "2026-03-20T18:45:09Z",
+  "updated": "2026-03-20T19:06:18Z",
   "date": "2026-03-20",
   "matches": [
+    {
+      "home": "Amiens",
+      "away": "Le Mans",
+      "goals": [
+        {
+          "postId": "1rz54yp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rz54yp",
+          "scorer": "Antoine Rabillard",
+          "minute": 2,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/kPCaaIqUd9gGYLj/watch",
+          "videoEmbed": "https://streamain.com/kPCaaIqUd9gGYLj/watch",
+          "directMp4": null,
+          "postedAt": 1774033461000
+        }
+      ]
+    },
     {
       "home": "Piast Gliwice",
       "away": "Radomiak Radom",
@@ -57,6 +76,70 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/3pyh44yys8qg1/CMAF_720.mp4?source=fallback",
           "postedAt": 1774031021000
+        },
+        {
+          "postId": "1rz4qy3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rz4qy3",
+          "scorer": "Leandro Sanca",
+          "minute": 89,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/wzfbum2ox8qg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/wzfbum2ox8qg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1774032599000
+        }
+      ]
+    },
+    {
+      "home": "Istra",
+      "away": "Varaždin",
+      "goals": [
+        {
+          "postId": "1rz4moo",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rz4moo",
+          "scorer": "Josip Radošević",
+          "minute": 81,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/cbft74nqw8qg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/cbft74nqw8qg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1774032326000
+        }
+      ]
+    },
+    {
+      "home": "Karlsruhe",
+      "away": "Greuther Fürth",
+      "goals": [
+        {
+          "postId": "1rz2vkt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rz2vkt",
+          "scorer": "Noel Futkeu",
+          "minute": 5,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/77f4d521",
+          "videoEmbed": "https://streamin.link/v/77f4d521",
+          "directMp4": null,
+          "postedAt": 1774028326000
+        },
+        {
+          "postId": "1rz4ji5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rz4ji5",
+          "scorer": "Rafael Pinto Pedrosa",
+          "minute": 48,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/37a85aff",
+          "videoEmbed": "https://streamin.link/v/37a85aff",
+          "directMp4": null,
+          "postedAt": 1774032121000
         }
       ]
     },
@@ -95,25 +178,6 @@
           "videoEmbed": "https://streamin.link/v/b1e1bda4",
           "directMp4": null,
           "postedAt": 1774029792000
-        }
-      ]
-    },
-    {
-      "home": "Karlsruhe",
-      "away": "Greuther Fürth",
-      "goals": [
-        {
-          "postId": "1rz2vkt",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rz2vkt",
-          "scorer": "Noel Futkeu",
-          "minute": 5,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/77f4d521",
-          "videoEmbed": "https://streamin.link/v/77f4d521",
-          "directMp4": null,
-          "postedAt": 1774028326000
         }
       ]
     },
