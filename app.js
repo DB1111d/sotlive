@@ -424,8 +424,9 @@ function switchToAbout() {
   const tzSelect = document.getElementById('tz-select');
   if (tzSelect) tzSelect.disabled = true;
 
-  if (currentSport === 'netflix') {
+  if (currentSport === 'netflix' || currentSport === 'hbo') {
     hideLeagueFilter();
+    hideTzPicker();
   } else {
     const tzPicker = document.getElementById('tz-picker');
     if (tzPicker) tzPicker.style.display = '';
@@ -521,12 +522,15 @@ async function switchSport(sport) {
     }
 
     function checkShowMoreButtons(grid) {
-      grid.querySelectorAll('.netflix-overview-wrap').forEach(wrap => {
-        const overview = wrap.querySelector('.netflix-overview');
-        const btn = wrap.querySelector('.netflix-show-more');
-        if (overview && btn && overview.scrollHeight <= overview.clientHeight + 2) {
-          btn.style.display = 'none';
-        }
+      // Defer until after browser paint so scrollHeight/clientHeight are accurate
+      requestAnimationFrame(() => {
+        grid.querySelectorAll('.netflix-overview-wrap').forEach(wrap => {
+          const overview = wrap.querySelector('.netflix-overview');
+          const btn = wrap.querySelector('.netflix-show-more');
+          if (overview && btn && overview.scrollHeight <= overview.clientHeight + 2) {
+            btn.style.display = 'none';
+          }
+        });
       });
     }
 
