@@ -260,7 +260,15 @@ function buildPanel(key, day) {
 
   panel.dataset.leagues = JSON.stringify(Object.keys(sortedGrouped));
 
-  let html = '';
+  // GoalFeed banner — only on today's date
+  const todayKey = new Date().toLocaleDateString('en-CA', { timeZone: 'America/New_York' }).replace(/-/g, '');
+  const goalfeedBanner = key === todayKey ? `
+    <a href="soccer-goals.html" class="goalfeed-banner">
+      <span class="goalfeed-banner-icon">🥅</span>
+      <span class="goalfeed-banner-text"><span class="goalfeed-green">GOAL</span>FEED</span>
+    </a>` : '';
+
+  let html = goalfeedBanner;
   for (const [league, info] of Object.entries(sortedGrouped)) {
     const isUefa = ['UEFA Champions League', 'UEFA Europa League', 'UEFA Europa Conference League'].includes(league);
     html += `<div class="league-group"><div class="league-label${isUefa ? ' uefa' : ''}">${league}</div>`;
