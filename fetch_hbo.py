@@ -149,18 +149,12 @@ def build_show(show_id: str, entry: dict) -> dict:
 
 def main():
     today = datetime.now(TIMEZONE)
-    label = today.strftime("%B %Y")
+    thirty_days_ago = today - timedelta(days=30)
+    label = f"{thirty_days_ago.strftime('%B %-d')} – {today.strftime('%B %-d, %Y')}"
     print(f"Fetching HBO Max releases for: {label}")
 
-    month_start = today.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
-    if today.month == 12:
-        month_end = today.replace(year=today.year + 1, month=1, day=1, hour=0, minute=0, second=0, microsecond=0)
-    else:
-        month_end = today.replace(month=today.month + 1, day=1, hour=0, minute=0, second=0, microsecond=0)
-    month_end = month_end.replace(tzinfo=TIMEZONE) - timedelta(seconds=1)
-
-    from_ts = int(month_start.replace(tzinfo=TIMEZONE).timestamp())
-    to_ts   = int(month_end.timestamp())
+    from_ts = int(thirty_days_ago.replace(hour=0, minute=0, second=0, microsecond=0).timestamp())
+    to_ts   = int(today.replace(hour=23, minute=59, second=59, microsecond=0).timestamp())
 
     print("Fetching new releases...")
     matched = fetch_changes(from_ts, to_ts)

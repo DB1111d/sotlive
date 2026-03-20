@@ -186,20 +186,16 @@ def main():
     print(f"Fetching Netflix releases for: {label}")
 
     today = datetime.now(TIMEZONE)
-    month_start = today.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
-    # Last second of the last day of the current month
-    if today.month == 12:
-        month_end = today.replace(year=today.year + 1, month=1, day=1, hour=0, minute=0, second=0, microsecond=0)
-    else:
-        month_end = today.replace(month=today.month + 1, day=1, hour=0, minute=0, second=0, microsecond=0)
-    month_end = month_end.replace(tzinfo=TIMEZONE) - timedelta(seconds=1)
+    thirty_days_ago = today - timedelta(days=30)
+    label = f"{thirty_days_ago.strftime('%B %-d')} – {today.strftime('%B %-d, %Y')}"
+    print(f"Fetching Netflix releases for: {label}")
 
-    week_from_ts = int(month_start.replace(tzinfo=TIMEZONE).timestamp())
-    week_to_ts   = int(month_end.timestamp())
+    from_ts = int(thirty_days_ago.replace(hour=0, minute=0, second=0, microsecond=0).timestamp())
+    to_ts   = int(today.replace(hour=23, minute=59, second=59, microsecond=0).timestamp())
 
     # ── Fetch new releases for the month ─────────────────────────────────────
     print("Fetching new releases...")
-    new_shows = fetch_changes("new", week_from_ts, week_to_ts)
+    new_shows = fetch_changes("new", from_ts, to_ts)
     print(f"  Total new: {len(new_shows)}")
     matched = new_shows
 

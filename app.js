@@ -471,7 +471,7 @@ async function switchSport(sport) {
 
     if (groupNames.length === 0) {
       contentEl.innerHTML =
-        '<div class="empty"><div class="empty-icon">🎬</div>No new releases this month.</div>';
+        `<div class="empty"><div class="empty-icon">${sport === 'hbo' ? '📼' : '🎬'}</div>No new releases this month.</div>`;
       const aboutBtn = document.createElement('button');
       aboutBtn.className = 'tab';
       aboutBtn.id = 'about-tab';
