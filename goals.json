@@ -1,5 +1,25 @@
 {
-  "updated": "2026-03-20T16:53:43Z",
+  "updated": "2026-03-20T17:34:03Z",
   "date": "2026-03-20",
-  "matches": []
+  "matches": [
+    {
+      "home": "Piast Gliwice",
+      "away": "Radomiak Radom",
+      "goals": [
+        {
+          "postId": "1rz22ov",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rz22ov",
+          "scorer": "Jorge Félix",
+          "minute": 7,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/mjbmobimf8qg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/mjbmobimf8qg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1774026543000
+        }
+      ]
+    }
+  ]
 }
