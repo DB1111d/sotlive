@@ -421,17 +421,11 @@ function switchToAbout() {
   document.getElementById('content').style.display = 'none';
   document.getElementById('about-panel').classList.add('active');
 
+  showTzPicker();
+  showLeagueFilter();
+  populateLeagueFilter([]);
   const tzSelect = document.getElementById('tz-select');
   if (tzSelect) tzSelect.disabled = true;
-
-  if (currentSport === 'netflix') {
-    hideLeagueFilter();
-  } else {
-    const tzPicker = document.getElementById('tz-picker');
-    if (tzPicker) tzPicker.style.display = '';
-    showLeagueFilter();
-    populateLeagueFilter([]);
-  }
 }
 
 // ── Sport switching ───────────────────────────────────────────────

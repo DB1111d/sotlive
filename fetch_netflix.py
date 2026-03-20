@@ -242,3 +242,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+    print("\n--- Running HBO Max fetch ---")
+    import fetch_hbo
+    fetch_hbo.main()
