@@ -1,12 +1,6 @@
 """
 fetch_hbo.py
-Fetches HBO Max (Max) US new releases for the current Sunday–Saturday week.
-Uses the same two-pass approach as fetch_netflix.py:
-  1. Fetch change_type=new  for the full week (what actually appeared)
-  2. Fetch change_type=upcoming for the full week (what Max announced)
-  3. Keep only shows that appear in BOTH lists
-Bulk catalogue re-uploads are never announced as upcoming, so they
-are automatically filtered out. Genuine new releases are in both.
+Fetches HBO Max US new releases for the current calendar month.
 Writes output to hbo.json grouped by type, sorted newest first.
 Runs as part of the Netflix GitHub Actions job (combined to save API quota).
 """
@@ -18,8 +12,6 @@ import urllib.parse
 import urllib.error
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
-
-# ─── Configuration ────────────────────────────────────────────────────────────
 
 TIMEZONE = ZoneInfo("America/New_York")
 API_HOST = "streaming-availability.p.rapidapi.com"
@@ -34,20 +26,6 @@ TYPE_LABELS = {
     "special":     "Specials",
 }
 
-# ─── Helpers ──────────────────────────────────────────────────────────────────
-
-def week_bounds():
-    today = datetime.now(TIMEZONE).date()
-    days_since_sunday = (today.weekday() + 1) % 7
-    sunday   = today - timedelta(days=days_since_sunday)
-    saturday = sunday + timedelta(days=6)
-    return sunday, saturday
-
-
-def week_label(sunday, saturday):
-    today = datetime.now(TIMEZONE)
-    return today.strftime("%B %Y")
-
 
 def api_request(path: str, params: dict) -> dict:
     query = "&".join(f"{k}={urllib.parse.quote(str(v))}" for k, v in params.items())
@@ -60,25 +38,19 @@ def api_request(path: str, params: dict) -> dict:
         return json.loads(resp.read().decode("utf-8"))
 
 
-# ─── Fetch one change_type ────────────────────────────────────────────────────
-
-def fetch_changes(change_type: str, from_ts: int, to_ts: int, catalog: str = "hbo") -> dict:
-    """
-    Fetch all changes of a given type within the time window.
-    Returns a dict of showId -> show data (with added_ts from the change).
-    """
+def fetch_changes(from_ts: int, to_ts: int) -> dict:
     if not API_KEY:
         print("ERROR: RAPIDAPI_KEY environment variable not set.")
         return {}
 
-    results  = {}
-    cursor   = None
+    results = {}
+    cursor  = None
 
     while True:
         params = {
             "country":         "us",
-            "catalogs":        catalog,
-            "change_type":     change_type,
+            "catalogs":        "hbo",
+            "change_type":     "new",
             "item_type":       "show",
             "order_direction": "desc",
             "from":            from_ts,
@@ -90,15 +62,14 @@ def fetch_changes(change_type: str, from_ts: int, to_ts: int, catalog: str = "hb
         try:
             data = api_request("/changes", params)
         except urllib.error.HTTPError as e:
-            print(f"  HTTP error ({change_type}): {e.code} {e.reason}")
+            print(f"  HTTP error: {e.code} {e.reason}")
             try:
-                body = e.read().decode('utf-8')
-                print(f"  Body: {body[:500]}")
+                print(f"  Body: {e.read().decode('utf-8')[:500]}")
             except Exception:
                 pass
             break
         except Exception as e:
-            print(f"  API error ({change_type}): {e}")
+            print(f"  API error: {e}")
             break
 
         changes  = data.get("changes", [])
@@ -106,7 +77,7 @@ def fetch_changes(change_type: str, from_ts: int, to_ts: int, catalog: str = "hb
         has_more = data.get("hasMore", False)
         cursor   = data.get("nextCursor", None)
 
-        print(f"  [hbo/{change_type}] got {len(changes)} changes (hasMore={has_more})")
+        print(f"  [hbo/new] got {len(changes)} changes (hasMore={has_more})")
 
         for change in changes:
             show_id = change.get("showId")
@@ -142,8 +113,6 @@ def fetch_changes(change_type: str, from_ts: int, to_ts: int, catalog: str = "hb
     return results
 
 
-# ─── Build show record ────────────────────────────────────────────────────────
-
 def build_show(show_id: str, entry: dict) -> dict:
     show     = entry["show"]
     added_ts = entry["added_ts"]
@@ -178,14 +147,11 @@ def build_show(show_id: str, entry: dict) -> dict:
     }
 
 
-# ─── Main ─────────────────────────────────────────────────────────────────────
-
 def main():
-    sunday, saturday = week_bounds()
-    label = week_label(sunday, saturday)
+    today = datetime.now(TIMEZONE)
+    label = today.strftime("%B %Y")
     print(f"Fetching HBO Max releases for: {label}")
 
-    today = datetime.now(TIMEZONE)
     month_start = today.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
     if today.month == 12:
         month_end = today.replace(year=today.year + 1, month=1, day=1, hour=0, minute=0, second=0, microsecond=0)
@@ -193,36 +159,15 @@ def main():
         month_end = today.replace(month=today.month + 1, day=1, hour=0, minute=0, second=0, microsecond=0)
     month_end = month_end.replace(tzinfo=TIMEZONE) - timedelta(seconds=1)
 
-    week_from_ts = int(month_start.replace(tzinfo=TIMEZONE).timestamp())
-    week_to_ts   = int(month_end.timestamp())
-    today_ts     = int(today.replace(hour=0, minute=0, second=0, microsecond=0).timestamp())
+    from_ts = int(month_start.replace(tzinfo=TIMEZONE).timestamp())
+    to_ts   = int(month_end.timestamp())
 
-    # ── Pass 1: what actually appeared as new this week ──────────────────────
-    # "hbo" is the correct catalog ID — "max" is not recognized by this API.
-    print("Pass 1: fetching new releases...")
-    new_shows = fetch_changes("new", week_from_ts, week_to_ts, catalog="hbo")
-    print(f"  Total new: {len(new_shows)}")
+    print("Fetching new releases...")
+    matched = fetch_changes(from_ts, to_ts)
+    print(f"  Total new: {len(matched)}")
 
-    # ── Pass 2: upcoming — HBO rarely has upcoming entries so we skip the
-    # intersection and just use new_shows directly (same as Netflix fallback).
-    upcoming_from = max(week_from_ts, today_ts)
-    print("Pass 2: fetching upcoming announcements...")
-    upcoming_shows = fetch_changes("upcoming", upcoming_from, week_to_ts, catalog="hbo")
-    print(f"  Total upcoming: {len(upcoming_shows)}")
-
-    # ── Intersect only if upcoming has results, otherwise use new directly ────
-    announced_ids = set(upcoming_shows.keys())
-    matched = {sid: entry for sid, entry in new_shows.items() if sid in announced_ids}
-    print(f"  Matched (in both): {len(matched)}")
-
-    if not matched:
-        print("  No upcoming matches — using new releases directly")
-        matched = new_shows
-
-    # ── Build show records ────────────────────────────────────────────────────
     shows = [build_show(sid, entry) for sid, entry in matched.items()]
 
-    # ── Group by type ─────────────────────────────────────────────────────────
     grouped = {}
     for show in shows:
         t = show["type"]
@@ -242,7 +187,7 @@ def main():
             ordered_groups[label_key] = items
 
     output = {
-        "updated":    datetime.now(TIMEZONE).strftime("%Y-%m-%d %H:%M %Z"),
+        "updated":    today.strftime("%Y-%m-%d %H:%M %Z"),
         "week_label": label,
         "groups":     ordered_groups,
     }

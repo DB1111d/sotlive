@@ -196,30 +196,12 @@ def main():
 
     week_from_ts = int(month_start.replace(tzinfo=TIMEZONE).timestamp())
     week_to_ts   = int(month_end.timestamp())
-    today_ts     = int(today.replace(hour=0, minute=0, second=0, microsecond=0).timestamp())
 
-    # ── Pass 1: what actually appeared as new this week ──────────────────────
-    print("Pass 1: fetching new releases...")
+    # ── Fetch new releases for the month ─────────────────────────────────────
+    print("Fetching new releases...")
     new_shows = fetch_changes("new", week_from_ts, week_to_ts)
     print(f"  Total new: {len(new_shows)}")
-
-    # ── Pass 2: what Netflix announced as upcoming this week ─────────────────
-    # upcoming can only query today → future, so clamp from_ts to today
-    upcoming_from = max(week_from_ts, today_ts)
-    print("Pass 2: fetching upcoming announcements...")
-    upcoming_shows = fetch_changes("upcoming", upcoming_from, week_to_ts)
-    print(f"  Total upcoming: {len(upcoming_shows)}")
-
-    # ── Intersect: keep only shows in both lists ──────────────────────────────
-    announced_ids = set(upcoming_shows.keys())
-    matched = {sid: entry for sid, entry in new_shows.items() if sid in announced_ids}
-    print(f"  Matched (in both): {len(matched)}")
-
-    # If upcoming returns nothing (e.g. early in the week before announcements),
-    # fall back to new_shows only so the page isn't empty
-    if not matched and new_shows:
-        print("  No upcoming matches found — falling back to new_shows only")
-        matched = new_shows
+    matched = new_shows
 
     # ── Build show records ────────────────────────────────────────────────────
     shows = [build_show(sid, entry) for sid, entry in matched.items()]

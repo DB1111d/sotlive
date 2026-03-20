@@ -424,8 +424,7 @@ function switchToAbout() {
   const tzSelect = document.getElementById('tz-select');
   if (tzSelect) tzSelect.disabled = true;
 
-  if (currentSport === 'netflix' || currentSport === 'hbo') {
-    hideTzPicker();
+  if (currentSport === 'netflix') {
     hideLeagueFilter();
   } else {
     const tzPicker = document.getElementById('tz-picker');
@@ -460,11 +459,12 @@ async function switchSport(sport) {
   hideLeagueFilter();
   resetLeagueFilter();
 
-  // Netflix is a completely different layout — no day tabs
-  if (sport === 'netflix') {
+  // Netflix and HBO Max share the same tile layout — no day tabs
+  if (sport === 'netflix' || sport === 'hbo') {
+    const jsonFile = sport === 'hbo' ? 'hbo.json' : 'netflix.json';
     let data;
     try {
-      const res = await fetch('netflix.json?v=' + Math.floor(Date.now() / 3600000));
+      const res = await fetch(jsonFile + '?v=' + Math.floor(Date.now() / 3600000));
       data = await res.json();
     } catch (e) {
       contentEl.innerHTML =
@@ -477,7 +477,7 @@ async function switchSport(sport) {
 
     if (groupNames.length === 0) {
       contentEl.innerHTML =
-        '<div class="empty"><div class="empty-icon">🎬</div>No new releases this week.</div>';
+        '<div class="empty"><div class="empty-icon">🎬</div>No new releases this month.</div>';
       const aboutBtn = document.createElement('button');
       aboutBtn.className = 'tab';
       aboutBtn.id = 'about-tab';
@@ -532,11 +532,11 @@ async function switchSport(sport) {
       });
     }
 
-    // Per-panel scroll state
-    const netflixState = {}; // panelId -> { shows, offset, grid, sentinel, observer }
+    const streamingState = {};
+    const streamingPanels = {};
 
     function appendNextPage(panelId) {
-      const state = netflixState[panelId];
+      const state = streamingState[panelId];
       if (!state || state.offset >= state.shows.length) return;
       const slice = state.shows.slice(state.offset, state.offset + PAGE_SIZE);
       state.offset += slice.length;
@@ -546,17 +546,14 @@ async function switchSport(sport) {
       while (tmp.firstChild) frag.appendChild(tmp.firstChild);
       state.grid.insertBefore(frag, state.sentinel);
       checkShowMoreButtons(state.grid);
-      // If all loaded, remove sentinel and disconnect observer
       if (state.offset >= state.shows.length) {
         state.sentinel.remove();
         state.observer.disconnect();
       }
     }
 
-    // Build panel shells — only first page of cards rendered immediately
-    const netflixPanels = {};
     groupNames.forEach((groupName, idx) => {
-      const panelId = `panel-netflix-${groupName.replace(/\s+/g, '-').toLowerCase()}`;
+      const panelId = `panel-${sport}-${groupName.replace(/\s+/g, '-').toLowerCase()}`;
       const shows = groups[groupName];
 
       const panel = document.createElement('div');
@@ -566,7 +563,6 @@ async function switchSport(sport) {
       const grid = document.createElement('div');
       grid.className = 'netflix-grid';
 
-      // Sentinel div at end of grid — IntersectionObserver triggers next page load
       const sentinel = document.createElement('div');
       sentinel.className = 'netflix-sentinel';
       sentinel.style.cssText = 'height:1px;margin-top:40px;';
@@ -577,46 +573,40 @@ async function switchSport(sport) {
       }, { rootMargin: '400px' });
       observer.observe(sentinel);
 
-      netflixState[panelId] = { shows, offset: 0, grid, sentinel, observer };
+      streamingState[panelId] = { shows, offset: 0, grid, sentinel, observer };
 
       let headerHTML = `<div class="netflix-week-label">${data.week_label || ''}</div>`;
       headerHTML += `<div class="netflix-section-title">${groupName}</div>`;
       panel.innerHTML = headerHTML;
       panel.appendChild(grid);
       contentEl.appendChild(panel);
-      netflixPanels[panelId] = panel;
+      streamingPanels[panelId] = panel;
 
-      // Render first page immediately only for first tab; others render on first activation
-      if (idx === 0) {
-        appendNextPage(panelId);
-      }
+      if (idx === 0) appendNextPage(panelId);
     });
 
-    function activateNetflixPanel(panelId, tabBtn) {
+    function activateStreamingPanel(panelId, tabBtn) {
       document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
       tabBtn.classList.add('active');
       document.getElementById('about-panel').classList.remove('active');
       contentEl.style.display = '';
-      Object.values(netflixPanels).forEach(p => p.classList.remove('active'));
-      const panel = netflixPanels[panelId];
-      panel.classList.add('active');
+      Object.values(streamingPanels).forEach(p => p.classList.remove('active'));
+      streamingPanels[panelId].classList.add('active');
       hideTzPicker();
       hideLeagueFilter();
-      // Render first page on first activation
-      const state = netflixState[panelId];
+      const state = streamingState[panelId];
       if (state && state.offset === 0) appendNextPage(panelId);
     }
 
     let firstTab = true;
     groupNames.forEach(groupName => {
-      const panelId = `panel-netflix-${groupName.replace(/\s+/g, '-').toLowerCase()}`;
+      const panelId = `panel-${sport}-${groupName.replace(/\s+/g, '-').toLowerCase()}`;
       const btn = document.createElement('button');
       btn.className = 'tab' + (firstTab ? ' active' : '');
-      btn.dataset.netflixCategory = panelId;
       btn.textContent = groupName;
-      btn.addEventListener('click', () => activateNetflixPanel(panelId, btn));
+      btn.addEventListener('click', () => activateStreamingPanel(panelId, btn));
       tabsEl.appendChild(btn);
-      if (firstTab) netflixPanels[panelId].classList.add('active');
+      if (firstTab) streamingPanels[panelId].classList.add('active');
       firstTab = false;
     });
 
