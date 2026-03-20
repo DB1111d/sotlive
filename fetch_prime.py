@@ -168,7 +168,7 @@ def main():
     to_ts   = int(today.replace(hour=23, minute=59, second=59, microsecond=0).timestamp())
 
     print("Fetching new releases...")
-    matched = fetch_changes("new", from_ts, to_ts)
+    matched = fetch_changes(from_ts, to_ts)
     print(f"  Total new: {len(matched)}")
 
     shows = [build_show(sid, entry) for sid, entry in matched.items()]
