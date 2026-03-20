@@ -89,7 +89,7 @@ def fetch_changes(change_type: str, from_ts: int, to_ts: int, catalog: str = "hb
         try:
             data = api_request("/changes", params)
         except urllib.error.HTTPError as e:
-            print(f"  HTTP error ({change_type}, catalog={catalog}): {e.code} {e.reason}")
+            print(f"  HTTP error ({change_type}): {e.code} {e.reason}")
             try:
                 body = e.read().decode('utf-8')
                 print(f"  Body: {body[:500]}")
@@ -97,7 +97,7 @@ def fetch_changes(change_type: str, from_ts: int, to_ts: int, catalog: str = "hb
                 pass
             break
         except Exception as e:
-            print(f"  API error ({change_type}, catalog={catalog}): {e}")
+            print(f"  API error ({change_type}): {e}")
             break
 
         changes  = data.get("changes", [])
@@ -105,17 +105,7 @@ def fetch_changes(change_type: str, from_ts: int, to_ts: int, catalog: str = "hb
         has_more = data.get("hasMore", False)
         cursor   = data.get("nextCursor", None)
 
-        print(f"  [hbo/{change_type}] catalog={catalog} got {len(changes)} changes (hasMore={has_more})")
-
-        # Debug: print first change raw to inspect structure
-        if changes and not results:
-            print(f"  DEBUG first change keys: {list(changes[0].keys())}")
-            first_show_id = changes[0].get("showId")
-            if first_show_id and str(first_show_id) in shows:
-                first_show = shows[str(first_show_id)]
-                opts = first_show.get("streamingOptions", {}).get("us", [])
-                service_ids = [o.get("service", {}).get("id") for o in opts if isinstance(o, dict)]
-                print(f"  DEBUG first show service ids: {service_ids}")
+        print(f"  [hbo/{change_type}] got {len(changes)} changes (hasMore={has_more})")
 
         for change in changes:
             show_id = change.get("showId")
@@ -202,29 +192,26 @@ def main():
                        hour=0, minute=0, second=0, microsecond=0).timestamp())
 
     # ── Pass 1: what actually appeared as new this week ──────────────────────
-    # Try both "hbo" and "max" — the catalog ID changed when the service rebranded.
-    # We merge both to be safe and deduplicate by showId.
-    print("Pass 1: fetching new releases (catalog=hbo)...")
+    # "hbo" is the correct catalog ID — "max" is not recognized by this API.
+    print("Pass 1: fetching new releases...")
     new_shows = fetch_changes("new", week_from_ts, week_to_ts, catalog="hbo")
-    print(f"  Total new (hbo): {len(new_shows)}")
+    print(f"  Total new: {len(new_shows)}")
 
-    print("Pass 1b: fetching new releases (catalog=max)...")
-    new_shows_max = fetch_changes("new", week_from_ts, week_to_ts, catalog="max")
-    print(f"  Total new (max): {len(new_shows_max)}")
-    new_shows.update(new_shows_max)  # merge, max overwrites hbo dupes (same data)
-    print(f"  Total new (combined): {len(new_shows)}")
-
-    # ── Pass 2: what Max announced as upcoming this week ─────────────────────
+    # ── Pass 2: upcoming — HBO rarely has upcoming entries so we skip the
+    # intersection and just use new_shows directly (same as Netflix fallback).
     upcoming_from = max(week_from_ts, today_ts)
-    print("Pass 2: fetching upcoming announcements (catalog=hbo)...")
+    print("Pass 2: fetching upcoming announcements...")
     upcoming_shows = fetch_changes("upcoming", upcoming_from, week_to_ts, catalog="hbo")
-    print(f"  Total upcoming (hbo): {len(upcoming_shows)}")
+    print(f"  Total upcoming: {len(upcoming_shows)}")
 
-    print("Pass 2b: fetching upcoming announcements (catalog=max)...")
-    upcoming_shows_max = fetch_changes("upcoming", upcoming_from, week_to_ts, catalog="max")
-    print(f"  Total upcoming (max): {len(upcoming_shows_max)}")
-    upcoming_shows.update(upcoming_shows_max)
-    print(f"  Total upcoming (combined): {len(upcoming_shows)}")
+    # ── Intersect only if upcoming has results, otherwise use new directly ────
+    announced_ids = set(upcoming_shows.keys())
+    matched = {sid: entry for sid, entry in new_shows.items() if sid in announced_ids}
+    print(f"  Matched (in both): {len(matched)}")
+
+    if not matched:
+        print("  No upcoming matches — using new releases directly")
+        matched = new_shows
 
     # ── Intersect: keep only shows in both lists ──────────────────────────────
     announced_ids = set(upcoming_shows.keys())
