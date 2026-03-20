@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-20T21:58:41Z",
+  "updated": "2026-03-20T22:36:34Z",
   "date": "2026-03-20",
   "matches": [
     {
@@ -668,70 +668,6 @@
           "videoEmbed": "https://streamain.com/vrGUn0IBtLFme7X/watch",
           "directMp4": null,
           "postedAt": 1774035706000
-        }
-      ]
-    },
-    {
-      "home": "Piast Gliwice",
-      "away": "Radomiak Radom",
-      "goals": [
-        {
-          "postId": "1rz3zxm",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rz3zxm",
-          "scorer": "Rafał Wolski",
-          "minute": 61,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/900ew06js8qg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/900ew06js8qg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1774030868000
-        },
-        {
-          "postId": "1rz42eu",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rz42eu",
-          "scorer": "Emmanuel Twumasi",
-          "minute": 63,
-          "homeScore": 2,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/3pyh44yys8qg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/3pyh44yys8qg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1774031021000
-        },
-        {
-          "postId": "1rz4qy3",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rz4qy3",
-          "scorer": "Leandro Sanca",
-          "minute": 89,
-          "homeScore": 3,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/wzfbum2ox8qg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/wzfbum2ox8qg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1774032599000
-        }
-      ]
-    },
-    {
-      "home": "Istra",
-      "away": "Varaždin",
-      "goals": [
-        {
-          "postId": "1rz4moo",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rz4moo",
-          "scorer": "Josip Radošević",
-          "minute": 81,
-          "homeScore": 2,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/cbft74nqw8qg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/cbft74nqw8qg1/CMAF_1080.mp4?source=fallback",
-          "postedAt": 1774032326000
         }
       ]
     }
