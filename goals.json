@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-20T18:06:17Z",
+  "updated": "2026-03-20T18:45:09Z",
   "date": "2026-03-20",
   "matches": [
     {
@@ -18,6 +18,121 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/mjbmobimf8qg1/CMAF_720.mp4?source=fallback",
           "postedAt": 1774026543000
+        },
+        {
+          "postId": "1rz3t67",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rz3t67",
+          "scorer": "Filip Majchrowicz penalty save",
+          "minute": 52,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/310afygar8qg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/310afygar8qg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1774030450000
+        },
+        {
+          "postId": "1rz3zxm",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rz3zxm",
+          "scorer": "Rafał Wolski",
+          "minute": 61,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/900ew06js8qg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/900ew06js8qg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1774030868000
+        },
+        {
+          "postId": "1rz42eu",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rz42eu",
+          "scorer": "Emmanuel Twumasi",
+          "minute": 63,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/3pyh44yys8qg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/3pyh44yys8qg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1774031021000
+        }
+      ]
+    },
+    {
+      "home": "Wehen Wiesbaden",
+      "away": "Hansa Rostock",
+      "goals": [
+        {
+          "postId": "1rz3o2e",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rz3o2e",
+          "scorer": "Kenan Fatkic",
+          "minute": 4,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/b61c8b94",
+          "videoEmbed": "https://streamin.link/v/b61c8b94",
+          "directMp4": null,
+          "postedAt": 1774030120000
+        }
+      ]
+    },
+    {
+      "home": "Hannover",
+      "away": "Eintracht Braunschweig",
+      "goals": [
+        {
+          "postId": "1rz3iz0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rz3iz0",
+          "scorer": "Maik Nawrocki",
+          "minute": 31,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/b1e1bda4",
+          "videoEmbed": "https://streamin.link/v/b1e1bda4",
+          "directMp4": null,
+          "postedAt": 1774029792000
+        }
+      ]
+    },
+    {
+      "home": "Karlsruhe",
+      "away": "Greuther Fürth",
+      "goals": [
+        {
+          "postId": "1rz2vkt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rz2vkt",
+          "scorer": "Noel Futkeu",
+          "minute": 5,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/77f4d521",
+          "videoEmbed": "https://streamin.link/v/77f4d521",
+          "directMp4": null,
+          "postedAt": 1774028326000
+        }
+      ]
+    },
+    {
+      "home": "Cagliari",
+      "away": "Napoli",
+      "goals": [
+        {
+          "postId": "1rz2r7j",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rz2r7j",
+          "scorer": "Scott McTominay",
+          "minute": 2,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.top/v/e92d740a",
+          "videoEmbed": "https://streamin.top/v/e92d740a",
+          "directMp4": null,
+          "postedAt": 1774028049000
         }
       ]
     }
