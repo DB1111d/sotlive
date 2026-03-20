@@ -79,8 +79,18 @@
       margin: 0 auto;
       padding: 10px 24px 4px;
       display: flex;
+      flex-wrap: wrap;
       gap: 18px;
       align-items: center;
+    }
+
+    @media (max-width: 500px) {
+      .sport-nav {
+        gap: 14px 18px;
+      }
+      #sport-prime {
+        flex-basis: 100%;
+      }
     }
 
     .sport-btn {
@@ -762,6 +772,9 @@
     <button class="sport-btn" id="sport-hbo" onclick="switchSport('hbo')">
       <span class="sport-icon">📼</span> HBO Max
     </button>
+    <button class="sport-btn" id="sport-prime" onclick="switchSport('prime')">
+      <span class="sport-icon">📦</span> Prime Video
+    </button>
   </div>
 
   <div class="tz-picker" id="tz-picker"></div>
@@ -851,7 +864,7 @@
             <span class="faq-chevron">▼</span>
           </summary>
           <div class="faq-answer">
-            Only newly released content from the last 30 days displays, updated daily.
+            Only newly released content for the current week displays.
           </div>
         </details>
 

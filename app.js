@@ -454,8 +454,8 @@ async function switchSport(sport) {
   resetLeagueFilter();
 
   // Netflix and HBO Max share the same tile layout — no day tabs
-  if (sport === 'netflix' || sport === 'hbo') {
-    const jsonFile = sport === 'hbo' ? 'hbo.json' : 'netflix.json';
+  if (sport === 'netflix' || sport === 'hbo' || sport === 'prime') {
+    const jsonFile = sport === 'hbo' ? 'hbo.json' : sport === 'prime' ? 'prime.json' : 'netflix.json';
     let data;
     try {
       const res = await fetch(jsonFile + '?v=' + Math.floor(Date.now() / 3600000));

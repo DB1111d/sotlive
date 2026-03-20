@@ -1,14 +1,8 @@
 """
-fetch_netflix.py
-Fetches Netflix US new releases for the current Sunday–Saturday week.
-Uses a two-pass approach to eliminate bulk re-upload noise:
-  1. Fetch change_type=new  for the full week (what actually appeared)
-  2. Fetch change_type=upcoming for the full week (what Netflix announced)
-  3. Keep only shows that appear in BOTH lists
-Bulk catalogue re-uploads are never announced as upcoming, so they
-are automatically filtered out. Genuine new releases are in both.
-Writes output to netflix.json grouped by type, sorted newest first.
-Runs once daily via GitHub Actions.
+fetch_prime.py
+Fetches Prime Video US new releases for the current calendar month.
+Writes output to prime.json grouped by type, sorted newest first.
+Runs as part of the Netflix GitHub Actions job (combined to save API quota).
 """
 
 import json
@@ -18,8 +12,6 @@ import urllib.parse
 import urllib.error
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
-
-# ─── Configuration ────────────────────────────────────────────────────────────
 
 TIMEZONE = ZoneInfo("America/New_York")
 API_HOST = "streaming-availability.p.rapidapi.com"
@@ -34,20 +26,6 @@ TYPE_LABELS = {
     "special":     "Specials",
 }
 
-# ─── Helpers ──────────────────────────────────────────────────────────────────
-
-def week_bounds():
-    today = datetime.now(TIMEZONE).date()
-    days_since_sunday = (today.weekday() + 1) % 7
-    sunday   = today - timedelta(days=days_since_sunday)
-    saturday = sunday + timedelta(days=6)
-    return sunday, saturday
-
-
-def week_label(sunday, saturday):
-    today = datetime.now(TIMEZONE)
-    return today.strftime("%B %Y")
-
 
 def api_request(path: str, params: dict) -> dict:
     query = "&".join(f"{k}={urllib.parse.quote(str(v))}" for k, v in params.items())
@@ -60,25 +38,19 @@ def api_request(path: str, params: dict) -> dict:
         return json.loads(resp.read().decode("utf-8"))
 
 
-# ─── Fetch one change_type ────────────────────────────────────────────────────
-
-def fetch_changes(change_type: str, from_ts: int, to_ts: int) -> dict:
-    """
-    Fetch all changes of a given type within the time window.
-    Returns a dict of showId -> show data (with added_ts from the change).
-    """
+def fetch_changes(from_ts: int, to_ts: int) -> dict:
     if not API_KEY:
         print("ERROR: RAPIDAPI_KEY environment variable not set.")
         return {}
 
-    results  = {}
-    cursor   = None
+    results = {}
+    cursor  = None
 
     while True:
         params = {
             "country":         "us",
-            "catalogs":        "netflix",
-            "change_type":     change_type,
+            "catalogs":        "prime",
+            "change_type":     "new",
             "item_type":       "show",
             "order_direction": "desc",
             "from":            from_ts,
@@ -90,14 +62,14 @@ def fetch_changes(change_type: str, from_ts: int, to_ts: int) -> dict:
         try:
             data = api_request("/changes", params)
         except urllib.error.HTTPError as e:
-            print(f"  HTTP error ({change_type}): {e.code} {e.reason}")
+            print(f"  HTTP error: {e.code} {e.reason}")
             try:
                 print(f"  Body: {e.read().decode('utf-8')[:500]}")
             except Exception:
                 pass
             break
         except Exception as e:
-            print(f"  API error ({change_type}): {e} — retrying in 10s...")
+            print(f"  API error: {e} — retrying in 10s...")
             import time
             time.sleep(10)
             try:
@@ -111,7 +83,7 @@ def fetch_changes(change_type: str, from_ts: int, to_ts: int) -> dict:
         has_more = data.get("hasMore", False)
         cursor   = data.get("nextCursor", None)
 
-        print(f"  [{change_type}] got {len(changes)} changes (hasMore={has_more})")
+        print(f"  [prime/new] got {len(changes)} changes (hasMore={has_more})")
 
         for change in changes:
             show_id = change.get("showId")
@@ -124,17 +96,16 @@ def fetch_changes(change_type: str, from_ts: int, to_ts: int) -> dict:
 
             added_ts = change.get("timestamp", 0)
 
-            # Prefer the deep link from the change object (guaranteed for upcoming)
             link = change.get("link", "") or ""
             if not link:
                 streaming_options = show.get("streamingOptions", {}).get("us", [])
-                netflix_option = next(
+                prime_option = next(
                     (s for s in streaming_options
-                     if isinstance(s, dict) and s.get("service", {}).get("id") == "netflix"),
+                     if isinstance(s, dict) and s.get("service", {}).get("id") == "prime"),
                     None
                 )
-                if netflix_option:
-                    link = netflix_option.get("link", "")
+                if prime_option:
+                    link = prime_option.get("link", "")
 
             results[show_id] = {
                 "show":     show,
@@ -147,8 +118,6 @@ def fetch_changes(change_type: str, from_ts: int, to_ts: int) -> dict:
 
     return results
 
-
-# ─── Build show record ────────────────────────────────────────────────────────
 
 def build_show(show_id: str, entry: dict) -> dict:
     show     = entry["show"]
@@ -184,41 +153,29 @@ def build_show(show_id: str, entry: dict) -> dict:
     }
 
 
-# ─── Main ─────────────────────────────────────────────────────────────────────
-
 def main():
-    sunday, saturday = week_bounds()
-    label = week_label(sunday, saturday)
-    print(f"Fetching Netflix releases for: {label}")
-
     today = datetime.now(TIMEZONE)
     thirty_days_ago = today - timedelta(days=30)
     label = f"{thirty_days_ago.strftime('%B %-d')} – {today.strftime('%B %-d, %Y')}"
-    print(f"Fetching Netflix releases for: {label}")
+    print(f"Fetching Prime Video releases for: {label}")
 
     from_ts = int(thirty_days_ago.replace(hour=0, minute=0, second=0, microsecond=0).timestamp())
     to_ts   = int(today.replace(hour=23, minute=59, second=59, microsecond=0).timestamp())
 
-    # ── Fetch new releases for the month ─────────────────────────────────────
     print("Fetching new releases...")
-    new_shows = fetch_changes("new", from_ts, to_ts)
-    print(f"  Total new: {len(new_shows)}")
-    matched = new_shows
+    matched = fetch_changes(from_ts, to_ts)
+    print(f"  Total new: {len(matched)}")
 
-    # ── Build show records ────────────────────────────────────────────────────
     shows = [build_show(sid, entry) for sid, entry in matched.items()]
 
-    # ── Group by type ─────────────────────────────────────────────────────────
     grouped = {}
     for show in shows:
         t = show["type"]
         grouped.setdefault(t, []).append(show)
 
-    # Sort each group newest first
     for t in grouped:
         grouped[t].sort(key=lambda s: s["added_ts"], reverse=True)
 
-    # Order groups by TYPE_ORDER
     ordered_groups = {}
     for t in TYPE_ORDER:
         label_key = TYPE_LABELS.get(t, t.title())
@@ -230,23 +187,17 @@ def main():
             ordered_groups[label_key] = items
 
     output = {
-        "updated":    datetime.now(TIMEZONE).strftime("%Y-%m-%d %H:%M %Z"),
+        "updated":    today.strftime("%Y-%m-%d %H:%M %Z"),
         "week_label": label,
         "groups":     ordered_groups,
     }
 
-    with open("netflix.json", "w") as f:
+    with open("prime.json", "w") as f:
         json.dump(output, f, indent=2)
 
     total = sum(len(v) for v in ordered_groups.values())
-    print(f"Done! {total} releases written to netflix.json")
+    print(f"Done! {total} releases written to prime.json")
 
 
 if __name__ == "__main__":
     main()
-    print("\n--- Running HBO Max fetch ---")
-    import fetch_hbo
-    fetch_hbo.main()
-    print("\n--- Running Prime Video fetch ---")
-    import fetch_prime
-    fetch_prime.main()
