@@ -110,20 +110,9 @@
     padding: 18px 24px;
     border-bottom: 1px solid var(--border);
     gap: 16px;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     cursor: pointer;
     user-select: none;
-  }
-
-  .match-teams {
-    font-family: var(--display);
-    font-size: 1.5rem;
-    letter-spacing: 0.04em;
-    line-height: 1;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    min-width: 0;
   }
 
   .match-header:hover {
@@ -258,40 +247,7 @@
     word-break: break-all;
   }
 
-  /* Streamain: show embed on desktop, button on mobile */
-  .streamain-mobile-btn {
-    display: none;
-    white-space: nowrap;
-  }
-  .streamain-iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
-    display: block;
-  }
-
-  @media (max-width: 600px) {
-    .streamain-iframe {
-      display: none;
-    }
-    .streamain-mobile-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: #1a6b3c;
-      color: #fff;
-      padding: 10px 20px;
-      border-radius: 4px;
-      text-decoration: none;
-      font-family: var(--mono);
-      font-size: 0.8rem;
-      letter-spacing: 0.05em;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-  }
+  /* ── Empty / loading states ── */
   #feed-container {
     min-height: 300px;
   }
@@ -394,10 +350,10 @@
       font-size: 2.2rem;
     }
 
-    /* Mobile video */
+    /* Clip Streamain's internal header bar on mobile */
     .video-wrap iframe {
-      height: 100%;
-      margin-top: 0;
+      height: 115%;
+      margin-top: -15%;
     }
   }
 </style>
@@ -502,7 +458,7 @@ function renderMatch(match, key, isCollapsed) {
   const collapsed = isCollapsed ? 'collapsed' : '';
   const goalRows = match.goals.map(g => `
     <div class="goal-row">
-      <div class="goal-minute">${g.minute != null && g.minute !== 0 ? g.minute + "'" : "?'"}</div>
+      <div class="goal-minute">${g.minute}'</div>
       <div class="goal-content">
         <div class="goal-title-line">
           <span class="goal-scorer">${escHtml(g.scorer)}</span>
@@ -537,18 +493,6 @@ function renderVideo(goal) {
       </div>`;
   }
   if (goal.videoEmbed && !/redditmedia/.test(goal.videoEmbed)) {
-    const isStreamain = /streamain\.com/.test(goal.videoEmbed);
-    if (isStreamain) {
-      return `
-        <div class="video-wrap streamain-wrap">
-          <a class="streamain-mobile-btn" href="${escHtml(goal.videoUrl)}" target="_blank" rel="noopener">
-            ▶ Watch on Streamain
-          </a>
-          <iframe class="streamain-iframe" src="${escHtml(goal.videoEmbed)}"
-            allowfullscreen allow="autoplay; fullscreen"
-            scrolling="no"></iframe>
-        </div>`;
-    }
     return `
       <div class="video-wrap">
         <iframe src="${escHtml(goal.videoEmbed)}"
@@ -560,11 +504,13 @@ function renderVideo(goal) {
   return `
     <div class="video-wrap">
       <div class="video-fallback">
-        <a href="${goal.permalink || goal.videoUrl}" target="_blank" rel="noopener"
+        const _vHost = (() => { try { return new URL(goal.videoUrl || '').hostname.replace('www.',''); } catch(e) { return ''; } })();
+        const _watchUrl = ['streamin.me','streamin.link','streamin.top'].includes(_vHost) ? goal.videoUrl : (goal.permalink || goal.videoUrl);
+        <a href="${escHtml(_watchUrl)}" target="_blank" rel="noopener"
           style="display:inline-flex;align-items:center;gap:8px;background:#ff4500;color:#fff;
           padding:10px 20px;border-radius:4px;text-decoration:none;font-family:var(--mono);
-          font-size:0.8rem;letter-spacing:0.05em;border:none;white-space:nowrap;">
-          ▶ Watch on Reddit
+          font-size:0.8rem;letter-spacing:0.05em;border:none;">
+          ▶ Watch here — Reddit videos can't be embedded
         </a>
       </div>
     </div>`;
