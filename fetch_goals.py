@@ -76,7 +76,7 @@ def parse_title(title):
     if any(team in title_lower for team in WOMENS_TEAMS):
         return None
 
-    minute_match = re.search(r"\s(\d{1,3})(?:\+\d+)?\s*'", title)
+    minute_match = re.search(r"(?<!\d)(\d{1,3})(?:\+\d+)?\s*['\u2019\u2032\u02bc]", title)
     if minute_match:
         minute = int(minute_match.group(1))
         if not (1 <= minute <= 120):
@@ -146,7 +146,20 @@ def main():
     print(f"Fetching goals since UTC midnight ({today_ts})...")
 
     posts = fetch_posts(today_ts)
+
+    # Seed from existing goals.json so early-morning goals persist all day
     matches = {}
+    try:
+        with open("goals.json", encoding="utf-8") as f:
+            old = json.load(f)
+        for m in old.get("matches", []):
+            key = match_key(m["home"], m["away"])
+            # Only keep goals from today — discard yesterday's
+            m["goals"] = [g for g in m["goals"] if g["postedAt"] >= today_ts * 1000]
+            if m["goals"]:
+                matches[key] = m
+    except Exception:
+        pass  # First run or missing file — start fresh
 
     for post in posts:
         title     = post.get("title", "")
