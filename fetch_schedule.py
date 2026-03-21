@@ -368,7 +368,7 @@ def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> 
                     source_names = ["Apple TV"]
                 elif league_name == "Premier League":
                     source_names = ["Peacock"]
-                elif league_name in {"US Open Cup", "USL Championship", "USL League One"}:
+                elif league_name in {"US Open Cup", "USL Championship", "USL League One", "EFL Championship"}:
                     # No known broadcaster — skip the game entirely
                     continue
                 else:

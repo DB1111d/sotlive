@@ -110,7 +110,7 @@
     padding: 18px 24px;
     border-bottom: 1px solid var(--border);
     gap: 16px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     cursor: pointer;
     user-select: none;
   }
@@ -144,6 +144,10 @@
     font-size: 1.5rem;
     letter-spacing: 0.04em;
     line-height: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-width: 0;
   }
 
   .match-meta {
@@ -350,10 +354,11 @@
       font-size: 2.2rem;
     }
 
-    /* Clip Streamain's internal header bar on mobile */
+    /* Streamain header handled via CSS class, no clip needed */
     .video-wrap iframe {
-      height: 115%;
-      margin-top: -15%;
+      height: 100%;
+      margin-top: 0;
+    }
     }
   }
 </style>
