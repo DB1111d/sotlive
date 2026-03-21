@@ -1,7 +1,26 @@
 {
-  "updated": "2026-03-21T17:00:37Z",
+  "updated": "2026-03-21T17:40:14Z",
   "date": "2026-03-21",
   "matches": [
+    {
+      "home": "AC Milan",
+      "away": "Torino",
+      "goals": [
+        {
+          "postId": "1rzxm4e",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzxm4e",
+          "scorer": "Strahinja Pavlovic 37‎'‎",
+          "minute": null,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/63fbb489",
+          "videoEmbed": "https://streamff.link/v/63fbb489",
+          "directMp4": null,
+          "postedAt": 1774114745000
+        }
+      ]
+    },
     {
       "home": "Verl",
       "away": "Saarbrücken",
@@ -31,6 +50,19 @@
           "videoEmbed": "https://streamain.com/IHXTe3nrrfT0tj4/watch",
           "directMp4": null,
           "postedAt": 1774111947000
+        },
+        {
+          "postId": "1rzwyaj",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzwyaj",
+          "scorer": "Oualid Mhamdi 80\"",
+          "minute": null,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/ymAZ2hsDLFCjXn7/watch",
+          "videoEmbed": "https://streamain.com/ymAZ2hsDLFCjXn7/watch",
+          "directMp4": null,
+          "postedAt": 1774113188000
         }
       ]
     },
@@ -63,6 +95,19 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/m6gk70wagfqg1/CMAF_720.mp4?source=fallback",
           "postedAt": 1774111543000
+        },
+        {
+          "postId": "1rzwv4g",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzwv4g",
+          "scorer": "Paul Mukairu",
+          "minute": 37,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/u3pxzwomkfqg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/u3pxzwomkfqg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1774112982000
         }
       ]
     },
@@ -546,19 +591,6 @@
       "away": "Erzgebirge Aue",
       "goals": [
         {
-          "postId": "1rzsaps",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rzsaps",
-          "scorer": "Marvin Stefaniak",
-          "minute": 44,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/9a75ab5c",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1774101849000
-        },
-        {
           "postId": "1rzsizv",
           "subreddit": "soccer",
           "permalink": "https://redd.it/1rzsizv",
@@ -655,32 +687,6 @@
       "away": "Alemannia Aachen",
       "goals": [
         {
-          "postId": "1rzs2rf",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rzs2rf",
-          "scorer": "Faton Ademi",
-          "minute": 40,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/4770fcb3",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1774101277000
-        },
-        {
-          "postId": "1rzs82e",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rzs82e",
-          "scorer": "Marcel Costly",
-          "minute": 43,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/e047d1ae",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1774101660000
-        },
-        {
           "postId": "1rzstno",
           "subreddit": "soccer",
           "permalink": "https://redd.it/1rzstno",
@@ -692,25 +698,6 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1774103208000
-        }
-      ]
-    },
-    {
-      "home": "Brighton",
-      "away": "Liverpool",
-      "goals": [
-        {
-          "postId": "1rzs9p9",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rzs9p9",
-          "scorer": "Danny Welbeck",
-          "minute": 56,
-          "homeScore": 2,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/9bd620ea",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1774101772000
         }
       ]
     }
