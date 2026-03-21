@@ -500,17 +500,20 @@ function renderVideo(goal) {
           scrolling="no"></iframe>
       </div>`;
   }
-  // Reddit hosted video — link to the actual post which always works
+  // No embeddable source — show a watch button
+  const _vHost = (() => { try { return new URL(goal.videoUrl || '').hostname.replace('www.',''); } catch(e) { return ''; } })();
+  const _watchUrl = ['streamin.me','streamin.link','streamin.top'].includes(_vHost) ? goal.videoUrl : (goal.permalink || goal.videoUrl);
+  const isReddit = /redd\.it|reddit\.com/.test(_vHost);
+  const btnColor = isReddit ? '#ff4500' : '#1a6b3c';
+  const btnLabel = isReddit ? '▶ Watch on Reddit' : `▶ Watch on ${_vHost}`;
   return `
     <div class="video-wrap">
       <div class="video-fallback">
-        const _vHost = (() => { try { return new URL(goal.videoUrl || '').hostname.replace('www.',''); } catch(e) { return ''; } })();
-        const _watchUrl = ['streamin.me','streamin.link','streamin.top'].includes(_vHost) ? goal.videoUrl : (goal.permalink || goal.videoUrl);
         <a href="${escHtml(_watchUrl)}" target="_blank" rel="noopener"
-          style="display:inline-flex;align-items:center;gap:8px;background:#ff4500;color:#fff;
+          style="display:inline-flex;align-items:center;gap:8px;background:${btnColor};color:#fff;
           padding:10px 20px;border-radius:4px;text-decoration:none;font-family:var(--mono);
-          font-size:0.8rem;letter-spacing:0.05em;border:none;">
-          ▶ Watch here — Reddit videos can't be embedded
+          font-size:0.8rem;letter-spacing:0.05em;border:none;white-space:nowrap;">
+          ${btnLabel}
         </a>
       </div>
     </div>`;
