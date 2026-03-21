@@ -102,7 +102,14 @@ def parse_title(title):
         return None
     scorer = ""
     if len(dash_parts) > 1:
-        scorer = clean_scorer(re.sub(r"\s*\d+['\+].*$", "", dash_parts[1]))
+        # Try to extract minute from scorer string if not already found in title
+        if minute is None:
+            minute_in_scorer = re.search(r"(\d{1,3})(?:\+\d+)?\s*['\u2019\u2032\u02bc]", dash_parts[1])
+            if minute_in_scorer:
+                m = int(minute_in_scorer.group(1))
+                if 1 <= m <= 120:
+                    minute = m
+        scorer = clean_scorer(re.sub(r"\s*\d+['\+\u2019\u2032\u02bc].*$", "", dash_parts[1]))
     if is_own_goal(title):
         scorer = "Own Goal"
     return {"home": home, "homeScore": home_score, "awayScore": away_score,
