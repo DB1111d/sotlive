@@ -91,12 +91,13 @@
       .sport-btn {
         width: 33.33%;
         font-size: 13px;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-        gap: 3px;
+        justify-content: center;
+        gap: 5px;
         padding: 6px 4px;
         border-bottom: none;
-        text-align: center;
+        text-align: left;
       }
       .sport-btn.active {
         border-bottom: 2px solid #000;
@@ -105,10 +106,13 @@
       }
       .sport-btn .sport-label {
         display: block;
-        word-spacing: 9999px; /* forces each word onto its own line */
+        word-spacing: 9999px;
         line-height: 1.2;
       }
-      .sport-icon { font-size: 18px; }
+      .sport-icon {
+        font-size: 18px;
+        flex-shrink: 0;
+      }
     }
 
     .sport-btn {
