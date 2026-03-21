@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-21T12:06:05Z",
+  "updated": "2026-03-21T12:11:55Z",
   "date": "2026-03-21",
   "matches": [
     {
@@ -18,25 +18,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/1l3uofkr9dqg1/CMAF_720.mp4?source=fallback",
           "postedAt": 1774085073000
-        }
-      ]
-    },
-    {
-      "home": "Truffert and Amad contact in the box, ~25 seconds before Bournemouth make it",
-      "away": ".",
-      "goals": [
-        {
-          "postId": "1rzmbyz",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rzmbyz",
-          "scorer": "",
-          "minute": null,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/7tx5k2kj0dqg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/7tx5k2kj0dqg1/CMAF_480.mp4?source=fallback",
-          "postedAt": 1774082036000
         }
       ]
     },
