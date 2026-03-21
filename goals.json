@@ -1,7 +1,160 @@
 {
-  "updated": "2026-03-21T12:44:32Z",
+  "updated": "2026-03-21T13:23:14Z",
   "date": "2026-03-21",
   "matches": [
+    {
+      "home": "Arsenal W",
+      "away": "West Ham W",
+      "goals": [
+        {
+          "postId": "1rzrcme",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzrcme",
+          "scorer": "Chloe Kelly ()",
+          "minute": null,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/d39geas3geqg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/d39geas3geqg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1774099324000
+        }
+      ]
+    },
+    {
+      "home": "Nürnberg",
+      "away": "Kaiserslautern",
+      "goals": [
+        {
+          "postId": "1rzpr14",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzpr14",
+          "scorer": "Luka Lochoshvili",
+          "minute": 2,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/ea115e7b",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774094633000
+        },
+        {
+          "postId": "1rzr9jf",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzr9jf",
+          "scorer": "Adam Markhiev (Pen)",
+          "minute": 58,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/d5d63647",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774099093000
+        }
+      ]
+    },
+    {
+      "home": "Brighton",
+      "away": "Liverpool",
+      "goals": [
+        {
+          "postId": "1rzqvqh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzqvqh",
+          "scorer": "Danny Welbeck",
+          "minute": 14,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/5257176e",
+          "videoEmbed": "https://streamff.link/v/5257176e",
+          "directMp4": null,
+          "postedAt": 1774098050000
+        },
+        {
+          "postId": "1rzquup",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzquup",
+          "scorer": "Danny Welbeck",
+          "minute": 15,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/2191136a",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774097991000
+        },
+        {
+          "postId": "1rzr73i",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzr73i",
+          "scorer": "Milos Kerkez",
+          "minute": 30,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/f3dc7d3f",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774098904000
+        }
+      ]
+    },
+    {
+      "home": "Ipswich",
+      "away": "Millwall",
+      "goals": [
+        {
+          "postId": "1rzr6h0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzr6h0",
+          "scorer": "Jack Clarke",
+          "minute": 41,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/v9qu5wrpeeqg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774098855000
+        }
+      ]
+    },
+    {
+      "home": "Elversberg",
+      "away": "Arminia Bielefeld",
+      "goals": [
+        {
+          "postId": "1rzqgrx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzqgrx",
+          "scorer": "Lukas Petkov",
+          "minute": 38,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/3c387dbf",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774096852000
+        }
+      ]
+    },
+    {
+      "home": "Paderborn",
+      "away": "Dynamo Dresden",
+      "goals": [
+        {
+          "postId": "1rzqc8p",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzqc8p",
+          "scorer": "Vincent Vermeij",
+          "minute": 32,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/24796d69",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774096480000
+        }
+      ]
+    },
     {
       "home": "Japan",
       "away": "Australia",
