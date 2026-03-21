@@ -166,7 +166,7 @@ def main():
             matches[key] = {"home": parsed["home"], "away": parsed["away"], "goals": []}
 
         # Check for duplicate by same minute (not just postId)
-        existing = next((g for g in matches[key]["goals"] if g["minute"] == parsed["minute"]), None)
+        existing = next((g for g in matches[key]["goals"] if g["homeScore"] == parsed["homeScore"] and g["awayScore"] == parsed["awayScore"]), None)
         if existing:
             # Prefer non-Reddit video over v.redd.it
             existing_is_reddit = existing["videoUrl"].startswith("https://v.redd.it")
