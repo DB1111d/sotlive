@@ -57,7 +57,7 @@ def parse_title(title):
     if re.search(r"red card|yellow card|\bsave\b", title, re.IGNORECASE):
         return None
     # Filter out women's matches — both teams have W suffix e.g. "Arsenal W vs West Ham W"
-    if re.search(r'\bW\b[^-\[]*\bW\b', title.split('[')[0] if '[' in title else title):
+    if re.search(r'\bW\b.*\bW\b', title):
         return None
     minute_match = re.search(r"\s(\d{1,3})(?:\+\d+)?\s*'", title)
     if minute_match:
