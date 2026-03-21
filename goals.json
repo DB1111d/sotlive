@@ -1,5 +1,25 @@
 {
-  "updated": "2026-03-21T06:01:12Z",
+  "updated": "2026-03-21T07:03:18Z",
   "date": "2026-03-21",
-  "matches": []
+  "matches": [
+    {
+      "home": "UC Dublin",
+      "away": "Cork City",
+      "goals": [
+        {
+          "postId": "1rzkcg3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzkcg3",
+          "scorer": "Cillian Murphy",
+          "minute": 52,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/wnth13r6ecqg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/wnth13r6ecqg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1774074505000
+        }
+      ]
+    }
+  ]
 }
