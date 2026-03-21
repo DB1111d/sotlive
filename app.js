@@ -526,9 +526,6 @@ async function switchSport(sport) {
       });
     }
 
-    const allGenres = [...new Set(
-      groupNames.flatMap(g => groups[g]).flatMap(s => s.genres || [])
-    )].sort();
     let activeGenre = '';
 
     const streamingState = {};
@@ -574,10 +571,14 @@ async function switchSport(sport) {
 
       streamingState[panelId] = { shows, offset: 0, grid, sentinel, observer };
 
+      // Only show genres that exist in THIS panel's shows
+      const panelGenres = [...new Set(shows.flatMap(s => s.genres || []))].sort();
+
       let headerHTML = `<div class="netflix-week-label">${data.week_label || ''}</div>`;
-      headerHTML += `<div class="netflix-section-title" style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;">${groupName}`;
-      if (allGenres.length) {
-        headerHTML += `<select class="tz-select genre-select" style="font-size:10px;" data-panel="${panelId}"><option value="">All Genres</option>${allGenres.map(g=>`<option value="${g}">${g}</option>`).join('')}</select>`;
+      headerHTML += `<div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:20px;">`;
+      headerHTML += `<div class="netflix-section-title" style="margin-bottom:0;">${groupName}</div>`;
+      if (panelGenres.length) {
+        headerHTML += `<select class="tz-select genre-select" style="font-size:10px;" data-panel="${panelId}"><option value="">All Genres</option>${panelGenres.map(g=>`<option value="${g}">${g}</option>`).join('')}</select>`;
       } else {
         headerHTML += `<select class="tz-select" style="font-size:10px;" disabled><option>All Genres</option></select>`;
       }
