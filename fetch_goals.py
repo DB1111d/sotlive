@@ -11,7 +11,8 @@ from datetime import datetime, timezone
 
 SUBREDDIT   = "soccer"
 VIDEO_HOSTS = {"streamff.link", "streamff.com", "streamable.com",
-               "youtu.be", "youtube.com", "v.redd.it", "streamain.com"}
+               "youtu.be", "youtube.com", "v.redd.it", "streamain.com",
+               "streamin.link", "streamin.top", "streamin.me"}
 
 HEADERS = {
     "User-Agent": "sotlive-goalfeed/1.0",
@@ -115,6 +116,9 @@ def build_embed(url, post_id):
             v = urllib.parse.parse_qs(u.query).get("v", [vid_id])[0]
             return f"https://www.youtube.com/embed/{v}"
         if host == "streamain.com":  return url  # direct link, no embed
+        if host == "streamin.link":  return None  # blocks iframes, use link fallback
+        if host == "streamin.top":   return None
+        if host == "streamin.me":    return None
     except Exception:
         pass
     return None
