@@ -84,44 +84,12 @@
       align-items: center;
     }
 
+    /* ── Mobile sport nav — SPACING ONLY. Do NOT change font sizes, display, or button styles. ── */
     @media (max-width: 500px) {
       .sport-nav {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 6px 12px;
-        padding-left: 24px;
-        padding-right: 24px;
-      }
-      .sport-btn {
-        width: auto;
-        font-size: 13px;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-start;
-        gap: 5px;
-        padding: 4px 0;
-        border-bottom: none;
-        text-align: left;
-        min-height: 40px;
-      }
-      .sport-btn.active {
-        border-bottom: none;
-        font-weight: 700;
-        color: #000;
-      }
-      .sport-btn.active .sport-label {
-        border-bottom: 2px solid #000;
-      }
-      .sport-btn .sport-label {
-        display: inline-block;
-        line-height: 1.2;
-        text-align: left;
-        word-spacing: 9999px;
-      }
-      .sport-icon {
-        font-size: 18px;
-        flex-shrink: 0;
-        line-height: 1;
+        gap: 10px 16px;
+        padding-left: 16px;
+        padding-right: 16px;
       }
     }
 
