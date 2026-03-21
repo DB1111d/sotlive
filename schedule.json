@@ -1,59 +1,9 @@
 {
-  "updated": "2026-03-20 16:34 EDT",
+  "updated": "2026-03-20 22:04 EDT",
   "days": {
     "20260320": {
       "date": "Friday, March 20",
-      "games": [
-        {
-          "league": "Premier League",
-          "time": "4:00 PM",
-          "match": "AFC Bournemouth vs Manchester United",
-          "source": "USA Network",
-          "kick_utc": "2026-03-20T20:00Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "4:00 PM",
-          "match": "Preston North End vs Stoke City",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-20T20:00Z"
-        },
-        {
-          "league": "Serie A",
-          "time": "1:30 PM",
-          "match": "Cagliari vs Napoli",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-20T17:30Z"
-        },
-        {
-          "league": "Serie A",
-          "time": "3:45 PM",
-          "match": "Genoa vs Udinese",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-20T19:45Z"
-        },
-        {
-          "league": "German Bundesliga",
-          "time": "3:30 PM",
-          "match": "RB Leipzig vs TSG Hoffenheim",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-20T19:30Z"
-        },
-        {
-          "league": "La Liga",
-          "time": "4:00 PM",
-          "match": "Villarreal vs Real Sociedad",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-20T20:00Z"
-        },
-        {
-          "league": "Dutch Eredivisie",
-          "time": "3:00 PM",
-          "match": "Heracles Almelo vs Excelsior",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-20T19:00Z"
-        }
-      ]
+      "games": []
     },
     "20260321": {
       "date": "Saturday, March 21",
