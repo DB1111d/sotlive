@@ -216,24 +216,32 @@
     white-space: nowrap;
   }
 
-  /* ── Goal watch link ── */
+  /* ── Goal watch button ── */
   .goal-watch-link {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
+    gap: 7px;
     font-family: var(--mono);
     font-size: 0.72rem;
-    color: var(--accent);
+    font-weight: 500;
+    color: #fff;
+    background: var(--accent);
     text-decoration: none;
-    letter-spacing: 0.04em;
-    border-bottom: 1px solid transparent;
-    transition: border-color 0.15s;
+    letter-spacing: 0.05em;
+    padding: 7px 14px;
+    border-radius: 6px;
+    transition: opacity 0.15s;
+    white-space: nowrap;
   }
-  .goal-watch-link:hover {
-    border-bottom-color: var(--accent);
+  .goal-watch-link:hover { opacity: 0.85; }
+  .goal-watch-link.reddit { background: #ff4500; }
+
+  @media (max-width: 600px) {
+    .goal-watch-link {
+      font-size: 0.68rem;
+      padding: 6px 12px;
+    }
   }
-  .goal-watch-link.reddit { color: #ff4500; }
-  .goal-watch-link.reddit:hover { border-bottom-color: #ff4500; }
 
   /* ── Empty / loading states ── */
   #feed-container {
