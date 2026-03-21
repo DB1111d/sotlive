@@ -1,23 +1,106 @@
 {
-  "updated": "2026-03-21T14:44:32Z",
+  "updated": "2026-03-21T15:01:14Z",
   "date": "2026-03-21",
   "matches": [
+    {
+      "home": "Waldhof Mannheim",
+      "away": "Erzgebirge Aue",
+      "goals": [
+        {
+          "postId": "1rzsaps",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzsaps",
+          "scorer": "Marvin Stefaniak",
+          "minute": 44,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/9a75ab5c",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774101849000
+        },
+        {
+          "postId": "1rzsizv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzsizv",
+          "scorer": "Lovis Bierschenk",
+          "minute": 50,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/d68b3208",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774102438000
+        },
+        {
+          "postId": "1rztkve",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rztkve",
+          "scorer": "Terrence Boyd",
+          "minute": 89,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/W4FfdYuhfIQXEkn/watch",
+          "videoEmbed": "https://streamain.com/W4FfdYuhfIQXEkn/watch",
+          "directMp4": null,
+          "postedAt": 1774105127000
+        }
+      ]
+    },
+    {
+      "home": "Heidenheim",
+      "away": "Bayer Leverkusen",
+      "goals": [
+        {
+          "postId": "1rzti1v",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzti1v",
+          "scorer": "Malik Tillman",
+          "minute": 22,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/3e199422",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774104932000
+        }
+      ]
+    },
+    {
+      "home": "Heidenheim",
+      "away": "Leverkusen",
+      "goals": [
+        {
+          "postId": "1rzthjh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzthjh",
+          "scorer": "Malik Tillman",
+          "minute": 22,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/vrh66c5oweqg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/vrh66c5oweqg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1774104895000
+        }
+      ]
+    },
     {
       "home": "Köln",
       "away": "Borussia Mönchengladbach",
       "goals": [
         {
-          "postId": "1rzt4nx",
+          "postId": "1rzt9ot",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1rzt4nx",
+          "permalink": "https://redd.it/1rzt9ot",
           "scorer": "Jens Castrop",
           "minute": 1,
           "homeScore": 0,
           "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/36f132f9",
-          "videoEmbed": null,
+          "videoUrl": "https://streamain.com/j0qVojfdwCVVKV5/watch",
+          "videoEmbed": "https://streamain.com/j0qVojfdwCVVKV5/watch",
           "directMp4": null,
-          "postedAt": 1774103996000
+          "postedAt": 1774104348000
         },
         {
           "postId": "1rzt5ra",
@@ -44,6 +127,19 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1774104135000
+        },
+        {
+          "postId": "1rztg6z",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rztg6z",
+          "scorer": "Philipp Sander",
+          "minute": 20,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/6f9a33f7",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774104802000
         }
       ]
     },
@@ -134,38 +230,6 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1774103208000
-        }
-      ]
-    },
-    {
-      "home": "Waldhof Mannheim",
-      "away": "Erzgebirge Aue",
-      "goals": [
-        {
-          "postId": "1rzsaps",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rzsaps",
-          "scorer": "Marvin Stefaniak",
-          "minute": 44,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/9a75ab5c",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1774101849000
-        },
-        {
-          "postId": "1rzsizv",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rzsizv",
-          "scorer": "Lovis Bierschenk",
-          "minute": 50,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/d68b3208",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1774102438000
         }
       ]
     },
@@ -429,44 +493,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/1l3uofkr9dqg1/CMAF_720.mp4?source=fallback",
           "postedAt": 1774085073000
-        }
-      ]
-    },
-    {
-      "home": "Melbourne Victory",
-      "away": "Central Coast Mariners",
-      "goals": [
-        {
-          "postId": "1rzldh8",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rzldh8",
-          "scorer": "Juan Mata",
-          "minute": null,
-          "homeScore": 2,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/3knpfzqopcqg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/3knpfzqopcqg1/CMAF_1080.mp4?source=fallback",
-          "postedAt": 1774078331000
-        }
-      ]
-    },
-    {
-      "home": "UC Dublin",
-      "away": "Cork City",
-      "goals": [
-        {
-          "postId": "1rzkcg3",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rzkcg3",
-          "scorer": "Cillian Murphy",
-          "minute": 52,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/wnth13r6ecqg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/wnth13r6ecqg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1774074505000
         }
       ]
     }
