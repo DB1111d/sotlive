@@ -247,7 +247,40 @@
     word-break: break-all;
   }
 
-  /* ── Empty / loading states ── */
+  /* Streamain: show embed on desktop, button on mobile */
+  .streamain-mobile-btn {
+    display: none;
+    white-space: nowrap;
+  }
+  .streamain-iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+  }
+
+  @media (max-width: 600px) {
+    .streamain-iframe {
+      display: none;
+    }
+    .streamain-mobile-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #1a6b3c;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-family: var(--mono);
+      font-size: 0.8rem;
+      letter-spacing: 0.05em;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
   #feed-container {
     min-height: 300px;
   }
@@ -496,19 +529,13 @@ function renderVideo(goal) {
     const isStreamain = /streamain\.com/.test(goal.videoEmbed);
     if (isStreamain) {
       return `
-        <div class="video-wrap" id="vw-${goal.postId}">
-          <div class="video-fallback" id="vf-${goal.postId}" style="display:none;">
-            <a href="${escHtml(goal.videoUrl)}" target="_blank" rel="noopener"
-              style="display:inline-flex;align-items:center;gap:8px;background:#1a6b3c;color:#fff;
-              padding:10px 20px;border-radius:4px;text-decoration:none;font-family:var(--mono);
-              font-size:0.8rem;letter-spacing:0.05em;border:none;">
-              ▶ Watch on Streamain
-            </a>
-          </div>
-          <iframe src="${escHtml(goal.videoEmbed)}"
+        <div class="video-wrap streamain-wrap">
+          <a class="streamain-mobile-btn" href="${escHtml(goal.videoUrl)}" target="_blank" rel="noopener">
+            ▶ Watch on Streamain
+          </a>
+          <iframe class="streamain-iframe" src="${escHtml(goal.videoEmbed)}"
             allowfullscreen allow="autoplay; fullscreen"
-            scrolling="no"
-            onload="(function(f,w){if(/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)){f.style.display='none';w.style.display='flex';w.style.alignItems='center';w.style.justifyContent='center';}})(document.getElementById('vf-${goal.postId}'),document.getElementById('vw-${goal.postId}'))"></iframe>
+            scrolling="no"></iframe>
         </div>`;
     }
     return `
@@ -525,8 +552,8 @@ function renderVideo(goal) {
         <a href="${goal.permalink || goal.videoUrl}" target="_blank" rel="noopener"
           style="display:inline-flex;align-items:center;gap:8px;background:#ff4500;color:#fff;
           padding:10px 20px;border-radius:4px;text-decoration:none;font-family:var(--mono);
-          font-size:0.8rem;letter-spacing:0.05em;border:none;">
-          ▶ Watch here — Reddit videos can't be embedded
+          font-size:0.8rem;letter-spacing:0.05em;border:none;white-space:nowrap;">
+          ▶ Watch on Reddit
         </a>
       </div>
     </div>`;
