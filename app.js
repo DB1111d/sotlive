@@ -266,7 +266,6 @@ function buildPanel(key, day) {
     <a href="soccer-goals.html" class="goalfeed-banner">
       <span class="goalfeed-banner-icon">🥅</span>
       <span class="goalfeed-banner-text"><span class="goalfeed-green">GOAL</span>FEED</span>
-      <span class="goalfeed-banner-icon">🥅</span>
     </a>` : '';
 
   let html = goalfeedBanner;
