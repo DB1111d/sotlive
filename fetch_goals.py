@@ -1,6 +1,7 @@
 """
 fetch_goals.py
 Fetches today's goal posts from r/soccer using the Arctic Shift API.
+Cross-references against today's schedule to filter and canonicalize team names.
 """
 
 import json
@@ -14,6 +15,22 @@ VIDEO_HOSTS = {"streamff.link", "streamff.com", "streamable.com",
                "youtu.be", "youtube.com", "v.redd.it", "streamain.com",
                "streamin.link", "streamin.top", "streamin.me"}
 
+# Leagues to include — everything except USL Championship, USL League One, Dutch Eredivisie
+ALLOWED_LEAGUES = {
+    "UEFA Champions League",
+    "UEFA Europa League",
+    "UEFA Europa Conference League",
+    "Premier League",
+    "MLS",
+    "CONCACAF Champions Cup",
+    "US Open Cup",
+    "English FA Cup",
+    "EFL Championship",
+    "Serie A",
+    "German Bundesliga",
+    "La Liga",
+}
+
 HEADERS = {
     "User-Agent": "sotlive-goalfeed/1.0",
     "Accept": "application/json",
@@ -25,8 +42,82 @@ WOMENS_TEAMS = {
     "orlando pride", "portland thorns", "racing louisville", "san diego wave",
     "seattle reign", "utah royals", "washington spirit", "west ham w", "arsenal w",
     "chelsea fc w", "manchester city w", "manchester united w", "barcelona w",
+
     "lyon w", "chelsea w", "liverpool w", "tottenham w", "aston villa w",
 }
+
+def load_today_teams(schedule_path="schedule.json"):
+    """
+    Load today scheduled team pairs from schedule.json.
+    Returns list of dicts: {home, away, league, home_norm, away_norm}
+    Only includes games from ALLOWED_LEAGUES.
+    """
+    teams = []
+    try:
+        with open(schedule_path, encoding="utf-8") as f:
+            data = json.load(f)
+        for day in data.get("days", {}).values():
+            for game in day.get("games", []):
+                league = game.get("league", "")
+                if league not in ALLOWED_LEAGUES:
+                    continue
+                match = game.get("match", "")
+                if " vs " not in match:
+                    continue
+                home, away = match.split(" vs ", 1)
+                teams.append({
+                    "home":      home.strip(),
+                    "away":      away.strip(),
+                    "league":    league,
+                    "home_norm": normalize_team(home.strip()),
+                    "away_norm": normalize_team(away.strip()),
+                })
+    except Exception as e:
+        print(f"  Warning: could not load schedule — {e}")
+    return teams
+
+
+def normalize_team(name):
+    """Lowercase, strip common suffixes and punctuation for fuzzy comparison."""
+    name = name.lower()
+    name = re.sub(r"\b(fc|cf|sc|ac|afc|united|city|town|athletic|albion|wanderers|rovers|county|hotspur)\b", "", name)
+    name = re.sub(r"[^a-z0-9 ]", "", name)
+    name = re.sub(r"\s+", " ", name).strip()
+    return name
+
+
+def fuzzy_score(a, b):
+    """Bigram similarity between two normalized strings."""
+    def bigrams(s):
+        return set(s[i:i+2] for i in range(len(s) - 1)) if len(s) >= 2 else set(s)
+    ba, bb = bigrams(a), bigrams(b)
+    if not ba or not bb:
+        return 1.0 if a == b else 0.0
+    return 2 * len(ba & bb) / (len(ba) + len(bb))
+
+
+def find_schedule_match(parsed_home, parsed_away, today_teams, threshold=0.4):
+    """
+    Match a parsed Reddit home/away pair against today scheduled games.
+    Returns matching scheduled game dict or None.
+    At least one team must exceed the threshold.
+    """
+    ph = normalize_team(parsed_home)
+    pa = normalize_team(parsed_away)
+    best_match = None
+    best_score = 0.0
+    for game in today_teams:
+        sh = game["home_norm"]
+        sa = game["away_norm"]
+        score_h = max(fuzzy_score(ph, sh), fuzzy_score(ph, sa))
+        score_a = max(fuzzy_score(pa, sh), fuzzy_score(pa, sa))
+        top = max(score_h, score_a)
+        combined = (score_h + score_a) / 2
+        if top >= threshold and combined > best_score:
+            best_score = combined
+            best_match = game
+    return best_match
+
 
 def today_utc_midnight_ts():
     now = datetime.now(timezone.utc)
@@ -154,6 +245,10 @@ def main():
 
     posts = fetch_posts(today_ts)
 
+    # Load today's scheduled teams for cross-reference filtering
+    today_teams = load_today_teams()
+    print(f"  Loaded {len(today_teams)} scheduled games for allowed leagues")
+
     # Seed from existing goals.json so early-morning goals persist all day
     matches = {}
     try:
@@ -186,9 +281,22 @@ def main():
         if not video_url:
             continue
 
-        key = match_key(parsed["home"], parsed["away"])
+        # Cross-reference against today's schedule
+        # If schedule is empty (fetch failed), fall through and allow all
+        scheduled = None
+        if today_teams:
+            scheduled = find_schedule_match(parsed["home"], parsed["away"], today_teams)
+            if not scheduled:
+                continue  # Not a game we care about today
+
+        # Use canonical team names and league from schedule if matched
+        canon_home   = scheduled["home"]   if scheduled else parsed["home"]
+        canon_away   = scheduled["away"]   if scheduled else parsed["away"]
+        canon_league = scheduled["league"] if scheduled else ""
+
+        key = match_key(canon_home, canon_away)
         if key not in matches:
-            matches[key] = {"home": parsed["home"], "away": parsed["away"], "goals": []}
+            matches[key] = {"home": canon_home, "away": canon_away, "league": canon_league, "goals": []}
 
         # Dedup by score
         existing = next((g for g in matches[key]["goals"] if g["homeScore"] == parsed["homeScore"] and g["awayScore"] == parsed["awayScore"]), None)

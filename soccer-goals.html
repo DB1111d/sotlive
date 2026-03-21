@@ -243,6 +243,40 @@
     }
   }
 
+  /* ── League filter bar ── */
+  #league-filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 24px;
+  }
+
+  .league-btn {
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 5px 12px;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--muted);
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s, border-color 0.15s;
+  }
+
+  .league-btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  .league-btn.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+
   /* ── Empty / loading states ── */
   #feed-container {
     min-height: 300px;
@@ -361,6 +395,7 @@
   <div style="text-align:center;margin-bottom:16px;margin-top:10px;">
     <span style="font-family:var(--display);font-size:3.2rem;letter-spacing:0.05em;color:var(--accent);"><span style="font-size:3.8rem;">🥅</span> GOAL<span style="color:var(--text);">FEED</span></span>
   </div>
+  <div id="league-filter-bar" style="display:none;"></div>
   <div id="feed-container">
     <div class="state-msg">
       <div class="big">⚽</div>
@@ -371,10 +406,17 @@
 
 <script>
 // ── Config ──────────────────────────────────────────────
-const POLL_MS = 15 * 60 * 1000; // 15 minutes — matches GitHub Actions schedule
+const POLL_MS = 15 * 60 * 1000;
+
+const LEAGUE_ORDER = [
+  'UEFA Champions League', 'UEFA Europa League', 'UEFA Europa Conference League',
+  'Premier League', 'MLS', 'CONCACAF Champions Cup', 'US Open Cup',
+  'English FA Cup', 'EFL Championship', 'Serie A', 'German Bundesliga', 'La Liga',
+];
 
 // ── State ───────────────────────────────────────────────
-let matches = {}; // key: "home vs away", value: { home, away, goals[] }
+let matches = {};
+let activeLeague = '';
 
 // ── Fetch goals.json ────────────────────────────────────
 async function fetchGoals() {
@@ -383,7 +425,6 @@ async function fetchGoals() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
 
-    // Load all matches from JSON — already filtered to today by the scraper
     for (const match of data.matches || []) {
       const key = matchKey(match.home, match.away);
       matches[key] = match;
@@ -399,22 +440,58 @@ async function fetchGoals() {
   }
 }
 
-// ── Match key (canonical, alphabetical so A vs B == B vs A) ──
+// ── Match key ────────────────────────────────────────────
 function matchKey(home, away) {
   return [home.toLowerCase(), away.toLowerCase()].sort().join(' vs ');
+}
+
+// ── League filter bar ─────────────────────────────────────
+function buildLeagueFilter(matchList) {
+  const bar = document.getElementById('league-filter-bar');
+  if (!bar) return;
+
+  // Collect leagues present in current data, ordered by LEAGUE_ORDER
+  const present = new Set(matchList.map(m => m.league).filter(Boolean));
+  const ordered = LEAGUE_ORDER.filter(l => present.has(l));
+  // Any leagues not in LEAGUE_ORDER go at the end
+  for (const l of present) if (!ordered.includes(l)) ordered.push(l);
+
+  if (ordered.length <= 1) {
+    bar.style.display = 'none';
+    return;
+  }
+
+  bar.style.display = 'flex';
+  bar.innerHTML = '';
+
+  // All button
+  const allBtn = document.createElement('button');
+  allBtn.className = 'league-btn' + (activeLeague === '' ? ' active' : '');
+  allBtn.textContent = 'All';
+  allBtn.onclick = () => { activeLeague = ''; render(); };
+  bar.appendChild(allBtn);
+
+  ordered.forEach(league => {
+    const btn = document.createElement('button');
+    btn.className = 'league-btn' + (activeLeague === league ? ' active' : '');
+    btn.textContent = league;
+    btn.onclick = () => { activeLeague = league; render(); };
+    bar.appendChild(btn);
+  });
 }
 
 // ── Render ────────────────────────────────────────────────
 function render() {
   const container = document.getElementById('feed-container');
 
-  const matchList = Object.values(matches);
+  let matchList = Object.values(matches);
   if (matchList.length === 0) {
     container.innerHTML = `
       <div class="state-msg">
         <div class="big">⚽</div>
         <div>No goals found yet — check back soon</div>
       </div>`;
+    document.getElementById('league-filter-bar').style.display = 'none';
     return;
   }
 
@@ -425,21 +502,31 @@ function render() {
     return latestB - latestA;
   });
 
-  // Preserve existing collapsed states before re-rendering
+  buildLeagueFilter(matchList);
+
+  // Apply league filter
+  const filtered = activeLeague ? matchList.filter(m => m.league === activeLeague) : matchList;
+
+  if (filtered.length === 0) {
+    container.innerHTML = `
+      <div class="state-msg">
+        <div class="big">⚽</div>
+        <div>No goals for this league yet</div>
+      </div>`;
+    return;
+  }
+
+  // Preserve collapsed states
   const collapsedKeys = new Set();
   document.querySelectorAll('.match-card').forEach(card => {
-    if (card.classList.contains('collapsed')) {
-      collapsedKeys.add(card.dataset.key);
-    }
+    if (card.classList.contains('collapsed')) collapsedKeys.add(card.dataset.key);
   });
 
-  // Most recent match key — always force open
-  const newestKey = matchList[0] ? matchKey(matchList[0].home, matchList[0].away) : null;
+  const newestKey = filtered[0] ? matchKey(filtered[0].home, filtered[0].away) : null;
 
-  container.innerHTML = matchList.map((match, i) => {
+  container.innerHTML = filtered.map((match) => {
     const key = matchKey(match.home, match.away);
-    // First/newest always open; others collapsed unless user opened them
-    const isCollapsed = key === newestKey ? true : (collapsedKeys.size > 0 ? collapsedKeys.has(key) : true);
+    const isCollapsed = key === newestKey ? false : (collapsedKeys.size > 0 ? collapsedKeys.has(key) : true);
     return renderMatch(match, key, isCollapsed);
   }).join('');
 }
