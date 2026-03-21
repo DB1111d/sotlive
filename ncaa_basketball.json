@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-21 01:07 EDT",
+  "updated": "2026-03-21 04:35 EDT",
   "days": {
     "20260321": {
       "date": "Saturday, March 21",
@@ -94,7 +94,7 @@
           "tourney_round": "NCAA Tournament",
           "time": "12:10 PM",
           "match": "Purdue Boilermakers vs Miami Hurricanes",
-          "source": "ESPN+",
+          "source": "CBS / Paramount+",
           "kick_utc": "2026-03-22T16:10Z"
         },
         {
@@ -118,7 +118,7 @@
           "tourney_round": "NCAA Tournament",
           "time": "6:10 PM",
           "match": "Virginia Cavaliers vs Tennessee Volunteers",
-          "source": "ESPN+",
+          "source": "TBS / TNT",
           "kick_utc": "2026-03-22T22:10Z"
         },
         {
@@ -150,7 +150,7 @@
           "tourney_round": "NCAA Tournament",
           "time": "9:45 PM",
           "match": "Alabama Crimson Tide vs Texas Tech Red Raiders",
-          "source": "ESPN+",
+          "source": "TBS / TNT",
           "kick_utc": "2026-03-23T01:45Z"
         },
         {
