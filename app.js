@@ -631,7 +631,6 @@ async function switchSport(sport) {
       const dropdown = buildGenreDropdown(panelId);
       titleRow.appendChild(dropdown);
       panel.appendChild(titleRow);
-      panel.innerHTML = headerHTML;
       panel.appendChild(grid);
       contentEl.appendChild(panel);
       streamingPanels[panelId] = panel;
