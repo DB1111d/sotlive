@@ -56,8 +56,20 @@ def clean_scorer(scorer):
 def parse_title(title):
     if re.search(r"red card|yellow card|\bsave\b", title, re.IGNORECASE):
         return None
-    # Filter out women's matches — both teams have W suffix e.g. "Arsenal W vs West Ham W"
+    # Filter out women's matches — W suffix teams
     if re.search(r'\bW\b.*\bW\b', title):
+        return None
+    # Filter out NWSL and other known women's teams
+    WOMENS_TEAMS = {
+        "angel city", "bay fc", "boston legacy", "chicago stars", "denver summit",
+        "gotham fc", "houston dash", "kansas city current", "north carolina courage",
+        "orlando pride", "portland thorns", "racing louisville", "san diego wave",
+        "seattle reign", "utah royals", "washington spirit", "west ham w", "arsenal w",
+        "chelsea fc w", "manchester city w", "manchester united w", "barcelona w",
+        "lyon w", "chelsea w", "liverpool w", "tottenham w", "aston villa w",
+    }
+    title_lower = title.lower()
+    if any(team in title_lower for team in WOMENS_TEAMS):
         return None
     minute_match = re.search(r"\s(\d{1,3})(?:\+\d+)?\s*'", title)
     if minute_match:
