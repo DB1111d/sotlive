@@ -1,7 +1,53 @@
 {
-  "updated": "2026-03-21T19:35:40Z",
+  "updated": "2026-03-21T19:43:21Z",
   "date": "2026-03-21",
   "matches": [
+    {
+      "home": "Fiorentina",
+      "away": "Internazionale",
+      "league": "Serie A",
+      "goals": [
+        {
+          "postId": "1s007c4",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s007c4",
+          "scorer": "Kevin Pedro",
+          "minute": 18,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/GB2VD4BFWfRSAgE/watch",
+          "videoEmbed": "https://streamain.com/GB2VD4BFWfRSAgE/watch",
+          "directMp4": null,
+          "postedAt": 1774120871000
+        },
+        {
+          "postId": "1s00b4g",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s00b4g",
+          "scorer": "Irvin Cardona",
+          "minute": 23,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/qhYxHNRExsPSebQ/watch",
+          "videoEmbed": "https://streamain.com/qhYxHNRExsPSebQ/watch",
+          "directMp4": null,
+          "postedAt": 1774121127000
+        },
+        {
+          "postId": "1s00o0y",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s00o0y",
+          "scorer": "Lucas Stassin",
+          "minute": 33,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/tBaZHshjFBZc3ha/watch",
+          "videoEmbed": "https://streamain.com/tBaZHshjFBZc3ha/watch",
+          "directMp4": null,
+          "postedAt": 1774122002000
+        }
+      ]
+    },
     {
       "home": "Auxerre",
       "away": "Brest",
@@ -273,8 +319,139 @@
       ]
     },
     {
+      "home": "Borussia Dortmund",
+      "away": "Hamburg SV",
+      "league": "German Bundesliga",
+      "goals": [
+        {
+          "postId": "1rzxxsp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzxxsp",
+          "scorer": "Philip Otele",
+          "minute": 19,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/6a10a796",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774115514000
+        },
+        {
+          "postId": "1rzyg0t",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzyg0t",
+          "scorer": "Albert Sambi Lokonga",
+          "minute": 38,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/03ddd5a7",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774116692000
+        },
+        {
+          "postId": "1s0006i",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0006i",
+          "scorer": "Ramy Bensebaini",
+          "minute": 73,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/32550d5c",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774120397000
+        },
+        {
+          "postId": "1rzzxi6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzzxi6",
+          "scorer": "Fabio Silva",
+          "minute": 78,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/16e9e9ca",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774120226000
+        },
+        {
+          "postId": "1s003p5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s003p5",
+          "scorer": "Ramy Bensebaini",
+          "minute": 84,
+          "homeScore": 3,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/ff55fb89",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774120631000
+        }
+      ]
+    },
+    {
       "home": "Rangers",
       "away": "Aberdeen",
+      "goals": [
+        {
+          "postId": "1rzyvp4",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzyvp4",
+          "scorer": "Tochi Chukwuani",
+          "minute": 36,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/DTCUPyH2L3QuHVR/watch",
+          "videoEmbed": "https://streamain.com/DTCUPyH2L3QuHVR/watch",
+          "directMp4": null,
+          "postedAt": 1774117717000
+        },
+        {
+          "postId": "1rzzm1w",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzzm1w",
+          "scorer": "Mikey Moore",
+          "minute": 48,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/IhuH20fHykXUIwd/watch",
+          "videoEmbed": "https://streamain.com/IhuH20fHykXUIwd/watch",
+          "directMp4": null,
+          "postedAt": 1774119473000
+        },
+        {
+          "postId": "1rzzp8a",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzzp8a",
+          "scorer": "Dennis Geiger",
+          "minute": 52,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/8tckaOcI3XhJd4K/watch",
+          "videoEmbed": "https://streamain.com/8tckaOcI3XhJd4K/watch",
+          "directMp4": null,
+          "postedAt": 1774119680000
+        },
+        {
+          "postId": "1rzzz7g",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzzz7g",
+          "scorer": "Nicolas Raskin",
+          "minute": 62,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/u8diJrQ3gpLgO2U/watch",
+          "videoEmbed": "https://streamain.com/u8diJrQ3gpLgO2U/watch",
+          "directMp4": null,
+          "postedAt": 1774120333000
+        }
+      ]
+    },
+    {
+      "home": "VfL Wolfsburg",
+      "away": "Werder Bremen",
+      "league": "German Bundesliga",
       "goals": [
         {
           "postId": "1rzyvp4",
@@ -485,6 +662,52 @@
       ]
     },
     {
+      "home": "Portland Timbers",
+      "away": "LA Galaxy",
+      "league": "MLS",
+      "goals": [
+        {
+          "postId": "1rzzbtx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzzbtx",
+          "scorer": "Chupe",
+          "minute": 22,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/AWP9bDOfKqQtnD1/watch",
+          "videoEmbed": "https://streamain.com/AWP9bDOfKqQtnD1/watch",
+          "directMp4": null,
+          "postedAt": 1774118796000
+        },
+        {
+          "postId": "1rzzc67",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzzc67",
+          "scorer": "Chupe",
+          "minute": 33,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/rHR1XR106dMIcla/watch",
+          "videoEmbed": "https://streamain.com/rHR1XR106dMIcla/watch",
+          "directMp4": null,
+          "postedAt": 1774118820000
+        },
+        {
+          "postId": "1rzzcir",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzzcir",
+          "scorer": "Daniel Lorenzo",
+          "minute": 47,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://streamain.com/hVJZjn8ZrdPPDE3/watch",
+          "videoEmbed": "https://streamain.com/hVJZjn8ZrdPPDE3/watch",
+          "directMp4": null,
+          "postedAt": 1774118844000
+        }
+      ]
+    },
+    {
       "home": "AC Milan",
       "away": "Torino",
       "goals": [
@@ -652,8 +875,74 @@
       ]
     },
     {
+      "home": "Swansea City",
+      "away": "Coventry City",
+      "league": "EFL Championship",
+      "goals": [
+        {
+          "postId": "1rzy2ax",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzy2ax",
+          "scorer": "Brandon Thomas-Asante penalty",
+          "minute": 32,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/I2fnhHEft355Ifm/watch",
+          "videoEmbed": "https://streamain.com/I2fnhHEft355Ifm/watch",
+          "directMp4": null,
+          "postedAt": 1774115819000
+        },
+        {
+          "postId": "1rzy2n6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzy2n6",
+          "scorer": "Matt Grimes",
+          "minute": 38,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/jdA9FjbPk28jPRp/watch",
+          "videoEmbed": "https://streamain.com/jdA9FjbPk28jPRp/watch",
+          "directMp4": null,
+          "postedAt": 1774115844000
+        },
+        {
+          "postId": "1rzy7ju",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzy7ju",
+          "scorer": "Tatsuhiro Sakamoto",
+          "minute": 43,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://streamain.com/oxiVsxKMje8weVL/watch",
+          "videoEmbed": "https://streamain.com/oxiVsxKMje8weVL/watch",
+          "directMp4": null,
+          "postedAt": 1774116154000
+        }
+      ]
+    },
+    {
       "home": "Toulouse",
       "away": "Lorient",
+      "goals": [
+        {
+          "postId": "1rzxuey",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzxuey",
+          "scorer": "Emersonn",
+          "minute": 82,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/caV4kLL8DX0VQgg/watch",
+          "videoEmbed": "https://streamain.com/caV4kLL8DX0VQgg/watch",
+          "directMp4": null,
+          "postedAt": 1774115290000
+        }
+      ]
+    },
+    {
+      "home": "Leeds United",
+      "away": "Brentford",
+      "league": "Premier League",
       "goals": [
         {
           "postId": "1rzxuey",
