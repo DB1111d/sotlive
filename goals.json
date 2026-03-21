@@ -1,7 +1,52 @@
 {
-  "updated": "2026-03-21T14:27:37Z",
+  "updated": "2026-03-21T14:35:35Z",
   "date": "2026-03-21",
   "matches": [
+    {
+      "home": "Elche",
+      "away": "Mallorca",
+      "goals": [
+        {
+          "postId": "1rzsmqp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzsmqp",
+          "scorer": "Pablo Torre",
+          "minute": 59,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/1d241b29",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774102707000
+        },
+        {
+          "postId": "1rzsq8k",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzsq8k",
+          "scorer": "Rafa Mir",
+          "minute": 63,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/3b329550",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774102958000
+        },
+        {
+          "postId": "1rzsxpk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzsxpk",
+          "scorer": "Tete Morente",
+          "minute": 71,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/a82dc3aa",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774103492000
+        }
+      ]
+    },
     {
       "home": "Ingolstadt",
       "away": "Alemannia Aachen",
@@ -44,38 +89,6 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1774103208000
-        }
-      ]
-    },
-    {
-      "home": "Elche",
-      "away": "Mallorca",
-      "goals": [
-        {
-          "postId": "1rzsmqp",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rzsmqp",
-          "scorer": "Pablo Torre",
-          "minute": 59,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/1d241b29",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1774102707000
-        },
-        {
-          "postId": "1rzsq8k",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rzsq8k",
-          "scorer": "Rafa Mir",
-          "minute": 63,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/3b329550",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1774102958000
         }
       ]
     },
@@ -153,38 +166,6 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1774101772000
-        }
-      ]
-    },
-    {
-      "home": "Arsenal W",
-      "away": "West Ham W",
-      "goals": [
-        {
-          "postId": "1rzrcme",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rzrcme",
-          "scorer": "Chloe Kelly ()",
-          "minute": null,
-          "homeScore": 3,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/d39geas3geqg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/d39geas3geqg1/CMAF_1080.mp4?source=fallback",
-          "postedAt": 1774099324000
-        },
-        {
-          "postId": "1rzs4rw",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rzs4rw",
-          "scorer": "Beth Mead",
-          "minute": 90,
-          "homeScore": 5,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/yt4jckldmeqg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/yt4jckldmeqg1/CMAF_1080.mp4?source=fallback",
-          "postedAt": 1774101428000
         }
       ]
     },
