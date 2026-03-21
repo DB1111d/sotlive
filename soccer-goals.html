@@ -216,42 +216,24 @@
     white-space: nowrap;
   }
 
-  /* ── Video embed ── */
-  .video-wrap {
-    position: relative;
-    width: 100%;
-    aspect-ratio: 16/9;
-    background: #000;
-    border-radius: 1px;
-    overflow: hidden;
-  }
-
-  .video-wrap iframe { width: 100%; height: 100%; border: none; display: block; overflow: hidden; }
-  .streamain-iframe { height: 115%; margin-top: -15%; }
-
-  .video-fallback {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    flex-direction: column;
+  /* ── Goal watch link ── */
+  .goal-watch-link {
+    display: inline-flex;
     align-items: center;
-    justify-content: center;
-    gap: 12px;
-    background: var(--surface2);
-    color: var(--muted);
+    gap: 6px;
     font-family: var(--mono);
-    font-size: 0.75rem;
-    text-align: center;
-    padding: 20px;
-  }
-
-  .video-fallback a {
+    font-size: 0.72rem;
     color: var(--accent);
     text-decoration: none;
-    border-bottom: 1px solid var(--accent);
-    padding-bottom: 1px;
-    word-break: break-all;
+    letter-spacing: 0.04em;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.15s;
   }
+  .goal-watch-link:hover {
+    border-bottom-color: var(--accent);
+  }
+  .goal-watch-link.reddit { color: #ff4500; }
+  .goal-watch-link.reddit:hover { border-bottom-color: #ff4500; }
 
   /* ── Empty / loading states ── */
   #feed-container {
@@ -483,42 +465,21 @@ function renderMatch(match, key, isCollapsed) {
 }
 
 function renderVideo(goal) {
-  if (goal.directMp4 && !/v\.redd\.it/.test(goal.directMp4)) {
-    return `
-      <div class="video-wrap">
-        <video controls playsinline preload="metadata"
-          style="width:100%;height:100%;display:block;background:#000;">
-          <source src="${escHtml(goal.directMp4)}" type="video/mp4">
-        </video>
-      </div>`;
+  // videoUrl tells us where the video actually lives
+  // v.redd.it = Reddit-hosted video → Watch on Reddit (use permalink for the link)
+  // anything else = third-party host → Watch on [host]
+  // Never use permalink directly as a fallback link
+  const videoUrl = goal.videoUrl || '';
+  if (!videoUrl) return '';
+
+  const isRedditVideo = /v\.redd\.it/.test(videoUrl);
+  if (isRedditVideo) {
+    return `<a href="${escHtml(goal.permalink)}" target="_blank" rel="noopener" class="goal-watch-link reddit">\u25b6 Watch on Reddit</a>`;
   }
-  if (goal.videoEmbed && !/redditmedia/.test(goal.videoEmbed)) {
-    const isStreamain = /streamain\.com/.test(goal.videoEmbed);
-    return `
-      <div class="video-wrap">
-        <iframe src="${escHtml(goal.videoEmbed)}"
-          class="${isStreamain ? 'streamain-iframe' : ''}"
-          allowfullscreen allow="autoplay; fullscreen"
-          scrolling="no"></iframe>
-      </div>`;
-  }
-  const _vHost = (() => { try { return new URL(goal.videoUrl || '').hostname.replace('www.',''); } catch(e) { return ''; } })();
-  const _isStreamin = ['streamin.me','streamin.link','streamin.top'].includes(_vHost);
-  const _watchUrl = _isStreamin ? goal.videoUrl : (goal.permalink || goal.videoUrl);
-  const _isReddit = /redd\.it|reddit\.com/.test(_vHost);
-  const _btnColor = _isReddit ? '#ff4500' : '#1a6b3c';
-  const _btnLabel = _isReddit ? '▶ Watch on Reddit' : `▶ Watch on ${_vHost}`;
-  return `
-    <div class="video-wrap">
-      <div class="video-fallback">
-        <a href="${escHtml(_watchUrl)}" target="_blank" rel="noopener"
-          style="display:inline-flex;align-items:center;gap:8px;background:${_btnColor};color:#fff;
-          padding:10px 20px;border-radius:4px;text-decoration:none;font-family:var(--mono);
-          font-size:0.8rem;letter-spacing:0.05em;border:none;white-space:nowrap;">
-          ${_btnLabel}
-        </a>
-      </div>
-    </div>`;
+
+  let host = '';
+  try { host = new URL(videoUrl).hostname.replace('www.', ''); } catch(e) {}
+  return `<a href="${escHtml(videoUrl)}" target="_blank" rel="noopener" class="goal-watch-link">\u25b6 Watch on ${host}</a>`;
 }
 
 // ── Status indicator ──────────────────────────────────────

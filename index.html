@@ -91,8 +91,24 @@
       .sport-btn {
         width: 33.33%;
         font-size: 13px;
+        flex-direction: column;
+        align-items: center;
+        gap: 3px;
+        padding: 6px 4px;
+        border-bottom: none;
+        text-align: center;
       }
-      .sport-icon { font-size: 15px; }
+      .sport-btn.active {
+        border-bottom: 2px solid #000;
+        font-weight: 700;
+        color: #000;
+      }
+      .sport-btn .sport-label {
+        display: block;
+        word-spacing: 9999px; /* forces each word onto its own line */
+        line-height: 1.2;
+      }
+      .sport-icon { font-size: 18px; }
     }
 
     .sport-btn {
@@ -788,19 +804,19 @@
 
   <div class="sport-nav">
     <button class="sport-btn active" id="sport-soccer" onclick="switchSport('soccer')">
-      <span class="sport-icon">⚽</span> Soccer
+      <span class="sport-icon">⚽</span><span class="sport-label"> Soccer</span>
     </button>
     <button class="sport-btn" id="sport-ncaa" onclick="switchSport('ncaa')">
-      <span class="sport-icon">🏀</span> NCAA Men
+      <span class="sport-icon">🏀</span><span class="sport-label"> NCAA Men</span>
     </button>
     <button class="sport-btn" id="sport-netflix" onclick="switchSport('netflix')">
-      <span class="sport-icon">🎬</span> Netflix
+      <span class="sport-icon">🎬</span><span class="sport-label"> Netflix</span>
     </button>
     <button class="sport-btn" id="sport-hbo" onclick="switchSport('hbo')">
-      <span class="sport-icon">📼</span> HBO Max
+      <span class="sport-icon">📼</span><span class="sport-label"> HBO Max</span>
     </button>
     <button class="sport-btn" id="sport-prime" onclick="switchSport('prime')">
-      <span class="sport-icon">📦</span> Prime Video
+      <span class="sport-icon">📦</span><span class="sport-label"> Prime Video</span>
     </button>
   </div>
 
