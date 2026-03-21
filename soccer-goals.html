@@ -491,7 +491,7 @@ function renderMatch(match, key, isCollapsed) {
   const collapsed = isCollapsed ? 'collapsed' : '';
   const goalRows = match.goals.map(g => `
     <div class="goal-row">
-      <div class="goal-minute">${g.minute}'</div>
+      <div class="goal-minute">${g.minute != null && g.minute !== 0 ? g.minute + "'" : "?'"}</div>
       <div class="goal-content">
         <div class="goal-title-line">
           <span class="goal-scorer">${escHtml(g.scorer)}</span>

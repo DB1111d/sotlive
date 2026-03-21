@@ -56,11 +56,12 @@ def parse_title(title):
     if re.search(r"red card|yellow card", title, re.IGNORECASE):
         return None
     minute_match = re.search(r"\s(\d{1,3})(?:\+\d+)?\s*'", title)
-    if not minute_match:
-        return None
-    minute = int(minute_match.group(1))
-    if not (1 <= minute <= 120):
-        return None
+    if minute_match:
+        minute = int(minute_match.group(1))
+        if not (1 <= minute <= 120):
+            return None
+    else:
+        minute = None  # minute not provided in title
     score_match = re.search(r"\[?(\d+)\]?\s*-\s*\[?(\d+)\]?", title)
     if not score_match:
         return None
@@ -78,10 +79,17 @@ def parse_title(title):
     scorer = ""
     if len(dash_parts) > 1:
         scorer = clean_scorer(re.sub(r"\s*\d+['\+].*$", "", dash_parts[1]))
+    if is_own_goal(title):
+        scorer = "Own Goal"
     return {"home": home, "homeScore": home_score, "awayScore": away_score,
             "away": away, "scorer": scorer, "minute": minute}
 
-def extract_video_url(url):
+def is_own_goal(title):
+    """Detect own goal in many formats: OG, O.G., own goal, auto-gol, but gol, csc, etc."""
+    return bool(re.search(
+        r'\b(o\.?g\.?|own[\s-]goal|auto[\s-]?gol|but\s+contre\s+son\s+camp|csc|contre\s+son\s+camp|gol\s+en\s+contra|gol\s+propio)\b',
+        title, re.IGNORECASE
+    ))
     try:
         host = urllib.parse.urlparse(url).netloc.replace("www.", "")
         if host in VIDEO_HOSTS:
@@ -144,8 +152,8 @@ def main():
         if key not in matches:
             matches[key] = {"home": parsed["home"], "away": parsed["away"], "goals": []}
 
-        # Check for duplicate by same score (handles same goal posted at slightly different minutes)
-        existing = next((g for g in matches[key]["goals"] if g["homeScore"] == parsed["homeScore"] and g["awayScore"] == parsed["awayScore"]), None)
+        # Check for duplicate by same minute (not just postId)
+        existing = next((g for g in matches[key]["goals"] if g["minute"] == parsed["minute"]), None)
         if existing:
             # Prefer non-Reddit video over v.redd.it
             existing_is_reddit = existing["videoUrl"].startswith("https://v.redd.it")
