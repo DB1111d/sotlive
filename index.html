@@ -74,6 +74,10 @@
     }
 
     /* ── Sport nav ── */
+    /* ── Desktop sport nav ──
+       LOCKED. DO NOT CHANGE ANYTHING HERE.
+       5 buttons max across, flex wrap, single line text per button.
+       NEVER change: display, flex-wrap, gap, padding, alignment, or button structure. ── */
     .sport-nav {
       max-width: 780px;
       margin: 0 auto;
@@ -85,12 +89,12 @@
     }
 
     /* ── Mobile sport nav — SPACING ONLY. Do NOT change font sizes, display, or button styles. ── */
+    .sport-label-br { display: none; }
+
     /* ── Mobile sport nav ──
        LOCKED. DO NOT CHANGE ANYTHING HERE.
        3 buttons per row via grid. Spacing, emoji, text layout are perfect.
-       Only ever change: gap values if spacing needs adjusting.
-       NEVER change: display, grid-template-columns, font, word-spacing, 
-       emoji alignment, button structure, or anything else. ── */
+       NEVER change: display, grid-template-columns, font, emoji alignment, or button structure. ── */
     @media (max-width: 500px) {
       .sport-nav {
         display: grid;
@@ -99,6 +103,10 @@
         padding-left: 16px;
         padding-right: 16px;
       }
+      .sport-label-br { display: block; }
+    }
+    @media (max-width: 500px) {
+      .sport-label-br { display: block; }
     }
 
     .sport-btn {
@@ -797,16 +805,16 @@
       <span class="sport-icon">⚽</span><span class="sport-label">Soccer</span>
     </button>
     <button class="sport-btn" id="sport-ncaa" onclick="switchSport('ncaa')">
-      <span class="sport-icon">🏀</span><span class="sport-label">NCAA<br>Men</span>
+      <span class="sport-icon">🏀</span><span class="sport-label">NCAA<span class="sport-label-br"></span> Men</span>
     </button>
     <button class="sport-btn" id="sport-netflix" onclick="switchSport('netflix')">
       <span class="sport-icon">🎬</span><span class="sport-label">Netflix</span>
     </button>
     <button class="sport-btn" id="sport-hbo" onclick="switchSport('hbo')">
-      <span class="sport-icon">📼</span><span class="sport-label">HBO<br>Max</span>
+      <span class="sport-icon">📼</span><span class="sport-label">HBO<span class="sport-label-br"></span> Max</span>
     </button>
     <button class="sport-btn" id="sport-prime" onclick="switchSport('prime')">
-      <span class="sport-icon">📦</span><span class="sport-label">Prime<br>Video</span>
+      <span class="sport-icon">📦</span><span class="sport-label">Prime<span class="sport-label-br"></span> Video</span>
     </button>
   </div>
 
