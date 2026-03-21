@@ -1,7 +1,40 @@
 {
-  "updated": "2026-03-21T21:22:27Z",
+  "updated": "2026-03-21T21:46:44Z",
   "date": "2026-03-21",
   "matches": [
+    {
+      "home": "Philadelphia Union",
+      "away": "Chicago Fire FC",
+      "league": "MLS",
+      "goals": [
+        {
+          "postId": "1s03c7y",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s03c7y",
+          "scorer": "Hugo Cuypers",
+          "minute": 45,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/k8iiwcuzugqg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/k8iiwcuzugqg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1774128555000
+        },
+        {
+          "postId": "1s03g33",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s03g33",
+          "scorer": "Milan Iloski",
+          "minute": 45,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/ukbidzbuvgqg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ukbidzbuvgqg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1774128822000
+        }
+      ]
+    },
     {
       "home": "Juventus",
       "away": "Sassuolo",
