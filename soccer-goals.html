@@ -181,7 +181,7 @@
     padding: 20px 0 0;
     font-family: var(--display);
     font-size: 1.1rem;
-    color: var(--accent);
+    color: var(--text);
     border-right: 1px solid var(--border);
   }
 
@@ -472,11 +472,19 @@ function renderMatch(match, key, isCollapsed) {
   `;
 }
 
+const HOST_COLORS = {
+  'streamff.link':   '#2c3e50',
+  'streamff.com':    '#2c3e50',
+  'streamable.com':  '#457b9d',
+  'youtu.be':        '#cc0000',
+  'youtube.com':     '#cc0000',
+  'streamain.com':   '#6a0dad',
+  'streamin.link':   '#2a9d8f',
+  'streamin.top':    '#2a9d8f',
+  'streamin.me':     '#2a9d8f',
+};
+
 function renderVideo(goal) {
-  // videoUrl tells us where the video actually lives
-  // v.redd.it = Reddit-hosted video → Watch on Reddit (use permalink for the link)
-  // anything else = third-party host → Watch on [host]
-  // Never use permalink directly as a fallback link
   const videoUrl = goal.videoUrl || '';
   if (!videoUrl) return '';
 
@@ -487,7 +495,8 @@ function renderVideo(goal) {
 
   let host = '';
   try { host = new URL(videoUrl).hostname.replace('www.', ''); } catch(e) {}
-  return `<a href="${escHtml(videoUrl)}" target="_blank" rel="noopener" class="goal-watch-link">\u25b6 Watch on ${host}</a>`;
+  const color = HOST_COLORS[host] || 'var(--accent)';
+  return `<a href="${escHtml(videoUrl)}" target="_blank" rel="noopener" class="goal-watch-link" style="background:${color};">\u25b6 Watch on ${host}</a>`;
 }
 
 // ── Status indicator ──────────────────────────────────────
