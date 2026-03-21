@@ -11,8 +11,7 @@ from datetime import datetime, timezone
 
 SUBREDDIT   = "soccer"
 VIDEO_HOSTS = {"streamff.link", "streamff.com", "streamable.com",
-               "youtu.be", "youtube.com", "v.redd.it", "streamain.com",
-               "streamin.link", "streamin.top", "streamin.me"}
+               "youtu.be", "youtube.com", "v.redd.it", "streamain.com"}
 
 HEADERS = {
     "User-Agent": "sotlive-goalfeed/1.0",
@@ -54,33 +53,14 @@ def clean_scorer(scorer):
     return scorer.strip()
 
 def parse_title(title):
-    if re.search(r"red card|yellow card|\bsave\b", title, re.IGNORECASE):
-        return None
-    # Filter out women's matches — W suffix teams
-    if re.search(r'\bW\b.*\bW\b', title):
-        return None
-    # Filter out NWSL and other known women's teams
-    WOMENS_TEAMS = {
-        "angel city", "bay fc", "boston legacy", "chicago stars", "denver summit",
-        "gotham fc", "houston dash", "kansas city current", "north carolina courage",
-        "orlando pride", "portland thorns", "racing louisville", "san diego wave",
-        "seattle reign", "utah royals", "washington spirit", "west ham w", "arsenal w",
-        "chelsea fc w", "manchester city w", "manchester united w", "barcelona w",
-        "lyon w", "chelsea w", "liverpool w", "tottenham w", "aston villa w",
-    }
-    title_lower = title.lower()
-    if any(team in title_lower for team in WOMENS_TEAMS):
+    if re.search(r"red card|yellow card", title, re.IGNORECASE):
         return None
     minute_match = re.search(r"\s(\d{1,3})(?:\+\d+)?\s*'", title)
-    if minute_match:
-        minute = int(minute_match.group(1))
-        if not (1 <= minute <= 120):
-            return None
-    else:
-        # No minute — only accept if title has a bracketed score like [2]-1 or 1-[2]
-        if not re.search(r'\[\d+\]', title):
-            return None
-        minute = None
+    if not minute_match:
+        return None
+    minute = int(minute_match.group(1))
+    if not (1 <= minute <= 120):
+        return None
     score_match = re.search(r"\[?(\d+)\]?\s*-\s*\[?(\d+)\]?", title)
     if not score_match:
         return None
@@ -88,27 +68,20 @@ def parse_title(title):
     away_score = int(score_match.group(2))
     score_idx = title.index(score_match.group(0))
     home = clean_team(title[:score_idx])
-    if not home or len(home) > 50 or ',' in home or '~' in home:
+    if not home:
         return None
     after_score = title[score_idx + len(score_match.group(0)):].strip()
     dash_parts = after_score.split(" - ")
     away = clean_team(dash_parts[0])
-    if not away or len(away) > 50 or ',' in away or '~' in away:
+    if not away:
         return None
     scorer = ""
     if len(dash_parts) > 1:
         scorer = clean_scorer(re.sub(r"\s*\d+['\+].*$", "", dash_parts[1]))
-    if is_own_goal(title):
-        scorer = "Own Goal"
     return {"home": home, "homeScore": home_score, "awayScore": away_score,
             "away": away, "scorer": scorer, "minute": minute}
 
-def is_own_goal(title):
-    """Detect own goal in many formats: OG, O.G., own goal, auto-gol, but gol, csc, etc."""
-    return bool(re.search(
-        r'\b(o\.?g\.?|own[\s-]goal|auto[\s-]?gol|but\s+contre\s+son\s+camp|csc|contre\s+son\s+camp|gol\s+en\s+contra|gol\s+propio)\b',
-        title, re.IGNORECASE
-    ))
+def extract_video_url(url):
     try:
         host = urllib.parse.urlparse(url).netloc.replace("www.", "")
         if host in VIDEO_HOSTS:
@@ -131,25 +104,32 @@ def build_embed(url, post_id):
             v = urllib.parse.parse_qs(u.query).get("v", [vid_id])[0]
             return f"https://www.youtube.com/embed/{v}"
         if host == "streamain.com":  return url  # direct link, no embed
-        if host == "streamin.link":  return None  # blocks iframes, use link fallback
-        if host == "streamin.top":   return None
-        if host == "streamin.me":    return None
     except Exception:
         pass
     return None
 
-def extract_video_url(url):
-    try:
-        host = urllib.parse.urlparse(url).netloc.replace("www.", "")
-        if host in VIDEO_HOSTS:
-            return url
-    except Exception:
-        pass
-    return None
+def clean_team(name):
+    # Strip anything in brackets/parens like "[2-1 on agg.]" or "(2-1 on agg.)"
+    return re.sub(r'[\[\(][^\]\)]*[\]\)]', '', name).strip()
+
+def normalize_team(name):
+    """Strip common prefixes/suffixes so 'Bayer Leverkusen' == 'Leverkusen', 'FC Barcelona' == 'Barcelona'"""
+    name = clean_team(name).lower().strip()
+    # Strip common prefixes
+    for prefix in ['bayer ', 'fc ', 'afc ', 'sc ', 'rc ', 'ac ', 'as ', 'ss ', 'cd ', 'sd ', 'rcd ']:
+        if name.startswith(prefix):
+            name = name[len(prefix):]
+            break
+    # Strip common suffixes
+    for suffix in [' fc', ' afc', ' sc', ' cf', ' ac', ' united', ' city', ' town', ' athletic']:
+        if name.endswith(suffix):
+            name = name[:-len(suffix)]
+            break
+    return name.strip()
 
 
 def match_key(home, away):
-    return " vs ".join(sorted([clean_team(home).lower(), clean_team(away).lower()]))
+    return " vs ".join(sorted([normalize_team(home), normalize_team(away)]))
 
 def main():
     today_ts = today_utc_midnight_ts()
@@ -181,7 +161,7 @@ def main():
             matches[key] = {"home": parsed["home"], "away": parsed["away"], "goals": []}
 
         # Check for duplicate by same minute (not just postId)
-        existing = next((g for g in matches[key]["goals"] if g["homeScore"] == parsed["homeScore"] and g["awayScore"] == parsed["awayScore"]), None)
+        existing = next((g for g in matches[key]["goals"] if g["minute"] == parsed["minute"]), None)
         if existing:
             # Prefer non-Reddit video over v.redd.it
             existing_is_reddit = existing["videoUrl"].startswith("https://v.redd.it")

@@ -110,7 +110,7 @@
     padding: 18px 24px;
     border-bottom: 1px solid var(--border);
     gap: 16px;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     cursor: pointer;
     user-select: none;
   }
@@ -144,10 +144,6 @@
     font-size: 1.5rem;
     letter-spacing: 0.04em;
     line-height: 1;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    min-width: 0;
   }
 
   .match-meta {
@@ -354,11 +350,10 @@
       font-size: 2.2rem;
     }
 
-    /* Streamain header handled via CSS class, no clip needed */
+    /* Clip Streamain's internal header bar on mobile */
     .video-wrap iframe {
-      height: 100%;
-      margin-top: 0;
-    }
+      height: 115%;
+      margin-top: -15%;
     }
   }
 </style>
@@ -374,7 +369,7 @@
 
 <main>
   <div style="text-align:center;margin-bottom:16px;margin-top:10px;">
-    <span style="font-family:var(--display);font-size:3.2rem;letter-spacing:0.05em;color:var(--accent);"><span style="font-size:3.8rem;">🥅</span> GOAL<span style="color:var(--text);">FEED</span></span>
+    <span style="font-family:var(--display);font-size:3.2rem;letter-spacing:0.05em;color:var(--accent);"><span style="font-size:3.8rem;">🥅</span> GOAL<span style="color:var(--text);">FEED</span> <span style="font-size:3.8rem;">🥅</span></span>
   </div>
   <div id="feed-container">
     <div class="state-msg">
@@ -505,20 +500,15 @@ function renderVideo(goal) {
           scrolling="no"></iframe>
       </div>`;
   }
-  // No embeddable source — show a watch button
-  const _vHost = (() => { try { return new URL(goal.videoUrl || '').hostname.replace('www.',''); } catch(e) { return ''; } })();
-  const _watchUrl = ['streamin.me','streamin.link','streamin.top'].includes(_vHost) ? goal.videoUrl : (goal.permalink || goal.videoUrl);
-  const isReddit = /redd\.it|reddit\.com/.test(_vHost);
-  const btnColor = isReddit ? '#ff4500' : '#1a6b3c';
-  const btnLabel = isReddit ? '▶ Watch on Reddit' : `▶ Watch on ${_vHost}`;
+  // Reddit hosted video — link to the actual post which always works
   return `
     <div class="video-wrap">
       <div class="video-fallback">
-        <a href="${escHtml(_watchUrl)}" target="_blank" rel="noopener"
-          style="display:inline-flex;align-items:center;gap:8px;background:${btnColor};color:#fff;
+        <a href="${goal.permalink || goal.videoUrl}" target="_blank" rel="noopener"
+          style="display:inline-flex;align-items:center;gap:8px;background:#ff4500;color:#fff;
           padding:10px 20px;border-radius:4px;text-decoration:none;font-family:var(--mono);
-          font-size:0.8rem;letter-spacing:0.05em;border:none;white-space:nowrap;">
-          ${btnLabel}
+          font-size:0.8rem;letter-spacing:0.05em;border:none;">
+          ▶ Watch here — Reddit videos can't be embedded
         </a>
       </div>
     </div>`;
