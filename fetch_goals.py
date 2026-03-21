@@ -61,7 +61,10 @@ def parse_title(title):
         if not (1 <= minute <= 120):
             return None
     else:
-        minute = None  # minute not provided in title
+        # No minute — only accept if title has a bracketed score like [2]-1 or 1-[2]
+        if not re.search(r'\[\d+\]', title):
+            return None
+        minute = None
     score_match = re.search(r"\[?(\d+)\]?\s*-\s*\[?(\d+)\]?", title)
     if not score_match:
         return None
@@ -69,12 +72,12 @@ def parse_title(title):
     away_score = int(score_match.group(2))
     score_idx = title.index(score_match.group(0))
     home = clean_team(title[:score_idx])
-    if not home:
+    if not home or len(home) > 50 or ',' in home or '~' in home:
         return None
     after_score = title[score_idx + len(score_match.group(0)):].strip()
     dash_parts = after_score.split(" - ")
     away = clean_team(dash_parts[0])
-    if not away:
+    if not away or len(away) > 50 or ',' in away or '~' in away:
         return None
     scorer = ""
     if len(dash_parts) > 1:
