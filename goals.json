@@ -1,7 +1,64 @@
 {
-  "updated": "2026-03-21T11:55:27Z",
+  "updated": "2026-03-21T12:06:05Z",
   "date": "2026-03-21",
   "matches": [
+    {
+      "home": "Japan",
+      "away": "Australia",
+      "goals": [
+        {
+          "postId": "1rzn3jb",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzn3jb",
+          "scorer": "Maika Hamano 17’",
+          "minute": null,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/1l3uofkr9dqg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/1l3uofkr9dqg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1774085073000
+        }
+      ]
+    },
+    {
+      "home": "Truffert and Amad contact in the box, ~25 seconds before Bournemouth make it",
+      "away": ".",
+      "goals": [
+        {
+          "postId": "1rzmbyz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzmbyz",
+          "scorer": "",
+          "minute": null,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/7tx5k2kj0dqg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/7tx5k2kj0dqg1/CMAF_480.mp4?source=fallback",
+          "postedAt": 1774082036000
+        }
+      ]
+    },
+    {
+      "home": "Melbourne Victory",
+      "away": "Central Coast Mariners",
+      "goals": [
+        {
+          "postId": "1rzldh8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzldh8",
+          "scorer": "Juan Mata",
+          "minute": null,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/3knpfzqopcqg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/3knpfzqopcqg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1774078331000
+        }
+      ]
+    },
     {
       "home": "UC Dublin",
       "away": "Cork City",
@@ -18,6 +75,25 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/wnth13r6ecqg1/CMAF_720.mp4?source=fallback",
           "postedAt": 1774074505000
+        }
+      ]
+    },
+    {
+      "home": "Racing Louisville",
+      "away": "Washington Spirit",
+      "goals": [
+        {
+          "postId": "1rzgot0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzgot0",
+          "scorer": "Sofia Cantore 50’",
+          "minute": null,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/t3j3xqeqebqg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/t3j3xqeqebqg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1774062536000
         }
       ]
     }
