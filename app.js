@@ -546,6 +546,54 @@ async function switchSport(sport) {
       }
     }
 
+    // Collect all genres across all groups for this sport
+    const allGenres = [...new Set(
+      groupNames.flatMap(g => groups[g]).flatMap(s => s.genres || [])
+    )].sort();
+
+    // Current genre filter state — resets per sport switch
+    let activeGenre = '';
+
+    function applyGenreFilter(genre, panelId) {
+      activeGenre = genre;
+      const panel = streamingPanels[panelId];
+      if (!panel) return;
+      panel.querySelectorAll('.netflix-card, a.netflix-card').forEach(card => {
+        if (!genre) {
+          card.style.display = '';
+        } else {
+          const genreEl = card.querySelector('.netflix-genres');
+          const cardGenres = genreEl ? genreEl.textContent : '';
+          card.style.display = cardGenres.includes(genre) ? '' : 'none';
+        }
+      });
+    }
+
+    function buildGenreDropdown(panelId) {
+      const wrap = document.createElement('div');
+      wrap.className = 'genre-filter-wrap';
+      const select = document.createElement('select');
+      select.className = 'tz-select genre-select';
+      select.dataset.panelId = panelId;
+      const defaultOpt = document.createElement('option');
+      defaultOpt.value = '';
+      defaultOpt.textContent = 'All Genres';
+      select.appendChild(defaultOpt);
+      allGenres.forEach(g => {
+        const opt = document.createElement('option');
+        opt.value = g;
+        opt.textContent = g;
+        select.appendChild(opt);
+      });
+      if (!allGenres.length) select.disabled = true;
+      select.addEventListener('change', () => {
+        applyGenreFilter(select.value, select.dataset.panelId);
+        document.querySelectorAll('.genre-select').forEach(s => s.value = select.value);
+      });
+      wrap.appendChild(select);
+      return wrap;
+    }
+
     groupNames.forEach((groupName, idx) => {
       const panelId = `panel-${sport}-${groupName.replace(/\s+/g, '-').toLowerCase()}`;
       const shows = groups[groupName];
@@ -570,7 +618,11 @@ async function switchSport(sport) {
       streamingState[panelId] = { shows, offset: 0, grid, sentinel, observer };
 
       let headerHTML = `<div class="netflix-week-label">${data.week_label || ''}</div>`;
-      headerHTML += `<div class="netflix-section-title">${groupName}</div>`;
+      headerHTML += `<div class="netflix-title-row"><div class="netflix-section-title">${groupName}</div></div>`;
+      panel.innerHTML = headerHTML;
+      const titleRow = panel.querySelector('.netflix-title-row');
+      const dropdown = buildGenreDropdown(panelId);
+      titleRow.appendChild(dropdown);
       panel.innerHTML = headerHTML;
       panel.appendChild(grid);
       contentEl.appendChild(panel);
@@ -588,6 +640,10 @@ async function switchSport(sport) {
       streamingPanels[panelId].classList.add('active');
       hideTzPicker();
       hideLeagueFilter();
+      // Reset genre filter
+      activeGenre = '';
+      document.querySelectorAll('.genre-select').forEach(s => { s.value = ''; s.dataset.panelId = panelId; });
+      applyGenreFilter('', panelId);
       const state = streamingState[panelId];
       if (state && state.offset === 0) appendNextPage(panelId);
     }
