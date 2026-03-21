@@ -110,9 +110,20 @@
     padding: 18px 24px;
     border-bottom: 1px solid var(--border);
     gap: 16px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     cursor: pointer;
     user-select: none;
+  }
+
+  .match-teams {
+    font-family: var(--display);
+    font-size: 1.5rem;
+    letter-spacing: 0.04em;
+    line-height: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-width: 0;
   }
 
   .match-header:hover {
@@ -349,12 +360,6 @@
     .state-msg .big {
       font-size: 2.2rem;
     }
-
-    /* Clip Streamain's internal header bar on mobile */
-    .video-wrap iframe {
-      height: 115%;
-      margin-top: -15%;
-    }
   }
 </style>
 </head>
@@ -458,7 +463,7 @@ function renderMatch(match, key, isCollapsed) {
   const collapsed = isCollapsed ? 'collapsed' : '';
   const goalRows = match.goals.map(g => `
     <div class="goal-row">
-      <div class="goal-minute">${g.minute}'</div>
+      <div class="goal-minute">${g.minute != null ? g.minute + "'" : "null'"}</div>
       <div class="goal-content">
         <div class="goal-title-line">
           <span class="goal-scorer">${escHtml(g.scorer)}</span>
@@ -500,15 +505,20 @@ function renderVideo(goal) {
           scrolling="no"></iframe>
       </div>`;
   }
-  // Reddit hosted video — link to the actual post which always works
+  const _vHost = (() => { try { return new URL(goal.videoUrl || '').hostname.replace('www.',''); } catch(e) { return ''; } })();
+  const _isStreamin = ['streamin.me','streamin.link','streamin.top'].includes(_vHost);
+  const _watchUrl = _isStreamin ? goal.videoUrl : (goal.permalink || goal.videoUrl);
+  const _isReddit = /redd\.it|reddit\.com/.test(_vHost);
+  const _btnColor = _isReddit ? '#ff4500' : '#1a6b3c';
+  const _btnLabel = _isReddit ? '▶ Watch on Reddit' : `▶ Watch on ${_vHost}`;
   return `
     <div class="video-wrap">
       <div class="video-fallback">
-        <a href="${goal.permalink || goal.videoUrl}" target="_blank" rel="noopener"
-          style="display:inline-flex;align-items:center;gap:8px;background:#ff4500;color:#fff;
+        <a href="${escHtml(_watchUrl)}" target="_blank" rel="noopener"
+          style="display:inline-flex;align-items:center;gap:8px;background:${_btnColor};color:#fff;
           padding:10px 20px;border-radius:4px;text-decoration:none;font-family:var(--mono);
-          font-size:0.8rem;letter-spacing:0.05em;border:none;">
-          ▶ Watch here — Reddit videos can't be embedded
+          font-size:0.8rem;letter-spacing:0.05em;border:none;white-space:nowrap;">
+          ${_btnLabel}
         </a>
       </div>
     </div>`;

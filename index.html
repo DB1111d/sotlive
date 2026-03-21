@@ -79,8 +79,20 @@
       margin: 0 auto;
       padding: 10px 24px 4px;
       display: flex;
-      gap: 18px;
+      flex-wrap: wrap;
+      gap: 14px 20px;
       align-items: center;
+    }
+
+    @media (max-width: 500px) {
+      .sport-nav {
+        gap: 10px 0;
+      }
+      .sport-btn {
+        width: 33.33%;
+        font-size: 13px;
+      }
+      .sport-icon { font-size: 15px; }
     }
 
     .sport-btn {
