@@ -1,7 +1,129 @@
 {
-  "updated": "2026-03-21T13:32:12Z",
+  "updated": "2026-03-21T14:02:47Z",
   "date": "2026-03-21",
   "matches": [
+    {
+      "home": "Ingolstadt",
+      "away": "Alemannia Aachen",
+      "goals": [
+        {
+          "postId": "1rzs2rf",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzs2rf",
+          "scorer": "Faton Ademi",
+          "minute": 40,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/4770fcb3",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774101277000
+        },
+        {
+          "postId": "1rzs82e",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzs82e",
+          "scorer": "Marcel Costly",
+          "minute": 43,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/e047d1ae",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774101660000
+        }
+      ]
+    },
+    {
+      "home": "Arsenal W",
+      "away": "West Ham W",
+      "goals": [
+        {
+          "postId": "1rzrcme",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzrcme",
+          "scorer": "Chloe Kelly ()",
+          "minute": null,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/d39geas3geqg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/d39geas3geqg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1774099324000
+        },
+        {
+          "postId": "1rzs4rw",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzs4rw",
+          "scorer": "Beth Mead",
+          "minute": 90,
+          "homeScore": 5,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/yt4jckldmeqg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/yt4jckldmeqg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1774101428000
+        }
+      ]
+    },
+    {
+      "home": "Elversberg",
+      "away": "Arminia Bielefeld",
+      "goals": [
+        {
+          "postId": "1rzqgrx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzqgrx",
+          "scorer": "Lukas Petkov",
+          "minute": 38,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/3c387dbf",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774096852000
+        },
+        {
+          "postId": "1rzrl4n",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzrl4n",
+          "scorer": "Lukas Petkov",
+          "minute": 69,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/958ce7ff",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774099962000
+        },
+        {
+          "postId": "1rzrsz4",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzrsz4",
+          "scorer": "Amara Conde",
+          "minute": 76,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/ec7b8adc",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774100551000
+        },
+        {
+          "postId": "1rzrz2o",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzrz2o",
+          "scorer": "Christopher Lannert",
+          "minute": 84,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/004dc646",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774101005000
+        }
+      ]
+    },
     {
       "home": "Paderborn",
       "away": "Dynamo Dresden",
@@ -31,44 +153,19 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1774099757000
-        }
-      ]
-    },
-    {
-      "home": "Derby County",
-      "away": "Birmingham",
-      "goals": [
+        },
         {
-          "postId": "1rzrder",
+          "postId": "1rzrxbr",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1rzrder",
-          "scorer": "Rhian Brewster",
-          "minute": 43,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamain.com/QVS0VzWoFup9mO7/watch",
-          "videoEmbed": "https://streamain.com/QVS0VzWoFup9mO7/watch",
-          "directMp4": null,
-          "postedAt": 1774099381000
-        }
-      ]
-    },
-    {
-      "home": "Arsenal W",
-      "away": "West Ham W",
-      "goals": [
-        {
-          "postId": "1rzrcme",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rzrcme",
-          "scorer": "Chloe Kelly ()",
-          "minute": null,
-          "homeScore": 3,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/d39geas3geqg1",
+          "permalink": "https://redd.it/1rzrxbr",
+          "scorer": "Steffen Tigges",
+          "minute": 85,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/695fe15c",
           "videoEmbed": null,
-          "directMp4": "https://v.redd.it/d39geas3geqg1/CMAF_1080.mp4?source=fallback",
-          "postedAt": 1774099324000
+          "directMp4": null,
+          "postedAt": 1774100874000
         }
       ]
     },
@@ -101,6 +198,70 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1774099093000
+        },
+        {
+          "postId": "1rzrv7v",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzrv7v",
+          "scorer": "Luka Lochoshvili",
+          "minute": 83,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/5094923e",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774100717000
+        }
+      ]
+    },
+    {
+      "home": "Ipswich",
+      "away": "Millwall",
+      "goals": [
+        {
+          "postId": "1rzr6h0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzr6h0",
+          "scorer": "Jack Clarke",
+          "minute": 41,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/v9qu5wrpeeqg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774098855000
+        },
+        {
+          "postId": "1rzrr4e",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzrr4e",
+          "scorer": "Josh Coburn",
+          "minute": 50,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/we2yt0edjeqg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/we2yt0edjeqg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1774100418000
+        }
+      ]
+    },
+    {
+      "home": "Derby County",
+      "away": "Birmingham",
+      "goals": [
+        {
+          "postId": "1rzrder",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzrder",
+          "scorer": "Rhian Brewster",
+          "minute": 43,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/QVS0VzWoFup9mO7/watch",
+          "videoEmbed": "https://streamain.com/QVS0VzWoFup9mO7/watch",
+          "directMp4": null,
+          "postedAt": 1774099381000
         }
       ]
     },
@@ -133,44 +294,6 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1774098904000
-        }
-      ]
-    },
-    {
-      "home": "Ipswich",
-      "away": "Millwall",
-      "goals": [
-        {
-          "postId": "1rzr6h0",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rzr6h0",
-          "scorer": "Jack Clarke",
-          "minute": 41,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/v9qu5wrpeeqg1",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1774098855000
-        }
-      ]
-    },
-    {
-      "home": "Elversberg",
-      "away": "Arminia Bielefeld",
-      "goals": [
-        {
-          "postId": "1rzqgrx",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rzqgrx",
-          "scorer": "Lukas Petkov",
-          "minute": 38,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamin.link/v/3c387dbf",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1774096852000
         }
       ]
     },
