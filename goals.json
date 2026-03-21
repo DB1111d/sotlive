@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-21T14:02:47Z",
+  "updated": "2026-03-21T14:27:37Z",
   "date": "2026-03-21",
   "matches": [
     {
@@ -31,6 +31,128 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1774101660000
+        },
+        {
+          "postId": "1rzstno",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzstno",
+          "scorer": "Mika Schroers",
+          "minute": 55,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/ebccb43d",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774103208000
+        }
+      ]
+    },
+    {
+      "home": "Elche",
+      "away": "Mallorca",
+      "goals": [
+        {
+          "postId": "1rzsmqp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzsmqp",
+          "scorer": "Pablo Torre",
+          "minute": 59,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/1d241b29",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774102707000
+        },
+        {
+          "postId": "1rzsq8k",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzsq8k",
+          "scorer": "Rafa Mir",
+          "minute": 63,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/3b329550",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774102958000
+        }
+      ]
+    },
+    {
+      "home": "Waldhof Mannheim",
+      "away": "Erzgebirge Aue",
+      "goals": [
+        {
+          "postId": "1rzsaps",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzsaps",
+          "scorer": "Marvin Stefaniak",
+          "minute": 44,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/9a75ab5c",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774101849000
+        },
+        {
+          "postId": "1rzsizv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzsizv",
+          "scorer": "Lovis Bierschenk",
+          "minute": 50,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/d68b3208",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774102438000
+        }
+      ]
+    },
+    {
+      "home": "Brighton",
+      "away": "Liverpool",
+      "goals": [
+        {
+          "postId": "1rzqvqh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzqvqh",
+          "scorer": "Danny Welbeck",
+          "minute": 14,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/5257176e",
+          "videoEmbed": "https://streamff.link/v/5257176e",
+          "directMp4": null,
+          "postedAt": 1774098050000
+        },
+        {
+          "postId": "1rzr73i",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzr73i",
+          "scorer": "Milos Kerkez",
+          "minute": 30,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/f3dc7d3f",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774098904000
+        },
+        {
+          "postId": "1rzs9p9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzs9p9",
+          "scorer": "Danny Welbeck",
+          "minute": 56,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/9bd620ea",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774101772000
         }
       ]
     },
@@ -262,38 +384,6 @@
           "videoEmbed": "https://streamain.com/QVS0VzWoFup9mO7/watch",
           "directMp4": null,
           "postedAt": 1774099381000
-        }
-      ]
-    },
-    {
-      "home": "Brighton",
-      "away": "Liverpool",
-      "goals": [
-        {
-          "postId": "1rzqvqh",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rzqvqh",
-          "scorer": "Danny Welbeck",
-          "minute": 14,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamff.link/v/5257176e",
-          "videoEmbed": "https://streamff.link/v/5257176e",
-          "directMp4": null,
-          "postedAt": 1774098050000
-        },
-        {
-          "postId": "1rzr73i",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rzr73i",
-          "scorer": "Milos Kerkez",
-          "minute": 30,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/f3dc7d3f",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1774098904000
         }
       ]
     },
