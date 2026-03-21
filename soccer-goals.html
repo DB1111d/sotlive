@@ -247,8 +247,12 @@
   #league-filter-bar {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 8px;
     margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 560px;
   }
 
   .league-btn {
@@ -264,6 +268,20 @@
     color: var(--muted);
     cursor: pointer;
     transition: background 0.15s, color 0.15s, border-color 0.15s;
+    flex: 0 1 calc(33.333% - 8px);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  @media (min-width: 601px) {
+    #league-filter-bar {
+      max-width: 900px;
+    }
+    .league-btn {
+      flex: 0 1 calc(20% - 8px);
+    }
   }
 
   .league-btn:hover {
@@ -425,6 +443,8 @@ async function fetchGoals() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
 
+    // Reset and reload all matches fresh each poll
+    matches = {};
     for (const match of data.matches || []) {
       const key = matchKey(match.home, match.away);
       matches[key] = match;
@@ -450,27 +470,27 @@ function buildLeagueFilter(matchList) {
   const bar = document.getElementById('league-filter-bar');
   if (!bar) return;
 
-  // Collect leagues present in current data, ordered by LEAGUE_ORDER
+  // Leagues present in data, ordered by LEAGUE_ORDER, Other always last
   const present = new Set(matchList.map(m => m.league).filter(Boolean));
   const ordered = LEAGUE_ORDER.filter(l => present.has(l));
-  // Any leagues not in LEAGUE_ORDER go at the end
-  for (const l of present) if (!ordered.includes(l)) ordered.push(l);
+  const hasOther = matchList.some(m => !m.league || !LEAGUE_ORDER.includes(m.league) || m.league === 'Other');
 
-  if (ordered.length <= 1) {
+  // No buttons at all — hide bar
+  if (ordered.length === 0 && !hasOther) {
     bar.style.display = 'none';
+    activeLeague = '';
     return;
+  }
+
+  // Auto-select on first load — first known league, or Other if none
+  if (!activeLeague || (!ordered.includes(activeLeague) && !(hasOther && activeLeague === 'Other'))) {
+    activeLeague = ordered.length > 0 ? ordered[0] : 'Other';
   }
 
   bar.style.display = 'flex';
   bar.innerHTML = '';
 
-  // All button
-  const allBtn = document.createElement('button');
-  allBtn.className = 'league-btn' + (activeLeague === '' ? ' active' : '');
-  allBtn.textContent = 'All';
-  allBtn.onclick = () => { activeLeague = ''; render(); };
-  bar.appendChild(allBtn);
-
+  // Known leagues in LEAGUE_ORDER order
   ordered.forEach(league => {
     const btn = document.createElement('button');
     btn.className = 'league-btn' + (activeLeague === league ? ' active' : '');
@@ -478,6 +498,15 @@ function buildLeagueFilter(matchList) {
     btn.onclick = () => { activeLeague = league; render(); };
     bar.appendChild(btn);
   });
+
+  // Other always last
+  if (hasOther) {
+    const otherBtn = document.createElement('button');
+    otherBtn.className = 'league-btn' + (activeLeague === 'Other' ? ' active' : '');
+    otherBtn.textContent = 'Other';
+    otherBtn.onclick = () => { activeLeague = 'Other'; render(); };
+    bar.appendChild(otherBtn);
+  }
 }
 
 // ── Render ────────────────────────────────────────────────
@@ -491,11 +520,11 @@ function render() {
         <div class="big">⚽</div>
         <div>No goals found yet — check back soon</div>
       </div>`;
-    document.getElementById('league-filter-bar').style.display = 'none';
+    const bar = document.getElementById('league-filter-bar');
+    if (bar) bar.style.display = 'none';
     return;
   }
 
-  // Sort matches: most recent goal first
   matchList.sort((a, b) => {
     const latestA = Math.max(...a.goals.map(g => g.postedAt));
     const latestB = Math.max(...b.goals.map(g => g.postedAt));
@@ -504,8 +533,10 @@ function render() {
 
   buildLeagueFilter(matchList);
 
-  // Apply league filter
-  const filtered = activeLeague ? matchList.filter(m => m.league === activeLeague) : matchList;
+  // Apply league filter — "Other" shows anything not in LEAGUE_ORDER
+  const filtered = activeLeague === 'Other'
+    ? matchList.filter(m => !m.league || !LEAGUE_ORDER.includes(m.league) || m.league === 'Other')
+    : matchList.filter(m => m.league === activeLeague);
 
   if (filtered.length === 0) {
     container.innerHTML = `
@@ -516,18 +547,15 @@ function render() {
     return;
   }
 
-  // Preserve collapsed states
-  const collapsedKeys = new Set();
-  document.querySelectorAll('.match-card').forEach(card => {
-    if (card.classList.contains('collapsed')) collapsedKeys.add(card.dataset.key);
+  // Always collapsed by default — user must click to expand
+  const expandedKeys = new Set();
+  document.querySelectorAll('.match-card:not(.collapsed)').forEach(card => {
+    expandedKeys.add(card.dataset.key);
   });
-
-  const newestKey = filtered[0] ? matchKey(filtered[0].home, filtered[0].away) : null;
 
   container.innerHTML = filtered.map((match) => {
     const key = matchKey(match.home, match.away);
-    const isCollapsed = key === newestKey ? false : (collapsedKeys.size > 0 ? collapsedKeys.has(key) : true);
-    return renderMatch(match, key, isCollapsed);
+    return renderMatch(match, key, !expandedKeys.has(key));
   }).join('');
 }
 
