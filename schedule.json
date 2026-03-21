@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-21 09:23 EDT",
+  "updated": "2026-03-21 10:28 EDT",
   "days": {
     "20260321": {
       "date": "Saturday, March 21",
@@ -112,13 +112,6 @@
         {
           "league": "EFL Championship",
           "time": "8:30 AM",
-          "match": "Blackburn Rovers vs Middlesbrough",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-21T12:30Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "8:30 AM",
           "match": "Derby County vs Birmingham City",
           "source": "CBS / Paramount+",
           "kick_utc": "2026-03-21T12:30Z"
@@ -133,43 +126,8 @@
         {
           "league": "EFL Championship",
           "time": "11:00 AM",
-          "match": "Bristol City vs West Bromwich Albion",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-21T15:00Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "11:00 AM",
-          "match": "Charlton Athletic vs Norwich City",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-21T15:00Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "11:00 AM",
-          "match": "Hull City vs Sheffield Wednesday",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-21T15:00Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "11:00 AM",
-          "match": "Queens Park Rangers vs Portsmouth",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-21T15:00Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "11:00 AM",
           "match": "Sheffield United vs Wrexham",
           "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-21T15:00Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "11:00 AM",
-          "match": "Southampton vs Oxford United",
-          "source": "ESPN+",
           "kick_utc": "2026-03-21T15:00Z"
         },
         {
