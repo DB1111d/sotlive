@@ -116,9 +116,15 @@ def build_embed(url, post_id):
         pass
     return None
 
-def clean_team(name):
-    # Strip anything in brackets/parens like "[2-1 on agg.]" or "(2-1 on agg.)"
-    return re.sub(r'[\[\(][^\]\)]*[\]\)]', '', name).strip()
+def extract_video_url(url):
+    try:
+        host = urllib.parse.urlparse(url).netloc.replace("www.", "")
+        if host in VIDEO_HOSTS:
+            return url
+    except Exception:
+        pass
+    return None
+
 
 def match_key(home, away):
     return " vs ".join(sorted([clean_team(home).lower(), clean_team(away).lower()]))
