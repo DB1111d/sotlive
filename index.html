@@ -85,23 +85,12 @@
     }
 
     /* ── Mobile sport nav — SPACING ONLY. Do NOT change font sizes, display, or button styles. ── */
-    /* ── Mobile sport nav — SPACING + two-line labels. Do NOT remove word-spacing. ── */
+    /* ── Mobile sport nav — SPACING ONLY. Do NOT add word-spacing or change display. ── */
     @media (max-width: 500px) {
       .sport-nav {
         gap: 10px 16px;
         padding-left: 16px;
         padding-right: 16px;
-      }
-      .sport-btn {
-        align-items: center;
-        gap: 6px;
-      }
-      .sport-icon {
-        flex-shrink: 0;
-      }
-      .sport-label {
-        word-spacing: 9999px;
-        line-height: 1.3;
       }
     }
 
@@ -801,16 +790,16 @@
       <span class="sport-icon">⚽</span><span class="sport-label">Soccer</span>
     </button>
     <button class="sport-btn" id="sport-ncaa" onclick="switchSport('ncaa')">
-      <span class="sport-icon">🏀</span><span class="sport-label">NCAA Men</span>
+      <span class="sport-icon">🏀</span><span class="sport-label">NCAA<br>Men</span>
     </button>
     <button class="sport-btn" id="sport-netflix" onclick="switchSport('netflix')">
       <span class="sport-icon">🎬</span><span class="sport-label">Netflix</span>
     </button>
     <button class="sport-btn" id="sport-hbo" onclick="switchSport('hbo')">
-      <span class="sport-icon">📼</span><span class="sport-label">HBO Max</span>
+      <span class="sport-icon">📼</span><span class="sport-label">HBO<br>Max</span>
     </button>
     <button class="sport-btn" id="sport-prime" onclick="switchSport('prime')">
-      <span class="sport-icon">📦</span><span class="sport-label">Prime Video</span>
+      <span class="sport-icon">📦</span><span class="sport-label">Prime<br>Video</span>
     </button>
   </div>
 
