@@ -1,23 +1,9 @@
 {
-  "updated": "2026-03-21 12:31 EDT",
+  "updated": "2026-03-21 16:29 EDT",
   "days": {
     "20260321": {
       "date": "Saturday, March 21",
       "games": [
-        {
-          "league": "Premier League",
-          "time": "8:45 AM",
-          "match": "Brighton & Hove Albion vs Liverpool",
-          "source": "USA Network",
-          "kick_utc": "2026-03-21T12:45Z"
-        },
-        {
-          "league": "Premier League",
-          "time": "11:00 AM",
-          "match": "Fulham vs Burnley",
-          "source": "USA Network",
-          "kick_utc": "2026-03-21T15:00Z"
-        },
         {
           "league": "Premier League",
           "time": "1:30 PM",
@@ -31,13 +17,6 @@
           "match": "Leeds United vs Brentford",
           "source": "USA Network",
           "kick_utc": "2026-03-21T20:00Z"
-        },
-        {
-          "league": "Premier League",
-          "time": "Postponed",
-          "match": "Manchester City vs Crystal Palace",
-          "source": "",
-          "kick_utc": "2026-03-21T15:00Z"
         },
         {
           "league": "MLS",
@@ -111,31 +90,10 @@
         },
         {
           "league": "EFL Championship",
-          "time": "11:00 AM",
-          "match": "Sheffield United vs Wrexham",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-21T15:00Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "11:00 AM",
-          "match": "Watford vs Leicester City",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-21T15:00Z"
-        },
-        {
-          "league": "EFL Championship",
           "time": "1:15 PM",
           "match": "Swansea City vs Coventry City",
           "source": "CBS / Paramount+",
           "kick_utc": "2026-03-21T17:15Z"
-        },
-        {
-          "league": "Serie A",
-          "time": "10:00 AM",
-          "match": "Parma vs Cremonese",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-21T14:00Z"
         },
         {
           "league": "Serie A",
@@ -153,52 +111,10 @@
         },
         {
           "league": "German Bundesliga",
-          "time": "10:30 AM",
-          "match": "1. FC Heidenheim 1846 vs Bayer Leverkusen",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-21T14:30Z"
-        },
-        {
-          "league": "German Bundesliga",
-          "time": "10:30 AM",
-          "match": "Bayern Munich vs 1. FC Union Berlin",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-21T14:30Z"
-        },
-        {
-          "league": "German Bundesliga",
-          "time": "10:30 AM",
-          "match": "FC Cologne vs Borussia M\u00f6nchengladbach",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-21T14:30Z"
-        },
-        {
-          "league": "German Bundesliga",
-          "time": "10:30 AM",
-          "match": "VfL Wolfsburg vs Werder Bremen",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-21T14:30Z"
-        },
-        {
-          "league": "German Bundesliga",
           "time": "1:30 PM",
           "match": "Borussia Dortmund vs Hamburg SV",
           "source": "ESPN+",
           "kick_utc": "2026-03-21T17:30Z"
-        },
-        {
-          "league": "La Liga",
-          "time": "9:00 AM",
-          "match": "Elche vs Mallorca",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-21T13:00Z"
-        },
-        {
-          "league": "La Liga",
-          "time": "11:15 AM",
-          "match": "Espanyol vs Getafe",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-21T15:15Z"
         },
         {
           "league": "La Liga",
@@ -220,13 +136,6 @@
           "match": "Sevilla vs Valencia",
           "source": "ESPN+",
           "kick_utc": "2026-03-21T20:00Z"
-        },
-        {
-          "league": "Dutch Eredivisie",
-          "time": "11:30 AM",
-          "match": "Fortuna Sittard vs FC Twente",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-21T15:30Z"
         },
         {
           "league": "Dutch Eredivisie",

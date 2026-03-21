@@ -1,17 +1,9 @@
 {
-  "updated": "2026-03-21 12:31 EDT",
+  "updated": "2026-03-21 16:29 EDT",
   "days": {
     "20260321": {
       "date": "Saturday, March 21",
       "games": [
-        {
-          "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
-          "time": "12:10 PM",
-          "match": "Michigan Wolverines vs Saint Louis Billikens",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-21T16:10Z"
-        },
         {
           "conference": "Independent",
           "tourney_round": "NCAA Tournament",
