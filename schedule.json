@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-21 08:52 EDT",
+  "updated": "2026-03-21 09:23 EDT",
   "days": {
     "20260321": {
       "date": "Saturday, March 21",
@@ -328,13 +328,6 @@
         },
         {
           "league": "USL Championship",
-          "time": "7:00 PM",
-          "match": "Indy Eleven vs Detroit City FC",
-          "source": "",
-          "kick_utc": "2026-03-21T23:00Z"
-        },
-        {
-          "league": "USL Championship",
           "time": "7:30 PM",
           "match": "Tampa Bay Rowdies vs Pittsburgh Riverhounds",
           "source": "ESPN+",
@@ -617,13 +610,6 @@
           "match": "Lexington vs Brooklyn FC",
           "source": "ESPN+",
           "kick_utc": "2026-03-25T23:00Z"
-        },
-        {
-          "league": "USL Championship",
-          "time": "7:30 PM",
-          "match": "Sporting JAX vs Miami FC",
-          "source": "",
-          "kick_utc": "2026-03-25T23:30Z"
         },
         {
           "league": "USL League One",
