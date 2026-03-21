@@ -1,23 +1,81 @@
 {
-  "updated": "2026-03-21T17:57:37Z",
+  "updated": "2026-03-21T18:25:17Z",
   "date": "2026-03-21",
   "matches": [
     {
-      "home": "Levante",
-      "away": "Real Oviedo",
+      "home": "SL Benfica",
+      "away": "Vitória SC",
       "goals": [
         {
-          "postId": "1rzxy9z",
+          "postId": "1rzyo7j",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1rzxy9z",
-          "scorer": "Carlos Espi",
-          "minute": 4,
+          "permalink": "https://redd.it/1rzyo7j",
+          "scorer": "Prestianni",
+          "minute": 15,
           "homeScore": 1,
           "awayScore": 0,
-          "videoUrl": "https://streamain.com/nPmXTcVhN7kXofy/watch",
-          "videoEmbed": "https://streamain.com/nPmXTcVhN7kXofy/watch",
+          "videoUrl": "https://v.redd.it/lu1xwvbcxfqg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/lu1xwvbcxfqg1/CMAF_480.mp4?source=fallback",
+          "postedAt": 1774117220000
+        }
+      ]
+    },
+    {
+      "home": "AC Milan",
+      "away": "Torino",
+      "goals": [
+        {
+          "postId": "1rzxm4e",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzxm4e",
+          "scorer": "Strahinja Pavlovic 37‎'‎",
+          "minute": null,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/63fbb489",
+          "videoEmbed": "https://streamff.link/v/63fbb489",
           "directMp4": null,
-          "postedAt": 1774115547000
+          "postedAt": 1774114745000
+        },
+        {
+          "postId": "1rzxtok",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzxtok",
+          "scorer": "Giovanni Simeone 44‎'‎",
+          "minute": null,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/99cee8eb",
+          "videoEmbed": "https://streamff.link/v/99cee8eb",
+          "directMp4": null,
+          "postedAt": 1774115242000
+        },
+        {
+          "postId": "1rzyj38",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzyj38",
+          "scorer": "Adrien Rabiot 54‎'‎",
+          "minute": null,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/7dd0910d",
+          "videoEmbed": "https://streamff.link/v/7dd0910d",
+          "directMp4": null,
+          "postedAt": 1774116893000
+        },
+        {
+          "postId": "1rzyl19",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzyl19",
+          "scorer": "Youssouf Fofana 56‎'‎",
+          "minute": null,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/25d6e0f4",
+          "videoEmbed": "https://streamff.link/v/25d6e0f4",
+          "directMp4": null,
+          "postedAt": 1774117016000
         }
       ]
     },
@@ -37,6 +95,115 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1774115514000
+        },
+        {
+          "postId": "1rzyg0t",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzyg0t",
+          "scorer": "Albert Sambi Lokonga",
+          "minute": 38,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/03ddd5a7",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774116692000
+        }
+      ]
+    },
+    {
+      "home": "Everton",
+      "away": "Chelsea",
+      "goals": [
+        {
+          "postId": "1rzy88f",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzy88f",
+          "scorer": "Beto",
+          "minute": 33,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/37ccc974",
+          "videoEmbed": "https://streamff.link/v/37ccc974",
+          "directMp4": null,
+          "postedAt": 1774116196000
+        }
+      ]
+    },
+    {
+      "home": "Swansea",
+      "away": "Coventry",
+      "goals": [
+        {
+          "postId": "1rzy2ax",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzy2ax",
+          "scorer": "Brandon Thomas-Asante penalty",
+          "minute": 32,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/I2fnhHEft355Ifm/watch",
+          "videoEmbed": "https://streamain.com/I2fnhHEft355Ifm/watch",
+          "directMp4": null,
+          "postedAt": 1774115819000
+        },
+        {
+          "postId": "1rzy2n6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzy2n6",
+          "scorer": "Matt Grimes",
+          "minute": 38,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/jdA9FjbPk28jPRp/watch",
+          "videoEmbed": "https://streamain.com/jdA9FjbPk28jPRp/watch",
+          "directMp4": null,
+          "postedAt": 1774115844000
+        },
+        {
+          "postId": "1rzy7ju",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzy7ju",
+          "scorer": "Tatsuhiro Sakamoto",
+          "minute": 43,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://streamain.com/oxiVsxKMje8weVL/watch",
+          "videoEmbed": "https://streamain.com/oxiVsxKMje8weVL/watch",
+          "directMp4": null,
+          "postedAt": 1774116154000
+        }
+      ]
+    },
+    {
+      "home": "Levante",
+      "away": "Real Oviedo",
+      "goals": [
+        {
+          "postId": "1rzxy9z",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzxy9z",
+          "scorer": "Carlos Espi",
+          "minute": 4,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/nPmXTcVhN7kXofy/watch",
+          "videoEmbed": "https://streamain.com/nPmXTcVhN7kXofy/watch",
+          "directMp4": null,
+          "postedAt": 1774115547000
+        },
+        {
+          "postId": "1rzy5oz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1rzy5oz",
+          "scorer": "Carlos Espi",
+          "minute": 25,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/3CHtSKZ5P51Q7K7/watch",
+          "videoEmbed": "https://streamain.com/3CHtSKZ5P51Q7K7/watch",
+          "directMp4": null,
+          "postedAt": 1774116042000
         }
       ]
     },
@@ -75,38 +242,6 @@
           "videoEmbed": "https://streamain.com/caV4kLL8DX0VQgg/watch",
           "directMp4": null,
           "postedAt": 1774115290000
-        }
-      ]
-    },
-    {
-      "home": "AC Milan",
-      "away": "Torino",
-      "goals": [
-        {
-          "postId": "1rzxm4e",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rzxm4e",
-          "scorer": "Strahinja Pavlovic 37‎'‎",
-          "minute": null,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamff.link/v/63fbb489",
-          "videoEmbed": "https://streamff.link/v/63fbb489",
-          "directMp4": null,
-          "postedAt": 1774114745000
-        },
-        {
-          "postId": "1rzxtok",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1rzxtok",
-          "scorer": "Giovanni Simeone 44‎'‎",
-          "minute": null,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://streamff.link/v/99cee8eb",
-          "videoEmbed": "https://streamff.link/v/99cee8eb",
-          "directMp4": null,
-          "postedAt": 1774115242000
         }
       ]
     },
