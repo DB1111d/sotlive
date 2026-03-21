@@ -1,15 +1,15 @@
 {
-  "updated": "2026-03-21 04:35 EDT",
+  "updated": "2026-03-21 08:52 EDT",
   "days": {
     "20260321": {
       "date": "Saturday, March 21",
       "games": [
         {
           "league": "Premier League",
-          "time": "8:30 AM",
+          "time": "8:45 AM",
           "match": "Brighton & Hove Albion vs Liverpool",
           "source": "USA Network",
-          "kick_utc": "2026-03-21T12:30Z"
+          "kick_utc": "2026-03-21T12:45Z"
         },
         {
           "league": "Premier League",
