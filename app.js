@@ -617,12 +617,20 @@ async function switchSport(sport) {
 
       streamingState[panelId] = { shows, offset: 0, grid, sentinel, observer };
 
-      let headerHTML = `<div class="netflix-week-label">${data.week_label || ''}</div>`;
-      headerHTML += `<div class="netflix-title-row"><div class="netflix-section-title">${groupName}</div></div>`;
-      panel.innerHTML = headerHTML;
-      const titleRow = panel.querySelector('.netflix-title-row');
+      const weekLabel = document.createElement('div');
+      weekLabel.className = 'netflix-week-label';
+      weekLabel.textContent = data.week_label || '';
+      panel.appendChild(weekLabel);
+
+      const titleRow = document.createElement('div');
+      titleRow.className = 'netflix-title-row';
+      const titleEl = document.createElement('div');
+      titleEl.className = 'netflix-section-title';
+      titleEl.textContent = groupName;
+      titleRow.appendChild(titleEl);
       const dropdown = buildGenreDropdown(panelId);
       titleRow.appendChild(dropdown);
+      panel.appendChild(titleRow);
       panel.innerHTML = headerHTML;
       panel.appendChild(grid);
       contentEl.appendChild(panel);
