@@ -24,11 +24,14 @@ function formatTime(kick_utc, iana) {
 
 // ── League order (soccer) ─────────────────────────────────────────
 const LEAGUE_ORDER = [
+  'World Cup Qualifying',
+  'International Friendly',
   'UEFA Champions League',
   'UEFA Europa League',
   'UEFA Europa Conference League',
   'Premier League',
   'MLS',
+  'Carabao Cup',
   'CONCACAF Champions Cup',
   'US Open Cup',
   'English FA Cup',
@@ -128,21 +131,14 @@ function buildTzPicker() {
   wrapper.appendChild(select);
 }
 
-function hideTzPicker(fullyHide = false) {
+function hideTzPicker() {
   const picker = document.getElementById('tz-picker');
-  const select = document.getElementById('tz-select');
-  if (fullyHide) {
-    if (picker) picker.style.display = 'none';
-  } else {
-    if (select) select.disabled = true;
-  }
+  if (picker) picker.style.display = 'none';
 }
 
 function showTzPicker() {
   const picker = document.getElementById('tz-picker');
   if (picker) picker.style.display = '';
-  const select = document.getElementById('tz-select');
-  if (select) select.disabled = false;
 }
 
 // ── League filter ─────────────────────────────────────────────────
@@ -210,21 +206,14 @@ function applyLeagueFilter(selectedLeague) {
   });
 }
 
-function hideLeagueFilter(fullyHide = false) {
+function hideLeagueFilter() {
   const el = document.getElementById('league-filter');
-  const select = document.getElementById('league-select');
-  if (fullyHide) {
-    if (el) el.style.display = 'none';
-  } else {
-    if (select) select.disabled = true;
-  }
+  if (el) el.style.display = 'none';
 }
 
 function showLeagueFilter() {
   const el = document.getElementById('league-filter');
   if (el) el.style.display = '';
-  const select = document.getElementById('league-select');
-  if (select) select.disabled = false;
 }
 
 function resetLeagueFilter() {
@@ -435,12 +424,11 @@ function switchToAbout() {
   document.getElementById('content').style.display = 'none';
   document.getElementById('about-panel').classList.add('active');
 
-  // Always show both pickers in About — tz stays in last picked state, league disabled
   showTzPicker();
   showLeagueFilter();
   populateLeagueFilter([]);
-  const leagueSelect = document.getElementById('league-select');
-  if (leagueSelect) leagueSelect.disabled = true;
+  const tzSelect = document.getElementById('tz-select');
+  if (tzSelect) tzSelect.disabled = true;
 }
 
 // ── Sport switching ───────────────────────────────────────────────
@@ -463,9 +451,9 @@ async function switchSport(sport) {
   document.getElementById('about-panel').classList.remove('active');
   contentEl.style.display = '';
 
-  // Fully hide pickers for streaming — not relevant outside sports
-  hideTzPicker(true);
-  hideLeagueFilter(true);
+  // Hide pickers — netflix doesn't use them
+  hideTzPicker();
+  hideLeagueFilter();
   resetLeagueFilter();
 
   // Netflix and HBO Max share the same tile layout — no day tabs

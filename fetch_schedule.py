@@ -27,14 +27,14 @@ WINDOW_HOURS = 4
 # ESPN API league slugs mapped to friendly names
 # Format: https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard?dates=YYYYMMDD
 ESPN_LEAGUES = {
-    "fifa.worldq.uefa":       "World Cup Qualifying",
-    "concacaf.worldq":        "World Cup Qualifying",
-    "conmebol.worldq":        "World Cup Qualifying",
-    "afc.worldq":             "World Cup Qualifying",
-    "caf.worldq":             "World Cup Qualifying",
-    "ofc.worldq":             "World Cup Qualifying",
-    "fifa.friendly":          "International Friendly",
-    "usa.friendly":           "International Friendly",
+    "fifa.worldq.uefa":            "World Cup Qualifying",
+    "fifa.worldq.concacaf":        "World Cup Qualifying",
+    "fifa.worldq.conmebol":        "World Cup Qualifying",
+    "fifa.worldq.afc":             "World Cup Qualifying",
+    "fifa.worldq.caf":             "World Cup Qualifying",
+    "fifa.worldq.ofc":             "World Cup Qualifying",
+    "fifa.worldq.playoff":         "World Cup Qualifying",
+    "fifa.friendly":               "International Friendly",
     "eng.1":          "Premier League",
     "eng.2":          "EFL Championship",
     "eng.fa":         "English FA Cup",
@@ -122,10 +122,10 @@ LEAGUE_ORDER = [
     "UEFA Europa Conference League",
     "Premier League",
     "MLS",
+    "Carabao Cup",
     "CONCACAF Champions Cup",
     "US Open Cup",
     "English FA Cup",
-    "Carabao Cup",
     "EFL Championship",
     "Serie A",
     "German Bundesliga",
@@ -283,7 +283,8 @@ def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> 
     try:
         data = fetch_json(url)
     except Exception as e:
-        print(f"    API error for {league_slug} on {date_str}: {e}")
+        if "400" not in str(e):
+            print(f"    API error for {league_slug} on {date_str}: {e}")
         return []
 
     ROUND_LABEL_LEAGUES = {
