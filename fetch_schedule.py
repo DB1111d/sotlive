@@ -28,12 +28,13 @@ WINDOW_HOURS = 4
 # Format: https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard?dates=YYYYMMDD
 ESPN_LEAGUES = {
     "fifa.worldq.uefa":       "World Cup Qualifying",
-    "fifa.worldq.concacaf":   "World Cup Qualifying",
-    "fifa.worldq.conmebol":   "World Cup Qualifying",
-    "fifa.worldq.afc":        "World Cup Qualifying",
-    "fifa.worldq.caf":        "World Cup Qualifying",
-    "fifa.worldq.ofc":        "World Cup Qualifying",
+    "concacaf.worldq":        "World Cup Qualifying",
+    "conmebol.worldq":        "World Cup Qualifying",
+    "afc.worldq":             "World Cup Qualifying",
+    "caf.worldq":             "World Cup Qualifying",
+    "ofc.worldq":             "World Cup Qualifying",
     "fifa.friendly":          "International Friendly",
+    "usa.friendly":           "International Friendly",
     "eng.1":          "Premier League",
     "eng.2":          "EFL Championship",
     "eng.fa":         "English FA Cup",
