@@ -1,6 +1,6 @@
 {
-  "updated": "2026-03-21 04:21 EDT",
-  "week_label": "February 19 \u2013 March 21, 2026",
+  "updated": "2026-03-22 04:23 EDT",
+  "week_label": "February 20 \u2013 March 22, 2026",
   "groups": {
     "TV Series": [
       {
@@ -173,7 +173,7 @@
         "added_date": "March 12",
         "added_ts": 1773297446,
         "link": "https://www.netflix.com/title/82079543/",
-        "thumbnail": "https://www.movieofthenight.com/media/image.svg?title=The+Waste+Land&width=240&direction=vertical",
+        "thumbnail": "https://cdn.movieofthenight.com/show/63631/poster/vertical/en/240.jpg?Expires=1805741307&Signature=UdjbRaVA5JHuMhMlg4FZcx7PAuhEdW8qfJW3EZZ9rmiXorONWR-TBilweoyIbLH9UNOpYE-GSW2I3oGDRsLOai6bMMHTaMMSSa1WGF~W~wd6-uzPylyFhd1zB270Lm7E~xP7CZ7Zo22QChuRhi92IZNBJa3coX2HThrk2nsnHf1fsozsaJZQ3ls6Nrr4UaQaAtsJipEDUkKKA1dNByDE09w874RYs666pfBUC0n-0VVm52F4OD-mRsiibzxgcJ8Jg6iiBBxJQYrp1Z8CdWYEFYUs3~9fEOXA7gxPv7qLBbnwTcelya2gCkKxkuD-UrXy6WmxXZqUJSMZVd1zRdU6ng__&Key-Pair-Id=KK4HN3OO4AT5R",
         "rating": 53
       },
       {
@@ -466,6 +466,48 @@
       }
     ],
     "Movies": [
+      {
+        "type": "movie",
+        "title": "BTS THE COMEBACK LIVE | ARIRANG",
+        "overview": "",
+        "genres": [
+          "Music"
+        ],
+        "added_date": "March 21",
+        "added_ts": 1774095760,
+        "link": "https://www.netflix.com/title/82157128/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/24861298/poster/vertical/en/240.jpg?Expires=1805369684&Signature=WZLcSrC-MG1RsPwLCN8ZpqaGpOMLCFrmFH-0DOfBbOKawj1e-ATO-EvyD~rCErdISeHFsceEFoEjzcCq0h8mwjP3EBFnkaBzjmmW8ZrB6o48qU5VQgvfouvOmsIWNgu5CevrTHdTxSjhEW-eCdpi1P9oS1W-Upj6csD1RO-sgF6-E0epX~PZ-y8dXFgGRqIXymh4JLscDFp5pBuj02cI1zRqqam2g~KiVKjhwjjZplGsdxLsV7H42~lzDJiCebmL16VJoq3~6PhXZ2og3bZsyHzJhAcWkPQVYjVZi0C8ZEBwEcb4ebEfDhG4kGNsm0BxWr4LvMZxBILT7EdyQ2k8Rg__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 0
+      },
+      {
+        "type": "movie",
+        "title": "The Bad Guys 2",
+        "overview": "In this new action-packed chapter, the now-reformed Bad Guys are forced to pull one last heist, masterminded by a new team of criminals: The Bad Girls.",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Animation"
+        ],
+        "added_date": "March 21",
+        "added_ts": 1774095758,
+        "link": "https://www.netflix.com/title/82175765/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/14625514/poster/vertical/en/240.jpg?Expires=1801610846&Signature=bObPJnEgRO~hZl1OtSGXX9ghX5sHUjihFsFCCT9YE2dIgPaNhaQYOKn3g8qibynHyyQ0zkmkFwJJeVReogSUMhDy4zSBPxXDw1DG~9CxNtZWYx97~pSmKVl6~xRBTdH5M9MIwTteQzVKmFOMV27RXt4aE1UNVByGnRgWjTt5ofxeb4hnUqvJARC8dt0Mc-sqr1tGFEcxwLQZTuGQKyO~R6JqzyxKew6NfO2QpVmNDA0wJYA1SdDGl5BYSRNUCIacF-OB6eANj4kakPbWjhvEBBpyAmzGUoNCW6~jdgEh6mhBWUgBV4c1PYcim3eMNzshBo107HzR4N4mf2aWKFIzqw__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 71
+      },
+      {
+        "type": "movie",
+        "title": "Sisu: Road to Revenge",
+        "overview": "The war is over, but revenge is not. In this sequel, Aatami seeks to rebuild his life, but the Red Army turns his journey into a bloody hunt by releasing the man who massacred his family.",
+        "genres": [
+          "Action",
+          "War"
+        ],
+        "added_date": "March 21",
+        "added_ts": 1774095715,
+        "link": "https://www.netflix.com/title/82712118/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/23193663/poster/vertical/en/240.jpg?Expires=1798773082&Signature=AEPQMGdugds8k73pRV3hwG0AnS7K6iikn3jDa-N4s-RmJosVyoO6dzgijcbHFK2hs4MIDhCW12ilfX8xiwXB5yLZmG-rnPMInF3qHbT98HUSURDrBCPe0382~LMGfrvtEhXSTumA8gVoJvHgglrqfoZAtrAeqp-pYSkDhwF8uS2w5RFsg6mgjOe9IK7L11J4GeaHlrih2AazTkx~cNfbRwzKg~kDwwADN~kefJzCtAUWxmSyaRQWRW~ckEW405N7cXYjKE4iQY48G-kCD-b8gWm~QGrN8BOwY4H8HWCAi6cCtRDEb64F4RrDH4LFrGBymYJmTbNcy8kjErN8mjZufQ__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 69
+      },
       {
         "type": "movie",
         "title": "Spiral: From the Book of Saw",
@@ -1597,7 +1639,7 @@
         ],
         "added_date": "March 9",
         "added_ts": 1773082505,
-        "link": "https://www.netflix.com/title/81319485/",
+        "link": "https://www.netflix.com/title/82719770/",
         "thumbnail": "https://cdn.movieofthenight.com/show/24601715/poster/vertical/en/240.jpg?Expires=1805366486&Signature=Y0YUVFUwMx3jziM5LF3scW1O1eflJBzWGBZjDInKLgiQmG537GYTnhyjtXMteysXKh07FLH4OhIfYJqIDhPi2odAjK~ME6d~~Q-i6tvTF~4tUx6AyQ99g77ZGE3fI0QL8gDXiqVe-902iAUH6C5ch4-fmD-zIMiyCOa2c5cqfw591B~mIDnBPzvxt3uIW8DmiE2lo5D6u7jDXyd0~Ye7ASwWkC7F93qGWIYSMZXMXMdRHTY~XGlods34eX9~ad-awaCpqqI1-gYTaSODUW1WNzulVQ4nUpZw4OTJCf8xaVvT~2wu~XPqeHxxb2Ii8dJEcDkpsxaFLKNvv-r~mNq7Fg__&Key-Pair-Id=KK4HN3OO4AT5R",
         "rating": 78
       },
@@ -2411,75 +2453,6 @@
         "link": "https://www.netflix.com/title/81034769/",
         "thumbnail": "https://cdn.movieofthenight.com/show/9100/poster/vertical/en/240.jpg?Expires=1801060875&Signature=R7TDAtsuyXkHOpTwy6tVmzzdRd9Qq3yx2olXamZfhcXJM56BpP2qC0rr1IXd7UdaUsxcUVdb9MxDvPRYeNjKwaWuIMItEeE8rnXl7OXBpbcbUOZF6ZGqOQR~KqoPHBP6nwdV~bT9aljz4UV3lAfMPnZpGeygEIAarJ7Dhpzeb3lxnpEEXtq1fhKt2ziUU0EenD~QhIQtmxtFSV~Y~IqSQHzvFdY-23q~BrRkI36qwCE3c2QcdWdCmJ8L6weUfSwXe0LpkoEFWx9CAnXlnBZeicw8NITZPq5VZ7BgFsy64I3m0pZZ1~lY6qh8-rvjh9iUnY6x4VM0SLdvHs4EcJZrkw__&Key-Pair-Id=KK4HN3OO4AT5R",
         "rating": 60
-      },
-      {
-        "type": "movie",
-        "title": "East of Wall",
-        "overview": "After the death of her husband, Tabatha - a young, tattooed, rebellious horse trainer - wrestles with financial insecurity and unresolved grief while providing refuge for a group of wayward teenagers on her broken-down ranch in the Badlands.",
-        "genres": [
-          "Drama"
-        ],
-        "added_date": "February 19",
-        "added_ts": 1771505021,
-        "link": "https://www.netflix.com/title/82194686/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/14625722/poster/vertical/en/240.jpg?Expires=1795807666&Signature=JAq7LYryd2FamOAPx4Rf8IyIE6IQIwZ9yLGZuGHXjwTGZu~htPLYNujc2F7J~IgclzeQ8JWfO59SlvURx~Y2g2jtb19JStC2sIWgoEDGDzIWEP3HMJ4dlzEuYzyO3QpCJhNl1sR-ny5rfeOeiO9mTLECWeKiRaYAKedf8dSjR4456qERe5qQdbJaAPtI1xiF1wzcqTF~geiRuoomVKpi99gYlcElx4fkFBA8i1dB5MuaapuS5Lg2RXG3C7SeBjE4icF3SRogUvzEEUaio3kjlAM331fzE8pP9K2Ov3nz4ogxmEURCGeeTOpQ7wOQ~tHK~clmNVyOX-nu4mvaBwbTqg__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 59
-      },
-      {
-        "type": "movie",
-        "title": "Mayday",
-        "overview": "Transported to a parallel world, Ana finds strength through joining an army of female soldiers. But is she really the killer they want her to be?",
-        "genres": [
-          "Drama",
-          "Fantasy",
-          "Mystery"
-        ],
-        "added_date": "February 19",
-        "added_ts": 1771505019,
-        "link": "https://www.netflix.com/title/81481587/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/71355/poster/vertical/en/240.jpg?Expires=1800472107&Signature=DwBRAf~gyQKgamxQk-BbdPbyHD6LRBQB94qaepJ8-l~Ci6LKRlggJWlWq7PetVQr9WnKd~olj3skbs-AlAg1LfydQFJ5DBUXQREboJLBeLFr9z403qq9w4yRZ8-mVcQ8R2EAu3mBYDWQSMnAtqMw8W6JtXr5qxzhkXFt7lLkRxaqOTkSkrqoVOTz0aeNeg0j75g6Q5DHCR-jxDp~fyxC7qpQDCmKEv4JXFur0F7IlHrWJ4uAw94uEnI0ZmchII~4V7LhXts8Sq8Iuqxpl~YvuiM6XZefX-D97a3nMD6w2DaYcLapRuhb8KCAakJ-xnomhWhAAVpnpwdumUcWHhYgtQ__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 46
-      },
-      {
-        "type": "movie",
-        "title": "Meet, Greet & Bye",
-        "overview": "When a devoted mother with cancer wishes to meet her favorite K-drama idol, her children unite to make it happen, in hopes that she'll keep fighting.",
-        "genres": [
-          "Drama",
-          "Family"
-        ],
-        "added_date": "February 19",
-        "added_ts": 1771504994,
-        "link": "https://www.netflix.com/title/82638239/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/24318188/poster/vertical/en/240.jpg?Expires=1803463263&Signature=JRNXtxjAW4bJtuRyWTfXfY2vDLOJuBr6LHZSAQvJ2G7WDqL7eTQpLdzSvo2aZnL6LoTZ~IUc4YaG32bdkRfva2aMdSMxFI6qJ1kvat7854kekAk~w1xESEVJ~mvbh~2ZPkrUAIkhjjVZXDzO8D4aVcX2hfavvGU8aBKBVPAYgEc3OxiP-4E60lmGgrU7N7DmQz2PcQU0lZ6b~y8ywxHtgvkfmH~rSF09v3C3ZcfKdfGX3RNkB0a44W7X7KplT7rrilvpoMgfTHU~1AFi3lAeFf0QrKKZO9uOrPCdLD8-6CYpp-zqalXv~uiYxlZThKFxvQIksQmZxq1WvedLfakO9A__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 52
-      },
-      {
-        "type": "movie",
-        "title": "The Swedish Connection",
-        "overview": "In this little-known true story, a Swedish bureaucrat becomes an unlikely war hero as he attempts to save Jewish lives during the darkest days of WWII.",
-        "genres": [
-          "Drama",
-          "History"
-        ],
-        "added_date": "February 19",
-        "added_ts": 1771504992,
-        "link": "https://www.netflix.com/title/81713119/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/24761479/poster/vertical/en/240.jpg?Expires=1803463388&Signature=ExuRGFJYUyIyTXIrXONJd0iPqIrIsxYciyZcIHePcPAMBrrT9qQKuwgtqe-4h4F2u6LAVsG9L9HFU4MIUn4mVCOWEUmQ~VkpWrz46b-C6-pgyez0WgrDOqGFfnq2Nbxt2KqixZsYrjstr9kc~AybbpyB345ec3YhkGh5cZ30Tn40HtXIGF7DxgSOoq2bvEvPEz3NIBtt4g3zan4hNxIqM6NNgPRHL3Bzeja-i1zIpxl0EXANtx2z0XB93kSEjVz~tdRREtaRoJDf0SHBCwzeIozNGtlhxjJNqnBETMVgPTkoqR2cMy9HVmUCWHtM9eCBO2HOz4cx0TIRCzEzF92HTQ__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 71
-      },
-      {
-        "type": "movie",
-        "title": "The Iron Claw",
-        "overview": "Inspired by a true story, the Von Erich brothers rise through sacrifices, struggles and bitter tragedy to become a professional wrestling dynasty.",
-        "genres": [
-          "Drama"
-        ],
-        "added_date": "February 19",
-        "added_ts": 1771504965,
-        "link": "https://www.netflix.com/title/81725563/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/5749731/poster/vertical/en/240.jpg?Expires=1805456185&Signature=OY6r~d8A1qqSMcUeDZNYUEuN-StoznLLFm-7KnVmXpBIeoxzc8hR0t8zzLpW3e2trkOc1lqZa6ouPRp1R~nnaY6e8micpDDNQY0yUCG5AlD0CrW5okrvEONsPAWM1mPzN6wSq9PfbZ1QSGYKhzpV5hqgyKOaGbr6wFoD3GB6DQ3cPiWnHD9rCG-aYziKH8EAvu0VJeBNhEmIkTzK2RiYX6EZ75EgqFTSNtO8jbcjI0kUVQEfm2WwPFDGafZC17gjzxFV3d4LfNPfE2Mh~Q35VYppvAe2izmBje0AwvQ7HlTtSU-M51z3FLuFLHh-gFau-KudPy3XXeh~lDEB~6XP3A__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 75
       }
     ]
   }
