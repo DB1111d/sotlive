@@ -1,7 +1,10 @@
-# ⚽ SOTLive
+📺 SOTLive
 
-An independent, unofficial soccer / football schedule viewer.
-Browse daily upcoming matches, broadcast times, and competition fixtures.
+Media aggregator that surfaces upcoming sports games and newly released TV shows and movies across multiple streaming and broadcast platforms — all in one place, so you never miss what's on.
+
+🥅 GOALFEED
+
+GoalFeed automatically surfaces today's goals from r/soccer — every time a goal is posted, it's collected and grouped by match. The feed refreshes a few times every hour and resets each day, so the vast majority of goals you see will be from today, though a few may carry over from the previous day depending on when the match started.
 
 ---
 
