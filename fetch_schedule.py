@@ -596,6 +596,16 @@ def main():
     for _, date_str in dates:
         day = schedule[date_str]
         day["games"] = dedup_games(day["games"])
+
+        # Fix: ESPN's eng.1 (Premier League) endpoint sometimes returns FA Cup games.
+        # If the same match appears under both Premier League and English FA Cup,
+        # remove the Premier League entry — FA Cup is correct.
+        fa_cup_matches = {normalize(g["match"]) for g in day["games"] if g["league"] == "English FA Cup"}
+        day["games"] = [
+            g for g in day["games"]
+            if not (g["league"] == "Premier League" and normalize(g["match"]) in fa_cup_matches)
+        ]
+
         if date_str == today_str:
             day["games"] = prune_today_games(day["games"])
         # Compute the earliest kickoff time per league for ordering

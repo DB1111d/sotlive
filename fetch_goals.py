@@ -15,17 +15,14 @@ VIDEO_HOSTS = {"streamff.link", "streamff.com", "streamable.com",
                "youtu.be", "youtube.com", "v.redd.it", "streamain.com",
                "streamin.link", "streamin.top", "streamin.me"}
 
-# Leagues to include — everything except USL Championship, USL League One, Dutch Eredivisie
+# Leagues to include — everything except USL Championship, USL League One, Dutch Eredivisie, EFL Championship, MLS, US Open Cup
 ALLOWED_LEAGUES = {
     "UEFA Champions League",
     "UEFA Europa League",
     "UEFA Europa Conference League",
     "Premier League",
-    "MLS",
     "CONCACAF Champions Cup",
-    "US Open Cup",
     "English FA Cup",
-    "EFL Championship",
     "Serie A",
     "German Bundesliga",
     "La Liga",
@@ -273,22 +270,18 @@ def main():
         if not video_url:
             continue
 
-        # Cross-reference against today's schedule
-        # If schedule is empty (fetch failed), fall through and allow all
-        scheduled = None
-        if today_teams:
-            scheduled = find_schedule_match(parsed["home"], parsed["away"], today_teams)
-            if not scheduled:
-                continue  # Not a game we care about today
-
-        # Use canonical team names and league from schedule if matched
+        # Cross-reference against today's schedule — tag league if matched, else Rest of World
+        scheduled = find_schedule_match(parsed["home"], parsed["away"], today_teams) if today_teams else None
         canon_home   = scheduled["home"]   if scheduled else parsed["home"]
         canon_away   = scheduled["away"]   if scheduled else parsed["away"]
-        canon_league = scheduled["league"] if scheduled else ""
+        canon_league = scheduled["league"] if scheduled else "Rest of World"
 
         key = match_key(canon_home, canon_away)
         if key not in matches:
             matches[key] = {"home": canon_home, "away": canon_away, "league": canon_league, "goals": []}
+        elif matches[key].get("league", "Rest of World") == "Rest of World" and canon_league != "Rest of World":
+            # Upgrade league tag if we now have a better match
+            matches[key]["league"] = canon_league
 
         # Dedup by score
         existing = next((g for g in matches[key]["goals"] if g["homeScore"] == parsed["homeScore"] and g["awayScore"] == parsed["awayScore"]), None)
