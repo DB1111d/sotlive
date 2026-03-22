@@ -1,7 +1,47 @@
 {
-  "updated": "2026-03-22T02:21:05Z",
+  "updated": "2026-03-22T04:27:58Z",
   "date": "2026-03-22",
   "matches": [
+    {
+      "home": "Vancouver Whitecaps",
+      "away": "San Jose Earthquakes",
+      "league": "MLS",
+      "goals": [
+        {
+          "postId": "1s0b904",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0b904",
+          "scorer": "Beau Leroux",
+          "minute": 45,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/ah3uhvgpniqg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774150327000
+        }
+      ]
+    },
+    {
+      "home": "St. Louis CITY SC",
+      "away": "New England Revolution",
+      "league": "MLS",
+      "goals": [
+        {
+          "postId": "1s0a3q3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0a3q3",
+          "scorer": "Marcel Hartel",
+          "minute": 83,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/jffg4xycdiqg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/jffg4xycdiqg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1774146851000
+        }
+      ]
+    },
     {
       "home": "Charlotte FC",
       "away": "Red Bull New York",
