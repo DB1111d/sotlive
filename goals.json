@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-22T17:17:33Z",
+  "updated": "2026-03-22T17:25:21Z",
   "date": "2026-03-22",
   "matches": [
     {
@@ -32,6 +32,39 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/w210rgbkomqg1/CMAF_1080.mp4?source=fallback",
           "postedAt": 1774199038000
+        },
+        {
+          "postId": "1s0rivl",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0rivl",
+          "scorer": "Tygo Land",
+          "minute": 76,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/mk531frxrmqg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774200200000
+        }
+      ]
+    },
+    {
+      "home": "Marseille",
+      "away": "Lille",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s0rgtj",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0rgtj",
+          "scorer": "Ethan Nwaneri",
+          "minute": 43,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/9puw0d8ormqg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/9puw0d8ormqg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1774200066000
         }
       ]
     },
@@ -66,6 +99,39 @@
           "directMp4": null,
           "postedAt": 1774198732000,
           "disallowed": true
+        },
+        {
+          "postId": "1s0rfgl",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0rfgl",
+          "scorer": "Thilo Töpken",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/k0g3yGUdYwKkqph/watch",
+          "videoEmbed": "https://streamain.com/k0g3yGUdYwKkqph/watch",
+          "directMp4": null,
+          "postedAt": 1774199977000
+        }
+      ]
+    },
+    {
+      "home": "New York City",
+      "away": "Inter Miami",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s0re2i",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0re2i",
+          "scorer": "Gonzalo Lujan",
+          "minute": 4,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/e005b047",
+          "videoEmbed": "https://streamff.link/v/e005b047",
+          "directMp4": null,
+          "postedAt": 1774199886000
         }
       ]
     },
