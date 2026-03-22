@@ -132,7 +132,6 @@ def clean_team(name):
     return name.strip()
 
 def clean_scorer(scorer):
-    scorer = re.sub(r'\s*\|.*$', '', scorer)
     scorer = re.sub(r'\bgreat goal\b', '', scorer, flags=re.IGNORECASE)
     scorer = re.sub(r'\s*\([^)]*\)\s*$', '', scorer)
     return scorer.strip()
@@ -174,7 +173,13 @@ def parse_title(title):
     if not home or len(home) > 50 or ',' in home or '~' in home:
         return None
     after_score = title[score_idx + len(score_match.group(0)):].strip()
-    dash_parts = after_score.split(" - ")
+    # Support both " - " and " | " as separators between away team and scorer
+    if " - " in after_score:
+        dash_parts = after_score.split(" - ")
+    elif " | " in after_score:
+        dash_parts = after_score.split(" | ")
+    else:
+        dash_parts = [after_score]
     away = clean_team(dash_parts[0])
     if not away or len(away) > 50 or ',' in away or '~' in away:
         return None
