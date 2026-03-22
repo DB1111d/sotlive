@@ -193,7 +193,14 @@ def parse_title(title):
                 m = int(minute_in_scorer.group(1))
                 if 1 <= m <= 120:
                     minute = m
-        scorer = clean_scorer(re.sub(r"\s*\d+['\+\u2019\u2032\u02bc].*$", "", dash_parts[1]))
+        # Fallback: plain number at end of scorer string with no apostrophe (e.g. "Raul Ura 85 (Great commentary)")
+        if minute is None:
+            plain_minute = re.search(r"(?<!\d)(\d{1,3})(?:\+\d+)?\s*(?:\([^)]*\))?\s*$", dash_parts[1])
+            if plain_minute:
+                m = int(plain_minute.group(1))
+                if 1 <= m <= 120:
+                    minute = m
+        scorer = clean_scorer(re.sub(r"\s*\d+['\+\u2019\u2032\u02bc].*$", "", re.sub(r"\s+\d{1,3}(?:\+\d+)?\s*(?:\([^)]*\))?\s*$", "", dash_parts[1])))
     if is_own_goal(title):
         scorer = "Own Goal"
     return {"home": home, "homeScore": home_score, "awayScore": away_score,
