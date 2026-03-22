@@ -429,8 +429,26 @@ const POLL_MS = 15 * 60 * 1000;
 const LEAGUE_ORDER = [
   'UEFA Champions League', 'UEFA Europa League', 'UEFA Europa Conference League',
   'Premier League', 'MLS', 'CONCACAF Champions Cup', 'US Open Cup',
-  'English FA Cup', 'EFL Championship', 'Serie A', 'German Bundesliga', 'La Liga',
+  'English FA Cup', 'Serie A', 'German Bundesliga', 'La Liga',
 ];
+
+// Mobile short labels — desktop shows full name, mobile shows short
+const LEAGUE_MOBILE_LABEL = {
+  'UEFA Champions League':        'UCL',
+  'UEFA Europa League':           'UEL',
+  'UEFA Europa Conference League':'UECL',
+  'Premier League':               'EPL',
+  'MLS':                          'MLS',
+  'CONCACAF Champions Cup':       'CCC',
+  'US Open Cup':                  'US Cup',
+  'English FA Cup':               'FA Cup',
+  'Serie A':                      'Serie A',
+  'German Bundesliga':            'Bundes',
+  'La Liga':                      'La Liga',
+  'Rest of World':                'Other LGs',
+};
+
+const isMobile = () => window.innerWidth <= 500;
 
 // ── State ───────────────────────────────────────────────
 let matches = {};
@@ -470,42 +488,41 @@ function buildLeagueFilter(matchList) {
   const bar = document.getElementById('league-filter-bar');
   if (!bar) return;
 
-  // Leagues present in data, ordered by LEAGUE_ORDER, Other always last
   const present = new Set(matchList.map(m => m.league).filter(Boolean));
   const ordered = LEAGUE_ORDER.filter(l => present.has(l));
-  const hasOther = matchList.some(m => !m.league || !LEAGUE_ORDER.includes(m.league) || m.league === 'Other');
+  const hasRestOfWorld = matchList.some(m => !m.league || !LEAGUE_ORDER.includes(m.league) || m.league === 'Rest of World');
 
-  // No buttons at all — hide bar
-  if (ordered.length === 0 && !hasOther) {
+  if (ordered.length === 0 && !hasRestOfWorld) {
     bar.style.display = 'none';
     activeLeague = '';
     return;
   }
 
-  // Auto-select on first load — first known league, or Other if none
-  if (!activeLeague || (!ordered.includes(activeLeague) && !(hasOther && activeLeague === 'Other'))) {
-    activeLeague = ordered.length > 0 ? ordered[0] : 'Other';
+  if (!activeLeague || (!ordered.includes(activeLeague) && !(hasRestOfWorld && activeLeague === 'Rest of World'))) {
+    activeLeague = ordered.length > 0 ? ordered[0] : 'Rest of World';
   }
 
   bar.style.display = 'flex';
   bar.innerHTML = '';
 
-  // Known leagues in LEAGUE_ORDER order
+  const mobile = isMobile();
+
   ordered.forEach(league => {
     const btn = document.createElement('button');
     btn.className = 'league-btn' + (activeLeague === league ? ' active' : '');
-    btn.textContent = league;
+    btn.textContent = mobile ? (LEAGUE_MOBILE_LABEL[league] || league) : league;
+    btn.title = league;
     btn.onclick = () => { activeLeague = league; render(); };
     bar.appendChild(btn);
   });
 
-  // Other always last
-  if (hasOther) {
-    const otherBtn = document.createElement('button');
-    otherBtn.className = 'league-btn' + (activeLeague === 'Other' ? ' active' : '');
-    otherBtn.textContent = 'Other';
-    otherBtn.onclick = () => { activeLeague = 'Other'; render(); };
-    bar.appendChild(otherBtn);
+  if (hasRestOfWorld) {
+    const btn = document.createElement('button');
+    btn.className = 'league-btn' + (activeLeague === 'Rest of World' ? ' active' : '');
+    btn.textContent = mobile ? 'Other LGs' : 'Rest of World';
+    btn.title = 'Rest of World';
+    btn.onclick = () => { activeLeague = 'Rest of World'; render(); };
+    bar.appendChild(btn);
   }
 }
 
@@ -533,9 +550,9 @@ function render() {
 
   buildLeagueFilter(matchList);
 
-  // Apply league filter — "Other" shows anything not in LEAGUE_ORDER
-  const filtered = activeLeague === 'Other'
-    ? matchList.filter(m => !m.league || !LEAGUE_ORDER.includes(m.league) || m.league === 'Other')
+  // Apply league filter — Rest of World shows anything not in LEAGUE_ORDER
+  const filtered = activeLeague === 'Rest of World'
+    ? matchList.filter(m => !m.league || !LEAGUE_ORDER.includes(m.league) || m.league === 'Rest of World')
     : matchList.filter(m => m.league === activeLeague);
 
   if (filtered.length === 0) {
