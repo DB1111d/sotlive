@@ -1,7 +1,47 @@
 {
-  "updated": "2026-03-22T23:25:20Z",
+  "updated": "2026-03-22T23:51:26Z",
   "date": "2026-03-22",
   "matches": [
+    {
+      "home": "San Diego FC",
+      "away": "Real Salt Lake",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s116d3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s116d3",
+          "scorer": "Sergi Solans",
+          "minute": 17,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/16CBQSKZA9oRCvj/watch",
+          "videoEmbed": "https://streamain.com/16CBQSKZA9oRCvj/watch",
+          "directMp4": null,
+          "postedAt": 1774223071000
+        }
+      ]
+    },
+    {
+      "home": "Corinthians",
+      "away": "Flamengo",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s10zxh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s10zxh",
+          "scorer": "Lucas Paquetá",
+          "minute": 3,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/aoxxdw3nmoqg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/aoxxdw3nmoqg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1774222615000
+        }
+      ]
+    },
     {
       "home": "Braga",
       "away": "FC Porto",
