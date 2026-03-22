@@ -1,23 +1,9 @@
 {
-  "updated": "2026-03-22 13:19 EDT",
+  "updated": "2026-03-22 16:30 EDT",
   "days": {
     "20260322": {
       "date": "Sunday, March 22",
       "games": [
-        {
-          "league": "Premier League",
-          "time": "10:15 AM",
-          "match": "Aston Villa vs West Ham United",
-          "source": "USA Network \u00b7 Peacock",
-          "kick_utc": "2026-03-22T14:15Z"
-        },
-        {
-          "league": "Premier League",
-          "time": "10:15 AM",
-          "match": "Tottenham Hotspur vs Nottingham Forest",
-          "source": "USA Network",
-          "kick_utc": "2026-03-22T14:15Z"
-        },
         {
           "league": "MLS",
           "time": "1:00 PM",
@@ -54,27 +40,6 @@
           "kick_utc": "2026-03-22T23:00Z"
         },
         {
-          "league": "Carabao Cup",
-          "time": "12:30 PM",
-          "match": "Arsenal vs Manchester City",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-22T16:30Z"
-        },
-        {
-          "league": "Serie A",
-          "time": "10:00 AM",
-          "match": "Atalanta vs Hellas Verona",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-22T14:00Z"
-        },
-        {
-          "league": "Serie A",
-          "time": "10:00 AM",
-          "match": "Bologna vs Lazio",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-22T14:00Z"
-        },
-        {
           "league": "Serie A",
           "time": "1:00 PM",
           "match": "AS Roma vs Lecce",
@@ -90,31 +55,10 @@
         },
         {
           "league": "German Bundesliga",
-          "time": "10:30 AM",
-          "match": "Mainz vs Eintracht Frankfurt",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-22T14:30Z"
-        },
-        {
-          "league": "German Bundesliga",
-          "time": "12:30 PM",
-          "match": "St. Pauli vs SC Freiburg",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-22T16:30Z"
-        },
-        {
-          "league": "German Bundesliga",
           "time": "2:30 PM",
           "match": "FC Augsburg vs VfB Stuttgart",
           "source": "ESPN+",
           "kick_utc": "2026-03-22T18:30Z"
-        },
-        {
-          "league": "La Liga",
-          "time": "11:15 AM",
-          "match": "Celta Vigo vs Alav\u00e9s",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-22T15:15Z"
         },
         {
           "league": "La Liga",
@@ -129,34 +73,6 @@
           "match": "Real Madrid vs Atl\u00e9tico Madrid",
           "source": "ESPN+",
           "kick_utc": "2026-03-22T20:00Z"
-        },
-        {
-          "league": "Dutch Eredivisie",
-          "time": "9:30 AM",
-          "match": "FC Utrecht vs Go Ahead Eagles",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-22T13:30Z"
-        },
-        {
-          "league": "Dutch Eredivisie",
-          "time": "9:30 AM",
-          "match": "Feyenoord Rotterdam vs Ajax Amsterdam",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-22T13:30Z"
-        },
-        {
-          "league": "Dutch Eredivisie",
-          "time": "11:45 AM",
-          "match": "FC Groningen vs AZ Alkmaar",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-22T15:45Z"
-        },
-        {
-          "league": "Dutch Eredivisie",
-          "time": "11:45 AM",
-          "match": "Telstar vs PSV Eindhoven",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-22T15:45Z"
         },
         {
           "league": "USL League One",

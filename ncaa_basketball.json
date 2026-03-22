@@ -1,17 +1,9 @@
 {
-  "updated": "2026-03-22 13:19 EDT",
+  "updated": "2026-03-22 16:30 EDT",
   "days": {
     "20260322": {
       "date": "Sunday, March 22",
       "games": [
-        {
-          "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
-          "time": "12:10 PM",
-          "match": "Purdue Boilermakers vs Miami Hurricanes",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-22T16:10Z"
-        },
         {
           "conference": "Independent",
           "tourney_round": "NCAA Tournament",
@@ -137,7 +129,7 @@
           "conference": "Independent",
           "tourney_round": "NCAA Tournament",
           "time": "12:00 AM",
-          "match": "Houston Cougars vs Illinois Fighting Illini",
+          "match": "Purdue Boilermakers vs Texas Longhorns",
           "source": "ESPN+",
           "kick_utc": "2026-03-26T04:00Z"
         },
@@ -145,7 +137,7 @@
           "conference": "Independent",
           "tourney_round": "NCAA Tournament",
           "time": "12:00 AM",
-          "match": "TBD vs Texas Longhorns",
+          "match": "Houston Cougars vs Illinois Fighting Illini",
           "source": "ESPN+",
           "kick_utc": "2026-03-26T04:00Z"
         }
