@@ -1,7 +1,172 @@
 {
-  "updated": "2026-03-22T14:45:43Z",
+  "updated": "2026-03-22T15:24:02Z",
   "date": "2026-03-22",
   "matches": [
+    {
+      "home": "Lech Poznań",
+      "away": "Bruk-Bet Termalica Nieciecza",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s0n21p",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0n21p",
+          "scorer": "Leo Bengtsson free-kick",
+          "minute": 33,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/6upddlkuwlqg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/6upddlkuwlqg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1774189721000
+        },
+        {
+          "postId": "1s0n29e",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0n29e",
+          "scorer": "Leo Bengtsson",
+          "minute": 36,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/q3lv58dewlqg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/q3lv58dewlqg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1774189737000
+        },
+        {
+          "postId": "1s0n2gc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0n2gc",
+          "scorer": "Ali Gholizadeh",
+          "minute": 38,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/kppgnsurwlqg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/kppgnsurwlqg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1774189751000
+        },
+        {
+          "postId": "1s0o3uk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0o3uk",
+          "scorer": "Gabriel Isik",
+          "minute": 65,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/ad39ohde4mqg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ad39ohde4mqg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1774192258000
+        }
+      ]
+    },
+    {
+      "home": "Tottenham Hotspur",
+      "away": "Nottingham Forest",
+      "league": "Premier League",
+      "goals": [
+        {
+          "postId": "1s0nw2q",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0nw2q",
+          "scorer": "Igor Jesus",
+          "minute": 45,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/403b9ebf",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774191751000
+        }
+      ]
+    },
+    {
+      "home": "Mainz",
+      "away": "Eintracht Frankfurt",
+      "league": "German Bundesliga",
+      "goals": [
+        {
+          "postId": "1s0na2d",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0na2d",
+          "scorer": "Paul Nebel",
+          "minute": 6,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/7ae30144",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774190288000
+        },
+        {
+          "postId": "1s0nn2u",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0nn2u",
+          "scorer": "Nathaniel Brown",
+          "minute": 20,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/460f662f",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774191180000
+        }
+      ]
+    },
+    {
+      "home": "Virtus",
+      "away": "Domagnano",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s0ngag",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0ngag",
+          "scorer": "Alessandro Golinucci",
+          "minute": 33,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/uem7ew0wzlqg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/uem7ew0wzlqg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1774190719000
+        },
+        {
+          "postId": "1s0niir",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0niir",
+          "scorer": "Simone Benincasa",
+          "minute": 41,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/mp5ubqkc0mqg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/mp5ubqkc0mqg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1774190874000
+        }
+      ]
+    },
+    {
+      "home": "Lyon",
+      "away": "Monaco",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s0ngkg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0ngkg",
+          "scorer": "Pavel Sulc",
+          "minute": 42,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/83a75971",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774190738000
+        }
+      ]
+    },
     {
       "home": "Atalanta",
       "away": "Hellas Verona",
@@ -39,26 +204,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/hg7br3vvylqg1/CMAF_1080.mp4?source=fallback",
           "postedAt": 1774190383000
-        }
-      ]
-    },
-    {
-      "home": "Mainz",
-      "away": "Eintracht Frankfurt",
-      "league": "German Bundesliga",
-      "goals": [
-        {
-          "postId": "1s0na2d",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1s0na2d",
-          "scorer": "Paul Nebel",
-          "minute": 6,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamin.link/v/7ae30144",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1774190288000
         }
       ]
     },
@@ -177,52 +322,6 @@
           "videoEmbed": "https://streamain.com/uAowdAE2ssKip39/watch",
           "directMp4": null,
           "postedAt": 1774189896000
-        }
-      ]
-    },
-    {
-      "home": "Lech Poznań",
-      "away": "Bruk-Bet Termalica Nieciecza",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1s0n21p",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1s0n21p",
-          "scorer": "Leo Bengtsson free-kick",
-          "minute": 33,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/6upddlkuwlqg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/6upddlkuwlqg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1774189721000
-        },
-        {
-          "postId": "1s0n29e",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1s0n29e",
-          "scorer": "Leo Bengtsson",
-          "minute": 36,
-          "homeScore": 2,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/q3lv58dewlqg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/q3lv58dewlqg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1774189737000
-        },
-        {
-          "postId": "1s0n2gc",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1s0n2gc",
-          "scorer": "Ali Gholizadeh",
-          "minute": 38,
-          "homeScore": 3,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/kppgnsurwlqg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/kppgnsurwlqg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1774189751000
         }
       ]
     },
