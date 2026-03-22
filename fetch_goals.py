@@ -15,14 +15,17 @@ VIDEO_HOSTS = {"streamff.link", "streamff.com", "streamable.com",
                "youtu.be", "youtube.com", "v.redd.it", "streamain.com",
                "streamin.link", "streamin.top", "streamin.me"}
 
-# Leagues to include — everything except USL Championship, USL League One, Dutch Eredivisie, EFL Championship, MLS, US Open Cup
+# Leagues to include — everything except USL Championship, USL League One, Dutch Eredivisie
 ALLOWED_LEAGUES = {
     "UEFA Champions League",
     "UEFA Europa League",
     "UEFA Europa Conference League",
     "Premier League",
+    "MLS",
     "CONCACAF Champions Cup",
+    "US Open Cup",
     "English FA Cup",
+    "EFL Championship",
     "Serie A",
     "German Bundesliga",
     "La Liga",
@@ -75,45 +78,32 @@ def load_today_teams(schedule_path="schedule.json"):
 
 
 def normalize_team(name):
-    """Lowercase, strip common suffixes and punctuation for fuzzy comparison."""
+    """Lowercase and strip punctuation for substring comparison."""
     name = name.lower()
-    name = re.sub(r"\b(fc|cf|sc|ac|afc|united|city|town|athletic|albion|wanderers|rovers|county|hotspur)\b", "", name)
     name = re.sub(r"[^a-z0-9 ]", "", name)
-    name = re.sub(r"\s+", " ", name).strip()
-    return name
+    return re.sub(r"\s+", " ", name).strip()
 
 
-def fuzzy_score(a, b):
-    """Bigram similarity between two normalized strings."""
-    def bigrams(s):
-        return set(s[i:i+2] for i in range(len(s) - 1)) if len(s) >= 2 else set(s)
-    ba, bb = bigrams(a), bigrams(b)
-    if not ba or not bb:
-        return 1.0 if a == b else 0.0
-    return 2 * len(ba & bb) / (len(ba) + len(bb))
-
-
-def find_schedule_match(parsed_home, parsed_away, today_teams, threshold=0.4):
+def find_schedule_match(parsed_home, parsed_away, today_teams):
     """
-    Match a parsed Reddit home/away pair against today scheduled games.
-    Returns matching scheduled game dict or None.
-    At least one team must exceed the threshold.
+    Match parsed Reddit team names against today's scheduled games using substring matching.
+    At least one team name must be a substring of a scheduled team name or vice versa.
+    Returns the matching scheduled game dict or None.
     """
     ph = normalize_team(parsed_home)
     pa = normalize_team(parsed_away)
-    best_match = None
-    best_score = 0.0
+
     for game in today_teams:
         sh = game["home_norm"]
         sa = game["away_norm"]
-        score_h = max(fuzzy_score(ph, sh), fuzzy_score(ph, sa))
-        score_a = max(fuzzy_score(pa, sh), fuzzy_score(pa, sa))
-        top = max(score_h, score_a)
-        combined = (score_h + score_a) / 2
-        if top >= threshold and combined > best_score:
-            best_score = combined
-            best_match = game
-    return best_match
+
+        home_match = (ph in sh or sh in ph)
+        away_match = (pa in sa or sa in pa) or (pa in sh or sh in pa)
+
+        if home_match or away_match:
+            return game
+
+    return None
 
 
 def today_utc_midnight_ts():
@@ -278,18 +268,22 @@ def main():
         if not video_url:
             continue
 
-        # Cross-reference against today's schedule — tag league if matched, else Rest of World
-        scheduled = find_schedule_match(parsed["home"], parsed["away"], today_teams) if today_teams else None
+        # Cross-reference against today's schedule
+        # If schedule is empty (fetch failed), fall through and allow all
+        scheduled = None
+        if today_teams:
+            scheduled = find_schedule_match(parsed["home"], parsed["away"], today_teams)
+            if not scheduled:
+                continue  # Not a game we care about today
+
+        # Use canonical team names and league from schedule if matched
         canon_home   = scheduled["home"]   if scheduled else parsed["home"]
         canon_away   = scheduled["away"]   if scheduled else parsed["away"]
-        canon_league = scheduled["league"] if scheduled else "Rest of World"
+        canon_league = scheduled["league"] if scheduled else ""
 
         key = match_key(canon_home, canon_away)
         if key not in matches:
             matches[key] = {"home": canon_home, "away": canon_away, "league": canon_league, "goals": []}
-        elif matches[key].get("league", "Rest of World") == "Rest of World" and canon_league != "Rest of World":
-            # Upgrade league tag if we now have a better match (schedule was available this run)
-            matches[key]["league"] = canon_league
 
         # Dedup by score
         existing = next((g for g in matches[key]["goals"] if g["homeScore"] == parsed["homeScore"] and g["awayScore"] == parsed["awayScore"]), None)
