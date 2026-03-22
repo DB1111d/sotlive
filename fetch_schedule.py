@@ -27,29 +27,30 @@ WINDOW_HOURS = 4
 # ESPN API league slugs mapped to friendly names
 # Format: https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard?dates=YYYYMMDD
 ESPN_LEAGUES = {
-    "uefa.worldq.europe":   "World Cup Qualifying",
-    "concacaf.worldq":      "World Cup Qualifying",
-    "conmebol.worldq":      "World Cup Qualifying",
-    "afc.worldq":           "World Cup Qualifying",
-    "caf.worldq":           "World Cup Qualifying",
-    "ofc.worldq":           "World Cup Qualifying",
-    "fifa.friendly":        "International Friendly",
-    "eng.1":        "Premier League",
-    "eng.2":        "EFL Championship",
-    "eng.fa":       "English FA Cup",
+    "fifa.worldq.europe":     "World Cup Qualifying",
+    "fifa.worldq.concacaf":   "World Cup Qualifying",
+    "fifa.worldq.conmebol":   "World Cup Qualifying",
+    "fifa.worldq.afc":        "World Cup Qualifying",
+    "fifa.worldq.caf":        "World Cup Qualifying",
+    "fifa.worldq.ofc":        "World Cup Qualifying",
+    "fifa.friendly":          "International Friendly",
+    "eng.1":          "Premier League",
+    "eng.2":          "EFL Championship",
+    "eng.fa":         "English FA Cup",
     "eng.league_cup": "Carabao Cup",
-    "esp.1":        "La Liga",
-    "ger.1":        "German Bundesliga",
-    "ita.1":        "Serie A",
-    "ned.1":        "Dutch Eredivisie",
-    "usa.1":        "MLS",
+    "esp.1":          "La Liga",
+    "ger.1":          "German Bundesliga",
+    "ita.1":          "Serie A",
+    "ned.1":          "Dutch Eredivisie",
+    "usa.1":          "MLS",
     "concacaf.champions": "CONCACAF Champions Cup",
     "usa.open":           "US Open Cup",
-    "usa.usl.1":    "USL Championship",
-    "usa.usl.l1":   "USL League One",
-    "mex.1":        "Liga MX",
+    "usa.usl.1":      "USL Championship",
+    "usa.usl.l1":     "USL League One",
+    "mex.1":          "Liga MX",
     "uefa.champions": "UEFA Champions League",
     "uefa.europa":    "UEFA Europa League",
+    # uefa.conference returns 400 — Conference League is fetched via scoreboard scraper
 }
 
 # ESPN broadcaster names to map to our badges
@@ -378,7 +379,7 @@ def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> 
                     source_names = ["Apple TV"]
                 elif league_name == "Premier League":
                     source_names = ["Peacock"]
-                elif league_name in {"US Open Cup", "USL Championship", "USL League One", "EFL Championship"}:
+                elif league_name in {"US Open Cup", "USL Championship", "USL League One", "EFL Championship", "International Friendly", "Carabao Cup", "World Cup Qualifying"}:
                     # No known broadcaster — skip the game entirely
                     continue
                 else:
