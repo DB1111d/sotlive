@@ -1,7 +1,173 @@
 {
-  "updated": "2026-03-22T18:33:38Z",
+  "updated": "2026-03-22T19:05:38Z",
   "date": "2026-03-22",
   "matches": [
+    {
+      "home": "FC Augsburg",
+      "away": "VfB Stuttgart",
+      "league": "German Bundesliga",
+      "goals": [
+        {
+          "postId": "1s0tn43",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0tn43",
+          "scorer": "Deniz Undav",
+          "minute": 12,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/39aaf3cc",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774205038000
+        },
+        {
+          "postId": "1s0u2ql",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0u2ql",
+          "scorer": "Tiago Tomas",
+          "minute": 29,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/2db8e782",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774206042000
+        },
+        {
+          "postId": "1s0u4i5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0u4i5",
+          "scorer": "Nikolas Nartey",
+          "minute": 31,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://streamin.link/v/57f00c79",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774206143000
+        }
+      ]
+    },
+    {
+      "home": "Cincinnati",
+      "away": "CF Montreal",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s0syy5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0syy5",
+          "scorer": "Wikelman Carmona",
+          "minute": 6,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/Xr1VpA5n1OGANkC/watch",
+          "videoEmbed": "https://streamain.com/Xr1VpA5n1OGANkC/watch",
+          "directMp4": null,
+          "postedAt": 1774203517000
+        },
+        {
+          "postId": "1s0szvf",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0szvf",
+          "scorer": "Ender Echenique",
+          "minute": 40,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/KfqkSPRPxsR9VVG/watch",
+          "videoEmbed": "https://streamain.com/KfqkSPRPxsR9VVG/watch",
+          "directMp4": null,
+          "postedAt": 1774203577000,
+          "disallowed": true
+        },
+        {
+          "postId": "1s0t1gz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0t1gz",
+          "scorer": "Prince-Osei Owusu",
+          "minute": 45,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/ZwdXIGY5bAdXdUo/watch",
+          "videoEmbed": "https://streamain.com/ZwdXIGY5bAdXdUo/watch",
+          "directMp4": null,
+          "postedAt": 1774203677000,
+          "disallowed": true
+        },
+        {
+          "postId": "1s0tqbj",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0tqbj",
+          "scorer": "Ayoub Jabbari",
+          "minute": 52,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/nNjAPK2hjGsYrL5/watch",
+          "videoEmbed": "https://streamain.com/nNjAPK2hjGsYrL5/watch",
+          "directMp4": null,
+          "postedAt": 1774205243000
+        },
+        {
+          "postId": "1s0ttj6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0ttj6",
+          "scorer": "Prince-Osei Owusu penalty",
+          "minute": 64,
+          "homeScore": 2,
+          "awayScore": 3,
+          "videoUrl": "https://streamain.com/WKsPjmDkgu8DkWe/watch",
+          "videoEmbed": "https://streamain.com/WKsPjmDkgu8DkWe/watch",
+          "directMp4": null,
+          "postedAt": 1774205454000
+        },
+        {
+          "postId": "1s0u2hu",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0u2hu",
+          "scorer": "Tom Barlow",
+          "minute": 80,
+          "homeScore": 3,
+          "awayScore": 3,
+          "videoUrl": "https://streamain.com/KtaKNaoWErxpYEi/watch",
+          "videoEmbed": "https://streamain.com/KtaKNaoWErxpYEi/watch",
+          "directMp4": null,
+          "postedAt": 1774206029000
+        }
+      ]
+    },
+    {
+      "home": "Viktoria Köln",
+      "away": "RW Essen",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s0to8u",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0to8u",
+          "scorer": "Dickson Abiama",
+          "minute": 10,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/en/58pZEISUzAEI1lH/watch",
+          "videoEmbed": "https://streamain.com/en/58pZEISUzAEI1lH/watch",
+          "directMp4": null,
+          "postedAt": 1774205112000
+        },
+        {
+          "postId": "1s0trcg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0trcg",
+          "scorer": "Lucas Brumme",
+          "minute": 12,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/en/09m0bR1xE53UNcx/watch",
+          "videoEmbed": "https://streamain.com/en/09m0bR1xE53UNcx/watch",
+          "directMp4": null,
+          "postedAt": 1774205312000
+        }
+      ]
+    },
     {
       "home": "New York City",
       "away": "Inter Miami",
@@ -59,54 +225,59 @@
           "directMp4": null,
           "postedAt": 1774204367000,
           "disallowed": true
+        },
+        {
+          "postId": "1s0tp9k",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0tp9k",
+          "scorer": "Micael",
+          "minute": 74,
+          "homeScore": 2,
+          "awayScore": 3,
+          "videoUrl": "https://streamff.link/v/eb48d5e2",
+          "videoEmbed": "https://streamff.link/v/eb48d5e2",
+          "directMp4": null,
+          "postedAt": 1774205176000
         }
       ]
     },
     {
-      "home": "Cincinnati",
-      "away": "CF Montreal",
+      "home": "Alverca",
+      "away": "Sporting",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1s0syy5",
+          "postId": "1s0tlne",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1s0syy5",
-          "scorer": "Wikelman Carmona",
-          "minute": 6,
+          "permalink": "https://redd.it/1s0tlne",
+          "scorer": "Pedro Gonçalves",
+          "minute": 22,
           "homeScore": 0,
           "awayScore": 1,
-          "videoUrl": "https://streamain.com/Xr1VpA5n1OGANkC/watch",
-          "videoEmbed": "https://streamain.com/Xr1VpA5n1OGANkC/watch",
+          "videoUrl": "https://streamain.com/GWIAFbmgPBkGVYV/watch",
+          "videoEmbed": "https://streamain.com/GWIAFbmgPBkGVYV/watch",
           "directMp4": null,
-          "postedAt": 1774203517000
-        },
+          "postedAt": 1774204947000
+        }
+      ]
+    },
+    {
+      "home": "AS Roma",
+      "away": "Lecce",
+      "league": "Serie A",
+      "goals": [
         {
-          "postId": "1s0szvf",
+          "postId": "1s0tity",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1s0szvf",
-          "scorer": "Ender Echenique",
-          "minute": 40,
+          "permalink": "https://redd.it/1s0tity",
+          "scorer": "Robinio Vaz",
+          "minute": 57,
           "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://streamain.com/KfqkSPRPxsR9VVG/watch",
-          "videoEmbed": "https://streamain.com/KfqkSPRPxsR9VVG/watch",
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/Hp6BGPcP7aLcLXs/watch",
+          "videoEmbed": "https://streamain.com/Hp6BGPcP7aLcLXs/watch",
           "directMp4": null,
-          "postedAt": 1774203577000,
-          "disallowed": true
-        },
-        {
-          "postId": "1s0t1gz",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1s0t1gz",
-          "scorer": "Prince-Osei Owusu",
-          "minute": 45,
-          "homeScore": 1,
-          "awayScore": 2,
-          "videoUrl": "https://streamain.com/ZwdXIGY5bAdXdUo/watch",
-          "videoEmbed": "https://streamain.com/ZwdXIGY5bAdXdUo/watch",
-          "directMp4": null,
-          "postedAt": 1774203677000,
-          "disallowed": true
+          "postedAt": 1774204768000
         }
       ]
     },
@@ -384,6 +555,39 @@
           "directMp4": "https://v.redd.it/q7iw674nhmqg1/CMAF_1080.mp4?source=fallback",
           "postedAt": 1774196700000
         },
+        {
+          "postId": "1s0r0q3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0r0q3",
+          "scorer": "Thom van Bergen",
+          "minute": 58,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/w210rgbkomqg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/w210rgbkomqg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1774199038000
+        },
+        {
+          "postId": "1s0rivl",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0rivl",
+          "scorer": "Tygo Land",
+          "minute": 76,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/mk531frxrmqg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774200200000
+        }
+      ]
+    },
+    {
+      "home": "Groningen",
+      "away": "AZ",
+      "league": "Rest of World",
+      "goals": [
         {
           "postId": "1s0r0q3",
           "subreddit": "soccer",
