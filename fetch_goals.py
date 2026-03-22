@@ -297,6 +297,13 @@ def main():
             else:
                 continue
 
+        # Detect disallowed goals — if new post total score is lower than a stored goal's total,
+        # that stored goal was likely disallowed by VAR
+        new_total = parsed["homeScore"] + parsed["awayScore"]
+        for g in matches[key]["goals"]:
+            if g["homeScore"] + g["awayScore"] > new_total:
+                g["disallowed"] = True
+
         direct_mp4 = None
         secure_media = post.get("secure_media") or {}
         reddit_video = secure_media.get("reddit_video") or {}
