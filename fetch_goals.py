@@ -9,6 +9,9 @@ import re
 import urllib.request
 import urllib.parse
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
+
+EASTERN = ZoneInfo("America/New_York")
 
 SUBREDDIT   = "soccer"
 VIDEO_HOSTS = {"streamff.link", "streamff.com", "streamable.com",
@@ -104,8 +107,9 @@ def find_schedule_match(parsed_home, parsed_away, today_teams):
 
 
 def today_utc_midnight_ts():
-    now = datetime.now(timezone.utc)
-    return int(now.replace(hour=0, minute=0, second=0, microsecond=0).timestamp())
+    now = datetime.now(EASTERN)
+    eastern_midnight = now.replace(hour=0, minute=0, second=0, microsecond=0)
+    return int(eastern_midnight.astimezone(timezone.utc).timestamp())
 
 def fetch_posts(after_ts):
     url = (
