@@ -27,7 +27,7 @@ WINDOW_HOURS = 4
 # ESPN API league slugs mapped to friendly names
 # Format: https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard?dates=YYYYMMDD
 ESPN_LEAGUES = {
-    "fifa.worldq.europe":     "World Cup Qualifying",
+    "fifa.worldq.uefa":       "World Cup Qualifying",
     "fifa.worldq.concacaf":   "World Cup Qualifying",
     "fifa.worldq.conmebol":   "World Cup Qualifying",
     "fifa.worldq.afc":        "World Cup Qualifying",
@@ -331,6 +331,9 @@ def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> 
                 "STATUS_SUSPENDED": "Suspended",
             }
             if status_name in non_scheduled:
+                # Skip non-time statuses entirely for International Friendly
+                if league_name == "International Friendly":
+                    continue
                 games.append({
                     "league":    league_name,
                     "time":      non_scheduled[status_name],
@@ -379,7 +382,7 @@ def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> 
                     source_names = ["Apple TV"]
                 elif league_name == "Premier League":
                     source_names = ["Peacock"]
-                elif league_name in {"US Open Cup", "USL Championship", "USL League One", "EFL Championship", "International Friendly", "Carabao Cup", "World Cup Qualifying"}:
+                elif league_name in {"US Open Cup", "USL Championship", "USL League One", "EFL Championship", "International Friendly", "World Cup Qualifying"}:
                     # No known broadcaster — skip the game entirely
                     continue
                 else:
