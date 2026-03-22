@@ -1,33 +1,9 @@
 {
-  "updated": "2026-03-21 16:29 EDT",
+  "updated": "2026-03-21 22:24 EDT",
   "days": {
     "20260321": {
       "date": "Saturday, March 21",
       "games": [
-        {
-          "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
-          "time": "2:45 PM",
-          "match": "Michigan State Spartans vs Louisville Cardinals",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-21T18:45Z"
-        },
-        {
-          "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
-          "time": "5:15 PM",
-          "match": "Duke Blue Devils vs TCU Horned Frogs",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-21T21:15Z"
-        },
-        {
-          "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
-          "time": "6:10 PM",
-          "match": "Houston Cougars vs Texas A&M Aggies",
-          "source": "TBS / TNT",
-          "kick_utc": "2026-03-21T22:10Z"
-        },
         {
           "conference": "Independent",
           "tourney_round": "NCAA Tournament",
@@ -39,18 +15,18 @@
         {
           "conference": "Independent",
           "tourney_round": "NCAA Tournament",
-          "time": "7:50 PM",
+          "time": "8:15 PM",
           "match": "Illinois Fighting Illini vs VCU Rams",
           "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-21T23:50Z"
+          "kick_utc": "2026-03-22T00:15Z"
         },
         {
           "conference": "Independent",
           "tourney_round": "NCAA Tournament",
-          "time": "8:45 PM",
+          "time": "9:02 PM",
           "match": "Nebraska Cornhuskers vs Vanderbilt Commodores",
           "source": "TBS / TNT",
-          "kick_utc": "2026-03-22T00:45Z"
+          "kick_utc": "2026-03-22T01:02Z"
         },
         {
           "conference": "Independent",

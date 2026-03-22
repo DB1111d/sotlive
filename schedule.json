@@ -1,44 +1,9 @@
 {
-  "updated": "2026-03-21 16:29 EDT",
+  "updated": "2026-03-21 22:24 EDT",
   "days": {
     "20260321": {
       "date": "Saturday, March 21",
       "games": [
-        {
-          "league": "Premier League",
-          "time": "1:30 PM",
-          "match": "Everton vs Chelsea",
-          "source": "USA Network",
-          "kick_utc": "2026-03-21T17:30Z"
-        },
-        {
-          "league": "Premier League",
-          "time": "4:00 PM",
-          "match": "Leeds United vs Brentford",
-          "source": "USA Network",
-          "kick_utc": "2026-03-21T20:00Z"
-        },
-        {
-          "league": "MLS",
-          "time": "1:00 PM",
-          "match": "Toronto FC vs Columbus Crew",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-21T17:00Z"
-        },
-        {
-          "league": "MLS",
-          "time": "4:30 PM",
-          "match": "Philadelphia Union vs Chicago Fire FC",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-21T20:30Z"
-        },
-        {
-          "league": "MLS",
-          "time": "6:15 PM",
-          "match": "Nashville SC vs Orlando City SC",
-          "source": "FS1 \u00b7 Apple TV",
-          "kick_utc": "2026-03-21T22:15Z"
-        },
         {
           "league": "MLS",
           "time": "7:30 PM",
@@ -87,83 +52,6 @@
           "match": "Vancouver Whitecaps vs San Jose Earthquakes",
           "source": "Apple TV",
           "kick_utc": "2026-03-22T02:30Z"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "1:15 PM",
-          "match": "Swansea City vs Coventry City",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-21T17:15Z"
-        },
-        {
-          "league": "Serie A",
-          "time": "1:00 PM",
-          "match": "AC Milan vs Torino",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-21T17:00Z"
-        },
-        {
-          "league": "Serie A",
-          "time": "3:45 PM",
-          "match": "Juventus vs Sassuolo",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-21T19:45Z"
-        },
-        {
-          "league": "German Bundesliga",
-          "time": "1:30 PM",
-          "match": "Borussia Dortmund vs Hamburg SV",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-21T17:30Z"
-        },
-        {
-          "league": "La Liga",
-          "time": "1:30 PM",
-          "match": "Levante vs Real Oviedo",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-21T17:30Z"
-        },
-        {
-          "league": "La Liga",
-          "time": "1:30 PM",
-          "match": "Osasuna vs Girona",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-21T17:30Z"
-        },
-        {
-          "league": "La Liga",
-          "time": "4:00 PM",
-          "match": "Sevilla vs Valencia",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-21T20:00Z"
-        },
-        {
-          "league": "Dutch Eredivisie",
-          "time": "1:45 PM",
-          "match": "Sparta Rotterdam vs FC Volendam",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-21T17:45Z"
-        },
-        {
-          "league": "Dutch Eredivisie",
-          "time": "4:00 PM",
-          "match": "PEC Zwolle vs NAC Breda",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-21T20:00Z"
-        },
-        {
-          "league": "USL Championship",
-          "time": "3:00 PM",
-          "match": "Loudoun United FC vs Miami FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-21T19:00Z"
-        },
-        {
-          "league": "USL Championship",
-          "time": "4:00 PM",
-          "match": "Louisville City FC vs Rhode Island FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-21T20:00Z"
         },
         {
           "league": "USL Championship",
@@ -220,20 +108,6 @@
           "match": "Sacramento Republic FC vs Monterey Bay",
           "source": "ESPN+",
           "kick_utc": "2026-03-22T02:00Z"
-        },
-        {
-          "league": "USL League One",
-          "time": "3:00 PM",
-          "match": "Spokane Velocity FC vs New York Cosmos",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-21T19:00Z"
-        },
-        {
-          "league": "USL League One",
-          "time": "6:00 PM",
-          "match": "Richmond Kickers vs FC Naples",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-21T22:00Z"
         },
         {
           "league": "USL League One",
