@@ -1,7 +1,166 @@
 {
-  "updated": "2026-03-22T19:37:59Z",
+  "updated": "2026-03-22T19:55:12Z",
   "date": "2026-03-22",
   "matches": [
+    {
+      "home": "FC Augsburg",
+      "away": "VfB Stuttgart",
+      "league": "German Bundesliga",
+      "goals": [
+        {
+          "postId": "1s0tn43",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0tn43",
+          "scorer": "Deniz Undav",
+          "minute": 12,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/39aaf3cc",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774205038000
+        },
+        {
+          "postId": "1s0u2ql",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0u2ql",
+          "scorer": "Tiago Tomas",
+          "minute": 29,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/2db8e782",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774206042000
+        },
+        {
+          "postId": "1s0u4i5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0u4i5",
+          "scorer": "Nikolas Nartey",
+          "minute": 31,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://streamin.link/v/57f00c79",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774206143000
+        },
+        {
+          "postId": "1s0vek6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0vek6",
+          "scorer": "Fabian Rieder",
+          "minute": 57,
+          "homeScore": 1,
+          "awayScore": 3,
+          "videoUrl": "https://streamin.link/v/3d4a2241",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774209102000
+        },
+        {
+          "postId": "1s0vf4v",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0vf4v",
+          "scorer": "Deniz Undav",
+          "minute": 58,
+          "homeScore": 1,
+          "awayScore": 4,
+          "videoUrl": "https://streamin.link/v/a6ef746b",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774209142000,
+          "disallowed": true
+        }
+      ]
+    },
+    {
+      "home": "Fiorentina",
+      "away": "Internazionale",
+      "league": "Serie A",
+      "goals": [
+        {
+          "postId": "1s0vej5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0vej5",
+          "scorer": "Francesco Pio Esposito",
+          "minute": 1,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/eu3y02ciinqg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774209101000
+        }
+      ]
+    },
+    {
+      "home": "Wydad AC",
+      "away": "Safi",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s0vc90",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0vc90",
+          "scorer": "Sofian El Moudane penalty",
+          "minute": 40,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/qiA7cZl01nmcLPG/watch",
+          "videoEmbed": "https://streamain.com/qiA7cZl01nmcLPG/watch",
+          "directMp4": null,
+          "postedAt": 1774208945000
+        }
+      ]
+    },
+    {
+      "home": "Alverca",
+      "away": "Sporting",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s0tlne",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0tlne",
+          "scorer": "Pedro Gonçalves",
+          "minute": 22,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/GWIAFbmgPBkGVYV/watch",
+          "videoEmbed": "https://streamain.com/GWIAFbmgPBkGVYV/watch",
+          "directMp4": null,
+          "postedAt": 1774204947000
+        },
+        {
+          "postId": "1s0um9a",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0um9a",
+          "scorer": "Luis Suarez",
+          "minute": 50,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/QOa7ipZwl6Jiu8L/watch",
+          "videoEmbed": "https://streamain.com/QOa7ipZwl6Jiu8L/watch",
+          "directMp4": null,
+          "postedAt": 1774207261000
+        },
+        {
+          "postId": "1s0v4b0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0v4b0",
+          "scorer": "Geny Catamo",
+          "minute": 68,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://streamain.com/J8sODpbk56OdTaT/watch",
+          "videoEmbed": "https://streamain.com/J8sODpbk56OdTaT/watch",
+          "directMp4": null,
+          "postedAt": 1774208423000
+        }
+      ]
+    },
     {
       "home": "USM Alger",
       "away": "Maniema",
@@ -39,39 +198,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/tudchm7ndnqg1/CMAF_720.mp4?source=fallback",
           "postedAt": 1774207478000
-        }
-      ]
-    },
-    {
-      "home": "Alverca",
-      "away": "Sporting",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1s0tlne",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1s0tlne",
-          "scorer": "Pedro Gonçalves",
-          "minute": 22,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamain.com/GWIAFbmgPBkGVYV/watch",
-          "videoEmbed": "https://streamain.com/GWIAFbmgPBkGVYV/watch",
-          "directMp4": null,
-          "postedAt": 1774204947000
-        },
-        {
-          "postId": "1s0um9a",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1s0um9a",
-          "scorer": "Luis Suarez",
-          "minute": 50,
-          "homeScore": 0,
-          "awayScore": 2,
-          "videoUrl": "https://streamain.com/QOa7ipZwl6Jiu8L/watch",
-          "videoEmbed": "https://streamain.com/QOa7ipZwl6Jiu8L/watch",
-          "directMp4": null,
-          "postedAt": 1774207261000
         }
       ]
     },
@@ -219,52 +345,6 @@
           "videoEmbed": "https://streamff.link/v/4485e8c5",
           "directMp4": null,
           "postedAt": 1774206476000
-        }
-      ]
-    },
-    {
-      "home": "FC Augsburg",
-      "away": "VfB Stuttgart",
-      "league": "German Bundesliga",
-      "goals": [
-        {
-          "postId": "1s0tn43",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1s0tn43",
-          "scorer": "Deniz Undav",
-          "minute": 12,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/39aaf3cc",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1774205038000
-        },
-        {
-          "postId": "1s0u2ql",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1s0u2ql",
-          "scorer": "Tiago Tomas",
-          "minute": 29,
-          "homeScore": 0,
-          "awayScore": 2,
-          "videoUrl": "https://streamin.link/v/2db8e782",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1774206042000
-        },
-        {
-          "postId": "1s0u4i5",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1s0u4i5",
-          "scorer": "Nikolas Nartey",
-          "minute": 31,
-          "homeScore": 0,
-          "awayScore": 3,
-          "videoUrl": "https://streamin.link/v/57f00c79",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1774206143000
         }
       ]
     },
