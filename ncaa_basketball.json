@@ -1,59 +1,6 @@
 {
-  "updated": "2026-03-21 22:24 EDT",
+  "updated": "2026-03-22 01:19 EDT",
   "days": {
-    "20260321": {
-      "date": "Saturday, March 21",
-      "games": [
-        {
-          "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
-          "time": "7:10 PM",
-          "match": "Gonzaga Bulldogs vs Texas Longhorns",
-          "source": "TBS / TNT",
-          "kick_utc": "2026-03-21T23:10Z"
-        },
-        {
-          "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
-          "time": "8:15 PM",
-          "match": "Illinois Fighting Illini vs VCU Rams",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-22T00:15Z"
-        },
-        {
-          "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
-          "time": "9:02 PM",
-          "match": "Nebraska Cornhuskers vs Vanderbilt Commodores",
-          "source": "TBS / TNT",
-          "kick_utc": "2026-03-22T01:02Z"
-        },
-        {
-          "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
-          "time": "9:45 PM",
-          "match": "Arkansas Razorbacks vs High Point Panthers",
-          "source": "TBS / TNT",
-          "kick_utc": "2026-03-22T01:45Z"
-        },
-        {
-          "conference": "Independent",
-          "tourney_round": "NIT",
-          "time": "7:00 PM",
-          "match": "UNC Wilmington Seahawks vs Dayton Flyers",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-21T23:00Z"
-        },
-        {
-          "conference": "Independent",
-          "tourney_round": "NIT",
-          "time": "9:00 PM",
-          "match": "Nevada Wolf Pack vs Liberty Flames",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-22T01:00Z"
-        }
-      ]
-    },
     "20260322": {
       "date": "Sunday, March 22",
       "games": [
@@ -182,6 +129,27 @@
     "20260325": {
       "date": "Wednesday, March 25",
       "games": []
+    },
+    "20260326": {
+      "date": "Thursday, March 26",
+      "games": [
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "12:00 AM",
+          "match": "Houston Cougars vs Illinois Fighting Illini",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-26T04:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "12:00 AM",
+          "match": "TBD vs Texas Longhorns",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-26T04:00Z"
+        }
+      ]
     }
   }
 }

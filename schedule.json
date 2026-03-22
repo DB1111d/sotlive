@@ -1,123 +1,6 @@
 {
-  "updated": "2026-03-21 22:24 EDT",
+  "updated": "2026-03-22 01:19 EDT",
   "days": {
-    "20260321": {
-      "date": "Saturday, March 21",
-      "games": [
-        {
-          "league": "MLS",
-          "time": "7:30 PM",
-          "match": "Atlanta United FC vs D.C. United",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-21T23:30Z"
-        },
-        {
-          "league": "MLS",
-          "time": "7:30 PM",
-          "match": "Charlotte FC vs Red Bull New York",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-21T23:30Z"
-        },
-        {
-          "league": "MLS",
-          "time": "8:30 PM",
-          "match": "FC Dallas vs Houston Dynamo FC",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-22T00:30Z"
-        },
-        {
-          "league": "MLS",
-          "time": "8:30 PM",
-          "match": "Sporting Kansas City vs Colorado Rapids",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-22T00:30Z"
-        },
-        {
-          "league": "MLS",
-          "time": "8:30 PM",
-          "match": "St. Louis CITY SC vs New England Revolution",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-22T00:30Z"
-        },
-        {
-          "league": "MLS",
-          "time": "8:45 PM",
-          "match": "Austin FC vs LAFC",
-          "source": "FOX \u00b7 Apple TV",
-          "kick_utc": "2026-03-22T00:45Z"
-        },
-        {
-          "league": "MLS",
-          "time": "10:30 PM",
-          "match": "Vancouver Whitecaps vs San Jose Earthquakes",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-22T02:30Z"
-        },
-        {
-          "league": "USL Championship",
-          "time": "7:00 PM",
-          "match": "Brooklyn FC vs Hartford Athletic",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-21T23:00Z"
-        },
-        {
-          "league": "USL Championship",
-          "time": "7:00 PM",
-          "match": "Charleston Battery vs Birmingham Legion FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-21T23:00Z"
-        },
-        {
-          "league": "USL Championship",
-          "time": "7:30 PM",
-          "match": "Tampa Bay Rowdies vs Pittsburgh Riverhounds",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-21T23:30Z"
-        },
-        {
-          "league": "USL Championship",
-          "time": "8:00 PM",
-          "match": "FC Tulsa vs Las Vegas Lights FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-22T00:00Z"
-        },
-        {
-          "league": "USL Championship",
-          "time": "8:30 PM",
-          "match": "San Antonio FC vs New Mexico United",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-22T00:30Z"
-        },
-        {
-          "league": "USL Championship",
-          "time": "10:00 PM",
-          "match": "Orange County SC vs Colorado Springs Switchbacks FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-22T02:00Z"
-        },
-        {
-          "league": "USL Championship",
-          "time": "10:00 PM",
-          "match": "Phoenix Rising FC vs Oakland Roots",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-22T02:00Z"
-        },
-        {
-          "league": "USL Championship",
-          "time": "10:00 PM",
-          "match": "Sacramento Republic FC vs Monterey Bay",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-22T02:00Z"
-        },
-        {
-          "league": "USL League One",
-          "time": "10:30 PM",
-          "match": "AV Alta FC vs Portland Hearts of Pine",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-22T02:30Z"
-        }
-      ]
-    },
     "20260322": {
       "date": "Sunday, March 22",
       "games": [
@@ -346,6 +229,10 @@
           "kick_utc": "2026-03-25T23:00Z"
         }
       ]
+    },
+    "20260326": {
+      "date": "Thursday, March 26",
+      "games": []
     }
   }
 }
