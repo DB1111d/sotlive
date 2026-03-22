@@ -27,9 +27,17 @@ WINDOW_HOURS = 4
 # ESPN API league slugs mapped to friendly names
 # Format: https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard?dates=YYYYMMDD
 ESPN_LEAGUES = {
+    "uefa.worldq.europe":   "World Cup Qualifying",
+    "concacaf.worldq":      "World Cup Qualifying",
+    "conmebol.worldq":      "World Cup Qualifying",
+    "afc.worldq":           "World Cup Qualifying",
+    "caf.worldq":           "World Cup Qualifying",
+    "ofc.worldq":           "World Cup Qualifying",
+    "fifa.friendly":        "International Friendly",
     "eng.1":        "Premier League",
     "eng.2":        "EFL Championship",
     "eng.fa":       "English FA Cup",
+    "eng.league_cup": "Carabao Cup",
     "esp.1":        "La Liga",
     "ger.1":        "German Bundesliga",
     "ita.1":        "Serie A",
@@ -42,7 +50,6 @@ ESPN_LEAGUES = {
     "mex.1":        "Liga MX",
     "uefa.champions": "UEFA Champions League",
     "uefa.europa":    "UEFA Europa League",
-    # uefa.conference returns 400 — Conference League is fetched via scoreboard scraper
 }
 
 # ESPN broadcaster names to map to our badges
@@ -106,6 +113,8 @@ SHOW_KEYWORDS = [
 ]
 
 LEAGUE_ORDER = [
+    "World Cup Qualifying",
+    "International Friendly",
     "UEFA Champions League",
     "UEFA Europa League",
     "UEFA Europa Conference League",
@@ -114,6 +123,7 @@ LEAGUE_ORDER = [
     "CONCACAF Champions Cup",
     "US Open Cup",
     "English FA Cup",
+    "Carabao Cup",
     "EFL Championship",
     "Serie A",
     "German Bundesliga",
