@@ -1,7 +1,27 @@
 {
-  "updated": "2026-03-22T02:00:55Z",
+  "updated": "2026-03-22T02:21:05Z",
   "date": "2026-03-22",
   "matches": [
+    {
+      "home": "Charlotte FC",
+      "away": "Red Bull New York",
+      "league": "MLS",
+      "goals": [
+        {
+          "postId": "1s09lo4",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s09lo4",
+          "scorer": "",
+          "minute": 68,
+          "homeScore": 4,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/8pu84nly8iqg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/8pu84nly8iqg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1774145419000
+        }
+      ]
+    },
     {
       "home": "Nashville SC",
       "away": "Orlando City SC",
