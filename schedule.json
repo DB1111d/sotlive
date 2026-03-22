@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-22 10:21 EDT",
+  "updated": "2026-03-22 10:27 EDT",
   "days": {
     "20260322": {
       "date": "Sunday, March 22",
@@ -216,13 +216,6 @@
       "games": [
         {
           "league": "International Friendly",
-          "time": "8:00 AM",
-          "match": "Kazakhstan vs Namibia",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-25T12:00Z"
-        },
-        {
-          "league": "International Friendly",
           "time": "Canceled",
           "match": "Kazakhstan vs Comoros",
           "source": "",
@@ -254,55 +247,6 @@
     "20260326": {
       "date": "Thursday, March 26",
       "games": [
-        {
-          "league": "International Friendly",
-          "time": "10:30 AM",
-          "match": "Tanzania vs Liechtenstein",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-26T14:30Z"
-        },
-        {
-          "league": "International Friendly",
-          "time": "11:00 AM",
-          "match": "Moldova vs Lithuania",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-26T15:00Z"
-        },
-        {
-          "league": "International Friendly",
-          "time": "1:00 PM",
-          "match": "Cyprus vs Belarus",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-26T17:00Z"
-        },
-        {
-          "league": "International Friendly",
-          "time": "1:00 PM",
-          "match": "Georgia vs Israel",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-26T17:00Z"
-        },
-        {
-          "league": "International Friendly",
-          "time": "4:00 PM",
-          "match": "Brazil vs France",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-26T20:00Z"
-        },
-        {
-          "league": "International Friendly",
-          "time": "7:30 PM",
-          "match": "Colombia vs Croatia",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-26T23:30Z"
-        },
-        {
-          "league": "International Friendly",
-          "time": "11:00 PM",
-          "match": "Chile vs Cape Verde",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-27T03:00Z"
-        },
         {
           "league": "International Friendly",
           "time": "Canceled",
