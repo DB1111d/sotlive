@@ -1,7 +1,93 @@
 {
-  "updated": "2026-03-22T17:25:21Z",
+  "updated": "2026-03-22T17:50:38Z",
   "date": "2026-03-22",
   "matches": [
+    {
+      "home": "Arsenal",
+      "away": "Manchester City",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s0s6n1",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0s6n1",
+          "scorer": "Nico O'Reilly 60‎'‎",
+          "minute": null,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/73fd868b",
+          "videoEmbed": "https://streamff.link/v/73fd868b",
+          "directMp4": null,
+          "postedAt": 1774201736000
+        }
+      ]
+    },
+    {
+      "home": "Marseille",
+      "away": "Lille",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s0rgtj",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0rgtj",
+          "scorer": "Ethan Nwaneri",
+          "minute": 43,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/9puw0d8ormqg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/9puw0d8ormqg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1774200066000
+        },
+        {
+          "postId": "1s0s4a1",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0s4a1",
+          "scorer": "Thomas Meunier",
+          "minute": 49,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/yRBtdkec5PMChmL/watch",
+          "videoEmbed": "https://streamain.com/yRBtdkec5PMChmL/watch",
+          "directMp4": null,
+          "postedAt": 1774201585000
+        }
+      ]
+    },
+    {
+      "home": "New York City",
+      "away": "Inter Miami",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s0re2i",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0re2i",
+          "scorer": "Gonzalo Lujan",
+          "minute": 4,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/e005b047",
+          "videoEmbed": "https://streamff.link/v/e005b047",
+          "directMp4": null,
+          "postedAt": 1774199886000
+        },
+        {
+          "postId": "1s0rqms",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0rqms",
+          "scorer": "N. Fernandez",
+          "minute": 16,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/50828eed",
+          "videoEmbed": "https://streamff.link/v/50828eed",
+          "directMp4": null,
+          "postedAt": 1774200693000
+        }
+      ]
+    },
     {
       "home": "Bologna",
       "away": "Lazio",
@@ -49,26 +135,6 @@
       ]
     },
     {
-      "home": "Marseille",
-      "away": "Lille",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1s0rgtj",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1s0rgtj",
-          "scorer": "Ethan Nwaneri",
-          "minute": 43,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/9puw0d8ormqg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/9puw0d8ormqg1/CMAF_1080.mp4?source=fallback",
-          "postedAt": 1774200066000
-        }
-      ]
-    },
-    {
       "home": "Duisburg",
       "away": "1860 München",
       "league": "Rest of World",
@@ -112,26 +178,6 @@
           "videoEmbed": "https://streamain.com/k0g3yGUdYwKkqph/watch",
           "directMp4": null,
           "postedAt": 1774199977000
-        }
-      ]
-    },
-    {
-      "home": "New York City",
-      "away": "Inter Miami",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1s0re2i",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1s0re2i",
-          "scorer": "Gonzalo Lujan",
-          "minute": 4,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamff.link/v/e005b047",
-          "videoEmbed": "https://streamff.link/v/e005b047",
-          "directMp4": null,
-          "postedAt": 1774199886000
         }
       ]
     },
