@@ -15,15 +15,13 @@ VIDEO_HOSTS = {"streamff.link", "streamff.com", "streamable.com",
                "youtu.be", "youtube.com", "v.redd.it", "streamain.com",
                "streamin.link", "streamin.top", "streamin.me"}
 
-# Leagues to include — everything except USL Championship, USL League One, Dutch Eredivisie, EFL Championship
+# Leagues to include — everything except USL Championship, USL League One, Dutch Eredivisie, EFL Championship, MLS, US Open Cup
 ALLOWED_LEAGUES = {
     "UEFA Champions League",
     "UEFA Europa League",
     "UEFA Europa Conference League",
     "Premier League",
-    "MLS",
     "CONCACAF Champions Cup",
-    "US Open Cup",
     "English FA Cup",
     "Serie A",
     "German Bundesliga",
@@ -289,6 +287,9 @@ def main():
         key = match_key(canon_home, canon_away)
         if key not in matches:
             matches[key] = {"home": canon_home, "away": canon_away, "league": canon_league, "goals": []}
+        elif matches[key].get("league", "Rest of World") == "Rest of World" and canon_league != "Rest of World":
+            # Upgrade league tag if we now have a better match (schedule was available this run)
+            matches[key]["league"] = canon_league
 
         # Dedup by score
         existing = next((g for g in matches[key]["goals"] if g["homeScore"] == parsed["homeScore"] and g["awayScore"] == parsed["awayScore"]), None)
