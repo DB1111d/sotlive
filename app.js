@@ -128,14 +128,21 @@ function buildTzPicker() {
   wrapper.appendChild(select);
 }
 
-function hideTzPicker() {
+function hideTzPicker(fullyHide = false) {
   const picker = document.getElementById('tz-picker');
-  if (picker) picker.style.display = 'none';
+  const select = document.getElementById('tz-select');
+  if (fullyHide) {
+    if (picker) picker.style.display = 'none';
+  } else {
+    if (select) select.disabled = true;
+  }
 }
 
 function showTzPicker() {
   const picker = document.getElementById('tz-picker');
   if (picker) picker.style.display = '';
+  const select = document.getElementById('tz-select');
+  if (select) select.disabled = false;
 }
 
 // ── League filter ─────────────────────────────────────────────────
@@ -203,14 +210,21 @@ function applyLeagueFilter(selectedLeague) {
   });
 }
 
-function hideLeagueFilter() {
+function hideLeagueFilter(fullyHide = false) {
   const el = document.getElementById('league-filter');
-  if (el) el.style.display = 'none';
+  const select = document.getElementById('league-select');
+  if (fullyHide) {
+    if (el) el.style.display = 'none';
+  } else {
+    if (select) select.disabled = true;
+  }
 }
 
 function showLeagueFilter() {
   const el = document.getElementById('league-filter');
   if (el) el.style.display = '';
+  const select = document.getElementById('league-select');
+  if (select) select.disabled = false;
 }
 
 function resetLeagueFilter() {
@@ -421,11 +435,12 @@ function switchToAbout() {
   document.getElementById('content').style.display = 'none';
   document.getElementById('about-panel').classList.add('active');
 
+  // Always show both pickers in About — tz stays in last picked state, league disabled
   showTzPicker();
   showLeagueFilter();
   populateLeagueFilter([]);
-  const tzSelect = document.getElementById('tz-select');
-  if (tzSelect) tzSelect.disabled = true;
+  const leagueSelect = document.getElementById('league-select');
+  if (leagueSelect) leagueSelect.disabled = true;
 }
 
 // ── Sport switching ───────────────────────────────────────────────
@@ -448,9 +463,9 @@ async function switchSport(sport) {
   document.getElementById('about-panel').classList.remove('active');
   contentEl.style.display = '';
 
-  // Hide pickers — netflix doesn't use them
-  hideTzPicker();
-  hideLeagueFilter();
+  // Fully hide pickers for streaming — not relevant outside sports
+  hideTzPicker(true);
+  hideLeagueFilter(true);
   resetLeagueFilter();
 
   // Netflix and HBO Max share the same tile layout — no day tabs
