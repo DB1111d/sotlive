@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-22T16:55:58Z",
+  "updated": "2026-03-22T17:17:33Z",
   "date": "2026-03-22",
   "matches": [
     {
@@ -19,6 +19,73 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/q7iw674nhmqg1/CMAF_1080.mp4?source=fallback",
           "postedAt": 1774196700000
+        },
+        {
+          "postId": "1s0r0q3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0r0q3",
+          "scorer": "Thom van Bergen",
+          "minute": 58,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/w210rgbkomqg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/w210rgbkomqg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1774199038000
+        }
+      ]
+    },
+    {
+      "home": "Duisburg",
+      "away": "1860 München",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s0qq18",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0qq18",
+          "scorer": "Joshua Bitter",
+          "minute": 60,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/vCvoxym72ud0p7H/watch",
+          "videoEmbed": "https://streamain.com/vCvoxym72ud0p7H/watch",
+          "directMp4": null,
+          "postedAt": 1774198355000
+        },
+        {
+          "postId": "1s0qvtt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0qvtt",
+          "scorer": "Thore Jacobsen",
+          "minute": 69,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/wqK6uadt4T20FE8/watch",
+          "videoEmbed": "https://streamain.com/wqK6uadt4T20FE8/watch",
+          "directMp4": null,
+          "postedAt": 1774198732000,
+          "disallowed": true
+        }
+      ]
+    },
+    {
+      "home": "St. Pauli",
+      "away": "SC Freiburg",
+      "league": "German Bundesliga",
+      "goals": [
+        {
+          "postId": "1s0qsya",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0qsya",
+          "scorer": "Danel Sinani",
+          "minute": 24,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/e34c02c2",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774198549000
         }
       ]
     },
