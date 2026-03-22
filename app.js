@@ -24,14 +24,11 @@ function formatTime(kick_utc, iana) {
 
 // ── League order (soccer) ─────────────────────────────────────────
 const LEAGUE_ORDER = [
-  'World Cup Qualifying',
-  'International Friendly',
   'UEFA Champions League',
   'UEFA Europa League',
   'UEFA Europa Conference League',
   'Premier League',
   'MLS',
-  'Carabao Cup',
   'CONCACAF Champions Cup',
   'US Open Cup',
   'English FA Cup',
@@ -241,9 +238,16 @@ function buildPanel(key, day) {
   panel.id = `panel-${key}`;
 
   const games = day.games || [];
+  const todayKey = new Date().toLocaleDateString('en-CA', { timeZone: 'America/New_York' }).replace(/-/g, '');
+  const goalfeedBanner = key === todayKey ? `
+    <a href="soccer-goals.html" class="goalfeed-banner">
+      <span class="goalfeed-banner-icon">🥅</span>
+      <span class="goalfeed-banner-text"><span class="goalfeed-green">GOAL</span>FEED</span>
+    </a>` : '';
+
   if (games.length === 0) {
     panel.dataset.empty = 'true';
-    panel.innerHTML = '<div class="empty"><div class="empty-icon">🏟️</div>No matches scheduled.</div>';
+    panel.innerHTML = goalfeedBanner + '<div class="empty"><div class="empty-icon">🏟️</div>No matches scheduled.</div>';
     return panel;
   }
 
@@ -262,14 +266,6 @@ function buildPanel(key, day) {
   );
 
   panel.dataset.leagues = JSON.stringify(Object.keys(sortedGrouped));
-
-  // GoalFeed banner — only on today's date
-  const todayKey = new Date().toLocaleDateString('en-CA', { timeZone: 'America/New_York' }).replace(/-/g, '');
-  const goalfeedBanner = key === todayKey ? `
-    <a href="soccer-goals.html" class="goalfeed-banner">
-      <span class="goalfeed-banner-icon">🥅</span>
-      <span class="goalfeed-banner-text"><span class="goalfeed-green">GOAL</span>FEED</span>
-    </a>` : '';
 
   let html = goalfeedBanner;
   for (const [league, info] of Object.entries(sortedGrouped)) {
@@ -774,8 +770,10 @@ async function init() {
     const res = await fetch('schedule.json?v=' + Date.now());
     data = await res.json();
   } catch (e) {
+    const todayKey = new Date().toLocaleDateString('en-CA', { timeZone: 'America/New_York' }).replace(/-/g, '');
+    const goalfeedBanner = `<a href="soccer-goals.html" class="goalfeed-banner"><span class="goalfeed-banner-icon">🥅</span><span class="goalfeed-banner-text"><span class="goalfeed-green">GOAL</span>FEED</span></a>`;
     document.getElementById('content').innerHTML =
-      '<div class="empty"><div class="empty-icon">⚠️</div>Whoopsies — we\'re working to get games shown.</div>';
+      goalfeedBanner + '<div class="empty"><div class="empty-icon">⚠️</div>Whoopsies — we\'re working to get games shown.</div>';
     hideTzPicker();
     hideLeagueFilter();
     return;
