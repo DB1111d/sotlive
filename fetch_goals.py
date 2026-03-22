@@ -97,8 +97,9 @@ def find_schedule_match(parsed_home, parsed_away, today_teams):
         sh = game["home_norm"]
         sa = game["away_norm"]
 
-        home_match = (ph in sh or sh in ph)
-        away_match = (pa in sa or sa in pa) or (pa in sh or sh in pa)
+        # Only match if name is long enough to be meaningful (avoids e.g. AZ matching Lazio)
+        home_match = len(ph) >= 4 and (ph in sh or sh in ph)
+        away_match = len(pa) >= 4 and ((pa in sa or sa in pa) or (pa in sh or sh in pa))
 
         if home_match or away_match:
             return game
@@ -304,13 +305,6 @@ def main():
             else:
                 continue
 
-        # Detect disallowed goals — if new post total score is lower than a stored goal's total,
-        # that stored goal was likely disallowed by VAR
-        new_total = parsed["homeScore"] + parsed["awayScore"]
-        for g in matches[key]["goals"]:
-            if g["homeScore"] + g["awayScore"] > new_total:
-                g["disallowed"] = True
-
         direct_mp4 = None
         secure_media = post.get("secure_media") or {}
         reddit_video = secure_media.get("reddit_video") or {}
@@ -333,6 +327,21 @@ def main():
 
     for key in matches:
         matches[key]["goals"].sort(key=lambda g: (g["homeScore"] + g["awayScore"], g["minute"] or 0))
+
+    # Detect disallowed goals after sorting — if a later post has a lower total score,
+    # mark the higher-scoring goal as disallowed (only if it was posted before the lower one)
+    for key in matches:
+        goals = matches[key]["goals"]
+        max_total = 0
+        for g in goals:
+            total = g["homeScore"] + g["awayScore"]
+            if total < max_total:
+                for prev in goals:
+                    if (prev["homeScore"] + prev["awayScore"] > total
+                            and prev["postedAt"] < g["postedAt"]):
+                        prev["disallowed"] = True
+            else:
+                max_total = total
 
     match_list = list(matches.values())
     match_list.sort(key=lambda m: max(g["postedAt"] for g in m["goals"]), reverse=True)
