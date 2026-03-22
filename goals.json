@@ -1,11 +1,44 @@
 {
-  "updated": "2026-03-22T00:44:31Z",
+  "updated": "2026-03-22T00:57:04Z",
   "date": "2026-03-22",
   "matches": [
     {
       "home": "Nashville SC",
       "away": "Orlando City SC",
       "league": "MLS",
+      "goals": [
+        {
+          "postId": "1s0704z",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0704z",
+          "scorer": "Sam Surridge",
+          "minute": 67,
+          "homeScore": 4,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/duePtvDqUZHZ76o/watch",
+          "videoEmbed": "https://streamain.com/duePtvDqUZHZ76o/watch",
+          "directMp4": null,
+          "postedAt": 1774138138000
+        },
+        {
+          "postId": "1s0729a",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s0729a",
+          "scorer": "Warren Madrigal",
+          "minute": 80,
+          "homeScore": 5,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/J6EnTnhWvD42Pha/watch",
+          "videoEmbed": "https://streamain.com/J6EnTnhWvD42Pha/watch",
+          "directMp4": null,
+          "postedAt": 1774138295000
+        }
+      ]
+    },
+    {
+      "home": "Newcastle United",
+      "away": "Sunderland",
+      "league": "Premier League",
       "goals": [
         {
           "postId": "1s0704z",
