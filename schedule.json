@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-22 12:36 EDT",
+  "updated": "2026-03-22 13:19 EDT",
   "days": {
     "20260322": {
       "date": "Sunday, March 22",
@@ -108,13 +108,6 @@
           "match": "FC Augsburg vs VfB Stuttgart",
           "source": "ESPN+",
           "kick_utc": "2026-03-22T18:30Z"
-        },
-        {
-          "league": "La Liga",
-          "time": "9:00 AM",
-          "match": "Barcelona vs Rayo Vallecano",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-22T13:00Z"
         },
         {
           "league": "La Liga",
