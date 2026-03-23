@@ -527,6 +527,25 @@
       font-size: 16px;
       font-weight: 500;
       flex: 1;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+
+    .team-logo {
+      width: 20px;
+      height: 20px;
+      object-fit: contain;
+      vertical-align: middle;
+      flex-shrink: 0;
+    }
+
+    .vs-text {
+      color: var(--text-muted);
+      font-weight: 400;
+      font-size: 0.85em;
+      margin: 0 2px;
     }
 
     /* ── Empty state ── */
@@ -751,6 +770,7 @@
     @media (max-width: 500px) {
       h1 { font-size: 18px; }
       .game-match { font-size: 13px; }
+      .team-logo { width: 16px; height: 16px; }
       .tab { padding: 10px 12px 8px; }
       .contact-form .form-row { grid-template-columns: 1fr; }
     }

@@ -283,12 +283,20 @@ function buildPanel(key, day) {
         const legPart = parts[1] ? `<div class="leg-label">${parts[1]}</div>` : '';
         roundLine = `<div class="round-label">${roundName}</div>${legPart}`;
       }
+      const matchParts = g.match.split(' vs ');
+      const homeName = matchParts[0] || g.match;
+      const awayName = matchParts[1] || '';
+      const homeLogo = g.home_logo ? `<img src="${g.home_logo}" class="team-logo" alt="">` : '';
+      const awayLogo = g.away_logo ? `<img src="${g.away_logo}" class="team-logo" alt="">` : '';
+      const matchHtml = awayName
+        ? `<span class="game-match">${homeLogo}${homeName} <span class="vs-text">vs</span> ${awayLogo}${awayName}</span>`
+        : `<span class="game-match">${g.match}</span>`;
       html += `<div class="game-card" ${utcAttr}>
         <div class="game-card-left">
           ${roundLine}
           <span class="game-time">${displayTime}</span>
         </div>
-        <span class="game-match">${g.match}</span>
+        ${matchHtml}
         ${sourceBadge(g.source)}
       </div>`;
     }

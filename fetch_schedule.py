@@ -411,11 +411,13 @@ def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> 
                     round_label = base_label
 
             game = {
-                "league":   league_name,
-                "time":     time_str,
-                "match":    match_title,
-                "source":   source,
-                "kick_utc": raw_date,
+                "league":     league_name,
+                "time":       time_str,
+                "match":      match_title,
+                "source":     source,
+                "kick_utc":   raw_date,
+                "home_logo":  home["team"].get("logo", ""),
+                "away_logo":  away["team"].get("logo", ""),
             }
             if round_label:
                 game["round_label"] = round_label
