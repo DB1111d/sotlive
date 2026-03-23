@@ -122,10 +122,12 @@ function buildMatchHtml(g) {
 
 function sourceBadge(src) {
   if (!src) return `<div class="badge-stack"><span class="source-badge source-postponed">😵</span></div>`;
-  const badges = src.split(' · ').map(s => {
+  const badges = src.split(' · ')
+    .sort((a, b) => b.trim().length - a.trim().length)
+    .map(s => {
     const b = BADGE_MAP[s.trim()];
-    if (b) return `<span class="source-badge ${b.cls}">${b.label}</span>`;
-    return `<span class="source-badge source-appletv">${s.trim()}</span>`;
+    if (b) return `<span class="source-badge ${b.cls}" data-label="${b.label}">${b.label}</span>`;
+    return `<span class="source-badge source-appletv" data-label="${s.trim()}">${s.trim()}</span>`;
   }).join('');
   return `<div class="badge-stack">${badges}</div>`;
 }
