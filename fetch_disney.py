@@ -87,7 +87,7 @@ def fetch_changes(from_ts: int, to_ts: int) -> dict:
 
         for change in changes:
             show_id = change.get("showId")
-            if not show_id or show_id in results:
+            if not show_id:
                 continue
 
             show = shows.get(str(show_id), {})
@@ -107,11 +107,14 @@ def fetch_changes(from_ts: int, to_ts: int) -> dict:
                 if disney_option:
                     link = disney_option.get("link", "")
 
-            results[show_id] = {
-                "show":     show,
-                "added_ts": added_ts,
-                "link":     link,
-            }
+            if show_id not in results:
+                results[show_id] = {"show": show, "added_ts": added_ts, "link": link}
+            else:
+                # Keep earliest timestamp — represents when the show first appeared
+                if added_ts and added_ts < results[show_id]["added_ts"]:
+                    results[show_id]["added_ts"] = added_ts
+                if link and not results[show_id]["link"]:
+                    results[show_id]["link"] = link
 
         if not has_more or not cursor:
             break

@@ -2,6 +2,9 @@
 fetch_appletv.py
 Fetches Apple TV+ US new releases for the last 30 days.
 Writes output to appletv.json grouped by type, sorted newest first.
+
+Apple TV+ registers new content as both item_type=show AND item_type=season,
+so we fetch both and deduplicate by showId (keeping earliest timestamp).
 Runs as part of the Netflix GitHub Actions job (combined to save API quota).
 """
 
@@ -38,7 +41,12 @@ def api_request(path: str, params: dict) -> dict:
         return json.loads(resp.read().decode("utf-8"))
 
 
-def fetch_changes(from_ts: int, to_ts: int) -> dict:
+def fetch_changes(item_type: str, from_ts: int, to_ts: int) -> dict:
+    """
+    Fetch all change_type=new entries for the given item_type.
+    Returns dict of showId -> {show, added_ts, link}.
+    If a showId appears multiple times, keeps the earliest added_ts.
+    """
     if not API_KEY:
         print("ERROR: RAPIDAPI_KEY environment variable not set.")
         return {}
@@ -51,7 +59,7 @@ def fetch_changes(from_ts: int, to_ts: int) -> dict:
             "country":         "us",
             "catalogs":        "apple",
             "change_type":     "new",
-            "item_type":       "show",
+            "item_type":       item_type,
             "order_direction": "desc",
             "from":            from_ts,
             "to":              to_ts,
@@ -62,14 +70,14 @@ def fetch_changes(from_ts: int, to_ts: int) -> dict:
         try:
             data = api_request("/changes", params)
         except urllib.error.HTTPError as e:
-            print(f"  HTTP error: {e.code} {e.reason}")
+            print(f"  HTTP error [{item_type}]: {e.code} {e.reason}")
             try:
                 print(f"  Body: {e.read().decode('utf-8')[:500]}")
             except Exception:
                 pass
             break
         except Exception as e:
-            print(f"  API error: {e} — retrying in 10s...")
+            print(f"  API error [{item_type}]: {e} — retrying in 10s...")
             import time
             time.sleep(10)
             try:
@@ -83,11 +91,11 @@ def fetch_changes(from_ts: int, to_ts: int) -> dict:
         has_more = data.get("hasMore", False)
         cursor   = data.get("nextCursor", None)
 
-        print(f"  [appletv/new] got {len(changes)} changes (hasMore={has_more})")
+        print(f"  [apple/{item_type}] got {len(changes)} changes (hasMore={has_more})")
 
         for change in changes:
             show_id = change.get("showId")
-            if not show_id or show_id in results:
+            if not show_id:
                 continue
 
             show = shows.get(str(show_id), {})
@@ -99,19 +107,22 @@ def fetch_changes(from_ts: int, to_ts: int) -> dict:
             link = change.get("link", "") or ""
             if not link:
                 streaming_options = show.get("streamingOptions", {}).get("us", [])
-                appletv_option = next(
+                apple_option = next(
                     (s for s in streaming_options
-                     if isinstance(s, dict) and s.get("service", {}).get("id") in ("apple",)),
+                     if isinstance(s, dict) and s.get("service", {}).get("id") == "apple"),
                     None
                 )
-                if appletv_option:
-                    link = appletv_option.get("link", "")
+                if apple_option:
+                    link = apple_option.get("link", "")
 
-            results[show_id] = {
-                "show":     show,
-                "added_ts": added_ts,
-                "link":     link,
-            }
+            if show_id not in results:
+                results[show_id] = {"show": show, "added_ts": added_ts, "link": link}
+            else:
+                # Keep earliest timestamp — represents when the show first appeared
+                if added_ts and added_ts < results[show_id]["added_ts"]:
+                    results[show_id]["added_ts"] = added_ts
+                if link and not results[show_id]["link"]:
+                    results[show_id]["link"] = link
 
         if not has_more or not cursor:
             break
@@ -162,14 +173,32 @@ def main():
     from_ts = int(thirty_days_ago.replace(hour=0, minute=0, second=0, microsecond=0).timestamp())
     to_ts   = int(today.replace(hour=23, minute=59, second=59, microsecond=0).timestamp())
 
-    print("Fetching new releases...")
-    matched = fetch_changes(from_ts, to_ts)
-    print(f"  Total new: {len(matched)}")
+    # Fetch both show-level and season-level new additions, merge by showId
+    print("Fetching new releases (item_type=show)...")
+    matched = fetch_changes("show", from_ts, to_ts)
+    print(f"  Subtotal: {len(matched)}")
+
+    print("Fetching new releases (item_type=season)...")
+    season_results = fetch_changes("season", from_ts, to_ts)
+    print(f"  Subtotal: {len(season_results)}")
+
+    # Merge season results in — adds any showIds not already captured,
+    # and updates timestamps to earliest seen
+    for show_id, entry in season_results.items():
+        if show_id not in matched:
+            matched[show_id] = entry
+        else:
+            if entry["added_ts"] and entry["added_ts"] < matched[show_id]["added_ts"]:
+                matched[show_id]["added_ts"] = entry["added_ts"]
+            if entry["link"] and not matched[show_id]["link"]:
+                matched[show_id]["link"] = entry["link"]
+
+    print(f"  Total unique shows after merge: {len(matched)}")
 
     shows = [build_show(sid, entry) for sid, entry in matched.items()]
 
-    # Deduplicate by normalised title — Disney+ can surface the same title
-    # under different show IDs (e.g. re-listed specials, regional variants).
+    # Deduplicate by normalised title — catches any same-title variants
+    # across different show IDs
     seen_titles: set = set()
     deduped = []
     for show in shows:
