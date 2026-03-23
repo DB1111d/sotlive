@@ -1,6 +1,6 @@
 {
-  "updated": "2026-03-22T23:51:26Z",
-  "date": "2026-03-22",
+  "updated": "2026-03-23T02:01:57Z",
+  "date": "2026-03-23",
   "matches": [
     {
       "home": "San Diego FC",
@@ -19,6 +19,32 @@
           "videoEmbed": "https://streamain.com/16CBQSKZA9oRCvj/watch",
           "directMp4": null,
           "postedAt": 1774223071000
+        },
+        {
+          "postId": "1s11j3u",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s11j3u",
+          "scorer": "Marcus Ingvartsen",
+          "minute": 27,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/MhqZILmbp2zXXWR/watch",
+          "videoEmbed": "https://streamain.com/MhqZILmbp2zXXWR/watch",
+          "directMp4": null,
+          "postedAt": 1774224002000
+        },
+        {
+          "postId": "1s12fpu",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s12fpu",
+          "scorer": "Anders Dreyer",
+          "minute": 56,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/8X8SdQ39XBToy8F/watch",
+          "videoEmbed": "https://streamain.com/8X8SdQ39XBToy8F/watch",
+          "directMp4": null,
+          "postedAt": 1774226422000
         }
       ]
     },
@@ -39,6 +65,19 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/aoxxdw3nmoqg1/CMAF_1080.mp4?source=fallback",
           "postedAt": 1774222615000
+        },
+        {
+          "postId": "1s11du7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s11du7",
+          "scorer": "Yuri Alberto",
+          "minute": 19,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/lxvsfl7kpoqg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/lxvsfl7kpoqg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1774223616000
         }
       ]
     },
@@ -1901,7 +1940,8 @@
           "videoUrl": "https://streamin.link/v/da7bdac7",
           "videoEmbed": null,
           "directMp4": null,
-          "postedAt": 1774186370000
+          "postedAt": 1774186370000,
+          "disallowed": true
         },
         {
           "postId": "1s0m3hk",
@@ -1947,7 +1987,8 @@
           "videoUrl": "https://streamin.link/v/da7bdac7",
           "videoEmbed": null,
           "directMp4": null,
-          "postedAt": 1774186370000
+          "postedAt": 1774186370000,
+          "disallowed": true
         },
         {
           "postId": "1s0m3hk",
