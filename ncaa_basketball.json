@@ -1,33 +1,9 @@
 {
-  "updated": "2026-03-22 16:30 EDT",
+  "updated": "2026-03-22 22:26 EDT",
   "days": {
     "20260322": {
       "date": "Sunday, March 22",
       "games": [
-        {
-          "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
-          "time": "2:45 PM",
-          "match": "Iowa State Cyclones vs Kentucky Wildcats",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-22T18:45Z"
-        },
-        {
-          "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
-          "time": "5:15 PM",
-          "match": "Kansas Jayhawks vs St. John's Red Storm",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-22T21:15Z"
-        },
-        {
-          "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
-          "time": "6:10 PM",
-          "match": "Virginia Cavaliers vs Tennessee Volunteers",
-          "source": "TBS / TNT",
-          "kick_utc": "2026-03-22T22:10Z"
-        },
         {
           "conference": "Independent",
           "tourney_round": "NCAA Tournament",
@@ -39,34 +15,26 @@
         {
           "conference": "Independent",
           "tourney_round": "NCAA Tournament",
-          "time": "7:50 PM",
+          "time": "8:11 PM",
           "match": "Arizona Wildcats vs Utah State Aggies",
           "source": "TBS / TNT",
-          "kick_utc": "2026-03-22T23:50Z"
+          "kick_utc": "2026-03-23T00:11Z"
         },
         {
           "conference": "Independent",
           "tourney_round": "NCAA Tournament",
-          "time": "8:45 PM",
+          "time": "9:10 PM",
           "match": "UConn Huskies vs UCLA Bruins",
           "source": "TBS / TNT",
-          "kick_utc": "2026-03-23T00:45Z"
+          "kick_utc": "2026-03-23T01:10Z"
         },
         {
           "conference": "Independent",
           "tourney_round": "NCAA Tournament",
-          "time": "9:45 PM",
+          "time": "10:08 PM",
           "match": "Alabama Crimson Tide vs Texas Tech Red Raiders",
           "source": "TBS / TNT",
-          "kick_utc": "2026-03-23T01:45Z"
-        },
-        {
-          "conference": "Independent",
-          "tourney_round": "NIT",
-          "time": "4:30 PM",
-          "match": "Wake Forest Demon Deacons vs Illinois State Redbirds",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-22T20:30Z"
+          "kick_utc": "2026-03-23T02:08Z"
         },
         {
           "conference": "Independent",
@@ -138,6 +106,14 @@
           "tourney_round": "NCAA Tournament",
           "time": "12:00 AM",
           "match": "Houston Cougars vs Illinois Fighting Illini",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-26T04:00Z"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "12:00 AM",
+          "match": "Nebraska Cornhuskers vs Iowa Hawkeyes",
           "source": "ESPN+",
           "kick_utc": "2026-03-26T04:00Z"
         }

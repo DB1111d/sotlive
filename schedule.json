@@ -1,85 +1,15 @@
 {
-  "updated": "2026-03-22 16:30 EDT",
+  "updated": "2026-03-22 22:26 EDT",
   "days": {
     "20260322": {
       "date": "Sunday, March 22",
       "games": [
         {
           "league": "MLS",
-          "time": "1:00 PM",
-          "match": "FC Cincinnati vs CF Montr\u00e9al",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-22T17:00Z"
-        },
-        {
-          "league": "MLS",
-          "time": "1:00 PM",
-          "match": "New York City FC vs Inter Miami CF",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-22T17:00Z"
-        },
-        {
-          "league": "MLS",
-          "time": "2:30 PM",
-          "match": "Minnesota United FC vs Seattle Sounders FC",
-          "source": "FOX \u00b7 Apple TV",
-          "kick_utc": "2026-03-22T18:30Z"
-        },
-        {
-          "league": "MLS",
-          "time": "4:45 PM",
-          "match": "Portland Timbers vs LA Galaxy",
-          "source": "FOX \u00b7 Apple TV",
-          "kick_utc": "2026-03-22T20:45Z"
-        },
-        {
-          "league": "MLS",
           "time": "7:00 PM",
           "match": "San Diego FC vs Real Salt Lake",
           "source": "Apple TV",
           "kick_utc": "2026-03-22T23:00Z"
-        },
-        {
-          "league": "Serie A",
-          "time": "1:00 PM",
-          "match": "AS Roma vs Lecce",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-22T17:00Z"
-        },
-        {
-          "league": "Serie A",
-          "time": "3:45 PM",
-          "match": "Fiorentina vs Internazionale",
-          "source": "CBS / Paramount+",
-          "kick_utc": "2026-03-22T19:45Z"
-        },
-        {
-          "league": "German Bundesliga",
-          "time": "2:30 PM",
-          "match": "FC Augsburg vs VfB Stuttgart",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-22T18:30Z"
-        },
-        {
-          "league": "La Liga",
-          "time": "1:30 PM",
-          "match": "Athletic Club vs Real Betis",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-22T17:30Z"
-        },
-        {
-          "league": "La Liga",
-          "time": "4:00 PM",
-          "match": "Real Madrid vs Atl\u00e9tico Madrid",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-22T20:00Z"
-        },
-        {
-          "league": "USL League One",
-          "time": "5:00 PM",
-          "match": "Union Omaha vs Athletic Club Boise",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-22T21:00Z"
         }
       ]
     },
