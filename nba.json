@@ -1,0 +1,381 @@
+{
+  "updated": "2026-03-23 13:12 EDT",
+  "days": {
+    "20260323": {
+      "date": "Monday, March 23",
+      "games": [
+        {
+          "group": "Regular Season",
+          "time": "10:00 PM",
+          "match": "Portland Trail Blazers vs Brooklyn Nets",
+          "source": "",
+          "kick_utc": "2026-03-24T02:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "10:30 PM",
+          "match": "LA Clippers vs Milwaukee Bucks",
+          "source": "",
+          "kick_utc": "2026-03-24T02:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:00 PM",
+          "match": "Detroit Pistons vs Los Angeles Lakers",
+          "source": "",
+          "kick_utc": "2026-03-23T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:00 PM",
+          "match": "Orlando Magic vs Indiana Pacers",
+          "source": "",
+          "kick_utc": "2026-03-23T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:00 PM",
+          "match": "Philadelphia 76ers vs Oklahoma City Thunder",
+          "source": "",
+          "kick_utc": "2026-03-23T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:00 PM",
+          "match": "Miami Heat vs San Antonio Spurs",
+          "source": "Peacock",
+          "kick_utc": "2026-03-23T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:30 PM",
+          "match": "Atlanta Hawks vs Memphis Grizzlies",
+          "source": "",
+          "kick_utc": "2026-03-23T23:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "8:00 PM",
+          "match": "Chicago Bulls vs Houston Rockets",
+          "source": "",
+          "kick_utc": "2026-03-24T00:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "9:00 PM",
+          "match": "Utah Jazz vs Toronto Raptors",
+          "source": "",
+          "kick_utc": "2026-03-24T01:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "9:30 PM",
+          "match": "Dallas Mavericks vs Golden State Warriors",
+          "source": "Peacock",
+          "kick_utc": "2026-03-24T01:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png"
+        }
+      ]
+    },
+    "20260324": {
+      "date": "Tuesday, March 24",
+      "games": [
+        {
+          "group": "Regular Season",
+          "time": "11:00 PM",
+          "match": "Phoenix Suns vs Denver Nuggets",
+          "source": "USA Network \u00b7 Peacock",
+          "kick_utc": "2026-03-25T03:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:00 PM",
+          "match": "Charlotte Hornets vs Sacramento Kings",
+          "source": "",
+          "kick_utc": "2026-03-24T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:30 PM",
+          "match": "New York Knicks vs New Orleans Pelicans",
+          "source": "",
+          "kick_utc": "2026-03-24T23:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "8:00 PM",
+          "match": "Cleveland Cavaliers vs Orlando Magic",
+          "source": "USA Network \u00b7 Peacock",
+          "kick_utc": "2026-03-25T00:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png"
+        }
+      ]
+    },
+    "20260325": {
+      "date": "Wednesday, March 25",
+      "games": [
+        {
+          "group": "Regular Season",
+          "time": "10:00 PM",
+          "match": "Denver Nuggets vs Dallas Mavericks",
+          "source": "",
+          "kick_utc": "2026-03-26T02:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "10:00 PM",
+          "match": "Golden State Warriors vs Brooklyn Nets",
+          "source": "",
+          "kick_utc": "2026-03-26T02:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "10:00 PM",
+          "match": "Portland Trail Blazers vs Milwaukee Bucks",
+          "source": "",
+          "kick_utc": "2026-03-26T02:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "10:30 PM",
+          "match": "LA Clippers vs Toronto Raptors",
+          "source": "",
+          "kick_utc": "2026-03-26T02:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:00 PM",
+          "match": "Detroit Pistons vs Atlanta Hawks",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-25T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:00 PM",
+          "match": "Indiana Pacers vs Los Angeles Lakers",
+          "source": "",
+          "kick_utc": "2026-03-25T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:00 PM",
+          "match": "Philadelphia 76ers vs Chicago Bulls",
+          "source": "",
+          "kick_utc": "2026-03-25T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:30 PM",
+          "match": "Boston Celtics vs Oklahoma City Thunder",
+          "source": "",
+          "kick_utc": "2026-03-25T23:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:30 PM",
+          "match": "Cleveland Cavaliers vs Miami Heat",
+          "source": "",
+          "kick_utc": "2026-03-25T23:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "8:00 PM",
+          "match": "Memphis Grizzlies vs San Antonio Spurs",
+          "source": "",
+          "kick_utc": "2026-03-26T00:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "9:00 PM",
+          "match": "Utah Jazz vs Washington Wizards",
+          "source": "",
+          "kick_utc": "2026-03-26T01:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "9:30 PM",
+          "match": "Minnesota Timberwolves vs Houston Rockets",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-26T01:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png"
+        }
+      ]
+    },
+    "20260326": {
+      "date": "Thursday, March 26",
+      "games": [
+        {
+          "group": "Regular Season",
+          "time": "7:00 PM",
+          "match": "Charlotte Hornets vs New York Knicks",
+          "source": "NBA TV",
+          "kick_utc": "2026-03-26T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:00 PM",
+          "match": "Detroit Pistons vs New Orleans Pelicans",
+          "source": "",
+          "kick_utc": "2026-03-26T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:00 PM",
+          "match": "Orlando Magic vs Sacramento Kings",
+          "source": "",
+          "kick_utc": "2026-03-26T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png"
+        }
+      ]
+    },
+    "20260327": {
+      "date": "Friday, March 27",
+      "games": [
+        {
+          "group": "Regular Season",
+          "time": "10:00 PM",
+          "match": "Golden State Warriors vs Washington Wizards",
+          "source": "",
+          "kick_utc": "2026-03-28T02:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "10:00 PM",
+          "match": "Portland Trail Blazers vs Dallas Mavericks",
+          "source": "NBA TV",
+          "kick_utc": "2026-03-28T02:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "10:30 PM",
+          "match": "Los Angeles Lakers vs Brooklyn Nets",
+          "source": "",
+          "kick_utc": "2026-03-28T02:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:00 PM",
+          "match": "Indiana Pacers vs LA Clippers",
+          "source": "",
+          "kick_utc": "2026-03-27T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:30 PM",
+          "match": "Boston Celtics vs Atlanta Hawks",
+          "source": "",
+          "kick_utc": "2026-03-27T23:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:30 PM",
+          "match": "Cleveland Cavaliers vs Miami Heat",
+          "source": "NBA TV",
+          "kick_utc": "2026-03-27T23:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "8:00 PM",
+          "match": "Memphis Grizzlies vs Houston Rockets",
+          "source": "",
+          "kick_utc": "2026-03-28T00:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "8:00 PM",
+          "match": "Oklahoma City Thunder vs Chicago Bulls",
+          "source": "NBA TV",
+          "kick_utc": "2026-03-28T00:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "8:30 PM",
+          "match": "Toronto Raptors vs New Orleans Pelicans",
+          "source": "",
+          "kick_utc": "2026-03-28T00:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "9:00 PM",
+          "match": "Denver Nuggets vs Utah Jazz",
+          "source": "",
+          "kick_utc": "2026-03-28T01:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png"
+        }
+      ]
+    }
+  }
+}

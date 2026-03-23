@@ -1,0 +1,327 @@
+{
+  "updated": "2026-03-23 13:12 EDT",
+  "days": {
+    "20260323": {
+      "date": "Monday, March 23",
+      "games": [
+        {
+          "group": "Regular Season",
+          "time": "7:30 PM",
+          "match": "New York Rangers vs Ottawa Senators",
+          "source": "NHL Network",
+          "kick_utc": "2026-03-23T23:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyr.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ott.png"
+        }
+      ]
+    },
+    "20260324": {
+      "date": "Tuesday, March 24",
+      "games": [
+        {
+          "group": "Regular Season",
+          "time": "10:00 PM",
+          "match": "Vancouver Canucks vs Anaheim Ducks",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-25T02:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/van.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ana.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:00 PM",
+          "match": "Boston Bruins vs Toronto Maple Leafs",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-24T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/bos.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:00 PM",
+          "match": "Montreal Canadiens vs Carolina Hurricanes",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-24T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/mtl.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/car.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:00 PM",
+          "match": "Detroit Red Wings vs Ottawa Senators",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-24T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/det.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ott.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:00 PM",
+          "match": "Florida Panthers vs Seattle Kraken",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-24T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/fla.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sea.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:00 PM",
+          "match": "New York Islanders vs Chicago Blackhawks",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-24T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyi.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/chi.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:00 PM",
+          "match": "Philadelphia Flyers vs Columbus Blue Jackets",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-24T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/phi.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cbj.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:00 PM",
+          "match": "Pittsburgh Penguins vs Colorado Avalanche",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-24T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/pit.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/col.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:30 PM",
+          "match": "Tampa Bay Lightning vs Minnesota Wild",
+          "source": "TBS / TNT",
+          "kick_utc": "2026-03-24T23:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tb.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/min.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "8:00 PM",
+          "match": "St. Louis Blues vs Washington Capitals",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-25T00:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/stl.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wsh.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "8:00 PM",
+          "match": "Nashville Predators vs San Jose Sharks",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-25T00:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nsh.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sj.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "8:00 PM",
+          "match": "Dallas Stars vs New Jersey Devils",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-25T00:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/dal.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nj.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "8:00 PM",
+          "match": "Winnipeg Jets vs Vegas Golden Knights",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-25T00:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wpg.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/vgk.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "9:00 PM",
+          "match": "Calgary Flames vs Los Angeles Kings",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-25T01:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cgy.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/la.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "9:30 PM",
+          "match": "Utah Mammoth vs Edmonton Oilers",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-25T01:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/uta.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/edm.png"
+        }
+      ]
+    },
+    "20260325": {
+      "date": "Wednesday, March 25",
+      "games": [
+        {
+          "group": "Regular Season",
+          "time": "7:30 PM",
+          "match": "Buffalo Sabres vs Boston Bruins",
+          "source": "TBS / TNT",
+          "kick_utc": "2026-03-25T23:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/buf.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/bos.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:30 PM",
+          "match": "Toronto Maple Leafs vs New York Rangers",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-25T23:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyr.png"
+        }
+      ]
+    },
+    "20260326": {
+      "date": "Thursday, March 26",
+      "games": [
+        {
+          "group": "Regular Season",
+          "time": "10:00 PM",
+          "match": "Vancouver Canucks vs Los Angeles Kings",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-27T02:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/van.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/la.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:00 PM",
+          "match": "Montreal Canadiens vs Columbus Blue Jackets",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-26T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/mtl.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cbj.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:00 PM",
+          "match": "Ottawa Senators vs Pittsburgh Penguins",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-26T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ott.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/pit.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:00 PM",
+          "match": "Tampa Bay Lightning vs Seattle Kraken",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-26T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tb.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sea.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:00 PM",
+          "match": "Florida Panthers vs Minnesota Wild",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-26T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/fla.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/min.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:00 PM",
+          "match": "New York Islanders vs Dallas Stars",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-26T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyi.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/dal.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:00 PM",
+          "match": "Philadelphia Flyers vs Chicago Blackhawks",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-26T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/phi.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/chi.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "8:00 PM",
+          "match": "St. Louis Blues vs San Jose Sharks",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-27T00:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/stl.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sj.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "8:00 PM",
+          "match": "Nashville Predators vs New Jersey Devils",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-27T00:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nsh.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nj.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "8:00 PM",
+          "match": "Winnipeg Jets vs Colorado Avalanche",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-27T00:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wpg.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/col.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "9:00 PM",
+          "match": "Utah Mammoth vs Washington Capitals",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-27T01:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/uta.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wsh.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "9:00 PM",
+          "match": "Calgary Flames vs Anaheim Ducks",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-27T01:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cgy.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ana.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "9:30 PM",
+          "match": "Vegas Golden Knights vs Edmonton Oilers",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-27T01:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/vgk.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/edm.png"
+        }
+      ]
+    },
+    "20260327": {
+      "date": "Friday, March 27",
+      "games": [
+        {
+          "group": "Regular Season",
+          "time": "7:00 PM",
+          "match": "Buffalo Sabres vs Detroit Red Wings",
+          "source": "NHL Network",
+          "kick_utc": "2026-03-27T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/buf.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/det.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:00 PM",
+          "match": "New York Rangers vs Chicago Blackhawks",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-27T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyr.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/chi.png"
+        }
+      ]
+    }
+  }
+}
