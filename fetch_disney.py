@@ -207,13 +207,22 @@ def main():
     matched = fetch_changes(from_ts, to_ts)
     print(f"  Total new (raw): {len(matched)}")
 
-    # Debug: print streaming option structure for first 3 shows
-    print("  DEBUG sample:")
-    for i, (sid, entry) in enumerate(list(matched.items())[:3]):
+    # Debug: show availableSince date distribution across all results
+    print("  DEBUG availableSince distribution:")
+    from collections import Counter
+    from datetime import datetime
+    from zoneinfo import ZoneInfo
+    TZ = ZoneInfo("America/New_York")
+    date_counts = Counter()
+    for sid, entry in matched.items():
         opts = entry["show"].get("streamingOptions", {}).get("us", [])
-        disney_opts = [o for o in opts if isinstance(o, dict) and o.get("service", {}).get("id") == "disney"]
-        for o in disney_opts:
-            print(f"    [{i}] addedAt={o.get('addedAt')} availableSince={o.get('availableSince')} keys={list(o.keys())}")
+        for o in opts:
+            if isinstance(o, dict) and o.get("service", {}).get("id") == "disney":
+                ts = o.get("availableSince")
+                if ts:
+                    date_counts[datetime.fromtimestamp(ts, tz=TZ).strftime("%Y-%m-%d")] += 1
+    for date, count in sorted(date_counts.items()):
+        print(f"    {date}: {count} shows")
 
     # Filter: only keep shows where the Disney streaming option's
     # addedAt timestamp falls within the window — removes bulk re-uploads
