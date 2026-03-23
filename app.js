@@ -106,6 +106,7 @@ const BADGE_MAP = {
   'NBA TV':           { cls: 'source-espn',    label: 'NBA TV' },
   'NHL Network':      { cls: 'source-espn',    label: 'NHL Network' },
   'MLB Network':      { cls: 'source-espn',    label: 'MLB Network' },
+  'Netflix':          { cls: 'source-netflix',  label: 'Netflix' },
 };
 
 function buildMatchHtml(g) {
