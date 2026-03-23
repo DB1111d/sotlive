@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-23 04:44 EDT",
+  "updated": "2026-03-23 09:25 EDT",
   "week_label": "February 21 \u2013 March 23, 2026",
   "groups": {
     "TV Series": [
@@ -452,6 +452,20 @@
       }
     ],
     "Movies": [
+      {
+        "type": "movie",
+        "title": "Anatomy of a Fall",
+        "overview": "When Samuel is found dead, the police question if he was murdered or if he committed suicide and his wife Sandra becomes the main suspect. The investigation leads to an unsettling journey into the depths of their conflicted relationship.",
+        "genres": [
+          "Crime",
+          "Mystery"
+        ],
+        "added_date": "March 23",
+        "added_ts": 1774268668,
+        "link": "https://www.netflix.com/title/81713297/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/2699658/poster/vertical/en/240.jpg?Expires=1800340592&Signature=IZKb~npARVog3wEc1VlznPZHRNjXmL6htZ7d~n3vFak28Ags9AwCq0QNa4PYItLHYYBTSaCv7mxBNMobGMitguyaXtWzWUQJ-zy6VYEHBEuOWA2HK8thzuhhObQkQ-~uoG1woD5bgPQimuJ-kh9X3kxSkyvK0AzCihgEqk4fuHLOIxkLmeX0~5y92kJin80xwjnwoXrL7to4c77wPs9Aa6dp6Oupg80PYyc77~Ch9Q4Ocq9zhTW-5azVcAmhfWN~A02QiV4f9h546AMcLeaU0FIR9QkU5RiL-wC9Kgr40IXNL2i6DovUbof-9WSaCRiJ9SQdK~Afuz1DNe1gHosijw__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 75
+      },
       {
         "type": "movie",
         "title": "BTS THE COMEBACK LIVE | ARIRANG",
