@@ -44,13 +44,12 @@ def api_request(path: str, params: dict) -> dict:
         return json.loads(resp.read().decode("utf-8"))
 
 
-def fetch_changes(change_type: str, from_ts: int, to_ts: int) -> dict:
+def fetch_changes(from_ts: int, to_ts: int) -> dict:
     """
-    Fetch all changes of a given type for Disney+ within the time window.
-    Returns dict of showId -> {show, added_ts, change_ts, link}.
-    change_ts = the API change event timestamp (when the API detected it).
-    added_ts  = availableSince from the streaming option (when it went live).
-    If a showId appears multiple times, keeps the earliest timestamps.
+    Fetch all change_type=new entries for Disney+ within the time window.
+    Returns dict of showId -> {show, added_ts, link}.
+    added_ts = availableSince from the streaming option (when it went live).
+    If a showId appears multiple times, keeps the earliest timestamp.
     """
     if not API_KEY:
         print("ERROR: RAPIDAPI_KEY environment variable not set.")
@@ -63,7 +62,7 @@ def fetch_changes(change_type: str, from_ts: int, to_ts: int) -> dict:
         params = {
             "country":         "us",
             "catalogs":        "disney",
-            "change_type":     change_type,
+            "change_type":     "new",
             "item_type":       "show",
             "order_direction": "desc",
             "from":            from_ts,
@@ -96,7 +95,7 @@ def fetch_changes(change_type: str, from_ts: int, to_ts: int) -> dict:
         has_more = data.get("hasMore", False)
         cursor   = data.get("nextCursor", None)
 
-        print(f"  [disney/{change_type}] got {len(changes)} changes (hasMore={has_more})")
+        print(f"  [disney/new] got {len(changes)} changes (hasMore={has_more})")
 
         for change in changes:
             show_id = change.get("showId")
@@ -190,24 +189,34 @@ def main():
     to_ts   = int(today.replace(hour=23, minute=59, second=59, microsecond=0).timestamp())
 
     print("Fetching new releases...")
-    new_shows = fetch_changes("new", from_ts, to_ts)
+    new_shows = fetch_changes(from_ts, to_ts)
     print(f"  Total new: {len(new_shows)}")
 
-    # Fetch upcoming with a 90-day lookback — upcoming announcements are filed
-    # before the release date so they may predate the 30-day window.
-    # Disney only files upcoming for originals, never for catalogue dumps,
-    # so the intersection cleanly isolates genuine new content.
-    ninety_days_ago = today - timedelta(days=90)
-    upcoming_from_ts = int(ninety_days_ago.replace(hour=0, minute=0, second=0, microsecond=0).timestamp())
-    print("Fetching upcoming announcements (90-day window)...")
-    upcoming_shows = fetch_changes("upcoming", upcoming_from_ts, to_ts)
-    print(f"  Total upcoming: {len(upcoming_shows)}")
+    # Filter out bulk catalogue dumps by counting how many shows share the
+    # same availableSince date. Disney batch-uploads dozens of catalogue titles
+    # on a single day — genuine new releases arrive 1-5 per day at most.
+    from collections import Counter
 
-    matched = {
+    # Step 1: drop anything where availableSince predates the 30-day window
+    in_window = {
         sid: entry for sid, entry in new_shows.items()
-        if sid in upcoming_shows
+        if entry["added_ts"] and entry["added_ts"] >= from_ts
     }
-    print(f"  Matched (genuine new releases): {len(matched)}")
+    print(f"  Total after window filter: {len(in_window)}")
+
+    # Step 2: drop bulk catalogue dump days — Disney uploads dozens of old
+    # titles on a single day. Count shows per availableSince date and discard
+    # any date with more than BULK_THRESHOLD shows.
+    date_counts = Counter()
+    for sid, entry in in_window.items():
+        date_counts[entry["added_ts"] // 86400] += 1
+
+    BULK_THRESHOLD = 6  # days with more than this many releases are catalogue dumps
+    matched = {
+        sid: entry for sid, entry in in_window.items()
+        if date_counts[entry["added_ts"] // 86400] <= BULK_THRESHOLD
+    }
+    print(f"  Total after bulk-day filter (threshold={BULK_THRESHOLD}): {len(matched)}")
 
     shows = [build_show(sid, entry) for sid, entry in matched.items()]
 
