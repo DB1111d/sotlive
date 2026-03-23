@@ -74,38 +74,27 @@
     }
 
     /* ── Sport nav ── */
-    /* ── Desktop sport nav ──
-       LOCKED. DO NOT CHANGE ANYTHING HERE.
-       5 buttons max across, flex wrap, single line text per button.
-       NEVER change: display, flex-wrap, gap, padding, alignment, or button structure. ── */
+    /* Desktop: grid, max 5 columns across, wraps after 5. */
     .sport-nav {
       max-width: 780px;
       margin: 0 auto;
       padding: 10px 24px 4px;
-      display: flex;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: repeat(5, max-content);
       gap: 14px 20px;
       align-items: center;
     }
 
-    /* ── Mobile sport nav — SPACING ONLY. Do NOT change font sizes, display, or button styles. ── */
+    /* Mobile: 3 buttons per row. */
     .sport-label-br { display: none; }
 
-    /* ── Mobile sport nav ──
-       LOCKED. DO NOT CHANGE ANYTHING HERE.
-       3 buttons per row via grid. Spacing, emoji, text layout are perfect.
-       NEVER change: display, grid-template-columns, font, emoji alignment, or button structure. ── */
     @media (max-width: 500px) {
       .sport-nav {
-        display: grid;
         grid-template-columns: repeat(3, max-content);
         gap: 10px 16px;
         padding-left: 16px;
         padding-right: 16px;
       }
-      .sport-label-br { display: block; }
-    }
-    @media (max-width: 500px) {
       .sport-label-br { display: block; }
     }
 
@@ -815,6 +804,12 @@
     </button>
     <button class="sport-btn" id="sport-prime" onclick="switchSport('prime')">
       <span class="sport-icon">📦</span><span class="sport-label">Prime<span class="sport-label-br"></span> Video</span>
+    </button>
+    <button class="sport-btn" id="sport-disney" onclick="switchSport('disney')">
+      <span class="sport-icon">🏰</span><span class="sport-label">Disney+</span>
+    </button>
+    <button class="sport-btn" id="sport-appletv" onclick="switchSport('appletv')">
+      <span class="sport-icon">🍎</span><span class="sport-label">AppleTV+</span>
     </button>
   </div>
 

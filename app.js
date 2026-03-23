@@ -453,8 +453,8 @@ async function switchSport(sport) {
   resetLeagueFilter();
 
   // Netflix and HBO Max share the same tile layout — no day tabs
-  if (sport === 'netflix' || sport === 'hbo' || sport === 'prime') {
-    const jsonFile = sport === 'hbo' ? 'hbo.json' : sport === 'prime' ? 'prime.json' : 'netflix.json';
+  if (sport === 'netflix' || sport === 'hbo' || sport === 'prime' || sport === 'disney' || sport === 'appletv') {
+    const jsonFile = sport === 'hbo' ? 'hbo.json' : sport === 'prime' ? 'prime.json' : sport === 'disney' ? 'disney.json' : sport === 'appletv' ? 'appletv.json' : 'netflix.json';
     let data;
     try {
       const res = await fetch(jsonFile + '?v=' + Math.floor(Date.now() / 3600000));
@@ -470,7 +470,7 @@ async function switchSport(sport) {
 
     if (groupNames.length === 0) {
       contentEl.innerHTML =
-        `<div class="empty"><div class="empty-icon">${sport === 'hbo' ? '📼' : sport === 'prime' ? '📦' : '🎬'}</div>No new releases this month.</div>`;
+        `<div class="empty"><div class="empty-icon">${sport === 'hbo' ? '📼' : sport === 'prime' ? '📦' : sport === 'disney' ? '✨' : sport === 'appletv' ? '🍎' : '🎬'}</div>No new releases this month.</div>`;
       const aboutBtn = document.createElement('button');
       aboutBtn.className = 'tab';
       aboutBtn.id = 'about-tab';
@@ -496,7 +496,7 @@ async function switchSport(sport) {
         : '';
       const posterEl = show.thumbnail
         ? `<img class="netflix-poster" src="${show.thumbnail}" alt="${show.title}" loading="lazy" decoding="async" width="140" height="210">`
-        : `<div class="netflix-poster-placeholder">${sport === 'hbo' ? '📼' : sport === 'prime' ? '📦' : '🎬'}</div>`;
+        : `<div class="netflix-poster-placeholder">${sport === 'hbo' ? '📼' : sport === 'prime' ? '📦' : sport === 'disney' ? '✨' : sport === 'appletv' ? '🍎' : '🎬'}</div>`;
       const cardInner = `
         ${posterEl}
         <div class="netflix-card-body">
