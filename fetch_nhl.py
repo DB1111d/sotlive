@@ -23,9 +23,9 @@ ESPN_NHL_URL = (
 
 # National broadcasters only
 ESPN_SOURCE_MAP = {
-    "ESPN":       "ESPN+",
+    "ESPN":       "ESPN",
+    "ESPN2":      "ESPN2",
     "ESPN+":      "ESPN+",
-    "ESPN2":      "ESPN+",
     "ESPNU":      "ESPN+",
     "ABC":        "ABC / ESPN+",
     "TNT":        "TBS / TNT",
@@ -173,6 +173,10 @@ def fetch_nhl_day(date_str: str) -> list:
                     source_names.append(mapped)
 
             source = " · ".join(source_names) if source_names else ""
+
+            # Skip games with no national broadcaster
+            if not source:
+                continue
 
             games.append({
                 "group":     "Regular Season",

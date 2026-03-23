@@ -33,9 +33,9 @@ ESPN_NCAA_URL = (
 
 # Broadcaster → badge label (mirrors ESPN_SOURCE_MAP in fetch_schedule.py)
 ESPN_SOURCE_MAP = {
-    "ESPN":               "ESPN+",
+    "ESPN":               "ESPN",
+    "ESPN2":              "ESPN2",
     "ESPN+":              "ESPN+",
-    "ESPN2":              "ESPN+",
     "ESPNU":              "ESPN+",
     "ESPNEWS":            "ESPN+",
     "CBS":                "CBS / Paramount+",

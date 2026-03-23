@@ -79,6 +79,8 @@ function dedup(games) {
 }
 
 const BADGE_MAP = {
+  'ESPN':             { cls: 'source-espn',    label: 'ESPN' },
+  'ESPN2':            { cls: 'source-espn',    label: 'ESPN2' },
   'ESPN+':            { cls: 'source-espn',    label: 'ESPN+' },
   'CBS / Paramount+': { cls: 'source-cbs',     label: 'CBS / P+' },
   'Peacock':          { cls: 'source-peacock', label: 'Peacock' },
@@ -90,6 +92,8 @@ const BADGE_MAP = {
   'TBS / TNT':        { cls: 'source-cbs',     label: 'TBS / TNT' },
   'ABC / ESPN+':      { cls: 'source-espn',    label: 'ABC / ESPN+' },
   'YouTube':          { cls: 'source-appletv', label: 'YouTube' },
+  'NBA TV':           { cls: 'source-espn',    label: 'NBA TV' },
+  'NHL Network':      { cls: 'source-espn',    label: 'NHL Network' },
 };
 
 function buildMatchHtml(g) {

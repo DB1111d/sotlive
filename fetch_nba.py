@@ -23,9 +23,9 @@ ESPN_NBA_URL = (
 
 # National broadcasters only — regional networks are excluded
 ESPN_SOURCE_MAP = {
-    "ESPN":       "ESPN+",
+    "ESPN":       "ESPN",
+    "ESPN2":      "ESPN2",
     "ESPN+":      "ESPN+",
-    "ESPN2":      "ESPN+",
     "ESPNU":      "ESPN+",
     "ESPNEWS":    "ESPN+",
     "ABC":        "ABC / ESPN+",
@@ -175,6 +175,10 @@ def fetch_nba_day(date_str: str) -> list:
                     source_names.append(mapped)
 
             source = " · ".join(source_names) if source_names else ""
+
+            # Skip games with no national broadcaster
+            if not source:
+                continue
 
             games.append({
                 "group":     "Regular Season",
