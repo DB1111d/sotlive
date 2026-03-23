@@ -207,6 +207,14 @@ def main():
     matched = fetch_changes(from_ts, to_ts)
     print(f"  Total new (raw): {len(matched)}")
 
+    # Debug: print streaming option structure for first 3 shows
+    print("  DEBUG sample:")
+    for i, (sid, entry) in enumerate(list(matched.items())[:3]):
+        opts = entry["show"].get("streamingOptions", {}).get("us", [])
+        disney_opts = [o for o in opts if isinstance(o, dict) and o.get("service", {}).get("id") == "disney"]
+        for o in disney_opts:
+            print(f"    [{i}] addedAt={o.get('addedAt')} availableSince={o.get('availableSince')} keys={list(o.keys())}")
+
     # Filter: only keep shows where the Disney streaming option's
     # addedAt timestamp falls within the window — removes bulk re-uploads
     genuine = {
