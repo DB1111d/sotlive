@@ -210,9 +210,6 @@ def main():
     # Debug: show availableSince date distribution across all results
     print("  DEBUG availableSince distribution:")
     from collections import Counter
-    from datetime import datetime
-    from zoneinfo import ZoneInfo
-    TZ = ZoneInfo("America/New_York")
     date_counts = Counter()
     for sid, entry in matched.items():
         opts = entry["show"].get("streamingOptions", {}).get("us", [])
@@ -220,7 +217,7 @@ def main():
             if isinstance(o, dict) and o.get("service", {}).get("id") == "disney":
                 ts = o.get("availableSince")
                 if ts:
-                    date_counts[datetime.fromtimestamp(ts, tz=TZ).strftime("%Y-%m-%d")] += 1
+                    date_counts[datetime.fromtimestamp(ts, tz=TIMEZONE).strftime("%Y-%m-%d")] += 1
     for date, count in sorted(date_counts.items()):
         print(f"    {date}: {count} shows")
 
