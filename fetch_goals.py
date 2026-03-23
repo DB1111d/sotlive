@@ -97,8 +97,9 @@ def find_schedule_match(parsed_home, parsed_away, today_teams):
         sh = game["home_norm"]
         sa = game["away_norm"]
 
-        home_match = (ph in sh or sh in ph)
-        away_match = (pa in sa or sa in pa) or (pa in sh or sh in pa)
+        # Only match if name is long enough to be meaningful (avoids e.g. AZ matching Lazio)
+        home_match = len(ph) >= 4 and (ph in sh or sh in ph)
+        away_match = len(pa) >= 4 and ((pa in sa or sa in pa) or (pa in sh or sh in pa))
 
         if home_match or away_match:
             return game
@@ -144,9 +145,6 @@ def is_own_goal(title):
     ))
 
 def parse_title(title):
-    # Strip invisible Unicode formatting characters (LRM, RLM, zero-width spaces etc)
-    title = re.sub(r'[\u200b-\u200f\u202a-\u202e\u2060-\u2064\ufeff]', '', title)
-
     if re.search(r"red card|yellow card|\bsave\b", title, re.IGNORECASE):
         return None
     # Filter out women's matches — W suffix
@@ -307,13 +305,6 @@ def main():
             else:
                 continue
 
-        # Detect disallowed goals — if new post total score is lower than a stored goal's total,
-        # that stored goal was likely disallowed by VAR
-        new_total = parsed["homeScore"] + parsed["awayScore"]
-        for g in matches[key]["goals"]:
-            if g["homeScore"] + g["awayScore"] > new_total:
-                g["disallowed"] = True
-
         direct_mp4 = None
         secure_media = post.get("secure_media") or {}
         reddit_video = secure_media.get("reddit_video") or {}
@@ -336,6 +327,16 @@ def main():
 
     for key in matches:
         matches[key]["goals"].sort(key=lambda g: (g["homeScore"] + g["awayScore"], g["minute"] or 0))
+
+    # Detect disallowed goals — sort by postedAt, compare consecutive goals.
+    # If home score OR away score drops between posts, the previous goal was disallowed.
+    for key in matches:
+        goals_by_time = sorted(matches[key]["goals"], key=lambda g: g["postedAt"])
+        for i in range(1, len(goals_by_time)):
+            prev = goals_by_time[i - 1]
+            curr = goals_by_time[i]
+            if curr["homeScore"] < prev["homeScore"] or curr["awayScore"] < prev["awayScore"]:
+                prev["disallowed"] = True
 
     match_list = list(matches.values())
     match_list.sort(key=lambda m: max(g["postedAt"] for g in m["goals"]), reverse=True)
