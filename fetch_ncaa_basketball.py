@@ -363,6 +363,8 @@ def fetch_ncaa_day(date_str: str) -> list:
                     "match":         match_title,
                     "source":        "",
                     "kick_utc":      raw_date,
+                    "home_logo":     home.get("team", {}).get("logo", ""),
+                    "away_logo":     away.get("team", {}).get("logo", ""),
                 })
                 continue
 
@@ -407,6 +409,8 @@ def fetch_ncaa_day(date_str: str) -> list:
                 "match":         match_title,
                 "source":        source,
                 "kick_utc":      raw_date,
+                "home_logo":     home.get("team", {}).get("logo", ""),
+                "away_logo":     away.get("team", {}).get("logo", ""),
             })
 
         except Exception as e:

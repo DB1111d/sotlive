@@ -92,6 +92,20 @@ const BADGE_MAP = {
   'YouTube':          { cls: 'source-appletv', label: 'YouTube' },
 };
 
+function buildMatchHtml(g) {
+  const parts = g.match.split(' vs ');
+  const homeName = parts[0] || g.match;
+  const awayName = parts[1] || '';
+  if (!awayName) return `<span class="game-match">${g.match}</span>`;
+  const homeLogo = g.home_logo ? `<img src="${g.home_logo}" class="team-logo" alt="">` : '';
+  const awayLogo = g.away_logo ? `<img src="${g.away_logo}" class="team-logo" alt="">` : '';
+  return `<span class="game-match">
+    <span class="match-team">${homeLogo}<span class="team-name">${homeName}</span></span>
+    <span class="match-vs">vs</span>
+    <span class="match-team">${awayLogo}<span class="team-name">${awayName}</span></span>
+  </span>`;
+}
+
 function sourceBadge(src) {
   if (!src) return `<div class="badge-stack"><span class="source-badge source-postponed">😵</span></div>`;
   const badges = src.split(' · ').map(s => {
@@ -283,20 +297,12 @@ function buildPanel(key, day) {
         const legPart = parts[1] ? `<div class="leg-label">${parts[1]}</div>` : '';
         roundLine = `<div class="round-label">${roundName}</div>${legPart}`;
       }
-      const matchParts = g.match.split(' vs ');
-      const homeName = matchParts[0] || g.match;
-      const awayName = matchParts[1] || '';
-      const homeLogo = g.home_logo ? `<img src="${g.home_logo}" class="team-logo" alt="">` : '';
-      const awayLogo = g.away_logo ? `<img src="${g.away_logo}" class="team-logo" alt="">` : '';
-      const matchHtml = awayName
-        ? `<span class="game-match">${homeLogo}${homeName} <span class="vs-text">vs</span> ${awayLogo}${awayName}</span>`
-        : `<span class="game-match">${g.match}</span>`;
       html += `<div class="game-card" ${utcAttr}>
         <div class="game-card-left">
           ${roundLine}
           <span class="game-time">${displayTime}</span>
         </div>
-        ${matchHtml}
+        ${buildMatchHtml(g)}
         ${sourceBadge(g.source)}
       </div>`;
     }
@@ -341,8 +347,9 @@ function buildNcaaPanel(key, day) {
         <div class="game-card-left">
           <span class="game-time">${displayTime}</span>
         </div>
-        <span class="game-match">${g.match}</span>
+        ${buildMatchHtml(g)}
         ${sourceBadge(g.source)}
+      </div>`;
       </div>`;
     }
     html += `</div>`;
