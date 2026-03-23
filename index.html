@@ -79,8 +79,8 @@
       max-width: 780px;
       margin: 0 auto;
       padding: 10px 24px 4px;
-      display: grid;
-      grid-template-columns: repeat(5, max-content);
+      display: flex;
+      flex-wrap: wrap;
       gap: 14px 20px;
       align-items: center;
     }
@@ -120,6 +120,7 @@
     }
 
     .sport-btn:hover { color: var(--text); }
+    .sport-btn:focus { outline: none; }
 
     .sport-btn.active {
       color: #000;
