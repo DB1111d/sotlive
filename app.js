@@ -123,13 +123,21 @@ function buildMatchHtml(g) {
 
 function sourceBadge(src) {
   if (!src) return `<div class="badge-stack"><span class="source-badge source-postponed">😵</span></div>`;
+
+  const SPECIAL_BADGES = {
+    'NBCSN': `<span class="source-badge" data-label="NBCSN" style="background:#6a0dad;font-weight:700;"><span style="color:#add8e6">N</span><span style="color:#add8e6">B</span><span style="color:#add8e6">C</span><span style="color:#90ee90">S</span><span style="color:#006400">N</span></span>`,
+    'Peacock': `<span class="source-badge" data-label="Peacock" style="background:#6a0dad;font-weight:700;"><span style="color:#ff4444">P</span><span style="color:#ff8c00">e</span><span style="color:#ffd700">a</span><span style="color:#fff">cock</span></span>`,
+  };
+
   const badges = src.split(' · ')
     .sort((a, b) => a.trim().length - b.trim().length)
     .map(s => {
-    const b = BADGE_MAP[s.trim()];
-    if (b) return `<span class="source-badge ${b.cls}" data-label="${b.label}">${b.label}</span>`;
-    return `<span class="source-badge source-appletv" data-label="${s.trim()}">${s.trim()}</span>`;
-  }).join('');
+      const label = s.trim();
+      if (SPECIAL_BADGES[label]) return SPECIAL_BADGES[label];
+      const b = BADGE_MAP[label];
+      if (b) return `<span class="source-badge ${b.cls}" data-label="${b.label}">${b.label}</span>`;
+      return `<span class="source-badge source-appletv" data-label="${label}">${label}</span>`;
+    }).join('');
   return `<div class="badge-stack">${badges}</div>`;
 }
 
