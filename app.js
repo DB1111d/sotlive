@@ -350,7 +350,6 @@ function buildNcaaPanel(key, day) {
         ${buildMatchHtml(g)}
         ${sourceBadge(g.source)}
       </div>`;
-      </div>`;
     }
     html += `</div>`;
   }
