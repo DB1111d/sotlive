@@ -96,6 +96,7 @@ const BADGE_MAP = {
   'truTV':            { cls: 'source-cbs',     label: 'truTV' },
   'Peacock':          { cls: 'source-peacock', label: 'Peacock' },
   'NBC':              { cls: 'source-usa',     label: 'NBC' },
+  'NBCSN':            { cls: 'source-usa',     label: 'NBCSN' },
   'USA Network':      { cls: 'source-usa',     label: 'USA Network' },
   'FOX':              { cls: 'source-fox',     label: 'FOX' },
   'FS1':              { cls: 'source-fox',     label: 'FS1' },
@@ -123,7 +124,7 @@ function buildMatchHtml(g) {
 function sourceBadge(src) {
   if (!src) return `<div class="badge-stack"><span class="source-badge source-postponed">😵</span></div>`;
   const badges = src.split(' · ')
-    .sort((a, b) => b.trim().length - a.trim().length)
+    .sort((a, b) => a.trim().length - b.trim().length)
     .map(s => {
     const b = BADGE_MAP[s.trim()];
     if (b) return `<span class="source-badge ${b.cls}" data-label="${b.label}">${b.label}</span>`;

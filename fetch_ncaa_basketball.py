@@ -53,7 +53,7 @@ ESPN_SOURCE_MAP = {
     "Peacock":                 "Peacock",
     "NBC":                     "NBC",
     "USA Net":                 "USA Network",
-    "NBCSN":                   "NBC",
+    "NBCSN":                   "NBCSN",
     "FOX":                     "FOX",
     "FS1":                     "FS1",
     "FS2":                     "FS2",
