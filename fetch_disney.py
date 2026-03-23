@@ -23,10 +23,6 @@ TIMEZONE = ZoneInfo("America/New_York")
 API_HOST = "streaming-availability.p.rapidapi.com"
 API_KEY  = os.environ.get("RAPIDAPI_KEY", "")
 
-# Max seconds between availableSince and the change timestamp
-# to consider content genuinely new (3 days)
-NEW_THRESHOLD_SECS = 3 * 24 * 60 * 60
-
 TYPE_ORDER = ["series", "movie", "documentary", "short_film", "special"]
 TYPE_LABELS = {
     "series":      "TV Series",
@@ -48,9 +44,9 @@ def api_request(path: str, params: dict) -> dict:
         return json.loads(resp.read().decode("utf-8"))
 
 
-def fetch_changes(from_ts: int, to_ts: int) -> dict:
+def fetch_changes(change_type: str, from_ts: int, to_ts: int) -> dict:
     """
-    Fetch all change_type=new entries for Disney+ within the time window.
+    Fetch all changes of a given type for Disney+ within the time window.
     Returns dict of showId -> {show, added_ts, change_ts, link}.
     change_ts = the API change event timestamp (when the API detected it).
     added_ts  = availableSince from the streaming option (when it went live).
@@ -67,7 +63,7 @@ def fetch_changes(from_ts: int, to_ts: int) -> dict:
         params = {
             "country":         "us",
             "catalogs":        "disney",
-            "change_type":     "new",
+            "change_type":     change_type,
             "item_type":       "show",
             "order_direction": "desc",
             "from":            from_ts,
@@ -100,7 +96,7 @@ def fetch_changes(from_ts: int, to_ts: int) -> dict:
         has_more = data.get("hasMore", False)
         cursor   = data.get("nextCursor", None)
 
-        print(f"  [disney/new] got {len(changes)} changes (hasMore={has_more})")
+        print(f"  [disney/{change_type}] got {len(changes)} changes (hasMore={has_more})")
 
         for change in changes:
             show_id = change.get("showId")
@@ -150,24 +146,6 @@ def fetch_changes(from_ts: int, to_ts: int) -> dict:
     return results
 
 
-def is_genuinely_new(entry: dict) -> bool:
-    """
-    Returns True if availableSince is within NEW_THRESHOLD_SECS of the
-    change timestamp — meaning the API detected it as new close to when
-    it actually went live. Re-catalogued content has an availableSince
-    much older than the change event.
-    Falls back to True if availableSince is not available.
-    """
-    available_since = entry.get("added_ts")
-    change_ts       = entry.get("change_ts")
-
-    if not available_since or not change_ts:
-        return True  # no data to filter on, keep it
-
-    diff = abs(change_ts - available_since)
-    return diff <= NEW_THRESHOLD_SECS
-
-
 def build_show(show_id: str, entry: dict) -> dict:
     show     = entry["show"]
     added_ts = entry["added_ts"]
@@ -212,17 +190,26 @@ def main():
     to_ts   = int(today.replace(hour=23, minute=59, second=59, microsecond=0).timestamp())
 
     print("Fetching new releases...")
-    matched = fetch_changes(from_ts, to_ts)
-    print(f"  Total new (raw): {len(matched)}")
+    new_shows = fetch_changes("new", from_ts, to_ts)
+    print(f"  Total new: {len(new_shows)}")
 
-    # Filter: only keep shows where availableSince is close to the change event
-    genuine = {
-        sid: entry for sid, entry in matched.items()
-        if is_genuinely_new(entry)
+    # Fetch upcoming with a 90-day lookback — upcoming announcements are filed
+    # before the release date so they may predate the 30-day window.
+    # Disney only files upcoming for originals, never for catalogue dumps,
+    # so the intersection cleanly isolates genuine new content.
+    ninety_days_ago = today - timedelta(days=90)
+    upcoming_from_ts = int(ninety_days_ago.replace(hour=0, minute=0, second=0, microsecond=0).timestamp())
+    print("Fetching upcoming announcements (90-day window)...")
+    upcoming_shows = fetch_changes("upcoming", upcoming_from_ts, to_ts)
+    print(f"  Total upcoming: {len(upcoming_shows)}")
+
+    matched = {
+        sid: entry for sid, entry in new_shows.items()
+        if sid in upcoming_shows
     }
-    print(f"  Total new (after proximity filter): {len(genuine)}")
+    print(f"  Matched (genuine new releases): {len(matched)}")
 
-    shows = [build_show(sid, entry) for sid, entry in genuine.items()]
+    shows = [build_show(sid, entry) for sid, entry in matched.items()]
 
     # Deduplicate by normalised title
     seen_titles: set = set()
