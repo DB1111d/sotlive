@@ -139,8 +139,13 @@ def fetch_mlb_day(date_str: str) -> list:
         print(f"    API error for MLB on {date_str}: {e}")
         return []
 
-    # Detect season type from top-level season object
-    season_type = data.get("season", {}).get("type", 2)
+    # Detect season type — data.season is absent when ?dates= is used, use leagues instead
+    season_type = (
+        data.get("leagues", [{}])[0]
+            .get("season", {})
+            .get("type", {})
+            .get("type", 2)
+    )
     group_label = SEASON_TYPE_MAP.get(season_type, "Regular Season")
 
     games = []
