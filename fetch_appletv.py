@@ -1,7 +1,7 @@
 """
-fetch_disney.py
-Fetches Disney+ US new releases for the last 30 days.
-Writes output to disney.json grouped by type, sorted newest first.
+fetch_appletv.py
+Fetches Apple TV+ US new releases for the last 30 days.
+Writes output to appletv.json grouped by type, sorted newest first.
 Runs as part of the Netflix GitHub Actions job (combined to save API quota).
 """
 
@@ -49,7 +49,7 @@ def fetch_changes(from_ts: int, to_ts: int) -> dict:
     while True:
         params = {
             "country":         "us",
-            "catalogs":        "disney",
+            "catalogs":        "apple",
             "change_type":     "new",
             "item_type":       "show",
             "order_direction": "desc",
@@ -83,7 +83,7 @@ def fetch_changes(from_ts: int, to_ts: int) -> dict:
         has_more = data.get("hasMore", False)
         cursor   = data.get("nextCursor", None)
 
-        print(f"  [disney/new] got {len(changes)} changes (hasMore={has_more})")
+        print(f"  [appletv/new] got {len(changes)} changes (hasMore={has_more})")
 
         for change in changes:
             show_id = change.get("showId")
@@ -99,13 +99,13 @@ def fetch_changes(from_ts: int, to_ts: int) -> dict:
             link = change.get("link", "") or ""
             if not link:
                 streaming_options = show.get("streamingOptions", {}).get("us", [])
-                disney_option = next(
+                appletv_option = next(
                     (s for s in streaming_options
-                     if isinstance(s, dict) and s.get("service", {}).get("id") in ("disney",)),
+                     if isinstance(s, dict) and s.get("service", {}).get("id") in ("apple",)),
                     None
                 )
-                if disney_option:
-                    link = disney_option.get("link", "")
+                if appletv_option:
+                    link = appletv_option.get("link", "")
 
             results[show_id] = {
                 "show":     show,
@@ -157,7 +157,7 @@ def main():
     today = datetime.now(TIMEZONE)
     thirty_days_ago = today - timedelta(days=30)
     label = f"{thirty_days_ago.strftime('%B %-d')} \u2013 {today.strftime('%B %-d, %Y')}"
-    print(f"Fetching Disney+ releases for: {label}")
+    print(f"Fetching Apple TV+ releases for: {label}")
 
     from_ts = int(thirty_days_ago.replace(hour=0, minute=0, second=0, microsecond=0).timestamp())
     to_ts   = int(today.replace(hour=23, minute=59, second=59, microsecond=0).timestamp())
@@ -204,11 +204,11 @@ def main():
         "groups":     ordered_groups,
     }
 
-    with open("disney.json", "w") as f:
+    with open("appletv.json", "w") as f:
         json.dump(output, f, indent=2)
 
     total = sum(len(v) for v in ordered_groups.values())
-    print(f"Done! {total} releases written to disney.json")
+    print(f"Done! {total} releases written to appletv.json")
 
 
 if __name__ == "__main__":
