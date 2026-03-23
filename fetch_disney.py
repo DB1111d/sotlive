@@ -3,12 +3,11 @@ fetch_disney.py
 Fetches Disney+ US new releases for the last 30 days.
 Writes output to disney.json grouped by type, sorted newest first.
 
-Disney+ does not publish change_type=upcoming through this API, so the
-Netflix two-pass intersection approach doesn't work. Instead we fetch
-change_type=new and then validate each result by checking that the
-Disney streaming option's addedAt timestamp falls within the 30-day
-window. This filters out bulk catalogue re-uploads (old content
-re-catalogued) since their addedAt predates the window.
+Disney+ bulk-uploads large library batches, so change_type=new returns
+hundreds of results including old catalogue content. We filter these out
+by comparing the streaming option's availableSince timestamp to the
+change timestamp: if availableSince is within 3 days of the change event,
+the content is genuinely new. If it's older, it's a re-catalogued item.
 Runs as part of the Netflix GitHub Actions job (combined to save API quota).
 """
 
@@ -23,6 +22,10 @@ from zoneinfo import ZoneInfo
 TIMEZONE = ZoneInfo("America/New_York")
 API_HOST = "streaming-availability.p.rapidapi.com"
 API_KEY  = os.environ.get("RAPIDAPI_KEY", "")
+
+# Max seconds between availableSince and the change timestamp
+# to consider content genuinely new (3 days)
+NEW_THRESHOLD_SECS = 3 * 24 * 60 * 60
 
 TYPE_ORDER = ["series", "movie", "documentary", "short_film", "special"]
 TYPE_LABELS = {
@@ -48,8 +51,10 @@ def api_request(path: str, params: dict) -> dict:
 def fetch_changes(from_ts: int, to_ts: int) -> dict:
     """
     Fetch all change_type=new entries for Disney+ within the time window.
-    Returns dict of showId -> {show, added_ts, link}.
-    If a showId appears multiple times, keeps the earliest added_ts.
+    Returns dict of showId -> {show, added_ts, change_ts, link}.
+    change_ts = the API change event timestamp (when the API detected it).
+    added_ts  = availableSince from the streaming option (when it went live).
+    If a showId appears multiple times, keeps the earliest timestamps.
     """
     if not API_KEY:
         print("ERROR: RAPIDAPI_KEY environment variable not set.")
@@ -106,25 +111,36 @@ def fetch_changes(from_ts: int, to_ts: int) -> dict:
             if not show:
                 continue
 
-            added_ts = change.get("timestamp", 0)
+            change_ts = change.get("timestamp", 0)
 
+            # Get availableSince from the Disney streaming option
+            streaming_options = show.get("streamingOptions", {}).get("us", [])
+            disney_option = next(
+                (o for o in streaming_options
+                 if isinstance(o, dict) and o.get("service", {}).get("id") == "disney"),
+                None
+            )
+            available_since = disney_option.get("availableSince") if disney_option else None
             link = change.get("link", "") or ""
-            if not link:
-                streaming_options = show.get("streamingOptions", {}).get("us", [])
-                disney_option = next(
-                    (s for s in streaming_options
-                     if isinstance(s, dict) and s.get("service", {}).get("id") == "disney"),
-                    None
-                )
-                if disney_option:
-                    link = disney_option.get("link", "")
+            if not link and disney_option:
+                link = disney_option.get("link", "")
 
             if show_id not in results:
-                results[show_id] = {"show": show, "added_ts": added_ts, "link": link}
+                results[show_id] = {
+                    "show":       show,
+                    "added_ts":   available_since or change_ts,
+                    "change_ts":  change_ts,
+                    "link":       link,
+                }
             else:
-                # Keep earliest timestamp — represents when the show first appeared
-                if added_ts and added_ts < results[show_id]["added_ts"]:
-                    results[show_id]["added_ts"] = added_ts
+                # Keep earliest timestamps
+                if change_ts and change_ts < results[show_id]["change_ts"]:
+                    results[show_id]["change_ts"] = change_ts
+                if available_since and (
+                    not results[show_id]["added_ts"] or
+                    available_since < results[show_id]["added_ts"]
+                ):
+                    results[show_id]["added_ts"] = available_since
                 if link and not results[show_id]["link"]:
                     results[show_id]["link"] = link
 
@@ -134,30 +150,22 @@ def fetch_changes(from_ts: int, to_ts: int) -> dict:
     return results
 
 
-def is_genuinely_new(show: dict, from_ts: int, to_ts: int) -> bool:
+def is_genuinely_new(entry: dict) -> bool:
     """
-    Validate that the Disney streaming option's addedAt timestamp
-    falls within the 30-day window. This filters out old library
-    content that was bulk re-catalogued — their addedAt predates
-    the window even though the API emits a change_type=new event.
-    Returns True if the show is genuinely new in the window.
+    Returns True if availableSince is within NEW_THRESHOLD_SECS of the
+    change timestamp — meaning the API detected it as new close to when
+    it actually went live. Re-catalogued content has an availableSince
+    much older than the change event.
+    Falls back to True if availableSince is not available.
     """
-    streaming_options = show.get("streamingOptions", {}).get("us", [])
-    for opt in streaming_options:
-        if not isinstance(opt, dict):
-            continue
-        if opt.get("service", {}).get("id") != "disney":
-            continue
-        added_at = opt.get("addedAt")
-        if added_at and from_ts <= added_at <= to_ts:
-            return True
-    # If no addedAt field present, fall back to trusting the change timestamp
-    has_added_at = any(
-        isinstance(opt, dict) and opt.get("service", {}).get("id") == "disney"
-        and opt.get("addedAt") is not None
-        for opt in streaming_options
-    )
-    return not has_added_at
+    available_since = entry.get("added_ts")
+    change_ts       = entry.get("change_ts")
+
+    if not available_since or not change_ts:
+        return True  # no data to filter on, keep it
+
+    diff = abs(change_ts - available_since)
+    return diff <= NEW_THRESHOLD_SECS
 
 
 def build_show(show_id: str, entry: dict) -> dict:
@@ -207,32 +215,16 @@ def main():
     matched = fetch_changes(from_ts, to_ts)
     print(f"  Total new (raw): {len(matched)}")
 
-    # Debug: show availableSince date distribution across all results
-    print("  DEBUG availableSince distribution:")
-    from collections import Counter
-    date_counts = Counter()
-    for sid, entry in matched.items():
-        opts = entry["show"].get("streamingOptions", {}).get("us", [])
-        for o in opts:
-            if isinstance(o, dict) and o.get("service", {}).get("id") == "disney":
-                ts = o.get("availableSince")
-                if ts:
-                    date_counts[datetime.fromtimestamp(ts, tz=TIMEZONE).strftime("%Y-%m-%d")] += 1
-    for date, count in sorted(date_counts.items()):
-        print(f"    {date}: {count} shows")
-
-    # Filter: only keep shows where the Disney streaming option's
-    # addedAt timestamp falls within the window — removes bulk re-uploads
+    # Filter: only keep shows where availableSince is close to the change event
     genuine = {
         sid: entry for sid, entry in matched.items()
-        if is_genuinely_new(entry["show"], from_ts, to_ts)
+        if is_genuinely_new(entry)
     }
-    print(f"  Total new (after addedAt filter): {len(genuine)}")
+    print(f"  Total new (after proximity filter): {len(genuine)}")
 
     shows = [build_show(sid, entry) for sid, entry in genuine.items()]
 
-    # Deduplicate by normalised title — catches same-title variants
-    # across different show IDs (e.g. regional re-listings)
+    # Deduplicate by normalised title
     seen_titles: set = set()
     deduped = []
     for show in shows:
