@@ -97,8 +97,8 @@ function buildMatchHtml(g) {
   const homeName = parts[0] || g.match;
   const awayName = parts[1] || '';
   if (!awayName) return `<span class="game-match">${g.match}</span>`;
-  const homeLogo = g.home_logo ? `<img src="${g.home_logo}" class="team-logo" alt="">` : '';
-  const awayLogo = g.away_logo ? `<img src="${g.away_logo}" class="team-logo" alt="">` : '';
+  const homeLogo = g.home_logo ? `<img src="${g.home_logo}" class="team-logo" alt="">` : '<span class="team-logo-placeholder"></span>';
+  const awayLogo = g.away_logo ? `<img src="${g.away_logo}" class="team-logo" alt="">` : '<span class="team-logo-placeholder"></span>';
   return `<span class="game-match">
     <span class="match-team">${homeLogo}<span class="team-name">${homeName}</span></span>
     <span class="match-vs">vs</span>
