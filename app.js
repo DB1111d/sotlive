@@ -357,6 +357,94 @@ function buildNcaaPanel(key, day) {
   return panel;
 }
 
+// ── Render an NBA day panel ───────────────────────────────────────
+function buildNbaPanel(key, day) {
+  const panel = document.createElement('div');
+  panel.className = 'day-panel nba-panel';
+  panel.id = `nba-panel-${key}`;
+
+  const games = day.games || [];
+  if (games.length === 0) {
+    panel.dataset.empty = 'true';
+    panel.innerHTML = '<div class="empty"><div class="empty-icon">☄️</div>No games scheduled.</div>';
+    return panel;
+  }
+
+  const grouped = {};
+  for (const g of games) {
+    const groupKey = g.group || 'Regular Season';
+    if (!grouped[groupKey]) grouped[groupKey] = [];
+    grouped[groupKey].push(g);
+  }
+
+  panel.dataset.leagues = JSON.stringify(Object.keys(grouped));
+
+  let html = '';
+  for (const [groupName, items] of Object.entries(grouped)) {
+    html += `<div class="league-group"><div class="league-label">${groupName}</div>`;
+    for (const g of items) {
+      const NON_TIMES = new Set(['canceled','cancelled','postponed','suspended','delayed','tbd']);
+      const isNonTime = NON_TIMES.has(g.time.trim().toLowerCase());
+      const displayTime = (!isNonTime && g.kick_utc ? formatTime(g.kick_utc, currentTZ) : null) || g.time;
+      const utcAttr = (!isNonTime && g.kick_utc) ? `data-utc="${g.kick_utc}"` : '';
+      html += `<div class="game-card" ${utcAttr}>
+        <div class="game-card-left">
+          <span class="game-time">${displayTime}</span>
+        </div>
+        ${buildMatchHtml(g)}
+        ${sourceBadge(g.source)}
+      </div>`;
+    }
+    html += `</div>`;
+  }
+  panel.innerHTML = html;
+  return panel;
+}
+
+// ── Render an NHL day panel ───────────────────────────────────────
+function buildNhlPanel(key, day) {
+  const panel = document.createElement('div');
+  panel.className = 'day-panel nhl-panel';
+  panel.id = `nhl-panel-${key}`;
+
+  const games = day.games || [];
+  if (games.length === 0) {
+    panel.dataset.empty = 'true';
+    panel.innerHTML = '<div class="empty"><div class="empty-icon">🏒</div>No games scheduled.</div>';
+    return panel;
+  }
+
+  const grouped = {};
+  for (const g of games) {
+    const groupKey = g.group || 'Regular Season';
+    if (!grouped[groupKey]) grouped[groupKey] = [];
+    grouped[groupKey].push(g);
+  }
+
+  panel.dataset.leagues = JSON.stringify(Object.keys(grouped));
+
+  let html = '';
+  for (const [groupName, items] of Object.entries(grouped)) {
+    html += `<div class="league-group"><div class="league-label">${groupName}</div>`;
+    for (const g of items) {
+      const NON_TIMES = new Set(['canceled','cancelled','postponed','suspended','delayed','tbd']);
+      const isNonTime = NON_TIMES.has(g.time.trim().toLowerCase());
+      const displayTime = (!isNonTime && g.kick_utc ? formatTime(g.kick_utc, currentTZ) : null) || g.time;
+      const utcAttr = (!isNonTime && g.kick_utc) ? `data-utc="${g.kick_utc}"` : '';
+      html += `<div class="game-card" ${utcAttr}>
+        <div class="game-card-left">
+          <span class="game-time">${displayTime}</span>
+        </div>
+        ${buildMatchHtml(g)}
+        ${sourceBadge(g.source)}
+      </div>`;
+    }
+    html += `</div>`;
+  }
+  panel.innerHTML = html;
+  return panel;
+}
+
 // ── Render a Netflix panel ────────────────────────────────────────
 function buildNetflixPanel(data) {
   const panel = document.createElement('div');
@@ -399,7 +487,10 @@ function buildNetflixPanel(data) {
   return panel;
 }
 function switchTab(key) {
-  const prefix = currentSport === 'ncaa' ? 'ncaa-panel' : 'panel';
+  const prefix = currentSport === 'ncaa' ? 'ncaa-panel'
+               : currentSport === 'nba'  ? 'nba-panel'
+               : currentSport === 'nhl'  ? 'nhl-panel'
+               : 'panel';
 
   document.querySelectorAll('.tab').forEach(t => {
     t.classList.toggle('active', t.dataset.key === key);
@@ -652,7 +743,10 @@ async function switchSport(sport) {
   }
 
   // Load the correct JSON for sports
-  const file = sport === 'ncaa' ? 'ncaa_basketball.json' : 'schedule.json';
+  const file = sport === 'ncaa' ? 'ncaa_basketball.json'
+             : sport === 'nba'  ? 'nba.json'
+             : sport === 'nhl'  ? 'nhl.json'
+             : 'schedule.json';
   let data;
   try {
     const res = await fetch(`${file}?v=` + Date.now());
@@ -678,9 +772,10 @@ async function switchSport(sport) {
     btn.addEventListener('click', () => switchTab(key));
     tabsEl.appendChild(btn);
 
-    const panel = sport === 'ncaa'
-      ? buildNcaaPanel(key, day)
-      : buildPanel(key, day);
+    const panel = sport === 'ncaa' ? buildNcaaPanel(key, day)
+                : sport === 'nba'  ? buildNbaPanel(key, day)
+                : sport === 'nhl'  ? buildNhlPanel(key, day)
+                : buildPanel(key, day);
 
     if (firstActive) panel.classList.add('active');
     contentEl.appendChild(panel);
@@ -701,7 +796,10 @@ async function switchSport(sport) {
 
   const firstKey = dateKeys[0];
   if (firstKey) {
-    const prefix = sport === 'ncaa' ? 'ncaa-panel' : 'panel';
+    const prefix = sport === 'ncaa' ? 'ncaa-panel'
+                 : sport === 'nba'  ? 'nba-panel'
+                 : sport === 'nhl'  ? 'nhl-panel'
+                 : 'panel';
     const firstPanel = document.getElementById(`${prefix}-${firstKey}`);
     if (firstPanel && firstPanel.dataset.empty === 'true') {
       hideTzPicker();
@@ -841,17 +939,23 @@ async function init() {
     }
   }
 
-  // Show/hide NCAA Men button based on whether any games exist
-  try {
-    const ncaaRes  = await fetch('ncaa_basketball.json?v=' + Date.now());
-    const ncaaData = await ncaaRes.json();
-    const hasGames = Object.values(ncaaData.days || {}).some(d => d.games && d.games.length > 0);
-    const ncaaBtn  = document.getElementById('sport-ncaa');
-    if (ncaaBtn) ncaaBtn.style.display = hasGames ? '' : 'none';
-  } catch (e) {
-    // If fetch fails just hide the button to be safe
-    const ncaaBtn = document.getElementById('sport-ncaa');
-    if (ncaaBtn) ncaaBtn.style.display = 'none';
+  // Show/hide NCAA Men, NBA, NHL buttons based on whether any games exist
+  const sportChecks = [
+    { id: 'sport-ncaa', file: 'ncaa_basketball.json' },
+    { id: 'sport-nba',  file: 'nba.json' },
+    { id: 'sport-nhl',  file: 'nhl.json' },
+  ];
+  for (const { id, file } of sportChecks) {
+    try {
+      const res  = await fetch(`${file}?v=` + Date.now());
+      const data = await res.json();
+      const hasGames = Object.values(data.days || {}).some(d => d.games && d.games.length > 0);
+      const btn  = document.getElementById(id);
+      if (btn) btn.style.display = hasGames ? '' : 'none';
+    } catch (e) {
+      const btn = document.getElementById(id);
+      if (btn) btn.style.display = 'none';
+    }
   }
 }
 
