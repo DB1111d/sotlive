@@ -1,5 +1,23 @@
 {
-  "updated": "2026-03-23 09:42 EDT",
+  "updated": "2026-03-23 09:52 EDT",
   "week_label": "February 21 \u2013 March 23, 2026",
-  "groups": {}
+  "groups": {
+    "TV Series": [
+      {
+        "type": "series",
+        "title": "Monarch: Legacy of Monsters",
+        "overview": "Cate embarks on an epic adventure to learn the truth about her family\u2014and the mysterious organization known as Monarch.",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Science Fiction"
+        ],
+        "added_date": "February 27",
+        "added_ts": 1772168400,
+        "link": "https://tv.apple.com/us/show/monarch-legacy-of-monsters/umc.cmc.62l8x0ixrhyq3yaqa5y8yo7ew",
+        "thumbnail": "https://cdn.movieofthenight.com/show/5459439/poster/vertical/en/240.jpg?Expires=1805369605&Signature=LpZ18xvR4lE9d18EktYg3urDLOyhELXzRn7Vwrse3VLj7EyxYMVz3MN~JIIVh0AHzHDOu4RJwFXyngWwu1rhjym3d5OGdAM9yeM2WLP4DMcB62yR9Sp-4y007T-ar5XAjhgjn18PIGQ75TCkP1Qvcug053HWhOq5CP52jbCS~3S0KnmcdcU65yAzG4w3Hl60RnJnxafvCtWTvn4WNMZl0kPhV7Wr9psAJTx0joxTjtEjh1kGhjruObCCjwta79ydZOXtOMAZWLq31lH1ljMHovQRA8p44WJCuIQAMwA8w4tYo9hviqewj9jMJQWssD4D7IGtX3Eg0qC0R1yf0RQefg__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 71
+      }
+    ]
+  }
 }
