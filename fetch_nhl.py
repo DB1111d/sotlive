@@ -34,9 +34,15 @@ ESPN_SOURCE_MAP = {
     "TruTV":      "TBS / TNT",
     "NHL Net":    "NHL Network",
     "NHL Network":"NHL Network",
+    "Hulu":       "ESPN+",
+    "HBO Max":    "TBS / TNT",
+    "Max":        "TBS / TNT",
     "Peacock":    "Peacock",
     "NBC":        "USA Network",
     "USA Net":    "USA Network",
+    "Hulu":       "ESPN+",
+    "HBO Max":    "TBS / TNT",
+    "Max":        "TBS / TNT",
 }
 
 # Regional network keywords to exclude

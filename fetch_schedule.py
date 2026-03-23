@@ -58,9 +58,12 @@ ESPN_LEAGUES = {
 # ESPN broadcaster names to map to our badges
 ESPN_SOURCE_MAP = {
     "ESPN+":        "ESPN+",
-    "ESPN":         "ESPN+",
-    "ESPN2":        "ESPN+",
+    "ESPN":         "ESPN",
+    "ESPN2":        "ESPN2",
     "ESPNU":        "ESPN+",
+    "Hulu":         "ESPN+",
+    "HBO Max":      "TBS / TNT",
+    "Max":          "TBS / TNT",
     "Paramount+":   "CBS / Paramount+",
     "CBS":          "CBS / Paramount+",
     "CBS Sports Network": "CBS / Paramount+",
