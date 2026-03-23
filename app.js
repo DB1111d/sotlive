@@ -127,6 +127,8 @@ function sourceBadge(src) {
   const SPECIAL_BADGES = {
     'NBCSN': `<span class="source-badge" data-label="NBCSN" style="background:#6a0dad;font-weight:700;"><span style="color:#add8e6">N</span><span style="color:#add8e6">B</span><span style="color:#add8e6">C</span><span style="color:#90ee90">S</span><span style="color:#006400">N</span></span>`,
     'Peacock': `<span class="source-badge" data-label="Peacock" style="background:#6a0dad;font-weight:700;"><span style="color:#ff4444">P</span><span style="color:#ff8c00">e</span><span style="color:#ffd700">a</span><span style="color:#fff">cock</span></span>`,
+    'NBC': `<span class="source-badge" data-label="NBC" style="background:#6a0dad;font-weight:700;"><span style="color:#ff8c00">N</span><span style="color:#ff0000">B</span><span style="color:#ffd700">C</span></span>`,
+    'USA Network': `<span class="source-badge" data-label="USA Network" style="background:#fff;font-weight:700;border:1px solid #ccc;"><span style="color:#ff0000">U</span><span style="color:#000">S</span><span style="color:#ff0000">A</span><span style="color:#000"> Network</span></span>`,
   };
 
   const badges = src.split(' · ')
