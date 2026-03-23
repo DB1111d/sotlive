@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-23 15:16 EDT",
+  "updated": "2026-03-23 16:28 EDT",
   "days": {
     "20260323": {
       "date": "Monday, March 23",
@@ -29,21 +29,21 @@
       "games": [
         {
           "group": "Regular Season",
-          "time": "11:00 PM",
-          "match": "Phoenix Suns vs Denver Nuggets",
-          "source": "NBC \u00b7 Peacock",
-          "kick_utc": "2026-03-25T03:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png"
-        },
-        {
-          "group": "Regular Season",
           "time": "8:00 PM",
           "match": "Cleveland Cavaliers vs Orlando Magic",
           "source": "NBC \u00b7 Peacock",
           "kick_utc": "2026-03-25T00:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "11:00 PM",
+          "match": "Phoenix Suns vs Denver Nuggets",
+          "source": "NBC \u00b7 Peacock",
+          "kick_utc": "2026-03-25T03:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png"
         }
       ]
     },
@@ -89,15 +89,6 @@
       "games": [
         {
           "group": "Regular Season",
-          "time": "10:00 PM",
-          "match": "Portland Trail Blazers vs Dallas Mavericks",
-          "source": "NBA TV",
-          "kick_utc": "2026-03-28T02:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png"
-        },
-        {
-          "group": "Regular Season",
           "time": "7:30 PM",
           "match": "Cleveland Cavaliers vs Miami Heat",
           "source": "NBA TV",
@@ -113,6 +104,15 @@
           "kick_utc": "2026-03-28T00:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "10:00 PM",
+          "match": "Portland Trail Blazers vs Dallas Mavericks",
+          "source": "NBA TV",
+          "kick_utc": "2026-03-28T02:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png"
         }
       ]
     }
