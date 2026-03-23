@@ -1,18 +1,6 @@
 {
-  "updated": "2026-03-22 22:26 EDT",
+  "updated": "2026-03-23 01:40 EDT",
   "days": {
-    "20260322": {
-      "date": "Sunday, March 22",
-      "games": [
-        {
-          "league": "MLS",
-          "time": "7:00 PM",
-          "match": "San Diego FC vs Real Salt Lake",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-22T23:00Z"
-        }
-      ]
-    },
     "20260323": {
       "date": "Monday, March 23",
       "games": []
@@ -64,6 +52,25 @@
           "match": "Wales vs Bosnia and Herzegovina",
           "source": "FS1",
           "kick_utc": "2026-03-26T19:45Z"
+        }
+      ]
+    },
+    "20260327": {
+      "date": "Friday, March 27",
+      "games": [
+        {
+          "league": "USL League One",
+          "time": "7:00 PM",
+          "match": "One Knoxville vs Richmond Kickers",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-27T23:00Z"
+        },
+        {
+          "league": "USL League One",
+          "time": "7:30 PM",
+          "match": "Charlotte Independence vs Spokane Velocity FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-27T23:30Z"
         }
       ]
     }
