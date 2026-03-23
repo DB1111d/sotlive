@@ -110,8 +110,13 @@
       align-items: center;
       gap: 6px;
       padding: 4px 0;
+      transition: color 0.15s;
+    }
+
+    .sport-btn .sport-label {
       border-bottom: 2px solid transparent;
-      transition: color 0.15s, border-color 0.15s;
+      padding-bottom: 2px;
+      transition: border-color 0.15s;
     }
 
     .sport-btn:hover { color: var(--text); }
@@ -119,6 +124,9 @@
     .sport-btn.active {
       color: #000;
       font-weight: 700;
+    }
+
+    .sport-btn.active .sport-label {
       border-bottom-color: #000;
     }
 

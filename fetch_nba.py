@@ -236,7 +236,7 @@ def main():
         day = schedule[date_str]
         if date_str == today_str:
             day["games"] = prune_today_games(day["games"])
-        day["games"].sort(key=lambda g: g["time"])
+        day["games"].sort(key=lambda g: g.get("kick_utc", g["time"]))
         ordered[date_str] = day
 
     output = {
