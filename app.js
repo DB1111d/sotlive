@@ -105,6 +105,7 @@ const BADGE_MAP = {
   'YouTube':          { cls: 'source-appletv', label: 'YouTube' },
   'NBA TV':           { cls: 'source-espn',    label: 'NBA TV' },
   'NHL Network':      { cls: 'source-espn',    label: 'NHL Network' },
+  'MLB Network':      { cls: 'source-espn',    label: 'MLB Network' },
 };
 
 function buildMatchHtml(g) {
@@ -464,6 +465,50 @@ function buildNhlPanel(key, day) {
   return panel;
 }
 
+// ── Render an MLB day panel ───────────────────────────────────────
+function buildMlbPanel(key, day) {
+  const panel = document.createElement('div');
+  panel.className = 'day-panel mlb-panel';
+  panel.id = `mlb-panel-${key}`;
+
+  const games = day.games || [];
+  if (games.length === 0) {
+    panel.dataset.empty = 'true';
+    panel.innerHTML = '<div class="empty"><div class="empty-icon">⚾</div>No games scheduled.</div>';
+    return panel;
+  }
+
+  const grouped = {};
+  for (const g of games) {
+    const groupKey = g.group || 'Regular Season';
+    if (!grouped[groupKey]) grouped[groupKey] = [];
+    grouped[groupKey].push(g);
+  }
+
+  panel.dataset.leagues = JSON.stringify(Object.keys(grouped));
+
+  let html = '';
+  for (const [groupName, items] of Object.entries(grouped)) {
+    html += `<div class="league-group"><div class="league-label">${groupName}</div>`;
+    for (const g of items) {
+      const NON_TIMES = new Set(['canceled','cancelled','postponed','suspended','delayed','tbd']);
+      const isNonTime = NON_TIMES.has(g.time.trim().toLowerCase());
+      const displayTime = (!isNonTime && g.kick_utc ? formatTime(g.kick_utc, currentTZ) : null) || g.time;
+      const utcAttr = (!isNonTime && g.kick_utc) ? `data-utc="${g.kick_utc}"` : '';
+      html += `<div class="game-card" ${utcAttr}>
+        <div class="game-card-left">
+          <span class="game-time">${displayTime}</span>
+        </div>
+        ${buildMatchHtml(g)}
+        ${sourceBadge(g.source)}
+      </div>`;
+    }
+    html += `</div>`;
+  }
+  panel.innerHTML = html;
+  return panel;
+}
+
 // ── Render a Netflix panel ────────────────────────────────────────
 function buildNetflixPanel(data) {
   const panel = document.createElement('div');
@@ -509,6 +554,7 @@ function switchTab(key) {
   const prefix = currentSport === 'ncaa' ? 'ncaa-panel'
                : currentSport === 'nba'  ? 'nba-panel'
                : currentSport === 'nhl'  ? 'nhl-panel'
+               : currentSport === 'mlb'  ? 'mlb-panel'
                : 'panel';
 
   document.querySelectorAll('.tab').forEach(t => {
@@ -765,6 +811,7 @@ async function switchSport(sport) {
   const file = sport === 'ncaa' ? 'ncaa_basketball.json'
              : sport === 'nba'  ? 'nba.json'
              : sport === 'nhl'  ? 'nhl.json'
+             : sport === 'mlb'  ? 'mlb.json'
              : 'schedule.json';
   let data;
   try {
@@ -794,6 +841,7 @@ async function switchSport(sport) {
     const panel = sport === 'ncaa' ? buildNcaaPanel(key, day)
                 : sport === 'nba'  ? buildNbaPanel(key, day)
                 : sport === 'nhl'  ? buildNhlPanel(key, day)
+                : sport === 'mlb'  ? buildMlbPanel(key, day)
                 : buildPanel(key, day);
 
     if (firstActive) panel.classList.add('active');
@@ -818,6 +866,7 @@ async function switchSport(sport) {
     const prefix = sport === 'ncaa' ? 'ncaa-panel'
                  : sport === 'nba'  ? 'nba-panel'
                  : sport === 'nhl'  ? 'nhl-panel'
+                 : sport === 'mlb'  ? 'mlb-panel'
                  : 'panel';
     const firstPanel = document.getElementById(`${prefix}-${firstKey}`);
     if (firstPanel && firstPanel.dataset.empty === 'true') {
@@ -963,6 +1012,7 @@ async function init() {
     { id: 'sport-ncaa', file: 'ncaa_basketball.json' },
     { id: 'sport-nba',  file: 'nba.json' },
     { id: 'sport-nhl',  file: 'nhl.json' },
+    { id: 'sport-mlb',  file: 'mlb.json' },
   ];
   for (const { id, file } of sportChecks) {
     try {
