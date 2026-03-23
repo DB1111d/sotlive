@@ -250,9 +250,6 @@ if __name__ == "__main__":
     print("\n--- Running Prime Video fetch ---")
     import fetch_prime
     fetch_prime.main()
-    print("\n--- Running Disney+ fetch ---")
-    import fetch_disney
-    fetch_disney.main()
     print("\n--- Running Apple TV+ fetch ---")
     import fetch_appletv
     fetch_appletv.main()
