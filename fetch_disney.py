@@ -3,14 +3,12 @@ fetch_disney.py
 Fetches Disney+ US new releases for the last 30 days.
 Writes output to disney.json grouped by type, sorted newest first.
 
-Uses the same two-pass approach as fetch_netflix.py to eliminate bulk
-catalogue re-upload noise:
-  1. Fetch change_type=new      (what actually appeared)
-  2. Fetch change_type=upcoming (what Disney announced)
-  3. Keep only shows in BOTH lists
-
-Bulk re-uploads are never announced as upcoming, so they are
-automatically filtered out. Genuine new releases are in both.
+Disney+ does not publish change_type=upcoming through this API, so the
+Netflix two-pass intersection approach doesn't work. Instead we fetch
+change_type=new and then validate each result by checking that the
+Disney streaming option's addedAt timestamp falls within the 30-day
+window. This filters out bulk catalogue re-uploads (old content
+re-catalogued) since their addedAt predates the window.
 Runs as part of the Netflix GitHub Actions job (combined to save API quota).
 """
 
@@ -47,9 +45,9 @@ def api_request(path: str, params: dict) -> dict:
         return json.loads(resp.read().decode("utf-8"))
 
 
-def fetch_changes(change_type: str, from_ts: int, to_ts: int) -> dict:
+def fetch_changes(from_ts: int, to_ts: int) -> dict:
     """
-    Fetch all changes of a given type within the time window.
+    Fetch all change_type=new entries for Disney+ within the time window.
     Returns dict of showId -> {show, added_ts, link}.
     If a showId appears multiple times, keeps the earliest added_ts.
     """
@@ -64,7 +62,7 @@ def fetch_changes(change_type: str, from_ts: int, to_ts: int) -> dict:
         params = {
             "country":         "us",
             "catalogs":        "disney",
-            "change_type":     change_type,
+            "change_type":     "new",
             "item_type":       "show",
             "order_direction": "desc",
             "from":            from_ts,
@@ -76,14 +74,14 @@ def fetch_changes(change_type: str, from_ts: int, to_ts: int) -> dict:
         try:
             data = api_request("/changes", params)
         except urllib.error.HTTPError as e:
-            print(f"  HTTP error ({change_type}): {e.code} {e.reason}")
+            print(f"  HTTP error: {e.code} {e.reason}")
             try:
                 print(f"  Body: {e.read().decode('utf-8')[:500]}")
             except Exception:
                 pass
             break
         except Exception as e:
-            print(f"  API error ({change_type}): {e} — retrying in 10s...")
+            print(f"  API error: {e} — retrying in 10s...")
             import time
             time.sleep(10)
             try:
@@ -97,7 +95,7 @@ def fetch_changes(change_type: str, from_ts: int, to_ts: int) -> dict:
         has_more = data.get("hasMore", False)
         cursor   = data.get("nextCursor", None)
 
-        print(f"  [disney/{change_type}] got {len(changes)} changes (hasMore={has_more})")
+        print(f"  [disney/new] got {len(changes)} changes (hasMore={has_more})")
 
         for change in changes:
             show_id = change.get("showId")
@@ -134,6 +132,32 @@ def fetch_changes(change_type: str, from_ts: int, to_ts: int) -> dict:
             break
 
     return results
+
+
+def is_genuinely_new(show: dict, from_ts: int, to_ts: int) -> bool:
+    """
+    Validate that the Disney streaming option's addedAt timestamp
+    falls within the 30-day window. This filters out old library
+    content that was bulk re-catalogued — their addedAt predates
+    the window even though the API emits a change_type=new event.
+    Returns True if the show is genuinely new in the window.
+    """
+    streaming_options = show.get("streamingOptions", {}).get("us", [])
+    for opt in streaming_options:
+        if not isinstance(opt, dict):
+            continue
+        if opt.get("service", {}).get("id") != "disney":
+            continue
+        added_at = opt.get("addedAt")
+        if added_at and from_ts <= added_at <= to_ts:
+            return True
+    # If no addedAt field present, fall back to trusting the change timestamp
+    has_added_at = any(
+        isinstance(opt, dict) and opt.get("service", {}).get("id") == "disney"
+        and opt.get("addedAt") is not None
+        for opt in streaming_options
+    )
+    return not has_added_at
 
 
 def build_show(show_id: str, entry: dict) -> dict:
@@ -179,27 +203,22 @@ def main():
     from_ts = int(thirty_days_ago.replace(hour=0, minute=0, second=0, microsecond=0).timestamp())
     to_ts   = int(today.replace(hour=23, minute=59, second=59, microsecond=0).timestamp())
 
-    # Pass 1: what actually appeared
     print("Fetching new releases...")
-    new_shows = fetch_changes("new", from_ts, to_ts)
-    print(f"  Total new: {len(new_shows)}")
+    matched = fetch_changes(from_ts, to_ts)
+    print(f"  Total new (raw): {len(matched)}")
 
-    # Pass 2: what Disney announced as upcoming — bulk re-uploads never appear here
-    print("Fetching upcoming announcements...")
-    upcoming_shows = fetch_changes("upcoming", from_ts, to_ts)
-    print(f"  Total upcoming: {len(upcoming_shows)}")
-
-    # Intersection: only keep shows that appear in both
-    matched = {
-        sid: entry for sid, entry in new_shows.items()
-        if sid in upcoming_shows
+    # Filter: only keep shows where the Disney streaming option's
+    # addedAt timestamp falls within the window — removes bulk re-uploads
+    genuine = {
+        sid: entry for sid, entry in matched.items()
+        if is_genuinely_new(entry["show"], from_ts, to_ts)
     }
-    print(f"  Matched (genuine new releases): {len(matched)}")
+    print(f"  Total new (after addedAt filter): {len(genuine)}")
 
-    shows = [build_show(sid, entry) for sid, entry in matched.items()]
+    shows = [build_show(sid, entry) for sid, entry in genuine.items()]
 
-    # Deduplicate by normalised title — catches same-title variants across
-    # different show IDs (e.g. regional re-listings)
+    # Deduplicate by normalised title — catches same-title variants
+    # across different show IDs (e.g. regional re-listings)
     seen_titles: set = set()
     deduped = []
     for show in shows:
@@ -209,6 +228,7 @@ def main():
         seen_titles.add(key)
         deduped.append(show)
     shows = deduped
+    print(f"  Total after title dedup: {len(shows)}")
 
     grouped = {}
     for show in shows:
