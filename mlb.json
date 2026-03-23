@@ -1,11 +1,11 @@
 {
-  "updated": "2026-03-23 17:24 EDT",
+  "updated": "2026-03-23 17:36 EDT",
   "days": {
     "20260323": {
       "date": "Monday, March 23",
       "games": [
         {
-          "group": "Regular Season",
+          "group": "Spring Training",
           "time": "1:05 PM",
           "match": "Washington Nationals vs Baltimore Orioles",
           "source": "MLB Network",
@@ -14,7 +14,7 @@
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bal.png"
         },
         {
-          "group": "Regular Season",
+          "group": "Spring Training",
           "time": "8:05 PM",
           "match": "Texas Rangers vs Kansas City Royals",
           "source": "MLB Network",
@@ -28,7 +28,7 @@
       "date": "Tuesday, March 24",
       "games": [
         {
-          "group": "Regular Season",
+          "group": "Spring Training",
           "time": "1:05 PM",
           "match": "Minnesota Twins vs Boston Red Sox",
           "source": "MLB Network",
@@ -37,7 +37,7 @@
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bos.png"
         },
         {
-          "group": "Regular Season",
+          "group": "Spring Training",
           "time": "8:10 PM",
           "match": "Los Angeles Dodgers vs Los Angeles Angels",
           "source": "MLB Network",
@@ -51,7 +51,7 @@
       "date": "Wednesday, March 25",
       "games": [
         {
-          "group": "Regular Season",
+          "group": "Spring Training",
           "time": "8:05 PM",
           "match": "San Francisco Giants vs New York Yankees",
           "source": "Netflix",
@@ -65,7 +65,7 @@
       "date": "Thursday, March 26",
       "games": [
         {
-          "group": "Regular Season",
+          "group": "Spring Training",
           "time": "1:15 PM",
           "match": "New York Mets vs Pittsburgh Pirates",
           "source": "NBC \u00b7 Peacock",
@@ -74,7 +74,7 @@
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/pit.png"
         },
         {
-          "group": "Regular Season",
+          "group": "Spring Training",
           "time": "8:30 PM",
           "match": "Los Angeles Dodgers vs Arizona Diamondbacks",
           "source": "NBC \u00b7 Peacock",
@@ -88,7 +88,7 @@
       "date": "Friday, March 27",
       "games": [
         {
-          "group": "Regular Season",
+          "group": "Spring Training",
           "time": "8:10 PM",
           "match": "Houston Astros vs Los Angeles Angels",
           "source": "Apple TV",
@@ -97,7 +97,7 @@
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/laa.png"
         },
         {
-          "group": "Regular Season",
+          "group": "Spring Training",
           "time": "9:40 PM",
           "match": "Seattle Mariners vs Cleveland Guardians",
           "source": "Apple TV",
