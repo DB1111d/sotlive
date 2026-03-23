@@ -1,10 +1,12 @@
 """
 fetch_appletv.py
-Fetches Apple TV+ US new releases for the last 30 days.
+Fetches AppleTV US new releases for the last 30 days.
 Writes output to appletv.json grouped by type, sorted newest first.
 
-Apple TV+ registers new content as both item_type=show AND item_type=season,
-so we fetch both and deduplicate by showId (keeping earliest timestamp).
+The /changes endpoint does not track change_type=new for AppleTV —
+only change_type=upcoming is supported. We use upcoming as the primary
+source, fetching both item_type=show and item_type=season, then
+deduplicate by showId keeping the earliest timestamp.
 Runs as part of the Netflix GitHub Actions job (combined to save API quota).
 """
 
@@ -43,7 +45,7 @@ def api_request(path: str, params: dict) -> dict:
 
 def fetch_changes(item_type: str, from_ts: int, to_ts: int) -> dict:
     """
-    Fetch all change_type=new entries for the given item_type.
+    Fetch change_type=upcoming entries for the given item_type.
     Returns dict of showId -> {show, added_ts, link}.
     If a showId appears multiple times, keeps the earliest added_ts.
     """
@@ -58,9 +60,9 @@ def fetch_changes(item_type: str, from_ts: int, to_ts: int) -> dict:
         params = {
             "country":         "us",
             "catalogs":        "apple",
-            "change_type":     "new",
+            "change_type":     "upcoming",
             "item_type":       item_type,
-            "order_direction": "desc",
+            "order_direction": "asc",
             "from":            from_ts,
             "to":              to_ts,
         }
@@ -91,7 +93,7 @@ def fetch_changes(item_type: str, from_ts: int, to_ts: int) -> dict:
         has_more = data.get("hasMore", False)
         cursor   = data.get("nextCursor", None)
 
-        print(f"  [apple/{item_type}] got {len(changes)} changes (hasMore={has_more})")
+        print(f"  [apple/upcoming/{item_type}] got {len(changes)} changes (hasMore={has_more})")
 
         for change in changes:
             show_id = change.get("showId")
@@ -168,22 +170,21 @@ def main():
     today = datetime.now(TIMEZONE)
     thirty_days_ago = today - timedelta(days=30)
     label = f"{thirty_days_ago.strftime('%B %-d')} \u2013 {today.strftime('%B %-d, %Y')}"
-    print(f"Fetching Apple TV+ releases for: {label}")
+    print(f"Fetching AppleTV releases for: {label}")
 
     from_ts = int(thirty_days_ago.replace(hour=0, minute=0, second=0, microsecond=0).timestamp())
     to_ts   = int(today.replace(hour=23, minute=59, second=59, microsecond=0).timestamp())
 
-    # Fetch both show-level and season-level new additions, merge by showId
-    print("Fetching new releases (item_type=show)...")
+    # Fetch upcoming for both show and season — AppleTV does not populate change_type=new
+    print("Fetching upcoming (item_type=show)...")
     matched = fetch_changes("show", from_ts, to_ts)
     print(f"  Subtotal: {len(matched)}")
 
-    print("Fetching new releases (item_type=season)...")
+    print("Fetching upcoming (item_type=season)...")
     season_results = fetch_changes("season", from_ts, to_ts)
     print(f"  Subtotal: {len(season_results)}")
 
-    # Merge season results in — adds any showIds not already captured,
-    # and updates timestamps to earliest seen
+    # Merge season results — add any showIds not already captured
     for show_id, entry in season_results.items():
         if show_id not in matched:
             matched[show_id] = entry
@@ -197,8 +198,7 @@ def main():
 
     shows = [build_show(sid, entry) for sid, entry in matched.items()]
 
-    # Deduplicate by normalised title — catches any same-title variants
-    # across different show IDs
+    # Deduplicate by normalised title
     seen_titles: set = set()
     deduped = []
     for show in shows:

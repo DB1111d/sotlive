@@ -2,6 +2,15 @@
 fetch_disney.py
 Fetches Disney+ US new releases for the last 30 days.
 Writes output to disney.json grouped by type, sorted newest first.
+
+Uses the same two-pass approach as fetch_netflix.py to eliminate bulk
+catalogue re-upload noise:
+  1. Fetch change_type=new      (what actually appeared)
+  2. Fetch change_type=upcoming (what Disney announced)
+  3. Keep only shows in BOTH lists
+
+Bulk re-uploads are never announced as upcoming, so they are
+automatically filtered out. Genuine new releases are in both.
 Runs as part of the Netflix GitHub Actions job (combined to save API quota).
 """
 
@@ -38,7 +47,12 @@ def api_request(path: str, params: dict) -> dict:
         return json.loads(resp.read().decode("utf-8"))
 
 
-def fetch_changes(from_ts: int, to_ts: int) -> dict:
+def fetch_changes(change_type: str, from_ts: int, to_ts: int) -> dict:
+    """
+    Fetch all changes of a given type within the time window.
+    Returns dict of showId -> {show, added_ts, link}.
+    If a showId appears multiple times, keeps the earliest added_ts.
+    """
     if not API_KEY:
         print("ERROR: RAPIDAPI_KEY environment variable not set.")
         return {}
@@ -50,7 +64,7 @@ def fetch_changes(from_ts: int, to_ts: int) -> dict:
         params = {
             "country":         "us",
             "catalogs":        "disney",
-            "change_type":     "new",
+            "change_type":     change_type,
             "item_type":       "show",
             "order_direction": "desc",
             "from":            from_ts,
@@ -62,14 +76,14 @@ def fetch_changes(from_ts: int, to_ts: int) -> dict:
         try:
             data = api_request("/changes", params)
         except urllib.error.HTTPError as e:
-            print(f"  HTTP error: {e.code} {e.reason}")
+            print(f"  HTTP error ({change_type}): {e.code} {e.reason}")
             try:
                 print(f"  Body: {e.read().decode('utf-8')[:500]}")
             except Exception:
                 pass
             break
         except Exception as e:
-            print(f"  API error: {e} — retrying in 10s...")
+            print(f"  API error ({change_type}): {e} — retrying in 10s...")
             import time
             time.sleep(10)
             try:
@@ -83,7 +97,7 @@ def fetch_changes(from_ts: int, to_ts: int) -> dict:
         has_more = data.get("hasMore", False)
         cursor   = data.get("nextCursor", None)
 
-        print(f"  [disney/new] got {len(changes)} changes (hasMore={has_more})")
+        print(f"  [disney/{change_type}] got {len(changes)} changes (hasMore={has_more})")
 
         for change in changes:
             show_id = change.get("showId")
@@ -101,7 +115,7 @@ def fetch_changes(from_ts: int, to_ts: int) -> dict:
                 streaming_options = show.get("streamingOptions", {}).get("us", [])
                 disney_option = next(
                     (s for s in streaming_options
-                     if isinstance(s, dict) and s.get("service", {}).get("id") in ("disney",)),
+                     if isinstance(s, dict) and s.get("service", {}).get("id") == "disney"),
                     None
                 )
                 if disney_option:
@@ -165,14 +179,27 @@ def main():
     from_ts = int(thirty_days_ago.replace(hour=0, minute=0, second=0, microsecond=0).timestamp())
     to_ts   = int(today.replace(hour=23, minute=59, second=59, microsecond=0).timestamp())
 
+    # Pass 1: what actually appeared
     print("Fetching new releases...")
-    matched = fetch_changes(from_ts, to_ts)
-    print(f"  Total new: {len(matched)}")
+    new_shows = fetch_changes("new", from_ts, to_ts)
+    print(f"  Total new: {len(new_shows)}")
+
+    # Pass 2: what Disney announced as upcoming — bulk re-uploads never appear here
+    print("Fetching upcoming announcements...")
+    upcoming_shows = fetch_changes("upcoming", from_ts, to_ts)
+    print(f"  Total upcoming: {len(upcoming_shows)}")
+
+    # Intersection: only keep shows that appear in both
+    matched = {
+        sid: entry for sid, entry in new_shows.items()
+        if sid in upcoming_shows
+    }
+    print(f"  Matched (genuine new releases): {len(matched)}")
 
     shows = [build_show(sid, entry) for sid, entry in matched.items()]
 
-    # Deduplicate by normalised title — Disney+ can surface the same title
-    # under different show IDs (e.g. re-listed specials, regional variants).
+    # Deduplicate by normalised title — catches same-title variants across
+    # different show IDs (e.g. regional re-listings)
     seen_titles: set = set()
     deduped = []
     for show in shows:
