@@ -697,7 +697,7 @@ async function switchSport(sport) {
           ${overviewEl}
         </div>`;
       return show.link
-        ? `<a class="netflix-card" href="${show.link}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">${cardInner}</a>`
+        ? `<a class="netflix-card" href="${show.link}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;" onclick="if(event.target.closest('.netflix-show-more')){return false;}">${cardInner}</a>`
         : `<div class="netflix-card">${cardInner}</div>`;
     }
 

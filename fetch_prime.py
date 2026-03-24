@@ -111,9 +111,21 @@ def enrich_with_tmdb(shows: list) -> list:
         is_series = show["type"] == "series"
         media     = "tv" if is_series else "movie"
 
-        # Search TMDb
-        data = tmdb_request("/search/multi", {"query": title, "language": "en-US", "page": 1})
+        # Strip subtitle after colon, season ordinals, and trailing season info
+        # e.g. "The Silent Service Season Two: The Battle of Arctic Ocean" -> "The Silent Service"
+        search_title = re.sub(r'\s*:.*$', '', title).strip()
+        search_title = re.sub(r'\s+Season\s+\w+.*$', '', search_title, flags=re.IGNORECASE).strip()
+        search_title = re.sub(r'\s+S\d+.*$', '', search_title, flags=re.IGNORECASE).strip()
+        if not search_title:
+            search_title = title
+
+        # Search TMDb — try cleaned title first, fall back to full title if no match
+        data = tmdb_request("/search/multi", {"query": search_title, "language": "en-US", "page": 1})
         results = data.get("results", [])
+
+        if not results and search_title != title:
+            data = tmdb_request("/search/multi", {"query": title, "language": "en-US", "page": 1})
+            results = data.get("results", [])
 
         # Prefer exact media_type match, fall back to first result
         match = next(
@@ -122,7 +134,7 @@ def enrich_with_tmdb(shows: list) -> list:
         )
 
         if not match:
-            print(f"    No TMDb match for: {title}")
+            print(f"    No TMDb match for: {title} (searched: {search_title})")
             time.sleep(0.25)
             continue
 
