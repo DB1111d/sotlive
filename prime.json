@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-24 10:00 EDT",
+  "updated": "2026-03-24 10:13 EDT",
   "week_label": "February 22 \u2013 March 24, 2026",
   "groups": {
     "TV Series": [
@@ -123,18 +123,17 @@
       {
         "type": "movie",
         "title": "Scarpetta",
-        "overview": "After the Queen of Hearts incites a coup on Auradon, her rebellious daughter Red and Cinderella's perfectionist daughter Chloe join forces and travel back in time to try to undo the traumatic event that set Red's mother down her villainous path.",
+        "overview": "Renowned forensic pathologist Dr. Kay Scarpetta returns to her position as Virginia's Chief Medical Examiner, where she investigates a haunting murder with eerie reminders from her first big case decades ago. In 1998, Scarpetta works alongside Detective Pete Marino and FBI Agent Benton Wesley as they investigate a series of brutal stranglings. Based on the best-selling novels by Patricia Cornwell.",
         "genres": [
-          "Fantasy",
-          "Adventure",
-          "Family",
-          "Comedy"
+          "Drama",
+          "Crime",
+          "Mystery"
         ],
         "added_date": "March 11",
         "added_ts": 1773201600,
         "link": "https://press.amazonmgmstudios.com/us/en/original-series/scarpetta/1",
-        "thumbnail": "https://image.tmdb.org/t/p/w342/8fYluTtB3b3HKO7KQa5tzrvGaps.jpg",
-        "rating": 67,
+        "thumbnail": "https://image.tmdb.org/t/p/w342/zvkcHCJUPqv7R9ukaiDNkm75jy.jpg",
+        "rating": 62,
         "season": ""
       },
       {
