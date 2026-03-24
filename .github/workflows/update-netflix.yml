@@ -16,6 +16,7 @@ jobs:
       - name: Run Netflix fetch
         env:
           RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: python fetch_netflix.py
       - name: Commit updated netflix.json and hbo.json
         run: |
