@@ -93,6 +93,15 @@ def tmdb_request(path: str, params: dict) -> dict:
         return {}
 
 
+# ── Manual TMDb overrides ─────────────────────────────────────────────────────
+# For titles TMDb can't find automatically, specify the exact TMDb ID and
+# media type here. Find IDs at themoviedb.org — it's in the URL of the title page.
+# Format: "Exact Title As In prime.json": {"id": 123456, "media_type": "movie"/"tv"}
+TMDB_OVERRIDES = {
+    "Scarpetta": {"id": 974262, "media_type": "movie"},
+}
+
+
 def enrich_with_tmdb(shows: list) -> list:
     """
     For each show, search TMDb by title and show type, then fill in
@@ -111,35 +120,42 @@ def enrich_with_tmdb(shows: list) -> list:
         is_series = show["type"] == "series"
         media     = "tv" if is_series else "movie"
 
-        # Strip subtitle after colon, season ordinals, and trailing season info
-        # e.g. "The Silent Service Season Two: The Battle of Arctic Ocean" -> "The Silent Service"
-        search_title = re.sub(r'\s*:.*$', '', title).strip()
-        search_title = re.sub(r'\s+Season\s+\w+.*$', '', search_title, flags=re.IGNORECASE).strip()
-        search_title = re.sub(r'\s+S\d+.*$', '', search_title, flags=re.IGNORECASE).strip()
-        if not search_title:
-            search_title = title
+        # Check manual overrides first
+        if title in TMDB_OVERRIDES:
+            override   = TMDB_OVERRIDES[title]
+            tmdb_id    = override["id"]
+            media_type = override["media_type"]
+            print(f"    [override] {title}")
+        else:
+            # Strip subtitle after colon, season ordinals, and trailing season info
+            # e.g. "The Silent Service Season Two: The Battle of Arctic Ocean" -> "The Silent Service"
+            search_title = re.sub(r'\s*:.*$', '', title).strip()
+            search_title = re.sub(r'\s+Season\s+\w+.*$', '', search_title, flags=re.IGNORECASE).strip()
+            search_title = re.sub(r'\s+S\d+.*$', '', search_title, flags=re.IGNORECASE).strip()
+            if not search_title:
+                search_title = title
 
-        # Search TMDb — try cleaned title first, fall back to full title if no match
-        data = tmdb_request("/search/multi", {"query": search_title, "language": "en-US", "page": 1})
-        results = data.get("results", [])
-
-        if not results and search_title != title:
-            data = tmdb_request("/search/multi", {"query": title, "language": "en-US", "page": 1})
+            # Search TMDb — try cleaned title first, fall back to full title if no match
+            data = tmdb_request("/search/multi", {"query": search_title, "language": "en-US", "page": 1})
             results = data.get("results", [])
 
-        # Prefer exact media_type match, fall back to first result
-        match = next(
-            (r for r in results if r.get("media_type") == media),
-            next((r for r in results if r.get("media_type") in ("tv", "movie")), None)
-        )
+            if not results and search_title != title:
+                data = tmdb_request("/search/multi", {"query": title, "language": "en-US", "page": 1})
+                results = data.get("results", [])
 
-        if not match:
-            print(f"    No TMDb match for: {title} (searched: {search_title})")
-            time.sleep(0.25)
-            continue
+            # Prefer exact media_type match, fall back to first result
+            match = next(
+                (r for r in results if r.get("media_type") == media),
+                next((r for r in results if r.get("media_type") in ("tv", "movie")), None)
+            )
 
-        tmdb_id    = match.get("id")
-        media_type = match.get("media_type", media)
+            if not match:
+                print(f"    No TMDb match for: {title} (searched: {search_title})")
+                time.sleep(0.25)
+                continue
+
+            tmdb_id    = match.get("id")
+            media_type = match.get("media_type", media)
 
         # Fetch full details for genres + overview
         details = tmdb_request(f"/{media_type}/{tmdb_id}", {"language": "en-US"})
