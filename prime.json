@@ -1,54 +1,64 @@
 {
-  "updated": "2026-03-24 09:31 EDT",
+  "updated": "2026-03-24 09:37 EDT",
   "week_label": "February 22 \u2013 March 24, 2026",
   "groups": {
     "TV Series": [
       {
         "type": "series",
         "title": "Deadloch",
-        "overview": "",
-        "genres": [],
+        "overview": "Two vastly different female detectives are thrown together to solve the murder of a local man in the sleepy seaside hamlet of Deadloch.",
+        "genres": [
+          "Comedy",
+          "Crime"
+        ],
         "added_date": "March 20",
         "added_ts": 1773979200,
         "link": "https://press.amazonmgmstudios.com/us/en/original-series/deadloch/2",
-        "thumbnail": "",
-        "rating": null,
+        "thumbnail": "https://image.tmdb.org/t/p/w342/7rI7T4AfSzOx0Rqw73AusyIpeXf.jpg",
+        "rating": 63,
         "season": "Season 2"
       },
       {
         "type": "series",
         "title": "Last One Laughing",
-        "overview": "",
-        "genres": [],
+        "overview": "Amazing comedians and harder laughs! Ten talents have six hours to make the others laugh. Who will be the last one laughing?",
+        "genres": [
+          "Comedy"
+        ],
         "added_date": "March 19",
         "added_ts": 1773892800,
         "link": "https://press.amazonmgmstudios.com/us/en/original-series/lol-last-one-laughing-uk/2",
-        "thumbnail": "",
-        "rating": null,
+        "thumbnail": "https://image.tmdb.org/t/p/w342/qeh7Pz3s7PDpiVas9DYwyiHWGUK.jpg",
+        "rating": 70,
         "season": "Season 2"
       },
       {
         "type": "series",
         "title": "Invincible",
-        "overview": "",
-        "genres": [],
+        "overview": "Mark Grayson is a normal teenager except for the fact that his father is the most powerful superhero on the planet. Shortly after his seventeenth birthday, Mark begins to develop powers of his own and enters into his father's tutelage.",
+        "genres": [
+          "Animation",
+          "Drama"
+        ],
         "added_date": "March 18",
         "added_ts": 1773806400,
         "link": "https://press.amazonmgmstudios.com/us/en/original-series/invincible/4",
-        "thumbnail": "",
-        "rating": null,
+        "thumbnail": "https://image.tmdb.org/t/p/w342/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
+        "rating": 86,
         "season": "Season 4"
       },
       {
         "type": "series",
         "title": "Tribunal Justice",
-        "overview": "",
-        "genres": [],
+        "overview": "Justice Junction brings together a dynamic trio of judges who delve into genuine and captivating cases, sparking lively debates and spirited deliberations. Their diverse perspectives often lead to fascinating disagreements, resulting in a thrilling and unpredictable final ruling.",
+        "genres": [
+          "Reality"
+        ],
         "added_date": "March 2",
         "added_ts": 1772427600,
         "link": "https://press.amazonmgmstudios.com/us/en/original-series/tribunal-justice-1/3",
-        "thumbnail": "",
-        "rating": null,
+        "thumbnail": "https://image.tmdb.org/t/p/w342/aWLRs7OyOoQrMZpb2UaOLTNv9Uu.jpg",
+        "rating": 35,
         "season": "Season 3"
       }
     ],
@@ -56,37 +66,44 @@
       {
         "type": "movie",
         "title": "Jury Duty Presents: Company Retreat",
-        "overview": "",
-        "genres": [],
+        "overview": "Anthony, a real temp, is hired at Rockin' Grandma's Hot Sauce (a fake company) for its annual retreat - the final one for the company's CEO Doug before retirement. Doug's son Dougie Jr. struggles to prove his leadership abilities while a polished private-equity team courts the company for acquisition.",
+        "genres": [
+          "Comedy"
+        ],
         "added_date": "March 20",
         "added_ts": 1773979200,
         "link": "https://press.amazonmgmstudios.com/us/en/original-series/jury-duty-1/2",
-        "thumbnail": "",
-        "rating": null,
+        "thumbnail": "https://image.tmdb.org/t/p/w342/3CRKP1KJvloaUB89eDOAdFv3Tok.jpg",
+        "rating": 46,
         "season": ""
       },
       {
         "type": "movie",
         "title": "Zeta",
-        "overview": "",
-        "genres": [],
+        "overview": "Four Spanish ex-intelligence officers are assassinated simultaneously worldwide. The CNI discovers all participated in the covert \"Operation Ci\u00e9naga\" decades ago in Colombia. Zeta, the CNI's best operative, must hunt and protect the sole survivor, facing his deadliest global mission yet. Top Colombian agent Alfa will join Zeta, seemingly knowing more about \"Ci\u00e9naga\"'s secrets than him.",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
         "added_date": "March 20",
         "added_ts": 1773979200,
         "link": "https://press.amazonmgmstudios.com/es/es/original-movies/zeta",
-        "thumbnail": "",
-        "rating": null,
+        "thumbnail": "https://image.tmdb.org/t/p/w342/1cKLG9KMoCjsgFB8Nw1EuglteVi.jpg",
+        "rating": 68,
         "season": ""
       },
       {
         "type": "movie",
         "title": "Meal Ticket",
-        "overview": "",
-        "genres": [],
+        "overview": "Follow the untold story of the 47-year old legacy of the McDonald's All American Game and the past, present and future stars that defined it.",
+        "genres": [
+          "Documentary"
+        ],
         "added_date": "March 19",
         "added_ts": 1773892800,
         "link": "https://press.amazonmgmstudios.com/us/en/sports/meal-ticket",
-        "thumbnail": "",
-        "rating": null,
+        "thumbnail": "https://image.tmdb.org/t/p/w342/4E4WA3bfbq4mgDGrFJMNit9U1gz.jpg",
+        "rating": 80,
         "season": ""
       },
       {
@@ -104,7 +121,7 @@
       {
         "type": "movie",
         "title": "Scarpetta",
-        "overview": "",
+        "overview": "A fragment of a short comedy of Neapolitan setting, in which the actor Vincenzo Scarpetta, son of playwright Eduardo, is struggling with a Miss across the Atlantic. The woman throws a chest in the sea, asking his lover to recover it as proof of love. He turns to a fisherman, offering him money to complete the recovery for him. The film, shot in 1916, was, for reasons unknown, unpublished until 1918.",
         "genres": [],
         "added_date": "March 11",
         "added_ts": 1773201600,
@@ -116,61 +133,75 @@
       {
         "type": "movie",
         "title": "Young Sherlock",
-        "overview": "",
-        "genres": [],
+        "overview": "Sherlock Holmes and Dr. Watson meet as boys in an English Boarding school. Holmes is known for his deductive ability even as a youth, amazing his classmates with his abilities. When they discover a plot to murder a series of British business men by an Egyptian cult, they move to stop it.",
+        "genres": [
+          "Mystery",
+          "Adventure",
+          "Thriller"
+        ],
         "added_date": "March 4",
         "added_ts": 1772600400,
         "link": "https://press.amazonmgmstudios.com/us/en/original-series/young-sherlock/1",
-        "thumbnail": "",
-        "rating": null,
+        "thumbnail": "https://image.tmdb.org/t/p/w342/aOxVYvQoAfNSns4hW5Ah55GBzgq.jpg",
+        "rating": 67,
         "season": ""
       },
       {
         "type": "movie",
         "title": "Siren\u2019s Kiss",
-        "overview": "",
-        "genres": [],
+        "overview": "A painter has serious creative block. He decides that two nude models living in his house might help. His wife objects, or does she?",
+        "genres": [
+          "Drama"
+        ],
         "added_date": "March 2",
         "added_ts": 1772427600,
         "link": "https://press.amazonmgmstudios.com/us/en/original-series/sirens-kiss/1",
-        "thumbnail": "",
-        "rating": null,
+        "thumbnail": "https://image.tmdb.org/t/p/w342/jBQO4R3rW00tcG2uQhl3QiRWtoJ.jpg",
+        "rating": 10,
         "season": ""
       },
       {
         "type": "movie",
         "title": "Final Siren: Inside the AFL",
-        "overview": "",
-        "genres": [],
+        "overview": "In one of the tightest seasons in AFL history, Final Siren follows seven of the game's biggest names - Marcus Bontempelli, Nat Fyfe, Max Gawn, Toby Greene, Touk Miller, Cam Rayner and Dayne Zorko - as public doubt, online abuse, injuries, ageing, suspensions, and fierce rivalries threaten to derail what could be their shot at Premiership glory in 2025.",
+        "genres": [
+          "Documentary"
+        ],
         "added_date": "February 27",
         "added_ts": 1772168400,
         "link": "",
-        "thumbnail": "",
+        "thumbnail": "https://image.tmdb.org/t/p/w342/uYbO4kXd2WK3OpdAUtjQ6bxgy2Z.jpg",
         "rating": null,
         "season": ""
       },
       {
         "type": "movie",
         "title": "The Bluff",
-        "overview": "",
-        "genres": [],
+        "overview": "When her tranquil life on a remote island is shattered by the return of her vengeful former captain, a skilled ex-pirate must confront her bloody past and unleash her deadly talents to save her family from a ruthless siege.",
+        "genres": [
+          "Drama",
+          "Action",
+          "Thriller"
+        ],
         "added_date": "February 25",
         "added_ts": 1771995600,
         "link": "https://www.amazon.com/gp/video/detail/B0G565KPS4/ref=atv_dp_share_cu_r",
-        "thumbnail": "",
-        "rating": null,
+        "thumbnail": "https://image.tmdb.org/t/p/w342/dl1cA7wdwePc9QU2Rc24EPqlcyJ.jpg",
+        "rating": 61,
         "season": ""
       },
       {
         "type": "movie",
         "title": "The CEO Club",
-        "overview": "",
-        "genres": [],
+        "overview": "Dive deep into the world of seven trailblazing female CEOs (Serena Williams, Thalia, Dee Ocleppo Hilfiger, Loren Ridinger, Winnie Harlow, Hannah Bronfman, and Isabela Rangel Grutman) as they navigate the triumphs and challenges of both their professional and personal lives. Redefining what it means to lead in today's world, these women enter the next phase of their careers with confidence and clarity forged by life experiences.",
+        "genres": [
+          "Documentary"
+        ],
         "added_date": "February 23",
         "added_ts": 1771822800,
         "link": "https://press.amazonmgmstudios.com/us/en/original-series/the-ceo-club/1",
-        "thumbnail": "",
-        "rating": null,
+        "thumbnail": "https://image.tmdb.org/t/p/w342/3xNFwqqXJpMhq4od97nncOzJ1S1.jpg",
+        "rating": 10,
         "season": ""
       }
     ]
