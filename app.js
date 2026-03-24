@@ -698,7 +698,9 @@ async function switchSport(sport) {
            </div>`
         : '';
       const posterEl = show.thumbnail
-        ? `<img class="netflix-poster" src="${show.thumbnail}" alt="${show.title}" loading="lazy" decoding="async" width="140" height="210">`
+        ? (show.link
+            ? `<a href="${show.link}" target="_blank" rel="noopener" style="flex-shrink:0;display:block;"><img class="netflix-poster" src="${show.thumbnail}" alt="${show.title}" loading="lazy" decoding="async" width="140" height="210" style="display:block;"></a>`
+            : `<img class="netflix-poster" src="${show.thumbnail}" alt="${show.title}" loading="lazy" decoding="async" width="140" height="210">`)
         : `<div class="netflix-poster-placeholder">${sport === 'hbo' ? '📼' : sport === 'prime' ? '📦' : sport === 'appletv' ? '🍎' : '🎬'}</div>`;
       const cardInner = `
         ${posterEl}
@@ -711,9 +713,7 @@ async function switchSport(sport) {
           ${ratingEl}
           ${overviewEl}
         </div>`;
-      return show.link
-        ? `<a class="netflix-card" href="${show.link}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;" onclick="if(event.target.closest('.netflix-show-more')){return false;}">${cardInner}</a>`
-        : `<div class="netflix-card">${cardInner}</div>`;
+      return `<div class="netflix-card">${cardInner}</div>`;
     }
 
     function checkShowMoreButtons(grid) {
