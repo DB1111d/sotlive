@@ -235,7 +235,7 @@ def main():
         link   = entry.get("showUrl") or ""
 
         shows.append({
-            "type":       "series" if season else "movie",
+            "type":       TMDB_OVERRIDES.get(clean_title, {}).get("type") or ("series" if season else "movie"),
             "title":      clean_title,
             "overview":   "",
             "genres":     [],
