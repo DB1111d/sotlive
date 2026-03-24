@@ -42,6 +42,7 @@ const LEAGUE_ORDER = [
   'Liga MX',
   'World Cup Qualifying',
   'International Friendly',
+  'Friendly',
 ];
 
 // ── Helpers ───────────────────────────────────────────────────────
@@ -294,11 +295,19 @@ function buildPanel(key, day) {
     grouped[g.league].items.push(g);
   }
 
+  const PRIORITY_LEAGUES = ['World Cup Qualifying', 'International Friendly', 'Friendly'];
+
   const sortedGrouped = Object.fromEntries(
     Object.entries(grouped).sort(([a], [b]) => {
+      const aPriority = PRIORITY_LEAGUES.includes(a);
+      const bPriority = PRIORITY_LEAGUES.includes(b);
+      if (aPriority && !bPriority) return -1;
+      if (!aPriority && bPriority) return 1;
       const ai = LEAGUE_ORDER.indexOf(a);
       const bi = LEAGUE_ORDER.indexOf(b);
-      return (ai === -1 ? 999 : ai) - (bi === -1 ? 999 : bi);
+      const aOrder = ai === -1 ? LEAGUE_ORDER.length : ai;
+      const bOrder = bi === -1 ? LEAGUE_ORDER.length : bi;
+      return aOrder - bOrder;
     })
   );
 
