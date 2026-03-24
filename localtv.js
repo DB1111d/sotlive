@@ -132,18 +132,25 @@
   document.head.appendChild(style);
 
   // ── Hook into switchSport ────────────────────────────────────────
-  // Store a reference to app.js's switchSport before we replace it.
-  // We do this at script execution time — localtv.js loads after
-  // app.js so window.switchSport already exists at this point.
+  // Capture app.js's switchSport immediately — localtv.js loads after
+  // app.js so window.switchSport is already defined at this point.
   const _appSwitchSport = window.switchSport;
 
   window.switchSport = async function (sport) {
     if (sport !== 'localtv') {
-      // Hand off everything else back to app.js untouched
+      // app.js has a guard: if (sport === currentSport) return
+      // If we're coming FROM localtv, currentSport is 'localtv' and
+      // app.js will bail. Reset it first so the guard doesn't fire.
+      if (window.currentSport === 'localtv') {
+        window.currentSport = null;
+      }
       return _appSwitchSport.apply(this, arguments);
     }
 
-    // Mirror what app.js does for nav button state
+    // Set currentSport so app.js guard works correctly on next call
+    window.currentSport = 'localtv';
+
+    // Mirror app.js nav button state
     document.querySelectorAll('.sport-btn').forEach(b => {
       b.classList.toggle('active', b.id === 'sport-localtv');
     });
