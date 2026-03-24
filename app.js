@@ -562,6 +562,9 @@ function buildNetflixPanel(data) {
   panel.innerHTML = html;
   return panel;
 }
+// Sports that never show the league filter
+const NO_LEAGUE_FILTER_SPORTS = new Set(['nba', 'nhl', 'mlb']);
+
 function switchTab(key) {
   const prefix = currentSport === 'ncaa' ? 'ncaa-panel'
                : currentSport === 'nba'  ? 'nba-panel'
@@ -580,18 +583,32 @@ function switchTab(key) {
 
   const activePanel = document.getElementById(`${prefix}-${key}`);
   const isEmpty = activePanel && activePanel.dataset.empty === 'true';
+  const alwaysBothDropdowns = currentSport === 'soccer' || currentSport === 'ncaa';
+  const tzSelect = document.getElementById('tz-select');
 
-  if (isEmpty) {
-    hideTzPicker();
+  if (alwaysBothDropdowns) {
+    // Soccer + NCAA: always show both dropdowns, disable when empty
+    showTzPicker();
+    showLeagueFilter();
+    if (isEmpty) {
+      if (tzSelect) tzSelect.disabled = true;
+      populateLeagueFilter([]);
+    } else {
+      if (tzSelect) tzSelect.disabled = false;
+      const leagues = activePanel.dataset.leagues ? JSON.parse(activePanel.dataset.leagues) : [];
+      populateLeagueFilter(leagues);
+      resetLeagueFilter();
+    }
+  } else if (isEmpty) {
+    // NBA/NHL/MLB empty: show timezone (disabled), hide league filter
+    showTzPicker();
+    if (tzSelect) tzSelect.disabled = true;
     hideLeagueFilter();
   } else {
+    // NBA/NHL/MLB with games: show timezone only, never show league filter
     showTzPicker();
-    const tzSelect = document.getElementById('tz-select');
     if (tzSelect) tzSelect.disabled = false;
-    showLeagueFilter();
-    const leagues = activePanel.dataset.leagues ? JSON.parse(activePanel.dataset.leagues) : [];
-    populateLeagueFilter(leagues);
-    resetLeagueFilter();
+    hideLeagueFilter();
   }
 }
 
@@ -602,11 +619,9 @@ function switchToAbout() {
   document.getElementById('content').style.display = 'none';
   document.getElementById('about-panel').classList.add('active');
 
-  showTzPicker();
-  showLeagueFilter();
-  populateLeagueFilter([]);
-  const tzSelect = document.getElementById('tz-select');
-  if (tzSelect) tzSelect.disabled = true;
+  // Change 2: always hide both dropdowns on About
+  hideTzPicker();
+  hideLeagueFilter();
 }
 
 // ── Sport switching ───────────────────────────────────────────────
@@ -875,9 +890,9 @@ async function switchSport(sport) {
   aboutBtn.addEventListener('click', switchToAbout);
   tabsEl.appendChild(aboutBtn);
 
-  // Handle initial state — always re-enable tzSelect in case switchToAbout disabled it
+  // Handle initial state
   const tzSelect = document.getElementById('tz-select');
-  if (tzSelect) tzSelect.disabled = false;
+  const alwaysBothDropdowns = sport === 'soccer' || sport === 'ncaa';
 
   const firstKey = dateKeys[0];
   if (firstKey) {
@@ -887,14 +902,30 @@ async function switchSport(sport) {
                  : sport === 'mlb'  ? 'mlb-panel'
                  : 'panel';
     const firstPanel = document.getElementById(`${prefix}-${firstKey}`);
-    if (firstPanel && firstPanel.dataset.empty === 'true') {
-      hideTzPicker();
-      hideLeagueFilter();
-    } else if (firstPanel) {
+    const isEmpty = firstPanel && firstPanel.dataset.empty === 'true';
+
+    if (alwaysBothDropdowns) {
+      // Soccer + NCAA: always show both dropdowns, disable when empty
       showTzPicker();
       showLeagueFilter();
-      const leagues = firstPanel.dataset.leagues ? JSON.parse(firstPanel.dataset.leagues) : [];
-      populateLeagueFilter(leagues);
+      if (isEmpty) {
+        if (tzSelect) tzSelect.disabled = true;
+        populateLeagueFilter([]);
+      } else if (firstPanel) {
+        if (tzSelect) tzSelect.disabled = false;
+        const leagues = firstPanel.dataset.leagues ? JSON.parse(firstPanel.dataset.leagues) : [];
+        populateLeagueFilter(leagues);
+      }
+    } else if (isEmpty) {
+      // NBA/NHL/MLB empty: show timezone (disabled), hide league filter
+      showTzPicker();
+      if (tzSelect) tzSelect.disabled = true;
+      hideLeagueFilter();
+    } else if (firstPanel) {
+      // NBA/NHL/MLB with games: show timezone only
+      showTzPicker();
+      if (tzSelect) tzSelect.disabled = false;
+      hideLeagueFilter();
     }
   }
 }
@@ -1010,16 +1041,18 @@ async function init() {
   aboutBtn.addEventListener('click', switchToAbout);
   tabsEl.appendChild(aboutBtn);
 
-  // Handle initial state
+  // Handle initial state — soccer always shows both dropdowns
   const firstKey = dateKeys[0];
   if (firstKey) {
     const firstPanel = document.getElementById(`panel-${firstKey}`);
+    const tzSelect = document.getElementById('tz-select');
+    showTzPicker();
+    showLeagueFilter();
     if (firstPanel && firstPanel.dataset.empty === 'true') {
-      hideTzPicker();
-      hideLeagueFilter();
+      if (tzSelect) tzSelect.disabled = true;
+      populateLeagueFilter([]);
     } else if (firstPanel) {
-      showTzPicker();
-      showLeagueFilter();
+      if (tzSelect) tzSelect.disabled = false;
       const leagues = firstPanel.dataset.leagues ? JSON.parse(firstPanel.dataset.leagues) : [];
       populateLeagueFilter(leagues);
     }
