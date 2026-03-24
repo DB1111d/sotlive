@@ -132,36 +132,37 @@
   document.head.appendChild(style);
 
   // ── Hook into switchSport ────────────────────────────────────────
-  // Waits for app.js to finish loading before patching switchSport
-  window.addEventListener('load', function () {
-    const _original = window.switchSport;
+  // Store a reference to app.js's switchSport before we replace it.
+  // We do this at script execution time — localtv.js loads after
+  // app.js so window.switchSport already exists at this point.
+  const _appSwitchSport = window.switchSport;
 
-    window.switchSport = async function (sport) {
-      if (sport !== 'localtv') {
-        return _original.apply(this, arguments);
-      }
+  window.switchSport = async function (sport) {
+    if (sport !== 'localtv') {
+      // Hand off everything else back to app.js untouched
+      return _appSwitchSport.apply(this, arguments);
+    }
 
-      // Mirror what app.js does for nav state
-      document.querySelectorAll('.sport-btn').forEach(b => {
-        b.classList.toggle('active', b.id === 'sport-localtv');
-      });
+    // Mirror what app.js does for nav button state
+    document.querySelectorAll('.sport-btn').forEach(b => {
+      b.classList.toggle('active', b.id === 'sport-localtv');
+    });
 
-      const tabsEl    = document.getElementById('tabs');
-      const contentEl = document.getElementById('content');
-      tabsEl.innerHTML    = '';
-      contentEl.innerHTML = '';
+    const tabsEl    = document.getElementById('tabs');
+    const contentEl = document.getElementById('content');
+    tabsEl.innerHTML    = '';
+    contentEl.innerHTML = '';
 
-      document.getElementById('about-panel').classList.remove('active');
-      contentEl.style.display = '';
+    document.getElementById('about-panel').classList.remove('active');
+    contentEl.style.display = '';
 
-      const tzPicker = document.getElementById('tz-picker');
-      const lgFilter = document.getElementById('league-filter');
-      if (tzPicker) tzPicker.style.display = 'none';
-      if (lgFilter) lgFilter.style.display = 'none';
+    const tzPicker = document.getElementById('tz-picker');
+    const lgFilter = document.getElementById('league-filter');
+    if (tzPicker) tzPicker.style.display = 'none';
+    if (lgFilter) lgFilter.style.display = 'none';
 
-      renderLocalTV(contentEl, tabsEl);
-    };
-  });
+    renderLocalTV(contentEl, tabsEl);
+  };
 
   // ── Render login/signup UI ───────────────────────────────────────
   function renderLocalTV(contentEl, tabsEl) {
@@ -233,8 +234,6 @@
     // Buttons intentionally do nothing — AWS Cognito wired in later
     document.getElementById('ltv-login-btn').addEventListener('click', () => {});
     document.getElementById('ltv-signup-btn').addEventListener('click', () => {});
-
-
   }
 
 })();
