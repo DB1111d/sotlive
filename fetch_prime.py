@@ -11,9 +11,12 @@ Runs as part of the Netflix GitHub Actions job.
 """
 
 import json
+import os
 import re
+import time
 import urllib.request
 import urllib.error
+import urllib.parse
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
@@ -69,6 +72,93 @@ def parse_date(date_str: str):
     except Exception:
         return None
 
+
+# ─── TMDb enrichment ──────────────────────────────────────────────────────────
+
+TMDB_API_KEY = os.environ.get("TMDB_API_KEY", "")
+TMDB_BASE    = "https://api.themoviedb.org/3"
+TMDB_IMG     = "https://image.tmdb.org/t/p/w342"
+
+
+def tmdb_request(path: str, params: dict) -> dict:
+    params["api_key"] = TMDB_API_KEY
+    query = urllib.parse.urlencode(params)
+    url   = f"{TMDB_BASE}{path}?{query}"
+    req   = urllib.request.Request(url, headers={"Accept": "application/json"})
+    try:
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            return json.loads(resp.read().decode("utf-8"))
+    except Exception as e:
+        print(f"  TMDb error ({path}): {e}")
+        return {}
+
+
+def enrich_with_tmdb(shows: list) -> list:
+    """
+    For each show, search TMDb by title and show type, then fill in
+    overview, genres, thumbnail, and rating if they are missing.
+    The existing Amazon data (title, added_date, link, season, etc.)
+    is never overwritten.
+    """
+    if not TMDB_API_KEY:
+        print("  TMDB_API_KEY not set — skipping enrichment.")
+        return shows
+
+    print(f"  Enriching {len(shows)} shows via TMDb...")
+
+    for show in shows:
+        title     = show["title"]
+        is_series = show["type"] == "series"
+        media     = "tv" if is_series else "movie"
+
+        # Search TMDb
+        data = tmdb_request("/search/multi", {"query": title, "language": "en-US", "page": 1})
+        results = data.get("results", [])
+
+        # Prefer exact media_type match, fall back to first result
+        match = next(
+            (r for r in results if r.get("media_type") == media),
+            next((r for r in results if r.get("media_type") in ("tv", "movie")), None)
+        )
+
+        if not match:
+            print(f"    No TMDb match for: {title}")
+            time.sleep(0.25)
+            continue
+
+        tmdb_id    = match.get("id")
+        media_type = match.get("media_type", media)
+
+        # Fetch full details for genres + overview
+        details = tmdb_request(f"/{media_type}/{tmdb_id}", {"language": "en-US"})
+
+        # Overview — only fill if empty
+        if not show["overview"]:
+            show["overview"] = details.get("overview") or match.get("overview") or ""
+
+        # Genres — only fill if empty
+        if not show["genres"]:
+            show["genres"] = [g["name"] for g in details.get("genres", [])]
+
+        # Thumbnail — only fill if empty
+        if not show["thumbnail"]:
+            poster = details.get("poster_path") or match.get("poster_path") or ""
+            show["thumbnail"] = f"{TMDB_IMG}{poster}" if poster else ""
+
+        # Rating — only fill if None
+        if show["rating"] is None:
+            vote = details.get("vote_average") or match.get("vote_average")
+            if vote:
+                # Normalise to 0–100 scale to match Netflix rating format
+                show["rating"] = round(float(vote) * 10)
+
+        print(f"    ✓ {title}")
+        time.sleep(0.25)  # be polite to TMDb
+
+    return shows
+
+
+# ─── Main ─────────────────────────────────────────────────────────────────────
 
 def main():
     today = datetime.now(TIMEZONE)
@@ -131,6 +221,9 @@ def main():
 
     shows.sort(key=lambda s: s["added_ts"], reverse=True)
     print(f"  Originals in window: {len(shows)}")
+
+    # ── Enrich with TMDb (thumbnail, overview, genres, rating) ───────────────
+    shows = enrich_with_tmdb(shows)
 
     grouped = {}
     for show in shows:
