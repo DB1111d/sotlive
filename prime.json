@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-24 10:19 EDT",
+  "updated": "2026-03-24 10:39 EDT",
   "week_label": "February 22 \u2013 March 24, 2026",
   "groups": {
     "TV Series": [
@@ -46,6 +46,22 @@
         "thumbnail": "https://image.tmdb.org/t/p/w342/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
         "rating": 86,
         "season": "Season 4"
+      },
+      {
+        "type": "series",
+        "title": "Scarpetta",
+        "overview": "Renowned forensic pathologist Dr. Kay Scarpetta returns to her position as Virginia's Chief Medical Examiner, where she investigates a haunting murder with eerie reminders from her first big case decades ago. In 1998, Scarpetta works alongside Detective Pete Marino and FBI Agent Benton Wesley as they investigate a series of brutal stranglings. Based on the best-selling novels by Patricia Cornwell.",
+        "genres": [
+          "Drama",
+          "Crime",
+          "Mystery"
+        ],
+        "added_date": "March 11",
+        "added_ts": 1773201600,
+        "link": "https://press.amazonmgmstudios.com/us/en/original-series/scarpetta/1",
+        "thumbnail": "https://image.tmdb.org/t/p/w342/zvkcHCJUPqv7R9ukaiDNkm75jy.jpg",
+        "rating": 62,
+        "season": ""
       },
       {
         "type": "series",
@@ -118,22 +134,6 @@
         "link": "",
         "thumbnail": "https://image.tmdb.org/t/p/w342/8oFoPG0eTPEwyO1VkN4G51qWAvG.jpg",
         "rating": 95,
-        "season": ""
-      },
-      {
-        "type": "movie",
-        "title": "Scarpetta",
-        "overview": "Renowned forensic pathologist Dr. Kay Scarpetta returns to her position as Virginia's Chief Medical Examiner, where she investigates a haunting murder with eerie reminders from her first big case decades ago. In 1998, Scarpetta works alongside Detective Pete Marino and FBI Agent Benton Wesley as they investigate a series of brutal stranglings. Based on the best-selling novels by Patricia Cornwell.",
-        "genres": [
-          "Drama",
-          "Crime",
-          "Mystery"
-        ],
-        "added_date": "March 11",
-        "added_ts": 1773201600,
-        "link": "https://press.amazonmgmstudios.com/us/en/original-series/scarpetta/1",
-        "thumbnail": "https://image.tmdb.org/t/p/w342/zvkcHCJUPqv7R9ukaiDNkm75jy.jpg",
-        "rating": 62,
         "season": ""
       },
       {

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-24 10:19 EDT",
+  "updated": "2026-03-24 10:39 EDT",
   "week_label": "March 9 \u2013 March 24, 2026",
   "groups": {
     "TV Series": [
@@ -331,6 +331,21 @@
       }
     ],
     "Movies": [
+      {
+        "type": "movie",
+        "title": "Minions: The Rise of Gru",
+        "overview": "Teenage Gru joins forces with Kevin, Stuart and Bob to defeat the Vicious 6 in an adventure featuring spectacular action and the franchise's signature subversive humor.",
+        "genres": [
+          "Adventure",
+          "Animation",
+          "Comedy"
+        ],
+        "added_date": "March 24",
+        "added_ts": 1774362744,
+        "link": "https://www.netflix.com/title/81198916/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/6431/poster/vertical/en/240.jpg?Expires=1798808053&Signature=Ovn6dxweCBXN947bdsVRvPx-I6nnYw-6qQnTLy1D6WibP53AjCfdYUpv6B1AbTHqgFpbw-OiBSm7eQx7TvqT4LsEj9LY4PTvl2dm2RTT8gxYSSs9TxuhR6E1eqKlMN6q~dBPnbfRGnOQuRkQMzsn8uFbjUvTEu5fNefv4BnWGAF1FMY3QMDGGYwT-sBeLM7BAFLZCMyTN4i3tBOJmBm3fACVol6SRGMvCn1YcepDp4ylnbCDUOi365KD441iHUF5jSabT98UsxY92nC1P9jonR5jwsJG1pKNaJ7ndcTxyyrmI~Z01LYTPLrMEJGyGEKcOKEWUEPWo9hh2PIZnPzDQg__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 66
+      },
       {
         "type": "movie",
         "title": "Anatomy of a Fall",
