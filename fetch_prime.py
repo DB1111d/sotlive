@@ -98,7 +98,7 @@ def tmdb_request(path: str, params: dict) -> dict:
 # media type here. Find IDs at themoviedb.org — it's in the URL of the title page.
 # Format: "Exact Title As In prime.json": {"id": 123456, "media_type": "movie"/"tv"}
 TMDB_OVERRIDES = {
-    "Scarpetta": {"id": 240740, "media_type": "tv"},
+    "Scarpetta": {"id": 240740, "media_type": "tv", "type": "series"},
 }
 
 
