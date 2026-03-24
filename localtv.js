@@ -234,15 +234,7 @@
     document.getElementById('ltv-login-btn').addEventListener('click', () => {});
     document.getElementById('ltv-signup-btn').addEventListener('click', () => {});
 
-    // About tab
-    const aboutBtn = document.createElement('button');
-    aboutBtn.className = 'tab';
-    aboutBtn.id = 'about-tab';
-    aboutBtn.textContent = 'About';
-    aboutBtn.addEventListener('click', () => {
-      if (typeof switchToAbout === 'function') switchToAbout();
-    });
-    tabsEl.appendChild(aboutBtn);
+
   }
 
 })();
