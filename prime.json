@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-24 09:51 EDT",
+  "updated": "2026-03-24 10:00 EDT",
   "week_label": "February 22 \u2013 March 24, 2026",
   "groups": {
     "TV Series": [
@@ -123,13 +123,18 @@
       {
         "type": "movie",
         "title": "Scarpetta",
-        "overview": "A fragment of a short comedy of Neapolitan setting, in which the actor Vincenzo Scarpetta, son of playwright Eduardo, is struggling with a Miss across the Atlantic. The woman throws a chest in the sea, asking his lover to recover it as proof of love. He turns to a fisherman, offering him money to complete the recovery for him. The film, shot in 1916, was, for reasons unknown, unpublished until 1918.",
-        "genres": [],
+        "overview": "After the Queen of Hearts incites a coup on Auradon, her rebellious daughter Red and Cinderella's perfectionist daughter Chloe join forces and travel back in time to try to undo the traumatic event that set Red's mother down her villainous path.",
+        "genres": [
+          "Fantasy",
+          "Adventure",
+          "Family",
+          "Comedy"
+        ],
         "added_date": "March 11",
         "added_ts": 1773201600,
         "link": "https://press.amazonmgmstudios.com/us/en/original-series/scarpetta/1",
-        "thumbnail": "",
-        "rating": null,
+        "thumbnail": "https://image.tmdb.org/t/p/w342/8fYluTtB3b3HKO7KQa5tzrvGaps.jpg",
+        "rating": 67,
         "season": ""
       },
       {
