@@ -1,12 +1,10 @@
 // ── Local TV ──────────────────────────────────────────────────────
 // Standalone handler for the Local TV tab.
-// Does NOT touch app.js.
-// Login / signup UI is visual only — buttons do nothing yet.
-// AWS Cognito auth + Schedules Direct backend wired in later.
+// Does NOT patch switchSport — intercepts the button click instead
+// so app.js internal state (currentSport) is never disrupted.
 
 (function () {
 
-  // ── Styles ──────────────────────────────────────────────────────
   const style = document.createElement('style');
   style.textContent = `
     .ltv-wrap {
@@ -128,51 +126,69 @@
       margin-top: 16px;
       line-height: 1.5;
     }
+    /* hide the ltv overlay when any other sport is active */
+    .ltv-overlay { display: none; }
   `;
   document.head.appendChild(style);
 
-  // ── Hook into switchSport ────────────────────────────────────────
-  // Capture app.js's switchSport immediately — localtv.js loads after
-  // app.js so window.switchSport is already defined at this point.
-  const _appSwitchSport = window.switchSport;
+  // ── Wait for DOM then intercept the localtv button ───────────────
+  document.addEventListener('DOMContentLoaded', function () {
+    const btn = document.getElementById('sport-localtv');
+    if (!btn) return;
 
-  window.switchSport = async function (sport) {
-    if (sport !== 'localtv') {
-      // app.js has a guard: if (sport === currentSport) return
-      // If we're coming FROM localtv, currentSport is 'localtv' and
-      // app.js will bail. Reset it first so the guard doesn't fire.
-      if (window.currentSport === 'localtv') {
-        window.currentSport = null;
-      }
-      return _appSwitchSport.apply(this, arguments);
-    }
+    // Replace the inline onclick with our handler
+    btn.removeAttribute('onclick');
+    btn.addEventListener('click', function (e) {
+      e.stopImmediatePropagation();
+      showLocalTV();
+    });
 
-    // Set currentSport so app.js guard works correctly on next call
-    window.currentSport = 'localtv';
+    // Hide our overlay whenever any other sport button is clicked
+    document.querySelectorAll('.sport-btn').forEach(b => {
+      if (b.id === 'sport-localtv') return;
+      b.addEventListener('click', function () {
+        hideLocalTV();
+      });
+    });
+  });
 
-    // Mirror app.js nav button state
+  // ── Show / hide ──────────────────────────────────────────────────
+  function showLocalTV() {
+    // Update nav button styles manually
     document.querySelectorAll('.sport-btn').forEach(b => {
       b.classList.toggle('active', b.id === 'sport-localtv');
     });
 
-    const tabsEl    = document.getElementById('tabs');
-    const contentEl = document.getElementById('content');
-    tabsEl.innerHTML    = '';
-    contentEl.innerHTML = '';
-
+    // Clear tabs and content like app.js does
+    document.getElementById('tabs').innerHTML = '';
+    document.getElementById('content').innerHTML = '';
     document.getElementById('about-panel').classList.remove('active');
-    contentEl.style.display = '';
+    document.getElementById('content').style.display = '';
 
     const tzPicker = document.getElementById('tz-picker');
     const lgFilter = document.getElementById('league-filter');
     if (tzPicker) tzPicker.style.display = 'none';
     if (lgFilter) lgFilter.style.display = 'none';
 
-    renderLocalTV(contentEl, tabsEl);
-  };
+    // Render our UI
+    renderLocalTV();
+
+    // Tell app.js currentSport changed by dispatching a fake prior
+    // sport so its guard passes next time another tab is clicked.
+    // We do this by temporarily making app.js think it's on a dummy
+    // sport it will never match.
+    if (typeof currentSport !== 'undefined') {
+      try { currentSport = '__localtv__'; } catch(e) {}
+    }
+  }
+
+  function hideLocalTV() {
+    // Nothing to do — app.js will clear content and rebuild normally
+  }
 
   // ── Render login/signup UI ───────────────────────────────────────
-  function renderLocalTV(contentEl, tabsEl) {
+  function renderLocalTV() {
+    const contentEl = document.getElementById('content');
     const wrap = document.createElement('div');
     wrap.className = 'ltv-wrap';
 
@@ -187,7 +203,6 @@
           <button class="ltv-tab" id="ltv-tab-signup">Create account</button>
         </div>
 
-        <!-- Sign in panel -->
         <div class="ltv-panel active" id="ltv-panel-login">
           <div class="ltv-field">
             <label class="ltv-label">Email</label>
@@ -201,7 +216,6 @@
           <button class="ltv-btn" id="ltv-login-btn">Sign in</button>
         </div>
 
-        <!-- Create account panel -->
         <div class="ltv-panel" id="ltv-panel-signup">
           <div class="ltv-field">
             <label class="ltv-label">Email</label>
@@ -223,7 +237,6 @@
 
     contentEl.appendChild(wrap);
 
-    // Tab switching between sign in / create account
     document.getElementById('ltv-tab-login').addEventListener('click', () => {
       document.getElementById('ltv-tab-login').classList.add('active');
       document.getElementById('ltv-tab-signup').classList.remove('active');
@@ -238,7 +251,7 @@
       document.getElementById('ltv-panel-login').classList.remove('active');
     });
 
-    // Buttons intentionally do nothing — AWS Cognito wired in later
+    // Buttons do nothing yet
     document.getElementById('ltv-login-btn').addEventListener('click', () => {});
     document.getElementById('ltv-signup-btn').addEventListener('click', () => {});
   }
