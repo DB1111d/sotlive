@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-24 09:37 EDT",
+  "updated": "2026-03-24 09:51 EDT",
   "week_label": "February 22 \u2013 March 24, 2026",
   "groups": {
     "TV Series": [
@@ -109,13 +109,15 @@
       {
         "type": "movie",
         "title": "The Silent Service Season Two: The Battle of Arctic Ocean",
-        "overview": "",
-        "genres": [],
+        "overview": "In the freezing northern seas, the Yamato nuclear submarine begins its deep underwater voyage to the tune of Mozart, heading for the United Nations headquarters in New York. In the Bering Strait between the US and Russia, another submarine approaches: an American nuclear submarine that overwhelmingly dwarfs the Yamato. Now, a battle commences among the cracking floes of the cold Arctic Ocean.",
+        "genres": [
+          "War"
+        ],
         "added_date": "March 19",
         "added_ts": 1773892800,
         "link": "",
-        "thumbnail": "",
-        "rating": null,
+        "thumbnail": "https://image.tmdb.org/t/p/w342/8oFoPG0eTPEwyO1VkN4G51qWAvG.jpg",
+        "rating": 95,
         "season": ""
       },
       {
