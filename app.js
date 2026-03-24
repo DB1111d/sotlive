@@ -634,6 +634,12 @@ async function switchSport(sport) {
   hideLeagueFilter();
   resetLeagueFilter();
 
+  // Local TV — coming soon placeholder
+  if (sport === 'localtv') {
+    contentEl.innerHTML = '<div class="empty"><div class="empty-icon">🐰</div>Coming soon.</div>';
+    return;
+  }
+
   // Netflix and HBO Max share the same tile layout — no day tabs
   if (sport === 'netflix' || sport === 'hbo' || sport === 'prime' || sport === 'appletv') {
     const jsonFile = sport === 'hbo' ? 'hbo.json' : sport === 'prime' ? 'prime.json' : sport === 'appletv' ? 'appletv.json' : 'netflix.json';
