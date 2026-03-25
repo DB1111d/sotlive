@@ -1,8 +1,21 @@
 {
-  "updated": "2026-03-24 10:39 EDT",
-  "week_label": "March 9 \u2013 March 24, 2026",
+  "updated": "2026-03-25 04:38 EDT",
+  "week_label": "March 10 \u2013 March 25, 2026",
   "groups": {
     "TV Series": [
+      {
+        "type": "series",
+        "title": "Paranormal Revenge",
+        "overview": "The chilling real-life stories of vendettas enacted from beyond the grave. Paranormal experts investigate these terrifying acts of revenge to uncover who is responsible and why.",
+        "genres": [
+          "Horror"
+        ],
+        "added_date": "March 24",
+        "added_ts": 1774391121,
+        "link": "https://play.hbomax.com/show/52df7861-a6cd-435f-a786-40d0073fd7ac",
+        "thumbnail": "https://cdn.movieofthenight.com/show/5060239/poster/vertical/en/240.jpg?Expires=1791449871&Signature=ccpxYUZHN3EKEVxfcXNk-TLDUUgqTIf9nuzsAPhd2VMqwAOF9tWvjPfdGVJ1enyuI8GlI5LKVklMaC0NQsXRN5g~Js3gs82gWWEmffB51IKwam9qF-zgjX4RhWHzOckedxx9MvGTZf1mv01Oa9EnLMF-oFe9jchsZAdMu7QiRw1rz0ZBhXC0u1iIDFWLxz3IGMC9ov-2LNfOp~jW~AwOODdmD4Rr0mv15fk5Gb0YDgeiCoQkO-7HH2K7pmjGTRZ3zlmE6mnHPFKkIjP56gCpLOKMxkpLy0Pjh61aD~aq2bVkEnWXvOsUhxeMhXz4hZnv68D72gfOU98qpwqTmTUgrA__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 46
+      },
       {
         "type": "series",
         "title": "Fit for a Killer",
@@ -263,7 +276,7 @@
         ],
         "added_date": "March 10",
         "added_ts": 1773185471,
-        "link": "https://play.hbomax.com/show/172c49df-837a-42e1-af81-99d49dd843e5",
+        "link": "https://play.hbomax.com/show/26657073-264a-4f77-842e-378d11b2775e",
         "thumbnail": "https://cdn.movieofthenight.com/show/24859512/poster/vertical/en/240.jpg?Expires=1805366780&Signature=Zr9lNp-gdtb~QXP8puddnaKNQYlbrqdTE-OkjjcDzHsNPPoSqLKLoGhKA-2ioMowGJM1nsJTFhh5q-km808hQ3XD3faS-AFRSQGAzVLPt2NMNmonb70FTddARbKJFAl~2~KIuhBZcB2RUv62U2svrxnIobU5PsKxFtCmKJHMbIva6nHbAH0M6KgNV38Lvv97qj214kx7OreQIqNzw84DyF1L2PjTYGakQMtZ5CX~Cmdd51WtfcQlol9Kt59NEr~ig3w5TSZ-KUn0QMjlRTmShQR~Jn58pBlcvu~k1snUYDa~TVOm5epOZfGsvtrqzXBV~QRwrQ~MGo3zid90nvDRTw__&Key-Pair-Id=KK4HN3OO4AT5R",
         "rating": 64
       }
@@ -986,7 +999,7 @@
         ],
         "added_date": "March 10",
         "added_ts": 1773192599,
-        "link": "https://play.hbomax.com/movie/8ecd355b-7fb3-4a43-817c-11a7b3e0a1ae",
+        "link": "https://play.hbomax.com/movie/45f4ef12-5ac0-484b-abf9-ac7a0040bad3",
         "thumbnail": "https://cdn.movieofthenight.com/show/2788/poster/vertical/en/240.jpg?Expires=1800311060&Signature=a33y7Aj2QaYUyTaCXySRvACwys3rOD0ZN-rpVSRYC5YcwSD999JXbVMygf07fuFurtlvobfXEMIiUpvszt-T1mSYtdCX6vmwkVBSVTb-V7R~01dMtlVyS2x~vL6J0B-ubfO~G2gZ42iChyT8BsQ1GWNSLVrErIrPoABKen7eATS5mS5TFX-j3DdlotJk6tFOxHFPpkNvwB9mZTvDGD64bI0beXNoypOoVmjxCT-jxJmD86lv-FueP67TSYN84oOMZS3Bt6h2ad~Mmja2H9HU5wQFrH8lVjQ4x3fHFbpZi9ySARKC-xoStFsVhpWITl8kAjD~hzQrx8KdYJn0mReK5Q__&Key-Pair-Id=KK4HN3OO4AT5R",
         "rating": 62
       },
