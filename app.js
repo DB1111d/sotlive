@@ -672,8 +672,9 @@ async function switchSport(sport) {
     const groupNames = Object.keys(groups).filter(k => groups[k].length > 0);
 
     if (groupNames.length === 0) {
+      const emptyIcon = sport === 'hbo' ? '📼' : sport === 'prime' ? '📦' : sport === 'appletv' ? '🍎' : '🎬';
       contentEl.innerHTML =
-        `<div class="empty"><div class="empty-icon">${sport === 'hbo' ? '📼' : sport === 'prime' ? '📦' : sport === 'appletv' ? '🍎' : '🎬'}</div>No new releases this month.</div>`;
+        `${data.week_label ? `<div class="netflix-week-label">${data.week_label}</div>` : ''}<div class="empty"><div class="empty-icon">${emptyIcon}</div>No new releases this month.</div>`;
       const aboutBtn = document.createElement('button');
       aboutBtn.className = 'tab';
       aboutBtn.id = 'about-tab';
@@ -699,7 +700,7 @@ async function switchSport(sport) {
         : '';
       const posterEl = show.thumbnail
         ? (show.link
-            ? `<a href="${show.link}" target="_blank" rel="noopener" style="flex-shrink:0;display:block;"><img class="netflix-poster" src="${show.thumbnail}" alt="${show.title}" loading="lazy" decoding="async" width="140" height="210" style="display:block;"></a>`
+            ? `<a href="${show.link}" target="_blank" rel="noopener" class="netflix-poster" style="display:block;padding:0;"><img src="${show.thumbnail}" alt="${show.title}" loading="lazy" decoding="async" width="140" height="210" style="display:block;width:100%;height:100%;object-fit:cover;"></a>`
             : `<img class="netflix-poster" src="${show.thumbnail}" alt="${show.title}" loading="lazy" decoding="async" width="140" height="210">`)
         : `<div class="netflix-poster-placeholder">${sport === 'hbo' ? '📼' : sport === 'prime' ? '📦' : sport === 'appletv' ? '🍎' : '🎬'}</div>`;
       const cardInner = `
