@@ -628,7 +628,7 @@ def main():
             h2_end = html.find('</h2>', h2_start)
             header_lower = html[h2_start + 4:h2_end].strip().lower()
 
-            if 'world' in header_lower and 'cup' in header_lower and 'qualif' in header_lower:
+            if ('world' in header_lower and 'cup' in header_lower and 'qualif' in header_lower) or (header_lower.startswith('wcq')):
                 # Find section boundary — next Card__Header__Title
                 next_section = html.find('Card__Header__Title', h2_end + 1)
                 section = html[h2_start:next_section if next_section != -1 else h2_start + 100000]
