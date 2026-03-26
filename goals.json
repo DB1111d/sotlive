@@ -1,7 +1,113 @@
 {
-  "updated": "2026-03-26T19:42:24Z",
+  "updated": "2026-03-26T20:19:19Z",
   "date": "2026-03-26",
   "matches": [
+    {
+      "home": "Czechia",
+      "away": "Ireland",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s4ice2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s4ice2",
+          "scorer": "Troy Parrott",
+          "minute": 19,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/5e15d06e",
+          "videoEmbed": "https://streamff.link/v/5e15d06e",
+          "directMp4": null,
+          "postedAt": 1774555660000
+        },
+        {
+          "postId": "1s4igml",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s4igml",
+          "scorer": "Own Goal",
+          "minute": 24,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamff.link/v/ccfdb6b5",
+          "videoEmbed": "https://streamff.link/v/ccfdb6b5",
+          "directMp4": null,
+          "postedAt": 1774555909000
+        }
+      ]
+    },
+    {
+      "home": "Slovakia",
+      "away": "Kosovo",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s4hymh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s4hymh",
+          "scorer": "Martin Valjent",
+          "minute": 6,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/f59ce075",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774554825000
+        },
+        {
+          "postId": "1s4ice7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s4ice7",
+          "scorer": "Veldin Hodza",
+          "minute": 21,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/ce817084",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774555660000
+        }
+      ]
+    },
+    {
+      "home": "Ukraine",
+      "away": "Sweden",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s4i0zs",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s4i0zs",
+          "scorer": "Viktor Gyokeres",
+          "minute": 6,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/vc80azl03grg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/vc80azl03grg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1774554974000
+        }
+      ]
+    },
+    {
+      "home": "Hungary U21",
+      "away": "Israel U21",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s4h5ip",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s4h5ip",
+          "scorer": "Ran Binyamin",
+          "minute": 34,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/AQvYNRo5krX2boB/watch",
+          "videoEmbed": "https://streamain.com/AQvYNRo5krX2boB/watch",
+          "directMp4": null,
+          "postedAt": 1774552981000
+        }
+      ]
+    },
     {
       "home": "Malta",
       "away": "Luxembourg",
