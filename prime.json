@@ -1,6 +1,6 @@
 {
-  "updated": "2026-03-25 04:38 EDT",
-  "week_label": "February 23 \u2013 March 25, 2026",
+  "updated": "2026-03-26 04:43 EDT",
+  "week_label": "February 24 \u2013 March 26, 2026",
   "groups": {
     "TV Series": [
       {
@@ -82,14 +82,16 @@
       {
         "type": "movie",
         "title": "Bait",
-        "overview": "A freak tsunami traps shoppers at a coastal Australian supermarket inside the building ... along with a 12-foot great white shark.",
+        "overview": "Landing in jail for a petty theft crime, Alvin finds himself sharing a cell with John Jaster, the incarcerated half of the pair of high-tech thieves responsible for the missing gold. His partner, Bristol, is still at large. Alvin wants only to get out of prison and start fresh with his girlfriend, Lisa, and when the Feds, led by U.S. Treasury investigator Clenteen, set him loose on a sketchy deal, he thinks his luck has changed. Alvin has his freedom and the Feds have found their bait.",
         "genres": [
-          "Horror"
+          "Action",
+          "Thriller",
+          "Crime"
         ],
         "added_date": "March 25",
         "added_ts": 1774411200,
         "link": "https://press.amazonmgmstudios.com/us/en/original-series/bait/1",
-        "thumbnail": "https://image.tmdb.org/t/p/w342/e2OIr4y90ZZjIRWQ0XBOVzpBn4x.jpg",
+        "thumbnail": "https://image.tmdb.org/t/p/w342/jon5ux36iUn6GnntxkZaNtB6AZT.jpg",
         "rating": 57,
         "season": ""
       },
@@ -105,7 +107,7 @@
         "added_ts": 1774411200,
         "link": "https://press.amazonmgmstudios.com/us/en/original-movies/pretty-lethal",
         "thumbnail": "https://image.tmdb.org/t/p/w342/znTPnXCK3lEQJgqXCvP7e5FUz6f.jpg",
-        "rating": null,
+        "rating": 63,
         "season": ""
       },
       {
@@ -198,14 +200,12 @@
       {
         "type": "movie",
         "title": "Final Siren: Inside the AFL",
-        "overview": "In one of the tightest seasons in AFL history, Final Siren follows seven of the game's biggest names - Marcus Bontempelli, Nat Fyfe, Max Gawn, Toby Greene, Touk Miller, Cam Rayner and Dayne Zorko - as public doubt, online abuse, injuries, ageing, suspensions, and fierce rivalries threaten to derail what could be their shot at Premiership glory in 2025.",
-        "genres": [
-          "Documentary"
-        ],
+        "overview": "The Final Siren is an Australian Football League report show aired on One on 27 March 2011 until 8 May 2011.",
+        "genres": [],
         "added_date": "February 27",
         "added_ts": 1772168400,
         "link": "",
-        "thumbnail": "https://image.tmdb.org/t/p/w342/uYbO4kXd2WK3OpdAUtjQ6bxgy2Z.jpg",
+        "thumbnail": "",
         "rating": null,
         "season": ""
       },
@@ -223,20 +223,6 @@
         "link": "https://www.amazon.com/gp/video/detail/B0G565KPS4/ref=atv_dp_share_cu_r",
         "thumbnail": "https://image.tmdb.org/t/p/w342/dl1cA7wdwePc9QU2Rc24EPqlcyJ.jpg",
         "rating": 62,
-        "season": ""
-      },
-      {
-        "type": "movie",
-        "title": "The CEO Club",
-        "overview": "Dive deep into the world of seven trailblazing female CEOs (Serena Williams, Thalia, Dee Ocleppo Hilfiger, Loren Ridinger, Winnie Harlow, Hannah Bronfman, and Isabela Rangel Grutman) as they navigate the triumphs and challenges of both their professional and personal lives. Redefining what it means to lead in today's world, these women enter the next phase of their careers with confidence and clarity forged by life experiences.",
-        "genres": [
-          "Documentary"
-        ],
-        "added_date": "February 23",
-        "added_ts": 1771822800,
-        "link": "https://press.amazonmgmstudios.com/us/en/original-series/the-ceo-club/1",
-        "thumbnail": "https://image.tmdb.org/t/p/w342/3xNFwqqXJpMhq4od97nncOzJ1S1.jpg",
-        "rating": 10,
         "season": ""
       }
     ]
