@@ -474,19 +474,7 @@ def fetch_scoreboard_league(date_str: str, header_text: str, league_name: str,
         next_league = html.find('Card__Header__Title', section_start + 100)
         section = html[section_start:next_league] if next_league != -1 else html[section_start:section_start + 50000]
 
-        # ESPN uses different class prefixes depending on competition type
-        cell_marker = (
-            'ScoreboardScoreCell__Overview'
-            if 'ScoreboardScoreCell__Overview' in section
-            else 'ScoreCell__Overview'
-        )
-        if 'ScoreboardScoreCell__TeamName--shortDisplayName' in section:
-            team_name_marker = 'ScoreboardScoreCell__TeamName--shortDisplayName'
-        elif 'ScoreCell__TeamName--shortDisplayName' in section:
-            team_name_marker = 'ScoreCell__TeamName--shortDisplayName'
-        else:
-            team_name_marker = 'ScoreCell__TeamName--abbrev'
-
+        cell_marker = 'ScoreboardScoreCell__Overview'
         pos = 0
         while True:
             idx = section.find(cell_marker, pos)
@@ -524,7 +512,7 @@ def fetch_scoreboard_league(date_str: str, header_text: str, league_name: str,
             teams = []
             tp = 0
             while len(teams) < 2:
-                t_idx2 = parent_chunk.find(team_name_marker, tp)
+                t_idx2 = parent_chunk.find('ScoreCell__TeamName--shortDisplayName', tp)
                 if t_idx2 == -1:
                     break
                 t_close2 = parent_chunk.find('>', t_idx2)
@@ -532,7 +520,7 @@ def fetch_scoreboard_league(date_str: str, header_text: str, league_name: str,
                 team = parent_chunk[t_close2 + 1:t_end2].strip()
                 if team:
                     teams.append(team)
-                tp = t_idx2 + len(team_name_marker)
+                tp = t_idx2 + len('ScoreCell__TeamName--shortDisplayName')
 
             pos = next_idx if next_idx != -1 else len(section)
 
@@ -611,31 +599,104 @@ def main():
 
             schedule[date_str]["games"].append(g)
 
-    # WCQ Playoff Tournament via scoreboard scraper (not available via JSON API)
+    # WCQ Playoff Tournament — scan ESPN scoreboard for any section whose h2
+    # header contains "world", "cup", AND "qualifier" (case-insensitive).
+    # Grabs every game in that section that has a known broadcaster.
+    WCQ_SOURCE_MAP = {
+        "FS1": "FS1", "FS2": "FS2", "FOX": "FOX",
+        "ESPN": "ESPN", "ESPN2": "ESPN2", "ESPN+": "ESPN+",
+        "ABC": "ABC", "NBC": "NBC", "CBS": "CBS",
+        "Peacock": "Peacock", "TNT": "TNT", "TBS": "TBS",
+    }
     print("Fetching World Cup Qualifying - Playoff Tournament (scoreboard scrape)...")
     for date_obj, date_str in dates:
-        games = fetch_scoreboard_league(
-            date_str,
-            "WCQ - Playoff Tournament",
-            "World Cup Qualifying",
-            {
-                "FS1":    "FS1",
-                "FS2":    "FS2",
-                "FOX":    "FOX",
-                "ESPN":   "ESPN",
-                "ESPN2":  "ESPN2",
-                "ESPN+":  "ESPN+",
-                "TNT":    "TNT",
-                "CBS":    "CBS",
-                "Peacock": "Peacock",
-                "NBC":    "NBC",
-            },
-            SPANISH_EXCLUDE,
-            "",  # no fallback — drop game if no broadcaster found
-        )
-        if games:
-            print(f"  {date_str}: {len(games)} games")
-        schedule[date_str]["games"].extend(games)
+        url = f"https://www.espn.com/soccer/scoreboard/_/date/{date_str}"
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; SOTLive/1.0)"})
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                html = resp.read().decode("utf-8")
+        except Exception as e:
+            print(f"    Scrape error for WCQ Playoff on {date_str}: {e}")
+            continue
+
+        wcq_games = []
+        pos = 0
+        while True:
+            h2_start = html.find('<h2>', pos)
+            if h2_start == -1:
+                break
+            h2_end = html.find('</h2>', h2_start)
+            header_lower = html[h2_start + 4:h2_end].strip().lower()
+
+            if 'world' in header_lower and 'cup' in header_lower and 'qualif' in header_lower:
+                # Find section boundary — next Card__Header__Title
+                next_section = html.find('Card__Header__Title', h2_end + 1)
+                section = html[h2_start:next_section if next_section != -1 else h2_start + 100000]
+
+                # Each game cell
+                cell_marker = 'ScoreCell__Overview'
+                cp = 0
+                while True:
+                    ci = section.find(cell_marker, cp)
+                    if ci == -1:
+                        break
+                    next_ci = section.find(cell_marker, ci + len(cell_marker))
+                    cell = section[ci:next_ci if next_ci != -1 else ci + 3000]
+
+                    # Time
+                    ti = cell.find('ScoreCell__Time')
+                    if ti == -1:
+                        cp = next_ci if next_ci != -1 else len(section)
+                        continue
+                    tc = cell.find('>', ti); te = cell.find('<', tc + 1)
+                    time_val = cell[tc + 1:te].strip()
+
+                    # Broadcaster — drop if none known
+                    ni = cell.find('ScoreCell__NetworkItem')
+                    if ni == -1:
+                        cp = next_ci if next_ci != -1 else len(section)
+                        continue
+                    nc = cell.find('>', ni); ne = cell.find('<', nc + 1)
+                    source = WCQ_SOURCE_MAP.get(cell[nc + 1:ne].strip(), "")
+                    if not source:
+                        cp = next_ci if next_ci != -1 else len(section)
+                        continue
+
+                    # Teams — try abbrev first then shortDisplayName
+                    teams = []
+                    parent = section[max(0, ci - 500):next_ci if next_ci != -1 else ci + 4000]
+                    for marker in ('ScoreCell__TeamName--abbrev', 'ScoreCell__TeamName--shortDisplayName',
+                                   'ScoreboardScoreCell__TeamName--shortDisplayName'):
+                        if marker not in parent:
+                            continue
+                        tp2 = 0
+                        while len(teams) < 2:
+                            t2i = parent.find(marker, tp2)
+                            if t2i == -1:
+                                break
+                            t2c = parent.find('>', t2i); t2e = parent.find('<', t2c + 1)
+                            name = parent[t2c + 1:t2e].strip()
+                            if name:
+                                teams.append(name)
+                            tp2 = t2i + len(marker)
+                        if len(teams) == 2:
+                            break
+
+                    if len(teams) == 2:
+                        wcq_games.append({
+                            "league": "World Cup Qualifying",
+                            "time":   time_val,
+                            "match":  f"{teams[0]} vs {teams[1]}",
+                            "source": source,
+                        })
+
+                    cp = next_ci if next_ci != -1 else len(section)
+
+            pos = h2_end + 1
+
+        if wcq_games:
+            print(f"  {date_str}: {len(wcq_games)} WCQ playoff games")
+        schedule[date_str]["games"].extend(wcq_games)
 
     # Conference League via scoreboard scraper (no valid JSON API slug exists)
     print("Fetching UEFA Europa Conference League (scoreboard scrape)...")
