@@ -599,6 +599,32 @@ def main():
 
             schedule[date_str]["games"].append(g)
 
+    # WCQ Playoff Tournament via scoreboard scraper (not available via JSON API)
+    print("Fetching World Cup Qualifying - Playoff Tournament (scoreboard scrape)...")
+    for date_obj, date_str in dates:
+        games = fetch_scoreboard_league(
+            date_str,
+            "FIFA World Cup Qualifying - Playoff Tournament",
+            "World Cup Qualifying",
+            {
+                "FS1":    "FS1",
+                "FS2":    "FS2",
+                "FOX":    "FOX",
+                "ESPN":   "ESPN",
+                "ESPN2":  "ESPN2",
+                "ESPN+":  "ESPN+",
+                "TNT":    "TNT",
+                "CBS":    "CBS",
+                "Peacock": "Peacock",
+                "NBC":    "NBC",
+            },
+            SPANISH_EXCLUDE,
+            "",  # no fallback — drop game if no broadcaster found
+        )
+        if games:
+            print(f"  {date_str}: {len(games)} games")
+        schedule[date_str]["games"].extend(games)
+
     # Conference League via scoreboard scraper (no valid JSON API slug exists)
     print("Fetching UEFA Europa Conference League (scoreboard scrape)...")
     for date_obj, date_str in dates:
