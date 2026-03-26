@@ -60,7 +60,6 @@ ESPN_SOURCE_MAP = {
     "ESPN":                    "ESPN",
     "ESPN2":                   "ESPN2",
     "ESPN+":                   "ESPN+",
-    "ESPN Unlimited":          "ESPN Unlimited",
     "ESPNU":                   "ESPN+",
     "ESPNEWS":                 "ESPN+",
     "Hulu":                    "Hulu",
@@ -475,7 +474,17 @@ def fetch_scoreboard_league(date_str: str, header_text: str, league_name: str,
         next_league = html.find('Card__Header__Title', section_start + 100)
         section = html[section_start:next_league] if next_league != -1 else html[section_start:section_start + 50000]
 
-        cell_marker = 'ScoreboardScoreCell__Overview'
+        # ESPN uses two different class name prefixes depending on the competition
+        cell_marker = (
+            'ScoreboardScoreCell__Overview'
+            if 'ScoreboardScoreCell__Overview' in section
+            else 'ScoreCell__Overview'
+        )
+        team_name_marker = (
+            'ScoreboardScoreCell__TeamName--shortDisplayName'
+            if 'ScoreboardScoreCell__TeamName' in section
+            else 'ScoreCell__TeamName--shortDisplayName'
+        )
         pos = 0
         while True:
             idx = section.find(cell_marker, pos)
@@ -513,7 +522,7 @@ def fetch_scoreboard_league(date_str: str, header_text: str, league_name: str,
             teams = []
             tp = 0
             while len(teams) < 2:
-                t_idx2 = parent_chunk.find('ScoreCell__TeamName--shortDisplayName', tp)
+                t_idx2 = parent_chunk.find(team_name_marker, tp)
                 if t_idx2 == -1:
                     break
                 t_close2 = parent_chunk.find('>', t_idx2)
@@ -521,7 +530,7 @@ def fetch_scoreboard_league(date_str: str, header_text: str, league_name: str,
                 team = parent_chunk[t_close2 + 1:t_end2].strip()
                 if team:
                     teams.append(team)
-                tp = t_idx2 + len('ScoreCell__TeamName--shortDisplayName')
+                tp = t_idx2 + len(team_name_marker)
 
             pos = next_idx if next_idx != -1 else len(section)
 
