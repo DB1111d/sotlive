@@ -1,46 +1,5 @@
 {
-  "updated": "2026-03-26T03:27:00Z",
+  "updated": "2026-03-26T05:21:30Z",
   "date": "2026-03-26",
-  "matches": [
-    {
-      "home": "US Virgin Islands",
-      "away": "American Samoa",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1s3m18m",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1s3m18m",
-          "scorer": "Ramos",
-          "minute": 7,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/primpzd029rg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/primpzd029rg1/CMAF_480.mp4?source=fallback",
-          "postedAt": 1774469887000
-        }
-      ]
-    },
-    {
-      "home": "England U19",
-      "away": "Serbia U19",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1s3frfc",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1s3frfc",
-          "scorer": "Mihajlo Cvetković",
-          "minute": null,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/zekdqx21y7rg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/zekdqx21y7rg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1774456442000
-        }
-      ]
-    }
-  ]
+  "matches": []
 }
