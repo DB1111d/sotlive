@@ -474,17 +474,19 @@ def fetch_scoreboard_league(date_str: str, header_text: str, league_name: str,
         next_league = html.find('Card__Header__Title', section_start + 100)
         section = html[section_start:next_league] if next_league != -1 else html[section_start:section_start + 50000]
 
-        # ESPN uses two different class name prefixes depending on the competition
+        # ESPN uses different class prefixes depending on competition type
         cell_marker = (
             'ScoreboardScoreCell__Overview'
             if 'ScoreboardScoreCell__Overview' in section
             else 'ScoreCell__Overview'
         )
-        team_name_marker = (
-            'ScoreboardScoreCell__TeamName--shortDisplayName'
-            if 'ScoreboardScoreCell__TeamName' in section
-            else 'ScoreCell__TeamName--shortDisplayName'
-        )
+        if 'ScoreboardScoreCell__TeamName--shortDisplayName' in section:
+            team_name_marker = 'ScoreboardScoreCell__TeamName--shortDisplayName'
+        elif 'ScoreCell__TeamName--shortDisplayName' in section:
+            team_name_marker = 'ScoreCell__TeamName--shortDisplayName'
+        else:
+            team_name_marker = 'ScoreCell__TeamName--abbrev'
+
         pos = 0
         while True:
             idx = section.find(cell_marker, pos)
@@ -614,7 +616,7 @@ def main():
     for date_obj, date_str in dates:
         games = fetch_scoreboard_league(
             date_str,
-            "FIFA World Cup Qualifying - Playoff Tournament",
+            "WCQ - Playoff Tournament",
             "World Cup Qualifying",
             {
                 "FS1":    "FS1",
