@@ -1,37 +1,77 @@
 {
-  "updated": "2026-03-26T20:19:19Z",
+  "updated": "2026-03-26T20:57:55Z",
   "date": "2026-03-26",
   "matches": [
     {
-      "home": "Czechia",
-      "away": "Ireland",
+      "home": "Wales",
+      "away": "Bosnia & Herzegovina",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1s4ice2",
+          "postId": "1s4jo6q",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1s4ice2",
-          "scorer": "Troy Parrott",
-          "minute": 19,
+          "permalink": "https://redd.it/1s4jo6q",
+          "scorer": "Daniel James Great-goal",
+          "minute": 52,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/953119c9",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774558637000
+        }
+      ]
+    },
+    {
+      "home": "Ukraine",
+      "away": "Sweden",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s4i0zs",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s4i0zs",
+          "scorer": "Viktor Gyokeres",
+          "minute": 6,
           "homeScore": 0,
           "awayScore": 1,
-          "videoUrl": "https://streamff.link/v/5e15d06e",
-          "videoEmbed": "https://streamff.link/v/5e15d06e",
-          "directMp4": null,
-          "postedAt": 1774555660000
+          "videoUrl": "https://v.redd.it/vc80azl03grg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/vc80azl03grg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1774554974000
         },
         {
-          "postId": "1s4igml",
+          "postId": "1s4jo08",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1s4igml",
-          "scorer": "Own Goal",
-          "minute": 24,
+          "permalink": "https://redd.it/1s4jo08",
+          "scorer": "Viktor Gyökeres",
+          "minute": 51,
           "homeScore": 0,
           "awayScore": 2,
-          "videoUrl": "https://streamff.link/v/ccfdb6b5",
-          "videoEmbed": "https://streamff.link/v/ccfdb6b5",
+          "videoUrl": "https://streamff.link/v/07d91e3d",
+          "videoEmbed": "https://streamff.link/v/07d91e3d",
           "directMp4": null,
-          "postedAt": 1774555909000
+          "postedAt": 1774558627000
+        }
+      ]
+    },
+    {
+      "home": "Denmark",
+      "away": "North Macedonia",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s4jljd",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s4jljd",
+          "scorer": "Mikkel Damsgaard 49‎'‎",
+          "minute": null,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/a5e106a9",
+          "videoEmbed": "https://streamff.link/v/a5e106a9",
+          "directMp4": null,
+          "postedAt": 1774558475000
         }
       ]
     },
@@ -65,26 +105,105 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1774555660000
+        },
+        {
+          "postId": "1s4iztj",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s4iztj",
+          "scorer": "Lukas Haraslin",
+          "minute": 45,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/5149465a",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774557110000
+        },
+        {
+          "postId": "1s4jhya",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s4jhya",
+          "scorer": "Fisnik Asllani",
+          "minute": 47,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/ae585133",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774558250000
         }
       ]
     },
     {
-      "home": "Ukraine",
-      "away": "Sweden",
+      "home": "Brazil",
+      "away": "France",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1s4i0zs",
+          "postId": "1s4j4yd",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1s4i0zs",
-          "scorer": "Viktor Gyokeres",
-          "minute": 6,
+          "permalink": "https://redd.it/1s4j4yd",
+          "scorer": "Kylian Mbappe",
+          "minute": 32,
           "homeScore": 0,
           "awayScore": 1,
-          "videoUrl": "https://v.redd.it/vc80azl03grg1",
+          "videoUrl": "https://streamin.link/v/04b63fad",
           "videoEmbed": null,
-          "directMp4": "https://v.redd.it/vc80azl03grg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1774554974000
+          "directMp4": null,
+          "postedAt": 1774557439000
+        }
+      ]
+    },
+    {
+      "home": "Poland",
+      "away": "Albania",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s4iyv3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s4iyv3",
+          "scorer": "Arber Hoxha",
+          "minute": 42,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/89a62355",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774557049000
+        }
+      ]
+    },
+    {
+      "home": "Czechia",
+      "away": "Ireland",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s4ice2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s4ice2",
+          "scorer": "Troy Parrott",
+          "minute": 19,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/5e15d06e",
+          "videoEmbed": "https://streamff.link/v/5e15d06e",
+          "directMp4": null,
+          "postedAt": 1774555660000
+        },
+        {
+          "postId": "1s4igml",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s4igml",
+          "scorer": "Own Goal",
+          "minute": 24,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamff.link/v/ccfdb6b5",
+          "videoEmbed": "https://streamff.link/v/ccfdb6b5",
+          "directMp4": null,
+          "postedAt": 1774555909000
         }
       ]
     },
