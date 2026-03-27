@@ -1,51 +1,6 @@
 {
-  "updated": "2026-03-26 22:30 EDT",
+  "updated": "2026-03-27 01:42 EDT",
   "days": {
-    "20260326": {
-      "date": "Thursday, March 26",
-      "games": [
-        {
-          "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
-          "time": "7:10 PM",
-          "match": "Purdue Boilermakers vs Texas Longhorns",
-          "source": "CBS",
-          "kick_utc": "2026-03-26T23:10Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png"
-        },
-        {
-          "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
-          "time": "7:30 PM",
-          "match": "Nebraska Cornhuskers vs Iowa Hawkeyes",
-          "source": "TBS \u00b7 truTV",
-          "kick_utc": "2026-03-26T23:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png"
-        },
-        {
-          "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
-          "time": "10:05 PM",
-          "match": "Houston Cougars vs Illinois Fighting Illini",
-          "source": "TBS \u00b7 truTV",
-          "kick_utc": "2026-03-27T02:05Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png"
-        },
-        {
-          "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
-          "time": "10:06 PM",
-          "match": "Arizona Wildcats vs Arkansas Razorbacks",
-          "source": "CBS",
-          "kick_utc": "2026-03-27T02:06Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png"
-        }
-      ]
-    },
     "20260327": {
       "date": "Friday, March 27",
       "games": [
@@ -97,12 +52,22 @@
         {
           "conference": "Independent",
           "tourney_round": "NCAA Tournament",
-          "time": "12:00 AM",
-          "match": "TBD vs Iowa Hawkeyes",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-28T04:00Z",
-          "home_logo": "",
+          "time": "6:09 PM",
+          "match": "Illinois Fighting Illini vs Iowa Hawkeyes",
+          "source": "TBS \u00b7 truTV",
+          "kick_utc": "2026-03-28T22:09Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "8:49 PM",
+          "match": "Arizona Wildcats vs Purdue Boilermakers",
+          "source": "TBS \u00b7 truTV",
+          "kick_utc": "2026-03-29T00:49Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png"
         }
       ]
     },
@@ -112,6 +77,10 @@
     },
     "20260330": {
       "date": "Monday, March 30",
+      "games": []
+    },
+    "20260331": {
+      "date": "Tuesday, March 31",
       "games": []
     }
   }
