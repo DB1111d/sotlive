@@ -1,7 +1,217 @@
 {
-  "updated": "2026-03-27T21:19:36Z",
+  "updated": "2026-03-27T21:57:01Z",
   "date": "2026-03-27",
   "matches": [
+    {
+      "home": "England",
+      "away": "Uruguay",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s5hedp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s5hedp",
+          "scorer": "Ben White",
+          "minute": 81,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/4fcd23b5",
+          "videoEmbed": "https://streamff.link/v/4fcd23b5",
+          "directMp4": null,
+          "postedAt": 1774647315000
+        },
+        {
+          "postId": "1s5hqot",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s5hqot",
+          "scorer": "Federico Valverde",
+          "minute": 90,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/eb617681",
+          "videoEmbed": "https://streamff.link/v/eb617681",
+          "directMp4": null,
+          "postedAt": 1774648083000
+        }
+      ]
+    },
+    {
+      "home": "Morocco",
+      "away": "Ecuador",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s5h8qh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s5h8qh",
+          "scorer": "John Yeboah",
+          "minute": 48,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/2e58cca0",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774646948000
+        },
+        {
+          "postId": "1s5hmmc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s5hmmc",
+          "scorer": "Mohamed Hrimat",
+          "minute": 63,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/9821f34b",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774647836000
+        }
+      ]
+    },
+    {
+      "home": "Spain",
+      "away": "Serbia",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s5feid",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s5feid",
+          "scorer": "Mikel Oyarzabal",
+          "minute": 16,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/8913a5b4",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774642701000
+        },
+        {
+          "postId": "1s5g3yy",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s5g3yy",
+          "scorer": "Mikel Oyarzabal",
+          "minute": 44,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/0fcf240f",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774644338000
+        },
+        {
+          "postId": "1s5hb1e",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s5hb1e",
+          "scorer": "Victor Munoz",
+          "minute": 72,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/add978db",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774647098000
+        }
+      ]
+    },
+    {
+      "home": "Switzerland",
+      "away": "Germany",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s5f0i3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s5f0i3",
+          "scorer": "Dan Ndoye",
+          "minute": 17,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/c632dac3",
+          "videoEmbed": "https://streamff.link/v/c632dac3",
+          "directMp4": null,
+          "postedAt": 1774641843000
+        },
+        {
+          "postId": "1s5f93k",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s5f93k",
+          "scorer": "Jonathan Tah",
+          "minute": 26,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/0fb248f4",
+          "videoEmbed": "https://streamff.link/v/0fb248f4",
+          "directMp4": null,
+          "postedAt": 1774642371000
+        },
+        {
+          "postId": "1s5fnb6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s5fnb6",
+          "scorer": "Breel Embolo",
+          "minute": 41,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/a178479f",
+          "videoEmbed": "https://streamff.link/v/a178479f",
+          "directMp4": null,
+          "postedAt": 1774643256000
+        },
+        {
+          "postId": "1s5fssh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s5fssh",
+          "scorer": "Serge Gnavry",
+          "minute": 45,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamff.link/v/550006ad",
+          "videoEmbed": "https://streamff.link/v/550006ad",
+          "directMp4": null,
+          "postedAt": 1774643613000
+        },
+        {
+          "postId": "1s5gum2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s5gum2",
+          "scorer": "Florian Wirtz",
+          "minute": 61,
+          "homeScore": 2,
+          "awayScore": 3,
+          "videoUrl": "https://streamin.link/v/8543db3a",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774646051000
+        },
+        {
+          "postId": "1s5h47f",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s5h47f",
+          "scorer": "Joël Monteiro",
+          "minute": 79,
+          "homeScore": 3,
+          "awayScore": 3,
+          "videoUrl": "https://streamff.link/v/9d2209ed",
+          "videoEmbed": "https://streamff.link/v/9d2209ed",
+          "directMp4": null,
+          "postedAt": 1774646667000
+        },
+        {
+          "postId": "1s5ha1m",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s5ha1m",
+          "scorer": "Florian Wirtz",
+          "minute": 86,
+          "homeScore": 3,
+          "awayScore": 4,
+          "videoUrl": "https://streamff.link/v/a63cd41d",
+          "videoEmbed": "https://streamff.link/v/a63cd41d",
+          "directMp4": null,
+          "postedAt": 1774647033000
+        }
+      ]
+    },
     {
       "home": "Algeria",
       "away": "Guatemala",
@@ -84,78 +294,19 @@
           "videoEmbed": "https://streamain.com/1Mdcdr67L8vywBx/watch",
           "directMp4": null,
           "postedAt": 1774646126000
-        }
-      ]
-    },
-    {
-      "home": "Switzerland",
-      "away": "Germany",
-      "league": "Rest of World",
-      "goals": [
+        },
         {
-          "postId": "1s5f0i3",
+          "postId": "1s5h0ei",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1s5f0i3",
-          "scorer": "Dan Ndoye",
-          "minute": 17,
-          "homeScore": 1,
+          "permalink": "https://redd.it/1s5h0ei",
+          "scorer": "Nadir Benbouali",
+          "minute": 82,
+          "homeScore": 7,
           "awayScore": 0,
-          "videoUrl": "https://streamff.link/v/c632dac3",
-          "videoEmbed": "https://streamff.link/v/c632dac3",
+          "videoUrl": "https://streamain.com/mvfFUf1Ggx9NEEP/watch",
+          "videoEmbed": "https://streamain.com/mvfFUf1Ggx9NEEP/watch",
           "directMp4": null,
-          "postedAt": 1774641843000
-        },
-        {
-          "postId": "1s5f93k",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1s5f93k",
-          "scorer": "Jonathan Tah",
-          "minute": 26,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://streamff.link/v/0fb248f4",
-          "videoEmbed": "https://streamff.link/v/0fb248f4",
-          "directMp4": null,
-          "postedAt": 1774642371000
-        },
-        {
-          "postId": "1s5fnb6",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1s5fnb6",
-          "scorer": "Breel Embolo",
-          "minute": 41,
-          "homeScore": 2,
-          "awayScore": 1,
-          "videoUrl": "https://streamff.link/v/a178479f",
-          "videoEmbed": "https://streamff.link/v/a178479f",
-          "directMp4": null,
-          "postedAt": 1774643256000
-        },
-        {
-          "postId": "1s5fssh",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1s5fssh",
-          "scorer": "Serge Gnavry",
-          "minute": 45,
-          "homeScore": 2,
-          "awayScore": 2,
-          "videoUrl": "https://streamff.link/v/550006ad",
-          "videoEmbed": "https://streamff.link/v/550006ad",
-          "directMp4": null,
-          "postedAt": 1774643613000
-        },
-        {
-          "postId": "1s5gum2",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1s5gum2",
-          "scorer": "Florian Wirtz",
-          "minute": 61,
-          "homeScore": 2,
-          "awayScore": 3,
-          "videoUrl": "https://streamin.link/v/8543db3a",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1774646051000
+          "postedAt": 1774646423000
         }
       ]
     },
@@ -281,39 +432,6 @@
           "videoEmbed": "https://streamain.com/fDl61Sy6I1bDP37/watch",
           "directMp4": null,
           "postedAt": 1774644406000
-        }
-      ]
-    },
-    {
-      "home": "Spain",
-      "away": "Serbia",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1s5feid",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1s5feid",
-          "scorer": "Mikel Oyarzabal",
-          "minute": 16,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamin.link/v/8913a5b4",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1774642701000
-        },
-        {
-          "postId": "1s5g3yy",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1s5g3yy",
-          "scorer": "Mikel Oyarzabal",
-          "minute": 44,
-          "homeScore": 2,
-          "awayScore": 0,
-          "videoUrl": "https://streamin.link/v/0fcf240f",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1774644338000
         }
       ]
     },
