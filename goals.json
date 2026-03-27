@@ -1,7 +1,92 @@
 {
-  "updated": "2026-03-27T20:36:12Z",
+  "updated": "2026-03-27T21:19:36Z",
   "date": "2026-03-27",
   "matches": [
+    {
+      "home": "Algeria",
+      "away": "Guatemala",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s5f02s",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s5f02s",
+          "scorer": "Amine Gouiri",
+          "minute": 19,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/gzIrGfNYKrS0w1w/watch",
+          "videoEmbed": "https://streamain.com/gzIrGfNYKrS0w1w/watch",
+          "directMp4": null,
+          "postedAt": 1774641817000
+        },
+        {
+          "postId": "1s5f7bx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s5f7bx",
+          "scorer": "Riyad Mahrez penalty",
+          "minute": 31,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/MAdiRUP0GV1j8KT/watch",
+          "videoEmbed": "https://streamain.com/MAdiRUP0GV1j8KT/watch",
+          "directMp4": null,
+          "postedAt": 1774642266000
+        },
+        {
+          "postId": "1s5fm0g",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s5fm0g",
+          "scorer": "Achref Abada",
+          "minute": 45,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/Kfi1cNG1iZNkoeZ/watch",
+          "videoEmbed": "https://streamain.com/Kfi1cNG1iZNkoeZ/watch",
+          "directMp4": null,
+          "postedAt": 1774643172000
+        },
+        {
+          "postId": "1s5g71z",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s5g71z",
+          "scorer": "Houssem Aouar",
+          "minute": 47,
+          "homeScore": 4,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/3vwN0ViHDWpCmhZ/watch",
+          "videoEmbed": "https://streamain.com/3vwN0ViHDWpCmhZ/watch",
+          "directMp4": null,
+          "postedAt": 1774644543000
+        },
+        {
+          "postId": "1s5gg3e",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s5gg3e",
+          "scorer": "Amine Gouiri",
+          "minute": 60,
+          "homeScore": 5,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/DIeckfT5SIwVTjL/watch",
+          "videoEmbed": "https://streamain.com/DIeckfT5SIwVTjL/watch",
+          "directMp4": null,
+          "postedAt": 1774645134000
+        },
+        {
+          "postId": "1s5gvsv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s5gvsv",
+          "scorer": "Fares Ghedjemis",
+          "minute": 76,
+          "homeScore": 6,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/1Mdcdr67L8vywBx/watch",
+          "videoEmbed": "https://streamain.com/1Mdcdr67L8vywBx/watch",
+          "directMp4": null,
+          "postedAt": 1774646126000
+        }
+      ]
+    },
     {
       "home": "Switzerland",
       "away": "Germany",
@@ -58,52 +143,19 @@
           "videoEmbed": "https://streamff.link/v/550006ad",
           "directMp4": null,
           "postedAt": 1774643613000
-        }
-      ]
-    },
-    {
-      "home": "Algeria",
-      "away": "Guatemala",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1s5f02s",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1s5f02s",
-          "scorer": "Amine Gouiri",
-          "minute": 19,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamain.com/gzIrGfNYKrS0w1w/watch",
-          "videoEmbed": "https://streamain.com/gzIrGfNYKrS0w1w/watch",
-          "directMp4": null,
-          "postedAt": 1774641817000
         },
         {
-          "postId": "1s5f7bx",
+          "postId": "1s5gum2",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1s5f7bx",
-          "scorer": "Riyad Mahrez penalty",
-          "minute": 31,
+          "permalink": "https://redd.it/1s5gum2",
+          "scorer": "Florian Wirtz",
+          "minute": 61,
           "homeScore": 2,
-          "awayScore": 0,
-          "videoUrl": "https://streamain.com/MAdiRUP0GV1j8KT/watch",
-          "videoEmbed": "https://streamain.com/MAdiRUP0GV1j8KT/watch",
+          "awayScore": 3,
+          "videoUrl": "https://streamin.link/v/8543db3a",
+          "videoEmbed": null,
           "directMp4": null,
-          "postedAt": 1774642266000
-        },
-        {
-          "postId": "1s5fm0g",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1s5fm0g",
-          "scorer": "Achref Abada",
-          "minute": 45,
-          "homeScore": 3,
-          "awayScore": 0,
-          "videoUrl": "https://streamain.com/Kfi1cNG1iZNkoeZ/watch",
-          "videoEmbed": "https://streamain.com/Kfi1cNG1iZNkoeZ/watch",
-          "directMp4": null,
-          "postedAt": 1774643172000
+          "postedAt": 1774646051000
         }
       ]
     },
@@ -137,6 +189,151 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1774642911000
+        },
+        {
+          "postId": "1s5gd63",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s5gd63",
+          "scorer": "Tijjani Reijnders",
+          "minute": 52,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/b68cfa44",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774644937000
+        }
+      ]
+    },
+    {
+      "home": "Rwanda",
+      "away": "Grenada",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s5euvg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s5euvg",
+          "scorer": "L-Jacque M.",
+          "minute": 45,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/ZtgsR7jZLswiN2O/watch",
+          "videoEmbed": "https://streamain.com/ZtgsR7jZLswiN2O/watch",
+          "directMp4": null,
+          "postedAt": 1774641513000
+        },
+        {
+          "postId": "1s5ew6i",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s5ew6i",
+          "scorer": "Jojea Kwizera",
+          "minute": 45,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/Wc6ULIPBremZxUY/watch",
+          "videoEmbed": "https://streamain.com/Wc6ULIPBremZxUY/watch",
+          "directMp4": null,
+          "postedAt": 1774641593000
+        },
+        {
+          "postId": "1s5g319",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s5g319",
+          "scorer": "Djihad Bizimana",
+          "minute": 69,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/ZU2KgAre7WSquvV/watch",
+          "videoEmbed": "https://streamain.com/ZU2KgAre7WSquvV/watch",
+          "directMp4": null,
+          "postedAt": 1774644279000
+        },
+        {
+          "postId": "1s5g9we",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s5g9we",
+          "scorer": "Hakim Sahabo",
+          "minute": 83,
+          "homeScore": 4,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/gk3SsdKKOEHcy7o/watch",
+          "videoEmbed": "https://streamain.com/gk3SsdKKOEHcy7o/watch",
+          "directMp4": null,
+          "postedAt": 1774644731000
+        }
+      ]
+    },
+    {
+      "home": "Belgium U21",
+      "away": "Austria U21",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s5g50r",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s5g50r",
+          "scorer": "Arthur Vermeeren",
+          "minute": 89,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/fDl61Sy6I1bDP37/watch",
+          "videoEmbed": "https://streamain.com/fDl61Sy6I1bDP37/watch",
+          "directMp4": null,
+          "postedAt": 1774644406000
+        }
+      ]
+    },
+    {
+      "home": "Spain",
+      "away": "Serbia",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s5feid",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s5feid",
+          "scorer": "Mikel Oyarzabal",
+          "minute": 16,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/8913a5b4",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774642701000
+        },
+        {
+          "postId": "1s5g3yy",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s5g3yy",
+          "scorer": "Mikel Oyarzabal",
+          "minute": 44,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/0fcf240f",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774644338000
+        }
+      ]
+    },
+    {
+      "home": "Switzerland U21",
+      "away": "Faroe Islands U21",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s5g0xo",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s5g0xo",
+          "scorer": "Winsley Boteli",
+          "minute": 77,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/vxOmhoHOgZdWhSI/watch",
+          "videoEmbed": "https://streamain.com/vxOmhoHOgZdWhSI/watch",
+          "directMp4": null,
+          "postedAt": 1774644142000
         }
       ]
     },
@@ -174,26 +371,6 @@
       ]
     },
     {
-      "home": "Spain",
-      "away": "Serbia",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1s5feid",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1s5feid",
-          "scorer": "Mikel Oyarzabal",
-          "minute": 16,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamin.link/v/8913a5b4",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1774642701000
-        }
-      ]
-    },
-    {
       "home": "Greece",
       "away": "Paraguay",
       "league": "Rest of World",
@@ -210,39 +387,6 @@
           "videoEmbed": "https://streamain.com/nhNPggT5QkygnDV/watch",
           "directMp4": null,
           "postedAt": 1774642636000
-        }
-      ]
-    },
-    {
-      "home": "Rwanda",
-      "away": "Grenada",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1s5euvg",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1s5euvg",
-          "scorer": "L-Jacque M.",
-          "minute": 45,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamain.com/ZtgsR7jZLswiN2O/watch",
-          "videoEmbed": "https://streamain.com/ZtgsR7jZLswiN2O/watch",
-          "directMp4": null,
-          "postedAt": 1774641513000
-        },
-        {
-          "postId": "1s5ew6i",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1s5ew6i",
-          "scorer": "Jojea Kwizera",
-          "minute": 45,
-          "homeScore": 2,
-          "awayScore": 0,
-          "videoUrl": "https://streamain.com/Wc6ULIPBremZxUY/watch",
-          "videoEmbed": "https://streamain.com/Wc6ULIPBremZxUY/watch",
-          "directMp4": null,
-          "postedAt": 1774641593000
         }
       ]
     },
