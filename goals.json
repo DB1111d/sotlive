@@ -1,7 +1,27 @@
 {
-  "updated": "2026-03-27T23:05:34Z",
+  "updated": "2026-03-27T23:46:02Z",
   "date": "2026-03-27",
   "matches": [
+    {
+      "home": "Argentina",
+      "away": "Mauritania",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s5khm8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s5khm8",
+          "scorer": "Enzo Fernandez",
+          "minute": 17,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/085829ae",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774654694000
+        }
+      ]
+    },
     {
       "home": "England",
       "away": "Uruguay",
