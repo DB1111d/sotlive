@@ -1,9 +1,18 @@
 {
-  "updated": "2026-03-27 04:55 EDT",
+  "updated": "2026-03-27 08:01 EDT",
   "days": {
     "20260327": {
       "date": "Friday, March 27",
       "games": [
+        {
+          "group": "Regular Season",
+          "time": "4:35 PM",
+          "match": "San Francisco Giants vs New York Yankees",
+          "source": "ESPN Unlmtd",
+          "kick_utc": "2026-03-27T20:35Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sf.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nyy.png"
+        },
         {
           "group": "Regular Season",
           "time": "7:07 PM",
@@ -45,6 +54,15 @@
     "20260328": {
       "date": "Saturday, March 28",
       "games": [
+        {
+          "group": "Regular Season",
+          "time": "2:20 PM",
+          "match": "Chicago Cubs vs Washington Nationals",
+          "source": "ESPN Unlmtd",
+          "kick_utc": "2026-03-28T18:20Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chc.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/wsh.png"
+        },
         {
           "group": "Regular Season",
           "time": "4:05 PM",
@@ -97,6 +115,15 @@
         },
         {
           "group": "Regular Season",
+          "time": "1:40 PM",
+          "match": "Cincinnati Reds vs Boston Red Sox",
+          "source": "ESPN Unlmtd",
+          "kick_utc": "2026-03-29T17:40Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cin.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bos.png"
+        },
+        {
+          "group": "Regular Season",
           "time": "7:20 PM",
           "match": "Seattle Mariners vs Cleveland Guardians",
           "source": "Peacock",
@@ -109,6 +136,15 @@
     "20260330": {
       "date": "Monday, March 30",
       "games": [
+        {
+          "group": "Regular Season",
+          "time": "4:10 PM",
+          "match": "Kansas City Royals vs Minnesota Twins",
+          "source": "ESPN Unlmtd",
+          "kick_utc": "2026-03-30T20:10Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/min.png"
+        },
         {
           "group": "Regular Season",
           "time": "6:40 PM",
@@ -132,6 +168,15 @@
     "20260331": {
       "date": "Tuesday, March 31",
       "games": [
+        {
+          "group": "Regular Season",
+          "time": "6:35 PM",
+          "match": "Baltimore Orioles vs Texas Rangers",
+          "source": "ESPN Unlmtd",
+          "kick_utc": "2026-03-31T22:35Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bal.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tex.png"
+        },
         {
           "group": "Regular Season",
           "time": "6:40 PM",
