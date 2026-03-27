@@ -1,5 +1,26 @@
 {
-  "updated": "2026-03-27T10:25:21Z",
+  "updated": "2026-03-27T11:12:33Z",
   "date": "2026-03-27",
-  "matches": []
+  "matches": [
+    {
+      "home": "Australia",
+      "away": "Cameroon",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s50x5g",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s50x5g",
+          "scorer": "Jordan Bos",
+          "minute": 85,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/sf2eftvkkkrg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774609330000
+        }
+      ]
+    }
+  ]
 }
