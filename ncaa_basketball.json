@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-26 16:38 EDT",
+  "updated": "2026-03-26 22:30 EDT",
   "days": {
     "20260326": {
       "date": "Thursday, March 26",
@@ -27,22 +27,22 @@
         {
           "conference": "Independent",
           "tourney_round": "NCAA Tournament",
-          "time": "9:45 PM",
-          "match": "Arizona Wildcats vs Arkansas Razorbacks",
-          "source": "CBS",
-          "kick_utc": "2026-03-27T01:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png"
-        },
-        {
-          "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
           "time": "10:05 PM",
           "match": "Houston Cougars vs Illinois Fighting Illini",
           "source": "TBS \u00b7 truTV",
           "kick_utc": "2026-03-27T02:05Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "10:06 PM",
+          "match": "Arizona Wildcats vs Arkansas Razorbacks",
+          "source": "CBS",
+          "kick_utc": "2026-03-27T02:06Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png"
         }
       ]
     },
@@ -93,7 +93,18 @@
     },
     "20260328": {
       "date": "Saturday, March 28",
-      "games": []
+      "games": [
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "12:00 AM",
+          "match": "TBD vs Iowa Hawkeyes",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-28T04:00Z",
+          "home_logo": "",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png"
+        }
+      ]
     },
     "20260329": {
       "date": "Sunday, March 29",

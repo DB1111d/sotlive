@@ -1,45 +1,9 @@
 {
-  "updated": "2026-03-26 16:38 EDT",
+  "updated": "2026-03-26 22:30 EDT",
   "days": {
     "20260326": {
       "date": "Thursday, March 26",
       "games": [
-        {
-          "league": "World Cup Qualifying",
-          "time": "1:00 PM",
-          "match": "T\u00fcrkiye vs Romania",
-          "source": "FS2",
-          "kick_utc": "2026-03-26T17:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/rom.png"
-        },
-        {
-          "league": "World Cup Qualifying",
-          "time": "3:45 PM",
-          "match": "Poland vs Albania",
-          "source": "FS2",
-          "kick_utc": "2026-03-26T19:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/pol.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/alb.png"
-        },
-        {
-          "league": "World Cup Qualifying",
-          "time": "3:45 PM",
-          "match": "Wales vs Bosnia and Herzegovina",
-          "source": "FS1",
-          "kick_utc": "2026-03-26T19:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/wal.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png"
-        },
-        {
-          "league": "World Cup Qualifying",
-          "time": "6:00 PM",
-          "match": "Bolivia vs Suriname",
-          "source": "FS1",
-          "kick_utc": "2026-03-26T22:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/bol.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/sur.png"
-        },
         {
           "league": "World Cup Qualifying",
           "time": "11:00 PM",
@@ -48,15 +12,6 @@
           "kick_utc": "2026-03-27T03:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/ncd.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/jam.png"
-        },
-        {
-          "league": "International Friendly",
-          "time": "4:00 PM",
-          "match": "Brazil vs France",
-          "source": "ESPN2",
-          "kick_utc": "2026-03-26T20:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
         },
         {
           "league": "International Friendly",
