@@ -1,8 +1,22 @@
 {
-  "updated": "2026-03-26 04:43 EDT",
-  "week_label": "February 24 \u2013 March 26, 2026",
+  "updated": "2026-03-27 04:40 EDT",
+  "week_label": "February 25 \u2013 March 27, 2026",
   "groups": {
     "TV Series": [
+      {
+        "type": "series",
+        "title": "House of David S2",
+        "overview": "Tells the story of the ascent of the biblical figure, David, who becomes the most celebrated king of Israel. The series follows the once-mighty King Saul as he falls victim to his own pride. At the direction of God, the prophet Samuel anoints an unlikely, outcast teenager as the new king.",
+        "genres": [
+          "Drama"
+        ],
+        "added_date": "March 27",
+        "added_ts": 1774584000,
+        "link": "https://press.amazonmgmstudios.com/us/en/original-series/house-of-david/2",
+        "thumbnail": "https://image.tmdb.org/t/p/w342/i4eskPIEI5sK0IibHhWqBU9Ts0k.jpg",
+        "rating": 80,
+        "season": "Season 2"
+      },
       {
         "type": "series",
         "title": "Deadloch",
@@ -60,7 +74,7 @@
         "added_ts": 1773201600,
         "link": "https://press.amazonmgmstudios.com/us/en/original-series/scarpetta/1",
         "thumbnail": "https://image.tmdb.org/t/p/w342/zvkcHCJUPqv7R9ukaiDNkm75jy.jpg",
-        "rating": 62,
+        "rating": 63,
         "season": ""
       },
       {
@@ -101,13 +115,14 @@
         "overview": "A troupe of ballerinas find themselves fighting for survival as they attempt to escape from a remote inn after their bus breaks down on the way to a dance competition.",
         "genres": [
           "Action",
-          "Thriller"
+          "Thriller",
+          "Horror"
         ],
         "added_date": "March 25",
         "added_ts": 1774411200,
         "link": "https://press.amazonmgmstudios.com/us/en/original-movies/pretty-lethal",
         "thumbnail": "https://image.tmdb.org/t/p/w342/znTPnXCK3lEQJgqXCvP7e5FUz6f.jpg",
-        "rating": 63,
+        "rating": 67,
         "season": ""
       },
       {
@@ -136,7 +151,7 @@
         "added_ts": 1773979200,
         "link": "https://press.amazonmgmstudios.com/es/es/original-movies/zeta",
         "thumbnail": "https://image.tmdb.org/t/p/w342/1cKLG9KMoCjsgFB8Nw1EuglteVi.jpg",
-        "rating": 68,
+        "rating": 66,
         "season": ""
       },
       {
@@ -156,15 +171,15 @@
       {
         "type": "movie",
         "title": "The Silent Service Season Two: The Battle of Arctic Ocean",
-        "overview": "In the freezing northern seas, the Yamato nuclear submarine begins its deep underwater voyage to the tune of Mozart, heading for the United Nations headquarters in New York. In the Bering Strait between the US and Russia, another submarine approaches: an American nuclear submarine that overwhelmingly dwarfs the Yamato. Now, a battle commences among the cracking floes of the cold Arctic Ocean.",
+        "overview": "Shiro Kaieda is appointed the captain of Japan's first nuclear submarine, jointly built by Japan and the United States in top secret. However, he and his 76 crew members go rogue in this story that delves into themes of nuclear war, international politics, and world peace.",
         "genres": [
           "War"
         ],
         "added_date": "March 19",
         "added_ts": 1773892800,
         "link": "",
-        "thumbnail": "https://image.tmdb.org/t/p/w342/8oFoPG0eTPEwyO1VkN4G51qWAvG.jpg",
-        "rating": 95,
+        "thumbnail": "https://image.tmdb.org/t/p/w342/ofJH6HMmTGsMxLcjmWt5vOuSn1a.jpg",
+        "rating": 84,
         "season": ""
       },
       {
@@ -222,7 +237,7 @@
         "added_ts": 1771995600,
         "link": "https://www.amazon.com/gp/video/detail/B0G565KPS4/ref=atv_dp_share_cu_r",
         "thumbnail": "https://image.tmdb.org/t/p/w342/dl1cA7wdwePc9QU2Rc24EPqlcyJ.jpg",
-        "rating": 62,
+        "rating": 61,
         "season": ""
       }
     ]
