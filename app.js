@@ -85,7 +85,7 @@ const BADGE_MAP = {
   'ESPN':             { cls: 'source-espn',    label: 'ESPN' },
   'ESPN2':            { cls: 'source-espn',    label: 'ESPN2' },
   'ESPN+':            { cls: 'source-espn',    label: 'ESPN+' },
-  'ESPN Unlimited':   { cls: 'source-espn',    label: 'UNLTD' },
+  'ESPN Unlmtd':      { cls: 'source-espn',    label: 'UNLTD' },
   'Hulu':             { cls: 'source-espn',    label: 'Hulu' },
   'ABC':              { cls: 'source-espn',    label: 'ABC' },
   'ABC / ESPN+':      { cls: 'source-espn',    label: 'ABC / ESPN+' },

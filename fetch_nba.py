@@ -26,7 +26,7 @@ ESPN_SOURCE_MAP = {
     "ESPN":                    "ESPN",
     "ESPN2":                   "ESPN2",
     "ESPN+":                   "ESPN+",
-    "ESPN Unlimited":          "ESPN Unlimited",
+    "ESPN Unlmtd":             "ESPN Unlmtd",
     "ESPNU":                   "ESPN+",
     "ESPNEWS":                 "ESPN+",
     "Hulu":                    "Hulu",
