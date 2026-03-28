@@ -1,47 +1,6 @@
 {
-  "updated": "2026-03-27 22:14 EDT",
+  "updated": "2026-03-28 01:22 EDT",
   "days": {
-    "20260327": {
-      "date": "Friday, March 27",
-      "games": [
-        {
-          "group": "Regular Season",
-          "time": "7:07 PM",
-          "match": "Toronto Blue Jays vs Athletics",
-          "source": "MLB Network",
-          "kick_utc": "2026-03-27T23:07Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tor.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ath.png"
-        },
-        {
-          "group": "Regular Season",
-          "time": "8:10 PM",
-          "match": "Houston Astros vs Los Angeles Angels",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-28T00:10Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/hou.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/laa.png"
-        },
-        {
-          "group": "Regular Season",
-          "time": "9:40 PM",
-          "match": "Seattle Mariners vs Cleveland Guardians",
-          "source": "Apple TV",
-          "kick_utc": "2026-03-28T01:40Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sea.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png"
-        },
-        {
-          "group": "Regular Season",
-          "time": "10:10 PM",
-          "match": "Los Angeles Dodgers vs Arizona Diamondbacks",
-          "source": "MLB Network",
-          "kick_utc": "2026-03-28T02:10Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/lad.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ari.png"
-        }
-      ]
-    },
     "20260328": {
       "date": "Saturday, March 28",
       "games": [
@@ -185,6 +144,20 @@
           "kick_utc": "2026-04-01T01:40Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sea.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nyy.png"
+        }
+      ]
+    },
+    "20260401": {
+      "date": "Wednesday, April 1",
+      "games": [
+        {
+          "group": "Regular Season",
+          "time": "1:15 PM",
+          "match": "St. Louis Cardinals vs New York Mets",
+          "source": "ESPN Unlmtd",
+          "kick_utc": "2026-04-01T17:15Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/stl.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nym.png"
         }
       ]
     }
