@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-28T19:18:53Z",
+  "updated": "2026-03-28T19:51:23Z",
   "date": "2026-03-28",
   "matches": [
     {
@@ -32,6 +32,72 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/921u2ueoptrg1/CMAF_720.mp4?source=fallback",
           "postedAt": 1774719985000
+        },
+        {
+          "postId": "1s68l7q",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s68l7q",
+          "scorer": "Jonathan David penalty",
+          "minute": 67,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/htwmgp0x0urg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/htwmgp0x0urg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1774723765000
+        },
+        {
+          "postId": "1s68rza",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s68rza",
+          "scorer": "Jonathan David penalty",
+          "minute": 75,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/lw4ndva92urg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/lw4ndva92urg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1774724216000
+        }
+      ]
+    },
+    {
+      "home": "Scotland",
+      "away": "Japan",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s68i1c",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s68i1c",
+          "scorer": "Junya Ito",
+          "minute": 84,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/w9ixzvj70urg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/w9ixzvj70urg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1774723551000
+        }
+      ]
+    },
+    {
+      "home": "Hungary",
+      "away": "Slovenia",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s68eh9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s68eh9",
+          "scorer": "Szabolcs Schön",
+          "minute": 79,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/baag92zgztrg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/baag92zgztrg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1774723313000
         }
       ]
     },
