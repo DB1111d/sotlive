@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-28T14:33:49Z",
+  "updated": "2026-03-28T15:03:10Z",
   "date": "2026-03-28",
   "matches": [
     {
@@ -19,6 +19,52 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/gx1qoag4qsrg1/CMAF_1080.mp4?source=fallback",
           "postedAt": 1774708038000
+        },
+        {
+          "postId": "1s62d8v",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s62d8v",
+          "scorer": "Jákup Andreasen",
+          "minute": 45,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/p0ha8ci6usrg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/p0ha8ci6usrg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1774709396000
+        }
+      ]
+    },
+    {
+      "home": "Korea Republic",
+      "away": "Cote d’Ivoire",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s6226u",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s6226u",
+          "scorer": "Evann Guessand",
+          "minute": 35,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/gn5iM7om7Gk5IAB/watch",
+          "videoEmbed": "https://streamain.com/gn5iM7om7Gk5IAB/watch",
+          "directMp4": null,
+          "postedAt": 1774708669000
+        },
+        {
+          "postId": "1s62cvk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s62cvk",
+          "scorer": "Simon Adingra",
+          "minute": 45,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/en/2Z70q6t4Mpn6g3I/watch",
+          "videoEmbed": "https://streamain.com/en/2Z70q6t4Mpn6g3I/watch",
+          "directMp4": null,
+          "postedAt": 1774709371000
         }
       ]
     }
