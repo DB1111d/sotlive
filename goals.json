@@ -1,24 +1,24 @@
 {
-  "updated": "2026-03-28T17:04:08Z",
+  "updated": "2026-03-28T17:45:59Z",
   "date": "2026-03-28",
   "matches": [
     {
-      "home": "Liverpool Legends",
-      "away": "Dortmund Legends",
+      "home": "Canada",
+      "away": "Iceland",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1s65mie",
+          "postId": "1s66nf0",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1s65mie",
-          "scorer": "Jan Koller",
-          "minute": 81,
-          "homeScore": 2,
-          "awayScore": 2,
-          "videoUrl": "https://v.redd.it/u9bwe1figtrg1",
+          "permalink": "https://redd.it/1s66nf0",
+          "scorer": "Orri Steinn Oskarsson",
+          "minute": 9,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/h6juur5intrg1",
           "videoEmbed": null,
-          "directMp4": "https://v.redd.it/u9bwe1figtrg1/CMAF_360.mp4?source=fallback",
-          "postedAt": 1774716907000
+          "directMp4": "https://v.redd.it/h6juur5intrg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1774719255000
         }
       ]
     },
@@ -39,6 +39,39 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/1piirli5gtrg1/CMAF_720.mp4?source=fallback",
           "postedAt": 1774716782000
+        },
+        {
+          "postId": "1s66kpy",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s66kpy",
+          "scorer": "Ismaila Sarr",
+          "minute": 54,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/YGKgA226XeLE7fR/watch",
+          "videoEmbed": "https://streamain.com/YGKgA226XeLE7fR/watch",
+          "directMp4": null,
+          "postedAt": 1774719081000
+        }
+      ]
+    },
+    {
+      "home": "Liverpool Legends",
+      "away": "Dortmund Legends",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s65mie",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s65mie",
+          "scorer": "Jan Koller",
+          "minute": 81,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/u9bwe1figtrg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/u9bwe1figtrg1/CMAF_360.mp4?source=fallback",
+          "postedAt": 1774716907000
         }
       ]
     },
