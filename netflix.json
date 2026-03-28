@@ -1,8 +1,93 @@
 {
-  "updated": "2026-03-27 04:40 EDT",
-  "week_label": "March 12 \u2013 March 27, 2026",
+  "updated": "2026-03-28 04:28 EDT",
+  "week_label": "March 13 \u2013 March 28, 2026",
   "groups": {
     "TV Series": [
+      {
+        "type": "series",
+        "title": "MeatEater",
+        "overview": "Outdoorsman, writer, and conservationist Steven Rinella ventures into the wild to hunt animals and uses the meat to make a hearty meal.",
+        "genres": [
+          "Documentary"
+        ],
+        "added_date": "March 28",
+        "added_ts": 1774678375,
+        "link": "https://www.netflix.com/title/80126646/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/13438/poster/vertical/en/240.jpg?Expires=1802956016&Signature=WXAvX~n3CrGhmg0NIBwmS0RaoLoNJ7xd7Cc1u6ThU-yHqaTISm5qbqDJVZdyGe6cSvTY-uiERGgUWHbLWGzS1SuhCteWuI~QzOvrwqC5K9JwC~x6p8UnmhoBDRYb~y7i4Kqkm4TlwN6Oai8STorQ814Y~00ft-EyVs4XilJx-~-sJVcVAnwmK1PnOC6ZALBOhSoL4Z9pff9lB70DW2hLUzEu97SaWwrGxJKxfs2M5RsepSVYJXOVn-nlVHiFN5UF6YeYHUqFfziJi9D4AxOsNlY6PFIbuGfco30DzarY4SxgoeVPTlRd2rzF-~s3~Bkda4A-tqp4hKXvFZT5qUFGNQ__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 58
+      },
+      {
+        "type": "series",
+        "title": "The Fairly OddParents",
+        "overview": "Timmy Turner is an average kid - sort of. He's an only child with oblivious parents. But luckily he has Cosmo and Wanda, his wacky fairy godparents who help him hide from evil babysitters, do homework and much more craziness!",
+        "genres": [
+          "Adventure",
+          "Animation",
+          "Comedy"
+        ],
+        "added_date": "March 28",
+        "added_ts": 1774670797,
+        "link": "https://www.netflix.com/title/70142394/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/1183/poster/vertical/en/240.jpg?Expires=1799514076&Signature=HZx0lOqiLSTItX6XDSo71YhJZ0HSndyW5NpgruY5ED0fCPnVraLzUE~GrNbnTok69AvKWY7wc2ZrolZSl0mzomI11n3IF6XzQP45vuuoiH3HhxRrrtLGTz8fswkEdxmWiAshoLUUzT2xA18IRmsWh~uzMJqmlgWEw~nRyEauAug0SQRuoZ75~E55KAREVlBrmXZNEKGKPpOHO5KzBzTyvvl~iPVjq5T0Dhb-06foFdRFLSAx~TgFX0k9ySd724W3RNO2x8RtyMStDLdMdDAOhIFPWODW1tsvjg5BAifdKDBxITKvQc0mYa2Tz8bHRW0Wc4gc6~2qDdFQsdJYxfQD-A__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 72
+      },
+      {
+        "type": "series",
+        "title": "Khemjira",
+        "overview": "",
+        "genres": [
+          "Drama",
+          "Horror",
+          "Mystery"
+        ],
+        "added_date": "March 27",
+        "added_ts": 1774667978,
+        "link": "https://www.netflix.com/title/82755470/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/22008893/poster/vertical/en/240.jpg?Expires=1805421814&Signature=Re~brcrgKWStd~xAlSF3zH5uQp-twjR3beexyHHzYzC1xMYhZKYlGlt3I3HKKzI0S3OpR3zivBK12~gTgeaslzWkIH7JZkHDYyyetm4DLIeZ2HJU7N0atHHT~aAhKvtShNLy1oCWneX2uVF6CJIUKlQNUPiBIYTKQh3Ku~u~fXqOOVYIfBWewiuRVsrXNG4J4jY19h9gkS-oUVST27H3540HsDsvku1ck~Yr94UbnC-9iziVV8NDMab2hsMwQQHDzKmx9iOCenHm3deSIOXKwCtdTl1N4LMAu6sAGp1uC7pKUdojB~o5RKtGEXMoGxdE~8QABJsKR-ZMozhFvKQJnA__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 61
+      },
+      {
+        "type": "series",
+        "title": "Mike & Molly",
+        "overview": "Mike and Molly meet one day when Mike speaks at an Overeaters Anonymous meeting and they fall in love, thanks in part to their mutual love of pie and the desire to resist it; both face challenges together in their quest to lose weight.",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "added_date": "March 27",
+        "added_ts": 1774613564,
+        "link": "https://www.netflix.com/title/70177677/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/1740/poster/vertical/en/240.jpg?Expires=1800352118&Signature=kx2amv35n5mTCNipnb4nQT9K6ZElLT0df1OM9NXBUkMbMDizpkaNiFImw5Gsbmn1Y9IrC9wYvNOp-mDekTE85WlOf7ZA0JEtKNuC3Z-b7Qgj1r8cw94U8wKMEcldxB8ay5eHbPd7PWxDdKG6kNmUnxTt6b~G~hn793XyRMRPQYgwJ3ZptoTF1SJoRyzs1W4Ne16ubXNQiY7yKPsnl-Z7cNTaIbjIA4ap4XzatWIvbanl68z2OZiDSiIcnaVOmHhDd-wtq-dsv8L-~nQ0Ru8ADYwg3-h7Xj9PNuKHGCXbsZwrsnk6jC8Zysu3BiRFIExXLinhBjmV6lQvVnRm~YM1nQ__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 66
+      },
+      {
+        "type": "series",
+        "title": "Something Very Bad Is Going to Happen",
+        "overview": "",
+        "genres": [
+          "Drama",
+          "Horror"
+        ],
+        "added_date": "March 27",
+        "added_ts": 1774613527,
+        "link": "https://www.netflix.com/title/81667463/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/24859607/poster/vertical/en/240.jpg?Expires=1805369763&Signature=AeTFaUpaBRZo38z-v8vj8dX4CYUX7DfDuqHBlRF3wjTkN7Hd~v1kPmwVbPOTFziulIVsIA91Xw~rkui1v0tuVDT0z8gMlPvZRM0i7x07ql4zGYk7qdd0lHZFOeDHSrnwh6k6LZ7T-x5CmNXt7k33~Q3CoOOQhcqcBoBtdIISFU0EHEom834yQcg2y~sJbpGGOb0Xs2YNjfZSBVqPgc2Qn2691CDDzC8~LzIH2IS-K41I5gFnqAe6oZYKL1hwKPBSz-9u5ZJMM3E1ceQWSCLNFHkBpzjqVzx5trCo2O0Snhav4amr610EJw9TUmsx6RFpZYf1exznh0TzcBdkcgjvUg__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 0
+      },
+      {
+        "type": "series",
+        "title": "Detective Hole",
+        "overview": "",
+        "genres": [
+          "Crime",
+          "Mystery"
+        ],
+        "added_date": "March 27",
+        "added_ts": 1774613457,
+        "link": "https://www.netflix.com/title/81610327/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/24602194/poster/vertical/en/240.jpg?Expires=1805369659&Signature=MidQYOLRBD7hsiQd0fkD6Mf9rULxWrVv8XZXdjLLOQ2r9G674K5bK6WL~QgGM-WDPJlz2PtMmTHfkA7vISni4W0yvjQQAcR0JZjlNrjYZDFRZ152q0qqPFBMBZ2zQVXrkSRr1Is7GgjDvhjt8bGLE5dporFe~2msteHRJEN0bivoKExB1oUBPTc8wu9WR4Ia~px1jfXXiOxDnsZpqcMcZqoGOpeRb41JeYrGtcipzvL1Uff91HEdrMa3mMuk4XDIgH4zOTDUhRwuXFTGtsn-9WYBY~Jaf5aRAG21Mvm0Shdrk2KQQxXeqxSA2RA2Kyz-bqLHR1udbWQd2e-TltJPxw__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 0
+      },
       {
         "type": "series",
         "title": "Radioactive Emergency",
@@ -89,66 +174,162 @@
         "link": "https://www.netflix.com/title/81613228/",
         "thumbnail": "https://cdn.movieofthenight.com/show/24859535/poster/vertical/en/240.jpg?Expires=1805366648&Signature=ZSBVisRZLscbmK9YQk-eEEKP98cf92f0gn1gsSuTQSzn4qpu5XV6A3nYnmBhSnmSlgChEH8TCANTO~fN7F9DP-yX6yjioUh18ZrK5YnrunUy6mOnobnZG7AGxHt4kqmfsxSTm4CAHbpQlQPhnYDD3sY7ARTZ4pnfKEUJ9IZNiQ-trS21RsYFUt8mPYs03eVNVRK8Di7Wo5BkrFmhck7Zn2Z0gC6pdZTCWP-alQdizN90e8Kus2mwZlAdqOeTf0gqf0~zla-VBhnRrs3UHtcaKusOhl~WKxbh2B~Gyi6hXoGeD53v30MBKjtFmk63es6zBTLh~CiogatUYVmvarXF~Q__&Key-Pair-Id=KK4HN3OO4AT5R",
         "rating": 56
-      },
-      {
-        "type": "series",
-        "title": "Boruto: Naruto Next Generations",
-        "overview": "The life of the shinobi is beginning to change. Boruto Uzumaki, son of Seventh Hokage Naruto Uzumaki, has enrolled in the Ninja Academy to learn the ways of the ninja. Now, as a series of mysterious events unfolds, Boruto\u2019s story is about to begin!",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Animation"
-        ],
-        "added_date": "March 12",
-        "added_ts": 1773304195,
-        "link": "https://www.netflix.com/title/81080523/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/2078/poster/vertical/en/240.jpg?Expires=1801146289&Signature=CB6~7-MbSGjyUBAQCb-scUSgvJvH-EAaqhaQxHnPiVcYRvx4eKTGDE5qnOVdf4w~whYk1oUpcm7jOwf8EyYvpKvM0lhq8h0EcSK0pERnH7R5ejsH8A1tjTxgb1StCWN3z8mKlKEn1mMI9TdvNwaOD3OUqpf4Fun1qFlg6OhkeTuI5SFaWUEiUY~nPcEd4Q4pGorlyGHEDHxsz7sEaj8aLObQaMJoyfXXfg1A04ihjrx2ncgTOkQAJTtiZjU2TSVG7c9K~3~Agorebi09NMRFHKEmMTi1zcUdrQjy1oORDF4~9wa7biEDfITeWOnpGj0Ks2aOwAFbAj2MfJwjXetaPg__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 66
-      },
-      {
-        "type": "series",
-        "title": "Bitten",
-        "overview": "25-year-old Elena Michaels is desperate for a normal human life. But things have been complicated since she became the world\u2019s only female werewolf.",
-        "genres": [
-          "Drama",
-          "Fantasy",
-          "Horror"
-        ],
-        "added_date": "March 12",
-        "added_ts": 1773303175,
-        "link": "https://www.netflix.com/title/70300066/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/2400/poster/vertical/en/240.jpg?Expires=1800375206&Signature=OYgacT2wWpk5vRVEIHuvW4b6Qon2vb3Wev0ax0GiGizap5IEifkTockXYFW55QQKrAWudFeIMavzDNStBtW-UKvgsr4AJ8iIYtFNPXGre86~iZGCFDAXLPcF4lbwDG-~ai~Uvi6D-xRK5FE5FzETgoWu36AYWFIDpj9OXkYl8qhI0s4rHKlMyjn3Rjrd88K72VTGcAVvP4TSwkMubxWsHtf9ugIT7vADJsaKyraUNv2i2KFbBhxi59WHZZhakus68IFtyOSGFr38jOz18Tw1MfJ8e99cfWO~SBtJn4UJR-gw5B6CqUCscbRX-CiYGfhz58WO1FpSK6Zxz4yc7tCRQA__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 69
-      },
-      {
-        "type": "series",
-        "title": "The Office Movers",
-        "overview": "Held together with packing tape and a dream, two brothers reluctantly start an office-moving business, intending to build it, sell it and cash out.",
-        "genres": [
-          "Action",
-          "Comedy"
-        ],
-        "added_date": "March 12",
-        "added_ts": 1773301306,
-        "link": "https://www.netflix.com/title/82623479/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/12726691/poster/vertical/en/240.jpg?Expires=1805013874&Signature=UoEcKS4cE-BszslEeCCd9Mu-ON8t0Jh2UVcx643~F5FN45idPtbp8kkbcZD7WNtyVK0vUFbzDkovMdK6LtxWhY7-VSCWBAeNnvNPFIGVM5ViJ9PbdbA3YVcCiL5cIkFVJDgmVBxpn9FncFWPHlLgTXRSZbf-sTvwUfy7QXa8OxOZfWxcKYAhExulltFLuO4mt1GjaDnogeL05XPh3iz8auIFz~B5YYQXShLdLHUUmywhPLjlFhYNqLj31QjMPhjGFhlbvER9oyB3XWY4H7ZJRuhASetqw4v-KDfYTFmj0OTlZaCDmRsooFQTP6fyA~ZST9vRfFf2b1ZHbhVzC0xokQ__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 58
-      },
-      {
-        "type": "series",
-        "title": "The Waste Land",
-        "overview": "",
-        "genres": [
-          "Drama"
-        ],
-        "added_date": "March 12",
-        "added_ts": 1773297446,
-        "link": "https://www.netflix.com/title/82079543/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/63631/poster/vertical/en/240.jpg?Expires=1805741307&Signature=UdjbRaVA5JHuMhMlg4FZcx7PAuhEdW8qfJW3EZZ9rmiXorONWR-TBilweoyIbLH9UNOpYE-GSW2I3oGDRsLOai6bMMHTaMMSSa1WGF~W~wd6-uzPylyFhd1zB270Lm7E~xP7CZ7Zo22QChuRhi92IZNBJa3coX2HThrk2nsnHf1fsozsaJZQ3ls6Nrr4UaQaAtsJipEDUkKKA1dNByDE09w874RYs666pfBUC0n-0VVm52F4OD-mRsiibzxgcJ8Jg6iiBBxJQYrp1Z8CdWYEFYUs3~9fEOXA7gxPv7qLBbnwTcelya2gCkKxkuD-UrXy6WmxXZqUJSMZVd1zRdU6ng__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 53
       }
     ],
     "Movies": [
+      {
+        "type": "movie",
+        "title": "The House with a Clock in Its Walls",
+        "overview": "In the tradition of Amblin classics where fantastical events occur in the most unexpected places, Jack Black and two-time Academy Award\u00ae winner* Cate Blanchett star in The House with a Clock in Its Walls. The magical adventure tells the spine-tingling tale of 10-year-old Lewis (Owen Vaccaro), who goes to live with his uncle in a creaky old house with a mysterious tick-tocking heart.",
+        "genres": [
+          "Comedy",
+          "Family",
+          "Fantasy"
+        ],
+        "added_date": "March 28",
+        "added_ts": 1774686209,
+        "link": "https://www.netflix.com/title/80986886/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/7730/poster/vertical/en/240.jpg?Expires=1801748915&Signature=A-hrwBpDkY~3Al3dGynZamg6QAPhKcl-44QLA3rBl2U4cPlkNz1YcKfoRxoOhI~Nyscg02fp0SszZVxxRn2~Ip8-FTzS8rihd934tCJcLBIXJmmOGuQ4jLKGvyKVnrHKGJYRbdV9zYhqd27TSkjzcktyf9OD1ARmf5jCjoG0ecfRAveWYFupjIasBSBh18Z7UjEhoN7b7ilPQLn5jrkPo-NNaLzBfAhT86x6kM10r5MsIWMzY~Pp1-lnhuFfMPPcFOINoSPI5tCkQ9qfivxQsrLm9FlMSUmj3eTRrEIbTsZMnJ5bO3ArOG8nSLDPddipYb18xW~~7-Uq45m0WQpvRg__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 61
+      },
+      {
+        "type": "movie",
+        "title": "Saw II",
+        "overview": "When Jigsaw locks a few unlucky people in a booby-trapped shelter, they must find a way out before they inhale too much of a lethal nerve gas and die. But they also have to watch out for the traps Jigsaw has set.",
+        "genres": [
+          "Horror",
+          "Mystery"
+        ],
+        "added_date": "March 28",
+        "added_ts": 1774685983,
+        "link": "https://www.netflix.com/title/70035184/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/1630/poster/vertical/en/240.jpg?Expires=1798052471&Signature=TM2w3NBfEscAt1AGUS71nqdZpN0CCKhYrqLs09wDpyjRykvboubPtjya54~8j8XwmkQ0weOdWzNOUmTrfpPtATyLuIBKbZwY7le3L7xklmPX5ddd7rQK9Exgs57bkXj5fdMPaOWtUopumw3ObWWL-0kBzFjKv3bwmFIHP2~pUQsaMSrLEyv-UcCBBSOYezEPVFoY-jnU1bdbbglS9DPKpuRoXaG2cpPcgAXErC8pr8IOj3gMnHn62~tRveqSvmGOnoHiE8ZT0sQrLbMlSbPFrepykJpJlxc0Tg3V~kF1Lgm2JIbmxA7L4gwD6i0e9g7FZDAf71mur6VmtEzwmlJ~OA__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 66
+      },
+      {
+        "type": "movie",
+        "title": "Gridiron Gang",
+        "overview": "Dwayne \"The Rock\" Johnson (The Rundown, Walking Tall) stars in this gritty and inspirational movie, based on a true story about a group of teenage delinquents given a second chance to redeem themselves by playing football.",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "added_date": "March 28",
+        "added_ts": 1774683408,
+        "link": "https://www.netflix.com/title/70044599/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/6040/poster/vertical/en/240.jpg?Expires=1803640269&Signature=fSDiRvIzcmhHGwOxL2aiQ8yGz0TxIoXWkKmFju5Rwpr9Xo6fTeDArt4niOHfjUW0usUeHW7CqVmlb8z-EShlUKB5b0XPbLGwx32tJSn08w-q6YDIqwqEL3pKs1zd5ZlKvbQ65yBoZIRUbz0OPUBtr08RtQs16Wi-LPDESl59A4Hmk-ZFZ2xttm1CFdP0SFbSLS67LaZhLts5J9HfNqhzTeJ-frxdIq24ENkjxdzB5Z98SiN~9xDOBp6bFnUeq2mLZ0SaHruBYJjlPCEKBOkmP0DcunsF3W~Jt9907BqmLy1x3RbZQOoqTqXVWOYxZYmxuL2pK6-D6nW3O~0pDACMGQ__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 69
+      },
+      {
+        "type": "movie",
+        "title": "Anemone",
+        "overview": "Anemone explores the complex and profound ties that exist between brothers, fathers, and sons.",
+        "genres": [
+          "Drama"
+        ],
+        "added_date": "March 28",
+        "added_ts": 1774682423,
+        "link": "https://www.netflix.com/title/82190327/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/20221135/poster/vertical/en/240.jpg?Expires=1795811249&Signature=VYCHCTOhDkBl6qAlgFti6xb5iOPBOnzM~hKr423xXZpHgWrFQMaF2lcgViSlxssEtdaB2hoC-x4Mu2HGfIC03zpk5dpGgk38qzGKTgrIrANR7jZM0alTm1wxz5fLlTuEvEPp3rUUJleYeTCBjW9P~7Jv~rD7NqgNjMOihqlPhhIteBOlRG9yQBAa~COLyfYU0Ho7TKh4WTzOfPymCuhfektbAy4EAKBK9sZXw24~z1iHwOkaTZy4uzoXY0yEcQCWYVsQnX3IQZhn9XAueeHxJ5eIYseCHIcSgiA-IwPupHhhTYZ~bT4I1ubkk95ERe9EgVNlCHeX5x3Ax~vmZ5z48Q__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 57
+      },
+      {
+        "type": "movie",
+        "title": "The Unjust",
+        "overview": "South Koreans are terrified by a series of murders targeting children. The police fail repeatedly to capture the killer. Feeling pressure from all sides, the police pursue a possible suspect, but the suspect is shot to death by the cops. To avoid another dead end and any further heat, the National Police Agency wants to target another person, any plausible person, and close the case as soon as possible.",
+        "genres": [
+          "Action",
+          "Crime"
+        ],
+        "added_date": "March 28",
+        "added_ts": 1774681421,
+        "link": "https://www.netflix.com/title/70170417/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/54040/poster/vertical/en/240.jpg?Expires=1803815674&Signature=QetgBRcL1BY-MY~DzFhiBzaQdf~zzwOaVphNabJhtphrTnEwsdPDoqKL4BIp7ZPKEnPPPHWVD-MSwX1bp6Og2a-DKkoZu27oKauINe1rY2VAvUIA5pMQ1D4oqhFzWPgCG9oTdmOXv-mSoQaHHA3RgppX3bFh2N2LzmQ83ChyOY3g18Wh4Sdxc3U1LhF7kaNwQr0i1Va7VxkSDEhfPRJIdwIefxtu~jkMnZl18ku84PdMEk2lBsZuqJ7aNs6qf6cJ-MOD3v8II2z5jGor1HoaYgtJYbFlMU8B8CNgH-bdxDOhpRCUtqTMnmqtBNK32yInVHvZ5zDLROeZeOHlg-J-5Q__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 60
+      },
+      {
+        "type": "movie",
+        "title": "Saw V",
+        "overview": "In the fifth installment of the Saw franchise, Hoffman is seemingly the last person alive to carry on the Jigsaw legacy. But when his secret is threatened, Hoffman must go on the hunt to eliminate all loose ends.",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "added_date": "March 28",
+        "added_ts": 1774678179,
+        "link": "https://www.netflix.com/title/70098905/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/3652/poster/vertical/en/240.jpg?Expires=1801697179&Signature=ZjLkflwLkEsM5zlX8Ncvb6MJF6VKMuU5gBBs0zqEkpgGc6Qh678aUTP~o6dtqpTyH3FkgazwHruTOThbWhrBug1DJgyghtgAuxlNeoIf53ga3QyoscJ0nk8347m~boWiiogko6cQYqcEyjje392BqHnN40DDpPnJlov98LWyTGZj9DgXh~rit9lOqVa43Xp1WtTPXrrlOLdmFKT1Hw9HAW7fqSoH7t512Jer4HDFiyAQG0xP49w4HnhOu6LcIfEqXAMnA~qgmXWbkvMfu4Zqt3T8y0igEQEyvZ4bqnrvNxTspzslULLS~w3WKBpp-nZCPLG53tRzpBDX2j-qbE3Smg__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 58
+      },
+      {
+        "type": "movie",
+        "title": "Montana Story",
+        "overview": "Two estranged siblings (Haley Lu Richardson, Owen Teague) return home to the sprawling ranch they once knew and loved, confronting a deep and bitter family legacy against a mythic American backdrop. From the acclaimed Writer/Directors Scott McGehee and David Siegel (What Maisie Knew, The Deep End) comes a neo-Western with an emotional tremor hiding beneath it.",
+        "genres": [
+          "Drama"
+        ],
+        "added_date": "March 28",
+        "added_ts": 1774677457,
+        "link": "https://www.netflix.com/title/81555769/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/75953/poster/vertical/en/240.jpg?Expires=1800470648&Signature=cZpNm-71MeD~afgHnWrCnxGrw~kIaXjlhZawJRnOzRzlDXwiW09a09f~oVqNx7-YTyk~0Y1G3ecpzZTEuBwS-o7KAuKEaE1wKxS-9sBcg-J-xJgHxDNSZu-X7pUhHk4TsYns7cKWoMagX1aCz~qX~7~FIRpwjN3Dq-9osgbIzWmrHy0tMaY8lg~07x1V0Loz5bXDAfs6~g7L1~o9jeq38oGRyqA5xpCVxWSSKYbwqVAFKjYOTeAbnmDRrkjcMqdlI53MsfAcTJSp8ISngIigin9UX~3meks25WZgvKuLuJvVMUcMawlkxnkh749zbGJe3fok9JKRvrFC9oVJI6RHHg__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 63
+      },
+      {
+        "type": "movie",
+        "title": "Caterpillar",
+        "overview": "Endlessly struggling to feel seen, David becomes infatuated with a mysterious company's promise to transform people's lives by permanently changing the color of their eyes. New York Times Critic's Pick 2025.",
+        "genres": [
+          "Documentary"
+        ],
+        "added_date": "March 28",
+        "added_ts": 1774674525,
+        "link": "https://www.netflix.com/title/82699252/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/4788774/poster/vertical/en/240.jpg?Expires=1798771521&Signature=jlATpQDJTHqBIpbO~hKC6cXMoUN1yOnYqYUsrS2B46oZYdIaRRZBrO8j9~d902qGYqXPnf5oK-rZgGGODe72v6J8BoYC9K7sab5RTl1k2sbYJgsg8Eva9pkrgoYK2HYBKWBpx53LlWAyWzZLJxak11RrpfTWRPxfz116delvzhhy6~~JEYYM28qw0B4dwoRNRkw2w6dBJGvljEVspQDJ9L-HSPvyctJhYYJtsTR-c4mfV-cWD82cGgtd95BAyMidBktC5XBL8nbiKfwM~GkyaqdVcDAXjel~hdE1Jl72qupdhA1LBjacFjTR7E4qOXwgOSp1~kIXDySveOvbglL74g__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 45
+      },
+      {
+        "type": "movie",
+        "title": "Night Catches Us",
+        "overview": "A man reappears in a neighborhood he grew up in during the Black Power movement, which raises suspicions and threatens his passion for an old friend.",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "added_date": "March 28",
+        "added_ts": 1774672365,
+        "link": "https://www.netflix.com/title/70129370/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/64900/poster/vertical/en/240.jpg?Expires=1801953783&Signature=fc2sclGox~TeQ2xIh9Yf6hf6xf0RP0O9oLgQVFDRRjfv6EkJufE8YTILi8H0gNoIzz5K1NBcqDjhfsviA4aqPTOZrtyk6vVTQOyLDLGYwKCRS~WNbU4kmRtIjDSoomlZI2rwXB41tgLFvk5sxF6PHfpoo27meVB24KWSl3JyxxXkeemq7SPeSRe6HOMzHvU-QgzCMPrsk7bJSqW7CvJrBwcCQlR-~6W7WTzn6CEgl0oAGmF-kPkGMp0vx4NfH0mSPIip2rDJLlHp32LK~2mqy-n6TaiqdKT-8YGl4sTx70J2Qyrm-8McqorevE3OkoPyuImKzEpBBB51jDpeppNL9A__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 59
+      },
+      {
+        "type": "movie",
+        "title": "Alive and Kicking",
+        "overview": "Meet lively swing dance professionals and enthusiasts, who are passionate about expressing themselves and spreading joy through movement.",
+        "genres": [
+          "Documentary",
+          "History",
+          "Music"
+        ],
+        "added_date": "March 27",
+        "added_ts": 1774667896,
+        "link": "https://www.netflix.com/title/80105356/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/113861/poster/vertical/en/240.jpg?Expires=1803612097&Signature=agvJIjAJLe76XGrgLjQI6D3uL6cu-MBUxDIzAwwmPRAge-zMq5v5v-nrDWU8rvslV9YgUFOIfgfaSXGVtbUWdA3Yk16OjheGyUare6zBxTt~0WF9gx0h9JVJ7EDCzNulaJB6B7JfpwN8ucESqkZij8UYIz6bCs4BNIebecoFTPgqm8XrAKjGqJL26vX8jiXJtNCN9pbdbX-StWU24MoIPD2PGa29131NLPEcQ2pjraQF-~CIJJDBRly2Dy8BEn5696PP01QXDF4UjH6ki-0wmdQuV-oU8WwZSqAWqk64jbx3~7GYQcOUYOzE-Php00-G9BDo2RQTqBpJ~jvzzv1wiA__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 54
+      },
+      {
+        "type": "movie",
+        "title": "BTS: THE RETURN",
+        "overview": "",
+        "genres": [
+          "Documentary",
+          "Music"
+        ],
+        "added_date": "March 27",
+        "added_ts": 1774613397,
+        "link": "https://www.netflix.com/title/82158609/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/24860738/poster/vertical/en/240.jpg?Expires=1805369710&Signature=YmzDilw1cFwixjagJuAJ-gT8ERaRD9809J0wGKoPJXflLwq8Sa9psyhoQ92w5XxtQbyF6k2~Jk6f4zH0HVBdz~Xo4FG084~loOJ88WVAZgAYchO1zKCOXGz9IBMRurZ7BjeHpJU7282XzzXEQPx7WYaNmigMtuBpRH5IF1sN0CkDRKlTNOQLuK0b2jNVOJJ1YM6iqWXcz0KRsrvha7JJpCRur8h73QjdmcXFzG64sY4GrewlkOq4Di9qakWdceEJILp4GeCTA4nH0L1UFr1XdPqOeutvQqMazYVMTNuz6TSjwgPs9r6hvQXjkgLlNbAtc9E3C1dg4~95YMmxBEi5yw__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 0
+      },
       {
         "type": "movie",
         "title": "Amit Tandon: Family Tandoncies",
@@ -415,341 +596,6 @@
         "link": "https://www.netflix.com/title/81948261/",
         "thumbnail": "https://cdn.movieofthenight.com/show/14625735/poster/vertical/en/240.jpg?Expires=1795157413&Signature=aU4cnnIbA45U8itZmgmVQi2fx1iTWk1Q8bc~DY8DVQIncwLOreegUMhtVqzBeDV0GncCfkDJAciaH60JzP-qemFxkrAGj6Z99LQHFS28ceGcE2O34njIZL-0fFA85fexNOHQwj5wpMX242khOL8~E-PBxeMDDJilDGwWywf2K-pp3RKaDWj87EVdJZnJkZWbWDsbgQqijGaPFnYWoHBsXrj9vT0eO9IQ6dsjWwuGeDywI3WY1t3ZKS0gCj~CyGomqPBpM25e3AK~YXPzzdbf0QShtyL6g7s2iLQHjy1lhZk-Qn94xqjI5J-We3NUFh~Et~iu94t95hkSLiFg397TUA__&Key-Pair-Id=KK4HN3OO4AT5R",
         "rating": 64
-      },
-      {
-        "type": "movie",
-        "title": "Agnes",
-        "overview": "Rumors of demonic possession at a religious convent prompts a church investigation into the strange goings-on among its nuns. A disaffected priest and his neophyte are confronted with temptation, bloodshed and a crisis of faith.",
-        "genres": [
-          "Drama",
-          "Horror"
-        ],
-        "added_date": "March 12",
-        "added_ts": 1773318134,
-        "link": "https://www.netflix.com/title/81517345/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/76568/poster/vertical/en/240.jpg?Expires=1803201361&Signature=Dcq6CC5Y-SuJByKXCqaEPx33Ojcfus8ypAARXhxFHBw5G2PzlvqHmL2QzVfc7UzLTw7ZpyNOo9Hs396KDBAArUtbYd8lpo48FlbNoG7OT9Cb27a4e4ZMQC8bQn4YurT8niEtJIsBY36wWnJ~GeXCWB2HR8s7UH8EafSPiAbdbCyiriDCX5ZV4qOjYTisHyO2UBqTd-nrcgDAlszdrJkE5v5WdhXup3M4EvXKLp7puIrXqW8nC8ux4~AlCkwh4l1eYeA0D5smnpqVXIu704bM6C--sYj~Bvzg4yxrMQeaQKIC4p-x1XG7IEeYqsSYAy~MO6Id3iUuQQ6a9B52m9v4ZA__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 38
-      },
-      {
-        "type": "movie",
-        "title": "Raazi",
-        "overview": "Set in 1971, when the winds of war were blowing between India and Pakistan, Raazi \u2013 an adaptation of Harinder Sikka\u2019s novel \u201cCalling Sehmat\u201d \u2013 is a true-life story involving a 20 year old Kashmiri girl.",
-        "genres": [
-          "Action",
-          "Drama",
-          "Thriller"
-        ],
-        "added_date": "March 12",
-        "added_ts": 1773317220,
-        "link": "https://www.netflix.com/title/81587834/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/10874/poster/vertical/en/240.jpg?Expires=1800467768&Signature=CZ0-4Fqj91JlAVQKiL9xzZDrEY8DbugMV-k5Hs3T8RJWmyQTzWcQ5C51FdddaLyaY0N8V4rirqD1ukVRp0UbwBZyVtaPuBmXAqXctEU1UEd-SkhwxJMoIFHUyhthJreSCieZ7B4vc7F64LNi7~G9xLH5Lq-~RPwhcG1CAQQB5SI9p4knxhMerIGU5P3H4FxTEecOs80fj7GWB6jN535xDx6I7rhyWPqDIeO2MutTZ-65ZRKe7aPyik5dmM8SQCLI8znv1Obps4VNiDqIG-8x1Kcs05o4Z-DNCAEt~WLz8XwPxUm9zsPgxBrGb1GI7Yfe9LPN-l6t7GN8yC4f2l4vBg__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 62
-      },
-      {
-        "type": "movie",
-        "title": "A Miracle",
-        "overview": "A young woman who claims she can heal the sick after seeing the Virgin Mary becomes a source of devotion and derision as believers flock to her.",
-        "genres": [
-          "Drama",
-          "Music"
-        ],
-        "added_date": "March 12",
-        "added_ts": 1773309327,
-        "link": "https://www.netflix.com/title/82034883/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/16997749/poster/vertical/en/240.jpg?Expires=1795268161&Signature=i~wuJ2DCSBlbx8sV7eu87qb-Y6PqUnMoPmyiVKIZ0rFpy5P8Pg~K84QPAUdhJZtqPG7lKgd8QZ4cmd-0gB22rGlnoE249aZvZYrI1wJ2oKzLU8wIvTOLrbPZJdxP8l3ylVu7il5SAzEVroAvVXO9IiCLSMWzXS09olmGKeh2Thrzq4U5~FCcJNOHR51ynah80Xt4Aa1eJ3P82UZuyaIVW8QuxxtFqDBp7raUgfqTg99ynwIx3Z8lhRnq1dE9e5O2T6sLD9GOu3sYfKT5vaiLSdxTN1mGpgVIxSM2o11m6MaT-r1P73dnvzqc1eo3u7ILeCOBU1YNMSkEXSR61tMoAg__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 47
-      },
-      {
-        "type": "movie",
-        "title": "The Retirement Plan",
-        "overview": "When Ashley and her daughter Sarah get caught up in a criminal enterprise that puts them at risk, she turns to the only person who can help: her estranged father Matt (Nicholas Cage). As Ashley, Sarah, and Matt become entangled in an increasingly dangerous web, Ashley quickly learns her father had a secret past that she knew nothing about and that there is more to her father than meets the eye.",
-        "genres": [
-          "Action",
-          "Comedy",
-          "Crime"
-        ],
-        "added_date": "March 12",
-        "added_ts": 1773303728,
-        "link": "https://www.netflix.com/title/81629248/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/4574386/poster/vertical/en/240.jpg?Expires=1799554528&Signature=Iuni9uaduP2fACYlYJcybq8-nf46Pe9PCo5a-oB-EcUY5s-a2i2L1gP6nKldpUrTn3dMw~Zmye~Rq-Y7-x0PwiPCbxmBICBui3khFcPhfTUxUZrebwhpzAuDUk80AWrtvArwaxJ-COM2ECJY8tCUEpdo-o1NaKyn6QM6XPAxBqvAFM0NlwjeQz1PVvNF8zcUtrY5XYXpCv289WSpTMpzmdjmEsJVLw752tiv1P~l1n1s0POccW3hMkT0~IRnjCHJe~aZHcsPAUxqwgooMMA9Zkwcpc1dHgf0kqO-avNuH8XlJv7FcR6ocWp-TWoXbSrqXJe-6C1BnItdTVNWDRt7lw__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 53
-      },
-      {
-        "type": "movie",
-        "title": "Silverado",
-        "overview": "In the 1800s Old West, an unlikely band of misfit friends teams up in a shoot-em-up against a frontier town\u2019s crooked sheriff and his henchmen.",
-        "genres": [
-          "Action",
-          "Western"
-        ],
-        "added_date": "March 12",
-        "added_ts": 1773303193,
-        "link": "https://www.netflix.com/title/966131/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/8562/poster/vertical/en/240.jpg?Expires=1801803002&Signature=MwLQg8vUzORgv4AS2sEh-HoTAHZ9s~h-944~rlmrKvLDVxUoIDxLqSORKxPKuaUZRA99bcK2uThAm4wzWvJVdJL6DyW5TmZR3Gn~QpCWf1R8aJjoZU1HNw-TQ2-NWz0ln3X12RrzbmWgJhc9iunevktKw5O79fp8JUb9yubAldDvq8wEomFVijLuKVIvNRsWux6lkg4gwZe3UsHJUJ-Ahuma8g1n3YoQrkSqBsR5vto5WV89Y6R3OBtfCm2DSVhct~4DPy~cdUx2O9HkH5Uh2DvRFmyOamQhn3RiTLRYA3ngZZxzfTSbCipfNyq3wDDm5IFMWm25Xe4ydvEa5Lj~bg__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 71
-      },
-      {
-        "type": "movie",
-        "title": "Saw X",
-        "overview": "The chilling SAW X sees John Kramer seeking a cure for his cancer and finding con artists instead, making Jigsaw's game personal\u2026and his ingenious traps more terrifying than ever.",
-        "genres": [
-          "Horror",
-          "Mystery",
-          "Thriller"
-        ],
-        "added_date": "March 12",
-        "added_ts": 1773303038,
-        "link": "https://www.netflix.com/title/81705784/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/5044782/poster/vertical/en/240.jpg?Expires=1805450839&Signature=f0FOvC893WSdNhsT7mOAewJGz8E~PBeQyjUoeEusTEO3XDS9Og0gegrRDkLFXSO3VALx0jM8gkArIFeuMNaLmgSXXz2U4Tp5j2dmDF8RRSGzstOl3~zz7xIfGlLKczDiynfd~TVRvQafBrslA07javvubhWZCvybBmsCmM7M~fM54Ffzya0Z-5vRLn93R3zOcttRqXnxYGDwyN2WXflW3t98NKTEQTccWttgWj00WJH1SjmFV~4iHDmxP6kKwVU937iP3f8qmBmx1w0nGfznQuIM4sleX1noit3uHb4nPtMOVTgLp6nxd-onfEV~D9DxY8738ziInh1CzBhUkIwI3A__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 67
-      },
-      {
-        "type": "movie",
-        "title": "PAW Patrol: Jet to the Rescue",
-        "overview": "The Duke of Flappington takes the Princess' gem and uses its magical powers to raise Barkingburg into the sky! Skye will need to overcome her biggest fears and lead the team in their biggest aerial rescue yet! Get ready to JET TO THE RESCUE!",
-        "genres": [
-          "Adventure",
-          "Animation"
-        ],
-        "added_date": "March 12",
-        "added_ts": 1773303003,
-        "link": "https://www.netflix.com/title/81277429/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/150498/poster/vertical/en/240.jpg?Expires=1803660842&Signature=dtZxzQP9EtvcJItvjBQUQLdPTaHTU6~FxY3rx78J60x-t-NvFX1MdgRWxdN2YyqLVuAPY5-~ygGMkOJPqadt4cc~ofOFtdR1VOCeT14OAoOfEi86~7bwzAyCpPDQIIPeG~IpWiTYP-kyxw04qEOcL2QHcs2ngN3Z7dR4ZUlGbOCKrPAgid7ydeCJ52jlOvGVbEOqHWMUgtEnZPHt3iksMWqwJDpXFkTBl2-7OUD4nqFD-LIlBTA33oIRPnr6BcARAmAF9Rugvw1MRBckmqO~9xITDW~qlVkNEv3rExji~ozBMZR4NHMALBZ~RKtAzkGiEzmEtZwvW45DvfX3G48thQ__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 53
-      },
-      {
-        "type": "movie",
-        "title": "Sniper: Legacy",
-        "overview": "A rogue gunman is assassinating high-ranking military officers one by one. When Gunnery Sgt. Brandon Beckett (Chad Michael Collins, Sniper: Reloaded) is informed his father, legendary shooter Thomas Beckett (Tom Berenger) has been killed, Brandon springs into action to take out the perpetrator. But when his father rescues him from an ambush, Brandon realizes he\u2019s a pawn being played by his...",
-        "genres": [
-          "Action",
-          "Thriller"
-        ],
-        "added_date": "March 12",
-        "added_ts": 1773302772,
-        "link": "https://www.netflix.com/title/80005460/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/32039/poster/vertical/en/240.jpg?Expires=1803749906&Signature=PH~RmH5BQydVjmoFHmFP7a82E2VCrCI4EJOiV3OpH6oRb0W6hPKOqjU-QPrJwYwYbckhGuEy1lp2Rr-EJ8eEYwTdx7Ra24KgRDJHXqu2fQJDqIp7sEeaoi4Lvmmh-UkO9~SRXKKCDxYdtum3gz4KLUNZBcC274ghz4pIL-liuMlbiW0df-Lpawc-LvrzMZMnvrsaRqBUKdGYfqHPL8h3BHhVcO2jDB76wfLw9Hfxpx9Qnve125CEfRxNVYHe7udc9Wh6CU43zNC7ZBnTGDJQ3b2pwNeEavz1Q8VODfT02Zrihx2gJRPBgcXa1cE4lyDsfpdIGziQ53XQPIi7o2ibhg__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 54
-      },
-      {
-        "type": "movie",
-        "title": "Transformers One",
-        "overview": "Witness the untold origin story of Orion Pax (young Optimus Prime) and D-16 (young Megatron). Once brothers-in-arms, see how they turn into sworn enemies and forever change the fate of Cybertron.",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Animation"
-        ],
-        "added_date": "March 12",
-        "added_ts": 1773302757,
-        "link": "https://www.netflix.com/title/81783924/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/8863249/poster/vertical/en/240.jpg?Expires=1794070472&Signature=Q7ByrDfz0v~6oL3dFiH1aCcWN~mVdDn~DHBhrDj8DXvVP3eZzlVZ~aWF7TcfoDrR2BhZ9qy5bAlSC85Rwo5X8d0vIMY~J-btbMzC2IER5YiZw0eA~Y4lyR5KFIgV6Gaye4HemHcdodlIHb0W2cinycS0Cj3fufsxuvTw2yQIRqiAVwkvVQdVsuGsBJVWgWMkz40t1c9Qdp~cn1StCcrJA1toIFsRGpVM304JZ0C8eiEFeiddEeLbCaFCaa8iH88ZbkFnjb-gEkgfpUY0a5Qqd8IdPMkC2qQxio~Z1kL7hlWBax6WJDJAoagTGYuFSZji3-Bx64fjWesBabnwfMkhBw__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 77
-      },
-      {
-        "type": "movie",
-        "title": "One More Shot",
-        "overview": "A Navy SEAL fights off airport terrorists planning to bomb the State of the Union Address.",
-        "genres": [
-          "Action",
-          "Thriller"
-        ],
-        "added_date": "March 12",
-        "added_ts": 1773302570,
-        "link": "https://www.netflix.com/title/81759891/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/6410586/poster/vertical/en/240.jpg?Expires=1803185104&Signature=fFVpQprKQRKxF78rj6vcjnpSQEfOFK36XirR5hcWvvofhZrj3-xXyGzGPm5C6zbzqMiYT6pdm0Km1aIUvW6HsSodKi2RA31X5quz5Jul7xWiaFT9zeyoIj~15SmJVUGlZZlGQIl~Nkxa2-7PZ8BMr3knUm0mjQ0HHdj9G0YF4UjnzPNlJFLZDyB56~QpPhkVTrRvuxEs12dOWkRp8QJRpuxpcDsBafhv11bzdld0aiJEmjLrPdA78hUDVQJ~g1TjEkhJkn1DZvdOykzjUIBAvajHLJ3qtyV22bP78HK2aWWf1rfBhyhKWdEe59BvsB3jfvmL-rqQR~LegO06oFxHow__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 56
-      },
-      {
-        "type": "movie",
-        "title": "Drive-Away Dolls",
-        "overview": "Ethan Cohen directs this comedy where friends Jamie and Marian go on an impromptu road trip to Tallahassee for a fresh start. But things go south when they cross paths with a group of inept criminals along the way.",
-        "genres": [
-          "Action",
-          "Comedy",
-          "Thriller"
-        ],
-        "added_date": "March 12",
-        "added_ts": 1773302528,
-        "link": "https://www.netflix.com/title/81725541/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/7523156/poster/vertical/en/240.jpg?Expires=1801792905&Signature=lP8dpWK0t5hN59g7mf~qZlKsCiDPndZH3T7N~wwImQP4vXlaCSfp049WYgw1r2v5YVtPiz1jcskEbpcnbEFb6DT6kIWPSqj33BGzMelsxSDWVcLTCg7o-Cc0qR87cO1X2e2ZOZ31-cSHPpMWjKXqMYuajSzEuTh~MkSUJ16v-10B4r7H~Hci80DPeanKRtmAzcGaWYmB-fg765Tld0S-yhwuOi~GqhUWniXJB2u~hFH-mhzEIexZzahggJRiS6a7NIG~fIqriqEG7Qb8g~NMojaaOMJlfj-kah0rEOTuBMgYTJNeCfQ3qDgpHdO77Odu-Xm7z~Gyy~KRXmOIsC7AXA__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 54
-      },
-      {
-        "type": "movie",
-        "title": "The Book of Clarence",
-        "overview": "Jerusalem, year 33. Pursuing a better life for himself and his family, Clarence (LaKeith Stanfield) decides to take advantage of the impact of Jesus Christ and become a new Messiah, risking everything along the way.",
-        "genres": [
-          "Adventure",
-          "Comedy",
-          "Drama"
-        ],
-        "added_date": "March 12",
-        "added_ts": 1773302417,
-        "link": "https://www.netflix.com/title/81698411/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/6412432/poster/vertical/en/240.jpg?Expires=1805672926&Signature=kMgkLZshtQJK~W1iTKHdfJ169rmaCbDZ9KRowkeKyRPX3ziL-R3OoVZzPdlYe5P4lQr1-~KtGdVb2cYS12CY2Ud7jGoJbdMXeKkjAdlWIS8cqO4paLyakxQVFGVKCQPhyX6J2glu7Ox1umkU7--GwgW7J8Ucpt5qiv3t7OvCNwUXpdDhzQ-70LeUgzUxE01ipgGaiPvxJ8ezlWr6YRhIC2Tl7ahutc4mXni3B3yIHx~nmui9EYjeFAPPoJvQT3~VBZM8xBbBrBEPyOZ0RmCCCswCBNbLU59jFCl2CiwI4G~oSKsMC-pHMUJbRqD5rgwK3VJxt3NqCeCWT091zXpRLA__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 56
-      },
-      {
-        "type": "movie",
-        "title": "Point Break",
-        "overview": "A young FBI agent, Johnny Utah, infiltrates a team of thrill-seeking elite athletes \u2013 led by the charismatic Bodhi. Deep undercover, and with his life in danger, Utah strives to prove they are the architects of a string of inconceivable crimes.",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Crime"
-        ],
-        "added_date": "March 12",
-        "added_ts": 1773302351,
-        "link": "https://www.netflix.com/title/80038360/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/6625/poster/vertical/en/240.jpg?Expires=1800380397&Signature=hSfESeN4C3N9uwgzJKIb01NPB0uYxeD3gQiBI0x5OpBUhIjcYHyRdIndSNKQ7o2HrUK7GCLU0OthA8w5-Lc9eeMh90ayRV5WmHgqzOW8fW1giKp~WTEJF7dq7jAo64lbnYg6R64zohBgzb~HAwOwSKg6K-HtSgCOtDqbPPU7aLkRd-o7FEsip0-2~z5cF6YDlfRfhUaJz0BHrMVJvbJHpbbLx1kiacp9IXmwAMSXvkw-K8QluNof7VvF3wVGLEVj8zJUxlqaFwqvx5nTA9tc4QMwuZc4lp~KzVEAYWHjRN2RLkeUv~R6erR9sG4yx2v3-~HSKjZ0ukSCCEE5726X0Q__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 54
-      },
-      {
-        "type": "movie",
-        "title": "2 Hearts",
-        "overview": "For two couples the future unfolds in different decades and different places, but a hidden connection will bring them together in a way no one could have predicted.",
-        "genres": [
-          "Drama",
-          "Romance"
-        ],
-        "added_date": "March 12",
-        "added_ts": 1773302139,
-        "link": "https://www.netflix.com/title/81435805/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/29898/poster/vertical/en/240.jpg?Expires=1799517489&Signature=ERnzk5FqYIQ22grNCyu7u4vevkyib6zdnAcH8vNOd7JhcoUUkiJsmo3wrhXj9O-xusNtZCpuHClbJ6zwAvuTkQYoR06UhH-3CBQAr0vcgS~FvN1OpPAQwfOM0vQpB61j709kpMIVfNaE0WY0eycbxQDi~L~5bPbFhtQvtKMvTnAF64rjLlnyXpjzNuTeujRjjuan1fo0UuMNiAFoXmwOO7lm6mPgwMPAYqYBNtgyPsrJqaOJgBrWYIk02b-koYYjnF5irfi3UvX5jCMusVSBAI5-dPktmEaMfHNqBnWmanBbSD8bfjxKwVQy1Dlv2za85xqcsz1oeQ2su--wxpZ6DQ__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 65
-      },
-      {
-        "type": "movie",
-        "title": "Two Days Before Christmas",
-        "overview": "A writer, a pop star and their families weather snowstorms, mounting career crises and intertwining love lives across Quebec two days before Christmas.",
-        "genres": [
-          "Romance"
-        ],
-        "added_date": "March 12",
-        "added_ts": 1773301918,
-        "link": "https://www.netflix.com/title/82041108/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/205224/poster/vertical/en/240.jpg?Expires=1805012255&Signature=L-xA-TK9fQCWMY1xk8~qKFopf95Z13Hya~ZyjNtcsiV9GI7pcNxtS0JY4xdKCCgx3HQpxCUnt4xPWVa20GWz5aNrLneYtCMsUNEYV4oCNJhNG7JnK~vEqvyhvbuJQI8pt4Bvz0Z9FUChsc2vVYFvi3gih-axaGVjzFULBefrf-GmGKXntAI3mJ9fBgsZkApQPPX1yuOEg1062bvusuLbprZlDFfmSBdGpPlanoIUNsMTJ-0WPdSjRQ88H1aYsLskthUB10r4~bzMBnoT1qxe2f9HmqARyrBlm3Dj-IL3Ii506d1~6on9Q~aNFgXKboPfZzKqR12vAaCaQuJBfayv2Q__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 53
-      },
-      {
-        "type": "movie",
-        "title": "Genie",
-        "overview": "With his life unraveling around him, Bernard dusts off a jewelry box and unintentionally releases genie Flora, who might just be able to help him.",
-        "genres": [
-          "Comedy",
-          "Fantasy"
-        ],
-        "added_date": "March 12",
-        "added_ts": 1773301279,
-        "link": "https://www.netflix.com/title/81730306/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/5460002/poster/vertical/en/240.jpg?Expires=1803464647&Signature=E4BVAmzLTkUV~KGMBnlZx5EcaPILbbEjfLIL11kWdndThrze-JPb3l4jazzDDlK~cFAGNhyYdpYJ1XGQPrFu7oPk1r1MLD6hXq9NCkz2ONvb7aHy-G7tZEJ4TavciyE4eKISGVw8NxPBpmiGIRG-kpSCAzQm4XnmnoOWbftQlfv-XEGcEzENGYepdXsSACTsdIXQ2vd5J0FLjLjTMwy0xvTpak1XMNAZjnY0C5dfGa5dmHWWC8y-PeUHl0Jf2uGA1vRcYhdcH1X6PXW1fjMBaypZ825hRMMy2o9YxJ~6MFLL0EKqKy7ZAZQNHnHdaLzMC98DCSGluMfOoohd5z9hTg__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 60
-      },
-      {
-        "type": "movie",
-        "title": "Deliver Us from Evil",
-        "overview": "A New York police officer and unconventional priest join forces to investigate a series of disturbing and inexplicable crimes.",
-        "genres": [
-          "Crime",
-          "Horror",
-          "Mystery"
-        ],
-        "added_date": "March 12",
-        "added_ts": 1773301273,
-        "link": "https://www.netflix.com/title/70299902/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/5626/poster/vertical/en/240.jpg?Expires=1803636147&Signature=dUpHt2pr3Vh0KR73gYfCiYm3VohpneMcV8vKmzXqH9S2V~2uxRPoTwjyY8~v2xCiMQVwNZHgQZ4pCQewZYvaLIDIRPibDB5voBHVXgCzTpqLq91HFCxhMynbllVnjQQ3e-tJaBRNuz6L~GJVBVtE~UBEddYn3BDvjnwd1RdNA2p0ONc-effolpxNTcATqB7~pAj0xcM2CopLBbne9XxRfFR9yfytyE-bsxqV8bqmIIf2pxbyTi9~wKiZ~jkXd00y6qGlUrqhY5dfHxoN4qfASvDla4fEPKzU3FLac7SHbuQvQNhcurt0Rh87jlNbSuF-JmQkyr-0PZPMKKRIPYYBQA__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 62
-      },
-      {
-        "type": "movie",
-        "title": "Ruby Gillman, Teenage Kraken",
-        "overview": "Dive into the turbulent waters of high school with this heartwarming action comedy about a shy teenager who discovers that she's part of a legendary royal lineage of mythical sea krakens and that her destiny, in the depths of the oceans, is bigger than she ever dreamed.",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Animation"
-        ],
-        "added_date": "March 12",
-        "added_ts": 1773301239,
-        "link": "https://www.netflix.com/title/81724612/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/2884151/poster/vertical/en/240.jpg?Expires=1803631130&Signature=Ro02AzVJQ7EPCVjd1eqORLLuzNqf16L70zNYqJWoL351yMtWnW03AgXfjifT9C6zypLfVwATe4mxwqexwKIV6Q2q3WQps62HB0FnZeiUYaVo2qlK72Fy6TE2cDI2Wh9KdD7yUGKIzX2~AaZhH9Xc1HQhWn7gSp2UBFXA0ye~4F1zKV8bKYbywB0a-jM6oxm1fF5QMFK7SKkrNAIGVLpWYTBtK6JRhQZcEW-W3NBto5IPFY-4V1wn8bmwB3292ysmrwtU8qTPX21nUZkUGJ53OKqUwsq7aMQYUx4jyuDBMtd-oYAj5sOFUvtUj0F7E7o9twl8efXQSxn3plfZInYS6Q__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 60
-      },
-      {
-        "type": "movie",
-        "title": "Smurfs: The Lost Village",
-        "overview": "In this fully animated, all-new take on the Smurfs, a mysterious map sets Smurfette and her friends Brainy, Clumsy, and Hefty on an exciting race through the Forbidden Forest, leading to the discovery of the biggest secret in Smurf history.",
-        "genres": [
-          "Adventure",
-          "Animation",
-          "Comedy"
-        ],
-        "added_date": "March 12",
-        "added_ts": 1773301180,
-        "link": "https://www.netflix.com/title/80121839/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/13511/poster/vertical/en/240.jpg?Expires=1803160467&Signature=KwBH0y96o1NJIxNotEFo26MfEhdOyFgZh2T1JsPmjBx2hFPWzyAfzQ3sxj8spIhIShNcge~iNB0ejVEzofqYwfzx9e8spz65VAj0McjdQmOFcKRGXBCwKHHvmISqADQF-Mz60pLB0B~KvwI4Cw~e-dyxZ5wgJrLz-tka0PTfD23jcxzvmWd4bnBfLCB7JanLjKeKRltk6kvXQ~nnr8hmR8R8I7cyqpDSkvTxg8pozPWDt1-hBB20mSPhFw3cYEhC03rznqr6Urkv2oeih2zK7LY5R9kXeg7h3wQ8GZPY3IcapoImUvZMm7tfOaxMwI7nBhYMFuRqTYgE7Y9nt3EsQg__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 60
-      },
-      {
-        "type": "movie",
-        "title": "Sex and the City 2",
-        "overview": "When the combination of marriage and motherhood approaches, the gals take an exotic vacation in Abu Dhabi.",
-        "genres": [
-          "Comedy",
-          "Drama",
-          "Romance"
-        ],
-        "added_date": "March 12",
-        "added_ts": 1773301168,
-        "link": "https://www.netflix.com/title/70131315/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/5545/poster/vertical/en/240.jpg?Expires=1803636636&Signature=HN0kmJDUqvL7FAHUnlpU9WqQE9RjIdCxPxJlUBMdO868idIOhn-~Rdu~oDhjnXboyrs8JltpIVnrmE54mlQ9iwIgktK4nQjep0PZu2YwWN1tFEyGPCHTnZkJJjV3Fp3TNHSn6JeugZZ2NYuiVtjdPLbdv8sE89HCjXAgjDeLCT-yYzAl3yaGHZDctnCOmLpsJaXni~LrjiIAWEtPgoPXVoKqIuro6WKCP4EOa3BNmV6tgoY5uCAufjri8z4zBy8QppBrBVvQ5uEGv3IVBLjGzagFwhV2SF02RXQKjSpdEvOOpwrdie~o3aEx1wS828ZDvXX2vozww~33EgIrAgc-HQ__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 49
-      },
-      {
-        "type": "movie",
-        "title": "The Unknown Country",
-        "overview": "An unexpected invitation launches a grieving young woman on a road trip through the American Midwest. While navigating an increasingly surreal landscape, with the help of familiar faces and strangers, she reconciles the losses of her past and the dreams of her future.",
-        "genres": [
-          "Adventure",
-          "Drama",
-          "Mystery"
-        ],
-        "added_date": "March 12",
-        "added_ts": 1773292543,
-        "link": "https://www.netflix.com/title/81672225/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/246181/poster/vertical/en/240.jpg?Expires=1801766482&Signature=SFCRttAvorslCXLfMPMrBnVaE46y5AyEpgGNY82jkmKC5LX~235wPob27wqZYgAuiDTtHGzDO5ER~b3s28Kle6Gu4~bjBWM2raRhRn-EwM1ZtD~fnrvoQcbAgvcZ042FvcVX1ysVMeH9GHzXBZpjD3DQ9hYTAwNaMpLwRZSej0gdfAO11sE1rLnKSXi918MVodf3Z9CCMwYfSHnyJ-b-j~huYpb81dN2h55J0hV8H0IyzLgT8mPhAnEfgHDycQKRRyDgpmIEVT4YY1h-Y-ZX3xHN9GV56v8hTU8i0XUddu6ClK8wqJg9QVUNGxRddLdxqR1G6h1Kgxlmlku631EBoQ__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 58
-      },
-      {
-        "type": "movie",
-        "title": "Paul Blart: Mall Cop 2",
-        "overview": "Security guard Paul Blart takes his daughter to Las Vegas and stumbles upon a heist.",
-        "genres": [
-          "Action",
-          "Comedy",
-          "Crime"
-        ],
-        "added_date": "March 12",
-        "added_ts": 1773289205,
-        "link": "https://www.netflix.com/title/80021687/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/9532/poster/vertical/en/240.jpg?Expires=1801791771&Signature=Nb1MToH2qUrdnumQDdjZT5ytTu5ZYhJV9ykbE35VFiqNwrKRua7ax5mKFjBfeUw7pKHtRQjmY162mlDdTOQCEj~Rq8AbVAXTYrNSjqIyfaamYrjdhx5E81qds-hrS5PVkpML4v2jCbcwMZXuUygNso8VjppIV~2CAM4PB8DZaWBTqEbEGqNFojXXu9aSEc6H1T~m6FOmZAEE7S3qUQuVcQplOXV2un2WLumfLcm6Qy~mnys422NdPMbd-RT11MJ2QOxQZoVXmowA3Ey6OKCiYr9MXm-hfmRnGpYQZyhPEO3Vm0BPjmYXxebO1NHj8P2jtE7KlwVg6Rb1664M6G1pkQ__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 46
-      },
-      {
-        "type": "movie",
-        "title": "Talvar",
-        "overview": "A double murder case of a teenage girl and the family's domestic help shakes the nation. With many suspects and multiple theories, who is the real culprit?",
-        "genres": [
-          "Crime",
-          "Drama",
-          "Mystery"
-        ],
-        "added_date": "March 12",
-        "added_ts": 1773288028,
-        "link": "https://www.netflix.com/title/80080618/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/9978/poster/vertical/en/240.jpg?Expires=1805082433&Signature=TpGHo-2IZmrM54wSz0kJh3uOc~dwN17eRhp9nS7IiRL1rsxOa0QqwiyHitSPRoSlyn~Fsl~foX~CYnUF917vT-KTNFe3VKfXCUyIKchrhvk52Am-7Jf3uomsutKZQXOr9t3q8HkK-bQoAMtxvkQilXeRXKTqhmyFDQD4UHh95eN7ec-sDC1IeBbtfeEfe1QP2yShHBNvjsOdbvTgtyqOo1se4yzo4kWi5wjBbsFb304~cZjUpNtcvrJmjkpS7tHGpRuzWVlSFCcdZqZV1S1tU~Of7gn6aA8uTmMc9c6VBf9~QjjI12iynbc4kWy0ODWTwsd77KqF1RD1XpUrJyinLA__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 62
       }
     ]
   }

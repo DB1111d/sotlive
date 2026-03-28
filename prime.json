@@ -1,6 +1,6 @@
 {
-  "updated": "2026-03-27 04:40 EDT",
-  "week_label": "February 25 \u2013 March 27, 2026",
+  "updated": "2026-03-28 04:28 EDT",
+  "week_label": "February 26 \u2013 March 28, 2026",
   "groups": {
     "TV Series": [
       {
@@ -52,7 +52,9 @@
         "overview": "Mark Grayson is a normal teenager except for the fact that his father is the most powerful superhero on the planet. Shortly after his seventeenth birthday, Mark begins to develop powers of his own and enters into his father's tutelage.",
         "genres": [
           "Animation",
-          "Drama"
+          "Drama",
+          "Sci-Fi & Fantasy",
+          "Action & Adventure"
         ],
         "added_date": "March 18",
         "added_ts": 1773806400,
@@ -151,7 +153,7 @@
         "added_ts": 1773979200,
         "link": "https://press.amazonmgmstudios.com/es/es/original-movies/zeta",
         "thumbnail": "https://image.tmdb.org/t/p/w342/1cKLG9KMoCjsgFB8Nw1EuglteVi.jpg",
-        "rating": 66,
+        "rating": 67,
         "season": ""
       },
       {
@@ -222,22 +224,6 @@
         "link": "",
         "thumbnail": "",
         "rating": null,
-        "season": ""
-      },
-      {
-        "type": "movie",
-        "title": "The Bluff",
-        "overview": "When her tranquil life on a remote island is shattered by the return of her vengeful former captain, a skilled ex-pirate must confront her bloody past and unleash her deadly talents to save her family from a ruthless siege.",
-        "genres": [
-          "Drama",
-          "Action",
-          "Thriller"
-        ],
-        "added_date": "February 25",
-        "added_ts": 1771995600,
-        "link": "https://www.amazon.com/gp/video/detail/B0G565KPS4/ref=atv_dp_share_cu_r",
-        "thumbnail": "https://image.tmdb.org/t/p/w342/dl1cA7wdwePc9QU2Rc24EPqlcyJ.jpg",
-        "rating": 61,
         "season": ""
       }
     ]
