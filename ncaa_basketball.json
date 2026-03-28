@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-27 16:40 EDT",
+  "updated": "2026-03-27 22:14 EDT",
   "days": {
     "20260327": {
       "date": "Friday, March 27",
@@ -27,20 +27,20 @@
         {
           "conference": "Independent",
           "tourney_round": "NCAA Tournament",
-          "time": "9:45 PM",
+          "time": "9:55 PM",
           "match": "UConn Huskies vs Michigan State Spartans",
           "source": "CBS",
-          "kick_utc": "2026-03-28T01:45Z",
+          "kick_utc": "2026-03-28T01:55Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png"
         },
         {
           "conference": "Independent",
           "tourney_round": "NCAA Tournament",
-          "time": "10:10 PM",
+          "time": "10:30 PM",
           "match": "Iowa State Cyclones vs Tennessee Volunteers",
           "source": "TBS \u00b7 truTV",
-          "kick_utc": "2026-03-28T02:10Z",
+          "kick_utc": "2026-03-28T02:30Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/66.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png"
         }
@@ -73,7 +73,18 @@
     },
     "20260329": {
       "date": "Sunday, March 29",
-      "games": []
+      "games": [
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "12:00 AM",
+          "match": "Duke Blue Devils vs TBD",
+          "source": "ESPN+",
+          "kick_utc": "2026-03-29T04:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+          "away_logo": ""
+        }
+      ]
     },
     "20260330": {
       "date": "Monday, March 30",

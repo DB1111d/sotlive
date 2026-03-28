@@ -1,27 +1,9 @@
 {
-  "updated": "2026-03-27 16:40 EDT",
+  "updated": "2026-03-27 22:14 EDT",
   "days": {
     "20260327": {
       "date": "Friday, March 27",
       "games": [
-        {
-          "league": "International Friendly",
-          "time": "3:45 PM",
-          "match": "England vs Uruguay",
-          "source": "FS1",
-          "kick_utc": "2026-03-27T19:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png"
-        },
-        {
-          "league": "International Friendly",
-          "time": "4:15 PM",
-          "match": "Morocco vs Ecuador",
-          "source": "ESPN Unlmtd",
-          "kick_utc": "2026-03-27T20:15Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png"
-        },
         {
           "league": "USL League One",
           "time": "7:00 PM",

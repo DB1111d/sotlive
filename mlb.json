@@ -1,18 +1,9 @@
 {
-  "updated": "2026-03-27 16:40 EDT",
+  "updated": "2026-03-27 22:14 EDT",
   "days": {
     "20260327": {
       "date": "Friday, March 27",
       "games": [
-        {
-          "group": "Regular Season",
-          "time": "4:35 PM",
-          "match": "San Francisco Giants vs New York Yankees",
-          "source": "ESPN Unlmtd",
-          "kick_utc": "2026-03-27T20:35Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sf.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nyy.png"
-        },
         {
           "group": "Regular Season",
           "time": "7:07 PM",
