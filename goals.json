@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-28T20:56:47Z",
+  "updated": "2026-03-28T21:32:09Z",
   "date": "2026-03-28",
   "matches": [
     {
@@ -46,6 +46,58 @@
           "videoEmbed": "https://streamff.link/v/20a940f3",
           "directMp4": null,
           "postedAt": 1774731225000
+        },
+        {
+          "postId": "1s6c1ha",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s6c1ha",
+          "scorer": "De Ketelaere",
+          "minute": 59,
+          "homeScore": 1,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/y2c3n6ncpurg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/y2c3n6ncpurg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1774732004000
+        },
+        {
+          "postId": "1s6c3r2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s6c3r2",
+          "scorer": "Dodi Lukebakio",
+          "minute": 68,
+          "homeScore": 1,
+          "awayScore": 4,
+          "videoUrl": "https://v.redd.it/emgme2stpurg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774732162000
+        },
+        {
+          "postId": "1s6cfvn",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s6cfvn",
+          "scorer": "Dodi Lukebakio",
+          "minute": 82,
+          "homeScore": 1,
+          "awayScore": 5,
+          "videoUrl": "https://v.redd.it/d9630y3bsurg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/d9630y3bsurg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1774732988000
+        },
+        {
+          "postId": "1s6ckap",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s6ckap",
+          "scorer": "Patrick Agyemang",
+          "minute": 87,
+          "homeScore": 2,
+          "awayScore": 5,
+          "videoUrl": "https://v.redd.it/cy1qnmw6turg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/cy1qnmw6turg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1774733291000
         }
       ]
     },
