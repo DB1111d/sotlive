@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-28 12:36 EDT",
+  "updated": "2026-03-28 16:33 EDT",
   "days": {
     "20260328": {
       "date": "Saturday, March 28",
@@ -183,6 +183,15 @@
       "games": [
         {
           "league": "World Cup Qualifying",
+          "time": "2:45 PM",
+          "match": "Bosnia and Herzegovina vs Italy",
+          "source": "FS1",
+          "kick_utc": "2026-03-31T18:45Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/ita.png"
+        },
+        {
+          "league": "World Cup Qualifying",
           "time": "5:00 PM",
           "match": "Congo DR vs Jamaica",
           "source": "FS1",
@@ -230,7 +239,7 @@
           "league": "US Open Cup",
           "time": "7:00 PM",
           "match": "Asheville City SC vs One Knoxville",
-          "source": "Paramount+ \u00b7 CBS",
+          "source": "CBS \u00b7 Paramount+",
           "kick_utc": "2026-03-31T23:00Z",
           "home_logo": "",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21821.png"
