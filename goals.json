@@ -1,5 +1,26 @@
 {
-  "updated": "2026-03-28T13:56:50Z",
+  "updated": "2026-03-28T14:33:49Z",
   "date": "2026-03-28",
-  "matches": []
+  "matches": [
+    {
+      "home": "San Marino",
+      "away": "Faroe Islands",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s61som",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s61som",
+          "scorer": "Nicolas Giacopetti",
+          "minute": 22,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/gx1qoag4qsrg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/gx1qoag4qsrg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1774708038000
+        }
+      ]
+    }
+  ]
 }
