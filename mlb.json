@@ -1,38 +1,6 @@
 {
-  "updated": "2026-03-28 22:33 EDT",
+  "updated": "2026-03-29 01:43 EDT",
   "days": {
-    "20260328": {
-      "date": "Saturday, March 28",
-      "games": [
-        {
-          "group": "Regular Season",
-          "time": "7:15 PM",
-          "match": "Atlanta Braves vs Kansas City Royals",
-          "source": "FOX",
-          "kick_utc": "2026-03-28T23:15Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/atl.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png"
-        },
-        {
-          "group": "Regular Season",
-          "time": "7:15 PM",
-          "match": "San Francisco Giants vs New York Yankees",
-          "source": "FOX",
-          "kick_utc": "2026-03-28T23:15Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sf.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nyy.png"
-        },
-        {
-          "group": "Regular Season",
-          "time": "9:40 PM",
-          "match": "Seattle Mariners vs Cleveland Guardians",
-          "source": "MLB Network",
-          "kick_utc": "2026-03-29T01:40Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sea.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png"
-        }
-      ]
-    },
     "20260329": {
       "date": "Sunday, March 29",
       "games": [
@@ -139,6 +107,29 @@
           "source": "ESPN Unlmtd",
           "kick_utc": "2026-04-01T17:15Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/stl.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nym.png"
+        }
+      ]
+    },
+    "20260402": {
+      "date": "Thursday, April 2",
+      "games": [
+        {
+          "group": "Regular Season",
+          "time": "9:40 PM",
+          "match": "Arizona Diamondbacks vs Atlanta Braves",
+          "source": "ESPN Unlmtd",
+          "kick_utc": "2026-04-03T01:40Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ari.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/atl.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "9:45 PM",
+          "match": "San Francisco Giants vs New York Mets",
+          "source": "MLB Network",
+          "kick_utc": "2026-04-03T01:45Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sf.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nym.png"
         }
       ]

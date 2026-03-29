@@ -1,92 +1,6 @@
 {
-  "updated": "2026-03-28 22:33 EDT",
+  "updated": "2026-03-29 01:43 EDT",
   "days": {
-    "20260328": {
-      "date": "Saturday, March 28",
-      "games": [
-        {
-          "league": "USL Championship",
-          "time": "7:00 PM",
-          "match": "Miami FC vs Rhode Island FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-28T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18159.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22164.png"
-        },
-        {
-          "league": "USL Championship",
-          "time": "7:00 PM",
-          "match": "Pittsburgh Riverhounds vs Sporting JAX",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-28T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17827.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131578.png"
-        },
-        {
-          "league": "USL Championship",
-          "time": "7:30 PM",
-          "match": "Brooklyn FC vs Louisville City FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-28T23:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131579.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17832.png"
-        },
-        {
-          "league": "USL Championship",
-          "time": "8:00 PM",
-          "match": "FC Tulsa vs Phoenix Rising FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-29T00:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18446.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17850.png"
-        },
-        {
-          "league": "USL Championship",
-          "time": "8:00 PM",
-          "match": "Oakland Roots vs Orange County SC",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-29T00:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20687.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18455.png"
-        },
-        {
-          "league": "USL Championship",
-          "time": "10:30 PM",
-          "match": "Las Vegas Lights FC vs Monterey Bay",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-29T02:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18987.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21370.png"
-        },
-        {
-          "league": "USL League One",
-          "time": "7:12 PM",
-          "match": "FC Naples vs Forward Madison FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-28T23:12Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22525.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19995.png"
-        },
-        {
-          "league": "USL League One",
-          "time": "7:30 PM",
-          "match": "Sarasota Paradise vs Portland Hearts of Pine",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-28T23:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22542.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22528.png"
-        },
-        {
-          "league": "USL League One",
-          "time": "10:30 PM",
-          "match": "AV Alta FC vs Chattanooga Red Wolves",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-29T02:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22526.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20000.png"
-        }
-      ]
-    },
     "20260329": {
       "date": "Sunday, March 29",
       "games": [
@@ -331,6 +245,10 @@
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17850.png"
         }
       ]
+    },
+    "20260402": {
+      "date": "Thursday, April 2",
+      "games": []
     }
   }
 }
