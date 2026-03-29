@@ -1,27 +1,9 @@
 {
-  "updated": "2026-03-28 16:33 EDT",
+  "updated": "2026-03-28 22:33 EDT",
   "days": {
     "20260328": {
       "date": "Saturday, March 28",
       "games": [
-        {
-          "group": "Regular Season",
-          "time": "2:20 PM",
-          "match": "Chicago Cubs vs Washington Nationals",
-          "source": "ESPN Unlmtd",
-          "kick_utc": "2026-03-28T18:20Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chc.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/wsh.png"
-        },
-        {
-          "group": "Regular Season",
-          "time": "4:05 PM",
-          "match": "Baltimore Orioles vs Minnesota Twins",
-          "source": "FS1",
-          "kick_utc": "2026-03-28T20:05Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bal.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/min.png"
-        },
         {
           "group": "Regular Season",
           "time": "7:15 PM",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-28 16:33 EDT",
+  "updated": "2026-03-28 22:33 EDT",
   "days": {
     "20260328": {
       "date": "Saturday, March 28",
@@ -7,20 +7,10 @@
         {
           "conference": "Independent",
           "tourney_round": "NCAA Tournament",
-          "time": "6:09 PM",
-          "match": "Illinois Fighting Illini vs Iowa Hawkeyes",
-          "source": "TBS \u00b7 truTV",
-          "kick_utc": "2026-03-28T22:09Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png"
-        },
-        {
-          "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
-          "time": "8:49 PM",
+          "time": "8:59 PM",
           "match": "Arizona Wildcats vs Purdue Boilermakers",
           "source": "TBS \u00b7 truTV",
-          "kick_utc": "2026-03-29T00:49Z",
+          "kick_utc": "2026-03-29T00:59Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png"
         }
