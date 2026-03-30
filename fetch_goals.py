@@ -106,8 +106,13 @@ WOMENS_TEAMS = {
     "orlando pride", "portland thorns", "racing louisville", "san diego wave",
     "seattle reign", "utah royals", "washington spirit", "west ham w", "arsenal w",
     "chelsea fc w", "manchester city w", "manchester united w", "barcelona w",
-
     "lyon w", "chelsea w", "liverpool w", "tottenham w", "aston villa w",
+    # F-suffix clubs (French / other leagues)
+    "lyon f", "psg f", "paris fc f", "paris saint-germain f",
+    "barcelona f", "atletico madrid f", "real madrid f",
+    "arsenal f", "chelsea f", "manchester city f", "manchester united f",
+    "juventus f", "roma f", "milan f",
+    "wolfsburg f", "bayern f", "eintracht frankfurt f",
 }
 
 def load_today_teams(schedule_path="schedule.json"):
@@ -211,8 +216,9 @@ def is_own_goal(title):
 def parse_title(title):
     if re.search(r"red card|yellow card|\bsave\b", title, re.IGNORECASE):
         return None
-    # Filter out women's matches — W suffix
-    if re.search(r'\bW\b.*\bW\b', title):
+    # Filter out women's matches — any standalone W or F flag in the title
+    # Catches: "Arsenal W vs Chelsea W", "Lyon F", "NWSL" style posts, etc.
+    if re.search(r'\b[WF]\b', title):
         return None
     # Filter out known women's teams
     title_lower = title.lower()
