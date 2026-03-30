@@ -1,5 +1,26 @@
 {
-  "updated": "2026-03-30T05:50:51Z",
+  "updated": "2026-03-30T07:24:18Z",
   "date": "2026-03-30",
-  "matches": []
+  "matches": [
+    {
+      "home": "Cape Verde",
+      "away": "Finland",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s7gv73",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s7gv73",
+          "scorer": "Kelvin Pires",
+          "minute": 67,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/kh4z8in324sg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774845276000
+        }
+      ]
+    }
+  ]
 }
