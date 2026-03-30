@@ -1,30 +1,9 @@
 {
-  "updated": "2026-03-29 16:35 EDT",
+  "updated": "2026-03-29 22:36 EDT",
   "days": {
     "20260329": {
       "date": "Sunday, March 29",
-      "games": [
-        {
-          "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
-          "time": "2:15 PM",
-          "match": "Michigan Wolverines vs Tennessee Volunteers",
-          "source": "CBS",
-          "kick_utc": "2026-03-29T18:15Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png"
-        },
-        {
-          "conference": "Independent",
-          "tourney_round": "NCAA Tournament",
-          "time": "5:05 PM",
-          "match": "Duke Blue Devils vs UConn Huskies",
-          "source": "CBS",
-          "kick_utc": "2026-03-29T21:05Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png"
-        }
-      ]
+      "games": []
     },
     "20260330": {
       "date": "Monday, March 30",

@@ -1,45 +1,9 @@
 {
-  "updated": "2026-03-29 16:35 EDT",
+  "updated": "2026-03-29 22:36 EDT",
   "days": {
     "20260329": {
       "date": "Sunday, March 29",
       "games": [
-        {
-          "group": "Regular Season",
-          "time": "1:00 PM",
-          "match": "New York Rangers vs Florida Panthers",
-          "source": "NHL Network",
-          "kick_utc": "2026-03-29T17:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyr.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/fla.png"
-        },
-        {
-          "group": "Regular Season",
-          "time": "5:00 PM",
-          "match": "Tampa Bay Lightning vs Nashville Predators",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-29T21:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tb.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nsh.png"
-        },
-        {
-          "group": "Regular Season",
-          "time": "5:00 PM",
-          "match": "Carolina Hurricanes vs Montreal Canadiens",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-29T21:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/car.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/mtl.png"
-        },
-        {
-          "group": "Regular Season",
-          "time": "5:00 PM",
-          "match": "Columbus Blue Jackets vs Boston Bruins",
-          "source": "ESPN+",
-          "kick_utc": "2026-03-29T21:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cbj.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/bos.png"
-        },
         {
           "group": "Regular Season",
           "time": "7:00 PM",
