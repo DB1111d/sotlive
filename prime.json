@@ -1,6 +1,6 @@
 {
-  "updated": "2026-03-29 04:30 EDT",
-  "week_label": "February 27 \u2013 March 29, 2026",
+  "updated": "2026-03-30 05:03 EDT",
+  "week_label": "February 28 \u2013 March 30, 2026",
   "groups": {
     "TV Series": [
       {
@@ -76,7 +76,7 @@
         "added_ts": 1773201600,
         "link": "https://press.amazonmgmstudios.com/us/en/original-series/scarpetta/1",
         "thumbnail": "https://image.tmdb.org/t/p/w342/zvkcHCJUPqv7R9ukaiDNkm75jy.jpg",
-        "rating": 63,
+        "rating": 64,
         "season": ""
       },
       {
@@ -153,7 +153,7 @@
         "added_ts": 1773979200,
         "link": "https://press.amazonmgmstudios.com/es/es/original-movies/zeta",
         "thumbnail": "https://image.tmdb.org/t/p/w342/1cKLG9KMoCjsgFB8Nw1EuglteVi.jpg",
-        "rating": 68,
+        "rating": 67,
         "season": ""
       },
       {
@@ -212,18 +212,6 @@
         "link": "https://press.amazonmgmstudios.com/us/en/original-series/sirens-kiss/1",
         "thumbnail": "https://image.tmdb.org/t/p/w342/jBQO4R3rW00tcG2uQhl3QiRWtoJ.jpg",
         "rating": 10,
-        "season": ""
-      },
-      {
-        "type": "movie",
-        "title": "Final Siren: Inside the AFL",
-        "overview": "The Final Siren is an Australian Football League report show aired on One on 27 March 2011 until 8 May 2011.",
-        "genres": [],
-        "added_date": "February 27",
-        "added_ts": 1772168400,
-        "link": "",
-        "thumbnail": "",
-        "rating": null,
         "season": ""
       }
     ]
