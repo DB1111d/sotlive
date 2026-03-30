@@ -1,7 +1,27 @@
 {
-  "updated": "2026-03-30T18:38:34Z",
+  "updated": "2026-03-30T19:41:02Z",
   "date": "2026-03-30",
   "matches": [
+    {
+      "home": "Germany",
+      "away": "Ghana",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s80ukl",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s80ukl",
+          "scorer": "Kai Havertz penalty",
+          "minute": 45,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/84643127",
+          "videoEmbed": "https://streamff.link/v/84643127",
+          "directMp4": null,
+          "postedAt": 1774899340000
+        }
+      ]
+    },
     {
       "home": "Rwanda",
       "away": "Estonia",
@@ -19,6 +39,19 @@
           "videoEmbed": "https://streamain.com/QS02WCXzRIs3GxC/watch",
           "directMp4": null,
           "postedAt": 1774894151000
+        },
+        {
+          "postId": "1s7zcet",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s7zcet",
+          "scorer": "Leroy Mickels",
+          "minute": 51,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/8iU4Rv0XOapwYRp/watch",
+          "videoEmbed": "https://streamain.com/8iU4Rv0XOapwYRp/watch",
+          "directMp4": null,
+          "postedAt": 1774896129000
         }
       ]
     },
