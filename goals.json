@@ -62,26 +62,6 @@
       ]
     },
     {
-      "home": "Real Madrid F",
-      "away": "Barcelona F Ona Batlle 18’",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1s74s9z",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1s74s9z",
-          "scorer": "",
-          "minute": 18,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.me/v/4394565b",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1774813259000
-        }
-      ]
-    },
-    {
       "home": "Aruba",
       "away": "Liechtenstein",
       "league": "Rest of World",
