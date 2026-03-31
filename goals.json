@@ -1,7 +1,67 @@
 {
-  "updated": "2026-03-31T23:04:57Z",
+  "updated": "2026-03-31T23:48:47Z",
   "date": "2026-03-31",
   "matches": [
+    {
+      "home": "USA",
+      "away": "Portugal",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s9460n",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s9460n",
+          "scorer": "Trincao",
+          "minute": 37,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/749a5376",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775000719000
+        }
+      ]
+    },
+    {
+      "home": "Argentina",
+      "away": "Zambia",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s94204",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s94204",
+          "scorer": "Julian Alvarez",
+          "minute": 4,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/8e5babe5",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775000432000
+        }
+      ]
+    },
+    {
+      "home": "D.R. Congo",
+      "away": "Jamaica",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s93g7k",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s93g7k",
+          "scorer": "Axel Tuanzebe",
+          "minute": 101,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/63f0fc4b",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1774998963000
+        }
+      ]
+    },
     {
       "home": "Senegal",
       "away": "Gambia",
