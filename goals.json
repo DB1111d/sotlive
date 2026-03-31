@@ -1,5 +1,39 @@
 {
-  "updated": "2026-03-31T09:16:59Z",
+  "updated": "2026-03-31T10:33:47Z",
   "date": "2026-03-31",
-  "matches": []
+  "matches": [
+    {
+      "home": "Australia",
+      "away": "Curacao",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s8jpms",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s8jpms",
+          "scorer": "Awer Mabil",
+          "minute": 23,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/L4qqa9HwN6sp8tO/watch",
+          "videoEmbed": "https://streamain.com/L4qqa9HwN6sp8tO/watch",
+          "directMp4": null,
+          "postedAt": 1774953163000
+        },
+        {
+          "postId": "1s8jpxr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s8jpxr",
+          "scorer": "Arjany Martha",
+          "minute": 50,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/Vi63HkMJOdAQ6Os/watch",
+          "videoEmbed": "https://streamain.com/Vi63HkMJOdAQ6Os/watch",
+          "directMp4": null,
+          "postedAt": 1774953193000
+        }
+      ]
+    }
+  ]
 }
