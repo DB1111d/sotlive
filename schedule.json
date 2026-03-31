@@ -1,19 +1,9 @@
 {
-  "updated": "2026-03-30 16:46 EDT",
+  "updated": "2026-03-30 22:31 EDT",
   "days": {
     "20260330": {
       "date": "Monday, March 30",
-      "games": [
-        {
-          "league": "International Friendly",
-          "time": "2:45 PM",
-          "match": "Germany vs Ghana",
-          "source": "FS1",
-          "kick_utc": "2026-03-30T18:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png"
-        }
-      ]
+      "games": []
     },
     "20260331": {
       "date": "Tuesday, March 31",
