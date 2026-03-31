@@ -1,6 +1,6 @@
 {
-  "updated": "2026-03-30 05:03 EDT",
-  "week_label": "February 28 \u2013 March 30, 2026",
+  "updated": "2026-03-31 04:46 EDT",
+  "week_label": "March 1 \u2013 March 31, 2026",
   "groups": {
     "TV Series": [
       {
@@ -117,8 +117,7 @@
         "overview": "A troupe of ballerinas find themselves fighting for survival as they attempt to escape from a remote inn after their bus breaks down on the way to a dance competition.",
         "genres": [
           "Action",
-          "Thriller",
-          "Horror"
+          "Thriller"
         ],
         "added_date": "March 25",
         "added_ts": 1774411200,
@@ -167,7 +166,7 @@
         "added_ts": 1773892800,
         "link": "https://press.amazonmgmstudios.com/us/en/sports/meal-ticket",
         "thumbnail": "https://image.tmdb.org/t/p/w342/4E4WA3bfbq4mgDGrFJMNit9U1gz.jpg",
-        "rating": 80,
+        "rating": 75,
         "season": ""
       },
       {
