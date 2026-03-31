@@ -1,7 +1,299 @@
 {
-  "updated": "2026-03-31T18:38:10Z",
+  "updated": "2026-03-31T19:41:20Z",
   "date": "2026-03-31",
   "matches": [
+    {
+      "home": "Cote d'Ivoire",
+      "away": "Scotland",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s8xpcn",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s8xpcn",
+          "scorer": "Nicolas Pépé",
+          "minute": 12,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/7vu1wckylfsg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/7vu1wckylfsg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1774985891000
+        },
+        {
+          "postId": "1s8wc2c",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s8wc2c",
+          "scorer": "Nicolas Pepe",
+          "minute": 12,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/qz0iux9rffsg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/qz0iux9rffsg1/CMAF_360.mp4?source=fallback",
+          "postedAt": 1774983000000,
+          "disallowed": true
+        }
+      ]
+    },
+    {
+      "home": "Morocco",
+      "away": "Paraguay",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s8xcjn",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s8xcjn",
+          "scorer": "El Khannouss (",
+          "minute": 48,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/e1cft0b4mfsg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/e1cft0b4mfsg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1774985143000
+        },
+        {
+          "postId": "1s8xp3l",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s8xp3l",
+          "scorer": "El Aynaoui (",
+          "minute": 53,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/xn1zv8fbofsg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/xn1zv8fbofsg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1774985878000
+        }
+      ]
+    },
+    {
+      "home": "Sweden",
+      "away": "Poland",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s8wt11",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s8wt11",
+          "scorer": "Anthony Elanga",
+          "minute": 20,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/c66ed432",
+          "videoEmbed": "https://streamff.link/v/c66ed432",
+          "directMp4": null,
+          "postedAt": 1774983995000
+        },
+        {
+          "postId": "1s8x7wv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s8x7wv",
+          "scorer": "Nicola Zalewski",
+          "minute": 33,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/a5478f97",
+          "videoEmbed": "https://streamff.link/v/a5478f97",
+          "directMp4": null,
+          "postedAt": 1774984869000
+        },
+        {
+          "postId": "1s8xinz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s8xinz",
+          "scorer": "Gustaf Lagerbielke",
+          "minute": 44,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/717fada8",
+          "videoEmbed": "https://streamff.link/v/717fada8",
+          "directMp4": null,
+          "postedAt": 1774985500000
+        }
+      ]
+    },
+    {
+      "home": "Perú",
+      "away": "Honduras",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s8w20i",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s8w20i",
+          "scorer": "Jairo Vélez",
+          "minute": 6,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/HS6aAHcUeYtApOj/watch",
+          "videoEmbed": "https://streamain.com/HS6aAHcUeYtApOj/watch",
+          "directMp4": null,
+          "postedAt": 1774982397000
+        },
+        {
+          "postId": "1s8wxe7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s8wxe7",
+          "scorer": "Luis Palma",
+          "minute": 44,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/Lzavde65E9k3Kox/watch",
+          "videoEmbed": "https://streamain.com/Lzavde65E9k3Kox/watch",
+          "directMp4": null,
+          "postedAt": 1774984247000
+        },
+        {
+          "postId": "1s8x9lu",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s8x9lu",
+          "scorer": "Jairo Vélez",
+          "minute": 58,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/xjokHj01iiLtJQr/watch",
+          "videoEmbed": "https://streamain.com/xjokHj01iiLtJQr/watch",
+          "directMp4": null,
+          "postedAt": 1774984969000
+        }
+      ]
+    },
+    {
+      "home": "Netherlands",
+      "away": "Ecuador",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s8wgr2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s8wgr2",
+          "scorer": "Own Goal",
+          "minute": 3,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/09d4791c",
+          "videoEmbed": "https://streamff.link/v/09d4791c",
+          "directMp4": null,
+          "postedAt": 1774983285000
+        },
+        {
+          "postId": "1s8x0bh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s8x0bh",
+          "scorer": "Enner Valencia",
+          "minute": 23,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/52db364b",
+          "videoEmbed": "https://streamff.link/v/52db364b",
+          "directMp4": null,
+          "postedAt": 1774984418000
+        }
+      ]
+    },
+    {
+      "home": "England",
+      "away": "Japan",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s8wvhc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s8wvhc",
+          "scorer": "Kaoru Mitoma",
+          "minute": 23,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/2a41551c",
+          "videoEmbed": "https://streamff.link/v/2a41551c",
+          "directMp4": null,
+          "postedAt": 1774984132000
+        }
+      ]
+    },
+    {
+      "home": "Bosnia and Herzegovina",
+      "away": "Italy",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s8wofk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s8wofk",
+          "scorer": "Moise Kean",
+          "minute": 15,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/029e73c0",
+          "videoEmbed": "https://streamff.link/v/029e73c0",
+          "directMp4": null,
+          "postedAt": 1774983736000
+        }
+      ]
+    },
+    {
+      "home": "Serbia",
+      "away": "- Saudi Arabia",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s8we8k",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s8we8k",
+          "scorer": "Pavlovic",
+          "minute": 66,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/en/EMYgy1fTLRwcd4T/watch",
+          "videoEmbed": "https://streamain.com/en/EMYgy1fTLRwcd4T/watch",
+          "directMp4": null,
+          "postedAt": 1774983130000
+        }
+      ]
+    },
+    {
+      "home": "Czechia",
+      "away": "Denmark",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s8wcxs",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s8wcxs",
+          "scorer": "Pavel Šulc",
+          "minute": 3,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/a2a7f99c",
+          "videoEmbed": "https://streamff.link/v/a2a7f99c",
+          "directMp4": null,
+          "postedAt": 1774983053000
+        }
+      ]
+    },
+    {
+      "home": "Serbia",
+      "away": "- Pavlovic 66'",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s8w9qo",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s8w9qo",
+          "scorer": "Friendly []",
+          "minute": 66,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/EMYgy1fTLRwcd4T/watch",
+          "videoEmbed": "https://streamain.com/EMYgy1fTLRwcd4T/watch",
+          "directMp4": null,
+          "postedAt": 1774982861000
+        }
+      ]
+    },
     {
       "home": "Portugal U19s",
       "away": "England U19s",
