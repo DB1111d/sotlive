@@ -36,83 +36,14 @@ HEADERS = {
     "Accept": "application/json",
 }
 
-# Canonical name aliases — maps any known alternate → canonical form.
-# Add entries here whenever the same team appears under different names.
-TEAM_ALIASES = {
-    # South Korea
-    "south korea":    "Korea Republic",
-    "korea republic": "Korea Republic",
-    "korea":          "Korea Republic",
-
-    # Ivory Coast
-    "ivory coast":    "Cote d'Ivoire",
-    "cote d'ivoire":  "Cote d'Ivoire",
-    "cote divoire":   "Cote d'Ivoire",
-
-    # Faroe Islands (absorbs any typos like "Islandes")
-    "faroe islands":  "Faroe Islands",
-    "faroe islandes": "Faroe Islands",
-    "faroe isle":     "Faroe Islands",
-
-    # USA
-    "united states":  "USA",
-    "usa":            "USA",
-    "usmnt":          "USA",
-
-    # Common club aliases
-    "man city":       "Manchester City",
-    "man utd":        "Manchester United",
-    "man united":     "Manchester United",
-    "spurs":          "Tottenham Hotspur",
-    "tottenham":      "Tottenham Hotspur",
-    "wolves":         "Wolverhampton Wanderers",
-    "newcastle":      "Newcastle United",
-    "brighton":       "Brighton & Hove Albion",
-    "west ham":       "West Ham United",
-    "leicester":      "Leicester City",
-    "nottm forest":   "Nottingham Forest",
-    "nott'm forest":  "Nottingham Forest",
-    "atleti":         "Atletico Madrid",
-    "atletico":       "Atletico Madrid",
-    "atletico de madrid": "Atletico Madrid",
-    "inter":          "Inter Milan",
-    "inter milan":    "Inter Milan",
-    "internazionale": "Inter Milan",
-    "ac milan":       "Milan",
-    "psv":            "PSV Eindhoven",
-    "ajax":           "Ajax",
-    "rb leipzig":     "RB Leipzig",
-    "bayer leverkusen": "Bayer Leverkusen",
-    "leverkusen":     "Bayer Leverkusen",
-    "dortmund":       "Borussia Dortmund",
-    "bvb":            "Borussia Dortmund",
-    "gladbach":       "Borussia Mönchengladbach",
-    "porto":          "FC Porto",
-    "benfica":        "SL Benfica",
-    "sporting cp":    "Sporting CP",
-    "sporting":       "Sporting CP",
-}
-
-
-def canonicalize_team(name):
-    """Return the canonical team name, resolving known aliases."""
-    key = normalize_team(name)
-    return TEAM_ALIASES.get(key, name)
-
-
 WOMENS_TEAMS = {
     "angel city", "bay fc", "boston legacy", "chicago stars", "denver summit",
     "gotham fc", "houston dash", "kansas city current", "north carolina courage",
     "orlando pride", "portland thorns", "racing louisville", "san diego wave",
     "seattle reign", "utah royals", "washington spirit", "west ham w", "arsenal w",
     "chelsea fc w", "manchester city w", "manchester united w", "barcelona w",
+
     "lyon w", "chelsea w", "liverpool w", "tottenham w", "aston villa w",
-    # F-suffix clubs (French / other leagues)
-    "lyon f", "psg f", "paris fc f", "paris saint-germain f",
-    "barcelona f", "atletico madrid f", "real madrid f",
-    "arsenal f", "chelsea f", "manchester city f", "manchester united f",
-    "juventus f", "roma f", "milan f",
-    "wolfsburg f", "bayern f", "eintracht frankfurt f",
 }
 
 def load_today_teams(schedule_path="schedule.json"):
@@ -216,9 +147,8 @@ def is_own_goal(title):
 def parse_title(title):
     if re.search(r"red card|yellow card|\bsave\b", title, re.IGNORECASE):
         return None
-    # Filter out women's matches — any standalone W or F flag in the title
-    # Catches: "Arsenal W vs Chelsea W", "Lyon F", "NWSL" style posts, etc.
-    if re.search(r'\b[WF]\b', title):
+    # Filter out women's matches — W suffix
+    if re.search(r'\bW\b.*\bW\b', title):
         return None
     # Filter out known women's teams
     title_lower = title.lower()
@@ -254,6 +184,9 @@ def parse_title(title):
         dash_parts = [after_score]
     away = clean_team(dash_parts[0])
     if not away or len(away) > 50 or ',' in away or '~' in away:
+        return None
+    # Reject if away looks like a scorer — contains a minute marker or is all digits
+    if re.search(r"\d+\s*['\u2019\u2032\u02bc]", away) or re.match(r"^\d+$", away):
         return None
     scorer = ""
     if len(dash_parts) > 1:
@@ -308,10 +241,7 @@ def build_embed(url, post_id):
     return None
 
 def match_key(home, away):
-    """Stable key that survives alternate team names / typos."""
-    canon_h = canonicalize_team(clean_team(home)).lower()
-    canon_a = canonicalize_team(clean_team(away)).lower()
-    return " vs ".join(sorted([canon_h, canon_a]))
+    return " vs ".join(sorted([clean_team(home).lower(), clean_team(away).lower()]))
 
 def main():
     today_ts = today_utc_midnight_ts()
@@ -357,8 +287,8 @@ def main():
 
         # Cross-reference against today's schedule — tag league if matched, else Rest of World
         scheduled = find_schedule_match(parsed["home"], parsed["away"], today_teams) if today_teams else None
-        canon_home   = scheduled["home"]   if scheduled else canonicalize_team(parsed["home"])
-        canon_away   = scheduled["away"]   if scheduled else canonicalize_team(parsed["away"])
+        canon_home   = scheduled["home"]   if scheduled else parsed["home"]
+        canon_away   = scheduled["away"]   if scheduled else parsed["away"]
         canon_league = scheduled["league"] if scheduled else "Rest of World"
 
         key = match_key(canon_home, canon_away)
