@@ -1,24 +1,96 @@
 {
-  "updated": "2026-03-31T23:48:47Z",
-  "date": "2026-03-31",
+  "updated": "2026-04-01T02:23:48Z",
+  "date": "2026-04-01",
   "matches": [
     {
-      "home": "USA",
-      "away": "Portugal",
+      "home": "Mexico",
+      "away": "Belgium",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1s9460n",
+          "postId": "1s97cy7",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1s9460n",
-          "scorer": "Trincao",
-          "minute": 37,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/749a5376",
+          "permalink": "https://redd.it/1s97cy7",
+          "scorer": "Jorge Sanchez",
+          "minute": 19,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/22a788d9",
           "videoEmbed": null,
           "directMp4": null,
-          "postedAt": 1775000719000
+          "postedAt": 1775009078000
+        },
+        {
+          "postId": "1s97kam",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s97kam",
+          "scorer": "Lukebakio",
+          "minute": 47,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/963d86b6",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775009605000
+        }
+      ]
+    },
+    {
+      "home": "Brazil",
+      "away": "Croatia",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s95oqj",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s95oqj",
+          "scorer": "Danilo",
+          "minute": 45,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/545632c4",
+          "videoEmbed": "https://streamff.link/v/545632c4",
+          "directMp4": null,
+          "postedAt": 1775004662000
+        },
+        {
+          "postId": "1s96zdg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s96zdg",
+          "scorer": "Lovro Majer",
+          "minute": 84,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/d26143e5",
+          "videoEmbed": "https://streamff.link/v/d26143e5",
+          "directMp4": null,
+          "postedAt": 1775008092000
+        },
+        {
+          "postId": "1s97607",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s97607",
+          "scorer": "Gabriel Martinelli",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/da075236",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775008583000
+        },
+        {
+          "postId": "1s976u9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s976u9",
+          "scorer": "Gabriel Martinelli",
+          "minute": 90,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/da075236",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775008643000
         }
       ]
     },
@@ -39,6 +111,91 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1775000432000
+        },
+        {
+          "postId": "1s94zcc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s94zcc",
+          "scorer": "Lionel Messi",
+          "minute": 44,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/b7dc4860",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775002795000
+        },
+        {
+          "postId": "1s95wsn",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s95wsn",
+          "scorer": "Nicolas Otamendi penalty",
+          "minute": 50,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/EJc5EciudYlfD9b/watch",
+          "videoEmbed": "https://streamain.com/EJc5EciudYlfD9b/watch",
+          "directMp4": null,
+          "postedAt": 1775005248000
+        },
+        {
+          "postId": "1s968tu",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s968tu",
+          "scorer": "Own Goal",
+          "minute": 68,
+          "homeScore": 4,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/5KOc7vjh2luTyiL/watch",
+          "videoEmbed": "https://streamain.com/5KOc7vjh2luTyiL/watch",
+          "directMp4": null,
+          "postedAt": 1775006127000
+        },
+        {
+          "postId": "1s96lv6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s96lv6",
+          "scorer": "Valentin Barco",
+          "minute": 90,
+          "homeScore": 5,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/wxru2locfhsg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/wxru2locfhsg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1775007089000
+        }
+      ]
+    },
+    {
+      "home": "USA",
+      "away": "Portugal",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1s9460n",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s9460n",
+          "scorer": "Trincao",
+          "minute": 37,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/749a5376",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775000719000
+        },
+        {
+          "postId": "1s956ws",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1s956ws",
+          "scorer": "Joao Felix",
+          "minute": 59,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/5f4751fe",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775003342000
         }
       ]
     },
