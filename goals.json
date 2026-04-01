@@ -1,7 +1,27 @@
 {
-  "updated": "2026-04-01T22:20:20Z",
+  "updated": "2026-04-01T23:04:26Z",
   "date": "2026-04-01",
   "matches": [
+    {
+      "home": "Botafogo",
+      "away": "Mirassol",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sa0bai",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sa0bai",
+          "scorer": "Shaylon",
+          "minute": 20,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/1165awa8tnsg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/1165awa8tnsg1/CMAF_480.mp4?source=fallback",
+          "postedAt": 1775084396000
+        }
+      ]
+    },
     {
       "home": "Víkingur Gøta",
       "away": "HB Tórshavn",
