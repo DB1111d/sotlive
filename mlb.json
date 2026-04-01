@@ -1,17 +1,17 @@
 {
-  "updated": "2026-04-01 09:25 EDT",
+  "updated": "2026-04-01 12:57 EDT",
   "days": {
     "20260401": {
       "date": "Wednesday, April 1",
       "games": [
         {
           "group": "Regular Season",
-          "time": "1:15 PM",
-          "match": "St. Louis Cardinals vs New York Mets",
+          "time": "3:40 PM",
+          "match": "Arizona Diamondbacks vs Detroit Tigers",
           "source": "ESPN Unlmtd",
-          "kick_utc": "2026-04-01T17:15Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/stl.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nym.png"
+          "kick_utc": "2026-04-01T19:40Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ari.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/det.png"
         }
       ]
     },
