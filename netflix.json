@@ -1,8 +1,34 @@
 {
-  "updated": "2026-03-31 04:46 EDT",
-  "week_label": "March 16 \u2013 March 31, 2026",
+  "updated": "2026-04-01 04:54 EDT",
+  "week_label": "March 17 \u2013 April 1, 2026",
   "groups": {
     "TV Series": [
+      {
+        "type": "series",
+        "title": "St. Denis Medical",
+        "overview": "An eclectic group of underfunded yet dedicated doctors and nurses navigates caring for patients while keeping it all together at an Oregon hospital.",
+        "genres": [
+          "Comedy"
+        ],
+        "added_date": "April 1",
+        "added_ts": 1775028157,
+        "link": "https://www.netflix.com/title/81948009/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/10246959/poster/vertical/en/240.jpg?Expires=1798159744&Signature=eCZMyI0YA6J5DkfqbB00l0KdyDFNVeuw8k3yXZMpAfSKUkx~f7nSfr6RCggEgl4ZFqHUwzlg2RwtJnBZ~qwRhna3WovWMC~nO~nzxEdc~OVJkmI0jplFUDOMS-YPl5uoJKTUy2zq-lRfc-lJR3LcNnMdO3jRceTzAD78lm14BwTbBkM5u0AVtYy5oCQOe7lvdU8H5IeW7HDQIJUEHfDuUD75nf9AURXNy-iL2hQkW2OF-3w8UWbwMU8jK9DnQynjIL0dl8UxP0Pro7pgr~oo5aKMjnnhX4ConimrskWfoPE2hB5kr~1R9gIa3KS6KNoJMnaloMOSwmnrFjba0MgqWw__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 67
+      },
+      {
+        "type": "series",
+        "title": "Happy's Place",
+        "overview": "After inheriting her late father\u2019s tavern, Bobbie is shocked to learn that she has a new co-owner -- Isabella, the half-sister she never knew existed.",
+        "genres": [
+          "Comedy"
+        ],
+        "added_date": "April 1",
+        "added_ts": 1775028063,
+        "link": "https://www.netflix.com/title/81948016/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/9884312/poster/vertical/en/240.jpg?Expires=1793938340&Signature=C1q~GlPJPRj7lm4diunrMsynDlONvPTZ1F7mGxOzQYIZ4qLRR9zdl3gu3MllihGTpYC2BbPs9nXalYv5O8v4JgW-rPMuLv2fxcc81pBM21Ic0ouuP4St4y4bfAxk4bTh-SQYfs79f8krIRz4-39Vo0IDy8r19lAlSVR7bzOv19539~s8EmlhgN459mrw3QOvGTI2v-I8FH6MoiZ7ouCSpcpeYeQcuoIy4r9G1R3x6HdV~DMvYYsFLAEmrmfE1S5WqhZSlKy3-smbKFDyulAnOmJp-hc1o01JcCEL9Yjcl5MLjL1xKLYKeFat3vM9BvfZMXA4fZv~fdrj9RVopI7Uaw__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 59
+      },
       {
         "type": "series",
         "title": "Harry & Meghan",
@@ -246,6 +272,63 @@
       }
     ],
     "Movies": [
+      {
+        "type": "movie",
+        "title": "Bohemian Rhapsody",
+        "overview": "Bohemian Rhapsody is an enthralling celebration of Queen, their music, and their extraordinary lead singer Freddie Mercury, who defied stereotypes and convention to become one of history\u2019s most beloved entertainers. Following Queen\u2019s meteoric rise, their revolutionary sound and Freddie\u2019s solo career, the film also chronicles the band\u2019s reunion, and one of the greatest performances in rock history.",
+        "genres": [
+          "Drama",
+          "Music"
+        ],
+        "added_date": "April 1",
+        "added_ts": 1775028104,
+        "link": "https://www.netflix.com/title/80994899/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/564/poster/vertical/en/240.jpg?Expires=1800269072&Signature=Y45CDjDVjeWM0UlJTB2pNftPGB7IGeovmL-yF8TiZCk6Iz93DLXkh4M33Vg2XZPVo0yHey2vkwmvBD9NCogeMzVrUzOtErmafgrqSMBXGUMrsMubd4d2BfcdSYSoEaX3iJbHD2zr5ZODE2z06SX9OLo2m1lpr78ObPE6Zgv-rxvPI-46aHgO5TbmYMCTNOtGReB0q54VSeqTtrj-pMiJ-hnUDMLhVcPD4er8zkoNwRrlbODfuvILY9uk~wIcX8U~WCttHOxYa~6FZXcZyCSQPEc9k0ra-Qio5JnSdxtjacSSC31qBOqemkb3Jh2rPb0TmfYVgJWdk0moa10KOwN4Vw__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 79
+      },
+      {
+        "type": "movie",
+        "title": "Madagascar",
+        "overview": "Having spent their entire lives in blissful captivity, four pampered animals from New York's Central Park zoo are in for a shock when they are unexpectedly shipped to Africa and are shipwrecked on the exotic island of Madagascar!",
+        "genres": [
+          "Adventure",
+          "Animation",
+          "Comedy"
+        ],
+        "added_date": "April 1",
+        "added_ts": 1775028064,
+        "link": "https://www.netflix.com/title/70021636/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/865/poster/vertical/en/240.jpg?Expires=1801611141&Signature=eo9c4v43xGedGwK~E9XShCurBOW1~P6kOJ7S-Kp5Pdgy0uG7ETuKryohMR-qhnsGCByN~4jrxKSpH8tBBmCsl4TjI~Jv9ZE7YNUGzWGOgktyWrbgMvqSlnIHWT2sr9CbvDesWDtk9qnGc7~fxMvxwWrnL30Qiy8fdaCsgvPeNepL6EKVS7lr5o5oN6aB9~yTIOBwJRsNTk7IuUD9P~N036F~66QKE3mO9qO11ZRDI0FiI0DwxPrjsIiS1flA99aGO0Z0AyhZw8i-T2o-7L4oehq6yqYDUEiiHHfPOgyCJeXINfiTO~HvLasMj4sBWi6XtxKjxpm3~k9nJ4lo3nndmQ__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 69
+      },
+      {
+        "type": "movie",
+        "title": "HUMINT",
+        "overview": "",
+        "genres": [
+          "Action"
+        ],
+        "added_date": "March 31",
+        "added_ts": 1775006490,
+        "link": "https://www.netflix.com/title/82682318/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/24734018/poster/vertical/en/240.jpg?Expires=1805675591&Signature=DwrPadY-I~KVYxHFcpgkuVPWLWJFJ7R-OpI7mK~5IrcGrf5MXtPSn2DQb3hBTv~oIuxHGvfdNpfN8cs6I80n78UFYa-Y8PfFjT4Gls3p3dsb8QxbmgpRK4gGCZerIfH7GbQWXzjdmjPRTsrV6iGNsSJSfuzpczlQia~ASUoKy4smo33~j-UC~Ut-zUaYt3Ye3YSjF31fkmA31WtYzq6uNxEfMVaIeLX0MPIFPYJ4XbqH0PsW4yKb5xggUstnYi3QbBYdDbtns~1DCXatrWY5pR4exa~gZziGJ-TBzsvYggXQ8E~IcvgfkEJPYB39hjb8n5ASboUKAsf4iAhBdy7Gkw__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 40
+      },
+      {
+        "type": "movie",
+        "title": "Happy Patel: Khatarnak Jasoos",
+        "overview": "",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Crime"
+        ],
+        "added_date": "March 31",
+        "added_ts": 1774984872,
+        "link": "https://www.netflix.com/title/82772383/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/24600795/poster/vertical/en/240.jpg?Expires=1805820842&Signature=LeMdh79bnwrF1RT2jXBsrpeL1QiCG9Jj7CGvRq3Z5bRRoD26lXS72FiB8NAPBA-pUBBLGsZl86vdEMk~TZwBVpwKDagm6W3RPQPZlbrbr4nvEC20bl3IlKzGn4kA8lD-HG6K4vuqEKxUTXV8h8dJVfgWoI24zLPIl6-2R1Kf4Y2GLZSw3Sppkz~D~AbpAvl3sOap-Qw~cxcNKI535mfV8KpQqFAdr5AKHBzhtwf3izH7TmRkWiIMd5TZY6T-VILW4HipWAj5yFZfmy9uSfgNXduD4otm6JQhEy1PxME1DfwlalykVGKBr7g54AMqidsQ1aBDdtel2T1uX~QJqj~dzQ__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 40
+      },
       {
         "type": "movie",
         "title": "I Feel Pretty",
@@ -1170,61 +1253,6 @@
         "link": "https://www.netflix.com/title/60001172/",
         "thumbnail": "https://cdn.movieofthenight.com/show/9425/poster/vertical/en/240.jpg?Expires=1801811689&Signature=UsAHMqP4EtXf-6cI9wbA56OkqUjP~uKdvAaww-e3Bo0~W-kYVwrpmN0X8dCKFwgwE9qxTgV5Do8icux45hY0XuVFMngM1ttVpLoyGNI6-ML-cB5AI-BGM-RLoRP01xJ9c0dmsz2jiGfccNKYLLabFDGf9EyiqjAGASbYIhHa6-7aqShxjCyZm2Wf~6sozRpQxpcAqts-jVAlwhIKCfoJ~T8InyI--TvF2D2j3qYezdSaTv4w03UJwKkIMJJWBgik3yXc~FfXkWe~mTPwi8MZnNyuFUQcej7-ARGWgdvD9g8uPpAcyglrRVy1Smk9Wyw~bumJBOAE1oSCgI5fjYPdqA__&Key-Pair-Id=KK4HN3OO4AT5R",
         "rating": 66
-      },
-      {
-        "type": "movie",
-        "title": "The Bad Guardian",
-        "overview": "A dedicated daughter must find the strength to save her father from the clutches of a corrupt and greedy court-appointed \"guardian.\u201d",
-        "genres": [
-          "Drama"
-        ],
-        "added_date": "March 16",
-        "added_ts": 1773673524,
-        "link": "https://www.netflix.com/title/82095261/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/8947323/poster/vertical/en/240.jpg?Expires=1801757118&Signature=LjTIQqVNaSKcE77pHmTF1ctv0BiwjcavBl0CCql9997x8vSUU1fiGSh4WyCAVUEsrsr7scWHI-2IP7rK9JVowpHI88R9P9Pr4PdQV62Ls7T1GRPQshMOXnbhw9i9eRelAtt1trXg9rPsz1tqXxe8~NXb42EHeHWnzDYV0p41wPiTwqXe4-ckV38KdvxlwhIM-N8Pc0msmefHiQMsDJREOnqPDLf5G2V5HvRD~9mySbrQsUuXrYRbcsxa7XYrsxgzX6bYS-mQmD5xDuu6P-JPh7TqS11l8sVCzA0pC~rmOPEBQ8q5ieY4eKw3P41TNm0S2FBDe5nEvbvIWyvnaUIuKw__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 54
-      },
-      {
-        "type": "movie",
-        "title": "The Plastic Detox",
-        "overview": "This eye-opening documentary follows six couples with unexplained infertility as they lower their exposure to plastics in hopes it helps them conceive.",
-        "genres": [
-          "Documentary"
-        ],
-        "added_date": "March 16",
-        "added_ts": 1773663752,
-        "link": "https://www.netflix.com/title/82074244/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/24860841/poster/vertical/en/240.jpg?Expires=1805366577&Signature=Xqx3mS8IpoEhPBxx-i3HukiHA-eL7tY7KuQ7jusO-kO9RK9C--kMeKEA9uNgESKlMottfCegTm9xHHyyqqClJantXzG8smxwTf2BrHJggMvskkVGkRRef5PLoKUOKhhbXii5bA1s3L~ucPwu726y1Kjh1JZ2QWwegcQMSNYr4ZcuOMScvfyTJ-wXMmPMcDXK3UcwDDBbH8~1XI5N-66d0vav5HVKugOw0PaONnRwhzUjwyzlzSjukf5Ik-dT7--ASc1cJZsUR3cRsJaXZjF3h3wp5MD~9BYr1TW3f8fVVwncltU1ENsUBBBLugRm1z7-RYdXOJFJji~mZHehOs5yfw__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 0
-      },
-      {
-        "type": "movie",
-        "title": "There There",
-        "overview": "Through fleeting connection and confronting isolation, seven people search for meaning in their modern, intertwining relationships.",
-        "genres": [
-          "Comedy",
-          "Romance"
-        ],
-        "added_date": "March 16",
-        "added_ts": 1773663723,
-        "link": "https://www.netflix.com/title/82708406/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/254248/poster/vertical/en/240.jpg?Expires=1805366841&Signature=Fod7O9XzpVZ-odQ-E2SkGm1eqf29X4fYHmRZ8MZnQkL-FdiBig5idNK4QLrqlOlmJs~cS9G6-NbvLqgG6PPKCbaAhr3HJlMbGL6StnDqO4w~t9bGIPwfDKDJhxg9XX-bxm5tI3mhusjTo0hVLlzx~uAUEyAv1cuJUAEkr80NDpxglRdQiKYosbsVsjwbNraiJW63YD-D5Mipgeo8h9xVgUgb1A1pbLhHrcCDVz~Fun3CAkr6YGsVy2811YqM0ZVJ7eQaqYajve08AQDL1oz0IpAgQ7RFOgKabBYe3yLljQQynz-PbwNa4NdfZGwF9rpJJzTwiLZIomFNN01OZ9n~sg__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 50
-      },
-      {
-        "type": "movie",
-        "title": "Vengeance",
-        "overview": "A journalist travels from New York City to West Texas to investigate his ex-girlfriend\u2019s death while recording a murder mystery podcast along the way.",
-        "genres": [
-          "Comedy",
-          "Music",
-          "Mystery"
-        ],
-        "added_date": "March 16",
-        "added_ts": 1773663721,
-        "link": "https://www.netflix.com/title/81588983/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/14610/poster/vertical/en/240.jpg?Expires=1799537868&Signature=j6~BCDZyUEcmkV5fdEIYpZ8L1BZH9dgvagPS-idGOm3CPg1Lmni5XssGYjPXgbjOmMgLD3vyLlkkHHcB0HPqk-NF8tiEWODkuxhtyqBwzeXvsjXKzDHkGyr4LivXKIJjQiBN9GxbegEKl323UbOBixJ0-Fq7G6qZ6yWbi90uE9J2pHUIiDewOUHMvikcWqU~Yhhyu7pcUPWWhklfIyXRsJyqOy3dHPdpgLo9MZcOsvfsfCQBU0hqUmxB7URlYGmdSikfLpze5yGDsywofaG8O5DVbrvpqFLh4LohOn1DoaBe3CgHF4L9KqQNqhZ2DC3ZrvigVlKcnkFsdfS1LYTsuw__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 67
       }
     ]
   }

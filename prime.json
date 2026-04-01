@@ -1,6 +1,6 @@
 {
-  "updated": "2026-03-31 04:46 EDT",
-  "week_label": "March 1 \u2013 March 31, 2026",
+  "updated": "2026-04-01 04:54 EDT",
+  "week_label": "March 2 \u2013 April 1, 2026",
   "groups": {
     "TV Series": [
       {
@@ -97,6 +97,20 @@
     "Movies": [
       {
         "type": "movie",
+        "title": "Rory McIlroy: The Masters Wait",
+        "overview": "Through years of heartbreak and resilience, Rory McIlroy's pursuit of the Green Jacket at the Masters becomes a reckoning with legacy and the final step toward completing golf's rarest achievement, the career Grand Slam.",
+        "genres": [
+          "Documentary"
+        ],
+        "added_date": "March 30",
+        "added_ts": 1774843200,
+        "link": "https://press.amazonmgmstudios.com/us/en/sports/rory-mcilroy-the-masters-wait",
+        "thumbnail": "https://image.tmdb.org/t/p/w342/e0a1f18TuiioWTiloYSmei1VHGQ.jpg",
+        "rating": 100,
+        "season": ""
+      },
+      {
+        "type": "movie",
         "title": "Bait",
         "overview": "Landing in jail for a petty theft crime, Alvin finds himself sharing a cell with John Jaster, the incarcerated half of the pair of high-tech thieves responsible for the missing gold. His partner, Bristol, is still at large. Alvin wants only to get out of prison and start fresh with his girlfriend, Lisa, and when the Feds, led by U.S. Treasury investigator Clenteen, set him loose on a sketchy deal, he thinks his luck has changed. Alvin has his freedom and the Feds have found their bait.",
         "genres": [
@@ -117,13 +131,14 @@
         "overview": "A troupe of ballerinas find themselves fighting for survival as they attempt to escape from a remote inn after their bus breaks down on the way to a dance competition.",
         "genres": [
           "Action",
-          "Thriller"
+          "Thriller",
+          "Music"
         ],
         "added_date": "March 25",
         "added_ts": 1774411200,
         "link": "https://press.amazonmgmstudios.com/us/en/original-movies/pretty-lethal",
         "thumbnail": "https://image.tmdb.org/t/p/w342/znTPnXCK3lEQJgqXCvP7e5FUz6f.jpg",
-        "rating": 68,
+        "rating": 67,
         "season": ""
       },
       {
@@ -152,7 +167,7 @@
         "added_ts": 1773979200,
         "link": "https://press.amazonmgmstudios.com/es/es/original-movies/zeta",
         "thumbnail": "https://image.tmdb.org/t/p/w342/1cKLG9KMoCjsgFB8Nw1EuglteVi.jpg",
-        "rating": 67,
+        "rating": 66,
         "season": ""
       },
       {

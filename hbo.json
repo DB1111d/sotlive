@@ -1,8 +1,35 @@
 {
-  "updated": "2026-03-31 04:46 EDT",
-  "week_label": "March 16 \u2013 March 31, 2026",
+  "updated": "2026-04-01 04:54 EDT",
+  "week_label": "March 17 \u2013 April 1, 2026",
   "groups": {
     "TV Series": [
+      {
+        "type": "series",
+        "title": "What Happened, Brittany Murphy?",
+        "overview": "This two-part documentary offers an intimate, in-depth character portrait of actor Brittany Murphy, going beyond the headlines to explore the mysterious circumstances surrounding her tragic death at 32.",
+        "genres": [
+          "Crime",
+          "Documentary"
+        ],
+        "added_date": "March 31",
+        "added_ts": 1774987562,
+        "link": "https://play.hbomax.com/show/c6c11c25-ce5c-4d90-ac90-48908a3c8741",
+        "thumbnail": "https://cdn.movieofthenight.com/show/9768/poster/vertical/en/240.jpg?Expires=1803627033&Signature=c8yQWPYAnG15OBWAvDo2TRgU45X0lqkTHbOZ3ReyGebx0vzxAUgIb0vj1rSA08l8lU1DcZ25xc04bQJwEZUOFog~8rslNNpX4uAxkAf9qBgdBhBh-aW23SYT2DU0blIuqp9hKcMf5O52~NnNPutH-fsMIRJX6fZUhfuuU2Tmbel~TL7lr534EoR1d9nof39Q7qZmaOTlu37Br1Th6CMV1phajfxGd~0ITUwfxwVO6gqhfjrXRErlVgV4cL8f6pDuhaIZRRWNF2mfn4G-qkIqFel0sTQbS~AVPxHFkdw7zMtzCjumOUX2-oczwyjQZGnZMJsqSqefADVFxPpS0bawAA__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 63
+      },
+      {
+        "type": "series",
+        "title": "The 2000s",
+        "overview": "Explore the cultural and political milestones of the 2000s, including tech triumphs, the \"war on terror,\" Barack Obama's election and more.",
+        "genres": [
+          "Documentary"
+        ],
+        "added_date": "March 31",
+        "added_ts": 1774987002,
+        "link": "https://play.hbomax.com/show/c3f4d939-289f-41f4-baba-23c090bd8ccd",
+        "thumbnail": "https://cdn.movieofthenight.com/show/17485/poster/vertical/en/240.jpg?Expires=1803657402&Signature=RjTVeMXrKYyBqt1-xmHXHHsRm7hYWJdwEB-vuUyGGbHSJxtjxa1hHhwGJt2wozg~JyPmofUBdsB8o6InwjYa8HOjAJrb--nLH6o3~y7rosABryIs3UV5E~TJ7MNaFDHVoQI-uhPW3arTG~Rm2lCs~v9JUGPIHiqNDVrzcA6QVvQcWxXKS1r4GwbKGE0p3MRxnAXy-D5wlwK3G-D4eeazQWFox203nnpS8FrzU2suruV~4~7mx-yvBBaujxsGit4ZCBXkktou0qm3yZP824YZ5rgpz~E5y9BzpCwmzldjRQC-ZOIEFF6fY0PgOd0LWn1Prnus5jt86MeuKEjs6SbJfw__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 57
+      },
       {
         "type": "series",
         "title": "The 2010s",
@@ -59,6 +86,19 @@
       }
     ],
     "Movies": [
+      {
+        "type": "movie",
+        "title": "Ernie & Joe",
+        "overview": "Texas police officers Ernie Stevens and Joe Smarro are putting compassionate policing practices into action. This documentary chronicles how these officers\u2014both members of the San Antonio Police Department\u2019s ten-person mental health unit\u2014use an innovative approach to policing to diffuse dangerous situations and divert people from jail into mental health treatment.",
+        "genres": [
+          "Documentary"
+        ],
+        "added_date": "March 31",
+        "added_ts": 1774987046,
+        "link": "https://play.hbomax.com/movie/4c66297a-a71a-4c82-88f8-3bfec0d1b1be",
+        "thumbnail": "https://cdn.movieofthenight.com/show/127785/poster/vertical/en/240.jpg?Expires=1803211868&Signature=cSXw6CqFc2i6mTiA4zyXw1gHh6HmCSEFSFBua4ALh65agZtIzgttDMpn4Xqz88A8cePOW7qKpQzzreJyDA081g1-uwVV3ucX7DQK5G6GSfXK0KF9J-egGDoN5DLpFS~G9V5hiGcfK~yCCACJhkGu8tFSb-dvPBKMHmR8gGMlqG4KT-1g5d8YClkWSH1u723gOkkppz2oP4J91KiT8bD9aUlcAf51akcKb3xgY5-IKGpgNwyti4PpescXuQZ12uRgrz2~273uTpiVsnap36YV4N7r~5y9l13a-~QTNpw7WIo8UEysMysLWM5HnsQbd5NpVOMtxzdC9zvsJUwAVLOdPg__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 52
+      },
       {
         "type": "movie",
         "title": "Ballerina",
@@ -141,21 +181,6 @@
         "link": "https://play.hbomax.com/movie/c55254af-0eb0-45f9-9e79-4eb66578a9ca",
         "thumbnail": "https://cdn.movieofthenight.com/show/213546/poster/vertical/en/240.jpg?Expires=1794123553&Signature=XKVUW27aZW-B-HNr2PL-Fd3vofdeb9TXO5rAxFcRBSyuvDyL1widasj3jKzmt~FXPquoIBqBBQRvPLGw-VoqdFyM~ReIJG8DhzmXnQgB9Su3Tj9HSUa28W8ZMeF9cSeB5-3K7SMvnSdo1ZkbjT6~Nq5HfyKSg1rQ2wW2vq3Za3tehgBYTVbOSx468-DlWPHa9GIPo4qyrfqK6~0CfdoY66IKXRilXmZWiydxYZQPi-Lgcs1JL7MTDd7f1cEnkLBaGfqjK3xDXLjESixi27vSS3iDeUcaEbS7wGOA4NWiLC-XIrM9EoeU5l4Qhvzdu-StYkGZXuQ6BCak51l9HQpO0A__&Key-Pair-Id=KK4HN3OO4AT5R",
         "rating": 56
-      },
-      {
-        "type": "movie",
-        "title": "The Cranes Are Flying",
-        "overview": "This landmark film by the virtuosic Mikhail Kalatozov was heralded as a revelation in the post-Stalin Soviet Union and the international cinema community alike. It tells the story of Veronica (Tatiana Samoilova) and Boris (Alexei Batalov), a couple who are blissfully in love until World War II tears them apart. With Boris at the front, Veronica must try to ward off spiritual numbness and defend herself from the increasingly forceful advances of her beau\u2019s draft-dodging cousin. Winner of the Palme d\u2019Or at the 1958 Cannes Film Festival, THE CRANES ARE FLYING is a superbly crafted drama with impassioned performances and viscerally emotional, gravity-defying cinematography by Kalatozov\u2019s regular collaborator Sergei Urusevsky.",
-        "genres": [
-          "Drama",
-          "Romance",
-          "War"
-        ],
-        "added_date": "March 16",
-        "added_ts": 1773701594,
-        "link": "https://play.hbomax.com/movie/490fde02-2458-4102-8849-0b25f51d467a",
-        "thumbnail": "https://cdn.movieofthenight.com/show/15310/poster/vertical/en/240.jpg?Expires=1801805112&Signature=BcZX5QTY5aC~eIbwqrUqGWWIqnUtiekffRFo3fPFfY2ad2xfJpEKRo5A4~2kgwg7Qew2DWhP~wG60LFl0F5Vm-QC-KKp9IxJ5-zwyRnephZzSOO91jlAFxN9fcAXxSLSdtBSh8YMOin4A9NMq1QihPiYQ56WIlWs28JRDIi82oxeIo-tG84eY3RAnUiCD6GBbL70w-elwbN8LVDHrK60FN-~1HoCnlJ4N1uXfX73EZiNecuBDBEKD601Ncryke1s4XqaRyzwOWngihRr4uYtCijETxy-dq~Nm8-JVtRK6FNuZfn3zwG63giv3j4Jub-Ht6TMSex3pJOFoU~oU4rVCg__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 67
       }
     ]
   }
