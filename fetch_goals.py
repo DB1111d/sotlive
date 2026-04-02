@@ -147,8 +147,10 @@ def is_own_goal(title):
 def parse_title(title):
     if re.search(r"red card|yellow card|\bsave\b", title, re.IGNORECASE):
         return None
-    # Filter out women's matches — W suffix
-    if re.search(r'\bW\b.*\bW\b', title):
+    # Filter out women's matches — W/F flag, or women's language in title
+    if re.search(r'\b[WF]\b', title):
+        return None
+    if re.search(r'\b(femeni|femenino|femenina|feminino|feminina|women|womens|nwsl|wsl|uwcl)\b', title, re.IGNORECASE):
         return None
     # Filter out known women's teams
     title_lower = title.lower()
