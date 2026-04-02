@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-02 12:57 EDT",
+  "updated": "2026-04-02 16:37 EDT",
   "days": {
     "20260402": {
       "date": "Thursday, April 2",
@@ -8,6 +8,60 @@
     "20260403": {
       "date": "Friday, April 3",
       "games": [
+        {
+          "league": "EFL Championship",
+          "time": "7:30 AM",
+          "match": "Middlesbrough vs Millwall",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-03T11:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/369.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/391.png"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "10:00 AM",
+          "match": "Leicester City vs Preston North End",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-03T14:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/375.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/394.png"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "10:00 AM",
+          "match": "Oxford United vs Hull City",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-03T14:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/311.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "10:00 AM",
+          "match": "Sheffield United vs Swansea City",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-03T14:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/398.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/318.png"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "10:00 AM",
+          "match": "West Bromwich Albion vs Wrexham",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-03T14:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/383.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/352.png"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "3:00 PM",
+          "match": "Coventry City vs Derby County",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-03T19:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/374.png"
+        },
         {
           "league": "La Liga",
           "time": "3:00 PM",
@@ -626,6 +680,60 @@
     "20260406": {
       "date": "Monday, April 6",
       "games": [
+        {
+          "league": "EFL Championship",
+          "time": "7:30 AM",
+          "match": "Portsmouth vs Oxford United",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-06T11:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/385.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/311.png"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "8:00 AM",
+          "match": "Millwall vs Norwich City",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-06T12:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/391.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/381.png"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "10:00 AM",
+          "match": "Ipswich Town vs Birmingham City",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-06T14:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/392.png"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "10:00 AM",
+          "match": "Watford vs Charlton Athletic",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-06T14:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/395.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/372.png"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "12:30 PM",
+          "match": "Swansea City vs Middlesbrough",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-06T16:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/318.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/369.png"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "3:00 PM",
+          "match": "Hull City vs Coventry City",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-06T19:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png"
+        },
         {
           "league": "Serie A",
           "time": "6:30 AM",
