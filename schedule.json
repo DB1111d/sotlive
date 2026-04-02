@@ -1,18 +1,9 @@
 {
-  "updated": "2026-04-01 16:45 EDT",
+  "updated": "2026-04-01 22:27 EDT",
   "days": {
     "20260401": {
       "date": "Wednesday, April 1",
       "games": [
-        {
-          "league": "US Open Cup",
-          "time": "6:00 PM",
-          "match": "Chattanooga FC vs Tennessee Tempo FC",
-          "source": "Paramount+",
-          "kick_utc": "2026-04-01T22:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18268.png",
-          "away_logo": ""
-        },
         {
           "league": "US Open Cup",
           "time": "6:30 PM",
