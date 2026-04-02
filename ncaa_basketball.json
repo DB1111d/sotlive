@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-02 09:17 EDT",
+  "updated": "2026-04-02 12:57 EDT",
   "days": {
     "20260402": {
       "date": "Thursday, April 2",
@@ -28,11 +28,11 @@
           "conference": "Independent",
           "tourney_round": "NIT",
           "time": "7:00 PM",
-          "match": "Tulsa Golden Hurricane vs New Mexico Lobos",
+          "match": "New Mexico Lobos vs Tulsa Golden Hurricane",
           "source": "ESPN",
           "kick_utc": "2026-04-02T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/202.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png"
+          "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/202.png"
         },
         {
           "conference": "Independent",
