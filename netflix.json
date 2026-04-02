@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-01 04:54 EDT",
-  "week_label": "March 17 \u2013 April 1, 2026",
+  "updated": "2026-04-02 04:44 EDT",
+  "week_label": "March 18 \u2013 April 2, 2026",
   "groups": {
     "TV Series": [
       {
@@ -254,24 +254,22 @@
         "link": "https://www.netflix.com/title/70157400/",
         "thumbnail": "https://cdn.movieofthenight.com/show/23355216/poster/vertical/en/240.jpg?Expires=1791328789&Signature=HxZEeHjdpu7Khxclgvu~3F43e~A6HSVd9YbfNQLvH5bACLtFa4i1MqVOIAWYkilmrL9plObvQcnYUTj3FOorndOEeR-b8jeNx-beSIg5Ecjb-K5e2YfUhgO7vA-0hD02k9oIwzM6UCJkgVmvzCYN1bfTQPOHNSEcJbNfOfocRp9Di91TUk2obI5ZmL1~RVcact5xlkOqWxyvc3KH27a0zJFUEq-2JJbcHGJX4~m~hQtt72urPqselt~SLm8x~3Zg7CxW1TH4nPIQbBrjWEN4PoXSrhWPD9ZGjK78lYga7qgQ~HaRplHuGOnINCEkdicpzcFrBCVeXciRyKw7KjOmlQ__&Key-Pair-Id=KK4HN3OO4AT5R",
         "rating": 61
-      },
-      {
-        "type": "series",
-        "title": "The Ricky Gervais Show",
-        "overview": "Karl Pilkington shares his curious views as Ricky Gervais and Stephen Merchant riff on them hilariously in this animated adaptation of the hit podcast.",
-        "genres": [
-          "Animation",
-          "Comedy",
-          "Talk Show"
-        ],
-        "added_date": "March 17",
-        "added_ts": 1773750206,
-        "link": "https://www.netflix.com/title/70180094/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/2600/poster/vertical/en/240.jpg?Expires=1805366765&Signature=LCQad0HiD6UXQfLJPscq1l5Ri7j35n52YH0kaRsm2jxRQiQj24mGsezfkTsNTIl7w8XtVdNU84~XdSktpnZbjkVp5vb1hkQ2W-kZl8rbpx8Dh7FxJc~2UjPZALn4Dww7TKqJdVolUU215eO9FdJzmyyt52URaU38sSe4aL3r7Q~rn8JOAlk4dEU7q6H5vvve63qU9mTrBpUk0KdU2E43KXq4h4w3CAqflqgqvkz9MWAqhOoVfibXir2KHy7Oc1Tk~cn5OcldykExg3Ti~vaNAMXh2NMb3BRNqo2UV3ZOYWJvOZxgHsKLyhsjqcs~nvo63lmb33xrk06MsOdUnbR5Yw__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 68
       }
     ],
     "Movies": [
+      {
+        "type": "movie",
+        "title": "Eat Pray Bark",
+        "overview": "",
+        "genres": [
+          "Comedy"
+        ],
+        "added_date": "April 1",
+        "added_ts": 1775071668,
+        "link": "https://www.netflix.com/title/81638691/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/24861151/poster/vertical/en/240.jpg?Expires=1806651584&Signature=Vr42~IVIRtAdJRJW3YP02rSnMRdhh82oOPOrZHJ1veNNIE4lJQ172x2MuUugTTCGYuhE0lUX9LErRLzixDqRzCris3rETxAsLRcUFfHdPEX7AHAUhugi97TbO8b8D1~55rgqS876~1og6QKB4c-vDkdW8445L7sM7tv1HZikpUn6PQM9~1ebgef-AcpUX4PvFR5rmck-pDadWR2ZkMdbW1MSL-8ykquwtgBrKI4aznY6bv8-N7apOxBWi9LDpBVwUuWm4nLDkaEzPkMREaAO7we8KuKKymoNRbvPCBslJsCML2InxwKAXZo5v4-hv8n1UJe7~SgjTkU7o8SoJrxUAw__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 0
+      },
       {
         "type": "movie",
         "title": "Bohemian Rhapsody",
@@ -1239,20 +1237,6 @@
         "link": "https://www.netflix.com/title/81006259/",
         "thumbnail": "https://cdn.movieofthenight.com/show/47849/poster/vertical/en/240.jpg?Expires=1803619279&Signature=P0L-Y-KNDNE0cumUesEQnPEf6TDYYRI-XE-2kRMawPD~cs0itACciSeQcxwjBIO4Ke1dhmpTNiBRk6VYXS4gvzWppv-mHE2EzaOUwNm6Gce-QP5mPbxhJEJag9hryKByz5pSAZD6dj0z0f9CjZlPeAiVE2S4P7mas-Wl3TJ7u8ArbyfEboWECweNYLO4-OO-toTQDz4DM~Pkv1OfFpIsKqPZKFBEiYCj8fKHMQK8TQNkDbgJW7eZoUtm8lzqM5ygNGcJQcIVYX6LQKGFErIgV3qJZiyr0eP5kucw840wcAsP1~jmzYeKtp~LNmkSw3nRETL0cn0XQRiPTaTAph4pDg__&Key-Pair-Id=KK4HN3OO4AT5R",
         "rating": 55
-      },
-      {
-        "type": "movie",
-        "title": "Small Time Crooks",
-        "overview": "A bungling ex-con and dishwasher and his wife strike it rich when a botched bank heist's cover business next door becomes a spectacular success.",
-        "genres": [
-          "Comedy",
-          "Crime"
-        ],
-        "added_date": "March 17",
-        "added_ts": 1773750257,
-        "link": "https://www.netflix.com/title/60001172/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/9425/poster/vertical/en/240.jpg?Expires=1801811689&Signature=UsAHMqP4EtXf-6cI9wbA56OkqUjP~uKdvAaww-e3Bo0~W-kYVwrpmN0X8dCKFwgwE9qxTgV5Do8icux45hY0XuVFMngM1ttVpLoyGNI6-ML-cB5AI-BGM-RLoRP01xJ9c0dmsz2jiGfccNKYLLabFDGf9EyiqjAGASbYIhHa6-7aqShxjCyZm2Wf~6sozRpQxpcAqts-jVAlwhIKCfoJ~T8InyI--TvF2D2j3qYezdSaTv4w03UJwKkIMJJWBgik3yXc~FfXkWe~mTPwi8MZnNyuFUQcej7-ARGWgdvD9g8uPpAcyglrRVy1Smk9Wyw~bumJBOAE1oSCgI5fjYPdqA__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 66
       }
     ]
   }
