@@ -1,5 +1,26 @@
 {
-  "updated": "2026-04-02T16:30:02Z",
+  "updated": "2026-04-02T17:26:01Z",
   "date": "2026-04-02",
-  "matches": []
+  "matches": [
+    {
+      "home": "Mallorca",
+      "away": "Real Madrid",
+      "league": "La Liga",
+      "goals": [
+        {
+          "postId": "1sandwz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sandwz",
+          "scorer": "",
+          "minute": 7,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/dn7gvbt08tsg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/dn7gvbt08tsg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775149895000
+        }
+      ]
+    }
+  ]
 }
