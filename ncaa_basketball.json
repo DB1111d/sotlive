@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-02 16:37 EDT",
+  "updated": "2026-04-02 22:29 EDT",
   "days": {
     "20260402": {
       "date": "Thursday, April 2",
@@ -37,10 +37,10 @@
         {
           "conference": "Independent",
           "tourney_round": "NIT",
-          "time": "9:30 PM",
+          "time": "9:47 PM",
           "match": "Auburn Tigers vs Illinois State Redbirds",
           "source": "ESPN",
-          "kick_utc": "2026-04-03T01:30Z",
+          "kick_utc": "2026-04-03T01:47Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2287.png"
         }
