@@ -298,9 +298,15 @@ def parse_tourney_round(event: dict, competition: dict = None) -> str | None:
         (n.get("headline", "") for n in notes if isinstance(n, dict)),
         ""
     ).lower()
-    if "nit" in headline:
+    # Check NIT first
+    if any(kw in headline for kw in NIT_KEYWORDS):
         return "NIT"
-    return "NCAA Tournament"
+    # Only tag as NCAA Tournament when positively confirmed
+    if any(kw in headline for kw in NCAA_TOURNEY_KEYWORDS):
+        return "NCAA Tournament"
+    # Notes missing or ambiguous — both NIT and NCAA Tournament have season.type=3,
+    # so we cannot safely default to either. Return None to avoid mis-tagging.
+    return None
 
 
 def fetch_ncaa_day(date_str: str) -> list:
