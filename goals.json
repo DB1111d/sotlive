@@ -1,7 +1,40 @@
 {
-  "updated": "2026-04-03T17:18:18Z",
+  "updated": "2026-04-03T17:59:30Z",
   "date": "2026-04-03",
   "matches": [
+    {
+      "home": "Vitoria Guimaraes",
+      "away": "Tondela",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sbkmfe",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbkmfe",
+          "scorer": "Oumar Camara",
+          "minute": 5,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/ANNE0fg7zTeetPj/watch",
+          "videoEmbed": "https://streamain.com/ANNE0fg7zTeetPj/watch",
+          "directMp4": null,
+          "postedAt": 1775238708000
+        },
+        {
+          "postId": "1sbkmw5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbkmw5",
+          "scorer": "Miguel Nogueira",
+          "minute": 18,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/B9BTpXgWGCaoJbV/watch",
+          "videoEmbed": "https://streamain.com/B9BTpXgWGCaoJbV/watch",
+          "directMp4": null,
+          "postedAt": 1775238736000
+        }
+      ]
+    },
     {
       "home": "Leicester",
       "away": "Preston",
