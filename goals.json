@@ -1,7 +1,99 @@
 {
-  "updated": "2026-04-03T00:04:16Z",
+  "updated": "2026-04-03T03:27:30Z",
   "date": "2026-04-03",
   "matches": [
+    {
+      "home": "Palmeiras",
+      "away": "Grêmio",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sazqmf",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sazqmf",
+          "scorer": "Marlon Freitas",
+          "minute": 44,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/n1f3ucenmvsg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/n1f3ucenmvsg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1775179099000
+        },
+        {
+          "postId": "1sb0b2u",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sb0b2u",
+          "scorer": "Carlos Vinicius",
+          "minute": 54,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/l6blr8tfrvsg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/l6blr8tfrvsg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1775180673000
+        },
+        {
+          "postId": "1sb0qgw",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sb0qgw",
+          "scorer": "Marlon Freitas",
+          "minute": 72,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/ucf5kpryuvsg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ucf5kpryuvsg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1775181863000
+        }
+      ]
+    },
+    {
+      "home": "RB Bragantino",
+      "away": "Flamengo",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1saz85g",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1saz85g",
+          "scorer": "Isidro Pitta",
+          "minute": 17,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/cji5nalkivsg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/cji5nalkivsg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1775177685000
+        },
+        {
+          "postId": "1sazlf5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sazlf5",
+          "scorer": "Gabriel",
+          "minute": 39,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/um73qkcklvsg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/um73qkcklvsg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1775178709000
+        },
+        {
+          "postId": "1sb0dfo",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sb0dfo",
+          "scorer": "Lucas Barbosa",
+          "minute": 55,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/g4wkhfbyrvsg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/g4wkhfbyrvsg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1775180852000
+        }
+      ]
+    },
     {
       "home": "Cremonese",
       "away": "Bologna",
