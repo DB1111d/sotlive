@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-03T15:02:27Z",
+  "updated": "2026-04-03T15:52:55Z",
   "date": "2026-04-03",
   "matches": [
     {
@@ -45,6 +45,19 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/9s4tgrl6nzsg1/CMAF_720.mp4?source=fallback",
           "postedAt": 1775227658000
+        },
+        {
+          "postId": "1sbh4k6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbh4k6",
+          "scorer": "Patson Daka",
+          "minute": 81,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/dacbuac4xzsg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775231007000
         }
       ]
     },
@@ -78,6 +91,32 @@
           "videoEmbed": "https://streamff.link/v/83775afb",
           "directMp4": null,
           "postedAt": 1775227204000
+        },
+        {
+          "postId": "1sbg82e",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbg82e",
+          "scorer": "Josh Windass",
+          "minute": 47,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/df75ac23",
+          "videoEmbed": "https://streamff.link/v/df75ac23",
+          "directMp4": null,
+          "postedAt": 1775229007000
+        },
+        {
+          "postId": "1sbgli4",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbgli4",
+          "scorer": "George Dobson",
+          "minute": 62,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamff.link/v/a7545908",
+          "videoEmbed": "https://streamff.link/v/a7545908",
+          "directMp4": null,
+          "postedAt": 1775229846000
         }
       ]
     },
