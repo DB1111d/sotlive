@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-03 16:37 EDT",
+  "updated": "2026-04-03 19:59 EDT",
   "days": {
     "20260403": {
       "date": "Friday, April 3",
@@ -15,18 +15,9 @@
         },
         {
           "group": "Regular Season",
-          "time": "Delayed",
-          "match": "Minnesota Twins vs Tampa Bay Rays",
-          "source": "",
-          "kick_utc": "2026-04-03T21:05Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/min.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png"
-        },
-        {
-          "group": "Regular Season",
-          "time": "7:40 PM",
+          "time": "Postponed",
           "match": "Kansas City Royals vs Milwaukee Brewers",
-          "source": "Apple TV",
+          "source": "",
           "kick_utc": "2026-04-03T23:40Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png"
@@ -56,10 +47,10 @@
         },
         {
           "group": "Regular Season",
-          "time": "4:10 PM",
+          "time": "2:10 PM",
           "match": "Kansas City Royals vs Milwaukee Brewers",
           "source": "FS1",
-          "kick_utc": "2026-04-04T20:10Z",
+          "kick_utc": "2026-04-04T18:10Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png"
         },
