@@ -1,7 +1,80 @@
 {
-  "updated": "2026-04-03T19:44:41Z",
+  "updated": "2026-04-03T20:17:44Z",
   "date": "2026-04-03",
   "matches": [
+    {
+      "home": "Sporting CP",
+      "away": "Arsenal",
+      "league": "UEFA Champions League",
+      "goals": [
+        {
+          "postId": "1sbnlmq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbnlmq",
+          "scorer": "Gustavo Klismahn",
+          "minute": 3,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/9cJjGuZDDoETw6T/watch",
+          "videoEmbed": "https://streamain.com/9cJjGuZDDoETw6T/watch",
+          "directMp4": null,
+          "postedAt": 1775245294000
+        },
+        {
+          "postId": "1sbo50y",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbo50y",
+          "scorer": "Pedro Gonçalves penalty",
+          "minute": 22,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/F00aXQ0HTihLifu/watch",
+          "videoEmbed": "https://streamain.com/F00aXQ0HTihLifu/watch",
+          "directMp4": null,
+          "postedAt": 1775246512000
+        }
+      ]
+    },
+    {
+      "home": "Al nassr",
+      "away": "AI Najma",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sbnv06",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbnv06",
+          "scorer": "Cristiano Ronaldo",
+          "minute": null,
+          "homeScore": 4,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/f8mzb50e51tg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775245883000
+        }
+      ]
+    },
+    {
+      "home": "Al-Nassr",
+      "away": "Al-Najma",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sbnsp9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbnsp9",
+          "scorer": "Cristiano Ronaldo",
+          "minute": 73,
+          "homeScore": 4,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/s8iwhd4y41tg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/s8iwhd4y41tg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775245742000
+        }
+      ]
+    },
     {
       "home": "Coventry",
       "away": "Derby",
@@ -32,26 +105,6 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1775245313000
-        }
-      ]
-    },
-    {
-      "home": "Sporting CP",
-      "away": "Arsenal",
-      "league": "UEFA Champions League",
-      "goals": [
-        {
-          "postId": "1sbnlmq",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sbnlmq",
-          "scorer": "Gustavo Klismahn",
-          "minute": 3,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamain.com/9cJjGuZDDoETw6T/watch",
-          "videoEmbed": "https://streamain.com/9cJjGuZDDoETw6T/watch",
-          "directMp4": null,
-          "postedAt": 1775245294000
         }
       ]
     },
