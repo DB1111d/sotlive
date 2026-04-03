@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-02T23:33:05Z",
-  "date": "2026-04-02",
+  "updated": "2026-04-03T00:04:16Z",
+  "date": "2026-04-03",
   "matches": [
     {
       "home": "Cremonese",
@@ -19,6 +19,19 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/i8rxjbeavusg1/CMAF_1080.mp4?source=fallback",
           "postedAt": 1775169854000
+        },
+        {
+          "postId": "1saxpdt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1saxpdt",
+          "scorer": "Moisés",
+          "minute": 82,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/5st2qesf6vsg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/5st2qesf6vsg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1775173619000
         }
       ]
     },
