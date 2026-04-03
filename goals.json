@@ -1,7 +1,184 @@
 {
-  "updated": "2026-04-03T20:17:44Z",
+  "updated": "2026-04-03T20:54:28Z",
   "date": "2026-04-03",
   "matches": [
+    {
+      "home": "Coventry",
+      "away": "Derby",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sbmwu8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbmwu8",
+          "scorer": "Frank Onyeka",
+          "minute": 12,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/bz3y9jg1z0tg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775243742000
+        },
+        {
+          "postId": "1sbnlxk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbnlxk",
+          "scorer": "Ben Brereton Diaz",
+          "minute": 38,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/2swfrlxp31tg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775245313000
+        },
+        {
+          "postId": "1sbox77",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbox77",
+          "scorer": "Jack Rudoni",
+          "minute": 68,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/h461p78ic1tg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775248269000
+        },
+        {
+          "postId": "1sbp85t",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbp85t",
+          "scorer": "Jack Rudoni",
+          "minute": 80,
+          "homeScore": 3,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/apw46u1ke1tg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775248965000
+        }
+      ]
+    },
+    {
+      "home": "Paris Saint-Germain",
+      "away": "Toulouse",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sbmun5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbmun5",
+          "scorer": "Ousmane Dembele",
+          "minute": 23,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/33d661e0",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775243606000
+        },
+        {
+          "postId": "1sbmyic",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbmyic",
+          "scorer": "Rasmus Nicolaisen",
+          "minute": 27,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/8083f304",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775243848000
+        },
+        {
+          "postId": "1sbn37f",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbn37f",
+          "scorer": "Ousmane Dembele",
+          "minute": 33,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/e453bfc5",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775244136000
+        },
+        {
+          "postId": "1sbp48m",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbp48m",
+          "scorer": "Goncalo Ramos",
+          "minute": 90,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/d35c622f",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775248715000
+        }
+      ]
+    },
+    {
+      "home": "Sporting",
+      "away": "Santa Clara",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sbnlmq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbnlmq",
+          "scorer": "Gustavo Klismahn",
+          "minute": 3,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/9cJjGuZDDoETw6T/watch",
+          "videoEmbed": "https://streamain.com/9cJjGuZDDoETw6T/watch",
+          "directMp4": null,
+          "postedAt": 1775245294000
+        },
+        {
+          "postId": "1sbo50y",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbo50y",
+          "scorer": "Pedro Gonçalves penalty",
+          "minute": 22,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/F00aXQ0HTihLifu/watch",
+          "videoEmbed": "https://streamain.com/F00aXQ0HTihLifu/watch",
+          "directMp4": null,
+          "postedAt": 1775246512000
+        },
+        {
+          "postId": "1sbol0q",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbol0q",
+          "scorer": "Daniel Braganca",
+          "minute": 39,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/pl2sGRVuhrWbZVy/watch",
+          "videoEmbed": "https://streamain.com/pl2sGRVuhrWbZVy/watch",
+          "directMp4": null,
+          "postedAt": 1775247527000
+        },
+        {
+          "postId": "1sboldz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sboldz",
+          "scorer": "Trincao",
+          "minute": 42,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/6JtEgTIzOcTDapy/watch",
+          "videoEmbed": "https://streamain.com/6JtEgTIzOcTDapy/watch",
+          "directMp4": null,
+          "postedAt": 1775247552000
+        }
+      ]
+    },
     {
       "home": "Sporting CP",
       "away": "Arsenal",
@@ -72,39 +249,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/s8iwhd4y41tg1/CMAF_720.mp4?source=fallback",
           "postedAt": 1775245742000
-        }
-      ]
-    },
-    {
-      "home": "Coventry",
-      "away": "Derby",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1sbmwu8",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sbmwu8",
-          "scorer": "Frank Onyeka",
-          "minute": 12,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/bz3y9jg1z0tg1",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1775243742000
-        },
-        {
-          "postId": "1sbnlxk",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sbnlxk",
-          "scorer": "Ben Brereton Diaz",
-          "minute": 38,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/2swfrlxp31tg1",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1775245313000
         }
       ]
     },
@@ -217,52 +361,6 @@
           "videoEmbed": "https://streamain.com/tOe7mSmMQyKipmt/watch",
           "directMp4": null,
           "postedAt": 1775244280000
-        }
-      ]
-    },
-    {
-      "home": "Paris Saint-Germain",
-      "away": "Toulouse",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1sbmun5",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sbmun5",
-          "scorer": "Ousmane Dembele",
-          "minute": 23,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamin.link/v/33d661e0",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1775243606000
-        },
-        {
-          "postId": "1sbmyic",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sbmyic",
-          "scorer": "Rasmus Nicolaisen",
-          "minute": 27,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/8083f304",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1775243848000
-        },
-        {
-          "postId": "1sbn37f",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sbn37f",
-          "scorer": "Ousmane Dembele",
-          "minute": 33,
-          "homeScore": 2,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/e453bfc5",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1775244136000
         }
       ]
     },
