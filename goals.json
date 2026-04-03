@@ -1,7 +1,27 @@
 {
-  "updated": "2026-04-03T20:54:28Z",
+  "updated": "2026-04-03T21:01:51Z",
   "date": "2026-04-03",
   "matches": [
+    {
+      "home": "Rayo Vallecano",
+      "away": "Elche",
+      "league": "La Liga",
+      "goals": [
+        {
+          "postId": "1sbpoau",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbpoau",
+          "scorer": "Randy Nteka",
+          "minute": 74,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/m2MLaQ8kC6sAUbx/watch",
+          "videoEmbed": "https://streamain.com/m2MLaQ8kC6sAUbx/watch",
+          "directMp4": null,
+          "postedAt": 1775250012000
+        }
+      ]
+    },
     {
       "home": "Coventry",
       "away": "Derby",
