@@ -1,7 +1,27 @@
 {
-  "updated": "2026-04-03T21:49:30Z",
+  "updated": "2026-04-03T22:30:09Z",
   "date": "2026-04-03",
   "matches": [
+    {
+      "home": "Galway United",
+      "away": "Derry City",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sbr4kp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbr4kp",
+          "scorer": "David Hurley",
+          "minute": 16,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/d1zp6k7mr1tg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/d1zp6k7mr1tg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1775253419000
+        }
+      ]
+    },
     {
       "home": "Sporting CP",
       "away": "Arsenal",
