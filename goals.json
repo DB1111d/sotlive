@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-03T14:11:17Z",
+  "updated": "2026-04-03T15:02:27Z",
   "date": "2026-04-03",
   "matches": [
     {
@@ -19,6 +19,85 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/bo1dnguyfzsg1/CMAF_720.mp4?source=fallback",
           "postedAt": 1775225392000
+        },
+        {
+          "postId": "1sbfhcd",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbfhcd",
+          "scorer": "Andrew Moran",
+          "minute": 38,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/28rl1u54mzsg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/28rl1u54mzsg1/CMAF_270.mp4?source=fallback",
+          "postedAt": 1775227316000
+        },
+        {
+          "postId": "1sbfmn6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbfmn6",
+          "scorer": "Benjamin Whiteman",
+          "minute": 45,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/9s4tgrl6nzsg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/9s4tgrl6nzsg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775227658000
+        }
+      ]
+    },
+    {
+      "home": "West Brom",
+      "away": "Wrexham",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sbf5l6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbf5l6",
+          "scorer": "Own Goal",
+          "minute": 26,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/fb8eb3c2",
+          "videoEmbed": "https://streamff.link/v/fb8eb3c2",
+          "directMp4": null,
+          "postedAt": 1775226548000
+        },
+        {
+          "postId": "1sbffov",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbffov",
+          "scorer": "Josh Maja",
+          "minute": 38,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/83775afb",
+          "videoEmbed": "https://streamff.link/v/83775afb",
+          "directMp4": null,
+          "postedAt": 1775227204000
+        }
+      ]
+    },
+    {
+      "home": "Oxford United",
+      "away": "Hull City",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sbesye",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbesye",
+          "scorer": "Mohamed Belloumi",
+          "minute": 4,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/UiBEfgvwUzRCr4v/watch",
+          "videoEmbed": "https://streamain.com/UiBEfgvwUzRCr4v/watch",
+          "directMp4": null,
+          "postedAt": 1775225726000
         }
       ]
     },
