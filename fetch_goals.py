@@ -97,11 +97,14 @@ def find_schedule_match(parsed_home, parsed_away, today_teams):
         sh = game["home_norm"]
         sa = game["away_norm"]
 
-        # Only match if name is long enough to be meaningful (avoids e.g. AZ matching Lazio)
-        home_match = len(ph) >= 4 and (ph in sh or sh in ph)
-        away_match = len(pa) >= 4 and ((pa in sa or sa in pa) or (pa in sh or sh in pa))
+        # Both teams must match — one alone causes false positives
+        # e.g. "Sporting vs Santa Clara" wrongly mapping to "Sporting CP vs Arsenal"
+        home_match = len(ph) >= 3 and (ph in sh or sh in ph)
+        away_match = len(pa) >= 3 and (pa in sa or sa in pa)
+        home_match_swap = len(ph) >= 3 and (ph in sa or sa in ph)
+        away_match_swap = len(pa) >= 3 and (pa in sh or sh in pa)
 
-        if home_match or away_match:
+        if (home_match and away_match) or (home_match_swap and away_match_swap):
             return game
 
     return None
@@ -113,20 +116,44 @@ def today_utc_midnight_ts():
     return int(eastern_midnight.astimezone(timezone.utc).timestamp())
 
 def fetch_posts(after_ts):
-    url = (
-        f"https://arctic-shift.photon-reddit.com/api/posts/search"
-        f"?subreddit={SUBREDDIT}&after={after_ts}&limit=100&sort=desc"
-    )
-    req = urllib.request.Request(url, headers=HEADERS)
-    try:
-        with urllib.request.urlopen(req, timeout=20) as resp:
-            data = json.loads(resp.read().decode("utf-8"))
-            posts = data.get("data", [])
-            print(f"  Fetched {len(posts)} posts")
-            return posts
-    except Exception as e:
-        print(f"  Fetch error: {e}")
-        return []
+    """Paginate through all posts since after_ts using before= cursor."""
+    all_posts = []
+    before_ts = None
+
+    while True:
+        url = (
+            f"https://arctic-shift.photon-reddit.com/api/posts/search"
+            f"?subreddit={SUBREDDIT}&after={after_ts}&limit=100&sort=desc"
+        )
+        if before_ts is not None:
+            url += f"&before={before_ts}"
+
+        req = urllib.request.Request(url, headers=HEADERS)
+        try:
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+                posts = data.get("data", [])
+        except Exception as e:
+            print(f"  Fetch error: {e}")
+            break
+
+        if not posts:
+            break
+
+        all_posts.extend(posts)
+        print(f"  Fetched {len(posts)} posts (total so far: {len(all_posts)})")
+
+        # Fewer than 100 means we've reached the start of the day
+        if len(posts) < 100:
+            break
+
+        # Paginate backwards using the oldest post timestamp
+        oldest_ts = min(int(p.get("created_utc", 0)) for p in posts)
+        if oldest_ts <= after_ts:
+            break
+        before_ts = oldest_ts - 1
+
+    return all_posts
 
 def clean_team(name):
     name = re.sub(r'[\[\(][^\]\)]*[\]\)]', '', name)
