@@ -1,10 +1,6 @@
 {
-  "updated": "2026-04-02 22:29 EDT",
+  "updated": "2026-04-03 01:42 EDT",
   "days": {
-    "20260402": {
-      "date": "Thursday, April 2",
-      "games": []
-    },
     "20260403": {
       "date": "Friday, April 3",
       "games": [
@@ -85,6 +81,29 @@
           "kick_utc": "2026-04-06T23:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png"
+        }
+      ]
+    },
+    "20260407": {
+      "date": "Tuesday, April 7",
+      "games": [
+        {
+          "group": "Regular Season",
+          "time": "8:00 PM",
+          "match": "Boston Celtics vs Charlotte Hornets",
+          "source": "NBC \u00b7 Peacock",
+          "kick_utc": "2026-04-08T00:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "11:00 PM",
+          "match": "Phoenix Suns vs Houston Rockets",
+          "source": "NBC \u00b7 Peacock",
+          "kick_utc": "2026-04-08T03:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png"
         }
       ]
     }
