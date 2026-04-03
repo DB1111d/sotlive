@@ -1,45 +1,9 @@
 {
-  "updated": "2026-04-03 12:41 EDT",
+  "updated": "2026-04-03 16:37 EDT",
   "days": {
     "20260403": {
       "date": "Friday, April 3",
       "games": [
-        {
-          "league": "EFL Championship",
-          "time": "10:00 AM",
-          "match": "Leicester City vs Preston North End",
-          "source": "Paramount+",
-          "kick_utc": "2026-04-03T14:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/375.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/394.png"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "10:00 AM",
-          "match": "Oxford United vs Hull City",
-          "source": "Paramount+",
-          "kick_utc": "2026-04-03T14:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/311.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "10:00 AM",
-          "match": "Sheffield United vs Swansea City",
-          "source": "Paramount+",
-          "kick_utc": "2026-04-03T14:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/398.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/318.png"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "10:00 AM",
-          "match": "West Bromwich Albion vs Wrexham",
-          "source": "Paramount+",
-          "kick_utc": "2026-04-03T14:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/383.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/352.png"
-        },
         {
           "league": "EFL Championship",
           "time": "3:00 PM",
