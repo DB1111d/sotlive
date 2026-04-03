@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-03T11:59:00Z",
+  "updated": "2026-04-03T13:21:35Z",
   "date": "2026-04-03",
   "matches": [
     {
@@ -19,6 +19,32 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/pdv1x6iwsysg1/CMAF_720.mp4?source=fallback",
           "postedAt": 1775217493000
+        },
+        {
+          "postId": "1sbcns0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbcns0",
+          "scorer": "Josh Coburn",
+          "minute": 58,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/c4jbhfcq1zsg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/c4jbhfcq1zsg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775220470000
+        },
+        {
+          "postId": "1sbdbwt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbdbwt",
+          "scorer": "Josh Coburn",
+          "minute": 86,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/clpocwlt6zsg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775222167000
         }
       ]
     }
