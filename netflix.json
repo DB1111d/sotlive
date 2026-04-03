@@ -1,8 +1,37 @@
 {
-  "updated": "2026-04-02 04:44 EDT",
-  "week_label": "March 18 \u2013 April 2, 2026",
+  "updated": "2026-04-03 04:41 EDT",
+  "week_label": "March 19 \u2013 April 3, 2026",
   "groups": {
     "TV Series": [
+      {
+        "type": "series",
+        "title": "Sins of Kujo",
+        "overview": "",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "added_date": "April 2",
+        "added_ts": 1775157978,
+        "link": "https://www.netflix.com/title/81581947/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/24859502/poster/vertical/en/240.jpg?Expires=1805369844&Signature=bIRR3yYEkzEbZUfJP6voLyIEgzYl~7tQ0QxfQ5UPaml~AMdp1EwsKWcu4vtVuCgUbInhCemFYZLFA68oRE14B1WN2UDYdBOB0zXf5ACj2~~yiPtx5FP6BUTaYUXFOH8iAYOg4YkWiN4wenJResFfElhaIjJ7DOOKgqv3yLxaIF8ZUmeOsvC8XpPWC8XBp7kV7OnCuJsXt94uKzmqW1q8da54lZguOovVK8uSxuYUDUYiZp-tXkdr~oxvN-ecRAAQfoKKhTjWpJ4c0rzjZaPcJ0REaKt8YhSOvHA3z6zjBwc8zT~QK9Sb9J0KWQ5oHq~V3zxB4~gvUZeo6s-2ekKaJw__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 0
+      },
+      {
+        "type": "series",
+        "title": "The Ramparts of Ice",
+        "overview": "",
+        "genres": [
+          "Animation",
+          "Romance"
+        ],
+        "added_date": "April 2",
+        "added_ts": 1775157941,
+        "link": "https://www.netflix.com/title/82031882/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/24761509/poster/vertical/en/240.jpg?Expires=1805369780&Signature=ZRKHp0VPNQhWPn35VuRtiAOUX7HyUf1B5POLOE2QMxI4WA6cnbfz5NmMG4C0fTXXJD~7PEhNEKDK69plaVpj2yzRTK43~c3eaIcrh2EifWp1PT82wZfPyMI35PbtEJsQCsE6266sSVQdOIPV0l9rQCi38DsJByuZ2GFnpA2GxqRLNqASVonGMmoapPT9A0SryWpy42kYlCocVXRPPKM8PguelfF37Dp95-gt6VVFsqFGpZlgN1zhNV5yWZzdAZvgoj-Bf~nXgpo5lMbiqqDWJ-RCR5e1SNeZjk1IB5jSxs0bywa438hav-ymO5SgqXs4TPStVvLxqXzmukNLYUgjdQ__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 0
+      },
       {
         "type": "series",
         "title": "St. Denis Medical",
@@ -225,38 +254,38 @@
         "link": "https://www.netflix.com/title/81610327/",
         "thumbnail": "https://cdn.movieofthenight.com/show/24602194/poster/vertical/en/240.jpg?Expires=1805369659&Signature=MidQYOLRBD7hsiQd0fkD6Mf9rULxWrVv8XZXdjLLOQ2r9G674K5bK6WL~QgGM-WDPJlz2PtMmTHfkA7vISni4W0yvjQQAcR0JZjlNrjYZDFRZ152q0qqPFBMBZ2zQVXrkSRr1Is7GgjDvhjt8bGLE5dporFe~2msteHRJEN0bivoKExB1oUBPTc8wu9WR4Ia~px1jfXXiOxDnsZpqcMcZqoGOpeRb41JeYrGtcipzvL1Uff91HEdrMa3mMuk4XDIgH4zOTDUhRwuXFTGtsn-9WYBY~Jaf5aRAG21Mvm0Shdrk2KQQxXeqxSA2RA2Kyz-bqLHR1udbWQd2e-TltJPxw__&Key-Pair-Id=KK4HN3OO4AT5R",
         "rating": 0
-      },
-      {
-        "type": "series",
-        "title": "Radioactive Emergency",
-        "overview": "",
-        "genres": [
-          "Drama",
-          "History",
-          "Thriller"
-        ],
-        "added_date": "March 18",
-        "added_ts": 1773836566,
-        "link": "https://www.netflix.com/title/81696429/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/24862466/poster/vertical/en/240.jpg?Expires=1805369818&Signature=NPo4G5xFzFyNseqTnbFnJIUHSw7w7jAHaN81b8mBrZqvBCZaNtZfnQdlwB0HRx2IOQJXUygsX~uFP05I2r4IVSlCpsThghT-SBtxvNb6C7FfC5gSwYeVIx-c2Fr5-XVW5iFpha1-LJmt6dgswguhtRy1ngiKXVI56itDvGGwiEP4KlOgjxpMtrVdimAYQCGntVoOHFk-NjP1NkdVSeViE5gNe5-DUAFgQPqEjnleXk8mOYeLYo3g~Z6smBLlBd0K2sQdRq5NqAEqLF3eETxyafz~F4WoT4rTgQC8gxdZsH7GGwKeMvEsvvYeetgj8yqvcez1-tIKvmnDzYda~RIhTg__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 0
-      },
-      {
-        "type": "series",
-        "title": "Hoarders",
-        "overview": "This series delves into the mental disorder of hoarding, as experts work to help individuals overcome obsessive collecting and reclaim their lives.",
-        "genres": [
-          "Documentary",
-          "Reality"
-        ],
-        "added_date": "March 18",
-        "added_ts": 1773836512,
-        "link": "https://www.netflix.com/title/70157400/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/23355216/poster/vertical/en/240.jpg?Expires=1791328789&Signature=HxZEeHjdpu7Khxclgvu~3F43e~A6HSVd9YbfNQLvH5bACLtFa4i1MqVOIAWYkilmrL9plObvQcnYUTj3FOorndOEeR-b8jeNx-beSIg5Ecjb-K5e2YfUhgO7vA-0hD02k9oIwzM6UCJkgVmvzCYN1bfTQPOHNSEcJbNfOfocRp9Di91TUk2obI5ZmL1~RVcact5xlkOqWxyvc3KH27a0zJFUEq-2JJbcHGJX4~m~hQtt72urPqselt~SLm8x~3Zg7CxW1TH4nPIQbBrjWEN4PoXSrhWPD9ZGjK78lYga7qgQ~HaRplHuGOnINCEkdicpzcFrBCVeXciRyKw7KjOmlQ__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 61
       }
     ],
     "Movies": [
+      {
+        "type": "movie",
+        "title": "Lucy",
+        "overview": "A powerful synthetic chemical leaks into the system of unwilling drug mule Lucy, causing her to develop superhuman abilities.",
+        "genres": [
+          "Action",
+          "Science Fiction",
+          "Thriller"
+        ],
+        "added_date": "April 2",
+        "added_ts": 1775136061,
+        "link": "https://www.netflix.com/title/70307658/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/630/poster/vertical/en/240.jpg?Expires=1805543658&Signature=Qjn3ZJk-aVF7MkR2gDj7XfmrvopRTaFbWPf1lg5mGzxqZGX2nDUPDdQJMXdDbSPI5Yh1zJaZbLvLHh7CODYT7aklH~5wMw1JoWFRPDP3LhGaX-CQUe6BOqfqWCBY5TloprUIXx5mSUL5P8KVVR1DJKltsKXB8iReDj7fXUaA8Ph1sfjb8ajyPHC3QbHOsJDFKLKITUrqblFjmLpbbJvRnE0IgfjY8PWIn76~xyN5iPUNzf-Yn4~WIHZXvWtkjVsCS8Eolbq6iEibgxpoxKTOMiFhWKH6R~2QAWgxteZHqHzb~19jfwgM0y8HVfMCad9Xe-VQtkJ1zPIT5uONA4zZnQ__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 64
+      },
+      {
+        "type": "movie",
+        "title": "Black and Blue",
+        "overview": "When a rookie cop inadvertently captures corrupt officers committing a murder on tape, loyalties are tested when she's hunted for the footage.",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "added_date": "April 2",
+        "added_ts": 1775136022,
+        "link": "https://www.netflix.com/title/81086524/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/12657/poster/vertical/en/240.jpg?Expires=1800360422&Signature=Zc3VsuVCxiR9xdTXlf2YjZy68H0s1YWynnslDKpp2MUT4yIfR9gT6lB0KKpiF~SVu-uMO1CUc9ysDngoNCwPseScQFWR7Bpzwin6VMDDcVXuAap5WCffmXARqK4JvmLvIkAzoipd2R3f2KjIfOkgLspG2UhmM4ooVV7oHYjL-5~HRD10Y-44zoi-TU~QjRQv1RncT-asBCF9PyeMBGARh4yguQUL3WJeEpXrId~wr7wgWyeyzbX-w-e~0DQOXzudYGOEd-MvGvyYLVuqC2RRQnvaMjwcJBxgdUC8ih2UNngk3yLnEOHdX7LWqySZJqLnjvVmKg1KKjjitvKeFfknBg__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 64
+      },
       {
         "type": "movie",
         "title": "Eat Pray Bark",
@@ -1223,20 +1252,6 @@
         "link": "https://www.netflix.com/title/81674655/",
         "thumbnail": "https://cdn.movieofthenight.com/show/5038708/poster/vertical/en/240.jpg?Expires=1798320220&Signature=PsdTDHrcTFZ8LSkFvIlBTzMGJsBO3-NkI2JxHOH5mzl4Ds51DFFa7SC8X54K8tpf2q9QmybgMc01MMDOqLLwuq8mqiuFJOrUAoodl1NAr0UByF4gbtW8de~yP9wT5zbs9SjsqPUszUXVU~bpyo2UnspRj0fjOcy7iU4EMfAzWWTP0K9wgRsIg8dcx3Niz6MhTDf2CQ2URHQMgkgxjdHlcx9b2VxnEcYJ-UEjyDKdKMHAp4Ah0FO3HSF3o7mhMghVQHLnc0ugghLyA35SbQFJQeqjJbZ5K7uFZZNQWcu~D~ECI2H0vIM3jKYs5Qr9yoGmKhCAFqRikoiVRxBexns-Wg__&Key-Pair-Id=KK4HN3OO4AT5R",
         "rating": 67
-      },
-      {
-        "type": "movie",
-        "title": "In a Relationship",
-        "overview": "Over the course of a summer in LA, steadfast couple Owen and Hallie stare down the end of their relationship while Matt and Willa are just beginning.",
-        "genres": [
-          "Comedy",
-          "Drama"
-        ],
-        "added_date": "March 18",
-        "added_ts": 1773836586,
-        "link": "https://www.netflix.com/title/81006259/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/47849/poster/vertical/en/240.jpg?Expires=1803619279&Signature=P0L-Y-KNDNE0cumUesEQnPEf6TDYYRI-XE-2kRMawPD~cs0itACciSeQcxwjBIO4Ke1dhmpTNiBRk6VYXS4gvzWppv-mHE2EzaOUwNm6Gce-QP5mPbxhJEJag9hryKByz5pSAZD6dj0z0f9CjZlPeAiVE2S4P7mas-Wl3TJ7u8ArbyfEboWECweNYLO4-OO-toTQDz4DM~Pkv1OfFpIsKqPZKFBEiYCj8fKHMQK8TQNkDbgJW7eZoUtm8lzqM5ygNGcJQcIVYX6LQKGFErIgV3qJZiyr0eP5kucw840wcAsP1~jmzYeKtp~LNmkSw3nRETL0cn0XQRiPTaTAph4pDg__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 55
       }
     ]
   }
