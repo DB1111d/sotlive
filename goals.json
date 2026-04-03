@@ -1,7 +1,93 @@
 {
-  "updated": "2026-04-03T18:59:56Z",
+  "updated": "2026-04-03T19:44:41Z",
   "date": "2026-04-03",
   "matches": [
+    {
+      "home": "Coventry",
+      "away": "Derby",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sbmwu8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbmwu8",
+          "scorer": "Frank Onyeka",
+          "minute": 12,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/bz3y9jg1z0tg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775243742000
+        },
+        {
+          "postId": "1sbnlxk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbnlxk",
+          "scorer": "Ben Brereton Diaz",
+          "minute": 38,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/2swfrlxp31tg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775245313000
+        }
+      ]
+    },
+    {
+      "home": "Sporting CP",
+      "away": "Arsenal",
+      "league": "UEFA Champions League",
+      "goals": [
+        {
+          "postId": "1sbnlmq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbnlmq",
+          "scorer": "Gustavo Klismahn",
+          "minute": 3,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/9cJjGuZDDoETw6T/watch",
+          "videoEmbed": "https://streamain.com/9cJjGuZDDoETw6T/watch",
+          "directMp4": null,
+          "postedAt": 1775245294000
+        }
+      ]
+    },
+    {
+      "home": "Dunkerque",
+      "away": "Rodez",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sbm1ow",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbm1ow",
+          "scorer": "Tairyk Arconte",
+          "minute": 25,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/Hp3G3wmcbcOujNI/watch",
+          "videoEmbed": "https://streamain.com/Hp3G3wmcbcOujNI/watch",
+          "directMp4": null,
+          "postedAt": 1775241831000
+        },
+        {
+          "postId": "1sbnhvr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbnhvr",
+          "scorer": "Enzo Bardeli",
+          "minute": 73,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/VBRiIJP3PkgTPe4/watch",
+          "videoEmbed": "https://streamain.com/VBRiIJP3PkgTPe4/watch",
+          "directMp4": null,
+          "postedAt": 1775245053000
+        }
+      ]
+    },
     {
       "home": "Grenoble",
       "away": "Clermont",
@@ -45,26 +131,85 @@
           "videoEmbed": "https://streamain.com/VjZoGfIrE3Pu3ap/watch",
           "directMp4": null,
           "postedAt": 1775242109000
+        },
+        {
+          "postId": "1sbnbpw",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbnbpw",
+          "scorer": "Ivan M'Bahia",
+          "minute": 67,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/8iMwDnTrN9YGpV4/watch",
+          "videoEmbed": "https://streamain.com/8iMwDnTrN9YGpV4/watch",
+          "directMp4": null,
+          "postedAt": 1775244655000
         }
       ]
     },
     {
-      "home": "Dunkerque",
-      "away": "Rodez",
+      "home": "Annecy",
+      "away": "Guingamp",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1sbm1ow",
+          "postId": "1sbn5nj",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1sbm1ow",
-          "scorer": "Tairyk Arconte",
-          "minute": 25,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamain.com/Hp3G3wmcbcOujNI/watch",
-          "videoEmbed": "https://streamain.com/Hp3G3wmcbcOujNI/watch",
+          "permalink": "https://redd.it/1sbn5nj",
+          "scorer": "Alexis Casadei",
+          "minute": 63,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/tOe7mSmMQyKipmt/watch",
+          "videoEmbed": "https://streamain.com/tOe7mSmMQyKipmt/watch",
           "directMp4": null,
-          "postedAt": 1775241831000
+          "postedAt": 1775244280000
+        }
+      ]
+    },
+    {
+      "home": "Paris Saint-Germain",
+      "away": "Toulouse",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sbmun5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbmun5",
+          "scorer": "Ousmane Dembele",
+          "minute": 23,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/33d661e0",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775243606000
+        },
+        {
+          "postId": "1sbmyic",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbmyic",
+          "scorer": "Rasmus Nicolaisen",
+          "minute": 27,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/8083f304",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775243848000
+        },
+        {
+          "postId": "1sbn37f",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sbn37f",
+          "scorer": "Ousmane Dembele",
+          "minute": 33,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/e453bfc5",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775244136000
         }
       ]
     },
