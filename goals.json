@@ -1,50 +1,129 @@
 {
-  "updated": "2026-04-04T15:28:34Z",
+  "updated": "2026-04-04T15:56:39Z",
   "date": "2026-04-04",
   "matches": [
     {
-      "home": "TSG Hoffenheim",
-      "away": "Mainz",
+      "home": "Górnik Zabrze",
+      "away": "Cracovia",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sccl5x",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sccl5x",
+          "scorer": "Yvan Ikia Dimi",
+          "minute": 11,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/9ywsiuvd27tg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/9ywsiuvd27tg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775317566000
+        }
+      ]
+    },
+    {
+      "home": "PSV Eindhoven",
+      "away": "Utrecht",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1scb64i",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scb64i",
+          "scorer": "Artem Stepanov",
+          "minute": 3,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/Tfp0CU0BqU73sRU/watch",
+          "videoEmbed": "https://streamain.com/Tfp0CU0BqU73sRU/watch",
+          "directMp4": null,
+          "postedAt": 1775314171000
+        },
+        {
+          "postId": "1scbd6f",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scbd6f",
+          "scorer": "Ismael Saibari",
+          "minute": 21,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/DIE04D42MYJslmd/watch",
+          "videoEmbed": "https://streamain.com/DIE04D42MYJslmd/watch",
+          "directMp4": null,
+          "postedAt": 1775314640000
+        },
+        {
+          "postId": "1sccf9f",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sccf9f",
+          "scorer": "Ismael Saibari",
+          "minute": 49,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/RYeBxfMyWlP4t0Z/watch",
+          "videoEmbed": "https://streamain.com/RYeBxfMyWlP4t0Z/watch",
+          "directMp4": null,
+          "postedAt": 1775317165000
+        },
+        {
+          "postId": "1sccjfp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sccjfp",
+          "scorer": "Guus Til",
+          "minute": 53,
+          "homeScore": 3,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/rA3Ld2ikgzoQCFd/watch",
+          "videoEmbed": "https://streamain.com/rA3Ld2ikgzoQCFd/watch",
+          "directMp4": null,
+          "postedAt": 1775317449000
+        }
+      ]
+    },
+    {
+      "home": "Werder Bremen",
+      "away": "RB Leipzig",
       "league": "German Bundesliga",
       "goals": [
         {
-          "postId": "1sc9nst",
+          "postId": "1sc9ow3",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1sc9nst",
-          "scorer": "Phillip Tietz",
-          "minute": 13,
+          "permalink": "https://redd.it/1sc9ow3",
+          "scorer": "Antonio Nusa",
+          "minute": 15,
           "homeScore": 0,
           "awayScore": 1,
-          "videoUrl": "https://streamain.com/DKJimWI2MPg5Pbs/watch",
-          "videoEmbed": "https://streamain.com/DKJimWI2MPg5Pbs/watch",
+          "videoUrl": "https://streamain.com/TJnYpxwMY1EjCCA/watch",
+          "videoEmbed": "https://streamain.com/TJnYpxwMY1EjCCA/watch",
           "directMp4": null,
-          "postedAt": 1775310360000
+          "postedAt": 1775310442000
         },
         {
-          "postId": "1sc9w62",
+          "postId": "1scb4qb",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1sc9w62",
-          "scorer": "Fisnik Asllani",
-          "minute": 23,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://streamain.com/cTdfAhV23vYZz57/watch",
-          "videoEmbed": "https://streamain.com/cTdfAhV23vYZz57/watch",
-          "directMp4": null,
-          "postedAt": 1775310967000
-        },
-        {
-          "postId": "1scc2yh",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1scc2yh",
-          "scorer": "Phillip Tietz",
-          "minute": 79,
-          "homeScore": 1,
+          "permalink": "https://redd.it/1scb4qb",
+          "scorer": "Romulo",
+          "minute": 52,
+          "homeScore": 0,
           "awayScore": 2,
-          "videoUrl": "https://streamin.link/v/32fd6211",
+          "videoUrl": "https://streamin.link/v/8aebaa79",
           "videoEmbed": null,
           "directMp4": null,
-          "postedAt": 1775316347000
+          "postedAt": 1775314076000
+        },
+        {
+          "postId": "1scc8pd",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scc8pd",
+          "scorer": "Salim Musah",
+          "minute": 90,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/vVLwSZ9DVcJqkHp/watch",
+          "videoEmbed": "https://streamain.com/vVLwSZ9DVcJqkHp/watch",
+          "directMp4": null,
+          "postedAt": 1775316724000
         }
       ]
     },
@@ -104,85 +183,19 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1775316272000
-        }
-      ]
-    },
-    {
-      "home": "RW Essen",
-      "away": "Duisburg",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1scbuww",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1scbuww",
-          "scorer": "Kaito Mizuta",
-          "minute": 43,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamain.com/GYRCAu6mdQizVqL/watch",
-          "videoEmbed": "https://streamain.com/GYRCAu6mdQizVqL/watch",
-          "directMp4": null,
-          "postedAt": 1775315813000
-        }
-      ]
-    },
-    {
-      "home": "Borussia Mönchengladbach",
-      "away": "1. FC Heidenheim 1846",
-      "league": "German Bundesliga",
-      "goals": [
-        {
-          "postId": "1sc9v1z",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sc9v1z",
-          "scorer": "Wael Mohya",
-          "minute": 16,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamain.com/cXlVFk4VQPKMufw/watch",
-          "videoEmbed": "https://streamain.com/cXlVFk4VQPKMufw/watch",
-          "directMp4": null,
-          "postedAt": 1775310886000
         },
         {
-          "postId": "1sca5zu",
+          "postId": "1scc7w9",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1sca5zu",
-          "scorer": "Patrick Mainka",
-          "minute": 26,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/013fdc56",
+          "permalink": "https://redd.it/1scc7w9",
+          "scorer": "Lennart Karl",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 3,
+          "videoUrl": "https://streamin.link/v/5a6d627f",
           "videoEmbed": null,
           "directMp4": null,
-          "postedAt": 1775311653000
-        },
-        {
-          "postId": "1scbdt8",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1scbdt8",
-          "scorer": "Marnon Busch",
-          "minute": 64,
-          "homeScore": 1,
-          "awayScore": 2,
-          "videoUrl": "https://streamain.com/uhPKUWHTtxqKLEU/watch",
-          "videoEmbed": "https://streamain.com/uhPKUWHTtxqKLEU/watch",
-          "directMp4": null,
-          "postedAt": 1775314686000
-        },
-        {
-          "postId": "1scbogi",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1scbogi",
-          "scorer": "Franck Honorat",
-          "minute": 74,
-          "homeScore": 2,
-          "awayScore": 2,
-          "videoUrl": "https://streamain.com/JAatVMtYAIob1re/watch",
-          "videoEmbed": "https://streamain.com/JAatVMtYAIob1re/watch",
-          "directMp4": null,
-          "postedAt": 1775315383000
+          "postedAt": 1775316670000
         }
       ]
     },
@@ -294,6 +307,144 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1775315246000
+        },
+        {
+          "postId": "1scc71s",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scc71s",
+          "scorer": "Malik Tillman",
+          "minute": 90,
+          "homeScore": 6,
+          "awayScore": 3,
+          "videoUrl": "https://streamin.link/v/d6df2e2d",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775316618000
+        }
+      ]
+    },
+    {
+      "home": "TSG Hoffenheim",
+      "away": "Mainz",
+      "league": "German Bundesliga",
+      "goals": [
+        {
+          "postId": "1sc9nst",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sc9nst",
+          "scorer": "Phillip Tietz",
+          "minute": 13,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/DKJimWI2MPg5Pbs/watch",
+          "videoEmbed": "https://streamain.com/DKJimWI2MPg5Pbs/watch",
+          "directMp4": null,
+          "postedAt": 1775310360000
+        },
+        {
+          "postId": "1sc9w62",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sc9w62",
+          "scorer": "Fisnik Asllani",
+          "minute": 23,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/cTdfAhV23vYZz57/watch",
+          "videoEmbed": "https://streamain.com/cTdfAhV23vYZz57/watch",
+          "directMp4": null,
+          "postedAt": 1775310967000
+        },
+        {
+          "postId": "1scc2yh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scc2yh",
+          "scorer": "Phillip Tietz",
+          "minute": 79,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/32fd6211",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775316347000
+        }
+      ]
+    },
+    {
+      "home": "RW Essen",
+      "away": "Duisburg",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1scbuww",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scbuww",
+          "scorer": "Kaito Mizuta",
+          "minute": 43,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/GYRCAu6mdQizVqL/watch",
+          "videoEmbed": "https://streamain.com/GYRCAu6mdQizVqL/watch",
+          "directMp4": null,
+          "postedAt": 1775315813000
+        }
+      ]
+    },
+    {
+      "home": "Borussia Mönchengladbach",
+      "away": "1. FC Heidenheim 1846",
+      "league": "German Bundesliga",
+      "goals": [
+        {
+          "postId": "1sc9v1z",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sc9v1z",
+          "scorer": "Wael Mohya",
+          "minute": 16,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/cXlVFk4VQPKMufw/watch",
+          "videoEmbed": "https://streamain.com/cXlVFk4VQPKMufw/watch",
+          "directMp4": null,
+          "postedAt": 1775310886000
+        },
+        {
+          "postId": "1sca5zu",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sca5zu",
+          "scorer": "Patrick Mainka",
+          "minute": 26,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/013fdc56",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775311653000
+        },
+        {
+          "postId": "1scbdt8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scbdt8",
+          "scorer": "Marnon Busch",
+          "minute": 64,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/uhPKUWHTtxqKLEU/watch",
+          "videoEmbed": "https://streamain.com/uhPKUWHTtxqKLEU/watch",
+          "directMp4": null,
+          "postedAt": 1775314686000
+        },
+        {
+          "postId": "1scbogi",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scbogi",
+          "scorer": "Franck Honorat",
+          "minute": 74,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/JAatVMtYAIob1re/watch",
+          "videoEmbed": "https://streamain.com/JAatVMtYAIob1re/watch",
+          "directMp4": null,
+          "postedAt": 1775315383000
         }
       ]
     },
@@ -314,39 +465,6 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1775314755000
-        }
-      ]
-    },
-    {
-      "home": "PSV Eindhoven",
-      "away": "Utrecht",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1scb64i",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1scb64i",
-          "scorer": "Artem Stepanov",
-          "minute": 3,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamain.com/Tfp0CU0BqU73sRU/watch",
-          "videoEmbed": "https://streamain.com/Tfp0CU0BqU73sRU/watch",
-          "directMp4": null,
-          "postedAt": 1775314171000
-        },
-        {
-          "postId": "1scbd6f",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1scbd6f",
-          "scorer": "Ismael Saibari",
-          "minute": 21,
-          "homeScore": 1,
-          "awayScore": 2,
-          "videoUrl": "https://streamain.com/DIE04D42MYJslmd/watch",
-          "videoEmbed": "https://streamain.com/DIE04D42MYJslmd/watch",
-          "directMp4": null,
-          "postedAt": 1775314640000
         }
       ]
     },
@@ -380,39 +498,6 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1775314506000
-        }
-      ]
-    },
-    {
-      "home": "Werder Bremen",
-      "away": "RB Leipzig",
-      "league": "German Bundesliga",
-      "goals": [
-        {
-          "postId": "1sc9ow3",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sc9ow3",
-          "scorer": "Antonio Nusa",
-          "minute": 15,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamain.com/TJnYpxwMY1EjCCA/watch",
-          "videoEmbed": "https://streamain.com/TJnYpxwMY1EjCCA/watch",
-          "directMp4": null,
-          "postedAt": 1775310442000
-        },
-        {
-          "postId": "1scb4qb",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1scb4qb",
-          "scorer": "Romulo",
-          "minute": 52,
-          "homeScore": 0,
-          "awayScore": 2,
-          "videoUrl": "https://streamin.link/v/8aebaa79",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1775314076000
         }
       ]
     },
