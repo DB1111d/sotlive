@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-04 12:37 EDT",
+  "updated": "2026-04-04 16:33 EDT",
   "days": {
     "20260404": {
       "date": "Saturday, April 4",
@@ -17,10 +17,10 @@
         {
           "conference": "Independent",
           "tourney_round": "NCAA Tournament",
-          "time": "4:00 PM",
+          "time": "4:14 PM",
           "match": "Creighton Bluejays vs West Virginia Mountaineers",
           "source": "FOX",
-          "kick_utc": "2026-04-04T20:00Z",
+          "kick_utc": "2026-04-04T20:14Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/156.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png"
         },
