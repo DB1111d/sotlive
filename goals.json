@@ -1,7 +1,27 @@
 {
-  "updated": "2026-04-04T17:06:17Z",
+  "updated": "2026-04-04T17:47:59Z",
   "date": "2026-04-04",
   "matches": [
+    {
+      "home": "Hellas Verona",
+      "away": "Fiorentina",
+      "league": "Serie A",
+      "goals": [
+        {
+          "postId": "1scfmyf",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scfmyf",
+          "scorer": "Nicolò Fagioli",
+          "minute": 82,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/67ufg9znn7tg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775324674000
+        }
+      ]
+    },
     {
       "home": "Chelsea",
       "away": "Port Vale",
@@ -45,6 +65,78 @@
           "videoEmbed": "https://streamff.link/v/41866ce2",
           "directMp4": null,
           "postedAt": 1775322005000
+        },
+        {
+          "postId": "1scfahp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scfahp",
+          "scorer": "Tosin Adarabioyo 57‎'‎",
+          "minute": null,
+          "homeScore": 4,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/a5808c17",
+          "videoEmbed": "https://streamff.link/v/a5808c17",
+          "directMp4": null,
+          "postedAt": 1775323884000
+        },
+        {
+          "postId": "1scflyc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scflyc",
+          "scorer": "Andrey Santos 69‎'‎",
+          "minute": null,
+          "homeScore": 5,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/5ec6fdd0",
+          "videoEmbed": "https://streamff.link/v/5ec6fdd0",
+          "directMp4": null,
+          "postedAt": 1775324610000
+        }
+      ]
+    },
+    {
+      "home": "Górnik Zabrze",
+      "away": "Cracovia",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sccl5x",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sccl5x",
+          "scorer": "Yvan Ikia Dimi",
+          "minute": 11,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/9ywsiuvd27tg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/9ywsiuvd27tg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775317566000
+        },
+        {
+          "postId": "1scf12i",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scf12i",
+          "scorer": "Jarosław Kubicki",
+          "minute": 78,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/m0z2k1djj7tg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/m0z2k1djj7tg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775323284000
+        },
+        {
+          "postId": "1scf3rm",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scf3rm",
+          "scorer": "Michał Rakoczy",
+          "minute": 82,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/fidbimp1k7tg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/fidbimp1k7tg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775323453000
         }
       ]
     },
@@ -163,26 +255,6 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1775318842000
-        }
-      ]
-    },
-    {
-      "home": "Górnik Zabrze",
-      "away": "Cracovia",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1sccl5x",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sccl5x",
-          "scorer": "Yvan Ikia Dimi",
-          "minute": 11,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/9ywsiuvd27tg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/9ywsiuvd27tg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1775317566000
         }
       ]
     },
