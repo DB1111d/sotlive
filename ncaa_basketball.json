@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-03 19:59 EDT",
+  "updated": "2026-04-03 20:18 EDT",
   "days": {
     "20260403": {
       "date": "Friday, April 3",
@@ -9,28 +9,8 @@
       "date": "Saturday, April 4",
       "games": [
         {
-          "conference": "Pac-12",
-          "tourney_round": null,
-          "time": "4:00 PM",
-          "match": "Creighton Bluejays vs West Virginia Mountaineers",
-          "source": "FOX",
-          "kick_utc": "2026-04-04T20:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/156.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png"
-        },
-        {
-          "conference": "Pac-12",
-          "tourney_round": null,
-          "time": "6:09 PM",
-          "match": "UConn Huskies vs Illinois Fighting Illini",
-          "source": "TBS \u00b7 truTV \u00b7 HBO Max",
-          "kick_utc": "2026-04-04T22:09Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png"
-        },
-        {
-          "conference": "Mountain West",
-          "tourney_round": null,
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
           "time": "1:30 PM",
           "match": "Baylor Bears vs Oklahoma Sooners",
           "source": "FOX",
@@ -39,8 +19,28 @@
           "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png"
         },
         {
-          "conference": "Mountain West",
-          "tourney_round": null,
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "4:00 PM",
+          "match": "Creighton Bluejays vs West Virginia Mountaineers",
+          "source": "FOX",
+          "kick_utc": "2026-04-04T20:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/156.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
+          "time": "6:09 PM",
+          "match": "UConn Huskies vs Illinois Fighting Illini",
+          "source": "TBS \u00b7 truTV \u00b7 HBO Max",
+          "kick_utc": "2026-04-04T22:09Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png"
+        },
+        {
+          "conference": "Independent",
+          "tourney_round": "NCAA Tournament",
           "time": "8:49 PM",
           "match": "Arizona Wildcats vs Michigan Wolverines",
           "source": "TBS \u00b7 truTV \u00b7 HBO Max",
