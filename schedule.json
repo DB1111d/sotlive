@@ -1,20 +1,6 @@
 {
-  "updated": "2026-04-03 22:13 EDT",
+  "updated": "2026-04-04 01:22 EDT",
   "days": {
-    "20260403": {
-      "date": "Friday, April 3",
-      "games": [
-        {
-          "league": "USL League One",
-          "time": "7:00 PM",
-          "match": "New York Cosmos vs Charlotte Independence",
-          "source": "ESPN+",
-          "kick_utc": "2026-04-03T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131582.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17826.png"
-        }
-      ]
-    },
     "20260404": {
       "date": "Saturday, April 4",
       "games": [
@@ -774,6 +760,70 @@
           "kick_utc": "2026-04-08T01:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22130.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22526.png"
+        }
+      ]
+    },
+    "20260408": {
+      "date": "Wednesday, April 8",
+      "games": [
+        {
+          "league": "UEFA Champions League",
+          "time": "3:00 PM",
+          "match": "Barcelona vs Atl\u00e9tico Madrid",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-08T19:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+          "round_label": "Quarter-final \u00b7 Leg 1"
+        },
+        {
+          "league": "UEFA Champions League",
+          "time": "3:00 PM",
+          "match": "Paris Saint-Germain vs Liverpool",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-08T19:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+          "round_label": "Quarter-final \u00b7 Leg 1"
+        },
+        {
+          "league": "UEFA Europa League",
+          "time": "12:45 PM",
+          "match": "Braga vs Real Betis",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-08T16:45Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2994.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+          "round_label": "Quarter-final \u00b7 Leg 1"
+        },
+        {
+          "league": "CONCACAF Champions Cup",
+          "time": "9:00 PM",
+          "match": "Tigres UANL vs Seattle Sounders FC",
+          "source": "FS2",
+          "kick_utc": "2026-04-09T01:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/232.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
+          "round_label": "Quarter-final \u00b7 Leg 1"
+        },
+        {
+          "league": "CONCACAF Champions Cup",
+          "time": "11:00 PM",
+          "match": "Toluca vs LA Galaxy",
+          "source": "FS2",
+          "kick_utc": "2026-04-09T03:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/223.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/187.png",
+          "round_label": "Quarter-final \u00b7 Leg 1"
+        },
+        {
+          "league": "USL League One",
+          "time": "7:00 PM",
+          "match": "Westchester SC vs Sarasota Paradise",
+          "source": "ESPN+",
+          "kick_utc": "2026-04-08T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22524.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22542.png"
         }
       ]
     }

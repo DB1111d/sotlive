@@ -1,29 +1,6 @@
 {
-  "updated": "2026-04-03 22:14 EDT",
+  "updated": "2026-04-04 01:22 EDT",
   "days": {
-    "20260403": {
-      "date": "Friday, April 3",
-      "games": [
-        {
-          "group": "Regular Season",
-          "time": "Postponed",
-          "match": "Kansas City Royals vs Milwaukee Brewers",
-          "source": "",
-          "kick_utc": "2026-04-03T23:40Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png"
-        },
-        {
-          "group": "Regular Season",
-          "time": "9:40 PM",
-          "match": "Arizona Diamondbacks vs Atlanta Braves",
-          "source": "Apple TV",
-          "kick_utc": "2026-04-04T01:40Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ari.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/atl.png"
-        }
-      ]
-    },
     "20260404": {
       "date": "Saturday, April 4",
       "games": [
@@ -42,15 +19,6 @@
           "match": "Kansas City Royals vs Milwaukee Brewers",
           "source": "FS1",
           "kick_utc": "2026-04-04T18:10Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png"
-        },
-        {
-          "group": "Regular Season",
-          "time": "7:10 PM",
-          "match": "Kansas City Royals vs Milwaukee Brewers",
-          "source": "Apple TV",
-          "kick_utc": "2026-04-04T23:10Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png"
         },
@@ -140,6 +108,29 @@
           "kick_utc": "2026-04-07T23:07Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tor.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/lad.png"
+        }
+      ]
+    },
+    "20260408": {
+      "date": "Wednesday, April 8",
+      "games": [
+        {
+          "group": "Regular Season",
+          "time": "3:10 PM",
+          "match": "Colorado Rockies vs Houston Astros",
+          "source": "ESPN Unlmtd",
+          "kick_utc": "2026-04-08T19:10Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/col.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/hou.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:40 PM",
+          "match": "Minnesota Twins vs Detroit Tigers",
+          "source": "FS1",
+          "kick_utc": "2026-04-08T23:40Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/min.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/det.png"
         }
       ]
     }
