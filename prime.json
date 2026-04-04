@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-03 04:41 EDT",
-  "week_label": "March 4 \u2013 April 3, 2026",
+  "updated": "2026-04-04 04:30 EDT",
+  "week_label": "March 5 \u2013 April 4, 2026",
   "groups": {
     "TV Series": [
       {
@@ -118,13 +118,14 @@
         "genres": [
           "Action",
           "Thriller",
-          "Music"
+          "Music",
+          "Horror"
         ],
         "added_date": "March 25",
         "added_ts": 1774411200,
         "link": "https://press.amazonmgmstudios.com/us/en/original-movies/pretty-lethal",
         "thumbnail": "https://image.tmdb.org/t/p/w342/znTPnXCK3lEQJgqXCvP7e5FUz6f.jpg",
-        "rating": 69,
+        "rating": 70,
         "season": ""
       },
       {
@@ -182,22 +183,6 @@
         "link": "",
         "thumbnail": "https://image.tmdb.org/t/p/w342/ofJH6HMmTGsMxLcjmWt5vOuSn1a.jpg",
         "rating": 84,
-        "season": ""
-      },
-      {
-        "type": "movie",
-        "title": "Young Sherlock",
-        "overview": "Sherlock Holmes and Dr. Watson meet as boys in an English Boarding school. Holmes is known for his deductive ability even as a youth, amazing his classmates with his abilities. When they discover a plot to murder a series of British business men by an Egyptian cult, they move to stop it.",
-        "genres": [
-          "Mystery",
-          "Adventure",
-          "Thriller"
-        ],
-        "added_date": "March 4",
-        "added_ts": 1772600400,
-        "link": "https://press.amazonmgmstudios.com/us/en/original-series/young-sherlock/1",
-        "thumbnail": "https://image.tmdb.org/t/p/w342/aOxVYvQoAfNSns4hW5Ah55GBzgq.jpg",
-        "rating": 67,
         "season": ""
       }
     ]

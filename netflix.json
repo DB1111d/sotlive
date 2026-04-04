@@ -1,8 +1,38 @@
 {
-  "updated": "2026-04-03 04:41 EDT",
-  "week_label": "March 19 \u2013 April 3, 2026",
+  "updated": "2026-04-04 04:30 EDT",
+  "week_label": "March 20 \u2013 April 4, 2026",
   "groups": {
     "TV Series": [
+      {
+        "type": "series",
+        "title": "Vivy: Fluorite Eye's Song",
+        "overview": "Vivy, an android singer at an A.I. theme park, dreams of making people happy with her music. That is, until an android teddy bear arrives from 100 years in the future\u2014where a war between A.I. and humans rages. Their century-long journey starts now!",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Animation"
+        ],
+        "added_date": "April 4",
+        "added_ts": 1775287748,
+        "link": "https://www.netflix.com/title/81511893/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/8428/poster/vertical/en/240.jpg?Expires=1805555029&Signature=dvEGxLi~dzZj4FKpSSxBP0bi4g9MVr4HuxfecgCHvEz~pRIbxQ7Ac16dvinni1VlINl71gCN5MJSBSnNFIN1bG0l~lw3jhElMVmU2Z6JfTDXJvnrlmt9ReXlOs2~-FCxwuT0a53hJCK6wcgjax~hUa53NcrK2wx41F8UYN8CKQwQaIrwGs6VxkeI2fQYWtsP5c3WYKaKuKSuEtGaY9AC6~3C9yx-X7XVBM~U2VXaW9oIUMubmfT~j2wAas98O~woEdzzcuE41tNMkX7TDPXQIrQllEVFgbz7vnObj~Ddr-fXDPqH84Iw-GjU-FEt7jKaAfQY1JgEmYlUTPKmn4garA__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 64
+      },
+      {
+        "type": "series",
+        "title": "SPY x FAMILY",
+        "overview": "World peace is at stake and secret agent Twilight must undergo his most difficult mission yet--pretend to be a family man. Posing as a loving husband and father, he'll infiltrate an elite school to get close to a high-profile politician.",
+        "genres": [
+          "Action",
+          "Animation",
+          "Comedy"
+        ],
+        "added_date": "April 4",
+        "added_ts": 1775287694,
+        "link": "https://www.netflix.com/title/81511410/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/1875/poster/vertical/en/240.jpg?Expires=1805544500&Signature=H2~GDbPhBbbpOxq24U8Is1~gnFSH21EUPcMuXPybUVi7dJw1PjSMFNhQpqKDSW8g8DBvA-AVn8hVCqOxMuMJRiNvjnMi2jOdUtjx8P5twdlojpeR~QcONrfe57OaPy~goFSFl6u0gixWC9ncjsLG-Tq~xN-G44Az8vmPZIHM1B8efBMIVmNLgecYc0HmH1IBY4gyd6CHArTivxRBeXAxeqSYhlIKl98bbNtI2KD7-6xYK2A8EfIOibsLvpRO1ZCCBj6T6b9gHg5I8-Yn9UUZQ1d5~tQuJlJVuoCw418c1wbUAixr26T5sN0MH~aXVKQiJyrK0TlmQzskvw~OGyqRhw__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 75
+      },
       {
         "type": "series",
         "title": "Sins of Kujo",
@@ -257,6 +287,32 @@
       }
     ],
     "Movies": [
+      {
+        "type": "movie",
+        "title": "Merrily We Roll Along",
+        "overview": "This celebrated musical by Stephen Sondheim charts the turbulent relationship between three friends.",
+        "genres": [],
+        "added_date": "April 4",
+        "added_ts": 1775287734,
+        "link": "https://www.netflix.com/title/82719754/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/24594034/poster/vertical/en/240.jpg?Expires=1800787087&Signature=cf4gmogA0hzNlQZTWJcuMpGWjQNoIJdZxOwW23QSmI0o0ED59HP3XlK-2XMKivhsFt7dVim6WHQHYqR~NN5iZLIZhQHHzavSyVyzeZEF6lB~d-eCnORwSLLH3xOZMcVJL8yy-dN1OHg4PhdIb8RmcBMeb~3bgN4x6qn8KD~E-lh8GWS4sahd54qV-MXUhuhsHN79VK3ThWAbs~rT23Py00feNmXLqK-APImnsmR20N5FVn9OYJ9uuV9Ib1jM2oP36gfC-17KUclZexyp-Q5Kq2QC0-3yT9CFwEpTTzxiMuZuILDz7yU2MZx0F66M9MTKjgR4J2rSxcO4qAZYpLt5yA__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 56
+      },
+      {
+        "type": "movie",
+        "title": "Madagascar 3: Europe's Most Wanted",
+        "overview": "TIME Magazine calls MADAGASCAR 3 \"A three dream circus.  A real fun movie.\" (Richard Corliss) \"Hilarious!  The best 'Madagascar' yet!\"  (Pete Hammond, BOXOFFICE Magazine) \"Charming and very funny.\" (Bill Zwecker, Chicago Sun Times)",
+        "genres": [
+          "Adventure",
+          "Animation",
+          "Comedy"
+        ],
+        "added_date": "April 3",
+        "added_ts": 1775236783,
+        "link": "https://www.netflix.com/title/70216224/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/2476/poster/vertical/en/240.jpg?Expires=1800309197&Signature=fQLDwIJ3YYnSn5rusYmTGbpWq3eIPXGWtLYVi9MGmo-UFcwsSrUmN~AYCpw1-uPvu0DCdotzCM-3QKw8kDyEqEawhUAWiV1fnOSw3PUa1Le7DG6uMYV-dYdggT~V-YtGNxKgK95yA8bi3ICXeToq~ot5tM4SNlJfB3~xhixMfPy5u9Z-xAIddFNuRSQvcnarjQfNBzasIiDc-J5cLClBFsPaIb7cBNSVV4Bi15xloMgGO6Lb4DwKZydhPCRBRUvDNbtQ3Yuq6-RRx7VAkhACcKH5-Bm2LgDLLt2n-Krmuo4JiPsYCgiodid0uVUNYqf9BQl37Zlq7nzeKG9AiQPfsA__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 67
+      },
       {
         "type": "movie",
         "title": "Lucy",
