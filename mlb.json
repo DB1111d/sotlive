@@ -1,18 +1,9 @@
 {
-  "updated": "2026-04-03 20:18 EDT",
+  "updated": "2026-04-03 22:14 EDT",
   "days": {
     "20260403": {
       "date": "Friday, April 3",
       "games": [
-        {
-          "group": "Regular Season",
-          "time": "4:10 PM",
-          "match": "Cleveland Guardians vs Chicago Cubs",
-          "source": "ESPN Unlmtd",
-          "kick_utc": "2026-04-03T20:10Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chc.png"
-        },
         {
           "group": "Regular Season",
           "time": "Postponed",
