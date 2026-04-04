@@ -1,7 +1,73 @@
 {
-  "updated": "2026-04-04T13:04:56Z",
+  "updated": "2026-04-04T13:19:59Z",
   "date": "2026-04-04",
   "matches": [
+    {
+      "home": "Hansa Rostock",
+      "away": "Viktoria Köln",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sc82ic",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sc82ic",
+          "scorer": "Leonhard Münst",
+          "minute": 29,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/SFJzo1EiWechP3c/watch",
+          "videoEmbed": "https://streamain.com/SFJzo1EiWechP3c/watch",
+          "directMp4": null,
+          "postedAt": 1775305979000
+        },
+        {
+          "postId": "1sc8bnd",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sc8bnd",
+          "scorer": "David Otto",
+          "minute": 40,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/gM1wMGxKNznom49/watch",
+          "videoEmbed": "https://streamain.com/gM1wMGxKNznom49/watch",
+          "directMp4": null,
+          "postedAt": 1775306723000
+        },
+        {
+          "postId": "1sc8zao",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sc8zao",
+          "scorer": "Yannick Tonye",
+          "minute": 54,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://streamain.com/en/3qzWgGmFdDZVAvi/watch",
+          "videoEmbed": "https://streamain.com/en/3qzWgGmFdDZVAvi/watch",
+          "directMp4": null,
+          "postedAt": 1775308522000
+        }
+      ]
+    },
+    {
+      "home": "Kasimpasa",
+      "away": "Kayseri",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sc8wix",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sc8wix",
+          "scorer": "A. Gianniotis",
+          "minute": null,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/inss1zmsa6tg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/inss1zmsa6tg1/CMAF_480.mp4?source=fallback",
+          "postedAt": 1775308310000
+        }
+      ]
+    },
     {
       "home": "Manchester City",
       "away": "Liverpool",
@@ -78,39 +144,6 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1775307402000
-        }
-      ]
-    },
-    {
-      "home": "Hansa Rostock",
-      "away": "Viktoria Köln",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1sc82ic",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sc82ic",
-          "scorer": "Leonhard Münst",
-          "minute": 29,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamain.com/SFJzo1EiWechP3c/watch",
-          "videoEmbed": "https://streamain.com/SFJzo1EiWechP3c/watch",
-          "directMp4": null,
-          "postedAt": 1775305979000
-        },
-        {
-          "postId": "1sc8bnd",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sc8bnd",
-          "scorer": "David Otto",
-          "minute": 40,
-          "homeScore": 0,
-          "awayScore": 2,
-          "videoUrl": "https://streamain.com/gM1wMGxKNznom49/watch",
-          "videoEmbed": "https://streamain.com/gM1wMGxKNznom49/watch",
-          "directMp4": null,
-          "postedAt": 1775306723000
         }
       ]
     },
