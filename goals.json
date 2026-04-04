@@ -1,7 +1,159 @@
 {
-  "updated": "2026-04-04T19:52:43Z",
+  "updated": "2026-04-04T20:27:43Z",
   "date": "2026-04-04",
   "matches": [
+    {
+      "home": "Southampton",
+      "away": "Arsenal",
+      "league": "English FA Cup",
+      "goals": [
+        {
+          "postId": "1scihxi",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scihxi",
+          "scorer": "Ross Stewart",
+          "minute": 35,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/1650f014",
+          "videoEmbed": "https://streamff.link/v/1650f014",
+          "directMp4": null,
+          "postedAt": 1775331404000
+        },
+        {
+          "postId": "1scjq1t",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scjq1t",
+          "scorer": "Viktor Gyökeres",
+          "minute": 68,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/9dacb983",
+          "videoEmbed": "https://streamff.link/v/9dacb983",
+          "directMp4": null,
+          "postedAt": 1775334339000
+        }
+      ]
+    },
+    {
+      "home": "Lille",
+      "away": "Lens",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1scj3ol",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scj3ol",
+          "scorer": "Hakon Arnar Haraldsson",
+          "minute": 44,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/BhJKrzSzj2eGCPg/watch",
+          "videoEmbed": "https://streamain.com/BhJKrzSzj2eGCPg/watch",
+          "directMp4": null,
+          "postedAt": 1775332837000
+        },
+        {
+          "postId": "1scjowl",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scjowl",
+          "scorer": "Felix Correia",
+          "minute": 49,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/lEIvEKmBicH09PH/watch",
+          "videoEmbed": "https://streamain.com/lEIvEKmBicH09PH/watch",
+          "directMp4": null,
+          "postedAt": 1775334261000
+        }
+      ]
+    },
+    {
+      "home": "Lazio",
+      "away": "Parma",
+      "league": "Serie A",
+      "goals": [
+        {
+          "postId": "1schovz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1schovz",
+          "scorer": "Enrico Delprato",
+          "minute": 15,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/r9e96i8x18tg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775329467000
+        },
+        {
+          "postId": "1scjnqd",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scjnqd",
+          "scorer": "Tijjani Noslin",
+          "minute": 77,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/cbe787jvf8tg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775334181000
+        }
+      ]
+    },
+    {
+      "home": "FC Porto",
+      "away": "Famalicao",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1scjadp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scjadp",
+          "scorer": "Alberto Costa",
+          "minute": 35,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/pi0EB4oKUJam6FO/watch",
+          "videoEmbed": "https://streamain.com/pi0EB4oKUJam6FO/watch",
+          "directMp4": null,
+          "postedAt": 1775333281000
+        }
+      ]
+    },
+    {
+      "home": "Nancy",
+      "away": "Saint-Étienne",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1scigf1",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scigf1",
+          "scorer": "Zakaria Fdaouch",
+          "minute": 6,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/M6q1nLJfIBJgjiJ/watch",
+          "videoEmbed": "https://streamain.com/M6q1nLJfIBJgjiJ/watch",
+          "directMp4": null,
+          "postedAt": 1775331301000
+        },
+        {
+          "postId": "1scj034",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scj034",
+          "scorer": "Lucas Stassin",
+          "minute": 90,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/21yTw0enWRR0bto/watch",
+          "videoEmbed": "https://streamain.com/21yTw0enWRR0bto/watch",
+          "directMp4": null,
+          "postedAt": 1775332605000
+        }
+      ]
+    },
     {
       "home": "Ajax",
       "away": "Twente",
@@ -89,46 +241,6 @@
       ]
     },
     {
-      "home": "Southampton",
-      "away": "Arsenal",
-      "league": "English FA Cup",
-      "goals": [
-        {
-          "postId": "1scihxi",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1scihxi",
-          "scorer": "Ross Stewart",
-          "minute": 35,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamff.link/v/1650f014",
-          "videoEmbed": "https://streamff.link/v/1650f014",
-          "directMp4": null,
-          "postedAt": 1775331404000
-        }
-      ]
-    },
-    {
-      "home": "Nancy",
-      "away": "Saint-Étienne",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1scigf1",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1scigf1",
-          "scorer": "Zakaria Fdaouch",
-          "minute": 6,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamain.com/M6q1nLJfIBJgjiJ/watch",
-          "videoEmbed": "https://streamain.com/M6q1nLJfIBJgjiJ/watch",
-          "directMp4": null,
-          "postedAt": 1775331301000
-        }
-      ]
-    },
-    {
       "home": "FC Basel",
       "away": "Young Boys",
       "league": "Rest of World",
@@ -145,26 +257,6 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1775330571000
-        }
-      ]
-    },
-    {
-      "home": "Lazio",
-      "away": "Parma",
-      "league": "Serie A",
-      "goals": [
-        {
-          "postId": "1schovz",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1schovz",
-          "scorer": "Enrico Delprato",
-          "minute": 15,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/r9e96i8x18tg1",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1775329467000
         }
       ]
     },
