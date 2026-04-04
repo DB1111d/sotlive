@@ -243,57 +243,7 @@
     }
   }
 
-  /* ── League filter bar ── */
-  #league-filter-bar {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 8px;
-    margin-bottom: 24px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 560px;
-  }
 
-  .league-btn {
-    font-family: var(--mono);
-    font-size: 0.68rem;
-    font-weight: 500;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    padding: 5px 12px;
-    border-radius: 4px;
-    border: 1px solid var(--border);
-    background: var(--surface);
-    color: var(--muted);
-    cursor: pointer;
-    transition: background 0.15s, color 0.15s, border-color 0.15s;
-    flex: 0 1 calc(33.333% - 8px);
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
-  @media (min-width: 601px) {
-    #league-filter-bar {
-      max-width: 900px;
-    }
-    .league-btn {
-      flex: 0 1 calc(20% - 8px);
-    }
-  }
-
-  .league-btn:hover {
-    border-color: var(--accent);
-    color: var(--accent);
-  }
-
-  .league-btn.active {
-    background: var(--accent);
-    border-color: var(--accent);
-    color: #fff;
-  }
 
   /* ── Empty / loading states ── */
   #feed-container {
@@ -413,7 +363,6 @@
   <div style="text-align:center;margin-bottom:16px;margin-top:10px;">
     <span style="font-family:var(--display);font-size:3.2rem;letter-spacing:0.05em;color:var(--accent);"><span style="font-size:3.8rem;">🥅</span> GOAL<span style="color:var(--text);">FEED</span></span>
   </div>
-  <div id="league-filter-bar" style="display:none;"></div>
   <div id="feed-container">
     <div class="state-msg">
       <div class="big">⚽</div>
@@ -426,15 +375,8 @@
 // ── Config ──────────────────────────────────────────────
 const POLL_MS = 15 * 60 * 1000;
 
-const LEAGUE_ORDER = [
-  'UEFA Champions League', 'UEFA Europa League', 'UEFA Europa Conference League',
-  'Premier League', 'MLS', 'CONCACAF Champions Cup', 'US Open Cup',
-  'English FA Cup', 'EFL Championship', 'Serie A', 'German Bundesliga', 'La Liga',
-];
-
 // ── State ───────────────────────────────────────────────
 let matches = {};
-let activeLeague = '';
 
 // ── Fetch goals.json ────────────────────────────────────
 async function fetchGoals() {
@@ -443,7 +385,6 @@ async function fetchGoals() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
 
-    // Reset and reload all matches fresh each poll
     matches = {};
     for (const match of data.matches || []) {
       const key = matchKey(match.home, match.away);
@@ -465,50 +406,6 @@ function matchKey(home, away) {
   return [home.toLowerCase(), away.toLowerCase()].sort().join(' vs ');
 }
 
-// ── League filter bar ─────────────────────────────────────
-function buildLeagueFilter(matchList) {
-  const bar = document.getElementById('league-filter-bar');
-  if (!bar) return;
-
-  // Leagues present in data, ordered by LEAGUE_ORDER, Other always last
-  const present = new Set(matchList.map(m => m.league).filter(Boolean));
-  const ordered = LEAGUE_ORDER.filter(l => present.has(l));
-  const hasOther = matchList.some(m => !m.league || !LEAGUE_ORDER.includes(m.league) || m.league === 'Other');
-
-  // No buttons at all — hide bar
-  if (ordered.length === 0 && !hasOther) {
-    bar.style.display = 'none';
-    activeLeague = '';
-    return;
-  }
-
-  // Auto-select on first load — first known league, or Other if none
-  if (!activeLeague || (!ordered.includes(activeLeague) && !(hasOther && activeLeague === 'Other'))) {
-    activeLeague = ordered.length > 0 ? ordered[0] : 'Other';
-  }
-
-  bar.style.display = 'flex';
-  bar.innerHTML = '';
-
-  // Known leagues in LEAGUE_ORDER order
-  ordered.forEach(league => {
-    const btn = document.createElement('button');
-    btn.className = 'league-btn' + (activeLeague === league ? ' active' : '');
-    btn.textContent = league;
-    btn.onclick = () => { activeLeague = league; render(); };
-    bar.appendChild(btn);
-  });
-
-  // Other always last
-  if (hasOther) {
-    const otherBtn = document.createElement('button');
-    otherBtn.className = 'league-btn' + (activeLeague === 'Other' ? ' active' : '');
-    otherBtn.textContent = 'Other';
-    otherBtn.onclick = () => { activeLeague = 'Other'; render(); };
-    bar.appendChild(otherBtn);
-  }
-}
-
 // ── Render ────────────────────────────────────────────────
 function render() {
   const container = document.getElementById('feed-container');
@@ -520,40 +417,23 @@ function render() {
         <div class="big">⚽</div>
         <div>No goals found yet — check back soon</div>
       </div>`;
-    const bar = document.getElementById('league-filter-bar');
-    if (bar) bar.style.display = 'none';
     return;
   }
 
+  // Sort by most recently active match first
   matchList.sort((a, b) => {
     const latestA = Math.max(...a.goals.map(g => g.postedAt));
     const latestB = Math.max(...b.goals.map(g => g.postedAt));
     return latestB - latestA;
   });
 
-  buildLeagueFilter(matchList);
-
-  // Apply league filter — "Other" shows anything not in LEAGUE_ORDER
-  const filtered = activeLeague === 'Other'
-    ? matchList.filter(m => !m.league || !LEAGUE_ORDER.includes(m.league) || m.league === 'Other')
-    : matchList.filter(m => m.league === activeLeague);
-
-  if (filtered.length === 0) {
-    container.innerHTML = `
-      <div class="state-msg">
-        <div class="big">⚽</div>
-        <div>No goals for this league yet</div>
-      </div>`;
-    return;
-  }
-
-  // Always collapsed by default — user must click to expand
+  // Preserve expanded state across re-renders
   const expandedKeys = new Set();
   document.querySelectorAll('.match-card:not(.collapsed)').forEach(card => {
     expandedKeys.add(card.dataset.key);
   });
 
-  container.innerHTML = filtered.map((match) => {
+  container.innerHTML = matchList.map((match) => {
     const key = matchKey(match.home, match.away);
     return renderMatch(match, key, !expandedKeys.has(key));
   }).join('');
