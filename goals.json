@@ -1,27 +1,7 @@
 {
-  "updated": "2026-04-04T15:56:39Z",
+  "updated": "2026-04-04T16:38:02Z",
   "date": "2026-04-04",
   "matches": [
-    {
-      "home": "Górnik Zabrze",
-      "away": "Cracovia",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1sccl5x",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sccl5x",
-          "scorer": "Yvan Ikia Dimi",
-          "minute": 11,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/9ywsiuvd27tg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/9ywsiuvd27tg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1775317566000
-        }
-      ]
-    },
     {
       "home": "PSV Eindhoven",
       "away": "Utrecht",
@@ -78,6 +58,105 @@
           "videoEmbed": "https://streamain.com/rA3Ld2ikgzoQCFd/watch",
           "directMp4": null,
           "postedAt": 1775317449000
+        },
+        {
+          "postId": "1scdke3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scdke3",
+          "scorer": "Couhaib Driouech",
+          "minute": 90,
+          "homeScore": 4,
+          "awayScore": 3,
+          "videoUrl": "https://streamain.com/en/8K3AkgRykTIkGum/watch",
+          "videoEmbed": "https://streamain.com/en/8K3AkgRykTIkGum/watch",
+          "directMp4": null,
+          "postedAt": 1775319883000
+        }
+      ]
+    },
+    {
+      "home": "Chelsea",
+      "away": "Port Vale",
+      "league": "English FA Cup",
+      "goals": [
+        {
+          "postId": "1scdep3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scdep3",
+          "scorer": "Jorrel Hato 2‎'‎",
+          "minute": null,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/3dad6317",
+          "videoEmbed": "https://streamff.link/v/3dad6317",
+          "directMp4": null,
+          "postedAt": 1775319506000
+        }
+      ]
+    },
+    {
+      "home": "Mallorca",
+      "away": "Real Madrid",
+      "league": "La Liga",
+      "goals": [
+        {
+          "postId": "1scbesc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scbesc",
+          "scorer": "Manu Morlanes",
+          "minute": 42,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/669ad509",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775314755000
+        },
+        {
+          "postId": "1scd35p",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scd35p",
+          "scorer": "Eder Militao",
+          "minute": 88,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/guzyOMsv3Cmnvqr/watch",
+          "videoEmbed": "https://streamain.com/guzyOMsv3Cmnvqr/watch",
+          "directMp4": null,
+          "postedAt": 1775318751000
+        },
+        {
+          "postId": "1scd4jd",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scd4jd",
+          "scorer": "V. Muriqi",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/891c915a",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775318842000
+        }
+      ]
+    },
+    {
+      "home": "Górnik Zabrze",
+      "away": "Cracovia",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sccl5x",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sccl5x",
+          "scorer": "Yvan Ikia Dimi",
+          "minute": 11,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/9ywsiuvd27tg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/9ywsiuvd27tg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775317566000
         }
       ]
     },
@@ -445,26 +524,6 @@
           "videoEmbed": "https://streamain.com/JAatVMtYAIob1re/watch",
           "directMp4": null,
           "postedAt": 1775315383000
-        }
-      ]
-    },
-    {
-      "home": "Mallorca",
-      "away": "Real Madrid",
-      "league": "La Liga",
-      "goals": [
-        {
-          "postId": "1scbesc",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1scbesc",
-          "scorer": "Manu Morlanes",
-          "minute": 42,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamin.link/v/669ad509",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1775314755000
         }
       ]
     },
