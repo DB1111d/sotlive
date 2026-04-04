@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-04 08:58 EDT",
+  "updated": "2026-04-04 12:37 EDT",
   "days": {
     "20260404": {
       "date": "Saturday, April 4",
@@ -141,15 +141,6 @@
         },
         {
           "league": "English FA Cup",
-          "time": "7:45 AM",
-          "match": "Manchester City vs Liverpool",
-          "source": "ESPN \u00b7 ESPN+",
-          "kick_utc": "2026-04-04T11:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
-        },
-        {
-          "league": "English FA Cup",
           "time": "12:15 PM",
           "match": "Chelsea vs Port Vale",
           "source": "ESPN+",
@@ -258,15 +249,6 @@
         },
         {
           "league": "La Liga",
-          "time": "8:00 AM",
-          "match": "Real Sociedad vs Levante",
-          "source": "ESPN+",
-          "kick_utc": "2026-04-04T12:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png"
-        },
-        {
-          "league": "La Liga",
           "time": "10:15 AM",
           "match": "Mallorca vs Real Madrid",
           "source": "ESPN+",
@@ -304,15 +286,6 @@
         {
           "league": "Dutch Eredivisie",
           "time": "12:45 PM",
-          "match": "AZ Alkmaar vs Fortuna Sittard",
-          "source": "ESPN+",
-          "kick_utc": "2026-04-04T16:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/143.png"
-        },
-        {
-          "league": "Dutch Eredivisie",
-          "time": "12:45 PM",
           "match": "Telstar vs FC Groningen",
           "source": "ESPN+",
           "kick_utc": "2026-04-04T16:45Z",
@@ -336,6 +309,13 @@
           "kick_utc": "2026-04-04T19:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2566.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/147.png"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "Delayed",
+          "match": "AZ Alkmaar vs Fortuna Sittard",
+          "source": "",
+          "kick_utc": "2026-04-04T17:00Z"
         },
         {
           "league": "USL Championship",
