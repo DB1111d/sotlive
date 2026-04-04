@@ -1,7 +1,53 @@
 {
-  "updated": "2026-04-04T16:38:02Z",
+  "updated": "2026-04-04T17:06:17Z",
   "date": "2026-04-04",
   "matches": [
+    {
+      "home": "Chelsea",
+      "away": "Port Vale",
+      "league": "English FA Cup",
+      "goals": [
+        {
+          "postId": "1scdep3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scdep3",
+          "scorer": "Jorrel Hato 2‎'‎",
+          "minute": null,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/3dad6317",
+          "videoEmbed": "https://streamff.link/v/3dad6317",
+          "directMp4": null,
+          "postedAt": 1775319506000
+        },
+        {
+          "postId": "1sce0ah",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sce0ah",
+          "scorer": "Joao Pedro 25‎'‎",
+          "minute": null,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/9d0e65f0",
+          "videoEmbed": "https://streamff.link/v/9d0e65f0",
+          "directMp4": null,
+          "postedAt": 1775320911000
+        },
+        {
+          "postId": "1sceh6k",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sceh6k",
+          "scorer": "Cole Palmer",
+          "minute": 43,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/41866ce2",
+          "videoEmbed": "https://streamff.link/v/41866ce2",
+          "directMp4": null,
+          "postedAt": 1775322005000
+        }
+      ]
+    },
     {
       "home": "PSV Eindhoven",
       "away": "Utrecht",
@@ -71,26 +117,6 @@
           "videoEmbed": "https://streamain.com/en/8K3AkgRykTIkGum/watch",
           "directMp4": null,
           "postedAt": 1775319883000
-        }
-      ]
-    },
-    {
-      "home": "Chelsea",
-      "away": "Port Vale",
-      "league": "English FA Cup",
-      "goals": [
-        {
-          "postId": "1scdep3",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1scdep3",
-          "scorer": "Jorrel Hato 2‎'‎",
-          "minute": null,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamff.link/v/3dad6317",
-          "videoEmbed": "https://streamff.link/v/3dad6317",
-          "directMp4": null,
-          "postedAt": 1775319506000
         }
       ]
     },
