@@ -1,7 +1,99 @@
 {
-  "updated": "2026-04-04T22:00:06Z",
+  "updated": "2026-04-04T22:40:23Z",
   "date": "2026-04-04",
   "matches": [
+    {
+      "home": "Real Salt Lake",
+      "away": "Sporting Kansas City",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1scl24j",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scl24j",
+          "scorer": "Diego Luna",
+          "minute": 4,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/YNo5i2mDamwVOzd/watch",
+          "videoEmbed": "https://streamain.com/YNo5i2mDamwVOzd/watch",
+          "directMp4": null,
+          "postedAt": 1775337547000
+        },
+        {
+          "postId": "1scm9lp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scm9lp",
+          "scorer": "Sergi Solans",
+          "minute": 55,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/GLBaOwk69MpS7gC/watch",
+          "videoEmbed": "https://streamain.com/GLBaOwk69MpS7gC/watch",
+          "directMp4": null,
+          "postedAt": 1775340579000
+        },
+        {
+          "postId": "1scmagz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scmagz",
+          "scorer": "Dejan Joveljic",
+          "minute": 60,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/3UBo0VRy6X517kS/watch",
+          "videoEmbed": "https://streamain.com/3UBo0VRy6X517kS/watch",
+          "directMp4": null,
+          "postedAt": 1775340643000
+        },
+        {
+          "postId": "1scmtda",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scmtda",
+          "scorer": "Zavier Gozo",
+          "minute": 82,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/OeAhBQGsR7uhgJ9/watch",
+          "videoEmbed": "https://streamain.com/OeAhBQGsR7uhgJ9/watch",
+          "directMp4": null,
+          "postedAt": 1775342016000
+        }
+      ]
+    },
+    {
+      "home": "New England Revolution",
+      "away": "CF Montreal",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1scl389",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scl389",
+          "scorer": "Luca Langoni",
+          "minute": 6,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/aNqsXi6EjrK0DQ7/watch",
+          "videoEmbed": "https://streamain.com/aNqsXi6EjrK0DQ7/watch",
+          "directMp4": null,
+          "postedAt": 1775337622000
+        },
+        {
+          "postId": "1scmrx9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scmrx9",
+          "scorer": "Mamadou Fofana",
+          "minute": 78,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/I6Z3vDYRJxbZXU1/watch",
+          "videoEmbed": "https://streamain.com/I6Z3vDYRJxbZXU1/watch",
+          "directMp4": null,
+          "postedAt": 1775341909000
+        }
+      ]
+    },
     {
       "home": "FC Porto",
       "away": "Famalicao",
@@ -58,46 +150,6 @@
           "videoEmbed": "https://streamain.com/ep0l2dcvrCvXO58/watch",
           "directMp4": null,
           "postedAt": 1775338628000
-        }
-      ]
-    },
-    {
-      "home": "New England Revolution",
-      "away": "CF Montreal",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1scl389",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1scl389",
-          "scorer": "Luca Langoni",
-          "minute": 6,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamain.com/aNqsXi6EjrK0DQ7/watch",
-          "videoEmbed": "https://streamain.com/aNqsXi6EjrK0DQ7/watch",
-          "directMp4": null,
-          "postedAt": 1775337622000
-        }
-      ]
-    },
-    {
-      "home": "Real Salt Lake",
-      "away": "Sporting Kansas City",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1scl24j",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1scl24j",
-          "scorer": "Diego Luna",
-          "minute": 4,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamain.com/YNo5i2mDamwVOzd/watch",
-          "videoEmbed": "https://streamain.com/YNo5i2mDamwVOzd/watch",
-          "directMp4": null,
-          "postedAt": 1775337547000
         }
       ]
     },
