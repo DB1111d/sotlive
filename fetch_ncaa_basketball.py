@@ -87,9 +87,10 @@ NCAA_TOURNEY_SEASON_TYPES = {
 }
 
 # Keywords that identify specifically the NCAA Tournament (not NIT)
+# "College Basketball Crown" is ESPN's name for the tournament starting 2026
 NCAA_TOURNEY_KEYWORDS = {
     "ncaa tournament", "ncaa men's basketball tournament",
-    "march madness",
+    "march madness", "college basketball crown",
 }
 
 # Keywords that identify the NIT
@@ -298,15 +299,9 @@ def parse_tourney_round(event: dict, competition: dict = None) -> str | None:
         (n.get("headline", "") for n in notes if isinstance(n, dict)),
         ""
     ).lower()
-    # Check NIT first
-    if any(kw in headline for kw in NIT_KEYWORDS):
+    if "nit" in headline:
         return "NIT"
-    # Only tag as NCAA Tournament when positively confirmed
-    if any(kw in headline for kw in NCAA_TOURNEY_KEYWORDS):
-        return "NCAA Tournament"
-    # Notes missing or ambiguous — both NIT and NCAA Tournament have season.type=3,
-    # so we cannot safely default to either. Return None to avoid mis-tagging.
-    return None
+    return "NCAA Tournament"
 
 
 def fetch_ncaa_day(date_str: str) -> list:
