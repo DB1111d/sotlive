@@ -1,24 +1,57 @@
 {
-  "updated": "2026-04-04T17:47:59Z",
+  "updated": "2026-04-04T18:38:07Z",
   "date": "2026-04-04",
   "matches": [
     {
-      "home": "Hellas Verona",
-      "away": "Fiorentina",
-      "league": "Serie A",
+      "home": "FC Lugano",
+      "away": "FC Thun",
+      "league": "Rest of World",
       "goals": [
         {
-          "postId": "1scfmyf",
+          "postId": "1scgz51",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1scfmyf",
-          "scorer": "Nicolò Fagioli",
-          "minute": 82,
+          "permalink": "https://redd.it/1scgz51",
+          "scorer": "Daniel Dos Santos",
+          "minute": 59,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/odpfggnuw7tg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/odpfggnuw7tg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1775327774000
+        }
+      ]
+    },
+    {
+      "home": "VfB Stuttgart",
+      "away": "Borussia Dortmund",
+      "league": "German Bundesliga",
+      "goals": [
+        {
+          "postId": "1scgrfq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scgrfq",
+          "scorer": "Karim Adeyemi",
+          "minute": 90,
           "homeScore": 0,
           "awayScore": 1,
-          "videoUrl": "https://v.redd.it/67ufg9znn7tg1",
+          "videoUrl": "https://streamin.link/v/7fdabeac",
           "videoEmbed": null,
           "directMp4": null,
-          "postedAt": 1775324674000
+          "postedAt": 1775327262000
+        },
+        {
+          "postId": "1scgryi",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scgryi",
+          "scorer": "Julian Brandt",
+          "minute": 90,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/fe31dbd4",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775327299000
         }
       ]
     },
@@ -91,6 +124,72 @@
           "videoEmbed": "https://streamff.link/v/5ec6fdd0",
           "directMp4": null,
           "postedAt": 1775324610000
+        },
+        {
+          "postId": "1scfz1v",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scfz1v",
+          "scorer": "Estêvão",
+          "minute": 83,
+          "homeScore": 6,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/e317b469",
+          "videoEmbed": "https://streamff.link/v/e317b469",
+          "directMp4": null,
+          "postedAt": 1775325460000
+        },
+        {
+          "postId": "1scg72u",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scg72u",
+          "scorer": "Alejandro Garnacho (penalty) 90‎+‎2‎'‎",
+          "minute": null,
+          "homeScore": 7,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/964b0283",
+          "videoEmbed": "https://streamff.link/v/964b0283",
+          "directMp4": null,
+          "postedAt": 1775325950000
+        }
+      ]
+    },
+    {
+      "home": "Strasbourg",
+      "away": "OGC Nice",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1scfvqt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scfvqt",
+          "scorer": "Samir El Mourabet",
+          "minute": 42,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/61b2af2e",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775325243000
+        }
+      ]
+    },
+    {
+      "home": "Hellas Verona",
+      "away": "Fiorentina",
+      "league": "Serie A",
+      "goals": [
+        {
+          "postId": "1scfmyf",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scfmyf",
+          "scorer": "Nicolò Fagioli",
+          "minute": 82,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/67ufg9znn7tg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775324674000
         }
       ]
     },
