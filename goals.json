@@ -1,7 +1,152 @@
 {
-  "updated": "2026-04-04T20:27:43Z",
+  "updated": "2026-04-04T20:58:06Z",
   "date": "2026-04-04",
   "matches": [
+    {
+      "home": "Atlético Madrid",
+      "away": "Barcelona",
+      "league": "La Liga",
+      "goals": [
+        {
+          "postId": "1scikm1",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scikm1",
+          "scorer": "Giuliano Simeone",
+          "minute": 39,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/783b3077",
+          "videoEmbed": "https://streamff.link/v/783b3077",
+          "directMp4": null,
+          "postedAt": 1775331580000
+        },
+        {
+          "postId": "1scink8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scink8",
+          "scorer": "Marcus Rashford",
+          "minute": 42,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/7f82f255",
+          "videoEmbed": "https://streamff.link/v/7f82f255",
+          "directMp4": null,
+          "postedAt": 1775331769000
+        },
+        {
+          "postId": "1sckgcp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sckgcp",
+          "scorer": "Robert Lewandowski",
+          "minute": 87,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamff.link/v/bab789f3",
+          "videoEmbed": "https://streamff.link/v/bab789f3",
+          "directMp4": null,
+          "postedAt": 1775336092000
+        }
+      ]
+    },
+    {
+      "home": "FC Porto",
+      "away": "Famalicao",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1scjadp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scjadp",
+          "scorer": "Alberto Costa",
+          "minute": 35,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/pi0EB4oKUJam6FO/watch",
+          "videoEmbed": "https://streamain.com/pi0EB4oKUJam6FO/watch",
+          "directMp4": null,
+          "postedAt": 1775333281000
+        },
+        {
+          "postId": "1sckcyo",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sckcyo",
+          "scorer": "Sorriso",
+          "minute": 54,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/qTBMvINettBeAAh/watch",
+          "videoEmbed": "https://streamain.com/qTBMvINettBeAAh/watch",
+          "directMp4": null,
+          "postedAt": 1775335863000
+        }
+      ]
+    },
+    {
+      "home": "Ajax",
+      "away": "Twente",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1scibrr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scibrr",
+          "scorer": "Ramiz Zerrouki",
+          "minute": 18,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/eBRiTX3Glvf0R3p/watch",
+          "videoEmbed": "https://streamain.com/eBRiTX3Glvf0R3p/watch",
+          "directMp4": null,
+          "postedAt": 1775330989000
+        },
+        {
+          "postId": "1scinlv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scinlv",
+          "scorer": "Wout Weghorst",
+          "minute": 32,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/o3qEu1nui1o6Z1R/watch",
+          "videoEmbed": "https://streamain.com/o3qEu1nui1o6Z1R/watch",
+          "directMp4": null,
+          "postedAt": 1775331772000
+        },
+        {
+          "postId": "1sckaii",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sckaii",
+          "scorer": "Bart van Rooij",
+          "minute": 79,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/xjCBowV6AcgHQHj/watch",
+          "videoEmbed": "https://streamain.com/xjCBowV6AcgHQHj/watch",
+          "directMp4": null,
+          "postedAt": 1775335694000
+        }
+      ]
+    },
+    {
+      "home": "Colorado Rapids 2 - Toronto FC",
+      "away": "’",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sck9d2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sck9d2",
+          "scorer": "Own Goal",
+          "minute": 77,
+          "homeScore": 2,
+          "awayScore": 77,
+          "videoUrl": "https://v.redd.it/l9q5jsm6k8tg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/l9q5jsm6k8tg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775335618000
+        }
+      ]
+    },
     {
       "home": "Southampton",
       "away": "Arsenal",
@@ -32,6 +177,72 @@
           "videoEmbed": "https://streamff.link/v/9dacb983",
           "directMp4": null,
           "postedAt": 1775334339000
+        },
+        {
+          "postId": "1sck5v2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sck5v2",
+          "scorer": "Shea Charles",
+          "minute": 85,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/467103a0",
+          "videoEmbed": "https://streamff.link/v/467103a0",
+          "directMp4": null,
+          "postedAt": 1775335385000
+        }
+      ]
+    },
+    {
+      "home": "Dynamo Dresden",
+      "away": "Hertha BSC",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1scjy0x",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scjy0x",
+          "scorer": "Marten Winkler",
+          "minute": 80,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/en/8cAVZRhu1s9nDeX/watch",
+          "videoEmbed": "https://streamain.com/en/8cAVZRhu1s9nDeX/watch",
+          "directMp4": null,
+          "postedAt": 1775334870000
+        }
+      ]
+    },
+    {
+      "home": "Excelsior",
+      "away": "NEC Nijmegen",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1scimt6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scimt6",
+          "scorer": "Bryan Linssen",
+          "minute": 30,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/bayUwFlpKZyltji/watch",
+          "videoEmbed": "https://streamain.com/bayUwFlpKZyltji/watch",
+          "directMp4": null,
+          "postedAt": 1775331720000
+        },
+        {
+          "postId": "1scjx9l",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scjx9l",
+          "scorer": "Basar Onal",
+          "minute": 71,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/8oqzOo0XkJCNyFQ/watch",
+          "videoEmbed": "https://streamain.com/8oqzOo0XkJCNyFQ/watch",
+          "directMp4": null,
+          "postedAt": 1775334820000
         }
       ]
     },
@@ -65,6 +276,19 @@
           "videoEmbed": "https://streamain.com/lEIvEKmBicH09PH/watch",
           "directMp4": null,
           "postedAt": 1775334261000
+        },
+        {
+          "postId": "1scjujk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scjujk",
+          "scorer": "Matias Fernandez-Pardo penalty",
+          "minute": 58,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/UV1CR6B86s0cnSa/watch",
+          "videoEmbed": "https://streamain.com/UV1CR6B86s0cnSa/watch",
+          "directMp4": null,
+          "postedAt": 1775334642000
         }
       ]
     },
@@ -102,26 +326,6 @@
       ]
     },
     {
-      "home": "FC Porto",
-      "away": "Famalicao",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1scjadp",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1scjadp",
-          "scorer": "Alberto Costa",
-          "minute": 35,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamain.com/pi0EB4oKUJam6FO/watch",
-          "videoEmbed": "https://streamain.com/pi0EB4oKUJam6FO/watch",
-          "directMp4": null,
-          "postedAt": 1775333281000
-        }
-      ]
-    },
-    {
       "home": "Nancy",
       "away": "Saint-Étienne",
       "league": "Rest of World",
@@ -151,92 +355,6 @@
           "videoEmbed": "https://streamain.com/21yTw0enWRR0bto/watch",
           "directMp4": null,
           "postedAt": 1775332605000
-        }
-      ]
-    },
-    {
-      "home": "Ajax",
-      "away": "Twente",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1scibrr",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1scibrr",
-          "scorer": "Ramiz Zerrouki",
-          "minute": 18,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamain.com/eBRiTX3Glvf0R3p/watch",
-          "videoEmbed": "https://streamain.com/eBRiTX3Glvf0R3p/watch",
-          "directMp4": null,
-          "postedAt": 1775330989000
-        },
-        {
-          "postId": "1scinlv",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1scinlv",
-          "scorer": "Wout Weghorst",
-          "minute": 32,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://streamain.com/o3qEu1nui1o6Z1R/watch",
-          "videoEmbed": "https://streamain.com/o3qEu1nui1o6Z1R/watch",
-          "directMp4": null,
-          "postedAt": 1775331772000
-        }
-      ]
-    },
-    {
-      "home": "Atlético Madrid",
-      "away": "Barcelona",
-      "league": "La Liga",
-      "goals": [
-        {
-          "postId": "1scikm1",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1scikm1",
-          "scorer": "Giuliano Simeone",
-          "minute": 39,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamff.link/v/783b3077",
-          "videoEmbed": "https://streamff.link/v/783b3077",
-          "directMp4": null,
-          "postedAt": 1775331580000
-        },
-        {
-          "postId": "1scink8",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1scink8",
-          "scorer": "Marcus Rashford",
-          "minute": 42,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://streamff.link/v/7f82f255",
-          "videoEmbed": "https://streamff.link/v/7f82f255",
-          "directMp4": null,
-          "postedAt": 1775331769000
-        }
-      ]
-    },
-    {
-      "home": "Excelsior",
-      "away": "NEC Nijmegen",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1scimt6",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1scimt6",
-          "scorer": "Bryan Linssen",
-          "minute": 30,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamain.com/bayUwFlpKZyltji/watch",
-          "videoEmbed": "https://streamain.com/bayUwFlpKZyltji/watch",
-          "directMp4": null,
-          "postedAt": 1775331720000
         }
       ]
     },
@@ -304,6 +422,39 @@
       "home": "VfB Stuttgart",
       "away": "Borussia Dortmund",
       "league": "German Bundesliga",
+      "goals": [
+        {
+          "postId": "1scgrfq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scgrfq",
+          "scorer": "Karim Adeyemi",
+          "minute": 90,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/7fdabeac",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775327262000
+        },
+        {
+          "postId": "1scgryi",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scgryi",
+          "scorer": "Julian Brandt",
+          "minute": 90,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/fe31dbd4",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775327299000
+        }
+      ]
+    },
+    {
+      "home": "Stuttgart",
+      "away": "Borussia Dortmund",
+      "league": "Rest of World",
       "goals": [
         {
           "postId": "1scgrfq",
@@ -455,6 +606,26 @@
       "home": "Hellas Verona",
       "away": "Fiorentina",
       "league": "Serie A",
+      "goals": [
+        {
+          "postId": "1scfmyf",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scfmyf",
+          "scorer": "Nicolò Fagioli",
+          "minute": 82,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/67ufg9znn7tg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775324674000
+        }
+      ]
+    },
+    {
+      "home": "Verona",
+      "away": "Fiorentina",
+      "league": "Rest of World",
       "goals": [
         {
           "postId": "1scfmyf",
