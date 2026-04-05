@@ -1,7 +1,93 @@
 {
-  "updated": "2026-04-05T17:28:13Z",
+  "updated": "2026-04-05T17:58:52Z",
   "date": "2026-04-05",
   "matches": [
+    {
+      "home": "Sparta Praha",
+      "away": "Karviná",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sd97hx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sd97hx",
+          "scorer": "Oliver Sonne",
+          "minute": 43,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/n57puabanetg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775409304000
+        },
+        {
+          "postId": "1sdabjr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sdabjr",
+          "scorer": "John Mercado",
+          "minute": 67,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/dgk9up60vetg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/dgk9up60vetg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775411886000
+        }
+      ]
+    },
+    {
+      "home": "Alemannia Aachen",
+      "away": "Wehen Wiesbaden",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sda3nc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sda3nc",
+          "scorer": "Mika Schroers",
+          "minute": 11,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/93cc2a55",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775411369000
+        },
+        {
+          "postId": "1sda68b",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sda68b",
+          "scorer": "Mika Schroers",
+          "minute": 18,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/6cf4eeb6",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775411536000
+        }
+      ]
+    },
+    {
+      "home": "Pisa",
+      "away": "Torino",
+      "league": "Serie A",
+      "goals": [
+        {
+          "postId": "1sd9xpz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sd9xpz",
+          "scorer": "Che Adams",
+          "minute": 80,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/p9fqk97csetg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775410989000
+        }
+      ]
+    },
     {
       "home": "West Ham United",
       "away": "Leeds United",
@@ -45,26 +131,32 @@
           "videoEmbed": "https://streamff.link/v/4213bc0d",
           "directMp4": null,
           "postedAt": 1775409883000
-        }
-      ]
-    },
-    {
-      "home": "Sparta Praha",
-      "away": "Karviná",
-      "league": "Rest of World",
-      "goals": [
+        },
         {
-          "postId": "1sd97hx",
+          "postId": "1sd9jqf",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1sd97hx",
-          "scorer": "Oliver Sonne",
-          "minute": 43,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/n57puabanetg1",
-          "videoEmbed": null,
+          "permalink": "https://redd.it/1sd9jqf",
+          "scorer": "Axel Disasi 90‎+‎6‎'‎",
+          "minute": null,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamff.link/v/8013c193",
+          "videoEmbed": "https://streamff.link/v/8013c193",
           "directMp4": null,
-          "postedAt": 1775409304000
+          "postedAt": 1775410092000
+        },
+        {
+          "postId": "1sd9x9o",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sd9x9o",
+          "scorer": "Valentín Castellanos",
+          "minute": 91,
+          "homeScore": 3,
+          "awayScore": 2,
+          "videoUrl": "https://streamff.link/v/325ffca8",
+          "videoEmbed": "https://streamff.link/v/325ffca8",
+          "directMp4": null,
+          "postedAt": 1775410960000
         }
       ]
     },
