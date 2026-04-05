@@ -1,7 +1,211 @@
 {
-  "updated": "2026-04-04T23:46:14Z",
-  "date": "2026-04-04",
+  "updated": "2026-04-05T02:10:45Z",
+  "date": "2026-04-05",
   "matches": [
+    {
+      "home": "LAFC",
+      "away": "Cruz Azul",
+      "league": "CONCACAF Champions Cup",
+      "goals": [
+        {
+          "postId": "1scrbpy",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scrbpy",
+          "scorer": "Own Goal",
+          "minute": 7,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/05fcfeac",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775354570000
+        },
+        {
+          "postId": "1scrgev",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scrgev",
+          "scorer": "Denis Bouanga",
+          "minute": 20,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/f9374e68",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775354955000
+        },
+        {
+          "postId": "1scrgqz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scrgqz",
+          "scorer": "Denis Bouanga",
+          "minute": 24,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/8a5f06de",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775354985000
+        },
+        {
+          "postId": "1scrh1h",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scrh1h",
+          "scorer": "Denis Bouanga Hattrick",
+          "minute": 28,
+          "homeScore": 4,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/c5bb6150",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775355009000
+        }
+      ]
+    },
+    {
+      "home": "Inter Miami",
+      "away": "Austin FC",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1scozc9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scozc9",
+          "scorer": "Guilherme Biro",
+          "minute": 6,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/19ba10c5",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775347824000
+        },
+        {
+          "postId": "1scp27q",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scp27q",
+          "scorer": "Lionel Messi header",
+          "minute": 10,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/e37c4365",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775348049000
+        },
+        {
+          "postId": "1scqguz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scqguz",
+          "scorer": "Jayden Nelson",
+          "minute": 53,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/4d85f180",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775352076000
+        },
+        {
+          "postId": "1scr2er",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scr2er",
+          "scorer": "Luis Suarez",
+          "minute": 81,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/ae379661",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775353806000
+        }
+      ]
+    },
+    {
+      "home": "Vasco",
+      "away": "Botafogo",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1scqvgr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scqvgr",
+          "scorer": "David",
+          "minute": 61,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/um00euhm0atg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775353243000
+        },
+        {
+          "postId": "1scqwln",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scqwln",
+          "scorer": "Lucas Villalba",
+          "minute": 66,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/l1shebpw0atg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775353336000
+        },
+        {
+          "postId": "1scr10b",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scr10b",
+          "scorer": "Matheus Martins",
+          "minute": 79,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/z9vuhiux1atg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775353693000
+        }
+      ]
+    },
+    {
+      "home": "Atlanta Utd",
+      "away": "Columbus Crew",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1scqeaz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scqeaz",
+          "scorer": "Wessam Abou Ali Great-goal",
+          "minute": 53,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/f35a5ea7",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775351875000
+        }
+      ]
+    },
+    {
+      "home": "Red Bull New York",
+      "away": "FC Cincinnati",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1scpur6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1scpur6",
+          "scorer": "Emil Forsberg freekick",
+          "minute": 48,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/qutghpqvr9tg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/qutghpqvr9tg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775350326000
+        }
+      ]
+    },
     {
       "home": "New England Revolution",
       "away": "CF Montreal",
