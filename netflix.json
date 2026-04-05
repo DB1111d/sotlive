@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-04 04:30 EDT",
-  "week_label": "March 20 \u2013 April 4, 2026",
+  "updated": "2026-04-05 04:33 EDT",
+  "week_label": "March 21 \u2013 April 5, 2026",
   "groups": {
     "TV Series": [
       {
@@ -287,6 +287,21 @@
       }
     ],
     "Movies": [
+      {
+        "type": "movie",
+        "title": "Jumanji: Welcome to the Jungle",
+        "overview": "When four high-school kids discover an old video game console with a game they\u2019ve never heard of \u2013 Jumanji \u2013 they are immediately drawn into the game\u2019s jungle setting, literally becoming the avatars they chose: gamer Spencer becomes a brawny adventurer (Dwayne Johnson)); football jock Fridge loses (in his words) \u201cthe top two feet of his body\u201d and becomes an Einstein (Kevin Hart)); popular girl Bethany becomes a middle-aged male professor (Jack Black)); and wallflower Martha becomes a badass warrior (Karen Gillan). What they discover is that you don\u2019t just play Jumanji \u2013 you must survive it. To beat the game and return to the real world, they\u2019ll have to go on the most dangerous adventure of their lives, discover what Alan Parrish left 20 years ago, and change the way they think about themselves \u2013 or they\u2019ll be stuck in the game forever\u2026",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy"
+        ],
+        "added_date": "April 5",
+        "added_ts": 1775373960,
+        "link": "https://www.netflix.com/title/80192646/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/941/poster/vertical/en/240.jpg?Expires=1800272670&Signature=C70cw4cf3o90A6K8MnTIod9oNgY0qPK-~5sVn-Bkj3biwKv1U8DSL~sGeYMY2HPeCyYcdiynja5~gqggsDMDEwggsaM9eFY1KkaYE0SitOC-660IXw2L4AXhkazhu73srJoopesbZZzwIAB4lcI0AEeJSkRiOCeeEwMfZl4HYwvPW1m9OhynGlzX1yB8IWw70ih3VhWzXf831bovluGHRO91Lott-jYMzXMI8H4Cw9ZuJ9RnZS9icM8lmAXwfSf4CopgGpG3cKTZzzw3X6KcNyDS0yhKIyoDh5E~pD968oHxPcw4aVhkj2s~U-zVopEPLkqXEXjYiigBmsULGBnaDw__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 68
+      },
       {
         "type": "movie",
         "title": "Merrily We Roll Along",
@@ -1264,50 +1279,6 @@
         "link": "https://www.netflix.com/title/82712118/",
         "thumbnail": "https://cdn.movieofthenight.com/show/23193663/poster/vertical/en/240.jpg?Expires=1798773082&Signature=AEPQMGdugds8k73pRV3hwG0AnS7K6iikn3jDa-N4s-RmJosVyoO6dzgijcbHFK2hs4MIDhCW12ilfX8xiwXB5yLZmG-rnPMInF3qHbT98HUSURDrBCPe0382~LMGfrvtEhXSTumA8gVoJvHgglrqfoZAtrAeqp-pYSkDhwF8uS2w5RFsg6mgjOe9IK7L11J4GeaHlrih2AazTkx~cNfbRwzKg~kDwwADN~kefJzCtAUWxmSyaRQWRW~ckEW405N7cXYjKE4iQY48G-kCD-b8gWm~QGrN8BOwY4H8HWCAi6cCtRDEb64F4RrDH4LFrGBymYJmTbNcy8kjErN8mjZufQ__&Key-Pair-Id=KK4HN3OO4AT5R",
         "rating": 69
-      },
-      {
-        "type": "movie",
-        "title": "Spiral: From the Book of Saw",
-        "overview": "A criminal mastermind unleashes a twisted form of justice in this terrifying new chapter from the book of SAW, starring Chris Rock, Max Minghella, and Samuel L. Jackson.",
-        "genres": [
-          "Horror",
-          "Mystery",
-          "Thriller"
-        ],
-        "added_date": "March 20",
-        "added_ts": 1774019426,
-        "link": "https://www.netflix.com/title/81252467/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/7489/poster/vertical/en/240.jpg?Expires=1805542223&Signature=eEPuTQzU0qFNJZvtm6Pc~H2YuMZXKMAkgVhQXrkoHcKpzfrGIoheznAfct4iZnU5jMpNu2beKTmzc0n9JnbNbpBolgBnaR~uzOmw0F3QHD1Sy-8MTPC2s9Jm~WZcsn4VvgpnXNdjZF6NNEc9f28R0b0WttXEv-BnUwN2Yuh6PPKGvxxbWoDbNAzDWA1UsNIVgIAsAv6ae0ZUEyTICSn~Xksx7yfLpfkOIns6icWaVnD-ewTg7xlR~TBztHf6jMxNW7mmMCxMQWCDCPKruagkHeyfZ5e6RHYilbQADD~bBRSk~heD0waVbuXfOzFC2PaLMg3JKYErO1SCSvL~MJieaw__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 53
-      },
-      {
-        "type": "movie",
-        "title": "The Rise of the Red Hot Chili Peppers: Our Brother, Hillel",
-        "overview": "",
-        "genres": [
-          "Documentary",
-          "History",
-          "Music"
-        ],
-        "added_date": "March 20",
-        "added_ts": 1774009312,
-        "link": "https://www.netflix.com/title/82087556/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/24865198/poster/vertical/en/240.jpg?Expires=1805369754&Signature=ODH8k30UfrizqebIGB5azmoO3NpsG9uM1w0rsrbkvSADU-Q6Kr7nvbzH3LmPPygR5bygRSlCMO4owv~KIWC-zngSyjUlL71ANkntLRkSOzY~jQB3vyC1ACsvjV6XoL1aZg8R1Vv7msC~dbiXmq-mMxzX-JYck~FXpaSCSOSMwSh9gvtXzlgWqUUtlPEyJeli4lh-7-Wf9hE3GXPESsVdMCjllsndCwx3D4WE96xSYI1vcdcGCiQ-lIlBhu7myWXwTdgHGDbPQoXp1MZSsY6W2lrXERxMbBnrlS~0wuc84dFhdtBE5-jbBQWpuOj1l0PT1VX3TBj~ut8OyzEmkHWbFw__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 0
-      },
-      {
-        "type": "movie",
-        "title": "The Creator",
-        "overview": "As a future war between the human race and artificial intelligence rages on, ex-special forces agent Joshua is recruited to hunt down and kill the Creator, the elusive architect of advanced AI. The Creator has developed a mysterious weapon that has the power to end the war and all of mankind. As Joshua and his team of elite operatives venture into enemy-occupied territory, they soon discover the w",
-        "genres": [
-          "Action",
-          "Adventure"
-        ],
-        "added_date": "March 20",
-        "added_ts": 1774009306,
-        "link": "https://www.netflix.com/title/81674655/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/5038708/poster/vertical/en/240.jpg?Expires=1798320220&Signature=PsdTDHrcTFZ8LSkFvIlBTzMGJsBO3-NkI2JxHOH5mzl4Ds51DFFa7SC8X54K8tpf2q9QmybgMc01MMDOqLLwuq8mqiuFJOrUAoodl1NAr0UByF4gbtW8de~yP9wT5zbs9SjsqPUszUXVU~bpyo2UnspRj0fjOcy7iU4EMfAzWWTP0K9wgRsIg8dcx3Niz6MhTDf2CQ2URHQMgkgxjdHlcx9b2VxnEcYJ-UEjyDKdKMHAp4Ah0FO3HSF3o7mhMghVQHLnc0ugghLyA35SbQFJQeqjJbZ5K7uFZZNQWcu~D~ECI2H0vIM3jKYs5Qr9yoGmKhCAFqRikoiVRxBexns-Wg__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 67
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-04 04:30 EDT",
-  "week_label": "March 5 \u2013 April 4, 2026",
+  "updated": "2026-04-05 04:33 EDT",
+  "week_label": "March 6 \u2013 April 5, 2026",
   "groups": {
     "TV Series": [
       {
@@ -76,11 +76,27 @@
         "added_ts": 1773201600,
         "link": "https://press.amazonmgmstudios.com/us/en/original-series/scarpetta/1",
         "thumbnail": "https://image.tmdb.org/t/p/w342/zvkcHCJUPqv7R9ukaiDNkm75jy.jpg",
-        "rating": 65,
+        "rating": 64,
         "season": ""
       }
     ],
     "Movies": [
+      {
+        "type": "movie",
+        "title": "Nippon Sangoku : The Three Nations of the Crimson Sun",
+        "overview": "A revolution sparked by nuclear war, natural disaster, and misrule leads to the collapse of Japanese society. The country splits into three nations vying for hegemony, and the Sangoku era begins. Aoteru Misumi, a former agricultural officer, vows to reunify Japan. He rises through the ranks with only his knowledge and eloquence. Witness the legend of the man later hailed as a genius strategist.",
+        "genres": [
+          "Animation",
+          "Drama",
+          "War & Politics"
+        ],
+        "added_date": "April 5",
+        "added_ts": 1775361600,
+        "link": "https://press.amazonmgmstudios.com/us/en/original-series/nippon-sangoku/1",
+        "thumbnail": "https://image.tmdb.org/t/p/w342/qHQnNHefuHI8N4lCoRQQP6pckMr.jpg",
+        "rating": null,
+        "season": ""
+      },
       {
         "type": "movie",
         "title": "Rory McIlroy: The Masters Wait",
@@ -116,10 +132,10 @@
         "title": "Pretty Lethal",
         "overview": "A troupe of ballerinas find themselves fighting for survival as they attempt to escape from a remote inn after their bus breaks down on the way to a dance competition.",
         "genres": [
-          "Action",
+          "Horror",
           "Thriller",
           "Music",
-          "Horror"
+          "Action"
         ],
         "added_date": "March 25",
         "added_ts": 1774411200,
