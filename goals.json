@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-05T16:53:12Z",
+  "updated": "2026-04-05T17:28:13Z",
   "date": "2026-04-05",
   "matches": [
     {
@@ -19,6 +19,111 @@
           "videoEmbed": "https://streamff.link/v/1b0ef38c",
           "directMp4": null,
           "postedAt": 1775404700000
+        },
+        {
+          "postId": "1sd9025",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sd9025",
+          "scorer": "Dominic Calvert-Lewin (penalty) 75‎'‎",
+          "minute": null,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamff.link/v/18635c38",
+          "videoEmbed": "https://streamff.link/v/18635c38",
+          "directMp4": null,
+          "postedAt": 1775408815000
+        },
+        {
+          "postId": "1sd9gh2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sd9gh2",
+          "scorer": "Mateus Fernandes 90‎+‎3‎'‎",
+          "minute": null,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamff.link/v/4213bc0d",
+          "videoEmbed": "https://streamff.link/v/4213bc0d",
+          "directMp4": null,
+          "postedAt": 1775409883000
+        }
+      ]
+    },
+    {
+      "home": "Sparta Praha",
+      "away": "Karviná",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sd97hx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sd97hx",
+          "scorer": "Oliver Sonne",
+          "minute": 43,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/n57puabanetg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775409304000
+        }
+      ]
+    },
+    {
+      "home": "Eintracht Frankfurt",
+      "away": "FC Cologne",
+      "league": "German Bundesliga",
+      "goals": [
+        {
+          "postId": "1sd8qzg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sd8qzg",
+          "scorer": "Jonathan Burkardt",
+          "minute": 66,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/1d599305",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775408230000
+        },
+        {
+          "postId": "1sd8ta7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sd8ta7",
+          "scorer": "Arnaud Kalimuendo",
+          "minute": 69,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/edd6615e",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775408388000
+        },
+        {
+          "postId": "1sd8uw8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sd8uw8",
+          "scorer": "Jakub Kaminski",
+          "minute": 70,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/1095d0e0",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775408483000
+        },
+        {
+          "postId": "1sd96im",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sd96im",
+          "scorer": "Alessio Castro-Montes",
+          "minute": 83,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/9ea17e25",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775409241000
         }
       ]
     },
