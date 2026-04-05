@@ -1,7 +1,47 @@
 {
-  "updated": "2026-04-05T11:45:07Z",
+  "updated": "2026-04-05T12:01:52Z",
   "date": "2026-04-05",
   "matches": [
+    {
+      "home": "Hannover",
+      "away": "Elversberg",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sd1o4j",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sd1o4j",
+          "scorer": "Own Goal",
+          "minute": 20,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/5fe35258",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775389975000
+        }
+      ]
+    },
+    {
+      "home": "Eintracht Braunschweig",
+      "away": "Nürnberg",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sd1mbb",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sd1mbb",
+          "scorer": "Rabby Nzingoula",
+          "minute": 17,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/a375abc9",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775389810000
+        }
+      ]
+    },
     {
       "home": "Strasbourg",
       "away": "Nice",
