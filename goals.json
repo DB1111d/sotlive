@@ -1,37 +1,44 @@
 {
-  "updated": "2026-04-05T17:58:52Z",
+  "updated": "2026-04-05T18:56:35Z",
   "date": "2026-04-05",
   "matches": [
     {
-      "home": "Sparta Praha",
-      "away": "Karviná",
+      "home": "Internazionale",
+      "away": "AS Roma",
+      "league": "Serie A",
+      "goals": [
+        {
+          "postId": "1sdboox",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sdboox",
+          "scorer": "Lautaro Martínez",
+          "minute": 2,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/20d2a51b",
+          "videoEmbed": "https://streamff.link/v/20d2a51b",
+          "directMp4": null,
+          "postedAt": 1775415056000
+        }
+      ]
+    },
+    {
+      "home": "Fenerbahçe",
+      "away": "Beşiktaş",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1sd97hx",
+          "postId": "1sdaybr",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1sd97hx",
-          "scorer": "Oliver Sonne",
-          "minute": 43,
+          "permalink": "https://redd.it/1sdaybr",
+          "scorer": "Own Goal",
+          "minute": 57,
           "homeScore": 1,
           "awayScore": 0,
-          "videoUrl": "https://v.redd.it/n57puabanetg1",
-          "videoEmbed": null,
+          "videoUrl": "https://streamff.link/v/373f8a3b",
+          "videoEmbed": "https://streamff.link/v/373f8a3b",
           "directMp4": null,
-          "postedAt": 1775409304000
-        },
-        {
-          "postId": "1sdabjr",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sdabjr",
-          "scorer": "John Mercado",
-          "minute": 67,
-          "homeScore": 2,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/dgk9up60vetg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/dgk9up60vetg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1775411886000
+          "postedAt": 1775413338000
         }
       ]
     },
@@ -65,6 +72,52 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1775411536000
+        },
+        {
+          "postId": "1sdawht",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sdawht",
+          "scorer": "Mika Schroers",
+          "minute": 41,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/2311fada",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775413221000
+        }
+      ]
+    },
+    {
+      "home": "Sparta Praha",
+      "away": "Karviná",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sd97hx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sd97hx",
+          "scorer": "Oliver Sonne",
+          "minute": 43,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/n57puabanetg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775409304000
+        },
+        {
+          "postId": "1sdabjr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sdabjr",
+          "scorer": "John Mercado",
+          "minute": 67,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/dgk9up60vetg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/dgk9up60vetg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775411886000
         }
       ]
     },
