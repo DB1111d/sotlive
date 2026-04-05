@@ -1,7 +1,27 @@
 {
-  "updated": "2026-04-05T18:56:35Z",
+  "updated": "2026-04-05T19:34:20Z",
   "date": "2026-04-05",
   "matches": [
+    {
+      "home": "Alavés",
+      "away": "Osasuna",
+      "league": "La Liga",
+      "goals": [
+        {
+          "postId": "1sdcqg7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sdcqg7",
+          "scorer": "Valentin Rosier",
+          "minute": 4,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/t56IjaEV37JE7cm/watch",
+          "videoEmbed": "https://streamain.com/t56IjaEV37JE7cm/watch",
+          "directMp4": null,
+          "postedAt": 1775417506000
+        }
+      ]
+    },
     {
       "home": "Internazionale",
       "away": "AS Roma",
@@ -19,6 +39,19 @@
           "videoEmbed": "https://streamff.link/v/20d2a51b",
           "directMp4": null,
           "postedAt": 1775415056000
+        },
+        {
+          "postId": "1sdcmp3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sdcmp3",
+          "scorer": "Gianluca Mancini",
+          "minute": 40,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/e088f58a",
+          "videoEmbed": "https://streamff.link/v/e088f58a",
+          "directMp4": null,
+          "postedAt": 1775417267000
         }
       ]
     },
