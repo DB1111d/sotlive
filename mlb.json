@@ -1,29 +1,6 @@
 {
-  "updated": "2026-04-04 22:36 EDT",
+  "updated": "2026-04-05 01:45 EDT",
   "days": {
-    "20260404": {
-      "date": "Saturday, April 4",
-      "games": [
-        {
-          "group": "Regular Season",
-          "time": "Postponed",
-          "match": "Cleveland Guardians vs Chicago Cubs",
-          "source": "",
-          "kick_utc": "2026-04-04T23:15Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chc.png"
-        },
-        {
-          "group": "Regular Season",
-          "time": "7:15 PM",
-          "match": "Arizona Diamondbacks vs Atlanta Braves",
-          "source": "FOX",
-          "kick_utc": "2026-04-04T23:15Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ari.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/atl.png"
-        }
-      ]
-    },
     "20260405": {
       "date": "Sunday, April 5",
       "games": [
@@ -113,6 +90,29 @@
           "kick_utc": "2026-04-08T23:40Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/min.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/det.png"
+        }
+      ]
+    },
+    "20260409": {
+      "date": "Thursday, April 9",
+      "games": [
+        {
+          "group": "Regular Season",
+          "time": "1:40 PM",
+          "match": "Minnesota Twins vs Detroit Tigers",
+          "source": "ESPN Unlmtd",
+          "kick_utc": "2026-04-09T17:40Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/min.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/det.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:10 PM",
+          "match": "New York Mets vs Arizona Diamondbacks",
+          "source": "MLB Network",
+          "kick_utc": "2026-04-09T23:10Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nym.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ari.png"
         }
       ]
     }
