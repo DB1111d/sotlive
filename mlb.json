@@ -1,32 +1,14 @@
 {
-  "updated": "2026-04-04 16:33 EDT",
+  "updated": "2026-04-04 22:36 EDT",
   "days": {
     "20260404": {
       "date": "Saturday, April 4",
       "games": [
         {
           "group": "Regular Season",
-          "time": "1:10 PM",
-          "match": "Detroit Tigers vs St. Louis Cardinals",
-          "source": "ESPN Unlmtd",
-          "kick_utc": "2026-04-04T17:10Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/det.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/stl.png"
-        },
-        {
-          "group": "Regular Season",
-          "time": "2:10 PM",
-          "match": "Kansas City Royals vs Milwaukee Brewers",
-          "source": "FS1",
-          "kick_utc": "2026-04-04T18:10Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png"
-        },
-        {
-          "group": "Regular Season",
-          "time": "7:15 PM",
+          "time": "Postponed",
           "match": "Cleveland Guardians vs Chicago Cubs",
-          "source": "FOX",
+          "source": "",
           "kick_utc": "2026-04-04T23:15Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chc.png"
