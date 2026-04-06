@@ -1,7 +1,27 @@
 {
-  "updated": "2026-04-06T14:30:45Z",
+  "updated": "2026-04-06T15:31:32Z",
   "date": "2026-04-06",
   "matches": [
+    {
+      "home": "Watford",
+      "away": "Charlton",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1se21vo",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1se21vo",
+          "scorer": "Matty Godden",
+          "minute": 62,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/zzq6BC4ThHV9QFV/watch",
+          "videoEmbed": "https://streamain.com/zzq6BC4ThHV9QFV/watch",
+          "directMp4": null,
+          "postedAt": 1775489230000
+        }
+      ]
+    },
     {
       "home": "AB",
       "away": "07 Vestur",
@@ -19,6 +39,52 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/ynxljadoxktg1/CMAF_1080.mp4?source=fallback",
           "postedAt": 1775485419000
+        },
+        {
+          "postId": "1se1op2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1se1op2",
+          "scorer": "Sjúrdur Henriksen",
+          "minute": 54,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/i6pg1vkn6ltg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/i6pg1vkn6ltg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1775488432000
+        }
+      ]
+    },
+    {
+      "home": "Ipswich Town",
+      "away": "Birmingham",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1se0o4i",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1se0o4i",
+          "scorer": "Carlos Vicente",
+          "minute": 32,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/mMOPOSthByMoquw/watch",
+          "videoEmbed": "https://streamain.com/mMOPOSthByMoquw/watch",
+          "directMp4": null,
+          "postedAt": 1775486198000
+        },
+        {
+          "postId": "1se0ypp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1se0ypp",
+          "scorer": "Kasey McAteer",
+          "minute": 45,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/AszkGvvh6OToSLG/watch",
+          "videoEmbed": "https://streamain.com/AszkGvvh6OToSLG/watch",
+          "directMp4": null,
+          "postedAt": 1775486863000
         }
       ]
     },
@@ -52,6 +118,39 @@
           "videoEmbed": "https://streamain.com/en/0V4dRM7coOhjKOH/watch",
           "directMp4": null,
           "postedAt": 1775485293000
+        },
+        {
+          "postId": "1se0n6n",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1se0n6n",
+          "scorer": "Giacomo Raspadori",
+          "minute": 73,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://streamain.com/en/0eqhEwi5nEV6U1x/watch",
+          "videoEmbed": "https://streamain.com/en/0eqhEwi5nEV6U1x/watch",
+          "directMp4": null,
+          "postedAt": 1775486137000
+        }
+      ]
+    },
+    {
+      "home": "Bristol City",
+      "away": "Sheffield Utd",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1se0j4h",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1se0j4h",
+          "scorer": "Mark Sykes",
+          "minute": 23,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/uWayylq9PMUfzyF/watch",
+          "videoEmbed": "https://streamain.com/uWayylq9PMUfzyF/watch",
+          "directMp4": null,
+          "postedAt": 1775485879000
         }
       ]
     },
