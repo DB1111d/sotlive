@@ -1,24 +1,130 @@
 {
-  "updated": "2026-04-06T13:27:12Z",
+  "updated": "2026-04-06T14:30:45Z",
   "date": "2026-04-06",
   "matches": [
     {
-      "home": "Millwall",
-      "away": "Norwich City",
+      "home": "AB",
+      "away": "07 Vestur",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1sdysn2",
+          "postId": "1se0bri",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1sdysn2",
-          "scorer": "Pelle Mattsson",
-          "minute": 62,
+          "permalink": "https://redd.it/1se0bri",
+          "scorer": "Ragnar Skála",
+          "minute": 22,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/ynxljadoxktg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ynxljadoxktg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1775485419000
+        }
+      ]
+    },
+    {
+      "home": "Lecce",
+      "away": "Atalanta",
+      "league": "Serie A",
+      "goals": [
+        {
+          "postId": "1sdz1g1",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sdz1g1",
+          "scorer": "Giorgio Scalvini",
+          "minute": 29,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/yJLbFi4XOjXkoTJ/watch",
+          "videoEmbed": "https://streamain.com/yJLbFi4XOjXkoTJ/watch",
+          "directMp4": null,
+          "postedAt": 1775482482000
+        },
+        {
+          "postId": "1se09se",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1se09se",
+          "scorer": "Nikola Krstovic",
+          "minute": 59,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/en/0V4dRM7coOhjKOH/watch",
+          "videoEmbed": "https://streamain.com/en/0V4dRM7coOhjKOH/watch",
+          "directMp4": null,
+          "postedAt": 1775485293000
+        }
+      ]
+    },
+    {
+      "home": "Klaksvík",
+      "away": "Víkingur Gøta",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1se05q0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1se05q0",
+          "scorer": "Patrik Johannesen",
+          "minute": 13,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/h3eh1whkwktg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/h3eh1whkwktg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1775485039000
+        }
+      ]
+    },
+    {
+      "home": "Sheffield Wednesday",
+      "away": "Leicester City",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sdztkp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sdztkp",
+          "scorer": "Jerry Yates",
+          "minute": 2,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/QlUwaIPzbW00RKR/watch",
+          "videoEmbed": "https://streamain.com/QlUwaIPzbW00RKR/watch",
+          "directMp4": null,
+          "postedAt": 1775484328000
+        }
+      ]
+    },
+    {
+      "home": "Radomiak Radom",
+      "away": "Motor Lublin",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sdz0rz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sdz0rz",
+          "scorer": "Karol Czubak",
+          "minute": 21,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/i1abhpgsoktg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/i1abhpgsoktg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775482439000
+        },
+        {
+          "postId": "1sdzmhf",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sdzmhf",
+          "scorer": "Rafał Wolski",
+          "minute": 47,
           "homeScore": 1,
           "awayScore": 1,
-          "videoUrl": "https://streamain.com/a5yD9OuyzHbaEwJ/watch",
-          "videoEmbed": "https://streamain.com/a5yD9OuyzHbaEwJ/watch",
-          "directMp4": null,
-          "postedAt": 1775481882000
+          "videoUrl": "https://v.redd.it/k3b6ihf4tktg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/k3b6ihf4tktg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775483889000
         }
       ]
     },
@@ -52,6 +158,72 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1775481848000
+        },
+        {
+          "postId": "1sdz3gn",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sdz3gn",
+          "scorer": "Oscar Schwartau",
+          "minute": 76,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/cvwzxkcbpktg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/cvwzxkcbpktg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775482620000
+        }
+      ]
+    },
+    {
+      "home": "Millwall",
+      "away": "Norwich City",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sdysn2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sdysn2",
+          "scorer": "Pelle Mattsson",
+          "minute": 62,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/a5yD9OuyzHbaEwJ/watch",
+          "videoEmbed": "https://streamain.com/a5yD9OuyzHbaEwJ/watch",
+          "directMp4": null,
+          "postedAt": 1775481882000
+        },
+        {
+          "postId": "1sdz393",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sdz393",
+          "scorer": "Oscar Schwartau",
+          "minute": 76,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/Jmo2puJPEvr95r6/watch",
+          "videoEmbed": "https://streamain.com/Jmo2puJPEvr95r6/watch",
+          "directMp4": null,
+          "postedAt": 1775482606000
+        }
+      ]
+    },
+    {
+      "home": "Club Brugge",
+      "away": "Anderlecht",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sdyz8k",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sdyz8k",
+          "scorer": "Mihajlo Cvetkovic",
+          "minute": 90,
+          "homeScore": 3,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/GbebuatNRtjArFF/watch",
+          "videoEmbed": "https://streamain.com/GbebuatNRtjArFF/watch",
+          "directMp4": null,
+          "postedAt": 1775482335000
         }
       ]
     },
