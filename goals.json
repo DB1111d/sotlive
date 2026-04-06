@@ -1,7 +1,112 @@
 {
-  "updated": "2026-04-06T20:55:32Z",
+  "updated": "2026-04-06T21:36:30Z",
   "date": "2026-04-06",
   "matches": [
+    {
+      "home": "Casa Pia",
+      "away": "Benfica",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sec2d4",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sec2d4",
+          "scorer": "Richard Rios",
+          "minute": 68,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/tVoEoqjTRaQjQz3/watch",
+          "videoEmbed": "https://streamain.com/tVoEoqjTRaQjQz3/watch",
+          "directMp4": null,
+          "postedAt": 1775510616000
+        },
+        {
+          "postId": "1sec8u0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sec8u0",
+          "scorer": "Rafael Brito",
+          "minute": 78,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/MtiAY48qOeWhOLK/watch",
+          "videoEmbed": "https://streamain.com/MtiAY48qOeWhOLK/watch",
+          "directMp4": null,
+          "postedAt": 1775511021000
+        }
+      ]
+    },
+    {
+      "home": "Lechia Gdańsk",
+      "away": "Korona Kielce",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1se7h1e",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1se7h1e",
+          "scorer": "Aleksandar Ćirković",
+          "minute": 19,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/l21oeo277mtg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/l21oeo277mtg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775500750000
+        },
+        {
+          "postId": "1sec4db",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sec4db",
+          "scorer": "Rifet Kapić",
+          "minute": 59,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/dw2dijjhzmtg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/dw2dijjhzmtg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775510749000
+        },
+        {
+          "postId": "1sec4fv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sec4fv",
+          "scorer": "Dawid Błanik penalty",
+          "minute": 78,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/h9qtr98vzmtg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/h9qtr98vzmtg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775510754000
+        },
+        {
+          "postId": "1sec4j0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sec4j0",
+          "scorer": "Pau Resta",
+          "minute": 82,
+          "homeScore": 3,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/7r05k3aj0ntg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/7r05k3aj0ntg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775510760000
+        },
+        {
+          "postId": "1sec4ns",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sec4ns",
+          "scorer": "Dawid Kurminowski",
+          "minute": 90,
+          "homeScore": 4,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/kglxqs3y0ntg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/kglxqs3y0ntg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775510769000
+        }
+      ]
+    },
     {
       "home": "Le Mans",
       "away": "Pau FC",
@@ -170,26 +275,6 @@
           "videoEmbed": "https://streamain.com/mPRNRjLKFvkp6XC/watch",
           "directMp4": null,
           "postedAt": 1775503137000
-        }
-      ]
-    },
-    {
-      "home": "Lechia Gdańsk",
-      "away": "Korona Kielce",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1se7h1e",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1se7h1e",
-          "scorer": "Aleksandar Ćirković",
-          "minute": 19,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/l21oeo277mtg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/l21oeo277mtg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1775500750000
         }
       ]
     },
