@@ -1,7 +1,153 @@
 {
-  "updated": "2026-04-06T15:31:32Z",
+  "updated": "2026-04-06T16:29:02Z",
   "date": "2026-04-06",
   "matches": [
+    {
+      "home": "Juventus",
+      "away": "Genoa",
+      "league": "Serie A",
+      "goals": [
+        {
+          "postId": "1se3lr4",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1se3lr4",
+          "scorer": "Bremer",
+          "minute": 4,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/rwcq5tjviltg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/rwcq5tjviltg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1775492559000
+        },
+        {
+          "postId": "1se3lwh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1se3lwh",
+          "scorer": "Weston McKennie",
+          "minute": 17,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/7xz2hw7tiltg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/7xz2hw7tiltg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1775492568000
+        }
+      ]
+    },
+    {
+      "home": "Pogoń Szczecin",
+      "away": "Legia Warszawa",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1se34i4",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1se34i4",
+          "scorer": "Mileta Rajović",
+          "minute": 32,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/w8wfzkotfltg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/w8wfzkotfltg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775491528000
+        }
+      ]
+    },
+    {
+      "home": "Derby County",
+      "away": "Stoke City",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1se2rf0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1se2rf0",
+          "scorer": "Carlton Morris",
+          "minute": 89,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/IYf4gL63w6qlu1A/watch",
+          "videoEmbed": "https://streamain.com/IYf4gL63w6qlu1A/watch",
+          "directMp4": null,
+          "postedAt": 1775490755000
+        }
+      ]
+    },
+    {
+      "home": "Sheffield Wednesday",
+      "away": "Leicester City",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sdztkp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sdztkp",
+          "scorer": "Jerry Yates",
+          "minute": 2,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/QlUwaIPzbW00RKR/watch",
+          "videoEmbed": "https://streamain.com/QlUwaIPzbW00RKR/watch",
+          "directMp4": null,
+          "postedAt": 1775484328000
+        },
+        {
+          "postId": "1se2l1w",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1se2l1w",
+          "scorer": "Jordan Ayew",
+          "minute": 84,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/en/4VMFuXq6rubCjOR/watch",
+          "videoEmbed": "https://streamain.com/en/4VMFuXq6rubCjOR/watch",
+          "directMp4": null,
+          "postedAt": 1775490379000
+        }
+      ]
+    },
+    {
+      "home": "Preston NE",
+      "away": "QPR",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1se2i2a",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1se2i2a",
+          "scorer": "Own Goal",
+          "minute": 82,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/kw10YwnG0sAgIgb/watch",
+          "videoEmbed": "https://streamain.com/kw10YwnG0sAgIgb/watch",
+          "directMp4": null,
+          "postedAt": 1775490196000
+        }
+      ]
+    },
+    {
+      "home": "Watford",
+      "away": "Charlton Athletic",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1se2bco",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1se2bco",
+          "scorer": "Nestory Irankunda",
+          "minute": 75,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/jfKXB2e6jjeQmvT/watch",
+          "videoEmbed": "https://streamain.com/jfKXB2e6jjeQmvT/watch",
+          "directMp4": null,
+          "postedAt": 1775489802000
+        }
+      ]
+    },
     {
       "home": "Watford",
       "away": "Charlton",
@@ -171,26 +317,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/h3eh1whkwktg1/CMAF_1080.mp4?source=fallback",
           "postedAt": 1775485039000
-        }
-      ]
-    },
-    {
-      "home": "Sheffield Wednesday",
-      "away": "Leicester City",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1sdztkp",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sdztkp",
-          "scorer": "Jerry Yates",
-          "minute": 2,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamain.com/QlUwaIPzbW00RKR/watch",
-          "videoEmbed": "https://streamain.com/QlUwaIPzbW00RKR/watch",
-          "directMp4": null,
-          "postedAt": 1775484328000
         }
       ]
     },
