@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-05 04:33 EDT",
-  "week_label": "March 6 \u2013 April 5, 2026",
+  "updated": "2026-04-06 05:00 EDT",
+  "week_label": "March 7 \u2013 April 6, 2026",
   "groups": {
     "TV Series": [
       {
@@ -132,10 +132,10 @@
         "title": "Pretty Lethal",
         "overview": "A troupe of ballerinas find themselves fighting for survival as they attempt to escape from a remote inn after their bus breaks down on the way to a dance competition.",
         "genres": [
-          "Horror",
-          "Thriller",
           "Music",
-          "Action"
+          "Thriller",
+          "Action",
+          "Horror"
         ],
         "added_date": "March 25",
         "added_ts": 1774411200,
@@ -155,7 +155,7 @@
         "added_ts": 1773979200,
         "link": "https://press.amazonmgmstudios.com/us/en/original-series/jury-duty-1/2",
         "thumbnail": "https://image.tmdb.org/t/p/w342/3CRKP1KJvloaUB89eDOAdFv3Tok.jpg",
-        "rating": 54,
+        "rating": 62,
         "season": ""
       },
       {

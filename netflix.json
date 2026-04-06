@@ -1,8 +1,21 @@
 {
-  "updated": "2026-04-05 04:33 EDT",
-  "week_label": "March 21 \u2013 April 5, 2026",
+  "updated": "2026-04-06 05:00 EDT",
+  "week_label": "March 22 \u2013 April 6, 2026",
   "groups": {
     "TV Series": [
+      {
+        "type": "series",
+        "title": "Danny Go!",
+        "overview": "Welcome to Danny Go! A kid's show to help children become confident in their limitless creativity! Lots of music. Lots of silliness. Lots of learning. Come along for the ride!",
+        "genres": [
+          "Family"
+        ],
+        "added_date": "April 6",
+        "added_ts": 1775460371,
+        "link": "https://www.netflix.com/title/82715216/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/19929523/poster/vertical/en/240.jpg?Expires=1805626417&Signature=aRjAFLH414GKle4O3fHUklAX9~qXakyWW6G65pssyv8jFA5QBJ6cSbpWinj0jonWSS1VSsmEd~yCuPuKMXwt3oMExLT2d9LpoF-olBXSACxwzCOc22~GGVcoX6xljL1dAJJW45Z2VhxwXdGPqgn-oL~XPfr7HyQza-bZAedNp8SFfCvh-sYaTTudil0hjv0I3M0kRtCyGNbjFT5N8P0Ej07VZuR96JvobMkt1N4lvseZyf3prgeQ8N9PLMXlm6WunDCS1R0UXW0WkAkANLLfRX1Vk2jYe~MBn-q5roP0VA1TojqDNwGy9gDEViztHmA2SCrS6FOdXCl7Eolx2HTqvw__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 46
+      },
       {
         "type": "series",
         "title": "Vivy: Fluorite Eye's Song",
@@ -287,6 +300,19 @@
       }
     ],
     "Movies": [
+      {
+        "type": "movie",
+        "title": "India Sweets and Spices",
+        "overview": "College freshman Alia Kapur (Sophia Ali) returns to her family's posh suburban New Jersey home after a year away only to uncover secrets about both of her parents that push her toward a daring and transformative confrontation.",
+        "genres": [
+          "Comedy"
+        ],
+        "added_date": "April 6",
+        "added_ts": 1775460375,
+        "link": "https://www.netflix.com/title/81513300/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/103469/poster/vertical/en/240.jpg?Expires=1803165840&Signature=bOPkHhSplG-z7PIVyC5uiQM3RHc0j5AWy8NLpM7Z-4yHsDv2i7MxH7RYqmLg6EnUsYNTNkkKNHezhqND4ZFS7IoeF~aqPNsPTw4MP0t6fZDHcWk~k6QDRyIFklCSXpeUKFziAE9fnxtXfDE5wUGXgj-iXEAxZBxbeWyPWcEQFfqA9hj3M91sSaTIfi5kgu~XA4N~SNaHxwQNlU4L54F4E3ANB02~hxs5L3REbUQnVcdFznqCcrArSdX8VCaYqVWvjvGoUbbsptBlmr2rRru3Fp13LqafcPll2BaVUKMBWgjJFOZ-OQAoRZ9Pd0~tbxYdCg~Lg39OwBEhxW3VCdiIzw__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 57
+      },
       {
         "type": "movie",
         "title": "Jumanji: Welcome to the Jungle",
@@ -1237,48 +1263,6 @@
         "link": "https://www.netflix.com/title/81713297/",
         "thumbnail": "https://cdn.movieofthenight.com/show/2699658/poster/vertical/en/240.jpg?Expires=1800340592&Signature=IZKb~npARVog3wEc1VlznPZHRNjXmL6htZ7d~n3vFak28Ags9AwCq0QNa4PYItLHYYBTSaCv7mxBNMobGMitguyaXtWzWUQJ-zy6VYEHBEuOWA2HK8thzuhhObQkQ-~uoG1woD5bgPQimuJ-kh9X3kxSkyvK0AzCihgEqk4fuHLOIxkLmeX0~5y92kJin80xwjnwoXrL7to4c77wPs9Aa6dp6Oupg80PYyc77~Ch9Q4Ocq9zhTW-5azVcAmhfWN~A02QiV4f9h546AMcLeaU0FIR9QkU5RiL-wC9Kgr40IXNL2i6DovUbof-9WSaCRiJ9SQdK~Afuz1DNe1gHosijw__&Key-Pair-Id=KK4HN3OO4AT5R",
         "rating": 75
-      },
-      {
-        "type": "movie",
-        "title": "BTS THE COMEBACK LIVE | ARIRANG",
-        "overview": "",
-        "genres": [
-          "Music"
-        ],
-        "added_date": "March 21",
-        "added_ts": 1774095760,
-        "link": "https://www.netflix.com/title/82157128/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/24861298/poster/vertical/en/240.jpg?Expires=1805369684&Signature=WZLcSrC-MG1RsPwLCN8ZpqaGpOMLCFrmFH-0DOfBbOKawj1e-ATO-EvyD~rCErdISeHFsceEFoEjzcCq0h8mwjP3EBFnkaBzjmmW8ZrB6o48qU5VQgvfouvOmsIWNgu5CevrTHdTxSjhEW-eCdpi1P9oS1W-Upj6csD1RO-sgF6-E0epX~PZ-y8dXFgGRqIXymh4JLscDFp5pBuj02cI1zRqqam2g~KiVKjhwjjZplGsdxLsV7H42~lzDJiCebmL16VJoq3~6PhXZ2og3bZsyHzJhAcWkPQVYjVZi0C8ZEBwEcb4ebEfDhG4kGNsm0BxWr4LvMZxBILT7EdyQ2k8Rg__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 0
-      },
-      {
-        "type": "movie",
-        "title": "The Bad Guys 2",
-        "overview": "In this new action-packed chapter, the now-reformed Bad Guys are forced to pull one last heist, masterminded by a new team of criminals: The Bad Girls.",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Animation"
-        ],
-        "added_date": "March 21",
-        "added_ts": 1774095758,
-        "link": "https://www.netflix.com/title/82175765/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/14625514/poster/vertical/en/240.jpg?Expires=1801610846&Signature=bObPJnEgRO~hZl1OtSGXX9ghX5sHUjihFsFCCT9YE2dIgPaNhaQYOKn3g8qibynHyyQ0zkmkFwJJeVReogSUMhDy4zSBPxXDw1DG~9CxNtZWYx97~pSmKVl6~xRBTdH5M9MIwTteQzVKmFOMV27RXt4aE1UNVByGnRgWjTt5ofxeb4hnUqvJARC8dt0Mc-sqr1tGFEcxwLQZTuGQKyO~R6JqzyxKew6NfO2QpVmNDA0wJYA1SdDGl5BYSRNUCIacF-OB6eANj4kakPbWjhvEBBpyAmzGUoNCW6~jdgEh6mhBWUgBV4c1PYcim3eMNzshBo107HzR4N4mf2aWKFIzqw__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 71
-      },
-      {
-        "type": "movie",
-        "title": "Sisu: Road to Revenge",
-        "overview": "The war is over, but revenge is not. In this sequel, Aatami seeks to rebuild his life, but the Red Army turns his journey into a bloody hunt by releasing the man who massacred his family.",
-        "genres": [
-          "Action",
-          "War"
-        ],
-        "added_date": "March 21",
-        "added_ts": 1774095715,
-        "link": "https://www.netflix.com/title/82712118/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/23193663/poster/vertical/en/240.jpg?Expires=1798773082&Signature=AEPQMGdugds8k73pRV3hwG0AnS7K6iikn3jDa-N4s-RmJosVyoO6dzgijcbHFK2hs4MIDhCW12ilfX8xiwXB5yLZmG-rnPMInF3qHbT98HUSURDrBCPe0382~LMGfrvtEhXSTumA8gVoJvHgglrqfoZAtrAeqp-pYSkDhwF8uS2w5RFsg6mgjOe9IK7L11J4GeaHlrih2AazTkx~cNfbRwzKg~kDwwADN~kefJzCtAUWxmSyaRQWRW~ckEW405N7cXYjKE4iQY48G-kCD-b8gWm~QGrN8BOwY4H8HWCAi6cCtRDEb64F4RrDH4LFrGBymYJmTbNcy8kjErN8mjZufQ__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 69
       }
     ]
   }
