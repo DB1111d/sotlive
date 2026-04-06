@@ -1,24 +1,24 @@
 {
-  "updated": "2026-04-06T18:11:50Z",
+  "updated": "2026-04-06T19:20:03Z",
   "date": "2026-04-06",
   "matches": [
     {
-      "home": "Arouca",
-      "away": "Estoril",
+      "home": "Lechia Gdańsk",
+      "away": "Korona Kielce",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1se6fae",
+          "postId": "1se7h1e",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1se6fae",
-          "scorer": "Xeka",
-          "minute": 3,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamain.com/Xe0Ad6sXPwR2yxD/watch",
-          "videoEmbed": "https://streamain.com/Xe0Ad6sXPwR2yxD/watch",
-          "directMp4": null,
-          "postedAt": 1775498545000
+          "permalink": "https://redd.it/1se7h1e",
+          "scorer": "Aleksandar Ćirković",
+          "minute": 19,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/l21oeo277mtg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/l21oeo277mtg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775500750000
         }
       ]
     },
@@ -39,6 +39,65 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/b8o4wgboultg1/CMAF_1080.mp4?source=fallback",
           "postedAt": 1775496510000
+        },
+        {
+          "postId": "1se74ka",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1se74ka",
+          "scorer": "Bogi Reinert-Petersen",
+          "minute": 68,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/rnkqgqk25mtg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/rnkqgqk25mtg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1775500017000
+        }
+      ]
+    },
+    {
+      "home": "Arouca",
+      "away": "Estoril",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1se6fae",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1se6fae",
+          "scorer": "Xeka",
+          "minute": 3,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/Xe0Ad6sXPwR2yxD/watch",
+          "videoEmbed": "https://streamain.com/Xe0Ad6sXPwR2yxD/watch",
+          "directMp4": null,
+          "postedAt": 1775498545000
+        },
+        {
+          "postId": "1se73on",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1se73on",
+          "scorer": "Ivan Barbero",
+          "minute": 13,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/O88eEGBY6EMdpkW/watch",
+          "videoEmbed": "https://streamain.com/O88eEGBY6EMdpkW/watch",
+          "directMp4": null,
+          "postedAt": 1775499968000
+        },
+        {
+          "postId": "1se747t",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1se747t",
+          "scorer": "Yanis Begraoui",
+          "minute": 32,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/t6QcauRG6ADshmy/watch",
+          "videoEmbed": "https://streamain.com/t6QcauRG6ADshmy/watch",
+          "directMp4": null,
+          "postedAt": 1775499998000
         }
       ]
     },
@@ -85,6 +144,19 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1775496310000
+        },
+        {
+          "postId": "1se6rnd",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1se6rnd",
+          "scorer": "Tommy Conway",
+          "minute": 75,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/spfa90up2mtg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775499256000
         }
       ]
     },
