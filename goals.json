@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-06T11:12:28Z",
+  "updated": "2026-04-06T11:58:59Z",
   "date": "2026-04-06",
   "matches": [
     {
@@ -32,6 +32,45 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/yvpwz1k7xjtg1/CMAF_720.mp4?source=fallback",
           "postedAt": 1775473167000
+        },
+        {
+          "postId": "1sdwnq0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sdwnq0",
+          "scorer": "Adrián Dalmau",
+          "minute": 69,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/lb28z6uj6ktg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/lb28z6uj6ktg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775476311000
+        },
+        {
+          "postId": "1sdwpzk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sdwpzk",
+          "scorer": "Damian Hilbrycht olympico /",
+          "minute": 73,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/2x0w6rzz6ktg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/2x0w6rzz6ktg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775476488000
+        },
+        {
+          "postId": "1sdwss8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sdwss8",
+          "scorer": "Juande Rivas",
+          "minute": 82,
+          "homeScore": 3,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/o04cvvpo7ktg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/o04cvvpo7ktg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775476701000
         }
       ]
     }
