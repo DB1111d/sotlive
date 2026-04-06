@@ -1,7 +1,47 @@
 {
-  "updated": "2026-04-06T17:26:40Z",
+  "updated": "2026-04-06T18:11:50Z",
   "date": "2026-04-06",
   "matches": [
+    {
+      "home": "Arouca",
+      "away": "Estoril",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1se6fae",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1se6fae",
+          "scorer": "Xeka",
+          "minute": 3,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/Xe0Ad6sXPwR2yxD/watch",
+          "videoEmbed": "https://streamain.com/Xe0Ad6sXPwR2yxD/watch",
+          "directMp4": null,
+          "postedAt": 1775498545000
+        }
+      ]
+    },
+    {
+      "home": "HB Tórshavn",
+      "away": "B36 Tórshavn",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1se5ft9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1se5ft9",
+          "scorer": "Bogi Reinert-Petersen",
+          "minute": 25,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/b8o4wgboultg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/b8o4wgboultg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1775496510000
+        }
+      ]
+    },
     {
       "home": "Swansea",
       "away": "Middlesbrough",
