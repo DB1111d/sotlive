@@ -1,5 +1,39 @@
 {
-  "updated": "2026-04-06T10:06:34Z",
+  "updated": "2026-04-06T11:12:28Z",
   "date": "2026-04-06",
-  "matches": []
+  "matches": [
+    {
+      "home": "Bruk-Bet Termalica Nieciecza",
+      "away": "Piast Gliwice",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sdv3u4",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sdv3u4",
+          "scorer": "Jesús Jiménez penalty",
+          "minute": 15,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/l4ypz8l8sjtg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/l4ypz8l8sjtg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775471525000
+        },
+        {
+          "postId": "1sdvlw6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sdvlw6",
+          "scorer": "Kamil Zapolnik",
+          "minute": 42,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/yvpwz1k7xjtg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/yvpwz1k7xjtg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775473167000
+        }
+      ]
+    }
+  ]
 }
