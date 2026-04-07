@@ -1,7 +1,60 @@
 {
-  "updated": "2026-04-07T19:10:38Z",
+  "updated": "2026-04-07T20:01:41Z",
   "date": "2026-04-07",
   "matches": [
+    {
+      "home": "Real Madrid",
+      "away": "Bayern Munich",
+      "league": "UEFA Champions League",
+      "goals": [
+        {
+          "postId": "1sf6fkb",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sf6fkb",
+          "scorer": "Luis Díaz",
+          "minute": 41,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/27a91a6f",
+          "videoEmbed": "https://streamff.link/v/27a91a6f",
+          "directMp4": null,
+          "postedAt": 1775590851000
+        }
+      ]
+    },
+    {
+      "home": "Wrexham",
+      "away": "Southampton",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sf63j7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sf63j7",
+          "scorer": "Flynn Downes",
+          "minute": 22,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/zx6pwctskttg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775590130000
+        },
+        {
+          "postId": "1sf6d09",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sf6d09",
+          "scorer": "Josh Windass",
+          "minute": 34,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/tin8a7xnmttg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775590696000
+        }
+      ]
+    },
     {
       "home": "Arka Gdynia",
       "away": "Zagłębie Lubin",
