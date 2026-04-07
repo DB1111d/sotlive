@@ -1,7 +1,93 @@
 {
-  "updated": "2026-04-07T16:55:27Z",
+  "updated": "2026-04-07T17:57:36Z",
   "date": "2026-04-07",
   "matches": [
+    {
+      "home": "Arka Gdynia",
+      "away": "Zagłębie Lubin",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sf2h5a",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sf2h5a",
+          "scorer": "Oskar Kubiak",
+          "minute": 15,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/c0lr7er8ystg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/c0lr7er8ystg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775582473000
+        },
+        {
+          "postId": "1sf3cxd",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sf3cxd",
+          "scorer": "Sebastian Kerk free-kick /",
+          "minute": 45,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/6undlnen3ttg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/6undlnen3ttg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775584302000
+        }
+      ]
+    },
+    {
+      "home": "Energie Cottbus",
+      "away": "1860 München",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sf2sst",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sf2sst",
+          "scorer": "Erik Engelhardt",
+          "minute": 29,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/e5f9e76e",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775583130000
+        },
+        {
+          "postId": "1sf2x1y",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sf2x1y",
+          "scorer": "Erik Engelhardt",
+          "minute": 33,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/fc64eeea",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775583369000
+        }
+      ]
+    },
+    {
+      "home": "Duisburg",
+      "away": "Osnabrück",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sf2u9c",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sf2u9c",
+          "scorer": "Florian Krüger",
+          "minute": 31,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/3d75971d",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775583208000
+        }
+      ]
+    },
     {
       "home": "Jamshedpur FC",
       "away": "Mohun Bagan SG",
