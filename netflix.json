@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-06 05:00 EDT",
-  "week_label": "March 22 \u2013 April 6, 2026",
+  "updated": "2026-04-07 04:52 EDT",
+  "week_label": "March 23 \u2013 April 7, 2026",
   "groups": {
     "TV Series": [
       {
@@ -300,6 +300,21 @@
       }
     ],
     "Movies": [
+      {
+        "type": "movie",
+        "title": "A Day to Die",
+        "overview": "When his pregnant wife is kidnapped by a local gang leader, a disgraced parole officer pulls off a series of dangerous drug heists to pay the ransom.",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "added_date": "April 6",
+        "added_ts": 1775481642,
+        "link": "https://www.netflix.com/title/81474293/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/36935/poster/vertical/en/240.jpg?Expires=1803201760&Signature=hu17ED4JekF9jXHEp~eZvrvCveCG6hQv5wlBtGDptMGYQfEisK9oYPNF2ykV8cWeQu9sU0t6dCiIQ8QuPfzVigqD9uhejC6ruyEltepHEZFFPUVm3-9dD3tL~Id5h2RkUrOXK5D9Itv1YKaKrdv~8UL3eFSvGmXld6oDI6HQcZI5l0pWLI1ARtKsA6J4d-h8oVHXeRMPz5qsTiG4SA-UZk3fa1d-dLzxRv~xHxv0-wRghLfmC026DwNVe3Aju~O44Xbt8LXcnQy36JN2bzGcd0KNylo5PCbqrL8ZS17LkxMkXHPtRtBnrVc253MqE0x~g8FfKtYb-nP0MSchg8rcBg__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 40
+      },
       {
         "type": "movie",
         "title": "India Sweets and Spices",
