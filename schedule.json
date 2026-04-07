@@ -1,37 +1,9 @@
 {
-  "updated": "2026-04-06 16:38 EDT",
+  "updated": "2026-04-06 22:32 EDT",
   "days": {
     "20260406": {
       "date": "Monday, April 6",
-      "games": [
-        {
-          "league": "EFL Championship",
-          "time": "3:00 PM",
-          "match": "Hull City vs Coventry City",
-          "source": "Paramount+",
-          "kick_utc": "2026-04-06T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png"
-        },
-        {
-          "league": "Serie A",
-          "time": "2:45 PM",
-          "match": "Napoli vs AC Milan",
-          "source": "Paramount+",
-          "kick_utc": "2026-04-06T18:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png"
-        },
-        {
-          "league": "La Liga",
-          "time": "3:00 PM",
-          "match": "Girona vs Villarreal",
-          "source": "ESPN+",
-          "kick_utc": "2026-04-06T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png"
-        }
-      ]
+      "games": []
     },
     "20260407": {
       "date": "Tuesday, April 7",
@@ -60,7 +32,7 @@
           "league": "CONCACAF Champions Cup",
           "time": "8:00 PM",
           "match": "Nashville SC vs Am\u00e9rica",
-          "source": "FS1",
+          "source": "FS2",
           "kick_utc": "2026-04-08T00:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/227.png",
@@ -143,7 +115,7 @@
           "league": "CONCACAF Champions Cup",
           "time": "11:00 PM",
           "match": "Toluca vs LA Galaxy",
-          "source": "FS2",
+          "source": "FS1",
           "kick_utc": "2026-04-09T03:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/223.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/187.png",
