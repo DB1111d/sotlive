@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-07T17:57:36Z",
+  "updated": "2026-04-07T19:10:38Z",
   "date": "2026-04-07",
   "matches": [
     {
@@ -32,6 +32,32 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/6undlnen3ttg1/CMAF_720.mp4?source=fallback",
           "postedAt": 1775584302000
+        },
+        {
+          "postId": "1sf430f",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sf430f",
+          "scorer": "Levente Szabó",
+          "minute": 52,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/ym05jii28ttg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ym05jii28ttg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775585793000
+        },
+        {
+          "postId": "1sf5abu",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sf5abu",
+          "scorer": "Vladislavs Gutkovskis",
+          "minute": 78,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/hwevnwmsfttg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/hwevnwmsfttg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775588381000
         }
       ]
     },
@@ -65,6 +91,65 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1775583369000
+        },
+        {
+          "postId": "1sf4m8g",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sf4m8g",
+          "scorer": "Erik Engelhardt",
+          "minute": 66,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/dc9ac91a",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775586932000
+        }
+      ]
+    },
+    {
+      "home": "NK Istra 1961",
+      "away": "HNK Hajduk Split",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sf3shr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sf3shr",
+          "scorer": "Marko Livaja",
+          "minute": 23,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/pp68igt96ttg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/pp68igt96ttg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775585199000
+        },
+        {
+          "postId": "1sf3zw0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sf3zw0",
+          "scorer": "Adrion Pajaziti",
+          "minute": 51,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/3cqvwu3j7ttg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/3cqvwu3j7ttg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775585610000
+        },
+        {
+          "postId": "1sf45et",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sf45et",
+          "scorer": "Marko Livaja",
+          "minute": 58,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/7lofogri8ttg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/7lofogri8ttg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775585934000
         }
       ]
     },
