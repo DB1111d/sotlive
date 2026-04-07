@@ -1,20 +1,6 @@
 {
-  "updated": "2026-04-06 22:32 EDT",
+  "updated": "2026-04-07 01:47 EDT",
   "days": {
-    "20260406": {
-      "date": "Monday, April 6",
-      "games": [
-        {
-          "group": "Regular Season",
-          "time": "7:00 PM",
-          "match": "Atlanta Hawks vs New York Knicks",
-          "source": "Peacock \u00b7 NBCSN",
-          "kick_utc": "2026-04-06T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png"
-        }
-      ]
-    },
     "20260407": {
       "date": "Tuesday, April 7",
       "games": [
@@ -67,6 +53,10 @@
     },
     "20260410": {
       "date": "Friday, April 10",
+      "games": []
+    },
+    "20260411": {
+      "date": "Saturday, April 11",
       "games": []
     }
   }
