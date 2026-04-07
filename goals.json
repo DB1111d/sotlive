@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-07T00:04:53Z",
+  "updated": "2026-04-07T03:30:30Z",
   "date": "2026-04-07",
   "matches": [
     {
@@ -170,6 +170,26 @@
       "home": "Napoli",
       "away": "AC Milan",
       "league": "Serie A",
+      "goals": [
+        {
+          "postId": "1seahlo",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1seahlo",
+          "scorer": "Matteo Politano",
+          "minute": 79,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/e76f5b1d",
+          "videoEmbed": "https://streamff.link/v/e76f5b1d",
+          "directMp4": null,
+          "postedAt": 1775507161000
+        }
+      ]
+    },
+    {
+      "home": "Napoli",
+      "away": "Milan",
+      "league": "Rest of World",
       "goals": [
         {
           "postId": "1seahlo",
