@@ -1,7 +1,165 @@
 {
-  "updated": "2026-04-08T18:12:14Z",
+  "updated": "2026-04-08T19:40:51Z",
   "date": "2026-04-08",
   "matches": [
+    {
+      "home": "Paris Saint-Germain",
+      "away": "Liverpool",
+      "league": "UEFA Champions League",
+      "goals": [
+        {
+          "postId": "1sg2j2o",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sg2j2o",
+          "scorer": "Desire Doue 11‎'",
+          "minute": null,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/3ac42e28",
+          "videoEmbed": "https://streamff.link/v/3ac42e28",
+          "directMp4": null,
+          "postedAt": 1775675729000
+        }
+      ]
+    },
+    {
+      "home": "Saarbrücken",
+      "away": "Alemannia Aachen",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sfzity",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sfzity",
+          "scorer": "Jonas Oehmichen",
+          "minute": 24,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/07152cbd",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775669285000
+        },
+        {
+          "postId": "1sg1sm2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sg1sm2",
+          "scorer": "Florian Pick",
+          "minute": 81,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/0063ced1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775674169000
+        }
+      ]
+    },
+    {
+      "home": "Goztepe",
+      "away": "Galatasaray",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sfyzs0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sfyzs0",
+          "scorer": "Baris Alper Yilmaz",
+          "minute": 6,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/cca84875",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775668176000
+        },
+        {
+          "postId": "1sfzddd",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sfzddd",
+          "scorer": "Own Goal",
+          "minute": 20,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/8e3d99ca",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775668956000
+        },
+        {
+          "postId": "1sg0u7q",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sg0u7q",
+          "scorer": "Juan Santos",
+          "minute": 50,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/33d252f8",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775672087000
+        },
+        {
+          "postId": "1sg1ixu",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sg1ixu",
+          "scorer": "Mario Lemina",
+          "minute": 75,
+          "homeScore": 1,
+          "awayScore": 3,
+          "videoUrl": "https://streamin.link/v/80093265",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775673571000
+        }
+      ]
+    },
+    {
+      "home": "Verl",
+      "away": "Hansa Rostock",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sg04lg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sg04lg",
+          "scorer": "Berkan Taz",
+          "minute": 45,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/e22ecf2f",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775670568000
+        },
+        {
+          "postId": "1sg0z1y",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sg0z1y",
+          "scorer": "Christian Kinsombi",
+          "minute": 54,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/b5284f67",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775672377000
+        },
+        {
+          "postId": "1sg15i6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sg15i6",
+          "scorer": "Emil Holten",
+          "minute": 59,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/fe88d7e2",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775672759000
+        }
+      ]
+    },
     {
       "home": "Braga",
       "away": "Real Betis",
@@ -36,26 +194,6 @@
       ]
     },
     {
-      "home": "Verl",
-      "away": "Hansa Rostock",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1sg04lg",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sg04lg",
-          "scorer": "Berkan Taz",
-          "minute": 45,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamin.link/v/e22ecf2f",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1775670568000
-        }
-      ]
-    },
-    {
       "home": "HNK Gorica",
       "away": "GNK Dinamo Zagreb",
       "league": "Rest of World",
@@ -72,59 +210,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/y3s7ok8a50ug1/CMAF_1080.mp4?source=fallback",
           "postedAt": 1775669624000
-        }
-      ]
-    },
-    {
-      "home": "Saarbrücken",
-      "away": "Alemannia Aachen",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1sfzity",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sfzity",
-          "scorer": "Jonas Oehmichen",
-          "minute": 24,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/07152cbd",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1775669285000
-        }
-      ]
-    },
-    {
-      "home": "Goztepe",
-      "away": "Galatasaray",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1sfyzs0",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sfyzs0",
-          "scorer": "Baris Alper Yilmaz",
-          "minute": 6,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/cca84875",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1775668176000
-        },
-        {
-          "postId": "1sfzddd",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sfzddd",
-          "scorer": "Own Goal",
-          "minute": 20,
-          "homeScore": 0,
-          "awayScore": 2,
-          "videoUrl": "https://streamin.link/v/8e3d99ca",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1775668956000
         }
       ]
     },
