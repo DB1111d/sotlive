@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-07 04:52 EDT",
-  "week_label": "March 23 \u2013 April 7, 2026",
+  "updated": "2026-04-08 04:52 EDT",
+  "week_label": "March 24 \u2013 April 8, 2026",
   "groups": {
     "TV Series": [
       {
@@ -300,6 +300,21 @@
       }
     ],
     "Movies": [
+      {
+        "type": "movie",
+        "title": "Madagascar: Escape 2 Africa",
+        "overview": "In this sequel to Madagascar, all of the loveable characters are back. This time around, they find themselves in the wildest place of all \u2013 the vast plains of Africa \u2013 where our zoo-raised crew encounter species of their own kind for the first time.",
+        "genres": [
+          "Adventure",
+          "Animation",
+          "Comedy"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775568195,
+        "link": "https://www.netflix.com/title/70099116/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/1885/poster/vertical/en/240.jpg?Expires=1798050175&Signature=Fl29dltz96qqEiI5IjtEITpS~ouJy2w0shpz5AiRPFxQOoXlTrvVID6I~x-Xlw~DhZxIWaFB411cjNq5P7SXKLj6ti3VhYizzgV2y4yCGuOnhaDU0XS3WlqHx~AVZL398SAaRB1mv95B3-0cId~2gPwriI84PbhTj~29KpkrhDaRn7J3qmsHRo5nfxFZQ3JdGfq68Rf6mmrrOdVgMALojnM8lfJixG6RbPVnoWdYEHQo1TYtGmqBHzjJMqjP89zOxP21I0LDiqvgKqUvdFaTR6t67muYkvEjMaw961uQdeRZAUVhAZwPidFPEAw71wIDzamkj3UxzD8JKrd~dQoSQw__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 66
+      },
       {
         "type": "movie",
         "title": "A Day to Die",
@@ -1264,20 +1279,6 @@
         "link": "https://www.netflix.com/title/81198916/",
         "thumbnail": "https://cdn.movieofthenight.com/show/6431/poster/vertical/en/240.jpg?Expires=1798808053&Signature=Ovn6dxweCBXN947bdsVRvPx-I6nnYw-6qQnTLy1D6WibP53AjCfdYUpv6B1AbTHqgFpbw-OiBSm7eQx7TvqT4LsEj9LY4PTvl2dm2RTT8gxYSSs9TxuhR6E1eqKlMN6q~dBPnbfRGnOQuRkQMzsn8uFbjUvTEu5fNefv4BnWGAF1FMY3QMDGGYwT-sBeLM7BAFLZCMyTN4i3tBOJmBm3fACVol6SRGMvCn1YcepDp4ylnbCDUOi365KD441iHUF5jSabT98UsxY92nC1P9jonR5jwsJG1pKNaJ7ndcTxyyrmI~Z01LYTPLrMEJGyGEKcOKEWUEPWo9hh2PIZnPzDQg__&Key-Pair-Id=KK4HN3OO4AT5R",
         "rating": 66
-      },
-      {
-        "type": "movie",
-        "title": "Anatomy of a Fall",
-        "overview": "When Samuel is found dead, the police question if he was murdered or if he committed suicide and his wife Sandra becomes the main suspect. The investigation leads to an unsettling journey into the depths of their conflicted relationship.",
-        "genres": [
-          "Crime",
-          "Mystery"
-        ],
-        "added_date": "March 23",
-        "added_ts": 1774268668,
-        "link": "https://www.netflix.com/title/81713297/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/2699658/poster/vertical/en/240.jpg?Expires=1800340592&Signature=IZKb~npARVog3wEc1VlznPZHRNjXmL6htZ7d~n3vFak28Ags9AwCq0QNa4PYItLHYYBTSaCv7mxBNMobGMitguyaXtWzWUQJ-zy6VYEHBEuOWA2HK8thzuhhObQkQ-~uoG1woD5bgPQimuJ-kh9X3kxSkyvK0AzCihgEqk4fuHLOIxkLmeX0~5y92kJin80xwjnwoXrL7to4c77wPs9Aa6dp6Oupg80PYyc77~Ch9Q4Ocq9zhTW-5azVcAmhfWN~A02QiV4f9h546AMcLeaU0FIR9QkU5RiL-wC9Kgr40IXNL2i6DovUbof-9WSaCRiJ9SQdK~Afuz1DNe1gHosijw__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 75
       }
     ]
   }

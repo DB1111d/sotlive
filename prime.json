@@ -1,8 +1,23 @@
 {
-  "updated": "2026-04-07 04:52 EDT",
-  "week_label": "March 8 \u2013 April 7, 2026",
+  "updated": "2026-04-08 04:52 EDT",
+  "week_label": "March 9 \u2013 April 8, 2026",
   "groups": {
     "TV Series": [
+      {
+        "type": "series",
+        "title": "The Boys",
+        "overview": "A group of vigilantes known informally as \u201cThe Boys\u201d set out to take down corrupt superheroes with no more than blue-collar grit and a willingness to fight dirty.",
+        "genres": [
+          "Sci-Fi & Fantasy",
+          "Action & Adventure"
+        ],
+        "added_date": "April 8",
+        "added_ts": 1775620800,
+        "link": "https://press.amazonmgmstudios.com/us/en/original-series/the-boys/5",
+        "thumbnail": "https://image.tmdb.org/t/p/w342/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
+        "rating": 84,
+        "season": "Season 5"
+      },
       {
         "type": "series",
         "title": "House of David S2",
@@ -94,7 +109,7 @@
         "added_ts": 1775361600,
         "link": "https://press.amazonmgmstudios.com/us/en/original-series/nippon-sangoku/1",
         "thumbnail": "https://image.tmdb.org/t/p/w342/sM7zYE6xOmaNwC28LR7cEneAtuN.jpg",
-        "rating": null,
+        "rating": 80,
         "season": ""
       },
       {

@@ -1,8 +1,22 @@
 {
-  "updated": "2026-04-07 04:52 EDT",
-  "week_label": "March 23 \u2013 April 7, 2026",
+  "updated": "2026-04-08 04:52 EDT",
+  "week_label": "March 24 \u2013 April 8, 2026",
   "groups": {
     "TV Series": [
+      {
+        "type": "series",
+        "title": "First and Last",
+        "overview": "Traveling in the pandemic has been challenging, but the waves remain in the same place and often close to home. Home Missions is about a passion for surfing that can overcome the biggest difficulties. surf",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775576441,
+        "link": "https://play.hbomax.com/show/09c33d6e-65ab-4d1e-847c-70106face859",
+        "thumbnail": "https://cdn.movieofthenight.com/show/12645/poster/vertical/en/240.jpg?Expires=1800378344&Signature=a3aIcWas4qc6QS7TPdcbCXLDF70zQRfpJaXEMQH1E0~O4kIT1evMnDO3mq~85EnF5RuRV10c-0lCD1jp26a8ErYio6XEOdtST8ERaJd~pNmuMyqkx70sH9hP4Bk823Bxy9OcQmZ-Lw-AVYmKTXWTvHC1lHT0PYFoW0ssnNJ7lCHoRZwXgZ9SFH9ysswkaOJJhZhYYIe4UhZR-mipAw3cLV0gAHpsXWCtWSFEYT3rvFUx0bSRnq0jIu9zOPeKTZ5mQNBTfeSa3yY9yb0W5pbiLkEAT8yMjUDW9viG0jhFgQPzv9baWDyvtuNpTpXi38MYVyd3GHBbGlsNja5ABt-TUQ__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 63
+      },
       {
         "type": "series",
         "title": "What Happened, Brittany Murphy?",
@@ -86,6 +100,846 @@
       }
     ],
     "Movies": [
+      {
+        "type": "movie",
+        "title": "Riding Shotgun",
+        "overview": "Charles Bronson stars with Randolph Scott in the western adventure Riding Shotgun. Guard Larry Delong (Scott) normally rides shotgun on the stagecoach to Deepwater, but when he's tricked into leaving his post, outlaws rob the stage. Held as a prisoner, Delong discovers that Pinto (Bronson) and his gang robbed the stage as a distraction to lure the law out of Deepwater so they can rob the casino. Delong frees himself and rides to warn the town, but he's mistaken for one of the outlaws. Now, caught between the wary townspeople and the real outlaws riding in, Delong has only moments to stop the casino heist. Based on the story \"Riding Solo\" by Kenneth Perkins.",
+        "genres": [
+          "Western"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775579816,
+        "link": "https://play.hbomax.com/movie/bb430e24-8591-43af-9319-8590b38ccdf0",
+        "thumbnail": "https://cdn.movieofthenight.com/show/79001/poster/vertical/en/240.jpg?Expires=1803921653&Signature=lUyZ6~VOfkCqqTCzz80e49u8DImcFvGZVp09LAVPiwZNURAqkiC~~NYNWZjEikStXW~hZ2JNeF7DwfApP~igtjFJeaVtlAi2Otb4oGtb4Yta~TK1qZ3Az4xVl0Hir0O37Dl-UrXq2ZSCvh0qbgRdzguW2boVK2DIWdV5dfiWjCV~lSCEZ7~OXUMUoe0nNrjPGJuN~f9W7ZYFqq4xh3C0jCllZY3FVFLLXJiLb2QKpXPCi-FI3-yWGPJfIHloQagcVMrmfJOFhQnFNyOxbDMpU64y0h1e7LWHzCKnLWAypNn5Ar1INGsvUa3xx2lk719HPi-2TCEcLeRoqAgUWcgS~w__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 62
+      },
+      {
+        "type": "movie",
+        "title": "Rancho Notorious",
+        "overview": "Vern Haskell (Arthur Kennedy) is pushed to revenge when his fianc\u00e9e is killed during a general store robbery. Intent on punishing those responsible, Vern manages to find one of the thieves, who is mortally wounded. In his dying words, the man gives Vern a clue to finding the others. Continuing his quest, Vern travels to the hideout -- a ranch operated by Altar Keane (Marlene Dietrich), a former saloon singer. By fooling an outlaw (Mel Ferrer), Vern makes his way into their inner circle.",
+        "genres": [
+          "Western"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775579780,
+        "link": "https://play.hbomax.com/movie/794cd200-74e5-462c-96dc-30f4667b6190",
+        "thumbnail": "https://cdn.movieofthenight.com/show/34614/poster/vertical/en/240.jpg?Expires=1803921878&Signature=la5oNRzxeZTQnmOJ19VRlT8v4iZe7qfVxvEcv2RjScHoKqqUoO9cjd50FI9QhUmsKadHssdC7ceVwvfpRIOzqpxtpUN3Q8HguPFKSTaOJkMgn5pv9N1mDGgyIu6V6gL8ACTVAADyYrqsQtaHhTNt3iZSRbDdAKugjP9ZJSWysmbknrBurV3SVq136vib1qhqR8ozAvMTexWIr0gs5Nix1mXrzoJFp16-0xFlreS93yix2iLFbGBlljR3f4IE38cnRVTQbBh-oS4weyacK1mc96ZtA3vu~iuiDfkv5KSGSE3Km0Qnzf5PbFQHAabclFAfs0AwWmIavpEXd~2TLb8GSg__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 67
+      },
+      {
+        "type": "movie",
+        "title": "The Bounty Hunter",
+        "overview": "A bounty hunter attempts to track down three killers.",
+        "genres": [
+          "Western"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775579756,
+        "link": "https://play.hbomax.com/movie/f9dc76c6-9bad-405f-804f-348d9ef13c60",
+        "thumbnail": "https://cdn.movieofthenight.com/show/86372/poster/vertical/en/240.jpg?Expires=1801957004&Signature=hgY~Hgvqo9CgqtSsJMTkZUn6fRVlsx~x9SdOh3MIe6S5WJtEh7fwKEhwqTO0bahql2rgFh06NSXJKMz5JtoqmhUYuMPUrFySJKqXUCH4GiOAN57fJHURaVE7pOXyZHB-SJM-nWIptbB5YHtgJa7UT-ksJbgcq84XS~WKyZOwqekt5YgAgyaUabNw843JOA94c8OkISqZBS9OXWeDEN5HKXAGw2012VQBlMv4syz0nN56~LVUp5KUqn4xfJRM~iy5~EuTCiSrC4iLCtS39gH0ZjVvFcQEXuccilaWiMVXsw1ScNL-Rf47aB0ML29IQXhPuqulu9fwFmqGPj5e9H7aGQ__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 65
+      },
+      {
+        "type": "movie",
+        "title": "Mortal Kombat Legends: Scorpion's Revenge",
+        "overview": "Lord Raiden, protector of Earthrealm, must gather the greatest fighters of his realm to defend it from the evil Shang Tsung in the battle to end all battles - Mortal Kombat!",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Animation"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775579694,
+        "link": "https://play.hbomax.com/movie/71cd3cb7-1c56-449c-af01-ec497b3ee4b4",
+        "thumbnail": "https://cdn.movieofthenight.com/show/15401/poster/vertical/en/240.jpg?Expires=1801809031&Signature=adS5~i5~8sqtIyEWB7wlWx36gY3a1CwQQhTwtJr79SU4a8SPZq828xeSG1cL9YIRHUAbZsXBXGhiBqq6U85xMpCuF3Td4iqk264FCRdyrIZsQtUDd-6Cl--QNgKCbGjv59p4e2ilkqeIu-mPtebpoAs7lZpC88gLNwh3Bz~Shrm0KK4GbTw2h1sd5kjBhn~UEDJYWFjqaSbbyEqMa8LGO0FoI9sMqzPYiD7ceDJkxPnrSf8vWwOYhcTP0H8CnPwJdqSTtA75gKlU1p40WgpDGZAiw~u0EOupMgHQaBBKoFKeGJ~UuNiIxfloEKZoO~5P51PZxxaVUSu-XU17Vmdy6g__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 70
+      },
+      {
+        "type": "movie",
+        "title": "Rachel and the Stranger",
+        "overview": "A mail-order bride finds herself attracted to a handsome drifter.",
+        "genres": [
+          "Adventure"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775579072,
+        "link": "https://play.hbomax.com/movie/c0556a3b-3eae-4f69-b1c4-336ffa3f5fcf",
+        "thumbnail": "https://cdn.movieofthenight.com/show/51989/poster/vertical/en/240.jpg?Expires=1801956885&Signature=Rcc1iOOg5fqHjo~TRDGNcaEFFNpV8ZJbcf9FoICOfl91OSHhwwvB8cEJkD~4outEP34EIWfKPVaD1orYcNJlQ1caq3EDcUEEYQxS4BP7rqeSYjkwO3J24IlJ3KvmNk0xpwqnR1C1drVKaLGV1zEmCyoO4-paahqsUjHnU1dtlhRvQFREDfkY9FVNY7SQNMFGpDmQTXqDuwG~MnIs4xRGu2NncKmYAsACmU4xvwm1x39ENuVvTzkCU~o0syYz91Do41Br9gEszQpye1yrJu4K8ChIyo0KqT9vjk3aQPycFBj8YKijSOw0VG0hm9TmqC48BrmRZgNRcFGGrTkpLvjIsw__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 68
+      },
+      {
+        "type": "movie",
+        "title": "Dallas",
+        "overview": "Blade Hollister rides into town to find the men who killed his family and stole his land while he was fighting in the Civil War. He takes the identity of U.S. Marshal Wetherby and exacts his revenge, but the wiliest of the killers forces a final showdown.",
+        "genres": [
+          "Western"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775578759,
+        "link": "https://play.hbomax.com/movie/f6b91cd0-9c41-4f63-b968-924c71b06f6d",
+        "thumbnail": "https://cdn.movieofthenight.com/show/73258/poster/vertical/en/240.jpg?Expires=1801957055&Signature=lrJfkuedQwMbXr25bsKXU2Y~rr7oHB2e~e-mbjZyPGhBd30RuMQxWDoMpnDGrncZ6PZPb8OnXlUoxqrH5FFy2xxe0de9VjcEEiA6BJAS1oRPM7p0qMWmjrDt7Z5z5AR4K6Q7GWbMbtBsbohZ0h-3vChghouxzA-XZjN1wu5VS-2cVIAnBmD3fa5A3pL-Lf8mQ0JPFLtTtryAVGvLFMwzC6mEi5iu2r3fFyyo2lbcW1seQOmwJjM~1z9LYSwTyOxX4an-OFDIjivNxsZ-rf8-GPtrgJcH9CR9u0KUT02di0vbRajF6rut~8Zr3NG0s6o7NSPUNjvfI2cVuo7OUjenUg__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 62
+      },
+      {
+        "type": "movie",
+        "title": "Aliens",
+        "overview": "James Cameron's knockout sequel to 'Alien' finds Sigourney Weaver off to save a space colony on the planet where the first alien reigned.",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Horror"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775577965,
+        "link": "https://play.hbomax.com/movie/fe9f036f-3fc0-4cc1-94e0-a48c6ec87c67",
+        "thumbnail": "https://cdn.movieofthenight.com/show/333/poster/vertical/en/240.jpg?Expires=1800307672&Signature=UvSzeOTzBpDMFrM0ohWbUEV6tBLQj7BO~rehsoe5GuIeDa8m80R1a~nZS21jKcjyDH~TAbkWUvzzFVumtpzDZS9m-2mVpgoZkWZgvwVa~z3vn698pyCqZqd~lnDube~aEKJCC2PrvSLd1P6k~OVFXo~kmqiN-lDWYdwOkR-fwJZir8HiYb~Padm2u6mJutzAxTN10zBize8GPhN0fnLvau3KbAQ~AcONeqsS1A2UDN97AnhHgVcdBzILz-ntOFKCmYWw7uKV-lgV0kn4K6B4vOnVBJvnfvbQLN-5irfPsA0EV9JcuhJQqmuJZ0KKa5czbNADHTOn4PU1kQxX2A11vw__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 82
+      },
+      {
+        "type": "movie",
+        "title": "Alien\u00b3",
+        "overview": "Ripley is stalked by an alien after her pod crashes on a prison planet.",
+        "genres": [
+          "Action",
+          "Horror",
+          "Science Fiction"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775577952,
+        "link": "https://play.hbomax.com/movie/94b2c91a-e9eb-4a69-98e1-aca912ef3349",
+        "thumbnail": "https://cdn.movieofthenight.com/show/1305/poster/vertical/en/240.jpg?Expires=1800307654&Signature=JYLsJCG5mNbuyWSD1rLNqF8Adt8PzdtFF-HkojHlNgBwZcjt5aQFPg7kdMzhli7V-DkTh9XpO0F7GQu8sV81M88yOLJUUxkfH46FHkE7RT8VnXqeI35qSpyOxG49SPdQM3dRT1ARAmmGjKPrrnlgtEq-0UFppVDjJj1q54n9OF4ko9gVJhK4vfDlLU6J3NRLhdnhRAZo-iD3Ut4DEF2sHtexOvw0McHMTRvQMnH1hf6L8a14ObdqjGwq3hguKP4zP5WXvRt9ASJI9cnnpYJwj8EBxcb-6vtUmxIIa8O0OVpOFeD8H~zxB-9hU0gNOq5eDmpLkB~cPlpvFuYpkyCvtg__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 63
+      },
+      {
+        "type": "movie",
+        "title": "The Family",
+        "overview": "For the Manzoni\u2019s, being relocated to France under the Witness Protection Program doesn't stop them from showing their true mafia ways.",
+        "genres": [
+          "Comedy",
+          "Crime",
+          "Thriller"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775577867,
+        "link": "https://play.hbomax.com/movie/5b13c166-5c0d-4f92-9893-6ee4f7a1c72c",
+        "thumbnail": "https://cdn.movieofthenight.com/show/3944/poster/vertical/en/240.jpg?Expires=1800299009&Signature=SyprYJ381rNwS173axaSq1f5R-n9mMJ1MuZ7Q5P4uEYSXeRSZFeGb9OrtQawTY-q0GaEgA2A3zEw1F40Nln0bNk4tsgRkI-pBi0tlhDIItfCZKFEwaUdnx5KVSOaEk0Dugh4aQE~k0vhc0sXK-enuObZvt1rs~fVe7WsxSQQbtqJzuRr-Hzz8M60yzmlLzdy9OhLyeE5ies2jZd442uLwr3d3Z0byj0e2GxiRYz-IhmEwvYx0nJAKPayk3O46IgdX-gHKo~bdv-Yw6DGHKRcMiI5x7v6GH8kvbGPcuTgHPc8bt0M3TGFMLo-NawO4EVfcJYi9iuWdlqdVWXLp0rQXA__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 63
+      },
+      {
+        "type": "movie",
+        "title": "Wagons West",
+        "overview": "The wagon master, leading the train westward from Joplin, Mo., discovers a passenger and his two nephews are selling rifles to the Indians.",
+        "genres": [
+          "Western"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775577825,
+        "link": "https://play.hbomax.com/movie/1ed32a94-0b2a-45c9-8fa2-cc2f68018e96",
+        "thumbnail": "https://cdn.movieofthenight.com/show/188346/poster/vertical/en/240.jpg?Expires=1800318459&Signature=O3mxazxU9kizg-wES2ZJtyHZ-SFXcfIzXPPRMlysiF38wQdZpSwDXqMce1DtzB8tlYs~Shq4k7BGp~7MdJAa~G3aK4guH-WS~4RK3tOr0dr4zAdXG9xEHM1kgxOLUtqmIkfAlEmxbs0ZKW~qQd11ul2N-XWtemiiYfzYT9Up0ZKerfiAT5e9a6XCgiZwNLDqHkw7rHMsTGLBGN85ZEx-8qIjm6f68yjydDjwwuaMAro2npZPXlntBr7wmEhm-18SvZMl2ELDVclZp4Or3gDmyKeAK5GGlR8hMqUHVeTPn8glrWjePdssMh6750~HqGW-Qk7gOxeMBEHDyLLJvKDEVQ__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 47
+      },
+      {
+        "type": "movie",
+        "title": "Cabin in the Sky",
+        "overview": "During a bizarre dream in which God and Satan battle for his soul, a lazy gambling husband is guided towards redemption. Oscar-nominated musical stars an all-black cast and features actress/singer Lena Horne (\"The Wiz\"). With appearances by jazz greats Louis Armstrong and Duke Ellington. Directed by Oscar-winner Vincente Minnelli (\"Gigi,\" \"An American in Paris\").",
+        "genres": [
+          "Fantasy"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775577816,
+        "link": "https://play.hbomax.com/movie/de323856-4834-4053-a6df-0317e790c988",
+        "thumbnail": "https://cdn.movieofthenight.com/show/45250/poster/vertical/en/240.jpg?Expires=1801918795&Signature=dbbPLvC~jMsXyqSrXm4U~3u~vPt9Sej062clotxY2u0-aeMiLTE0yyPpVTobqHL7rR8noUl3DMOkf~8268yzinOSDKLvf3edrAFEn~tdSQf4WzZ1xY3fhekPQrApV88ykh9elYLh8yxWsopnUbAgs5P2ovI2hA2OkS3MBQdyDD6kjIusLPNkjBj5m2PxNQfLWMKzVzc3nMgObtC4M4uzEbK0fHSufK0EIgK4If2BE9LkAP5LVJV9Nfo4LfsbFwZj36SMGACoq-ubaxu2S18A3~9mdpKzS~bQl-Eo2zHNpOkyksNoQInVwRg4N8czXrggu5SYU9gdS9~z68jUoOnnwQ__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 59
+      },
+      {
+        "type": "movie",
+        "title": "Thunder Over the Plains",
+        "overview": "An Army captain risks his own freedom to prove a rebel leader innocent.",
+        "genres": [
+          "Western"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775577683,
+        "link": "https://play.hbomax.com/movie/08c0e066-2e3c-49a4-9821-3b3f69a68ec9",
+        "thumbnail": "https://cdn.movieofthenight.com/show/95730/poster/vertical/en/240.jpg?Expires=1795331400&Signature=L14yApN1o634L3TFSVwb9i14pc0Y2lswLTa5Q4ntEmH-k8fc~tEjva5WbtdCJmO-noS0Xe7u0KKQEcJf0skfs8TCwIsi24ugy8PBjXEGa~WS1-6idHGzL2MAigKSQps6xF7rEePJZK5Yll~vLDwyjXW6IY1tIzNtxgzKvWoGCMwMBm7uAxrs-vttlRgtRhFGFuiyUmi-SFoO4JXXndzx9MUvEEPgJw5IOwhfPbH8hf4uNlTt4shxbvHPNYcx5Pd~8Xbd1xFZZhsdspqOplKAMm~FX~3ubiZioCLLIE02jQakkAqB6pu9c1qx3bR0Xso5Lfi8AfmMym6mY06cG7Lfdg__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 61
+      },
+      {
+        "type": "movie",
+        "title": "Captain Horatio Hornblower R.N.",
+        "overview": "Hornblower (Gregory Peck) battles the French and the Spanish forces during the Napoleonic wars, but also finds time for romance.",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775577436,
+        "link": "https://play.hbomax.com/movie/64d3a4e5-69bf-4cd4-a3d7-b4d0b3f9d726",
+        "thumbnail": "https://cdn.movieofthenight.com/show/27472/poster/vertical/en/240.jpg?Expires=1803876073&Signature=S3E8QMSpEl0iRk17uA9VxtNmHmS7dYWaWczV-FOHqOx3VTRPB0ARMXhhNF4QUQS14W~fjzveOIR8mNpJ9jT5yUSOwZtY8m-YaLsRgSMUXV1znJfbqCNj4QDzCJ6GYWYbK5W9Z0ee0EFFRR~bHVRifoN3wXOl8x9lK-1~XRz1VTZSdx~OngwvRR9810-zn0DvinBsXUVEr9bHb1ZyD7E3BYZY5tMxxWtbQEL9dm1Hk7T5twRqjvzDSbpH018edmldvDiblQsDwNXwdgEwKWGvpnYGx89flXoKEEYOi9k~M~~BPklak~5m6b3ZhROhNnAeHQQiKBu34ZpmA~cn99Ludw__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 72
+      },
+      {
+        "type": "movie",
+        "title": "The Flame and the Arrow",
+        "overview": "",
+        "genres": [
+          "Adventure"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775577338,
+        "link": "https://play.hbomax.com/movie/dba573dd-9993-4036-8391-bda5ad019380",
+        "thumbnail": "https://cdn.movieofthenight.com/show/38876/poster/vertical/en/240.jpg?Expires=1800332923&Signature=Mo20UTPr4fDlGiDPWNUtdYIYS-CMX0PYZYQo902mS4BUcMKeS0DgzsUYpzeBtKdX6i7mLDIJWGFmXg62KeHJ3DPrt9ROq5nA4nGgLo2QOqfGWnVzoe1aW9pDRzsGfslB28WbbamkGyshMOmea~j-dMmxPCNyiIiaRSXRcfLVeMqlajBWidwidzqQCOIOviZfyTGXbmxFeYYV8rzybZ~GIMFR9hqy-EIAjx~q-KvSPnlkxUABLbz2m5Gu822ts~BLMZGx0g95ZgvXleZukkJmzS81uML2QH6~xNi36p3ECOj1o7VLlGxHRjSQdAVAu2XtViH6cW8pNUa8Xbh7N6PoHg__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 66
+      },
+      {
+        "type": "movie",
+        "title": "Mortal Kombat Legends: Cage Match",
+        "overview": "Action superstar Johnny Cage is pulled into a mystery that leads him through 1980's Los Angeles, where he finds a dark secret that might have lasting effects on the city and his career!",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Animation"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775577240,
+        "link": "https://play.hbomax.com/movie/83a6985b-4f7b-4fd9-ad79-29ea9774db14",
+        "thumbnail": "https://cdn.movieofthenight.com/show/5270983/poster/vertical/en/240.jpg?Expires=1803225564&Signature=GRJiK7UkquuUePXxyN2Gq7YOS4CjabOUXBYKN4V0X5P32fn92eY4V8GksyK5vLfKoEO57Nk216yl5IXymgOO7xCA~672o6sCVI-jh2HfGVYWyoJeHjt3ez6fF8QUOEyTGfbNzI6kWFo8UDDALTb7gp4KfvJbkQJ~D-YqYC9nlLV75JCCwRyAw~MGjUre2ojwMOVU7lUlodiNKjkpalFZOUS~lj6t9iO42E6VOpPrYs145icYvEydaP7O41ziEY55xiOxETMnwXcWkDe5BxspFk544M7GwT5B~f3rCTQ2lv3Z~t4MFLnKMxIWPkVsGUZo2jycfU3USi~UAJJ2TnXpQg__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 61
+      },
+      {
+        "type": "movie",
+        "title": "The Man with a Cloak",
+        "overview": "A mystery man tries to help a young innocent escape a murderous housekeeper.",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Mystery"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775577055,
+        "link": "https://play.hbomax.com/movie/3d1c0644-a2c7-446b-a5e3-62e5d98a708f",
+        "thumbnail": "https://cdn.movieofthenight.com/show/85038/poster/vertical/en/240.jpg?Expires=1794150058&Signature=PI1Ir9j1U3ECjTazKZpsmbEhUAmy-eNWH19CnEeVA316-EEQH52iWSDGIPlmvjTzTWQN3EcnDSSmwga9ENmYcBjdzj-hp3C-uyh~i0GLbQXcE7HPdbokoer4lXVFqtyWA05GfOuwIoats9pMGLaidlnV6YKWrvnA50K5V2Grx7~EIj-38o09h96V5wdrA3QqHK7dVG5haW0rMOSJFTm-FUACm~YUr7mi6402d0COoT00bP0TftD94lWioA2aCcqeAVnGDW0ShUw0qP9qPkR5uwC6UvrubRWIP2Hqo8AlTCD1qfuOscYuMPT6lU82RS31xsf-JiowpCnT7y3QlUS~FQ__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 65
+      },
+      {
+        "type": "movie",
+        "title": "Westward the Women",
+        "overview": "A group of 140 women make a harrowing trek across North America, with sudden death as their constant companion, to become mail order brides.",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Western"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775576826,
+        "link": "https://play.hbomax.com/movie/22b3b4bf-a5cf-473d-a828-1da29bf9eb7e",
+        "thumbnail": "https://cdn.movieofthenight.com/show/42725/poster/vertical/en/240.jpg?Expires=1795347025&Signature=P9p~UQvEUa2cQN9l6g0gA52FHzL6TBKyaUHMYBnwXkl1Ov-7lw7RXMGJFFlpzZLjBUxWCHVtxa0-vfq1Xszktv6dh0gf-cGRgr5Zeun7F7hnykHF664NS9QNhaQZqwkNzKw7DsLA-QhNEecKSDNbPpZSdFhQzGxa6Cz2O~XjKbLbLe5BjqRD0Ap8RH7BGGFWLKu~nxoP55pOSvkD4xii2Y3GZ0OLoY28UPNj17V~4Ykrzn4RiffLNSt8jdGA9seGj985ueJajM9q69CTwE6-ksRHouQBdnJC-~QCCRiJ1QaYkQTUa7-HLSv0LIoG0ImdCVRgpVY8opStmjhHzsnU3Q__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 70
+      },
+      {
+        "type": "movie",
+        "title": "The Oklahoman",
+        "overview": "After his wife dies in childbirth en route to California in 1870, Joel McCrea (\"Sullivan's Travels,\" \"Buffalo Bill\") settles down in Oklahoma. He quickly finds trouble when he tries to protect an Indian woman caring for his baby from the two villains who are attempting to cheat her father out of his oil-rich land. With Emmy-winner Barbara Hale (\"Perry Mason\") and Brad Dexter (\"The Magnificent Seven\").",
+        "genres": [
+          "Western"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775576700,
+        "link": "https://play.hbomax.com/movie/56fc7a9a-7123-4442-ae18-1ac17619449f",
+        "thumbnail": "https://cdn.movieofthenight.com/show/112602/poster/vertical/en/240.jpg?Expires=1801964474&Signature=jDnjk~K9Hs3oIzPtWDnUeL26d6CDUe08l-LWjxJ7QzHgOXk7-7wL2MZtAaGts8Km4wDSedlF~OLd4NXVeVUzIipJshfSzHzSSo8Och2NlNcn3cff1Q4GGskPmz-qrsL3dkG0vGRBPEyBQduurtjh95ztDyy6UFP79CUAezbrlbWd7AJ7B-mnx20gwL~HXr9FwShCh49kf9V-LvzpYOPYjkyGv~y-Ar1LsV~36ElXHYomnCtZdc~xp7FqTimv~itDPdP-vW7~fuC1zT63-J8xTMN9KtEtz2wiLsrUbcjIhzXQqKzs~8-xBtEW4PgzUkE4nIab2Gr2yZsL~4k9TNEd2g__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 62
+      },
+      {
+        "type": "movie",
+        "title": "The St. Louis Kid",
+        "overview": "A hotheaded truck driver gets mixed up in a labor dispute.",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775576590,
+        "link": "https://play.hbomax.com/movie/5f55a394-57b4-44aa-869e-ffcff73034ff",
+        "thumbnail": "https://cdn.movieofthenight.com/show/120636/poster/vertical/en/240.jpg?Expires=1800560368&Signature=KwtKmkagGhw54Hc7g1LXiIPSSrI9QHNIDErcvbXm-7uD-YuMuwNOzTeyo4qH0JNagdBJyZLRCM12vYSOLaOA5BEuL3bz2sz1~nO0NiGp0Dh3Zu-t5TMO7hP36tO2TdUKJCLOAtGu771Q05Nhnlx6Xtwg-ybnaZRPsb-wUUQW05f1rywlEdjw6MuemLmTTKThnGTAY1ou4TWwu8pvmQSgw3eX3u~u36Ewx3AYG~L514XZ5ggpNZHnEWtXpowrgmQUbfUrWcd5hn-hx3gBGG8WUIdi-KBFn~4QB-Az2UzFqtuUV0SpVevShbBi727cTGmkuLlzKemsMQuSRLHAYmOxJQ__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 60
+      },
+      {
+        "type": "movie",
+        "title": "Roughshod",
+        "overview": "A rancher tries to save his fellow stagecoach passengers from a murderous enemy.",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775576001,
+        "link": "https://play.hbomax.com/movie/6a8aef77-3016-4048-a9a2-691d7929e3d1",
+        "thumbnail": "https://cdn.movieofthenight.com/show/102939/poster/vertical/en/240.jpg?Expires=1803930055&Signature=Vdl~GZdWCxAUQmjBtH6D8G9279ALVar5kpq5Kb6UAOgUGML8utKEqX3XeUbO8kwwXZLMBMkbMnKgz6gP1Vef7tE9Jz4NYCPPJpPiD~MluArVAtOmWbEeefnSj89Zl5TQAlXMEoFXgAdcYpQzyt5VduXKofNpKu~BfapYdfmct-jYn~fOcWzy0FBIAstIlfZucQtukKnECkFoPMpRTFP3ElIgYZPTZS2NmL7MiGh5eqfqht6eYnIJLHJ58dc-QJO2VcFVCy9rOs9y-piSMQ7oAK7Eh6dfrDifOmtljEPV3fAHa8ImPvvMWl9QTWIUH6HNsIGxjjJgrTinJdYxlNbPyA__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 62
+      },
+      {
+        "type": "movie",
+        "title": "The Man Behind The Gun",
+        "overview": "Badland baddies want Southern California to secede from the Union, and it's up to undercover cavalry officer Randolph Scott to stop them! It's tall-in-the-saddle 1952 Technicolor action in the finest Scott tradition.",
+        "genres": [
+          "Western"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775575957,
+        "link": "https://play.hbomax.com/movie/aac81110-7c4f-4873-a194-81e2ab610553",
+        "thumbnail": "https://cdn.movieofthenight.com/show/102897/poster/vertical/en/240.jpg?Expires=1803929846&Signature=BoiCf3CYOfAfYR7G7E9Z4cLiYXh7U9iDYFkhCYMslnmuV5cd8KTQ9DOMwPzApQ~o4kNfPsx9FKPV6Me9fvX3fmhUAukXe-wMEl7oYYgu2EplJ2Ej86TOYhkVkQ0muK~9egmfkCqY2J-sPBKhlfnMZ9JTCl~WmTPjZvhqJit-1EBXfRQjYsKhlBGt3wDCnBcVT45ZXmD7upqZJrwFnGyVEuyxueVmh~aZ1izxMtge3CUXa2qzFcVWTk~W6YcqLBw~T9xijYXI5wmYEJ6hjqOSt4M5Zp9YtPA11W2Tb8gCRVknfhCuhkiO2Xes5wGsE64dMf~dlmFfZyqR~WIuB8vqaw__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 59
+      },
+      {
+        "type": "movie",
+        "title": "Springfield Rifle",
+        "overview": "A Union officer in the United States Civil War goes undercover \u2014 pretending to be court-martialed \u2014 to uncover who is stealing army horses and selling them to the South.",
+        "genres": [
+          "Thriller",
+          "War"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775575953,
+        "link": "https://play.hbomax.com/movie/711b4915-a305-43ab-89bf-17dea96de31a",
+        "thumbnail": "https://cdn.movieofthenight.com/show/57098/poster/vertical/en/240.jpg?Expires=1803908711&Signature=d6mI4ROhx3qAtJ-ebznFUjRjPT-vTgMQm68UCn8trJMVdghMMCypNt0JsRKRl8VGMZjj2o1vRM7IejbLVHPMe-SdDsasWV6P7Al-~zk-ZPKeQMm5-ibb7VTQ7X8qo8~6eZviIVv~j2oqsG5jI0tCLLxL6hSNmoYhtwzCDayobr~Yuz6TjGMTShqsBWXMp6QtB4zg0SHRPf57od369qoANYh5Zs7Yu0qYWc~~MX07kMEDxFren1Q4FzSQUrAV82dvBSGC04b6uPKklPduYU3emYH2AVuQHIjl4Uky6escxMaob3tM8aTI5TmhaPKhitm5YvlgnfU6qHSAvWNxKNHkVQ__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 64
+      },
+      {
+        "type": "movie",
+        "title": "San Antonio",
+        "overview": "Rancher Clay Hardin hunts a cattle thief in San Antonio, but love complicates things when both men fall for the same beautiful chanteuse.",
+        "genres": [
+          "Western"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775574976,
+        "link": "https://play.hbomax.com/movie/7731f1ee-9b85-416c-9642-2465eed9b2ae",
+        "thumbnail": "https://cdn.movieofthenight.com/show/66768/poster/vertical/en/240.jpg?Expires=1803921239&Signature=HHmkMIMvD5ZPG6DPQPuCcLBySaZWI2zTE~G51ow0EgyjyGDgHWPcZkjfc0GfdLr~dXLLW-OsBXtYGguO8WjkdULfSvPUGeFhxIsnlhQxbLUSXX8JTuh4lSbc1tx~W2GAljGPfAGg6hsPj1y1yEgYRvSQ5WuHF4xKXbBnGC3Wtc80hfAEG6RdST2Lwr9vUxXdoYTzW83u4V-uNsTok7OtE7wftemayEOR2KZdv5qBrEQS-rj2PUNJSRvVUHP9zqOUyVsszLBNb6NCeA1-a2tUtJmwXJuSyCiNsMHGDmwoqx2frtB-Cuu7guWdzPn3JgjtGQrCj1kbFHAbUOoLzKu3lw__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 62
+      },
+      {
+        "type": "movie",
+        "title": "Carson City",
+        "overview": "Engineer Jeff Kinkaid is hired to build a railroad across the unforgiving Sierra Nevada, linking the gold and silver mines to the frontier town of Carson City, but he must contend with both hostile townspeople and ruthless bandits threatening the region.",
+        "genres": [
+          "Western"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775574745,
+        "link": "https://play.hbomax.com/movie/a757357d-9587-407c-8565-85f1b602f20b",
+        "thumbnail": "https://cdn.movieofthenight.com/show/85437/poster/vertical/en/240.jpg?Expires=1801956737&Signature=KKV1S5LP~AY5i9i15ILGx-Ypf1GUbI4oljr4a9cU903ydUPb-laKMsqJ5Uk83eRCVZuJwFdjFg5Nrv0a~jGMXNm8tBvYn4DuUDhRnZulkd0ATmbde9AVG1tINKRGJ~-v0NrCgskfwCrHhNeQ3bxbgqDB7F49H3O2OAzlw5tPPWXNt8jhr7hpjwHuP7tuCq-l0wKdSkhcJt1TnV1wTGF-u~rcuHl8zB025TYdhv9yIZGDWrYmzbzA2kmDXXcYe2reuTzxbVTCQlG3lIU8YOzaY5UM8acL90HfsnbEC84MZ4RSQxguJsyQrIRe85VUZv844M6aZiGZp14VcvRWNpkdVg__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 55
+      },
+      {
+        "type": "movie",
+        "title": "Blood on the Moon",
+        "overview": "Robert Mitchum and Barbara Bel Geddes star in this taut Western thriller about a gunslinger who realizes he's been hired to be the villain in Blood on the Moon.",
+        "genres": [
+          "Western"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775574653,
+        "link": "https://play.hbomax.com/movie/b0bd1fad-fc7b-4bb0-8108-c472818f724a",
+        "thumbnail": "https://cdn.movieofthenight.com/show/46195/poster/vertical/en/240.jpg?Expires=1803921064&Signature=DzzKhPnayog15qAcYB39YCWaQPPBLQ5gB5FRcXf~zHTgFMp-j6XL1VjHyZkdH2jG335DeAEGGlSaKevu3Rqs6fZ7~RkMM-SeN8kMz1O0J1U6DeKHCmNZb1uMXDmNl1q696Q~j4LKMvubyyLReXsDdOjKMlXT0gj53UEA2kKvbrETtHnJ--mEWuDn18WCWavtCdt0pr-MgjBfD4L6siIYjC0VqbKvn2FpVcEG1WBETO4FYybltI932Vj4ReXYeoEtk03~p55G8PcC6~uoRVr4lpYv4mMrlpxq2GQ2z-TyERJ~3~t5kQSfeJYmRsZlMxhQNzIqp~16VWPBvdgTDUFGOQ__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 67
+      },
+      {
+        "type": "movie",
+        "title": "AVP: Alien vs. Predator",
+        "overview": "Sci-fi action. Early in the 21st century, billionaire Charles Weyland (Lance Hendriksen) is convinced that his satellite thermal imaging system has picked up evidence of an ancient life form buried under the ice in remotest Antarctica.",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Horror"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775573869,
+        "link": "https://play.hbomax.com/movie/51f40d7a-6d3b-4933-9eca-6617e9c1d5b1",
+        "thumbnail": "https://cdn.movieofthenight.com/show/2204/poster/vertical/en/240.jpg?Expires=1800290198&Signature=U4t0w1RjgU~FOjgd3MKgJoH-aQIjjn~KwtRcZFU7bqHvgO94it1md3IuMSFGrNvz76wirit--2aSYM8MyVeqtsGSXt6Zvuje2KVbmhQKJ7XkctZdjsj8KMUoEUU8Vt1W9VjuM2ZXRzYcGwTSOQOAX7gdxD~oeI5VG7KJ6W5BOCbeqQUAj1~zE7gOQJZP~Mbs2jyq8P-kdnkEDO2FHHIg~BJexdd~vlNCgPK8lKOrILxcBbiqijMb4kKglvum5gQy1NJGe3jDJ4Wikbu51m3S4FYzDXEoVOk8Z9zHpABRWQcbVxSPgNxpbpcbwvQDdPJErDeTZGJL5q4ErY9T5xDCHw__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 57
+      },
+      {
+        "type": "movie",
+        "title": "The Boy and the Beast",
+        "overview": "The Boy and the Beast tells the story of Kyuta, a young orphan boy living on the streets. One day, Kyuta loses his way and stumbles into the world of beasts, where he meets Kumatetsu, a warrior beast in search of the perfect apprentice. Kyuta becomes his disciple and, after a stormy beginning, the pair forms a deep bond. But when a dark force threatens both worlds, their chance encounter becomes the ultimate test of strength, courage and friendship. From award-winning Japanese director Mamoru Hosoda (Wolf Children) and with a beautiful, seamless mix of classic hand-drawn animation and CGI, The Boy and the Beast is a heart-warming coming-of-age action fantasy tale that goes beyond your imagination.",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Animation"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775573177,
+        "link": "https://play.hbomax.com/movie/7a25d8c8-4aa9-4145-acc6-3c8b5b23e033",
+        "thumbnail": "https://cdn.movieofthenight.com/show/12564/poster/vertical/en/240.jpg?Expires=1800411341&Signature=IbveJbvoWIHi-crCDJNerPxmHw5oJyMm8mZ8jGb2KKnsxQwlT~wKOLZTSOVsA8emWfNgF6s4pYyDjNedhGXuOgqz9fnH4tbw1HLHdtUiOgCCZtmHKGvoyq-32c0o5pkkWza1iot~IPxrIVjiPaYZz2PPAzsb5KhewWdG3M3PN94gWaXC6OEjGq4t4Om4wAMHM2InoLa7xlKjlSEWXarTCroHtA8YHVByRPM-it-wfjagtluzGLdroAdJq7dSTj4ZKN3erZ67mkQO3oMXB-IVNnka-4SouQvzP69M~ImmHgdpLCJ5tv7dPPmpY-7nk7JtLElqM3itHIizUbaIJrKntg__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 71
+      },
+      {
+        "type": "movie",
+        "title": "Mortal Kombat Legends: Battle of the Realms",
+        "overview": "Liu Kang, Johnny Cage, Sonya Blade and a few new faces go head-to-head with Outworld\u2019s most bloodthirsty warriors.",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Animation"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775573143,
+        "link": "https://play.hbomax.com/movie/6307dabc-e058-4e2f-8984-b90ea7a3077a",
+        "thumbnail": "https://cdn.movieofthenight.com/show/27460/poster/vertical/en/240.jpg?Expires=1801531129&Signature=ZMc3uq6G7tMq-tnIudD1DkFDBxRYcZ6SheumGGC3yJBK1iRQlmwN1Q89djTtQLtNXsBMBDGRw8klxy88TEPstVdhMJ7PE57fRz56oTo6yUGbKi06JgL-6cphLtBPwdb3IehOWL11fS0YoBy8C3Vy8-w-VQSnShlwpZu6JIq1Ge9GY6eyl1lJ6lm0Tm-Trn96tk6XnKNyqzosYHV2~wQXB9vbOw~DaiW2~6vTnVek~~QjZkldZnjK89Rm46fbzsi0DjKvkZQdB1kMoqXEbj2DoAg1dfixktG1oFA5v2HUB4C32lmZhLyzj6k2f6ArYCDsTn5vzVqnfprEY5psjj3x-w__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 67
+      },
+      {
+        "type": "movie",
+        "title": "The Mummy: Tomb of the Dragon Emperor",
+        "overview": "A man and his family fight an ancient emperor bent on world conquest.",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775573111,
+        "link": "https://play.hbomax.com/movie/438c0b47-c263-4f3e-b5da-88799d8cf1c7",
+        "thumbnail": "https://cdn.movieofthenight.com/show/2822/poster/vertical/en/240.jpg?Expires=1800300645&Signature=O0SjN9tPVKfwE-MtO2nD-6JJo4F6B2C0uSswjGbHOWjX2F1Ti6e2xxK9oqJIwV7hMeRLnB-ybBvVg0f~RmRV2jGogTw2j3zFec0AUt5pVgPuLO~0-z8SR0NacfF8KASqKWppNZaEONmMBnfHE-YpZGqyqaCzLzxpBCBmX6NT5s2ItbO~MHN8QwmNf-FfRzSI9UFst87tvLNyr8qlxoRYbmtz~aVMakJcn-ZSaj0AILSHbrtKfmbvx7Bwaf7fALeB3EKbjQfevfBgE5lrn90NO46x9ki6s7aasyIR61ehow5A~USVBOwdAc687ltcPMMjsflSVO98ozJ9PuGfJgJI~A__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 52
+      },
+      {
+        "type": "movie",
+        "title": "On Moonlight Bay",
+        "overview": "A small-town tomboy falls for the boy-next-door in the years before World War I.",
+        "genres": [
+          "Comedy",
+          "Family"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775573093,
+        "link": "https://play.hbomax.com/movie/d1ab0151-1da9-4665-98f5-6745931ff4dd",
+        "thumbnail": "https://cdn.movieofthenight.com/show/47923/poster/vertical/en/240.jpg?Expires=1803927024&Signature=LQalYl5-gtaS8mazO20xtLqnUoVsGoRigcYJXNUZTX0zzsnvMkVVp64n1O2EQB6oUF3NBHz36E3br71dX9RuGTvMDPP9UfXN-jvvBxw6rYjcWaNKXxpPFf7ONWN2mxqg7vqFz5FW~wvrh2KpOpIzFebcpUXYj6odSQvRra69zAL48Icg6WnH8lfI8Awe98L10yiDYLZQxJNXzKjBgw0ENCp7zTLCoL3iKKhFHydSgevPZIo0bUmFEst8We1jljIIOCjT-gFDLhSaD5pqTPLpHb9ktvROiyl4nuttM~LzXdZTx5MmDAf0xDFVDkz0mRhbwkx2ZfYemhCCOdWZg5v8lg__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 67
+      },
+      {
+        "type": "movie",
+        "title": "A Big Hand for the Little Lady",
+        "overview": "Academy Award-winners Henry Fonda, Joanne Woodward and Jason Robardsstar in this sly comedy about a fateful poker game in the Old West thatresults in A Big Hand For The Little Lady.",
+        "genres": [
+          "Western"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775572822,
+        "link": "https://play.hbomax.com/movie/1b643c75-b454-48ca-82b6-e8403845c85d",
+        "thumbnail": "https://cdn.movieofthenight.com/show/36692/poster/vertical/en/240.jpg?Expires=1803920690&Signature=FBlXpm5ugqQZRkJOL2Ba9sy6-F1UW6kqS0M~bEnMomOt3y7dKJcM~ZqjGThPcE-BX-eZCR4WtJGoq9885JsoISOFrX-kUNJ8qXuYJGw2foFTeen1AI-1twOQedvWhyc79ner9wnLoJW8gqfaQZZfdXm3nkzwUlFnPlS0aMOOseQae1lnvVXxKFHBxxybKogxrvuxh~YLDGAtgxmg1nsR0uL6YF3OMP-ix6JyXldNTzK8HUEjCriGE756yz4w5vHzQrXi-YeByHrU3OZKi7HO9l9i-msMNDsqyL-nB2k0kUO9jbCqf5ldAl6ob2dZ-9tHBuF3Bm0BSdcvv0usGGMmsw__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 71
+      },
+      {
+        "type": "movie",
+        "title": "Alien",
+        "overview": "A crew investigates an SOS on a remote planet and make a scary discovery.",
+        "genres": [
+          "Horror",
+          "Science Fiction"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775572566,
+        "link": "https://play.hbomax.com/movie/e8868f85-c804-440c-a7e8-96b5d4c310de",
+        "thumbnail": "https://cdn.movieofthenight.com/show/216/poster/vertical/en/240.jpg?Expires=1801611655&Signature=VIrWTAwKr-LMJ6Ue0U~xZdb7khKPJuZilsYPAjk4kL3Jc9GVyDnhbzwzUPg0XrjkkWAeXlr53FUddoyt2Q4XvzPtVld5G~OlA9CsJ2O9Ka~SUSsaXjbkLg4it1t9HMSgAfj34krud0dLNdOwMZjqM2SiW34511TekT4USmzovQfbAL1bIA1ZlpwZFxIz2CD5YkxbBUI7KLfSVcpCbpmqfSr9xeyoetbzyeIp6lUzBZKirJIklcCAjPrlb65I4DpzV8~1NA9jcr2h5ncnVQBtqE2hxsVMiYNt6AfNysRFhA1bX9sZI-AutEOOJAUF2yjtCkB6rVwhOieDjq7ROcq1IQ__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 84
+      },
+      {
+        "type": "movie",
+        "title": "Alien Resurrection",
+        "overview": "Ripley is cloned as a human/alien hybrid and battles aliens once again.",
+        "genres": [
+          "Action",
+          "Horror",
+          "Science Fiction"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775572343,
+        "link": "https://play.hbomax.com/movie/5d212dae-1998-4e9c-9e4c-24c3785b570c",
+        "thumbnail": "https://cdn.movieofthenight.com/show/1686/poster/vertical/en/240.jpg?Expires=1798052268&Signature=K541-Q5AtIi8eg6JNSTL90Hpcn7W2gPHMzB8VeVUSk7Pu3O6~kWUqtjv2zVoAb6tjz3CopqtU7G91oiYLl1-tQ50ULQ0qtueE7d1k-zhlgEgnRH4vcWBnBu0spIfe0zJaFhiAw4Vnmd9rpwpbAZOSflWTB-KxA6RhU8xovjZs3m7G499TrTJM4ZwRVBIoWgyt58uBdSW9YsmulNNeaJZUmWwC8K~-w2rhTuERPZrwf36FgP0eq0zI~WxRmJBzNXtExIss4O-YewEcErH~3Vx9N-E5wQNFKQXzVB1OKw1ptr6RJR1T6SXOJXzweCUn0fVpRcxz9YgNi6vaB8sVzQKUw__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 61
+      },
+      {
+        "type": "movie",
+        "title": "Maze Runner: The Death Cure",
+        "overview": "Thomas leads the Gladers on their final mission, the deadliest maze of all.",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Science Fiction"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775571788,
+        "link": "https://play.hbomax.com/movie/9ee3bb4d-fe0a-46fc-a137-02069115722d",
+        "thumbnail": "https://cdn.movieofthenight.com/show/3224/poster/vertical/en/240.jpg?Expires=1801611602&Signature=Os2foClKLlk9zTlb5qnmnTPR27jqoO8BCbTTAGEHjbRqdgoWcqjzwaS2vYMlT0I8uPP7SbQ~BlZ8ydfsMuGFDaXxxPuEkhy5bpxFGPy7XVJevwTm~t7FLGp~AmAvvcKsaFu8hgObsE5NX0ztDGyyLsFCVscmw1YjS2--qOHw3a576Zrn50TaqgsFv9DhtX5rEu97uDHbrAKhZELra7FGsLD8CwqXN6t4S5zB7CAF~Y2dgjhFdWJrsSCDaorVMFQNhK8nHRUic7tRvs65Q~cUv1TxGEjchRB3Xq3i3EhwEoNvGLCHYFWyRrkW57-eBevVPQNU1GqDINUaAiCZToJHpQ__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 64
+      },
+      {
+        "type": "movie",
+        "title": "Tall Man Riding",
+        "overview": "A vengeful cowboy returns to the town that once shunned him. He's set his sights on destroying the ranch owner who publicly whipped him years earlier.",
+        "genres": [
+          "Action",
+          "Western"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775571308,
+        "link": "https://play.hbomax.com/movie/70a82d42-e4fe-4c87-a5a8-eb7b344e17af",
+        "thumbnail": "https://cdn.movieofthenight.com/show/97009/poster/vertical/en/240.jpg?Expires=1795347597&Signature=Ct945YrtqACgHDHxBvxdzeXfH-issLlasfvvt9u2gNPEX0xkCy~-uf25aEuBhh3~3L59P6BDf0PB1oth3Dumx6754HvKiJnmvvsEk2tfVvxtPz5v7Ja-Em2xhM6Vhm4cDF9nSq6SIQD31dYW6zqItFurRkivtf1pWCILlCkb8fwUzsDca273lSMkwsWa-0jAQ0mGsMniaJjibciApenysnzNZE0gn3TEbTowegYFjelI~rTXVLLyKwtWeXAJojTkusvOw09pEvzzZvgIYrVrG8FBnhADeiwOsJBmGFjylaeYO-j8ii-55Cgv7e05~gmeYP3BVVZ4tAjJUgrKdGo62g__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 62
+      },
+      {
+        "type": "movie",
+        "title": "Tall in the Saddle",
+        "overview": "A male-chauvinist cowboy must learn to work for a female ranch owner as he becomes framed for murder in a plot between ranchers and a corrupt judge to steal a young woman's inheritance.",
+        "genres": [
+          "Western"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775571249,
+        "link": "https://play.hbomax.com/movie/97a23589-0792-40a9-8a9e-e47eac54d566",
+        "thumbnail": "https://cdn.movieofthenight.com/show/44036/poster/vertical/en/240.jpg?Expires=1803920895&Signature=EK8X1s12FxcSSST9brYxGslJJJ0cBW6Y90ut-wl8oE3-MpNBAzurvO6TBOBt~Pop3BUizdebV-sjvcdcQrL9WwuX2RV5ZdOSVcrkBJ~1U7-2cQrg5cfO6zKu44IooT4EpTf9gyRt91PhFweAiRo57sU2whOn7XxxGgmFjcubnTM6rfHHy-jzW9YVznwF77xFJw5rtrPL5QACOkkoXMlmeZqjTCMJDpiBnMX1Ds0yAFGZK4SFnTHSpJt-x-SoTknrDnqsuWqY54MHrpJjaSZebfF5-sbhRxGFVkV5C2HvlSdBiviAqWvbDySPa-ecjOxyR-8mGqvPF42Su1Z4VTZT5A__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 68
+      },
+      {
+        "type": "movie",
+        "title": "Aliens vs Predator: Requiem",
+        "overview": "The iconic creatures from two of the scariest film franchises in movie history wage their most brutal battle ever \u2014 in our own backyard.",
+        "genres": [
+          "Action",
+          "Horror",
+          "Science Fiction"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775570464,
+        "link": "https://play.hbomax.com/movie/94918199-fd9e-450a-8fc7-01d140e219a8",
+        "thumbnail": "https://cdn.movieofthenight.com/show/3625/poster/vertical/en/240.jpg?Expires=1800308273&Signature=ipjrcdF6lePvyVQlomE7yjhdI0TaZOExLFpSxUEbqOdeyyRO~m2n5vQp1yngiBdCUKLS0b6rChPktqpmD-mCrQ7a0hu1ZCaK6D2j8bMHlpyx4wZXIYT56a5iJOFpWmmyyVaXdTTcK3yD9P3UY8dsUIznk91RoTe4lNbh4JMxlHZrBuil8HX0SBZAJDlVH5jWhNZePscArkzA9sPZ4B6x~zm1haK6i1uH7Fj5kSlTnaedyHtQW4pNziXGpnAXlK5W9ZqkWlJjn3S4uDP8i4o4kuCmH8YgbAYtd4Qivl-3z0~fJSS3yxVpDFxuBLOgWjQ94Z8-iwJCencPGHNy0LQ0bA__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 47
+      },
+      {
+        "type": "movie",
+        "title": "Fort Worth",
+        "overview": "Ned Britt is a gunslinger who tries to give up his life of violence for a job as a newspaper reporter in the frontier town of Fort Worth.",
+        "genres": [
+          "Western"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775570442,
+        "link": "https://play.hbomax.com/movie/a264690f-608e-4f7c-84cf-f02fdae5d394",
+        "thumbnail": "https://cdn.movieofthenight.com/show/99842/poster/vertical/en/240.jpg?Expires=1795358138&Signature=FUJiG9-Lli3DCJGpYZI2jaQszlPoGz8DDzyhDtt1XeiGv1htl-2hB0JnPzWI9kFkUfS2vRYtV1Ec~DHOZ7F~DhMcKrf9GFzM2dfFfgVQYHNPJkCPrs~n6cE3wZqk4D6xDCwnVjwfxy9gVFRltZi6~mxirOxh7JMYJBLmGiATUl~W-v5UyukDFTruqQd1G5BIOtPfoftfr-vdVaHzVbkEtKwSpemabmZcVSdVXitaKK~0~p~QYTGPonSQv3pRAof8y3lsi0~dQpEKxKm9aCq3FgUHRaRAyR2vzmS3ZdIWHRFdBM5DOcBT8xsEDZ7UXtbV0PfPfB5nERCvtz0YmuiTvA__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 53
+      },
+      {
+        "type": "movie",
+        "title": "The Naked Spur",
+        "overview": "Oscar-nominated story filmed in the stunning Rocky Mountains stars James Stewart as a bounty hunter in pursuit of ruthless outlaw Robert Ryan, and his beautiful girlfriend, Janet Leigh.",
+        "genres": [
+          "Thriller",
+          "Western"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775570318,
+        "link": "https://play.hbomax.com/movie/968f114c-4fff-44c9-9be7-5dae99424451",
+        "thumbnail": "https://cdn.movieofthenight.com/show/20013/poster/vertical/en/240.jpg?Expires=1800419960&Signature=ZHXxDRCNKnINbJAk8wJnNKtb29ZgiztyJ0CILSnB8b0l-8fBdHu2Io333VlXkviQvUtGQk-T3Ie~5fGvKn4l3JiqjYPi~~PDbGWePKO~YjFxA4lZEGnAgsIMmg~R2BJebpLm9dKLCrQjo2iXQI0t-hQk15zPIELecjtReMT9iHPT~J3L9ZMg0U9KW8SapjrbrOEA~pjvuhdgKFXi6~DaunsvaACpk7umeCc0CrVyTeKEyuXcA-2E571MHBMiPnTqxI4VVzFUUz79m9fPJRfyCVa2NoSmacA5FW65vT9BER36eaB7BTi4A~2QgnXszqtXl1rMjey9xX515fUKPUKY8A__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 65
+      },
+      {
+        "type": "movie",
+        "title": "Rocky Mountain",
+        "overview": "A Confederate troop makes a desperate attempt to build an army in the West to help save the faltering Confederacy, but the plan goes awry.",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775570174,
+        "link": "https://play.hbomax.com/movie/4ff5fdd6-5bf0-4684-967f-b350fb684fea",
+        "thumbnail": "https://cdn.movieofthenight.com/show/82027/poster/vertical/en/240.jpg?Expires=1803922004&Signature=WrTWkrNy6s9HTHbSsVgHrSwchu82O6aIj52tYLYsDsPjOKI7cE5wZHnwJ-JEmcBtEJvxU-TGjby60OJWw9apRYoTonYVhYzwiBhjNADEt3AGgymBDFGQoVianJvFYt-3VH56ZyaG8qwjr8HQ7-CPetrhOS2C9VE~KsRKqd5xtpL9iX3vs-MSY6nGxPOexOz2K~xcxrW2Juu0aYeKZatma2y1HBu7TXXtdyHUK-1Tq7uCmGjO4xZFxPOMnXLGr5TgM0318dBqNjxvUGsuO1mpFKXhg1hy-wmKiNFuCtfXGRUVOJvkpZP0yQe0r9-gN032or76cS8UwMFs-9wYqS47cA__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 64
+      },
+      {
+        "type": "movie",
+        "title": "The Man",
+        "overview": "Special Agent Derrick Vann is a man out to get the man who killed his partner, but a case of mistaken identity leads him to Andy Fiddler, a salesman with too many questions and a knack of getting in Vann's way.",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Crime"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775569862,
+        "link": "https://play.hbomax.com/movie/d096f120-c3ed-4a2f-a507-7b7293733e5b",
+        "thumbnail": "https://cdn.movieofthenight.com/show/12210/poster/vertical/en/240.jpg?Expires=1801793711&Signature=UKwHWd9w4HDRgmSimrSn-KQyET4O~X-J7-mbabf2imGVBK2qH6EPsegA0HW1MU8xChNypW~22h6udNXSDn1xRJz0dMqujpeA6cw4LKlkImWvzn3v7QFBKZ030Sug74qzOoqRPd1cOf2l8jp3JfBFoX18DYqAm02SQT9ResGlO9dIPJrN8gCQXoX4EZwnqKm9sLL61l71~EL5Sjf9Vta2YN0uIBfHtqmT8JkJz9F3g~-voE6MHCPvvpbE4Xe21TUqLeksTZbbBfKPpKGUw8u1ql3NqZDxwWqI93o9bGREWY3DqdbaXBTdtYFArhxpN1~C54YoJz8W0baqAmTItLDibA__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 55
+      },
+      {
+        "type": "movie",
+        "title": "Bud Abbott and Lou Costello in Hollywood",
+        "overview": "",
+        "genres": [
+          "Comedy"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775569354,
+        "link": "https://play.hbomax.com/movie/71179489-742f-46fd-ab6b-4d1bf6562dba",
+        "thumbnail": "https://cdn.movieofthenight.com/show/53818/poster/vertical/en/240.jpg?Expires=1805701717&Signature=hW-0ykOAg2ahg1maIgxPkYdbOyFNQY5ijp7Xvhg5QWfDh8za0GHUWdQL9Oh0o0NzZ7XOSuH0eIsXA--uK6DXDNkGWBEOj2cTl2PzFgC-zjeK3snKkqP95WXYYmi-NLYUzFUYVzEPT0UAHpgjLc3s3AUs8fUqSNzF-A9ysu7NSsszmPDderhBFEQhLH8-bSpyGx6rlhVrsxd1TJYWDfFDsSSBOG-vbRj6ML29Sqgs8NvqsrIl4sP6LhpQN1qLpbtwWgTCBdAs8IJqXqxGNbu~j7cDGepFnefNQjWNdRVNXal64RH5g4PvWtoyeMDr4Rl-7BmbN02ImMBIoJ3f3h9qPw__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 57
+      },
+      {
+        "type": "movie",
+        "title": "Shoot-Out At Medicine Bend",
+        "overview": "After a cavalry troop is wiped out in a Sioux massacre due to faulty ammunition, Buck Devlin - whose brother led the unit - leaves the service with pals John and Wilbur. Together, they vow to find the men who sold the bad rounds and bring them to justice.",
+        "genres": [
+          "Western"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775569045,
+        "link": "https://play.hbomax.com/movie/dbf491aa-826d-462c-b4f6-44868acf506b",
+        "thumbnail": "https://cdn.movieofthenight.com/show/101086/poster/vertical/en/240.jpg?Expires=1801956930&Signature=ZQ3U3A6TOAlxIGSm12yLYFVFoY7G9LY-jH9rjtK8BwuXviwilCk6K4GDKM1oLEhA1zoy21oUjEimxJmGLqvKb1QcR0vfp8n3jvkCrtFwuuNL7BYS3JKe8TKyYzFhRwmJnFPsmsSbb7~BFae0N2uRNyK3SqiJ55zsSzAh8LS4kphRHXNvCiqRNK~X6RousRkUmr0BYH0wPBOenQhE0pdddCypciPaQgvAZet8ehP4rTSwTwpHrFaqSmfGi2dnetCKsVVtkbuaH0PLS6GHtrtyI3uJQyjD9jS-wQMDVgerUvfcWHp1ivtDVbciMavk8Pf1n7fo6YcJjX7hXselwOdJ2w__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 63
+      },
+      {
+        "type": "movie",
+        "title": "The Hole in the Ground",
+        "overview": "A woman suspects that her son, who returned home after disappearing in the woods, is an imposter.",
+        "genres": [
+          "Horror",
+          "Mystery"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775569017,
+        "link": "https://play.hbomax.com/movie/03127735-8d38-4910-b3f8-7bda17f313fa",
+        "thumbnail": "https://cdn.movieofthenight.com/show/14693/poster/vertical/en/240.jpg?Expires=1792747727&Signature=ApOT~Ip6y1jfdVvcWrW~swgo-mUsdGsCyRBnwnPDKf7ob-ffB2DygU57uG~rgzmBDHV5y7g3XJidbKvCePWUmVoAOXPhuTchGgA9QXzJ0dh8yPVNyb~wmvbXHeBaOAd0v5d3VZ24HwH5ryzNK1h-BtI0HMhhybus0PHt6Kbxk8DnTPNxAYr0pgrHHcfCMTlfuY5GRgKkbncR-M5r9mBxi4t4h6IK04FH5onut9kNp8zNnBtobENpOy05BKLI4sLKPNkY3Bch6rh34Saiq7NNiSn7OEtqetjXxL7UFIlpYTBp~yTTmYX27y323wMuzNR07MU63lQxT0-vLF9~wv-mhg__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 56
+      },
+      {
+        "type": "movie",
+        "title": "Wichita",
+        "overview": "Wyatt Earp is hired by a western town to bring some law and order to a place that is being raided by outlaws.",
+        "genres": [
+          "Western"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775568744,
+        "link": "https://play.hbomax.com/movie/2da47230-ee6d-4e09-b50f-b097bea2e0cd",
+        "thumbnail": "https://cdn.movieofthenight.com/show/59261/poster/vertical/en/240.jpg?Expires=1803920974&Signature=fqXeX2XlXjMFROd7e9IzcRicNiYUSJnDVAhn1FUdhAHnQi~1XHXtRtGa~0Lt~bt0vTdRQGU-IbAl10QAlajkEDMkQrwrofg1-pCK1GJfvFvnvN8r9u7el7Ss2LAw2E2lfiMQRMB0HPcj-DqP8mXzcpB5Shjn3DPRD1Xj1q2bO2tGzPorpaKQJIfUH6oySxDXXV8OV-88-M18EufrgdD4-Jwc3UOHNHK~X9vNw74YpgPlbjzUS527VEELBhDXYBNrm4rq-vppJhmgwdHLZsN72AZYDUZYTuc5js8-XPXG9UzgROxhHp119RW2Zv7E~EqPXv1GMZ1PAh1r40YgAogTDg__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 67
+      },
+      {
+        "type": "movie",
+        "title": "Fort Dobbs",
+        "overview": "Fleeing from a lynch mob, accused murderer Gar Davis tries to find refuge on a local ranch, only to save Celia Gray from attackers. Due to a misunderstanding, Gray believes Davis murdered her husband, and he must find a way to prove his innocence.",
+        "genres": [
+          "Western"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775568443,
+        "link": "https://play.hbomax.com/movie/1ea12135-ff2f-4499-b183-83200df03ca8",
+        "thumbnail": "https://cdn.movieofthenight.com/show/98073/poster/vertical/en/240.jpg?Expires=1803921386&Signature=RF~WTE9rqRdSy4QVklCWd0Oqs0evHXQBHH4odA~mvLc1ViFI1Lx1Xf6mv9MKHHBEScg5ucIBO7bryrwFROH-mLCk6ZaGI0w7bxDo3cqAAW0vZwFF~u6ru4Ge9hYlO2H-YzMTvHOOi~QRaU31Efy9EVij9BmQRO0iDQAbbSjSsF45lCtHEyFLct0WB2fL9rr0O3i6EkytnRo9r0OfFUhkpmpabzEVo7uPmgImFQESlgJ9VPH0D~EkFyihzLWr5Jsk-c5UboWG4xWg1KcWZdWisB1ev5hWrYj117T51hk5DfnXAZtxaJqAUb2WsXlqsYmgZRSmH5EAgSEHk3f0h1El6g__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 64
+      },
+      {
+        "type": "movie",
+        "title": "Man from the Black Hills",
+        "overview": "A man is summoned back to his hometown to battle an imposter claiming to be him to steal his family fortune.",
+        "genres": [
+          "Drama",
+          "Western"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775568352,
+        "link": "https://play.hbomax.com/movie/25920ceb-394a-457d-a7d3-a0b76787daf3",
+        "thumbnail": "https://cdn.movieofthenight.com/show/334237/poster/vertical/en/240.jpg?Expires=1806312116&Signature=Vg-Tdnz138CDK5TM63ygpz9K9yOV4T0SYRUm~1KBBWGCrshX92FWnJ2URfed9B93xLPXbTb958~BP9DRruuQyVM1UCXz36vqY35ChoAn3qyHu2dFC0yaPu9-4yg6pOa3~9mJHZG0dVNZ6~c9Xp6Vvwn5UXtsEf3LorJvA8x4yTJQ4AP3-~WwA0XFRahBwYIGTEVGIMp2C-YsbMS3zXDhoIG-iGgK1fZXNWHp0uEJpDcXEOqlFFUFInhERSKQsA4-dEPcQuS-zzXImPbnydRsBuUlA4zkgIel-yKZL7cW73I9DaXu1pEMDJ9ngLjBkMVS~rNoxMxKWTJnxpaLJLfGnA__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 49
+      },
+      {
+        "type": "movie",
+        "title": "Inu-Oh",
+        "overview": "A blind biwa musician and an outcast from a noh troupe perform wild concerts. But their growing popularity and daring music attract the shogunate's ire.",
+        "genres": [
+          "Animation",
+          "Drama",
+          "Fantasy"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775568142,
+        "link": "https://play.hbomax.com/movie/d20450ac-3b3d-4b92-837e-4e25698ca0b1",
+        "thumbnail": "https://cdn.movieofthenight.com/show/93302/poster/vertical/en/240.jpg?Expires=1803187414&Signature=XydOPxJSVdTcbUV7hawHL2~IbYZGinM0d2VaG00YQOj9sQIAC0bJLKcRu-XIjsBU1xiz6RU-RB7tWrreFUJGWNB3d0WriNN0MggXfE4KHrlkEBVbpGGqyJK6G-kihd~ou8ZAssSsNoIPkCQHRmi3tX4kf4nZtmmFxF4vaZsAxX77xvGpNDI9KS0c1~31MpgkP7Ehv112fZ2wMpAeXxsraUpnDqK8Mocb6c6Znp8rWzcddaNQBFzXmePQl4mY5gzuhI20do4LsKHDT-eN3BS3~kFTBPGEwPLkOaQ6JSgZJZFFhgoyA7K8zyzsLpBWd82mLtciDnmsdsGwMHPTBEXmXA__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 62
+      },
+      {
+        "type": "movie",
+        "title": "The Left Handed Gun",
+        "overview": "Billy the Kid sets out for vengeance on the men who killed his mentor.",
+        "genres": [
+          "Western"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775567883,
+        "link": "https://play.hbomax.com/movie/97f5807e-09ed-4284-857e-391f5b22b4a9",
+        "thumbnail": "https://cdn.movieofthenight.com/show/36718/poster/vertical/en/240.jpg?Expires=1795337863&Signature=SZLs7GvALhZTf3x2p3D1R4-JMap8BmUdt-o7JHn930KHAil3IQKk0s4lEbj0G9IVfw1j43LJ36cFNU8onO6-3KAE2llyVfq7hZ6eqsXI5QqZY7OBONH4VDtJzaKNcSBAOOQ-AslIxxbuwp2mriW13X1GEObUJp78xgKjzO6jVK8vvaU1zWiQ5mTauz1ARGNmurss84ksfAsO2N76gVgVvMVp0Pdbclvp9kvCCiylMD4Xq7VnuMCHNISWRANq20-Sfp4T00-06h3dSJWrdIcDQWVAdO~tOkfWxk6U3yGX2C4owhvyKKmfzvZhN-8I~p6tieBkdecZCr3Qo85CFd1iKA__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 63
+      },
+      {
+        "type": "movie",
+        "title": "Practical Magic",
+        "overview": "Sally and Gillian Owens, born into a magical family, have mostly avoided witchcraft themselves. But when Gillian's vicious boyfriend, Jimmy, dies unexpectedly, they must use all of their powers to fight a curse and a swarm of supernatural forces.",
+        "genres": [
+          "Comedy",
+          "Fantasy"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775567865,
+        "link": "https://play.hbomax.com/movie/0e03cb4b-546b-4c49-a46a-25458223c859",
+        "thumbnail": "https://cdn.movieofthenight.com/show/5287/poster/vertical/en/240.jpg?Expires=1801809850&Signature=i82qQXc4gGXB4A~EKTHMgbqId045tcewqF~btARB~GkT8-XNL10XufVQpi9TY02gB8Hr2n0P76VGORAnheFthkvss1VXL8q1x3R3dJnS1bASWWBtEGe2udY2k4yxKBqE9-nf9ac8GBHFwjmbo7GQyEzXkkbiLOAWmRaBePK1t5Fw0hYl5gP3p6qH8Oph~MZsBOGE5-aTp3a~ZEyMAbhqoNpNp6XCVlG2wK6UWfIpYJl2-00elKLCXcRTWvqFJkyE0QeZhE11oR7BQAjH7Z65wSMRviLa5219~ionJOUpPwVPPaumka4KdNxDRhPdYQZyhwSgnCZqL8ljc2O3cAQ~Uw__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 64
+      },
+      {
+        "type": "movie",
+        "title": "Out of the Past",
+        "overview": "Robert Mitchum stars as a tough private eye who is caught in a complex web of love, money and murder when he is hired to find a hood's homicidal girlfriend and falls in love with her.",
+        "genres": [
+          "Crime"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775567829,
+        "link": "https://play.hbomax.com/movie/60ec9349-c20f-4a5e-8b73-81b2214db8c1",
+        "thumbnail": "https://cdn.movieofthenight.com/show/9602/poster/vertical/en/240.jpg?Expires=1800381834&Signature=IplkXM7D~mpKlJr4wleGR~c1sOhrwzfKC1anVEWfA2K0FwwhKJ6IJUOoMLyDGwAeqzDEEzoGT7QCxrTWW02KblbYairR73QjazUF9EEjMVATBnFzE~vmWlVHIOeP3hRNC~Agk~5tknZfqeMFSCbcSh7LGAZIgFqkVpL8AfcnAhythy6cC5pmfJu64D6dMlAaU983P2ucTHWHIfzbJ-AIuRgDS36s9gCW0UPICAF4ROxdbH-wUh1D85HKzYk92pzhoBeVR1F-dmbiS6bthcYzk10VF16GDROWuAjDDT4xBiRRdAZD5~vWbQGtYLeuWPWLVUSgHfdLdkti8DWpXd-S7A__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 70
+      },
+      {
+        "type": "movie",
+        "title": "Abbott and Costello Meet Captain Kidd",
+        "overview": "Rocky and Puddin\u2019 Head are waiting tables at an inn when a letter given to them for delivery inadvertently gets swapped with a treasure map.",
+        "genres": [
+          "Adventure",
+          "Comedy"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775567753,
+        "link": "https://play.hbomax.com/movie/4ad2be5c-1b90-4d55-8ede-28a340e5dadf",
+        "thumbnail": "https://cdn.movieofthenight.com/show/55983/poster/vertical/en/240.jpg?Expires=1803817658&Signature=SEnFjuAQNGmcF9KSVOfOIa~QGUZTewYJjbokZaE2~1lFLhi6XEYQMCQwwghA1iTAHGbt81s67F~jxRdApnwEokGFCk-Zuu3dnbardMcbnS2kirT2B05-MCvO1bvi078ZgAK3w7oPPtcwXWuy8rKGEPu4dt~R-ueI06pAStypqOzfAOpv1U0sxFTx3DZL1y6l8UGgykneVtcQd0l8mosEF5MBk7Ri3pkCnFIrFVsBsaAoCaVAKuF1YxZ-fW0iyoIHjoHoS9KO0A3TdIUZbqpzX7SuhGHdKR9tFcsQi03CHXU8AsI7ZnHjEo3M1Up-5ti-CKeMPFOYhiJMQZj4wASYkQ__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 57
+      },
+      {
+        "type": "movie",
+        "title": "They Died with Their Boots On",
+        "overview": "Errol Flynn (\"The Adventures of Robin Hood\") stars in this romanticized biography of General George Armstrong Custer and his last stand. Oscar and Golden Globe-winner and Emmy-nominee Olivia de Havilland (\"Gone with the Wind,\" \"The Heiress\") and Oscar-nominee and Golden Globe-winner Arthur Kennedy (\"Bright Victory\") co-star in this wonderful portrayal of a significant historical event.",
+        "genres": [
+          "Drama",
+          "War",
+          "Western"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775567397,
+        "link": "https://play.hbomax.com/movie/14cbb99a-679e-472a-84cb-c6b7604224d6",
+        "thumbnail": "https://cdn.movieofthenight.com/show/28572/poster/vertical/en/240.jpg?Expires=1803862079&Signature=F-Hsghmf1vrDIyTeh0qzvDi2Jfhp8njto2Nwx3MZM~Ijkbz0isTfbvHtx~9OR2l6Fg8qy3OnwMR-iyom0GgVqeclN7f9PSvwTHp~ZuD4gTpVvmdxOFwr6u~caZTO-61j2pGBgb0s9PPCKN7q9V2C2DKQ9zFWFgrwI20BOwJ3ar0d20X8wIcoBIoHTK8nwZQSPe0dTw8V776U47OFd8ibtmPcnZUj3qPrKI9s3BQsB7ij0z8IU3i1twfjpp9GtZtckLm3OlKAIkTGOI9CnXYTFhstHhnI~w0MjadnqksyK-FvyMMsn8jniGiV5jxbsIBBzKEKeAJAyLojR~MH9ZcSNg__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 70
+      },
+      {
+        "type": "movie",
+        "title": "Mortal Kombat Legends: Snow Blind",
+        "overview": "The vicious Kano is determined to take over Earthrealm, one soul at a time. Kenshi, a rebel warrior, calls on Kuai Liang, the only one powerful enough to challenge the malevolent Kano.",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Animation"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775567244,
+        "link": "https://play.hbomax.com/movie/9f3fc94a-7f2e-46e6-bdb3-377c3560811a",
+        "thumbnail": "https://cdn.movieofthenight.com/show/64528/poster/vertical/en/240.jpg?Expires=1803663222&Signature=Xluar9q9125ctQzwps5hg72OV9KY4cdIG4Ujft3p3EM8yg1xoQypJEa4~ndoPSAhrkR1DmlUknRatqy3fNhd81IjVVVALsZ6h913SOmCqbcLPPtRppu3ueWnmdWrYEA0PuVYYPqwqzJZvzmnCGZlDiJ6kVmltmOwjZbcXs9d3CiLE0Jd02B0yCb1O2FrKYGa~rHvZLtbp0IrMVWOnH3RsJyjDTbfLF-61OAONdHxVqbbtxSbXCytH3Lyu3ehWOr5BIxWqf2ssOLHC8P6N4SiiqAO576dQHnlfV3rK7r9623RovHuVENp5ZWRiUEeNx-vs76PvEgrlQ7Dqcm1fr7SYg__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 64
+      },
+      {
+        "type": "movie",
+        "title": "Game Night",
+        "overview": "Max and Annie's group of friends meet regularly for game nights, but find themselves entangled in a real-life mystery when Max's shady brother is seemingly kidnapped by dangerous gangsters.",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775565461,
+        "link": "https://play.hbomax.com/movie/f6916227-64e7-44d1-b626-8e832b93064a",
+        "thumbnail": "https://cdn.movieofthenight.com/show/1813/poster/vertical/en/240.jpg?Expires=1798050842&Signature=FSlEO3yDq6PYNH11Fj1PEpuUvGOJz2T~eu763A6KS4xirKnJ4LtiU1EHBQmiKIgWCkIKUxFMckFMSb2zFWYZ~DKb4d~GrEK3IyggnMwHQGXitD9MigAOC5yOnrJIXTD93wnOw7OMx2pWXT1V93v9s-apeDvnQM-29dpRTFBheMjK8Dj89R3PvJ28nGJQpsLwIsHBS1kz3BUSRyHk4OUOWm5voeC8qHUnjM8Kee-kDYNlc2r~7ZqET0gaF9SunQcC38lujmqB~DchdwSJclbqqPiGik4-5-kmR9fifHhe0u6Bn3AxvhiSWqZVnTM3jUnaiNUZS8sul10gGJ7yaY9LCA__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 68
+      },
+      {
+        "type": "movie",
+        "title": "Twister",
+        "overview": "State-of-the-art special effects stir up this tale of tornado chasers on a perilous quest to test a new sensor device.",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775565439,
+        "link": "https://play.hbomax.com/movie/228f6bec-9597-4cfe-ac85-c7621ca8b509",
+        "thumbnail": "https://cdn.movieofthenight.com/show/2265/poster/vertical/en/240.jpg?Expires=1800409865&Signature=jgPtPN0p2Tvht6Dvd6RQxTQkCdMuSJ3ec410Kvf5AW8V0OWXbW7bHxv4IkpzsNDjVOANOPwgLYakU4Nk5ogZGt-Ru31BsnGINQSWMEIjLmkmEAWscugF2PaYe6RFFNo3vqgL51rUAHA7X~rDqiw6rrYbfVDm~nEFzNzC5WX~9TjCQ9TkN~cPJ50pqFF-vaaufSRttu~pND-EXSpHb91SlAYFFMyDDRytOHwTc918gzyek3Wdn7mh5aUlIiKT0iMgNiZghZV-~8pnH6MwQ6a7Z6yLEYivYOTXOLfCRiSS6~5rjJ89~-W93IbcFBHYSLgsnrp8jQwf0YN6Ulzjfn--LA__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 65
+      },
+      {
+        "type": "movie",
+        "title": "Alien: Romulus",
+        "overview": "This truly terrifying sci-fi horror-thriller takes the legendary \u201cAlien\u201d franchise back to its iconic roots. While scavenging the deep ends of a derelict space station, a group of young colonizers come face to face with the deadliest life form in the universe.",
+        "genres": [
+          "Horror",
+          "Science Fiction",
+          "Thriller"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775565419,
+        "link": "https://play.hbomax.com/movie/e2386ab6-b43a-4380-ac04-33dbfbdc6241",
+        "thumbnail": "https://cdn.movieofthenight.com/show/8866773/poster/vertical/en/240.jpg?Expires=1794931409&Signature=ZEBx3NpRLE7Iyo-DDwiLskxMlP5OoXoKRdRIInWRkbhq2WkTQ38gBhxh3LpxECQ0R0VN3MprkPv9k~I2OWHB0VGr0SyHqUJ51XaKnSLSPJJf5xRmtqP1l~MKBbWv-fgA9lfo~ycB~niwUD9b16QNjXxF-oVskH9lRZM~UNIesasoY22asVe7O47WKPuvvFzV3NqaUMfWJAjkjt5BCzjQZjbZPAdVgU-lEoFQi21gVmkgoo5iJlRhgdMiFfnFJblAolSUZ-70dY5JG-JEMN9O3LFrI5JOYy-yS8zKMjWY1pzO2~~JtMCdzYkb6rIYjZxO8VJIidlzkZPveMDqE6bpdQ__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 71
+      },
+      {
+        "type": "movie",
+        "title": "The Mummy Returns",
+        "overview": "Evil forces believe the son of adventurer Rick O'Connell is the key to the reincarnation of Isis.",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775565407,
+        "link": "https://play.hbomax.com/movie/17545240-c3fe-4179-bfcc-48022d7549a2",
+        "thumbnail": "https://cdn.movieofthenight.com/show/1178/poster/vertical/en/240.jpg?Expires=1800273465&Signature=L6AlclDbARssWvP9S1VYwt4pcEnH64hWd24lz5VOqyJxuRuwqD-I-Lfmk2D~UfJSH0SiND-zIgMbhOcu9UgE92ipF7pIBcoWNC54RzX0a1psD6zbmlktlgBGHM9YC0AS94hSLx2Wt-fvPVIIRe~w5QhU~VgHn4GsMiUiuVUGbmTF3RnJmnS8nJiUAtU9hkeoMYvPCgLeiN5TJBKJMkif-MyapVeQpD0W2700ZvI14n9HOvmIpiPi1q5cXq1lMXZL5pkLcw7ShK~vyVzOxuQSQch5paHzao6mxBROyeY2aN33OI6djpg3kiNF0NgAQr2yyPnXLB1-ivm1Ji99sLFFFw__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 63
+      },
+      {
+        "type": "movie",
+        "title": "The Devil Wears Prada",
+        "overview": "A young woman becomes the assistant to a tyrannical editor-in-chief.",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775565387,
+        "link": "https://play.hbomax.com/movie/70bf4aff-d753-428a-a710-b54115d6e6ae",
+        "thumbnail": "https://cdn.movieofthenight.com/show/811/poster/vertical/en/240.jpg?Expires=1805451755&Signature=O2iltZ~heOAnF-O2kVqfzwxNLgsKnuftvK~TKTBbdLcsXQDZBpnWHvmPjvRJd4xKrBSD8aHb6ulrPb1Y0MwT2IsxT~h9MYkTlvoR4bc~Ak9U4lfwYSxA2-HTvMbTEdu8UaNv2HHkJ1D5ladScE773EATPE4vPpInuti0mODXqSEBUW20Jo4H4ulwl0lVNH3XIEVYlCciRip3nTWtPXuZsZEEOvU7W83ReXJuqWp9h17dTj8AYXGESgQuRJOdZcd1QqEGUkGoetzmC7CPw4mK0u7nTUo~0XpNpUudRuZ-HhepFdTQiF07uPOgrrAOqlzSom~dxNaL1gb6DTmLDTv3FA__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 71
+      },
+      {
+        "type": "movie",
+        "title": "The Mummy",
+        "overview": "A man unleashes a mummy seeking revenge for a curse laid upon him 3,000 years earlier.",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy"
+        ],
+        "added_date": "April 7",
+        "added_ts": 1775565368,
+        "link": "https://play.hbomax.com/movie/a6112596-204c-434e-aed6-3e3fcb88c31d",
+        "thumbnail": "https://cdn.movieofthenight.com/show/783/poster/vertical/en/240.jpg?Expires=1800309149&Signature=PtuvO6qTgGg3a4SNyTgF~yPfUXVSyA3ESSdyrEN4RuPu1eKUdqpgCkZP3OUSE19gNdYhY~2wtCiKuKHW~4SlTzYZUs9ed6~NkpYLoPBtVaL7CniYh~9kYjc3R7a4WZjnAYTiiLexJsu2xz6s3cdG5ANsAkAHkChJYKfLFU7VSKlirxVGMudadQ2dFvZqJJpEZlCrqagm0EYMJKpLJeYojNEwrKu1RgtEsMpcZk1~l0neARBRHe4Gb2FP3DPxYM4OeIt9a2RdjEMggAo1NjYS-aaKcdinbKJsJCwV7yq9pWEVJGjrL~XL1rN7OBCpx1wTkslm76E3~~~ZtESN4nZ-Mg__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 70
+      },
       {
         "type": "movie",
         "title": "Ernie & Joe",
