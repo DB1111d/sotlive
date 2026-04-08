@@ -1,7 +1,113 @@
 {
-  "updated": "2026-04-08T00:01:36Z",
+  "updated": "2026-04-08T03:31:58Z",
   "date": "2026-04-08",
   "matches": [
+    {
+      "home": "LAFC",
+      "away": "Cruz Azul",
+      "league": "CONCACAF Champions Cup",
+      "goals": [
+        {
+          "postId": "1sfgwm4",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sfgwm4",
+          "scorer": "Son Heung-min",
+          "minute": 30,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/k02193a4svtg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/k02193a4svtg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1775616736000
+        },
+        {
+          "postId": "1sfh6t0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sfh6t0",
+          "scorer": "David Martínez",
+          "minute": 39,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/M2Uu7zVXreCyKLR/watch",
+          "videoEmbed": "https://streamain.com/M2Uu7zVXreCyKLR/watch",
+          "directMp4": null,
+          "postedAt": 1775617537000
+        },
+        {
+          "postId": "1sfho47",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sfho47",
+          "scorer": "David Martínez",
+          "minute": 58,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/i4Lxm9lxwdzHMFd/watch",
+          "videoEmbed": "https://streamain.com/i4Lxm9lxwdzHMFd/watch",
+          "directMp4": null,
+          "postedAt": 1775618919000
+        }
+      ]
+    },
+    {
+      "home": "Barcelona",
+      "away": "Atlético Madrid",
+      "league": "UEFA Champions League",
+      "goals": [
+        {
+          "postId": "1sferu5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sferu5",
+          "scorer": "Matheus Pereira",
+          "minute": 53,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/c924c55wavtg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775610941000
+        }
+      ]
+    },
+    {
+      "home": "Universidad Catolica",
+      "away": "Boca Juniors",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sfeatw",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sfeatw",
+          "scorer": "Leandro Paredes",
+          "minute": 16,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/5AC2uqSh6YdMcZY/watch",
+          "videoEmbed": "https://streamain.com/5AC2uqSh6YdMcZY/watch",
+          "directMp4": null,
+          "postedAt": 1775609713000
+        }
+      ]
+    },
+    {
+      "home": "O'Higgins",
+      "away": "Millonarios",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sfdhdl",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sfdhdl",
+          "scorer": "Arnaldo Castillo",
+          "minute": 12,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/OrKBcEeWCVJHWrh/watch",
+          "videoEmbed": "https://streamain.com/OrKBcEeWCVJHWrh/watch",
+          "directMp4": null,
+          "postedAt": 1775607501000
+        }
+      ]
+    },
     {
       "home": "Independiente",
       "away": "Racing Club",
@@ -45,6 +151,19 @@
           "videoEmbed": "https://streamain.com/ic34a8Pd1sd69N0/watch",
           "directMp4": null,
           "postedAt": 1775605471000
+        },
+        {
+          "postId": "1sfd535",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sfd535",
+          "scorer": "Adrian Fernandez",
+          "minute": 90,
+          "homeScore": 1,
+          "awayScore": 3,
+          "videoUrl": "https://streamain.com/kx5EQW4BD2WGT75/watch",
+          "videoEmbed": "https://streamain.com/kx5EQW4BD2WGT75/watch",
+          "directMp4": null,
+          "postedAt": 1775606600000
         }
       ]
     },
@@ -164,6 +283,26 @@
       "home": "Sporting CP",
       "away": "Arsenal",
       "league": "UEFA Champions League",
+      "goals": [
+        {
+          "postId": "1sf8byc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sf8byc",
+          "scorer": "K. Havertz",
+          "minute": 90,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/e66e6432",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775595102000
+        }
+      ]
+    },
+    {
+      "home": "Arsenal",
+      "away": "AFC Bournemouth",
+      "league": "Premier League",
       "goals": [
         {
           "postId": "1sf8byc",
@@ -322,6 +461,52 @@
       "home": "Real Madrid",
       "away": "Bayern Munich",
       "league": "UEFA Champions League",
+      "goals": [
+        {
+          "postId": "1sf6fkb",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sf6fkb",
+          "scorer": "Luis Díaz",
+          "minute": 41,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/27a91a6f",
+          "videoEmbed": "https://streamff.link/v/27a91a6f",
+          "directMp4": null,
+          "postedAt": 1775590851000
+        },
+        {
+          "postId": "1sf72vo",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sf72vo",
+          "scorer": "Harry Kane",
+          "minute": 46,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamff.link/v/22a217d9",
+          "videoEmbed": "https://streamff.link/v/22a217d9",
+          "directMp4": null,
+          "postedAt": 1775592263000
+        },
+        {
+          "postId": "1sf7tpm",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sf7tpm",
+          "scorer": "Kylian Mbappé",
+          "minute": 74,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamff.link/v/1d299f0c",
+          "videoEmbed": "https://streamff.link/v/1d299f0c",
+          "directMp4": null,
+          "postedAt": 1775593949000
+        }
+      ]
+    },
+    {
+      "home": "Real Madrid",
+      "away": "Girona",
+      "league": "La Liga",
       "goals": [
         {
           "postId": "1sf6fkb",
