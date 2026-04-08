@@ -1,5 +1,46 @@
 {
-  "updated": "2026-04-08T15:54:35Z",
+  "updated": "2026-04-08T16:59:15Z",
   "date": "2026-04-08",
-  "matches": []
+  "matches": [
+    {
+      "home": "Braga",
+      "away": "Real Betis",
+      "league": "UEFA Europa League",
+      "goals": [
+        {
+          "postId": "1sfyhj7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sfyhj7",
+          "scorer": "Florian Grillitsch",
+          "minute": 5,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/0e39f4e6",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775667112000
+        }
+      ]
+    },
+    {
+      "home": "Zawisza Bydgoszcz",
+      "away": "Górnik Zabrze",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sfy1mu",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sfy1mu",
+          "scorer": "Lukáš Sadílek",
+          "minute": 32,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/16okocb4vztg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/16okocb4vztg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775666186000
+        }
+      ]
+    }
+  ]
 }
