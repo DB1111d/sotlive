@@ -1,18 +1,9 @@
 {
-  "updated": "2026-04-07 16:50 EDT",
+  "updated": "2026-04-07 22:32 EDT",
   "days": {
     "20260407": {
       "date": "Tuesday, April 7",
       "games": [
-        {
-          "group": "Regular Season",
-          "time": "1:10 PM",
-          "match": "Cleveland Guardians vs Kansas City Royals",
-          "source": "ESPN Unlmtd",
-          "kick_utc": "2026-04-07T17:10Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png"
-        },
         {
           "group": "Regular Season",
           "time": "7:07 PM",
