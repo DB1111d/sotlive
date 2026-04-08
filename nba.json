@@ -1,29 +1,6 @@
 {
-  "updated": "2026-04-07 22:32 EDT",
+  "updated": "2026-04-08 01:48 EDT",
   "days": {
-    "20260407": {
-      "date": "Tuesday, April 7",
-      "games": [
-        {
-          "group": "Regular Season",
-          "time": "8:00 PM",
-          "match": "Boston Celtics vs Charlotte Hornets",
-          "source": "NBC \u00b7 Peacock",
-          "kick_utc": "2026-04-08T00:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png"
-        },
-        {
-          "group": "Regular Season",
-          "time": "11:00 PM",
-          "match": "Phoenix Suns vs Houston Rockets",
-          "source": "NBC \u00b7 Peacock",
-          "kick_utc": "2026-04-08T03:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png"
-        }
-      ]
-    },
     "20260408": {
       "date": "Wednesday, April 8",
       "games": [
@@ -57,6 +34,10 @@
     },
     "20260411": {
       "date": "Saturday, April 11",
+      "games": []
+    },
+    "20260412": {
+      "date": "Sunday, April 12",
       "games": []
     }
   }

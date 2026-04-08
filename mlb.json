@@ -1,20 +1,6 @@
 {
-  "updated": "2026-04-07 22:32 EDT",
+  "updated": "2026-04-08 01:48 EDT",
   "days": {
-    "20260407": {
-      "date": "Tuesday, April 7",
-      "games": [
-        {
-          "group": "Regular Season",
-          "time": "7:07 PM",
-          "match": "Toronto Blue Jays vs Los Angeles Dodgers",
-          "source": "TBS",
-          "kick_utc": "2026-04-07T23:07Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tor.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/lad.png"
-        }
-      ]
-    },
     "20260408": {
       "date": "Wednesday, April 8",
       "games": [
@@ -131,6 +117,29 @@
           "kick_utc": "2026-04-12T01:40Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sea.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/hou.png"
+        }
+      ]
+    },
+    "20260412": {
+      "date": "Sunday, April 12",
+      "games": [
+        {
+          "group": "Regular Season",
+          "time": "1:40 PM",
+          "match": "Tampa Bay Rays vs New York Yankees",
+          "source": "ESPN Unlmtd",
+          "kick_utc": "2026-04-12T17:40Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nyy.png"
+        },
+        {
+          "group": "Regular Season",
+          "time": "7:20 PM",
+          "match": "Atlanta Braves vs Cleveland Guardians",
+          "source": "NBC \u00b7 Peacock",
+          "kick_utc": "2026-04-12T23:20Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/atl.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png"
         }
       ]
     }
