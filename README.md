@@ -2,7 +2,7 @@ www.sotlive.net
 
 📺 SOTLive
 
-Media aggregator that surfaces upcoming soccer games.
+Media aggregator that surfaces upcoming soccer games televised in the USA.
 
 🥅 GOALFEED
 
