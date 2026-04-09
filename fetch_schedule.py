@@ -69,7 +69,7 @@ ESPN_SOURCE_MAP = {
     "CBS":                     "CBS",
     "Paramount+":              "Paramount+",
     "CBS Sports Network":      "CBS",
-    "CBSSN":                   "CBS / Paramount+",
+    "CBSSN":                   "CBSSN",
     "HBO Max":                 "HBO Max",
     "Max":                     "Max",
     "TNT":                     "TNT",
@@ -616,7 +616,7 @@ def main():
             date_str,
             ["UEFA Europa Conference League", "UEFA Conference League"],
             "UEFA Europa Conference League",
-            {"CBS": "CBS / Paramount+", "CBSSN": "CBS / Paramount+", "Paramount+": "CBS / Paramount+", "ESPN+": "ESPN+"},
+            {"CBS": "CBS / Paramount+", "CBSSN": "CBSSN", "Paramount+": "CBS / Paramount+", "ESPN+": "ESPN+"},
             SPANISH_EXCLUDE,
             "CBS / Paramount+",
         )
