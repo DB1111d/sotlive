@@ -1,7 +1,106 @@
 {
-  "updated": "2026-04-09T00:03:47Z",
+  "updated": "2026-04-09T03:28:11Z",
   "date": "2026-04-09",
   "matches": [
+    {
+      "home": "Tigres UANL",
+      "away": "Seattle Sounders FC",
+      "league": "CONCACAF Champions Cup",
+      "goals": [
+        {
+          "postId": "1sgcz8e",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sgcz8e",
+          "scorer": "Ozziel Herrera",
+          "minute": 51,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/vmaxqo3vr2ug1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775701418000
+        },
+        {
+          "postId": "1sgdiad",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sgdiad",
+          "scorer": "Own Goal",
+          "minute": 76,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/waa7s68aw2ug1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775702888000
+        }
+      ]
+    },
+    {
+      "home": "Junior Barranquilla",
+      "away": "Palmeiras",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sgb1go",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sgb1go",
+          "scorer": "Teo Gutiérrez",
+          "minute": 10,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/8lndali1c2ug1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/8lndali1c2ug1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775696133000
+        },
+        {
+          "postId": "1sgce1k",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sgce1k",
+          "scorer": "Ramón Sosa",
+          "minute": 56,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/r5mx4401n2ug1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/r5mx4401n2ug1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1775699809000
+        }
+      ]
+    },
+    {
+      "home": "Blooming",
+      "away": "River Plate",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sgbdcw",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sgbdcw",
+          "scorer": "Sebastian Driussi",
+          "minute": 35,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/xclw5emve2ug1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775697016000
+        },
+        {
+          "postId": "1sgc7da",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sgc7da",
+          "scorer": "Anthony Vásquez",
+          "minute": 53,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/6mck0jall2ug1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775699300000
+        }
+      ]
+    },
     {
       "home": "Libertas",
       "away": "Juvenes/Dogana",
@@ -135,9 +234,75 @@
       ]
     },
     {
+      "home": "Barcelona",
+      "away": "Espanyol",
+      "league": "La Liga",
+      "goals": [
+        {
+          "postId": "1sg3e5c",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sg3e5c",
+          "scorer": "Julián Álvarez free-kick",
+          "minute": 45,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/d4fe2ab1",
+          "videoEmbed": "https://streamff.link/v/d4fe2ab1",
+          "directMp4": null,
+          "postedAt": 1775677601000
+        },
+        {
+          "postId": "1sg4m9x",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sg4m9x",
+          "scorer": "Alexander Sorloth",
+          "minute": 70,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamff.link/v/3c907cef",
+          "videoEmbed": "https://streamff.link/v/3c907cef",
+          "directMp4": null,
+          "postedAt": 1775680307000
+        }
+      ]
+    },
+    {
       "home": "Paris Saint-Germain",
       "away": "Liverpool",
       "league": "UEFA Champions League",
+      "goals": [
+        {
+          "postId": "1sg2j2o",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sg2j2o",
+          "scorer": "Desire Doue 11‎'",
+          "minute": null,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/3ac42e28",
+          "videoEmbed": "https://streamff.link/v/3ac42e28",
+          "directMp4": null,
+          "postedAt": 1775675729000
+        },
+        {
+          "postId": "1sg4fb4",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sg4fb4",
+          "scorer": "Khvicha Kvaratskhelia",
+          "minute": 65,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/e3807d3a",
+          "videoEmbed": "https://streamff.link/v/e3807d3a",
+          "directMp4": null,
+          "postedAt": 1775679886000
+        }
+      ]
+    },
+    {
+      "home": "Liverpool",
+      "away": "Fulham",
+      "league": "Premier League",
       "goals": [
         {
           "postId": "1sg2j2o",
