@@ -1,5 +1,98 @@
 {
-  "updated": "2026-04-09T16:41:58Z",
+  "updated": "2026-04-09T17:45:52Z",
   "date": "2026-04-09",
-  "matches": []
+  "matches": [
+    {
+      "home": "Rayo Vallecano",
+      "away": "AEK",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sgvehq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sgvehq",
+          "scorer": "Ilias Akhomach",
+          "minute": 2,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/37qlslRODOQ0ElG/watch",
+          "videoEmbed": "https://streamain.com/37qlslRODOQ0ElG/watch",
+          "directMp4": null,
+          "postedAt": 1775753921000
+        },
+        {
+          "postId": "1sgwpjm",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sgwpjm",
+          "scorer": "Unai Lopez",
+          "minute": 45,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/dnHRdPkNlyiZEtp/watch",
+          "videoEmbed": "https://streamain.com/dnHRdPkNlyiZEtp/watch",
+          "directMp4": null,
+          "postedAt": 1775756666000
+        }
+      ]
+    },
+    {
+      "home": "Raków Częstochowa",
+      "away": "GKS Katowice",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sgv9mx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sgv9mx",
+          "scorer": "Erik Jirka",
+          "minute": 21,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/kxphszv537ug1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/kxphszv537ug1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775753635000
+        },
+        {
+          "postId": "1sgvt2g",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sgvt2g",
+          "scorer": "Arkadiusz Jędrych penalty",
+          "minute": 41,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/gis05ptk67ug1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/gis05ptk67ug1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775754777000
+        },
+        {
+          "postId": "1sgwid7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sgwid7",
+          "scorer": "Jonatan Braut Brunes",
+          "minute": 47,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/ghfmm3vxa7ug1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ghfmm3vxa7ug1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775756240000
+        },
+        {
+          "postId": "1sgwklr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sgwklr",
+          "scorer": "Bogdan Racovițan",
+          "minute": 49,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/dvlqommbb7ug1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/dvlqommbb7ug1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775756367000
+        }
+      ]
+    }
+  ]
 }
