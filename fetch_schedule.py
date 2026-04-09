@@ -422,8 +422,16 @@ def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> 
                 elif base_label == "Final":
                     round_label = "Final"
                 else:
-                    # Store base label only — leg number assigned in main() second pass
-                    round_label = base_label
+                    # Use leg info directly from the API notes if available
+                    notes = competition.get("notes", [])
+                    leg_note = next((n.get("headline", "") for n in notes if "leg" in n.get("headline", "").lower()), "")
+                    if "1st" in leg_note.lower() or "first" in leg_note.lower():
+                        round_label = f"{base_label} · Leg 1"
+                    elif "2nd" in leg_note.lower() or "second" in leg_note.lower():
+                        round_label = f"{base_label} · Leg 2"
+                    else:
+                        # Fall back to lookback logic in main()
+                        round_label = base_label
 
             game = {
                 "league":     league_name,
