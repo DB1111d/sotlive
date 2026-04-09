@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-09 16:11 EDT",
+  "updated": "2026-04-09 16:53 EDT",
   "days": {
     "20260409": {
       "date": "Thursday, April 9",
@@ -32,16 +32,6 @@
           "kick_utc": "2026-04-09T19:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
-          "round_label": "Quarter-final \u00b7 Leg 1"
-        },
-        {
-          "league": "UEFA Europa Conference League",
-          "time": "12:45 PM",
-          "match": "Rayo Vallecano vs AEK Athens",
-          "source": "Paramount+",
-          "kick_utc": "2026-04-09T16:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/887.png",
           "round_label": "Quarter-final \u00b7 Leg 1"
         },
         {
