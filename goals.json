@@ -1,50 +1,170 @@
 {
-  "updated": "2026-04-09T19:01:59Z",
+  "updated": "2026-04-09T20:02:51Z",
   "date": "2026-04-09",
   "matches": [
     {
-      "home": "Rayo Vallecano",
-      "away": "AEK",
+      "home": "Bologna",
+      "away": "Aston Villa",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1sgvehq",
+          "postId": "1sgznvk",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1sgvehq",
-          "scorer": "Ilias Akhomach",
-          "minute": 2,
+          "permalink": "https://redd.it/1sgznvk",
+          "scorer": "Own Goal",
+          "minute": 27,
           "homeScore": 1,
           "awayScore": 0,
-          "videoUrl": "https://streamain.com/37qlslRODOQ0ElG/watch",
-          "videoEmbed": "https://streamain.com/37qlslRODOQ0ElG/watch",
+          "videoUrl": "https://streamin.link/v/08735c15",
+          "videoEmbed": null,
           "directMp4": null,
-          "postedAt": 1775753921000
+          "postedAt": 1775762903000,
+          "disallowed": true
         },
         {
-          "postId": "1sgwpjm",
+          "postId": "1sh04z5",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1sgwpjm",
-          "scorer": "Unai Lopez",
-          "minute": 45,
+          "permalink": "https://redd.it/1sh04z5",
+          "scorer": "Ezri Konsa",
+          "minute": 44,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/24dddbc8",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775763936000
+        }
+      ]
+    },
+    {
+      "home": "Freiburg",
+      "away": "Celta Vigo",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sgz855",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sgz855",
+          "scorer": "Vincenzo Grifo",
+          "minute": 10,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/b4d69edf",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775761966000
+        },
+        {
+          "postId": "1sh0178",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sh0178",
+          "scorer": "Jan-Niklas Beste",
+          "minute": 32,
           "homeScore": 2,
           "awayScore": 0,
-          "videoUrl": "https://streamain.com/dnHRdPkNlyiZEtp/watch",
-          "videoEmbed": "https://streamain.com/dnHRdPkNlyiZEtp/watch",
+          "videoUrl": "https://streamin.link/v/75c0b673",
+          "videoEmbed": null,
           "directMp4": null,
-          "postedAt": 1775756666000
+          "postedAt": 1775763715000
+        }
+      ]
+    },
+    {
+      "home": "Crystal Palace",
+      "away": "Fiorentina",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sgzm3o",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sgzm3o",
+          "scorer": "Jean-Philippe Mateta Penalty",
+          "minute": 24,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/0e9eaca6",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775762795000
         },
         {
-          "postId": "1sgxwrp",
+          "postId": "1sgztn4",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1sgxwrp",
-          "scorer": "Isi Palazon penalty",
-          "minute": 74,
-          "homeScore": 3,
+          "permalink": "https://redd.it/1sgztn4",
+          "scorer": "Tyrick Mitchell",
+          "minute": 32,
+          "homeScore": 2,
           "awayScore": 0,
-          "videoUrl": "https://streamain.com/Fh3SgesTZ7kdRrj/watch",
-          "videoEmbed": "https://streamain.com/Fh3SgesTZ7kdRrj/watch",
+          "videoUrl": "https://streamin.link/v/df3a8580",
+          "videoEmbed": null,
           "directMp4": null,
-          "postedAt": 1775759197000
+          "postedAt": 1775763257000
+        }
+      ]
+    },
+    {
+      "home": "Mainz",
+      "away": "Strasbourg",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sgzd7m",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sgzd7m",
+          "scorer": "Kaishu Sano",
+          "minute": 11,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/ede87af2",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775762259000
+        },
+        {
+          "postId": "1sgzjya",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sgzjya",
+          "scorer": "Stefan Posch",
+          "minute": 19,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/e6d40881",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775762666000
+        }
+      ]
+    },
+    {
+      "home": "FC Porto",
+      "away": "Nottingham",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sgz9jr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sgz9jr",
+          "scorer": "William Gomes",
+          "minute": 11,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/c17627a5",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775762048000
+        },
+        {
+          "postId": "1sgzbzt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sgzbzt",
+          "scorer": "Own Goal",
+          "minute": 14,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/9700f2bf",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775762188000
         }
       ]
     },
@@ -117,6 +237,78 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/sk8h3xo9j7ug1/CMAF_720.mp4?source=fallback",
           "postedAt": 1775759049000
+        },
+        {
+          "postId": "1sgyxzw",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sgyxzw",
+          "scorer": "Leonardo Rocha",
+          "minute": 112,
+          "homeScore": 4,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/k58hi3u6q7ug1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/k58hi3u6q7ug1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775761377000
+        },
+        {
+          "postId": "1sgz2mq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sgz2mq",
+          "scorer": "Eman Markovic",
+          "minute": 116,
+          "homeScore": 4,
+          "awayScore": 4,
+          "videoUrl": "https://v.redd.it/5b9kfia0r7ug1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/5b9kfia0r7ug1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775761648000
+        }
+      ]
+    },
+    {
+      "home": "Rayo Vallecano",
+      "away": "AEK",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sgvehq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sgvehq",
+          "scorer": "Ilias Akhomach",
+          "minute": 2,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/37qlslRODOQ0ElG/watch",
+          "videoEmbed": "https://streamain.com/37qlslRODOQ0ElG/watch",
+          "directMp4": null,
+          "postedAt": 1775753921000
+        },
+        {
+          "postId": "1sgwpjm",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sgwpjm",
+          "scorer": "Unai Lopez",
+          "minute": 45,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/dnHRdPkNlyiZEtp/watch",
+          "videoEmbed": "https://streamain.com/dnHRdPkNlyiZEtp/watch",
+          "directMp4": null,
+          "postedAt": 1775756666000
+        },
+        {
+          "postId": "1sgxwrp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sgxwrp",
+          "scorer": "Isi Palazon penalty",
+          "minute": 74,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/Fh3SgesTZ7kdRrj/watch",
+          "videoEmbed": "https://streamain.com/Fh3SgesTZ7kdRrj/watch",
+          "directMp4": null,
+          "postedAt": 1775759197000
         }
       ]
     },
