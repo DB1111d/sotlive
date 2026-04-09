@@ -489,7 +489,10 @@ def fetch_scoreboard_league(date_str: str, header_text, league_name: str,
         next_league = html.find('Card__Header__Title', section_start + 100)
         section = html[section_start:next_league] if next_league != -1 else html[section_start:section_start + 50000]
 
+        print(f"    Section length: {len(section)}, next_league at: {next_league}")
         cell_marker = 'ScoreboardScoreCell__Overview'
+        cell_count = section.count(cell_marker)
+        print(f"    Cell markers found: {cell_count}")
         pos = 0
         while True:
             idx = section.find(cell_marker, pos)
