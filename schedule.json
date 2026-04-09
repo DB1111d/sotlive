@@ -1,40 +1,6 @@
 {
-  "updated": "2026-04-08 22:28 EDT",
+  "updated": "2026-04-09 01:49 EDT",
   "days": {
-    "20260408": {
-      "date": "Wednesday, April 8",
-      "games": [
-        {
-          "league": "CONCACAF Champions Cup",
-          "time": "9:00 PM",
-          "match": "Tigres UANL vs Seattle Sounders FC",
-          "source": "FS2",
-          "kick_utc": "2026-04-09T01:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/232.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
-          "round_label": "Quarter-final \u00b7 Leg 2"
-        },
-        {
-          "league": "CONCACAF Champions Cup",
-          "time": "11:00 PM",
-          "match": "Toluca vs LA Galaxy",
-          "source": "FS1",
-          "kick_utc": "2026-04-09T03:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/223.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/187.png",
-          "round_label": "Quarter-final \u00b7 Leg 2"
-        },
-        {
-          "league": "USL League One",
-          "time": "7:00 PM",
-          "match": "Westchester SC vs Sarasota Paradise",
-          "source": "ESPN+",
-          "kick_utc": "2026-04-08T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22524.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22542.png"
-        }
-      ]
-    },
     "20260409": {
       "date": "Thursday, April 9",
       "games": [
@@ -46,7 +12,7 @@
           "kick_utc": "2026-04-09T19:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-          "round_label": "Quarter-final \u00b7 Leg 1"
+          "round_label": "Quarter-final \u00b7 Leg 2"
         },
         {
           "league": "UEFA Europa League",
@@ -56,7 +22,7 @@
           "kick_utc": "2026-04-09T19:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
-          "round_label": "Quarter-final \u00b7 Leg 1"
+          "round_label": "Quarter-final \u00b7 Leg 2"
         },
         {
           "league": "UEFA Europa League",
@@ -66,7 +32,7 @@
           "kick_utc": "2026-04-09T19:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
-          "round_label": "Quarter-final \u00b7 Leg 1"
+          "round_label": "Quarter-final \u00b7 Leg 2"
         }
       ]
     },
@@ -811,6 +777,38 @@
           "kick_utc": "2026-04-12T21:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19405.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17827.png"
+        }
+      ]
+    },
+    "20260413": {
+      "date": "Monday, April 13",
+      "games": [
+        {
+          "league": "Premier League",
+          "time": "3:00 PM",
+          "match": "Manchester United vs Leeds United",
+          "source": "USA Network",
+          "kick_utc": "2026-04-13T19:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
+        },
+        {
+          "league": "Serie A",
+          "time": "2:45 PM",
+          "match": "Fiorentina vs Lazio",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-13T18:45Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png"
+        },
+        {
+          "league": "La Liga",
+          "time": "3:00 PM",
+          "match": "Levante vs Getafe",
+          "source": "ESPN+",
+          "kick_utc": "2026-04-13T19:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png"
         }
       ]
     }
