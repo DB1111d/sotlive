@@ -477,8 +477,13 @@ def fetch_scoreboard_league(date_str: str, header_text, league_name: str,
         for ht in headers_to_try:
             section_start = html.find(f'>{ht}<')
             if section_start != -1:
+                print(f"    Matched header: '{ht}'")
                 break
         if section_start == -1:
+            # Debug: print all Card__Header__Title text found on the page
+            import re as _re
+            found = _re.findall(r'Card__Header__Title[^>]*>([^<]+)<', html)
+            print(f"    No header match. Headers found on page: {found[:10]}")
             return []
 
         next_league = html.find('Card__Header__Title', section_start + 100)
