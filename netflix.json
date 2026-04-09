@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-08 04:52 EDT",
-  "week_label": "March 24 \u2013 April 8, 2026",
+  "updated": "2026-04-09 05:02 EDT",
+  "week_label": "March 25 \u2013 April 9, 2026",
   "groups": {
     "TV Series": [
       {
@@ -300,6 +300,20 @@
       }
     ],
     "Movies": [
+      {
+        "type": "movie",
+        "title": "Beast",
+        "overview": "Idris Elba stars in a thriller about a father and his daughters who find themselves hunted by a rogue lion intent on proving that there is but one apex predator.",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "added_date": "April 8",
+        "added_ts": 1775683051,
+        "link": "https://www.netflix.com/title/81579532/",
+        "thumbnail": "https://cdn.movieofthenight.com/show/12082/poster/vertical/en/240.jpg?Expires=1799548936&Signature=NkXMwN6trL4HdjHcfRghlKBW9Mgzre-Akv2y-d6KR7SEvsTYcG4Y2PkUIN1Fq2iw6kJXErV7GokxA0q0ipVdarOP6DrPgnLJJGLri4aQtxAnJ3UQCeDJiSSwGFb2hYlah2cidfpwst20X-jwKdVAgjGmlvC8RJyJqBPyIXpp5r-iaITGZIKNCsa8NCXEfc66hkdAiqurGZENShidFisq7pc1ZyqFkY2PmxClqmgiUNOcfk8dzSWRe0xkO5J5g5yLXmZ~tXcPtn~EBLaFiZJtd4WdlcfpC~54Ee6jDcaVo91OHld1MT9sDRKFRvTcTUQ7-9909bF5r7CHUqLhYmxrMQ__&Key-Pair-Id=KK4HN3OO4AT5R",
+        "rating": 58
+      },
       {
         "type": "movie",
         "title": "Madagascar: Escape 2 Africa",
@@ -1264,21 +1278,6 @@
         "link": "https://www.netflix.com/title/82018723/",
         "thumbnail": "https://cdn.movieofthenight.com/show/14625851/poster/vertical/en/240.jpg?Expires=1801435551&Signature=QoH49Nm2Vg06oZpPPtr5S5UFlQN55pvuIURcrpG4fWyj4D6~NhrW~Jn3L6osEZHXRmueL2E9bJLXfHCJ4YYmpxFL84hKpv2RgeHXyOOiSA~ES0lAH2NC53slwVZURW8yOk0DDxD5SyKETwX41Hbo39qrM8XUc2wgppZEpceS~AEohtiSLFNaKla3ayivRhiUv-stZ~hTKhxyFARAepD9jNFiXH0pCeGPZvz9V9DTTs67RfBL2K5fj91hKCBCaiVY7WLobw3V1MA9ws1u-Y83zlLBgnQSqn8JKFykoU9YgGgrqbUotcgKb9qk3HrxyovGk6t~dgdS6MHHwCFsJoapUA__&Key-Pair-Id=KK4HN3OO4AT5R",
         "rating": 56
-      },
-      {
-        "type": "movie",
-        "title": "Minions: The Rise of Gru",
-        "overview": "Teenage Gru joins forces with Kevin, Stuart and Bob to defeat the Vicious 6 in an adventure featuring spectacular action and the franchise's signature subversive humor.",
-        "genres": [
-          "Adventure",
-          "Animation",
-          "Comedy"
-        ],
-        "added_date": "March 24",
-        "added_ts": 1774362744,
-        "link": "https://www.netflix.com/title/81198916/",
-        "thumbnail": "https://cdn.movieofthenight.com/show/6431/poster/vertical/en/240.jpg?Expires=1798808053&Signature=Ovn6dxweCBXN947bdsVRvPx-I6nnYw-6qQnTLy1D6WibP53AjCfdYUpv6B1AbTHqgFpbw-OiBSm7eQx7TvqT4LsEj9LY4PTvl2dm2RTT8gxYSSs9TxuhR6E1eqKlMN6q~dBPnbfRGnOQuRkQMzsn8uFbjUvTEu5fNefv4BnWGAF1FMY3QMDGGYwT-sBeLM7BAFLZCMyTN4i3tBOJmBm3fACVol6SRGMvCn1YcepDp4ylnbCDUOi365KD441iHUF5jSabT98UsxY92nC1P9jonR5jwsJG1pKNaJ7ndcTxyyrmI~Z01LYTPLrMEJGyGEKcOKEWUEPWo9hh2PIZnPzDQg__&Key-Pair-Id=KK4HN3OO4AT5R",
-        "rating": 66
       }
     ]
   }
