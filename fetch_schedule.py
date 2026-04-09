@@ -69,7 +69,7 @@ ESPN_SOURCE_MAP = {
     "CBS":                     "CBS",
     "Paramount+":              "Paramount+",
     "CBS Sports Network":      "CBS",
-    "CBSSN":                   "CBS",
+    "CBSSN":                   "CBS / Paramount+",
     "HBO Max":                 "HBO Max",
     "Max":                     "Max",
     "TNT":                     "TNT",
@@ -448,12 +448,13 @@ def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> 
 # ─── Premier League Scraper (ESPN Scoreboard Page) ───────────────────────────
 
 
-def fetch_scoreboard_league(date_str: str, header_text: str, league_name: str,
+def fetch_scoreboard_league(date_str: str, header_text, league_name: str,
                             source_map: dict, spanish_exclude: set,
                             default_source: str) -> list:
     """
     Generic ESPN scoreboard page scraper for a named league section.
     Finds the section by its h3 header text, extracts games with broadcaster info.
+    header_text can be a string or a list of strings to try in order.
     """
     url = f"https://www.espn.com/soccer/scoreboard/_/date/{date_str}"
     try:
@@ -467,9 +468,16 @@ def fetch_scoreboard_league(date_str: str, header_text: str, league_name: str,
         print(f"    Scrape error for {league_name} on {date_str}: {e}")
         return []
 
+    # Support a list of header variants — try each until one matches
+    headers_to_try = header_text if isinstance(header_text, list) else [header_text]
+
     games = []
     try:
-        section_start = html.find(f'>{header_text}<')
+        section_start = -1
+        for ht in headers_to_try:
+            section_start = html.find(f'>{ht}<')
+            if section_start != -1:
+                break
         if section_start == -1:
             return []
 
@@ -606,9 +614,9 @@ def main():
     for date_obj, date_str in dates:
         games = fetch_scoreboard_league(
             date_str,
+            ["UEFA Europa Conference League", "UEFA Conference League"],
             "UEFA Europa Conference League",
-            "UEFA Europa Conference League",
-            {"CBS": "CBS / Paramount+", "Paramount+": "CBS / Paramount+", "ESPN+": "ESPN+"},
+            {"CBS": "CBS / Paramount+", "CBSSN": "CBS / Paramount+", "Paramount+": "CBS / Paramount+", "ESPN+": "ESPN+"},
             SPANISH_EXCLUDE,
             "CBS / Paramount+",
         )
