@@ -1,39 +1,9 @@
 {
-  "updated": "2026-04-08 16:44 EDT",
+  "updated": "2026-04-08 22:28 EDT",
   "days": {
     "20260408": {
       "date": "Wednesday, April 8",
       "games": [
-        {
-          "league": "UEFA Champions League",
-          "time": "3:00 PM",
-          "match": "Barcelona vs Atl\u00e9tico Madrid",
-          "source": "Paramount+",
-          "kick_utc": "2026-04-08T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-          "round_label": "Quarter-final \u00b7 Leg 2"
-        },
-        {
-          "league": "UEFA Champions League",
-          "time": "3:00 PM",
-          "match": "Paris Saint-Germain vs Liverpool",
-          "source": "Paramount+",
-          "kick_utc": "2026-04-08T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-          "round_label": "Quarter-final \u00b7 Leg 2"
-        },
-        {
-          "league": "UEFA Europa League",
-          "time": "12:45 PM",
-          "match": "Braga vs Real Betis",
-          "source": "Paramount+",
-          "kick_utc": "2026-04-08T16:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2994.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
-          "round_label": "Quarter-final \u00b7 Leg 1"
-        },
         {
           "league": "CONCACAF Champions Cup",
           "time": "9:00 PM",
