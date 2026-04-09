@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-09T17:45:52Z",
+  "updated": "2026-04-09T19:01:59Z",
   "date": "2026-04-09",
   "matches": [
     {
@@ -32,6 +32,19 @@
           "videoEmbed": "https://streamain.com/dnHRdPkNlyiZEtp/watch",
           "directMp4": null,
           "postedAt": 1775756666000
+        },
+        {
+          "postId": "1sgxwrp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sgxwrp",
+          "scorer": "Isi Palazon penalty",
+          "minute": 74,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/Fh3SgesTZ7kdRrj/watch",
+          "videoEmbed": "https://streamain.com/Fh3SgesTZ7kdRrj/watch",
+          "directMp4": null,
+          "postedAt": 1775759197000
         }
       ]
     },
@@ -91,6 +104,78 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/dvlqommbb7ug1/CMAF_720.mp4?source=fallback",
           "postedAt": 1775756367000
+        },
+        {
+          "postId": "1sgxu9f",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sgxu9f",
+          "scorer": "Adam Zreľák",
+          "minute": 90,
+          "homeScore": 3,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/sk8h3xo9j7ug1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/sk8h3xo9j7ug1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775759049000
+        }
+      ]
+    },
+    {
+      "home": "Rizespor",
+      "away": "Samsunspor",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sgx5w8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sgx5w8",
+          "scorer": "Loide Augusto",
+          "minute": 39,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/G5CkZzE6PzC2nsC/watch",
+          "videoEmbed": "https://streamain.com/G5CkZzE6PzC2nsC/watch",
+          "directMp4": null,
+          "postedAt": 1775757616000
+        },
+        {
+          "postId": "1sgx6kx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sgx6kx",
+          "scorer": "Attila Mocsi",
+          "minute": 43,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/bpISPbzpbSvFLYY/watch",
+          "videoEmbed": "https://streamain.com/bpISPbzpbSvFLYY/watch",
+          "directMp4": null,
+          "postedAt": 1775757650000
+        },
+        {
+          "postId": "1sgx76g",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sgx76g",
+          "scorer": "Qazim Laci",
+          "minute": 45,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/I0QirEDrABjsEHu/watch",
+          "videoEmbed": "https://streamain.com/I0QirEDrABjsEHu/watch",
+          "directMp4": null,
+          "postedAt": 1775757685000
+        },
+        {
+          "postId": "1sgxkbj",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sgxkbj",
+          "scorer": "Loide Augusto",
+          "minute": 50,
+          "homeScore": 4,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/7d5ZoxvyBl98GiS/watch",
+          "videoEmbed": "https://streamain.com/7d5ZoxvyBl98GiS/watch",
+          "directMp4": null,
+          "postedAt": 1775758452000
         }
       ]
     }
