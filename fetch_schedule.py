@@ -53,7 +53,8 @@ ESPN_LEAGUES = {
     "mex.1":          "Liga MX",
     "uefa.champions": "UEFA Champions League",
     "uefa.europa":    "UEFA Europa League",
-    # uefa.conference returns 400 — Conference League is fetched via scoreboard scraper
+    "uefa.europa.conf": "UEFA Europa Conference League",
+    # uefa.europa.conf added — if it returns 400 the scoreboard scraper below is a fallback
 }
 
 # ESPN broadcaster names to map to our badges
@@ -480,19 +481,12 @@ def fetch_scoreboard_league(date_str: str, header_text, league_name: str,
                 print(f"    Matched header: '{ht}'")
                 break
         if section_start == -1:
-            # Debug: print all Card__Header__Title text found on the page
-            import re as _re
-            found = _re.findall(r'Card__Header__Title[^>]*>([^<]+)<', html)
-            print(f"    No header match. Headers found on page: {found[:10]}")
             return []
 
         next_league = html.find('Card__Header__Title', section_start + 100)
         section = html[section_start:next_league] if next_league != -1 else html[section_start:section_start + 50000]
 
-        print(f"    Section length: {len(section)}, next_league at: {next_league}")
         cell_marker = 'ScoreboardScoreCell__Overview'
-        cell_count = section.count(cell_marker)
-        print(f"    Cell markers found: {cell_count}")
         pos = 0
         while True:
             idx = section.find(cell_marker, pos)
@@ -599,7 +593,8 @@ def main():
         # This tells us if games in our window are Leg 1 or Leg 2
         knockout_slugs_seen = set()
         if league_name in {"UEFA Champions League", "UEFA Europa League",
-                           "UEFA Europa Conference League", "CONCACAF Champions Cup"}:
+                           "UEFA Europa Conference League", "CONCACAF Champions Cup",
+                           "uefa.europa.conf"}:
             for past_date_str in lookback_date_range(30):
                 past_games = fetch_espn_league_day(slug, league_name, past_date_str)
                 for g in past_games:
@@ -617,20 +612,26 @@ def main():
 
             schedule[date_str]["games"].append(g)
 
-    # Conference League via scoreboard scraper (no valid JSON API slug exists)
-    print("Fetching UEFA Europa Conference League (scoreboard scrape)...")
-    for date_obj, date_str in dates:
-        games = fetch_scoreboard_league(
-            date_str,
-            ["UEFA Europa Conference League", "UEFA Conference League"],
-            "UEFA Europa Conference League",
-            {"CBS": "CBS / Paramount+", "CBSSN": "CBSSN", "Paramount+": "CBS / Paramount+", "ESPN+": "ESPN+"},
-            SPANISH_EXCLUDE,
-            "CBS / Paramount+",
-        )
-        if games:
-            print(f"  {date_str}: {len(games)} games")
-        schedule[date_str]["games"].extend(games)
+    # Conference League scraper — fallback only if the JSON API slug returned nothing
+    conf_api_games = sum(len(schedule[ds]["games"]) for ds in schedule
+                        if any(g["league"] == "UEFA Europa Conference League" for g in schedule[ds]["games"]))
+    if conf_api_games == 0:
+        print("Fetching UEFA Europa Conference League (scoreboard scrape fallback)...")
+    else:
+        print(f"UEFA Europa Conference League already fetched via API ({conf_api_games} games) — skipping scraper")
+    if conf_api_games == 0:
+        for date_obj, date_str in dates:
+            games = fetch_scoreboard_league(
+                date_str,
+                ["UEFA Europa Conference League", "UEFA Conference League"],
+                "UEFA Europa Conference League",
+                {"CBS": "CBS / Paramount+", "CBSSN": "CBSSN", "Paramount+": "CBS / Paramount+", "ESPN+": "ESPN+"},
+                SPANISH_EXCLUDE,
+                "CBS / Paramount+",
+            )
+            if games:
+                print(f"  {date_str}: {len(games)} games")
+            schedule[date_str]["games"].extend(games)
 
     def sort_key(g, order, first_game_times):
         league_pos = order.index(g["league"]) if g["league"] in order else len(order)
