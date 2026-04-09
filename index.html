@@ -73,262 +73,6 @@
       line-height: 1;
     }
 
-    /* ── Sport nav ── */
-    /* Desktop: grid, max 5 columns across, wraps after 5. */
-    .sport-nav {
-      max-width: 780px;
-      margin: 0 auto;
-      padding: 10px 24px 4px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 14px 20px;
-      align-items: center;
-    }
-
-    /* Mobile: 3 buttons per row. */
-    .sport-label-br { display: none; }
-
-    @media (max-width: 500px) {
-      .sport-nav {
-        grid-template-columns: repeat(3, max-content);
-        gap: 10px 16px;
-        padding-left: 16px;
-        padding-right: 16px;
-      }
-      .sport-label-br { display: block; }
-    }
-
-    .sport-btn {
-      font-family: 'DM Sans', sans-serif;
-      font-size: 15px;
-      font-weight: 500;
-      color: var(--tab-inactive);
-      background: none;
-      border: none;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      padding: 4px 0;
-      transition: color 0.15s;
-    }
-
-    .sport-btn .sport-label {
-      border-bottom: 2px solid transparent;
-      padding-bottom: 2px;
-      transition: border-color 0.15s;
-    }
-
-    .sport-btn:hover { color: var(--text); }
-    .sport-btn:focus { outline: none; }
-
-    .sport-btn.active {
-      color: #000;
-      font-weight: 700;
-    }
-
-    .sport-btn.active .sport-label {
-      border-bottom-color: #000;
-    }
-
-    .sport-icon { font-size: 17px; }
-
-    /* ── Genre filter ── */
-    .netflix-title-row {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 12px;
-      margin-bottom: 20px;
-    }
-
-    .netflix-title-row .netflix-section-title {
-      margin-bottom: 0;
-    }
-
-    .genre-filter-wrap {
-      flex-shrink: 0;
-    }
-
-    @media (max-width: 500px) {
-      .netflix-title-row {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-    }
-
-    /* ── Netflix grid ── */
-    .netflix-week-label {
-      font-size: 13px;
-      font-weight: 500;
-      color: var(--text-muted);
-      margin-bottom: 24px;
-      font-family: 'DM Mono', monospace;
-    }
-
-    .netflix-section-title {
-      font-family: 'Playfair Display', serif;
-      font-size: 38px;
-      font-weight: 700;
-      letter-spacing: -0.5px;
-      color: #1a1a1a;
-      margin-bottom: 20px;
-      line-height: 1.1;
-    }
-
-    .netflix-grid {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      margin-bottom: 8px;
-    }
-
-    .netflix-card {
-      background: var(--surface);
-      border: 1.5px solid var(--border);
-      border-radius: var(--radius);
-      overflow: hidden;
-      transition: border-color 0.15s, box-shadow 0.15s;
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-    }
-
-    .netflix-card:hover {
-      border-color: #ccc;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
-    }
-
-    .netflix-poster {
-      width: 140px;
-      flex-shrink: 0;
-      aspect-ratio: 2/3;
-      object-fit: cover;
-      display: block;
-      background: var(--border);
-    }
-
-    .netflix-poster-placeholder {
-      width: 140px;
-      flex-shrink: 0;
-      aspect-ratio: 2/3;
-      background: var(--border);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 32px;
-      color: var(--text-muted);
-    }
-
-    .netflix-card-body {
-      padding: 16px 18px 16px;
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      min-width: 0;
-    }
-
-    .netflix-card-header {
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      gap: 8px;
-      margin-bottom: 6px;
-    }
-
-    .netflix-title {
-      font-family: 'Playfair Display', serif;
-      font-size: 18px;
-      font-weight: 700;
-      flex: 1;
-      line-height: 1.25;
-      letter-spacing: -0.2px;
-    }
-
-    .netflix-date {
-      font-family: 'DM Mono', monospace;
-      font-size: 12px;
-      color: var(--text-muted);
-      flex-shrink: 0;
-      margin-top: 3px;
-    }
-
-    .netflix-genres {
-      font-size: 13px;
-      color: var(--text-muted);
-      margin-bottom: 6px;
-      font-family: 'DM Mono', monospace;
-    }
-
-    .netflix-rating {
-      font-family: 'DM Mono', monospace;
-      font-size: 13px;
-      color: #cc0000;
-      margin-bottom: 8px;
-    }
-
-    .netflix-rating-label {
-      font-weight: 400;
-      color: #cc0000;
-    }
-
-    .netflix-rating-score {
-      font-weight: 700;
-      color: #cc0000;
-    }
-
-    .netflix-rating-max {
-      font-size: 11px;
-      font-weight: 400;
-      color: #cc0000;
-    }
-
-    .netflix-overview {
-      font-size: 15px;
-      color: #444;
-      line-height: 1.6;
-    }
-
-    .netflix-overview-clamped {
-      display: -webkit-box;
-      -webkit-line-clamp: 4;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-    }
-
-    .netflix-overview-wrap {
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-    }
-
-    .netflix-show-more {
-      font-family: 'DM Sans', sans-serif;
-      font-size: 13px;
-      font-weight: 600;
-      color: #555;
-      background: none;
-      border: none;
-      outline: none;
-      padding: 0;
-      cursor: pointer;
-      text-align: left;
-      text-decoration: underline;
-      text-underline-offset: 2px;
-      align-self: flex-start;
-    }
-    .netflix-show-more:hover { color: #000; }
-
-    /* Mobile: stack vertically */
-    @media (max-width: 500px) {
-      .netflix-section-title { font-size: 30px; }
-      .netflix-card { flex-direction: column; }
-      .netflix-poster,
-      .netflix-poster-placeholder { width: 100%; aspect-ratio: 2/3; height: auto; object-fit: cover; background: transparent; display: block; border-radius: 0; }
-      .netflix-card-body { padding: 14px 16px 16px; }
-    }
-
     /* ── Timezone picker row ── */
     .tz-picker {
       max-width: 780px;
@@ -465,10 +209,6 @@
     .source-badge[data-label="NBCSN"],
     .source-badge[data-label="Peacock"]     { background: #003087; color: #fff; }
     .source-badge[data-label="USA Network"] { background: #1a1a6e; color: #fff; }
-    .source-badge[data-label="NHL Network"] { background: #003366; color: #fff; }
-    .source-badge[data-label="NBA TV"]      { background: #003366; color: #fff; }
-    .source-badge[data-label="MLB Network"] { background: #002d72; color: #fff; }
-    .source-badge[data-label="Netflix"]     { background: #000; color: #fff; }
     .source-postponed {
       background: #f0f0f0;
       color: #888;
@@ -874,39 +614,6 @@
     <h1>📺 SOTLive</h1>
   </header>
 
-  <div class="sport-nav">
-    <button class="sport-btn active" id="sport-soccer" onclick="switchSport('soccer')">
-      <span class="sport-icon">⚽</span><span class="sport-label">Soccer</span>
-    </button>
-    <button class="sport-btn" id="sport-ncaa" onclick="switchSport('ncaa')">
-      <span class="sport-icon">🏀</span><span class="sport-label">NCAA<span class="sport-label-br"></span> Men</span>
-    </button>
-    <button class="sport-btn" id="sport-nba" onclick="switchSport('nba')">
-      <span class="sport-icon">🏀</span><span class="sport-label">NBA</span>
-    </button>
-    <button class="sport-btn" id="sport-nhl" onclick="switchSport('nhl')">
-      <span class="sport-icon">🏒</span><span class="sport-label">NHL</span>
-    </button>
-    <button class="sport-btn" id="sport-mlb" onclick="switchSport('mlb')">
-      <span class="sport-icon">⚾</span><span class="sport-label">MLB</span>
-    </button>
-    <button class="sport-btn" id="sport-netflix" onclick="switchSport('netflix')">
-      <span class="sport-icon">🎬</span><span class="sport-label">Netflix</span>
-    </button>
-    <button class="sport-btn" id="sport-hbo" onclick="switchSport('hbo')">
-      <span class="sport-icon">📼</span><span class="sport-label">HBO<span class="sport-label-br"></span> Max</span>
-    </button>
-    <button class="sport-btn" id="sport-prime" onclick="switchSport('prime')">
-      <span class="sport-icon">📦</span><span class="sport-label">Prime<span class="sport-label-br"></span> Video</span>
-    </button>
-    <button class="sport-btn" id="sport-appletv" onclick="switchSport('appletv')">
-      <span class="sport-icon">🍎</span><span class="sport-label">AppleTV</span>
-    </button>
-    <button class="sport-btn" id="sport-localtv" onclick="switchSport('localtv')" style="display:none">
-      <span class="sport-icon">🐰</span><span class="sport-label">Local<span class="sport-label-br"></span> TV</span>
-    </button>
-  </div>
-
   <div class="tz-picker" id="tz-picker"></div>
 
   <div class="tz-picker" id="league-filter"></div>
@@ -927,7 +634,7 @@
             <span class="faq-chevron">▼</span>
           </summary>
           <div class="faq-answer">
-            SOTLive is a media aggregator that surfaces upcoming sports games and newly released TV shows and movies across multiple streaming and broadcast platforms — all in one place, so you never miss what's on.
+            SOTLive is a soccer schedule aggregator that surfaces upcoming matches across multiple broadcast platforms — all in one place, so you never miss what's on.
           </div>
         </details>
 
@@ -971,48 +678,11 @@
 
         <details class="faq-item">
           <summary class="faq-question">
-            What other sports do you cover?
-            <span class="faq-chevron">▼</span>
-          </summary>
-          <div class="faq-answer">
-            <ul>
-              <li>NCAA Men's Basketball</li>
-              <li>NCAA Men's Football</li>
-              <li>NFL</li>
-              <li>NBA</li>
-              <li>NHL</li>
-              <li>MLB</li>
-            </ul>
-          </div>
-        </details>
-
-        <details class="faq-item">
-          <summary class="faq-question">
             Why are some games no longer showing for today?
             <span class="faq-chevron">▼</span>
           </summary>
           <div class="faq-answer">
             The schedule refreshes every few hours. Once a game is confirmed over and well in the past, it rolls off the page — we keep things focused on what's upcoming, currently live, or recently finished. If something seems to have disappeared, it's likely already wrapped up.
-          </div>
-        </details>
-
-        <details class="faq-item">
-          <summary class="faq-question">
-            Why are only a few TV Shows and Movies showing for each streaming platform?
-            <span class="faq-chevron">▼</span>
-          </summary>
-          <div class="faq-answer">
-            HBO Max and Netflix only show newly released content from the last 15 days.  Prime Video and Apple TV show newly released content from the last 30 days.  
-          </div>
-        </details>
-
-        <details class="faq-item">
-          <summary class="faq-question">
-            Where do TV Shows and Movies ratings come from?
-            <span class="faq-chevron">▼</span>
-          </summary>
-          <div class="faq-answer">
-            Ratings shown on titles are aggregated from multiple sources including IMDb and TMDb, and averaged into a single score out of 100.
           </div>
         </details>
 
@@ -1066,7 +736,6 @@
   </div>
 
   <script src="app.js"></script>
-  <script src="localtv.js"></script>
 
   <script>
   (function() {
