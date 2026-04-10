@@ -1,7 +1,165 @@
 {
-  "updated": "2026-04-10T17:06:50Z",
+  "updated": "2026-04-10T18:00:14Z",
   "date": "2026-04-10",
   "matches": [
+    {
+      "home": "Karlsruhe",
+      "away": "Arminia Bielefeld",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1shu0hn",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shu0hn",
+          "scorer": "Christoph Kobald",
+          "minute": 62,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/19f87d61",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775843791000
+        }
+      ]
+    },
+    {
+      "home": "Fortuna Düsseldorf",
+      "away": "Holstein Kiel",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1shtonu",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shtonu",
+          "scorer": "Phil Harres",
+          "minute": 50,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/8ada2ee5",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775843101000
+        }
+      ]
+    },
+    {
+      "home": "Paris FC",
+      "away": "Monaco",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1shsrpl",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shsrpl",
+          "scorer": "Jonathan Ikone",
+          "minute": 4,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/o2rVljT0vYZ2Mkn/watch",
+          "videoEmbed": "https://streamain.com/o2rVljT0vYZ2Mkn/watch",
+          "directMp4": null,
+          "postedAt": 1775841157000
+        },
+        {
+          "postId": "1shss9g",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shss9g",
+          "scorer": "Ciro Immobile",
+          "minute": 8,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/SqLukB4mOi9aR7o/watch",
+          "videoEmbed": "https://streamain.com/SqLukB4mOi9aR7o/watch",
+          "directMp4": null,
+          "postedAt": 1775841189000
+        },
+        {
+          "postId": "1sht9xj",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sht9xj",
+          "scorer": "Jonathan Ikone",
+          "minute": 21,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/4b10fNoMHdK7Yil/watch",
+          "videoEmbed": "https://streamain.com/4b10fNoMHdK7Yil/watch",
+          "directMp4": null,
+          "postedAt": 1775842226000
+        },
+        {
+          "postId": "1shtm27",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shtm27",
+          "scorer": "Folarin Balogun",
+          "minute": 36,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/WCnv2PC5lurq7Qg/watch",
+          "videoEmbed": "https://streamain.com/WCnv2PC5lurq7Qg/watch",
+          "directMp4": null,
+          "postedAt": 1775842943000
+        }
+      ]
+    },
+    {
+      "home": "Besiktas",
+      "away": "Antalyaspor",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sht34b",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sht34b",
+          "scorer": "Orkun Kokcu",
+          "minute": 4,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/en/0caRnrKaRIbv5nf/watch",
+          "videoEmbed": "https://streamain.com/en/0caRnrKaRIbv5nf/watch",
+          "directMp4": null,
+          "postedAt": 1775841829000
+        },
+        {
+          "postId": "1sht4aa",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sht4aa",
+          "scorer": "Jota Silva",
+          "minute": 9,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/lMCN92EY2dNqzIB/watch",
+          "videoEmbed": "https://streamain.com/lMCN92EY2dNqzIB/watch",
+          "directMp4": null,
+          "postedAt": 1775841896000
+        },
+        {
+          "postId": "1shtivu",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shtivu",
+          "scorer": "Sander van de Streek",
+          "minute": 21,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/Wlsf1RnC0nDF6rl/watch",
+          "videoEmbed": "https://streamain.com/Wlsf1RnC0nDF6rl/watch",
+          "directMp4": null,
+          "postedAt": 1775842753000
+        },
+        {
+          "postId": "1shtjbw",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shtjbw",
+          "scorer": "Hyeon-Gyu Oh",
+          "minute": 33,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/VMGAImx2UAjSTCR/watch",
+          "videoEmbed": "https://streamain.com/VMGAImx2UAjSTCR/watch",
+          "directMp4": null,
+          "postedAt": 1775842781000
+        }
+      ]
+    },
     {
       "home": "Karlsruhe",
       "away": "Bielefeld",
