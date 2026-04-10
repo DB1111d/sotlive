@@ -1,7 +1,27 @@
 {
-  "updated": "2026-04-09T23:35:42Z",
-  "date": "2026-04-09",
+  "updated": "2026-04-10T01:02:43Z",
+  "date": "2026-04-10",
   "matches": [
+    {
+      "home": "Carabobo",
+      "away": "RB Bragantino",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sh7lnf",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sh7lnf",
+          "scorer": "Ezequiel Neira",
+          "minute": 9,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/1b4se81we9ug1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775781814000
+        }
+      ]
+    },
     {
       "home": "Universidad Central",
       "away": "Libertad",
@@ -19,6 +39,111 @@
           "videoEmbed": "https://streamain.com/z9AjSwLaUlMbfrc/watch",
           "directMp4": null,
           "postedAt": 1775777675000
+        },
+        {
+          "postId": "1sh6230",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sh6230",
+          "scorer": "Lorenzo Melgarejo",
+          "minute": 61,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/NqV3YFxsdcqcgfW/watch",
+          "videoEmbed": "https://streamain.com/NqV3YFxsdcqcgfW/watch",
+          "directMp4": null,
+          "postedAt": 1775777714000
+        },
+        {
+          "postId": "1sh6pwq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sh6pwq",
+          "scorer": "Yeiber Murillo",
+          "minute": 88,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/PUa845xZ1DMco7b/watch",
+          "videoEmbed": "https://streamain.com/PUa845xZ1DMco7b/watch",
+          "directMp4": null,
+          "postedAt": 1775779429000
+        },
+        {
+          "postId": "1sh6qdt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sh6qdt",
+          "scorer": "Francisco Sole penalty",
+          "minute": 90,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/9kOfNYJxFaDTWzZ/watch",
+          "videoEmbed": "https://streamain.com/9kOfNYJxFaDTWzZ/watch",
+          "directMp4": null,
+          "postedAt": 1775779464000
+        }
+      ]
+    },
+    {
+      "home": "Juventud",
+      "away": "Cienciano",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sh674t",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sh674t",
+          "scorer": "Leonel Roldan",
+          "minute": 36,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/KxsUeIZghyojqaD/watch",
+          "videoEmbed": "https://streamain.com/KxsUeIZghyojqaD/watch",
+          "directMp4": null,
+          "postedAt": 1775778077000
+        },
+        {
+          "postId": "1sh6p1n",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sh6p1n",
+          "scorer": "Carlos Garcés",
+          "minute": 88,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/WgPCqWSWJM3IjPi/watch",
+          "videoEmbed": "https://streamain.com/WgPCqWSWJM3IjPi/watch",
+          "directMp4": null,
+          "postedAt": 1775779363000
+        }
+      ]
+    },
+    {
+      "home": "Botafogo RJ",
+      "away": "Caracas",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sh644q",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sh644q",
+          "scorer": "Wilfred Correa",
+          "minute": 43,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/x3vhWheFgXyKlhy/watch",
+          "videoEmbed": "https://streamain.com/x3vhWheFgXyKlhy/watch",
+          "directMp4": null,
+          "postedAt": 1775777863000
+        },
+        {
+          "postId": "1sh64ss",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sh64ss",
+          "scorer": "Arthur Cabral",
+          "minute": 50,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/Eb1w3LID8nKIQLv/watch",
+          "videoEmbed": "https://streamain.com/Eb1w3LID8nKIQLv/watch",
+          "directMp4": null,
+          "postedAt": 1775777912000
         }
       ]
     },
