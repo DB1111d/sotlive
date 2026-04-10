@@ -36,6 +36,83 @@ HEADERS = {
     "Accept": "application/json",
 }
 
+# Canonical name aliases — maps alternate/variant names → canonical form.
+TEAM_ALIASES = {
+    # German teams
+    "bielefeld":           "Arminia Bielefeld",
+    "arminia bielefeld":   "Arminia Bielefeld",
+    "arminia":             "Arminia Bielefeld",
+    # EFL teams commonly posted without City/United
+    "norwich":             "Norwich City",
+    "norwich city":        "Norwich City",
+    "leeds":               "Leeds United",
+    "leeds united":        "Leeds United",
+    "ipswich":             "Ipswich Town",
+    "hull":                "Hull City",
+    "hull city":           "Hull City",
+    "coventry":            "Coventry City",
+    "coventry city":       "Coventry City",
+    "oxford":              "Oxford United",
+    "oxford united":       "Oxford United",
+    "west brom":           "West Bromwich Albion",
+    "wba":                 "West Bromwich Albion",
+    "sheffield utd":       "Sheffield United",
+    "sheffield united":    "Sheffield United",
+    "sheff utd":           "Sheffield United",
+    "sheffield wed":       "Sheffield Wednesday",
+    "bristol city":        "Bristol City",
+    "swansea":             "Swansea City",
+    "cardiff":             "Cardiff City",
+    "stoke":               "Stoke City",
+    "nottm forest":        "Nottingham Forest",
+    "nott'm forest":      "Nottingham Forest",
+    # National teams
+    "south korea":         "Korea Republic",
+    "korea republic":      "Korea Republic",
+    "ivory coast":         "Cote d'Ivoire",
+    "cote d'ivoire":      "Cote d'Ivoire",
+    "faroe islands":       "Faroe Islands",
+    "faroe islandes":      "Faroe Islands",
+    "united states":       "USA",
+    "usmnt":               "USA",
+    # Al-Nassr / Al-Najma variants
+    "al nassr":            "Al-Nassr",
+    "alnassr":             "Al-Nassr",
+    "al najma":            "Al-Najma",
+    "ai najma":            "Al-Najma",
+    # Premier League
+    "man city":            "Manchester City",
+    "man utd":             "Manchester United",
+    "man united":          "Manchester United",
+    "spurs":               "Tottenham Hotspur",
+    "tottenham":           "Tottenham Hotspur",
+    "wolves":              "Wolverhampton Wanderers",
+    "newcastle":           "Newcastle United",
+    "brighton":            "Brighton & Hove Albion",
+    "west ham":            "West Ham United",
+    # European clubs
+    "atletico":            "Atletico Madrid",
+    "atleti":              "Atletico Madrid",
+    "atletico de madrid":  "Atletico Madrid",
+    "inter":               "Inter Milan",
+    "internazionale":      "Inter Milan",
+    "ac milan":            "Milan",
+    "dortmund":            "Borussia Dortmund",
+    "bvb":                 "Borussia Dortmund",
+    "leverkusen":          "Bayer Leverkusen",
+    "rb leipzig":          "RB Leipzig",
+    "sporting":            "Sporting CP",
+}
+
+
+def canonicalize_team(name):
+    """Resolve known aliases to canonical team name."""
+    key = name.lower()
+    key = re.sub(r"[^a-z0-9 ]", "", key)
+    key = re.sub(r"\s+", " ", key).strip()
+    return TEAM_ALIASES.get(key, name)
+
+
 WOMENS_TEAMS = {
     "angel city", "bay fc", "boston legacy", "chicago stars", "denver summit",
     "gotham fc", "houston dash", "kansas city current", "north carolina courage",
@@ -97,11 +174,13 @@ def find_schedule_match(parsed_home, parsed_away, today_teams):
         sh = game["home_norm"]
         sa = game["away_norm"]
 
-        # Only match if name is long enough to be meaningful (avoids e.g. AZ matching Lazio)
-        home_match = len(ph) >= 4 and (ph in sh or sh in ph)
-        away_match = len(pa) >= 4 and ((pa in sa or sa in pa) or (pa in sh or sh in pa))
+        # Both teams must match — one alone risks false positives
+        home_match = len(ph) >= 3 and (ph in sh or sh in ph)
+        away_match = len(pa) >= 3 and (pa in sa or sa in pa)
+        home_match_swap = len(ph) >= 3 and (ph in sa or sa in ph)
+        away_match_swap = len(pa) >= 3 and (pa in sh or sh in pa)
 
-        if home_match or away_match:
+        if (home_match and away_match) or (home_match_swap and away_match_swap):
             return game
 
     return None
@@ -113,20 +192,42 @@ def today_utc_midnight_ts():
     return int(eastern_midnight.astimezone(timezone.utc).timestamp())
 
 def fetch_posts(after_ts):
-    url = (
-        f"https://arctic-shift.photon-reddit.com/api/posts/search"
-        f"?subreddit={SUBREDDIT}&after={after_ts}&limit=100&sort=desc"
-    )
-    req = urllib.request.Request(url, headers=HEADERS)
-    try:
-        with urllib.request.urlopen(req, timeout=20) as resp:
-            data = json.loads(resp.read().decode("utf-8"))
-            posts = data.get("data", [])
-            print(f"  Fetched {len(posts)} posts")
-            return posts
-    except Exception as e:
-        print(f"  Fetch error: {e}")
-        return []
+    """Paginate through all posts since after_ts using before= cursor."""
+    all_posts = []
+    before_ts = None
+
+    while True:
+        url = (
+            f"https://arctic-shift.photon-reddit.com/api/posts/search"
+            f"?subreddit={SUBREDDIT}&after={after_ts}&limit=100&sort=desc"
+        )
+        if before_ts is not None:
+            url += f"&before={before_ts}"
+
+        req = urllib.request.Request(url, headers=HEADERS)
+        try:
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+                posts = data.get("data", [])
+        except Exception as e:
+            print(f"  Fetch error: {e}")
+            break
+
+        if not posts:
+            break
+
+        all_posts.extend(posts)
+        print(f"  Fetched {len(posts)} posts (total so far: {len(all_posts)})")
+
+        if len(posts) < 100:
+            break
+
+        oldest_ts = min(int(p.get("created_utc", 0)) for p in posts)
+        if oldest_ts <= after_ts:
+            break
+        before_ts = oldest_ts - 1
+
+    return all_posts
 
 def clean_team(name):
     name = re.sub(r'[\[\(][^\]\)]*[\]\)]', '', name)
@@ -243,7 +344,9 @@ def build_embed(url, post_id):
     return None
 
 def match_key(home, away):
-    return " vs ".join(sorted([clean_team(home).lower(), clean_team(away).lower()]))
+    canon_h = canonicalize_team(clean_team(home)).lower()
+    canon_a = canonicalize_team(clean_team(away)).lower()
+    return " vs ".join(sorted([canon_h, canon_a]))
 
 def main():
     today_ts = today_utc_midnight_ts()
@@ -289,8 +392,8 @@ def main():
 
         # Cross-reference against today's schedule — tag league if matched, else Rest of World
         scheduled = find_schedule_match(parsed["home"], parsed["away"], today_teams) if today_teams else None
-        canon_home   = scheduled["home"]   if scheduled else parsed["home"]
-        canon_away   = scheduled["away"]   if scheduled else parsed["away"]
+        canon_home   = scheduled["home"]   if scheduled else canonicalize_team(parsed["home"])
+        canon_away   = scheduled["away"]   if scheduled else canonicalize_team(parsed["away"])
         canon_league = scheduled["league"] if scheduled else "Rest of World"
 
         key = match_key(canon_home, canon_away)
