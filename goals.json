@@ -1,5 +1,59 @@
 {
-  "updated": "2026-04-10T16:06:51Z",
+  "updated": "2026-04-10T17:06:50Z",
   "date": "2026-04-10",
-  "matches": []
+  "matches": [
+    {
+      "home": "Karlsruhe",
+      "away": "Bielefeld",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1shsgrn",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shsgrn",
+          "scorer": "Robin Knoche",
+          "minute": 11,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/hkket83z6eug1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775840518000
+        },
+        {
+          "postId": "1shsj22",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shsj22",
+          "scorer": "Louey Ben Farhat",
+          "minute": 18,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/5zudof9s9eug1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775840648000
+        }
+      ]
+    },
+    {
+      "home": "Wisła Płock",
+      "away": "Lechia Gdańsk",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1shrzkp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shrzkp",
+          "scorer": "Kyriakos Savvidis",
+          "minute": 30,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/khev3ah45eug1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/khev3ah45eug1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775839520000
+        }
+      ]
+    }
+  ]
 }
