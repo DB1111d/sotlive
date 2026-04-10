@@ -1,44 +1,149 @@
 {
-  "updated": "2026-04-10T18:00:14Z",
+  "updated": "2026-04-10T19:11:42Z",
   "date": "2026-04-10",
   "matches": [
     {
-      "home": "Karlsruhe",
-      "away": "Arminia Bielefeld",
+      "home": "Clermont",
+      "away": "Nancy",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1shu0hn",
+          "postId": "1shusgf",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1shu0hn",
-          "scorer": "Christoph Kobald",
-          "minute": 62,
-          "homeScore": 2,
+          "permalink": "https://redd.it/1shusgf",
+          "scorer": "Brandon Bokangu",
+          "minute": 21,
+          "homeScore": 0,
           "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/19f87d61",
-          "videoEmbed": null,
+          "videoUrl": "https://streamain.com/x6gJkB7avzBdfO1/watch",
+          "videoEmbed": "https://streamain.com/x6gJkB7avzBdfO1/watch",
           "directMp4": null,
-          "postedAt": 1775843791000
+          "postedAt": 1775845413000
+        },
+        {
+          "postId": "1shw3xg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shw3xg",
+          "scorer": "Ivan M'Bahia",
+          "minute": 51,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/R1miEg3MYPlG2Pp/watch",
+          "videoEmbed": "https://streamain.com/R1miEg3MYPlG2Pp/watch",
+          "directMp4": null,
+          "postedAt": 1775848268000
         }
       ]
     },
     {
-      "home": "Fortuna Düsseldorf",
-      "away": "Holstein Kiel",
+      "home": "FC Augsburg",
+      "away": "TSG Hoffenheim",
+      "league": "German Bundesliga",
+      "goals": [
+        {
+          "postId": "1shvcas",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shvcas",
+          "scorer": "Alexis Claude-Maurice",
+          "minute": 11,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/5117e91b",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775846633000
+        },
+        {
+          "postId": "1shvez3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shvez3",
+          "scorer": "Michael Gregoritsch",
+          "minute": 14,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/bff67c9a",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775846795000
+        },
+        {
+          "postId": "1shw1l0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shw1l0",
+          "scorer": "Robin Hranác",
+          "minute": 35,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/5089adc4",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775848125000
+        }
+      ]
+    },
+    {
+      "home": "Korona Kielce",
+      "away": "Jagiellonia Białystok",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1shtonu",
+          "postId": "1shvpxp",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1shtonu",
-          "scorer": "Phil Harres",
-          "minute": 50,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/8ada2ee5",
+          "permalink": "https://redd.it/1shvpxp",
+          "scorer": "Martin Remacle",
+          "minute": 22,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/9j9h24p3ueug1",
           "videoEmbed": null,
+          "directMp4": "https://v.redd.it/9j9h24p3ueug1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775847443000
+        },
+        {
+          "postId": "1shvvws",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shvvws",
+          "scorer": "Afimico Pululu penalty",
+          "minute": 29,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/wxp2lsu5veug1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/wxp2lsu5veug1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775847790000
+        }
+      ]
+    },
+    {
+      "home": "Twente",
+      "away": "FC Volendam",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1shuy0z",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shuy0z",
+          "scorer": "Ruud Nijstad",
+          "minute": 2,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/LmlQ4N1C8s6ONDO/watch",
+          "videoEmbed": "https://streamain.com/LmlQ4N1C8s6ONDO/watch",
           "directMp4": null,
-          "postedAt": 1775843101000
+          "postedAt": 1775845751000
+        },
+        {
+          "postId": "1shv6cq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shv6cq",
+          "scorer": "Kristian Hlynsson",
+          "minute": 34,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/ar3GJrwLsABpXsy/watch",
+          "videoEmbed": "https://streamain.com/ar3GJrwLsABpXsy/watch",
+          "directMp4": null,
+          "postedAt": 1775846265000
         }
       ]
     },
@@ -98,6 +203,19 @@
           "videoEmbed": "https://streamain.com/WCnv2PC5lurq7Qg/watch",
           "directMp4": null,
           "postedAt": 1775842943000
+        },
+        {
+          "postId": "1shv5n2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shv5n2",
+          "scorer": "Luca Koleosho",
+          "minute": 71,
+          "homeScore": 4,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/4AFGtsABditIIil/watch",
+          "videoEmbed": "https://streamain.com/4AFGtsABditIIil/watch",
+          "directMp4": null,
+          "postedAt": 1775846222000
         }
       ]
     },
@@ -157,6 +275,52 @@
           "videoEmbed": "https://streamain.com/VMGAImx2UAjSTCR/watch",
           "directMp4": null,
           "postedAt": 1775842781000
+        },
+        {
+          "postId": "1shukea",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shukea",
+          "scorer": "Samuel Ballet",
+          "minute": 47,
+          "homeScore": 3,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/SFmPv8qdG5uFTqe/watch",
+          "videoEmbed": "https://streamain.com/SFmPv8qdG5uFTqe/watch",
+          "directMp4": null,
+          "postedAt": 1775844944000
+        },
+        {
+          "postId": "1shv164",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shv164",
+          "scorer": "Hyeon-Gyu Oh",
+          "minute": 59,
+          "homeScore": 4,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/tZcP1V9yRtErZh5/watch",
+          "videoEmbed": "https://streamain.com/tZcP1V9yRtErZh5/watch",
+          "directMp4": null,
+          "postedAt": 1775845944000
+        }
+      ]
+    },
+    {
+      "home": "Laval",
+      "away": "Reims",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1shuv5e",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shuv5e",
+          "scorer": "Mamadou Camara penalty",
+          "minute": 18,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/evSaRjlKfVCuVR1/watch",
+          "videoEmbed": "https://streamain.com/evSaRjlKfVCuVR1/watch",
+          "directMp4": null,
+          "postedAt": 1775845578000
         }
       ]
     },
@@ -190,6 +354,131 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1775840648000
+        },
+        {
+          "postId": "1shu0hn",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shu0hn",
+          "scorer": "Christoph Kobald",
+          "minute": 62,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/19f87d61",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775843791000
+        },
+        {
+          "postId": "1shue04",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shue04",
+          "scorer": "Fabian Schleusener",
+          "minute": 78,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/8730eae0",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775844573000
+        },
+        {
+          "postId": "1shuqzm",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shuqzm",
+          "scorer": "Shio Fukuda",
+          "minute": 89,
+          "homeScore": 4,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/e9adff35",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775845326000
+        }
+      ]
+    },
+    {
+      "home": "Guingamp",
+      "away": "Grenoble",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1shuqjw",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shuqjw",
+          "scorer": "Clement Vidal",
+          "minute": 17,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/WoVIuSFj9xAjFqm/watch",
+          "videoEmbed": "https://streamain.com/WoVIuSFj9xAjFqm/watch",
+          "directMp4": null,
+          "postedAt": 1775845303000
+        }
+      ]
+    },
+    {
+      "home": "Amiens",
+      "away": "Pau FC",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1shuo8e",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shuo8e",
+          "scorer": "Kyliane Dong",
+          "minute": 12,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/4nojqY5r9JM3u1H/watch",
+          "videoEmbed": "https://streamain.com/4nojqY5r9JM3u1H/watch",
+          "directMp4": null,
+          "postedAt": 1775845165000
+        }
+      ]
+    },
+    {
+      "home": "Fortuna Düsseldorf",
+      "away": "Holstein Kiel",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1shtonu",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shtonu",
+          "scorer": "Phil Harres",
+          "minute": 50,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/8ada2ee5",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775843101000
+        },
+        {
+          "postId": "1shu9si",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shu9si",
+          "scorer": "Cedric Itten",
+          "minute": 71,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/4ece2035",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775844317000
+        },
+        {
+          "postId": "1shuiot",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shuiot",
+          "scorer": "Ivan Nekic",
+          "minute": 79,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/4ca60ef2",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775844844000
         }
       ]
     },
