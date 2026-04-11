@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-11T00:04:25Z",
+  "updated": "2026-04-11T03:19:30Z",
   "date": "2026-04-11",
   "matches": [
     {
@@ -348,6 +348,65 @@
       "home": "FC Augsburg",
       "away": "TSG Hoffenheim",
       "league": "German Bundesliga",
+      "goals": [
+        {
+          "postId": "1shvcas",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shvcas",
+          "scorer": "Alexis Claude-Maurice",
+          "minute": 11,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/5117e91b",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775846633000
+        },
+        {
+          "postId": "1shvez3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shvez3",
+          "scorer": "Michael Gregoritsch",
+          "minute": 14,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/bff67c9a",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775846795000
+        },
+        {
+          "postId": "1shw1l0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shw1l0",
+          "scorer": "Robin Hranác",
+          "minute": 35,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/5089adc4",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775848125000
+        },
+        {
+          "postId": "1shx6eb",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1shx6eb",
+          "scorer": "Bazoumana Toure",
+          "minute": 42,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/EZJIJKLsdSVp1Hx/watch",
+          "videoEmbed": "https://streamain.com/EZJIJKLsdSVp1Hx/watch",
+          "directMp4": null,
+          "postedAt": 1775850592000
+        }
+      ]
+    },
+    {
+      "home": "Augsburg",
+      "away": "Hoffenheim",
+      "league": "Rest of World",
       "goals": [
         {
           "postId": "1shvcas",
