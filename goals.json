@@ -1,7 +1,40 @@
 {
-  "updated": "2026-04-11T22:39:58Z",
+  "updated": "2026-04-11T23:05:05Z",
   "date": "2026-04-11",
   "matches": [
+    {
+      "home": "Portland Timbers",
+      "away": "LAFC",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sivkos",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sivkos",
+          "scorer": "Kristoffer Velde",
+          "minute": 32,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/33c44630",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775943116000
+        },
+        {
+          "postId": "1sixriw",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sixriw",
+          "scorer": "Kevin Kelsy",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/8b4c0596",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775948655000
+        }
+      ]
+    },
     {
       "home": "Portland Timbers",
       "away": "Los Angeles FC",
@@ -32,26 +65,19 @@
           "videoEmbed": "https://streamain.com/2tJfvmFIJTT0xmv/watch",
           "directMp4": null,
           "postedAt": 1775946493000
-        }
-      ]
-    },
-    {
-      "home": "Portland Timbers",
-      "away": "LAFC",
-      "league": "Rest of World",
-      "goals": [
+        },
         {
-          "postId": "1sivkos",
+          "postId": "1sixqn1",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1sivkos",
-          "scorer": "Kristoffer Velde",
-          "minute": 32,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamin.link/v/33c44630",
-          "videoEmbed": null,
+          "permalink": "https://redd.it/1sixqn1",
+          "scorer": "Kevin Kelsy",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/LA14TkdVxH9Kfkq/watch",
+          "videoEmbed": "https://streamain.com/LA14TkdVxH9Kfkq/watch",
           "directMp4": null,
-          "postedAt": 1775943116000
+          "postedAt": 1775948590000
         }
       ]
     },
