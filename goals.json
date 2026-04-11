@@ -1,7 +1,47 @@
 {
-  "updated": "2026-04-11T21:30:06Z",
+  "updated": "2026-04-11T21:58:47Z",
   "date": "2026-04-11",
   "matches": [
+    {
+      "home": "Portland Timbers",
+      "away": "Los Angeles FC",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sivr14",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sivr14",
+          "scorer": "Kristoffer Velde",
+          "minute": 32,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/KGpgWcJ2iOHVVDT/watch",
+          "videoEmbed": "https://streamain.com/KGpgWcJ2iOHVVDT/watch",
+          "directMp4": null,
+          "postedAt": 1775943554000
+        }
+      ]
+    },
+    {
+      "home": "Portland Timbers",
+      "away": "LAFC",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sivkos",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sivkos",
+          "scorer": "Kristoffer Velde",
+          "minute": 32,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/33c44630",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775943116000
+        }
+      ]
+    },
     {
       "home": "Estrela",
       "away": "Sporting CP",
