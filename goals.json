@@ -1,7 +1,60 @@
 {
-  "updated": "2026-04-11T20:50:30Z",
+  "updated": "2026-04-11T21:30:06Z",
   "date": "2026-04-11",
   "matches": [
+    {
+      "home": "Estrela",
+      "away": "Sporting CP",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1siunyx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1siunyx",
+          "scorer": "Daniel Braganca",
+          "minute": 59,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/jOwcAQWq9pfoyNP/watch",
+          "videoEmbed": "https://streamain.com/jOwcAQWq9pfoyNP/watch",
+          "directMp4": null,
+          "postedAt": 1775940886000
+        }
+      ]
+    },
+    {
+      "home": "FAR Rabat",
+      "away": "Berkane",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1situwg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1situwg",
+          "scorer": "Ahmed Hammoudan",
+          "minute": 58,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/PCOHa7bhefZ1LrP/watch",
+          "videoEmbed": "https://streamain.com/PCOHa7bhefZ1LrP/watch",
+          "directMp4": null,
+          "postedAt": 1775938958000
+        },
+        {
+          "postId": "1siumb3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1siumb3",
+          "scorer": "Khalid Ouarkhane Alt",
+          "minute": 80,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/UktosnKRIihfz4f/watch",
+          "videoEmbed": "https://streamain.com/UktosnKRIihfz4f/watch",
+          "directMp4": null,
+          "postedAt": 1775940773000
+        }
+      ]
+    },
     {
       "home": "Austin FC",
       "away": "Los Angeles Galaxy",
@@ -137,26 +190,6 @@
           "videoEmbed": "https://streamain.com/l1P0GzoJmCMxaGn/watch",
           "directMp4": null,
           "postedAt": 1775939483000
-        }
-      ]
-    },
-    {
-      "home": "FAR Rabat",
-      "away": "Berkane",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1situwg",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1situwg",
-          "scorer": "Ahmed Hammoudan",
-          "minute": 58,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamain.com/PCOHa7bhefZ1LrP/watch",
-          "videoEmbed": "https://streamain.com/PCOHa7bhefZ1LrP/watch",
-          "directMp4": null,
-          "postedAt": 1775938958000
         }
       ]
     },
