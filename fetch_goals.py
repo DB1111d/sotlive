@@ -436,13 +436,15 @@ def main():
     for key in matches:
         matches[key]["goals"].sort(key=lambda g: (g["homeScore"] + g["awayScore"], g["minute"] or 0))
 
-    # Detect disallowed goals — sort by postedAt, compare consecutive goals.
-    # If home score OR away score drops between posts, the previous goal was disallowed.
+    # Detect disallowed goals — sort by total goals scored, then postedAt as tiebreak.
+    # Using score order (not postedAt) avoids false positives when a goal post is replaced
+    # by a newer video and gets a later timestamp than the next goal.
     for key in matches:
-        goals_by_time = sorted(matches[key]["goals"], key=lambda g: g["postedAt"])
-        for i in range(1, len(goals_by_time)):
-            prev = goals_by_time[i - 1]
-            curr = goals_by_time[i]
+        goals_by_score = sorted(matches[key]["goals"],
+                                key=lambda g: (g["homeScore"] + g["awayScore"], g["postedAt"]))
+        for i in range(1, len(goals_by_score)):
+            prev = goals_by_score[i - 1]
+            curr = goals_by_score[i]
             if curr["homeScore"] < prev["homeScore"] or curr["awayScore"] < prev["awayScore"]:
                 prev["disallowed"] = True
 
