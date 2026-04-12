@@ -1,7 +1,231 @@
 {
-  "updated": "2026-04-12T15:51:28Z",
+  "updated": "2026-04-12T16:35:54Z",
   "date": "2026-04-12",
   "matches": [
+    {
+      "home": "Nice",
+      "away": "Le Havre",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sjj830",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjj830",
+          "scorer": "Ally Samatta",
+          "minute": 41,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/NFvt5XuPu6GUxle/watch",
+          "videoEmbed": "https://streamain.com/NFvt5XuPu6GUxle/watch",
+          "directMp4": null,
+          "postedAt": 1776011478000
+        }
+      ]
+    },
+    {
+      "home": "Alverca",
+      "away": "Casa Pia",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sjivjs",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjivjs",
+          "scorer": "Joao Marques",
+          "minute": 1,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/2XUoNXSQbzWLqFB/watch",
+          "videoEmbed": "https://streamain.com/2XUoNXSQbzWLqFB/watch",
+          "directMp4": null,
+          "postedAt": 1776010705000
+        },
+        {
+          "postId": "1sjivz3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjivz3",
+          "scorer": "Figueiredo",
+          "minute": 49,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/KvuDMQAfbNAdDI2/watch",
+          "videoEmbed": "https://streamain.com/KvuDMQAfbNAdDI2/watch",
+          "directMp4": null,
+          "postedAt": 1776010731000
+        },
+        {
+          "postId": "1sjiwir",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjiwir",
+          "scorer": "Chiquinho",
+          "minute": 63,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/DgmSQihu49hzWYH/watch",
+          "videoEmbed": "https://streamain.com/DgmSQihu49hzWYH/watch",
+          "directMp4": null,
+          "postedAt": 1776010762000
+        },
+        {
+          "postId": "1sjj1z5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjj1z5",
+          "scorer": "Rhaldney Gomes",
+          "minute": 83,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/M88zigrHM9h67o2/watch",
+          "videoEmbed": "https://streamain.com/M88zigrHM9h67o2/watch",
+          "directMp4": null,
+          "postedAt": 1776011101000
+        }
+      ]
+    },
+    {
+      "home": "AZ",
+      "away": "Heerenveen",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sjgq4k",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjgq4k",
+          "scorer": "Sven Mijnans",
+          "minute": 7,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/ho5wync0xrug1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776005801000
+        },
+        {
+          "postId": "1sjgqph",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjgqph",
+          "scorer": "Sven Mijnans",
+          "minute": 8,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/st46for5xrug1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776005839000
+        },
+        {
+          "postId": "1sjius9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjius9",
+          "scorer": "Troy Parrott",
+          "minute": 71,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/lfm9z2zfbsug1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776010662000
+        }
+      ]
+    },
+    {
+      "home": "Lech Poznań",
+      "away": "GKS Katowice",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sjir27",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjir27",
+          "scorer": "Eman Markovic",
+          "minute": 38,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/h4bltz3qasug1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/h4bltz3qasug1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1776010432000
+        }
+      ]
+    },
+    {
+      "home": "Mallorca",
+      "away": "Rayo Vallecano",
+      "league": "La Liga",
+      "goals": [
+        {
+          "postId": "1sjij3r",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjij3r",
+          "scorer": "Vedat Muriqi",
+          "minute": 36,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/z5p6JWAgUHSkPjd/watch",
+          "videoEmbed": "https://streamain.com/z5p6JWAgUHSkPjd/watch",
+          "directMp4": null,
+          "postedAt": 1776009931000
+        },
+        {
+          "postId": "1sjiji3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjiji3",
+          "scorer": "Vedat Muriqi",
+          "minute": 40,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/bEvs1XJyhUBTA3H/watch",
+          "videoEmbed": "https://streamain.com/bEvs1XJyhUBTA3H/watch",
+          "directMp4": null,
+          "postedAt": 1776009957000
+        },
+        {
+          "postId": "1sjik1u",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjik1u",
+          "scorer": "Jan Virgili",
+          "minute": 65,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/enihH347jQeS674/watch",
+          "videoEmbed": "https://streamain.com/enihH347jQeS674/watch",
+          "directMp4": null,
+          "postedAt": 1776009993000
+        }
+      ]
+    },
+    {
+      "home": "Stuttgart",
+      "away": "Hamburger SV",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sji7ps",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sji7ps",
+          "scorer": "Angelo Stiller",
+          "minute": 21,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/1d4a4f4a",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776009224000
+        },
+        {
+          "postId": "1sjihm5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjihm5",
+          "scorer": "Chris Führich",
+          "minute": 32,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/36f571e4",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776009836000
+        }
+      ]
+    },
     {
       "home": "Köln",
       "away": "Werder Bremen",
@@ -98,39 +322,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/7wmrdkrwxrug1/CMAF_1080.mp4?source=fallback",
           "postedAt": 1776006088000
-        }
-      ]
-    },
-    {
-      "home": "AZ",
-      "away": "Heerenveen",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1sjgq4k",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sjgq4k",
-          "scorer": "Sven Mijnans",
-          "minute": 7,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/ho5wync0xrug1",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1776005801000
-        },
-        {
-          "postId": "1sjgqph",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sjgqph",
-          "scorer": "Sven Mijnans",
-          "minute": 8,
-          "homeScore": 2,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/st46for5xrug1",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1776005839000
         }
       ]
     },
