@@ -1,7 +1,159 @@
 {
-  "updated": "2026-04-12T19:02:33Z",
+  "updated": "2026-04-12T19:52:09Z",
   "date": "2026-04-12",
   "matches": [
+    {
+      "home": "Estoril",
+      "away": "FC Porto",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sjokeq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjokeq",
+          "scorer": "Pepê",
+          "minute": 14,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/kvhQOqZFBo72e38/watch",
+          "videoEmbed": "https://streamain.com/kvhQOqZFBo72e38/watch",
+          "directMp4": null,
+          "postedAt": 1776023359000
+        }
+      ]
+    },
+    {
+      "home": "Como",
+      "away": "Internazionale",
+      "league": "Serie A",
+      "goals": [
+        {
+          "postId": "1sjo9kh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjo9kh",
+          "scorer": "Alex Valle",
+          "minute": 36,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/6jMtecbqTybxfV9/watch",
+          "videoEmbed": "https://streamain.com/6jMtecbqTybxfV9/watch",
+          "directMp4": null,
+          "postedAt": 1776022686000
+        },
+        {
+          "postId": "1sjoab3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjoab3",
+          "scorer": "Nico Paz",
+          "minute": 45,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/kqE44KsuCvFqu5u/watch",
+          "videoEmbed": "https://streamain.com/kqE44KsuCvFqu5u/watch",
+          "directMp4": null,
+          "postedAt": 1776022732000
+        },
+        {
+          "postId": "1sjoaq3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjoaq3",
+          "scorer": "Marcus Thuram",
+          "minute": 45,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/wBKZI7dwJwBucOk/watch",
+          "videoEmbed": "https://streamain.com/wBKZI7dwJwBucOk/watch",
+          "directMp4": null,
+          "postedAt": 1776022758000
+        }
+      ]
+    },
+    {
+      "home": "Athletic Bilbao",
+      "away": "Villarreal",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sjo5qp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjo5qp",
+          "scorer": "Sergi Cardona",
+          "minute": 26,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/8dEVo7FMj5xT3eB/watch",
+          "videoEmbed": "https://streamain.com/8dEVo7FMj5xT3eB/watch",
+          "directMp4": null,
+          "postedAt": 1776022448000
+        }
+      ]
+    },
+    {
+      "home": "Racing Santander",
+      "away": "Almeria",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sjnre1",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjnre1",
+          "scorer": "Adrian Embarba",
+          "minute": 12,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/nUyNkjb0ME4pi6K/watch",
+          "videoEmbed": "https://streamain.com/nUyNkjb0ME4pi6K/watch",
+          "directMp4": null,
+          "postedAt": 1776021554000
+        },
+        {
+          "postId": "1sjo1op",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjo1op",
+          "scorer": "Andres Martin",
+          "minute": 21,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/sAWDuUGGuna73B5/watch",
+          "videoEmbed": "https://streamain.com/sAWDuUGGuna73B5/watch",
+          "directMp4": null,
+          "postedAt": 1776022196000
+        },
+        {
+          "postId": "1sjo38h",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjo38h",
+          "scorer": "Inigo Vicente",
+          "minute": 28,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/Dj3zFyZ0UdTL7El/watch",
+          "videoEmbed": "https://streamain.com/Dj3zFyZ0UdTL7El/watch",
+          "directMp4": null,
+          "postedAt": 1776022289000
+        }
+      ]
+    },
+    {
+      "home": "Maghreb Fez",
+      "away": "Wydad AC",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sjnczx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjnczx",
+          "scorer": "Driss El Jabali",
+          "minute": 80,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/91kgym995tug1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/91kgym995tug1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1776020667000
+        }
+      ]
+    },
     {
       "home": "Mainz",
       "away": "SC Freiburg",
