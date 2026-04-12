@@ -1,7 +1,27 @@
 {
-  "updated": "2026-04-12T12:02:54Z",
+  "updated": "2026-04-12T13:34:09Z",
   "date": "2026-04-12",
   "matches": [
+    {
+      "home": "Nottingham Forest",
+      "away": "Aston Villa",
+      "league": "Premier League",
+      "goals": [
+        {
+          "postId": "1sjehxk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjehxk",
+          "scorer": "Murillo",
+          "minute": 23,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/e7ecb9a9",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776000317000
+        }
+      ]
+    },
     {
       "home": "Paderborn",
       "away": "Magdeburg",
@@ -19,26 +39,236 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1775994795000
+        },
+        {
+          "postId": "1sjcpe3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjcpe3",
+          "scorer": "Lubambo Musonda",
+          "minute": 25,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/a57e88c1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775995431000
+        },
+        {
+          "postId": "1sjditt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjditt",
+          "scorer": "Filip Bilbija",
+          "minute": 29,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/rze72HRQjCn9KAs/watch",
+          "videoEmbed": "https://streamain.com/rze72HRQjCn9KAs/watch",
+          "directMp4": null,
+          "postedAt": 1775997762000
+        },
+        {
+          "postId": "1sjdjkx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjdjkx",
+          "scorer": "Mateusz Zukowski",
+          "minute": 37,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/vLxRqPzi2dbglEh/watch",
+          "videoEmbed": "https://streamain.com/vLxRqPzi2dbglEh/watch",
+          "directMp4": null,
+          "postedAt": 1775997820000
+        },
+        {
+          "postId": "1sjdd0m",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjdd0m",
+          "scorer": "Filip Bilbija",
+          "minute": 45,
+          "homeScore": 3,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/4b947643",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775997315000
+        },
+        {
+          "postId": "1sjdwnf",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjdwnf",
+          "scorer": "Laurin Ulrich",
+          "minute": 59,
+          "homeScore": 3,
+          "awayScore": 3,
+          "videoUrl": "https://streamain.com/f4RPS40n63XV6pA/watch",
+          "videoEmbed": "https://streamain.com/f4RPS40n63XV6pA/watch",
+          "directMp4": null,
+          "postedAt": 1775998794000
+        },
+        {
+          "postId": "1sjeal6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjeal6",
+          "scorer": "Filip Bilbija",
+          "minute": 78,
+          "homeScore": 4,
+          "awayScore": 3,
+          "videoUrl": "https://streamain.com/nKQ0Z23FAeua7Yp/watch",
+          "videoEmbed": "https://streamain.com/nKQ0Z23FAeua7Yp/watch",
+          "directMp4": null,
+          "postedAt": 1775999792000
         }
       ]
     },
     {
-      "home": "Bochum",
-      "away": "Eintracht Braunschweig",
+      "home": "NEC",
+      "away": "Feyenoord",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1sjcegs",
+          "postId": "1sjeag5",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1sjcegs",
-          "scorer": "Gerrit Holtmann",
-          "minute": 13,
+          "permalink": "https://redd.it/1sjeag5",
+          "scorer": "Ayase Ueda",
+          "minute": 19,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/VO179BPuwiC1HUC/watch",
+          "videoEmbed": "https://streamain.com/VO179BPuwiC1HUC/watch",
+          "directMp4": null,
+          "postedAt": 1775999782000
+        }
+      ]
+    },
+    {
+      "home": "Elversberg",
+      "away": "Schalke",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sjc5ew",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjc5ew",
+          "scorer": "Luca Schnellbacher",
+          "minute": 4,
           "homeScore": 1,
           "awayScore": 0,
-          "videoUrl": "https://streamin.link/v/59535faa",
+          "videoUrl": "https://streamin.link/v/0cf5b759",
           "videoEmbed": null,
           "directMp4": null,
-          "postedAt": 1775994551000
+          "postedAt": 1775993762000
+        },
+        {
+          "postId": "1sjdhpz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjdhpz",
+          "scorer": "Soufian El-Faouzi",
+          "minute": 28,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/f8RfWbQhUKInojo/watch",
+          "videoEmbed": "https://streamain.com/f8RfWbQhUKInojo/watch",
+          "directMp4": null,
+          "postedAt": 1775997677000
+        },
+        {
+          "postId": "1sje263",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sje263",
+          "scorer": "Moussa Sylla",
+          "minute": 56,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/585173c6",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775999181000
+        }
+      ]
+    },
+    {
+      "home": "Parma",
+      "away": "Napoli",
+      "league": "Serie A",
+      "goals": [
+        {
+          "postId": "1sje0bn",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sje0bn",
+          "scorer": "Gabriel Strefezza",
+          "minute": 1,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/OgnYk1RTrR5yGPd/watch",
+          "videoEmbed": "https://streamain.com/OgnYk1RTrR5yGPd/watch",
+          "directMp4": null,
+          "postedAt": 1775999050000
+        }
+      ]
+    },
+    {
+      "home": "Osnabrück",
+      "away": "Energie Cottbus",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sjdqmo",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjdqmo",
+          "scorer": "Ismail Badjie",
+          "minute": 51,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/fieVqlxZNmqSr97/watch",
+          "videoEmbed": "https://streamain.com/fieVqlxZNmqSr97/watch",
+          "directMp4": null,
+          "postedAt": 1775998352000
+        }
+      ]
+    },
+    {
+      "home": "Aguilas UMak",
+      "away": "Kaya",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sjbzyw",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjbzyw",
+          "scorer": "Kart Talaroc",
+          "minute": null,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/hfm6f5jsvqug1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/hfm6f5jsvqug1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1775993277000
+        },
+        {
+          "postId": "1sjd4un",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjd4un",
+          "scorer": "Richard Tetteh ‘60",
+          "minute": 60,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/isdmyx6t5rug1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775996653000
+        },
+        {
+          "postId": "1sjdpwr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjdpwr",
+          "scorer": "Jovin Bedic ‘87",
+          "minute": 87,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/t6puipboarug1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/t6puipboarug1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1775998297000
         }
       ]
     },
@@ -85,26 +315,203 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1775994494000
+        },
+        {
+          "postId": "1sjcumt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjcumt",
+          "scorer": "Youssef Chermiti",
+          "minute": 48,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/FqOhD7RWOiUcv2b/watch",
+          "videoEmbed": "https://streamain.com/FqOhD7RWOiUcv2b/watch",
+          "directMp4": null,
+          "postedAt": 1775995836000
+        },
+        {
+          "postId": "1sjcyjz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjcyjz",
+          "scorer": "Nicolas Raskin",
+          "minute": 52,
+          "homeScore": 2,
+          "awayScore": 3,
+          "videoUrl": "https://streamain.com/L9fBKVssh57pYgm/watch",
+          "videoEmbed": "https://streamain.com/L9fBKVssh57pYgm/watch",
+          "directMp4": null,
+          "postedAt": 1775996142000
+        },
+        {
+          "postId": "1sjd27i",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjd27i",
+          "scorer": "Bojan Miovski",
+          "minute": 58,
+          "homeScore": 2,
+          "awayScore": 4,
+          "videoUrl": "https://streamain.com/en/0IZe4NylgdrLgAo/watch",
+          "videoEmbed": "https://streamain.com/en/0IZe4NylgdrLgAo/watch",
+          "directMp4": null,
+          "postedAt": 1775996438000
+        },
+        {
+          "postId": "1sjdbvo",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjdbvo",
+          "scorer": "Calvin Miller",
+          "minute": 70,
+          "homeScore": 3,
+          "awayScore": 4,
+          "videoUrl": "https://streamain.com/en/4ullNiHJNEN7o2M/watch",
+          "videoEmbed": "https://streamain.com/en/4ullNiHJNEN7o2M/watch",
+          "directMp4": null,
+          "postedAt": 1775997223000
+        },
+        {
+          "postId": "1sjdem8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjdem8",
+          "scorer": "Youssef Chermiti",
+          "minute": 75,
+          "homeScore": 3,
+          "awayScore": 5,
+          "videoUrl": "https://streamain.com/en/00WLcn5vDzzdvJz/watch",
+          "videoEmbed": "https://streamain.com/en/00WLcn5vDzzdvJz/watch",
+          "directMp4": null,
+          "postedAt": 1775997445000
+        },
+        {
+          "postId": "1sjdphc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjdphc",
+          "scorer": "Bojan Miovski",
+          "minute": 89,
+          "homeScore": 3,
+          "awayScore": 6,
+          "videoUrl": "https://streamain.com/fenMBQfmVgomdUX/watch",
+          "videoEmbed": "https://streamain.com/fenMBQfmVgomdUX/watch",
+          "directMp4": null,
+          "postedAt": 1775998266000
         }
       ]
     },
     {
-      "home": "Elversberg",
-      "away": "Schalke",
+      "home": "Bochum",
+      "away": "Eintracht Braunschweig",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1sjc5ew",
+          "postId": "1sjcegs",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1sjc5ew",
-          "scorer": "Luca Schnellbacher",
-          "minute": 4,
+          "permalink": "https://redd.it/1sjcegs",
+          "scorer": "Gerrit Holtmann",
+          "minute": 13,
           "homeScore": 1,
           "awayScore": 0,
-          "videoUrl": "https://streamin.link/v/0cf5b759",
+          "videoUrl": "https://streamin.link/v/59535faa",
           "videoEmbed": null,
           "directMp4": null,
-          "postedAt": 1775993762000
+          "postedAt": 1775994551000
+        },
+        {
+          "postId": "1sjdmkn",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjdmkn",
+          "scorer": "Koji Miyoshi",
+          "minute": 45,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/Dqa7fB2mNrqHOPb/watch",
+          "videoEmbed": "https://streamain.com/Dqa7fB2mNrqHOPb/watch",
+          "directMp4": null,
+          "postedAt": 1775998051000
+        }
+      ]
+    },
+    {
+      "home": "Osasuna",
+      "away": "Real Betis",
+      "league": "La Liga",
+      "goals": [
+        {
+          "postId": "1sjcu3d",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjcu3d",
+          "scorer": "Abde Ezzalzouli",
+          "minute": 7,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/289104ae",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775995793000
+        },
+        {
+          "postId": "1sjdim3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjdim3",
+          "scorer": "Ante Budimir Penalty",
+          "minute": 40,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/b15f1406",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775997744000
+        }
+      ]
+    },
+    {
+      "home": "Birmingham",
+      "away": "Wrexham",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sjdcyo",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjdcyo",
+          "scorer": "Christoph Klarer",
+          "minute": 72,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/KuCgiW1yXl6Jn5G/watch",
+          "videoEmbed": "https://streamain.com/KuCgiW1yXl6Jn5G/watch",
+          "directMp4": null,
+          "postedAt": 1775997312000
+        }
+      ]
+    },
+    {
+      "home": "Genoa",
+      "away": "Sassuolo",
+      "league": "Serie A",
+      "goals": [
+        {
+          "postId": "1sjbkjx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjbkjx",
+          "scorer": "Ruslan Malinovskyi",
+          "minute": 18,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/e1k0jj7rrqug1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/e1k0jj7rrqug1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1775991917000
+        },
+        {
+          "postId": "1sjd0o3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjd0o3",
+          "scorer": "Caleb Ekuban",
+          "minute": 84,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/JwwTLPDwE8Vliaz/watch",
+          "videoEmbed": "https://streamain.com/JwwTLPDwE8Vliaz/watch",
+          "directMp4": null,
+          "postedAt": 1775996312000
         }
       ]
     },
@@ -164,46 +571,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/fia5n9t2wqug1/CMAF_720.mp4?source=fallback",
           "postedAt": 1775993387000
-        }
-      ]
-    },
-    {
-      "home": "Aguilas UMak",
-      "away": "Kaya",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1sjbzyw",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sjbzyw",
-          "scorer": "Kart Talaroc",
-          "minute": null,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/hfm6f5jsvqug1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/hfm6f5jsvqug1/CMAF_1080.mp4?source=fallback",
-          "postedAt": 1775993277000
-        }
-      ]
-    },
-    {
-      "home": "Genoa",
-      "away": "Sassuolo",
-      "league": "Serie A",
-      "goals": [
-        {
-          "postId": "1sjbkjx",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sjbkjx",
-          "scorer": "Ruslan Malinovskyi",
-          "minute": 18,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/e1k0jj7rrqug1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/e1k0jj7rrqug1/CMAF_1080.mp4?source=fallback",
-          "postedAt": 1775991917000
         }
       ]
     }
