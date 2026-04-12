@@ -1,7 +1,106 @@
 {
-  "updated": "2026-04-12T17:19:32Z",
+  "updated": "2026-04-12T17:59:51Z",
   "date": "2026-04-12",
   "matches": [
+    {
+      "home": "Celta Vigo",
+      "away": "Real Oviedo",
+      "league": "La Liga",
+      "goals": [
+        {
+          "postId": "1sjjl6y",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjjl6y",
+          "scorer": "Alberto Reina",
+          "minute": 5,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/E5DFNY14d2Lshwk/watch",
+          "videoEmbed": "https://streamain.com/E5DFNY14d2Lshwk/watch",
+          "directMp4": null,
+          "postedAt": 1776012300000
+        },
+        {
+          "postId": "1sjkjtm",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjkjtm",
+          "scorer": "Federico Vinas",
+          "minute": 45,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/NNVZxVbXq8DthmN/watch",
+          "videoEmbed": "https://streamain.com/NNVZxVbXq8DthmN/watch",
+          "directMp4": null,
+          "postedAt": 1776014436000
+        },
+        {
+          "postId": "1sjlbit",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjlbit",
+          "scorer": "Federico Vinas",
+          "minute": 57,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://streamain.com/7dsfCpchjTvnkuh/watch",
+          "videoEmbed": "https://streamain.com/7dsfCpchjTvnkuh/watch",
+          "directMp4": null,
+          "postedAt": 1776016154000
+        }
+      ]
+    },
+    {
+      "home": "Galatasaray",
+      "away": "Kocaelispor",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sjkz8g",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjkz8g",
+          "scorer": "Leroy Sane",
+          "minute": 30,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/nEQECKmrfduAdNW/watch",
+          "videoEmbed": "https://streamain.com/nEQECKmrfduAdNW/watch",
+          "directMp4": null,
+          "postedAt": 1776015376000
+        }
+      ]
+    },
+    {
+      "home": "Benfica",
+      "away": "Nacional",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sjk55j",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjk55j",
+          "scorer": "Andreas Schjelderup",
+          "minute": 3,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/OrFCAIZqu75LB0O/watch",
+          "videoEmbed": "https://streamain.com/OrFCAIZqu75LB0O/watch",
+          "directMp4": null,
+          "postedAt": 1776013540000
+        },
+        {
+          "postId": "1sjkmib",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjkmib",
+          "scorer": "Rafa Silva",
+          "minute": 14,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/FBPUtXgVEmbw2zw/watch",
+          "videoEmbed": "https://streamain.com/FBPUtXgVEmbw2zw/watch",
+          "directMp4": null,
+          "postedAt": 1776014596000
+        }
+      ]
+    },
     {
       "home": "Lech Poznań",
       "away": "GKS Katowice",
@@ -193,26 +292,6 @@
       ]
     },
     {
-      "home": "Benfica",
-      "away": "Nacional",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1sjk55j",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sjk55j",
-          "scorer": "Andreas Schjelderup",
-          "minute": 3,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamain.com/OrFCAIZqu75LB0O/watch",
-          "videoEmbed": "https://streamain.com/OrFCAIZqu75LB0O/watch",
-          "directMp4": null,
-          "postedAt": 1776013540000
-        }
-      ]
-    },
-    {
       "home": "VfB Stuttgart",
       "away": "Hamburg SV",
       "league": "German Bundesliga",
@@ -348,26 +427,6 @@
           "videoEmbed": "https://streamain.com/moP67lKjbIOUXNd/watch",
           "directMp4": null,
           "postedAt": 1776012463000
-        }
-      ]
-    },
-    {
-      "home": "Celta Vigo",
-      "away": "Real Oviedo",
-      "league": "La Liga",
-      "goals": [
-        {
-          "postId": "1sjjl6y",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sjjl6y",
-          "scorer": "Alberto Reina",
-          "minute": 5,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamain.com/E5DFNY14d2Lshwk/watch",
-          "videoEmbed": "https://streamain.com/E5DFNY14d2Lshwk/watch",
-          "directMp4": null,
-          "postedAt": 1776012300000
         }
       ]
     },
