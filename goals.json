@@ -1,5 +1,39 @@
 {
-  "updated": "2026-04-12T10:00:15Z",
+  "updated": "2026-04-12T10:58:30Z",
   "date": "2026-04-12",
-  "matches": []
+  "matches": [
+    {
+      "home": "Cracovia",
+      "away": "Arka Gdynia",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sjb9au",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjb9au",
+          "scorer": "Gabriel Charpentier",
+          "minute": 24,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/hv2sxvsloqug1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/hv2sxvsloqug1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775990875000
+        },
+        {
+          "postId": "1sjbaox",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjbaox",
+          "scorer": "Oskar Kubiak",
+          "minute": 29,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/qo1ex2b0pqug1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/qo1ex2b0pqug1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775991004000
+        }
+      ]
+    }
+  ]
 }
