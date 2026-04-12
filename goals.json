@@ -1,24 +1,44 @@
 {
-  "updated": "2026-04-12T11:38:59Z",
+  "updated": "2026-04-12T12:02:54Z",
   "date": "2026-04-12",
   "matches": [
     {
-      "home": "Elversberg",
-      "away": "Schalke",
+      "home": "Paderborn",
+      "away": "Magdeburg",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1sjc5ew",
+          "postId": "1sjchbx",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1sjc5ew",
-          "scorer": "Luca Schnellbacher",
-          "minute": 4,
+          "permalink": "https://redd.it/1sjchbx",
+          "scorer": "Filip Bilbija",
+          "minute": 20,
           "homeScore": 1,
           "awayScore": 0,
-          "videoUrl": "https://streamin.link/v/0cf5b759",
+          "videoUrl": "https://streamin.link/v/e063d3c2",
           "videoEmbed": null,
           "directMp4": null,
-          "postedAt": 1775993762000
+          "postedAt": 1775994795000
+        }
+      ]
+    },
+    {
+      "home": "Bochum",
+      "away": "Eintracht Braunschweig",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sjcegs",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjcegs",
+          "scorer": "Gerrit Holtmann",
+          "minute": 13,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/59535faa",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775994551000
         }
       ]
     },
@@ -52,6 +72,39 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1775993627000
+        },
+        {
+          "postId": "1sjcdsn",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjcdsn",
+          "scorer": "Tochi Chukwuani",
+          "minute": 42,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/pk9zjy0fzqug1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775994494000
+        }
+      ]
+    },
+    {
+      "home": "Elversberg",
+      "away": "Schalke",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sjc5ew",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjc5ew",
+          "scorer": "Luca Schnellbacher",
+          "minute": 4,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/0cf5b759",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775993762000
         }
       ]
     },
