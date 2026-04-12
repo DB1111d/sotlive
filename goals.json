@@ -1,7 +1,27 @@
 {
-  "updated": "2026-04-12T21:50:04Z",
+  "updated": "2026-04-12T22:31:33Z",
   "date": "2026-04-12",
   "matches": [
+    {
+      "home": "N. Villarreal  - Cruzeiro",
+      "away": "RB Bragantino",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sjrtlw",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjrtlw",
+          "scorer": "2026 Brasileirão Série A",
+          "minute": 18,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/lw742mx8ztug1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/lw742mx8ztug1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1776030747000
+        }
+      ]
+    },
     {
       "home": "J. A. Hurtado  - Cruzeiro",
       "away": "RB Bragantino",
