@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-12T22:31:33Z",
+  "updated": "2026-04-12T23:17:57Z",
   "date": "2026-04-12",
   "matches": [
     {
@@ -351,39 +351,6 @@
       ]
     },
     {
-      "home": "Olympique Lyonnais",
-      "away": "Lorient",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1sjotbr",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sjotbr",
-          "scorer": "Roman Yaremchuk",
-          "minute": 49,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamin.link/v/2d35bdff",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1776023893000
-        },
-        {
-          "postId": "1sjp18h",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sjp18h",
-          "scorer": "Corentin Tolisso",
-          "minute": 56,
-          "homeScore": 2,
-          "awayScore": 0,
-          "videoUrl": "https://streamin.link/v/590b6d44",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1776024373000
-        }
-      ]
-    },
-    {
       "home": "Lyon",
       "away": "Lorient",
       "league": "Rest of World",
@@ -400,6 +367,19 @@
           "videoEmbed": "https://streamain.com/kY8b5JuXxnrrWlQ/watch",
           "directMp4": null,
           "postedAt": 1776024066000
+        },
+        {
+          "postId": "1sjp18h",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjp18h",
+          "scorer": "Corentin Tolisso",
+          "minute": 56,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/590b6d44",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776024373000
         }
       ]
     },
@@ -1572,7 +1552,8 @@
           "videoUrl": "https://streamin.link/v/4b947643",
           "videoEmbed": null,
           "directMp4": null,
-          "postedAt": 1775997315000
+          "postedAt": 1775997315000,
+          "disallowed": true
         },
         {
           "postId": "1sjdwnf",
@@ -1868,39 +1849,6 @@
           "videoEmbed": "https://streamain.com/Dqa7fB2mNrqHOPb/watch",
           "directMp4": null,
           "postedAt": 1775998051000
-        }
-      ]
-    },
-    {
-      "home": "Osasuna",
-      "away": "Real Betis",
-      "league": "La Liga",
-      "goals": [
-        {
-          "postId": "1sjcu3d",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sjcu3d",
-          "scorer": "Abde Ezzalzouli",
-          "minute": 7,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/289104ae",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1775995793000
-        },
-        {
-          "postId": "1sjdim3",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sjdim3",
-          "scorer": "Ante Budimir Penalty",
-          "minute": 40,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/b15f1406",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1775997744000
         }
       ]
     },
