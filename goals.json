@@ -1,7 +1,86 @@
 {
-  "updated": "2026-04-12T21:06:20Z",
+  "updated": "2026-04-12T21:50:04Z",
   "date": "2026-04-12",
   "matches": [
+    {
+      "home": "J. A. Hurtado  - Cruzeiro",
+      "away": "RB Bragantino",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sjrji6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjrji6",
+          "scorer": "2026 Brasileirão Série A",
+          "minute": 6,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/qip1nak7xtug1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/qip1nak7xtug1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1776030061000
+        }
+      ]
+    },
+    {
+      "home": "Estoril",
+      "away": "FC Porto",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sjokeq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjokeq",
+          "scorer": "Pepê",
+          "minute": 14,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/kvhQOqZFBo72e38/watch",
+          "videoEmbed": "https://streamain.com/kvhQOqZFBo72e38/watch",
+          "directMp4": null,
+          "postedAt": 1776023359000
+        },
+        {
+          "postId": "1sjp40z",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjp40z",
+          "scorer": "Own Goal",
+          "minute": 32,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/KjBzuVc6HKRBv5v/watch",
+          "videoEmbed": "https://streamain.com/KjBzuVc6HKRBv5v/watch",
+          "directMp4": null,
+          "postedAt": 1776024550000
+        },
+        {
+          "postId": "1sjqs4p",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjqs4p",
+          "scorer": "Victor Froholdt",
+          "minute": 72,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/6spo7bpyrtug1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/6spo7bpyrtug1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1776028313000
+        },
+        {
+          "postId": "1sjqwqw",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjqwqw",
+          "scorer": "Yanis Begraoui",
+          "minute": 78,
+          "homeScore": 1,
+          "awayScore": 3,
+          "videoUrl": "https://streamain.com/6eVNjOXH6lsFBa1/watch",
+          "videoEmbed": "https://streamain.com/6eVNjOXH6lsFBa1/watch",
+          "directMp4": null,
+          "postedAt": 1776028614000
+        }
+      ]
+    },
     {
       "home": "Racing Santander",
       "away": "Almeria",
@@ -248,39 +327,6 @@
           "videoEmbed": "https://streamain.com/N4cEpeFZ7lc53CV/watch",
           "directMp4": null,
           "postedAt": 1776024921000
-        }
-      ]
-    },
-    {
-      "home": "Estoril",
-      "away": "FC Porto",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1sjokeq",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sjokeq",
-          "scorer": "Pepê",
-          "minute": 14,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamain.com/kvhQOqZFBo72e38/watch",
-          "videoEmbed": "https://streamain.com/kvhQOqZFBo72e38/watch",
-          "directMp4": null,
-          "postedAt": 1776023359000
-        },
-        {
-          "postId": "1sjp40z",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sjp40z",
-          "scorer": "Own Goal",
-          "minute": 32,
-          "homeScore": 0,
-          "awayScore": 2,
-          "videoUrl": "https://streamain.com/KjBzuVc6HKRBv5v/watch",
-          "videoEmbed": "https://streamain.com/KjBzuVc6HKRBv5v/watch",
-          "directMp4": null,
-          "postedAt": 1776024550000
         }
       ]
     },
