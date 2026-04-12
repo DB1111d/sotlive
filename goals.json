@@ -1,27 +1,7 @@
 {
-  "updated": "2026-04-12T15:03:38Z",
+  "updated": "2026-04-12T15:51:28Z",
   "date": "2026-04-12",
   "matches": [
-    {
-      "home": "Virtus",
-      "away": "Murata",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1sjgup2",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sjgup2",
-          "scorer": "Matteo Zenoni",
-          "minute": 90,
-          "homeScore": 4,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/7wmrdkrwxrug1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/7wmrdkrwxrug1/CMAF_1080.mp4?source=fallback",
-          "postedAt": 1776006088000
-        }
-      ]
-    },
     {
       "home": "Köln",
       "away": "Werder Bremen",
@@ -52,6 +32,72 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1776005963000
+        },
+        {
+          "postId": "1sjh34d",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjh34d",
+          "scorer": "Romano Schmid",
+          "minute": 76,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/90415400",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776006625000
+        },
+        {
+          "postId": "1sjhmh5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjhmh5",
+          "scorer": "Ísak Bergmann Jóhannesson",
+          "minute": 90,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/4bdb566f",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776007846000
+        }
+      ]
+    },
+    {
+      "home": "Teplice",
+      "away": "Sparta Praha",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sjh3q8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjh3q8",
+          "scorer": "Lukáš Haraslín",
+          "minute": 40,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/fjc4w6hkzrug1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/fjc4w6hkzrug1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1776006663000
+        }
+      ]
+    },
+    {
+      "home": "Virtus",
+      "away": "Murata",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sjgup2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjgup2",
+          "scorer": "Matteo Zenoni",
+          "minute": 90,
+          "homeScore": 4,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/7wmrdkrwxrug1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/7wmrdkrwxrug1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1776006088000
         }
       ]
     },
