@@ -1,7 +1,113 @@
 {
-  "updated": "2026-04-12T17:59:51Z",
+  "updated": "2026-04-12T19:02:33Z",
   "date": "2026-04-12",
   "matches": [
+    {
+      "home": "Mainz",
+      "away": "SC Freiburg",
+      "league": "German Bundesliga",
+      "goals": [
+        {
+          "postId": "1sjmrhc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjmrhc",
+          "scorer": "Lucas Höler",
+          "minute": 47,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/59c3fc8d",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776019368000
+        }
+      ]
+    },
+    {
+      "home": "Braga",
+      "away": "Arouca",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sjmo2h",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjmo2h",
+          "scorer": "Pau Victor",
+          "minute": 66,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/QxsttPCouTjGOxN/watch",
+          "videoEmbed": "https://streamain.com/QxsttPCouTjGOxN/watch",
+          "directMp4": null,
+          "postedAt": 1776019160000
+        }
+      ]
+    },
+    {
+      "home": "Galatasaray",
+      "away": "Kocaelispor",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sjkz8g",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjkz8g",
+          "scorer": "Leroy Sane",
+          "minute": 30,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/nEQECKmrfduAdNW/watch",
+          "videoEmbed": "https://streamain.com/nEQECKmrfduAdNW/watch",
+          "directMp4": null,
+          "postedAt": 1776015376000
+        },
+        {
+          "postId": "1sjmlr7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjmlr7",
+          "scorer": "Bruno Petkovic",
+          "minute": 72,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/5UBBYD1lC2kYs8D/watch",
+          "videoEmbed": "https://streamain.com/5UBBYD1lC2kYs8D/watch",
+          "directMp4": null,
+          "postedAt": 1776019015000
+        }
+      ]
+    },
+    {
+      "home": "Bologna",
+      "away": "Lecce",
+      "league": "Serie A",
+      "goals": [
+        {
+          "postId": "1sjjtro",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjjtro",
+          "scorer": "Remo Freuler",
+          "minute": 26,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/en/mjanPeCttnekQDy/watch",
+          "videoEmbed": "https://streamain.com/en/mjanPeCttnekQDy/watch",
+          "directMp4": null,
+          "postedAt": 1776012836000
+        },
+        {
+          "postId": "1sjllkx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjllkx",
+          "scorer": "Riccardo Orsolini",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/WnMoJ3fFKwaNizQ/watch",
+          "videoEmbed": "https://streamain.com/WnMoJ3fFKwaNizQ/watch",
+          "directMp4": null,
+          "postedAt": 1776016788000
+        }
+      ]
+    },
     {
       "home": "Celta Vigo",
       "away": "Real Oviedo",
@@ -45,26 +151,6 @@
           "videoEmbed": "https://streamain.com/7dsfCpchjTvnkuh/watch",
           "directMp4": null,
           "postedAt": 1776016154000
-        }
-      ]
-    },
-    {
-      "home": "Galatasaray",
-      "away": "Kocaelispor",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1sjkz8g",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sjkz8g",
-          "scorer": "Leroy Sane",
-          "minute": 30,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamain.com/nEQECKmrfduAdNW/watch",
-          "videoEmbed": "https://streamain.com/nEQECKmrfduAdNW/watch",
-          "directMp4": null,
-          "postedAt": 1776015376000
         }
       ]
     },
@@ -354,26 +440,6 @@
           "videoEmbed": "https://streamff.link/v/44985e68",
           "directMp4": null,
           "postedAt": 1776012942000
-        }
-      ]
-    },
-    {
-      "home": "Bologna",
-      "away": "Lecce",
-      "league": "Serie A",
-      "goals": [
-        {
-          "postId": "1sjjtro",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sjjtro",
-          "scorer": "Remo Freuler",
-          "minute": 26,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamain.com/en/mjanPeCttnekQDy/watch",
-          "videoEmbed": "https://streamain.com/en/mjanPeCttnekQDy/watch",
-          "directMp4": null,
-          "postedAt": 1776012836000
         }
       ]
     },
