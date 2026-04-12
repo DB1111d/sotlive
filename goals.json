@@ -1,7 +1,60 @@
 {
-  "updated": "2026-04-12T10:58:30Z",
+  "updated": "2026-04-12T11:38:59Z",
   "date": "2026-04-12",
   "matches": [
+    {
+      "home": "Elversberg",
+      "away": "Schalke",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sjc5ew",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjc5ew",
+          "scorer": "Luca Schnellbacher",
+          "minute": 4,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/0cf5b759",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775993762000
+        }
+      ]
+    },
+    {
+      "home": "Falkirk",
+      "away": "Rangers",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sjc3fg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjc3fg",
+          "scorer": "Ben Broggio",
+          "minute": 6,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/q2dzvv5owqug1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775993583000
+        },
+        {
+          "postId": "1sjc3x5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjc3x5",
+          "scorer": "Finn Yeats",
+          "minute": 26,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/5p1afdhuwqug1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775993627000
+        }
+      ]
+    },
     {
       "home": "Cracovia",
       "away": "Arka Gdynia",
@@ -32,6 +85,72 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/qo1ex2b0pqug1/CMAF_720.mp4?source=fallback",
           "postedAt": 1775991004000
+        },
+        {
+          "postId": "1sjby1f",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjby1f",
+          "scorer": "Vladislavs Gutkovskis",
+          "minute": 48,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/zpezuer9vqug1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/zpezuer9vqug1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775993111000
+        },
+        {
+          "postId": "1sjc189",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjc189",
+          "scorer": "Mauro Perković",
+          "minute": 53,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/fia5n9t2wqug1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/fia5n9t2wqug1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775993387000
+        }
+      ]
+    },
+    {
+      "home": "Aguilas UMak",
+      "away": "Kaya",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sjbzyw",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjbzyw",
+          "scorer": "Kart Talaroc",
+          "minute": null,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/hfm6f5jsvqug1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/hfm6f5jsvqug1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1775993277000
+        }
+      ]
+    },
+    {
+      "home": "Genoa",
+      "away": "Sassuolo",
+      "league": "Serie A",
+      "goals": [
+        {
+          "postId": "1sjbkjx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjbkjx",
+          "scorer": "Ruslan Malinovskyi",
+          "minute": 18,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/e1k0jj7rrqug1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/e1k0jj7rrqug1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1775991917000
         }
       ]
     }
