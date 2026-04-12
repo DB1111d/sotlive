@@ -1,7 +1,87 @@
 {
-  "updated": "2026-04-11T23:50:47Z",
-  "date": "2026-04-11",
+  "updated": "2026-04-12T02:23:29Z",
+  "date": "2026-04-12",
   "matches": [
+    {
+      "home": "Inter Miami",
+      "away": "Red Bull New York",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sj0td1",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sj0td1",
+          "scorer": "Adri Mehmeti",
+          "minute": 77,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/ncjsj582wnug1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ncjsj582wnug1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1775957077000
+        }
+      ]
+    },
+    {
+      "home": "Santos",
+      "away": "Atlético Mineiro",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sizrc8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sizrc8",
+          "scorer": "Moisés",
+          "minute": 63,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/szg00mg3nnug1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775954060000
+        }
+      ]
+    },
+    {
+      "home": "Portland Timers",
+      "away": "LAFC",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1size49",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1size49",
+          "scorer": "Jude Terry",
+          "minute": 49,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/g2u2bcx2knug1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/g2u2bcx2knug1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1775953007000
+        }
+      ]
+    },
+    {
+      "home": "Inter Miami",
+      "away": "NY Red Bulls",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1siyxi1",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1siyxi1",
+          "scorer": "Jorge Ruvalcaba",
+          "minute": 15,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/cb0ded04",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1775951774000
+        }
+      ]
+    },
     {
       "home": "Portland Timbers",
       "away": "LAFC",
