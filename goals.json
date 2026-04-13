@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-12T23:59:51Z",
-  "date": "2026-04-12",
+  "updated": "2026-04-13T03:46:08Z",
+  "date": "2026-04-13",
   "matches": [
     {
       "home": "Columbus Crew",
@@ -427,6 +427,26 @@
       "home": "Mainz",
       "away": "SC Freiburg",
       "league": "German Bundesliga",
+      "goals": [
+        {
+          "postId": "1sjmrhc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sjmrhc",
+          "scorer": "Lucas Höler",
+          "minute": 47,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/59c3fc8d",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776019368000
+        }
+      ]
+    },
+    {
+      "home": "Mainz",
+      "away": "Freiburg",
+      "league": "Rest of World",
       "goals": [
         {
           "postId": "1sjmrhc",
