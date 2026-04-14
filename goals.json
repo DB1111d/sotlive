@@ -1,7 +1,192 @@
 {
-  "updated": "2026-04-14T23:04:08Z",
+  "updated": "2026-04-14T23:58:46Z",
   "date": "2026-04-14",
   "matches": [
+    {
+      "home": "Gremio",
+      "away": "Deportivo Riestra",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1slprz1",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1slprz1",
+          "scorer": "Francis Amuzu",
+          "minute": 87,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/LPQ1MOC0jmq4AZW/watch",
+          "videoEmbed": "https://streamain.com/LPQ1MOC0jmq4AZW/watch",
+          "directMp4": null,
+          "postedAt": 1776210845000
+        }
+      ]
+    },
+    {
+      "home": "Grêmio",
+      "away": "Deportivo Riestra",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1slppct",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1slppct",
+          "scorer": "Francis Amuzu",
+          "minute": 87,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/aqd22qx6u8vg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776210661000
+        }
+      ]
+    },
+    {
+      "home": "Nacional",
+      "away": "Deportes Tolima",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1slotfa",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1slotfa",
+          "scorer": "Maximiliano Gomez",
+          "minute": 48,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/Pd0QYucRc9S61wM/watch",
+          "videoEmbed": "https://streamain.com/Pd0QYucRc9S61wM/watch",
+          "directMp4": null,
+          "postedAt": 1776208395000
+        },
+        {
+          "postId": "1slp3sl",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1slp3sl",
+          "scorer": "Sebastian Coates",
+          "minute": 64,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/chLxj5umUMEa04i/watch",
+          "videoEmbed": "https://streamain.com/chLxj5umUMEa04i/watch",
+          "directMp4": null,
+          "postedAt": 1776209118000
+        },
+        {
+          "postId": "1slpgtu",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1slpgtu",
+          "scorer": "Brayan Rovira free-kick",
+          "minute": 80,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/mxlHXDJFCkzqsvC/watch",
+          "videoEmbed": "https://streamain.com/mxlHXDJFCkzqsvC/watch",
+          "directMp4": null,
+          "postedAt": 1776210044000
+        },
+        {
+          "postId": "1slpp2y",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1slpp2y",
+          "scorer": "Nicolas Lopez",
+          "minute": 87,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/icw46tD3kfYb3rp/watch",
+          "videoEmbed": "https://streamain.com/icw46tD3kfYb3rp/watch",
+          "directMp4": null,
+          "postedAt": 1776210641000
+        }
+      ]
+    },
+    {
+      "home": "Louisville City",
+      "away": "Austin FC",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1slplim",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1slplim",
+          "scorer": "Sean Totsch",
+          "minute": 26,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/EKOrA6xDvbgcq8N/watch",
+          "videoEmbed": "https://streamain.com/EKOrA6xDvbgcq8N/watch",
+          "directMp4": null,
+          "postedAt": 1776210383000
+        },
+        {
+          "postId": "1slpn5o",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1slpn5o",
+          "scorer": "Tola Showunmi",
+          "minute": 33,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/hgd9RxJVKmLUcMS/watch",
+          "videoEmbed": "https://streamain.com/hgd9RxJVKmLUcMS/watch",
+          "directMp4": null,
+          "postedAt": 1776210501000
+        }
+      ]
+    },
+    {
+      "home": "Sao Paulo",
+      "away": "O'Higgins",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1slngqb",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1slngqb",
+          "scorer": "Luciano",
+          "minute": 8,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/9TmyIjkE3JIGAAA/watch",
+          "videoEmbed": "https://streamain.com/9TmyIjkE3JIGAAA/watch",
+          "directMp4": null,
+          "postedAt": 1776205087000
+        },
+        {
+          "postId": "1slp9xk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1slp9xk",
+          "scorer": "Artur",
+          "minute": 56,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/FXgIaOjmqSkMhaQ/watch",
+          "videoEmbed": "https://streamain.com/FXgIaOjmqSkMhaQ/watch",
+          "directMp4": null,
+          "postedAt": 1776209545000
+        }
+      ]
+    },
+    {
+      "home": "Cerro Porteno",
+      "away": "Junior",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1slp1s5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1slp1s5",
+          "scorer": "Jonathan Torres",
+          "minute": 57,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/Z2rSqeXFh4YmE7J/watch",
+          "videoEmbed": "https://streamain.com/Z2rSqeXFh4YmE7J/watch",
+          "directMp4": null,
+          "postedAt": 1776208979000
+        }
+      ]
+    },
     {
       "home": "Estudiantes L.P.",
       "away": "Cusco",
@@ -32,26 +217,19 @@
           "videoEmbed": "https://streamain.com/t8OzQwF6isjjh8W/watch",
           "directMp4": null,
           "postedAt": 1776206019000
-        }
-      ]
-    },
-    {
-      "home": "Sao Paulo",
-      "away": "O'Higgins",
-      "league": "Rest of World",
-      "goals": [
+        },
         {
-          "postId": "1slngqb",
+          "postId": "1slox4v",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1slngqb",
-          "scorer": "Luciano",
-          "minute": 8,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamain.com/9TmyIjkE3JIGAAA/watch",
-          "videoEmbed": "https://streamain.com/9TmyIjkE3JIGAAA/watch",
+          "permalink": "https://redd.it/1slox4v",
+          "scorer": "Tiago Palacios",
+          "minute": 48,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/gWSafStNw0RF0Zt/watch",
+          "videoEmbed": "https://streamain.com/gWSafStNw0RF0Zt/watch",
           "directMp4": null,
-          "postedAt": 1776205087000
+          "postedAt": 1776208654000
         }
       ]
     },
