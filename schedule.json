@@ -1,37 +1,9 @@
 {
-  "updated": "2026-04-13 16:57 EDT",
+  "updated": "2026-04-13 22:39 EDT",
   "days": {
     "20260413": {
       "date": "Monday, April 13",
-      "games": [
-        {
-          "league": "Premier League",
-          "time": "3:00 PM",
-          "match": "Manchester United vs Leeds United",
-          "source": "USA Network",
-          "kick_utc": "2026-04-13T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
-        },
-        {
-          "league": "Serie A",
-          "time": "2:45 PM",
-          "match": "Fiorentina vs Lazio",
-          "source": "Paramount+",
-          "kick_utc": "2026-04-13T18:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png"
-        },
-        {
-          "league": "La Liga",
-          "time": "3:00 PM",
-          "match": "Levante vs Getafe",
-          "source": "ESPN+",
-          "kick_utc": "2026-04-13T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png"
-        }
-      ]
+      "games": []
     },
     "20260414": {
       "date": "Tuesday, April 14",
