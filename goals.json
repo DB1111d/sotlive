@@ -1,7 +1,60 @@
 {
-  "updated": "2026-04-14T22:04:56Z",
+  "updated": "2026-04-14T23:04:08Z",
   "date": "2026-04-14",
   "matches": [
+    {
+      "home": "Estudiantes L.P.",
+      "away": "Cusco",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1slnt2l",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1slnt2l",
+          "scorer": "Facundo Farias",
+          "minute": 28,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/sbaMXSvx85r04hG/watch",
+          "videoEmbed": "https://streamain.com/sbaMXSvx85r04hG/watch",
+          "directMp4": null,
+          "postedAt": 1776205908000
+        },
+        {
+          "postId": "1slnupy",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1slnupy",
+          "scorer": "Lucas Colitto",
+          "minute": 31,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/t8OzQwF6isjjh8W/watch",
+          "videoEmbed": "https://streamain.com/t8OzQwF6isjjh8W/watch",
+          "directMp4": null,
+          "postedAt": 1776206019000
+        }
+      ]
+    },
+    {
+      "home": "Sao Paulo",
+      "away": "O'Higgins",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1slngqb",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1slngqb",
+          "scorer": "Luciano",
+          "minute": 8,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/9TmyIjkE3JIGAAA/watch",
+          "videoEmbed": "https://streamain.com/9TmyIjkE3JIGAAA/watch",
+          "directMp4": null,
+          "postedAt": 1776205087000
+        }
+      ]
+    },
     {
       "home": "Liverpool",
       "away": "Paris Saint-Germain",
