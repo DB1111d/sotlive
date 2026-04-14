@@ -1,5 +1,26 @@
 {
-  "updated": "2026-04-14T09:03:16Z",
+  "updated": "2026-04-14T10:40:29Z",
   "date": "2026-04-14",
-  "matches": []
+  "matches": [
+    {
+      "home": "Znicz Pruszków",
+      "away": "Miedź Legnica",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sl4b9w",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sl4b9w",
+          "scorer": "Daniel Stanclik",
+          "minute": 61,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/t9mpc10wq4vg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/t9mpc10wq4vg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1776161129000
+        }
+      ]
+    }
+  ]
 }
