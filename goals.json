@@ -1,7 +1,93 @@
 {
-  "updated": "2026-04-15T23:02:37Z",
+  "updated": "2026-04-15T23:58:56Z",
   "date": "2026-04-15",
   "matches": [
+    {
+      "home": "Cruzeiro",
+      "away": "Universidad Catolica",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1smme4y",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1smme4y",
+          "scorer": "Justo Giani",
+          "minute": 30,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/OBQJwfGSOOFx4zc/watch",
+          "videoEmbed": "https://streamain.com/OBQJwfGSOOFx4zc/watch",
+          "directMp4": null,
+          "postedAt": 1776295167000
+        },
+        {
+          "postId": "1smmh3b",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1smmh3b",
+          "scorer": "Matheus Pereira penalty",
+          "minute": 61,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/5xsrqPRJiT43fkm/watch",
+          "videoEmbed": "https://streamain.com/5xsrqPRJiT43fkm/watch",
+          "directMp4": null,
+          "postedAt": 1776295380000
+        },
+        {
+          "postId": "1smn9cy",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1smn9cy",
+          "scorer": "Jimmy Antonio Martinez",
+          "minute": 90,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/nU9y7I2mAXUfD1t/watch",
+          "videoEmbed": "https://streamain.com/nU9y7I2mAXUfD1t/watch",
+          "directMp4": null,
+          "postedAt": 1776297385000
+        }
+      ]
+    },
+    {
+      "home": "Libertad",
+      "away": "Rosario",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1smn7am",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1smn7am",
+          "scorer": "Enzo Copetti",
+          "minute": 83,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/OrRi61SnAYVTHmp/watch",
+          "videoEmbed": "https://streamain.com/OrRi61SnAYVTHmp/watch",
+          "directMp4": null,
+          "postedAt": 1776297239000
+        }
+      ]
+    },
+    {
+      "home": "Libertad",
+      "away": "Rosario Central",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1smn480",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1smn480",
+          "scorer": "Enzo Copetti",
+          "minute": 83,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/vb2c6vktyfvg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776297017000
+        }
+      ]
+    },
     {
       "home": "Racing Club",
       "away": "Botafogo RJ",
@@ -32,6 +118,52 @@
           "videoEmbed": "https://streamain.com/THJpCeVZ9r7b8e8/watch",
           "directMp4": null,
           "postedAt": 1776292088000
+        },
+        {
+          "postId": "1smmba5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1smmba5",
+          "scorer": "Junior Santos",
+          "minute": 41,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/yVGSh9BBoUqhgqx/watch",
+          "videoEmbed": "https://streamain.com/yVGSh9BBoUqhgqx/watch",
+          "directMp4": null,
+          "postedAt": 1776294972000
+        },
+        {
+          "postId": "1smml4j",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1smml4j",
+          "scorer": "Adrian Martinez",
+          "minute": 64,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/M37nicRDsWp1Mdg/watch",
+          "videoEmbed": "https://streamain.com/M37nicRDsWp1Mdg/watch",
+          "directMp4": null,
+          "postedAt": 1776295669000
+        }
+      ]
+    },
+    {
+      "home": "Caracas",
+      "away": "Independiente",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1smmiyy",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1smmiyy",
+          "scorer": "Wilfred Correa",
+          "minute": 55,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/foefdVRX7K976Iv/watch",
+          "videoEmbed": "https://streamain.com/foefdVRX7K976Iv/watch",
+          "directMp4": null,
+          "postedAt": 1776295515000
         }
       ]
     },
