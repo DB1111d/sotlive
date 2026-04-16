@@ -1,7 +1,193 @@
 {
-  "updated": "2026-04-16T19:08:39Z",
+  "updated": "2026-04-16T20:06:06Z",
   "date": "2026-04-16",
   "matches": [
+    {
+      "home": "Aston Villa",
+      "away": "Bologna",
+      "league": "UEFA Europa League",
+      "goals": [
+        {
+          "postId": "1snejlk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1snejlk",
+          "scorer": "Morgan Rogers",
+          "minute": 39,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/c5d12e86",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776369429000
+        },
+        {
+          "postId": "1sneepw",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sneepw",
+          "scorer": "Morgan Rogers",
+          "minute": 39,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/aab6e292",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776369140000,
+          "disallowed": true
+        }
+      ]
+    },
+    {
+      "home": "AEK Athens",
+      "away": "Rayo Vallecano",
+      "league": "UEFA Europa Conference League",
+      "goals": [
+        {
+          "postId": "1sndric",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sndric",
+          "scorer": "Zini",
+          "minute": 13,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/d98dax16tlvg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/d98dax16tlvg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1776367742000
+        },
+        {
+          "postId": "1sne5up",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sne5up",
+          "scorer": "Razvan Marin",
+          "minute": 36,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/q73fqj4uvlvg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/q73fqj4uvlvg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1776368602000
+        }
+      ]
+    },
+    {
+      "home": "Real Betis",
+      "away": "Braga",
+      "league": "UEFA Europa League",
+      "goals": [
+        {
+          "postId": "1sndeck",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sndeck",
+          "scorer": "Antony",
+          "minute": 13,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/q9kuit7vqlvg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776366943000
+        },
+        {
+          "postId": "1sndqsg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sndqsg",
+          "scorer": "Abde Ezzalzouli",
+          "minute": 26,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/1w4czws4tlvg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776367697000
+        },
+        {
+          "postId": "1sne2wp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sne2wp",
+          "scorer": "Pau Victor",
+          "minute": 38,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/2x1key9avlvg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/2x1key9avlvg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1776368419000
+        }
+      ]
+    },
+    {
+      "home": "Fiorentina",
+      "away": "Crystal Palace",
+      "league": "UEFA Europa Conference League",
+      "goals": [
+        {
+          "postId": "1sne1s3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sne1s3",
+          "scorer": "Alfred Guðmundsson",
+          "minute": 30,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/01e330ab",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776368353000
+        }
+      ]
+    },
+    {
+      "home": "Strasbourg",
+      "away": "Mainz",
+      "league": "UEFA Europa Conference League",
+      "goals": [
+        {
+          "postId": "1sndqax",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sndqax",
+          "scorer": "Sebastian Nanasi",
+          "minute": 26,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/n9qgtz02tlvg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/n9qgtz02tlvg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1776367666000
+        },
+        {
+          "postId": "1sndz84",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sndz84",
+          "scorer": "Abdoul Ouattara",
+          "minute": 35,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/2wb70ptmulvg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/2wb70ptmulvg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1776368203000
+        }
+      ]
+    },
+    {
+      "home": "Nottingham Forest",
+      "away": "FC Porto",
+      "league": "UEFA Europa League",
+      "goals": [
+        {
+          "postId": "1sndha8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sndha8",
+          "scorer": "Morgan Gibbs-White",
+          "minute": 12,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/2qrnzmufrlvg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/2qrnzmufrlvg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1776367118000
+        }
+      ]
+    },
     {
       "home": "Celta Vigo",
       "away": "SC Freiburg",
