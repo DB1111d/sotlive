@@ -1,5 +1,39 @@
 {
-  "updated": "2026-04-16T16:21:19Z",
+  "updated": "2026-04-16T17:50:39Z",
   "date": "2026-04-16",
-  "matches": []
+  "matches": [
+    {
+      "home": "Celta Vigo",
+      "away": "SC Freiburg",
+      "league": "UEFA Europa League",
+      "goals": [
+        {
+          "postId": "1sna1ls",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sna1ls",
+          "scorer": "Igor Matanović",
+          "minute": 33,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/3lv4gva46lvg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/3lv4gva46lvg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1776359967000
+        },
+        {
+          "postId": "1sna7rb",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sna7rb",
+          "scorer": "Yuito Suzuki",
+          "minute": 39,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/slf5xhh57lvg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/slf5xhh57lvg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1776360305000
+        }
+      ]
+    }
+  ]
 }
