@@ -1,37 +1,50 @@
 {
-  "updated": "2026-04-17T20:29:29Z",
+  "updated": "2026-04-17T21:22:23Z",
   "date": "2026-04-17",
   "matches": [
     {
-      "home": "FC St. Pauli",
-      "away": "FC Koln",
+      "home": "Rio Ave",
+      "away": "AFS",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1soc40l",
+          "postId": "1socdpe",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1soc40l",
-          "scorer": "Karol Mets",
-          "minute": 69,
+          "permalink": "https://redd.it/1socdpe",
+          "scorer": "Ole Pohlmann",
+          "minute": 18,
           "homeScore": 1,
           "awayScore": 0,
-          "videoUrl": "https://v.redd.it/awyt5f1h5tvg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/awyt5f1h5tvg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1776456601000
+          "videoUrl": "https://streamain.com/4OesRCzUr0F10Pi/watch",
+          "videoEmbed": "https://streamain.com/4OesRCzUr0F10Pi/watch",
+          "directMp4": null,
+          "postedAt": 1776457193000
         },
         {
-          "postId": "1sociun",
+          "postId": "1socraw",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1sociun",
-          "scorer": "Luca Waldschmidt",
-          "minute": 86,
+          "permalink": "https://redd.it/1socraw",
+          "scorer": "Tomane",
+          "minute": 32,
           "homeScore": 1,
           "awayScore": 1,
-          "videoUrl": "https://v.redd.it/hy8s09858tvg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/hy8s09858tvg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1776457503000
+          "videoUrl": "https://streamain.com/7jwkAzrjkvysaSq/watch",
+          "videoEmbed": "https://streamain.com/7jwkAzrjkvysaSq/watch",
+          "directMp4": null,
+          "postedAt": 1776458020000
+        },
+        {
+          "postId": "1sody79",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sody79",
+          "scorer": "Pedro Lima",
+          "minute": 68,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/cJeWTjutEy1hTCk/watch",
+          "videoEmbed": "https://streamain.com/cJeWTjutEy1hTCk/watch",
+          "directMp4": null,
+          "postedAt": 1776460706000
         }
       ]
     },
@@ -52,26 +65,65 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/cj2nei9m7tvg1/CMAF_720.mp4?source=fallback",
           "postedAt": 1776457304000
+        },
+        {
+          "postId": "1sodc43",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sodc43",
+          "scorer": "Bobby Thomas",
+          "minute": 84,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/OZ6GKN5Sfj5NgIh/watch",
+          "videoEmbed": "https://streamain.com/OZ6GKN5Sfj5NgIh/watch",
+          "directMp4": null,
+          "postedAt": 1776459336000
         }
       ]
     },
     {
-      "home": "Rio Ave",
-      "away": "AFS",
-      "league": "Rest of World",
+      "home": "Internazionale",
+      "away": "Cagliari",
+      "league": "Serie A",
       "goals": [
         {
-          "postId": "1socdpe",
+          "postId": "1soc2bs",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1socdpe",
-          "scorer": "Ole Pohlmann",
-          "minute": 18,
+          "permalink": "https://redd.it/1soc2bs",
+          "scorer": "Marcus Thuram",
+          "minute": 52,
           "homeScore": 1,
           "awayScore": 0,
-          "videoUrl": "https://streamain.com/4OesRCzUr0F10Pi/watch",
-          "videoEmbed": "https://streamain.com/4OesRCzUr0F10Pi/watch",
+          "videoUrl": "https://streamin.link/v/fdbaf4b4",
+          "videoEmbed": null,
           "directMp4": null,
-          "postedAt": 1776457193000
+          "postedAt": 1776456495000
+        },
+        {
+          "postId": "1soc3sn",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1soc3sn",
+          "scorer": "Nicolo Barella",
+          "minute": 56,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/oFiHqWRKPldONUm/watch",
+          "videoEmbed": "https://streamain.com/oFiHqWRKPldONUm/watch",
+          "directMp4": null,
+          "postedAt": 1776456588000
+        },
+        {
+          "postId": "1sod1j0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sod1j0",
+          "scorer": "Piotr Zielinski",
+          "minute": 92,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/jFCIHsEWdt8GBJo/watch",
+          "videoEmbed": "https://streamain.com/jFCIHsEWdt8GBJo/watch",
+          "directMp4": null,
+          "postedAt": 1776458667000
         }
       ]
     },
@@ -131,39 +183,52 @@
           "videoEmbed": "https://streamain.com/XDfHHbwb1Yyx9fD/watch",
           "directMp4": null,
           "postedAt": 1776456973000
+        },
+        {
+          "postId": "1socy2k",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1socy2k",
+          "scorer": "Ismaelo Ganiou",
+          "minute": 90,
+          "homeScore": 3,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/hyyoE43epIPXUyo/watch",
+          "videoEmbed": "https://streamain.com/hyyoE43epIPXUyo/watch",
+          "directMp4": null,
+          "postedAt": 1776458448000
         }
       ]
     },
     {
-      "home": "Internazionale",
-      "away": "Cagliari",
-      "league": "Serie A",
+      "home": "FC St. Pauli",
+      "away": "FC Koln",
+      "league": "Rest of World",
       "goals": [
         {
-          "postId": "1soc2bs",
+          "postId": "1soc40l",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1soc2bs",
-          "scorer": "Marcus Thuram",
-          "minute": 52,
+          "permalink": "https://redd.it/1soc40l",
+          "scorer": "Karol Mets",
+          "minute": 69,
           "homeScore": 1,
           "awayScore": 0,
-          "videoUrl": "https://streamin.link/v/fdbaf4b4",
+          "videoUrl": "https://v.redd.it/awyt5f1h5tvg1",
           "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1776456495000
+          "directMp4": "https://v.redd.it/awyt5f1h5tvg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1776456601000
         },
         {
-          "postId": "1soc3sn",
+          "postId": "1sociun",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1soc3sn",
-          "scorer": "Nicolo Barella",
-          "minute": 56,
-          "homeScore": 2,
-          "awayScore": 0,
-          "videoUrl": "https://streamain.com/oFiHqWRKPldONUm/watch",
-          "videoEmbed": "https://streamain.com/oFiHqWRKPldONUm/watch",
-          "directMp4": null,
-          "postedAt": 1776456588000
+          "permalink": "https://redd.it/1sociun",
+          "scorer": "Luca Waldschmidt",
+          "minute": 86,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/hy8s09858tvg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/hy8s09858tvg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1776457503000
         }
       ]
     },
