@@ -1,7 +1,93 @@
 {
-  "updated": "2026-04-17T16:35:49Z",
+  "updated": "2026-04-17T17:32:49Z",
   "date": "2026-04-17",
   "matches": [
+    {
+      "home": "Real Madrid U19",
+      "away": "PSG U19",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1so7h81",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1so7h81",
+          "scorer": "Elijah Ly",
+          "minute": 29,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/HDSqg1dSTCflprK/watch",
+          "videoEmbed": "https://streamain.com/HDSqg1dSTCflprK/watch",
+          "directMp4": null,
+          "postedAt": 1776446550000
+        }
+      ]
+    },
+    {
+      "home": "Holstein Kiel",
+      "away": "Kaiserslautern",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1so7cgi",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1so7cgi",
+          "scorer": "Umut Tohumcu",
+          "minute": 17,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/VIbsbjeM8p5dnGj/watch",
+          "videoEmbed": "https://streamain.com/VIbsbjeM8p5dnGj/watch",
+          "directMp4": null,
+          "postedAt": 1776446265000
+        },
+        {
+          "postId": "1so7d1d",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1so7d1d",
+          "scorer": "Phil Harres",
+          "minute": 36,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/MXxyf6riW2Syhxq/watch",
+          "videoEmbed": "https://streamain.com/MXxyf6riW2Syhxq/watch",
+          "directMp4": null,
+          "postedAt": 1776446302000
+        },
+        {
+          "postId": "1so7dh5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1so7dh5",
+          "scorer": "David Zec",
+          "minute": 41,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/zcDtCfWtFwQzv2R/watch",
+          "videoEmbed": "https://streamain.com/zcDtCfWtFwQzv2R/watch",
+          "directMp4": null,
+          "postedAt": 1776446328000
+        }
+      ]
+    },
+    {
+      "home": "Sassuolo",
+      "away": "Como",
+      "league": "Serie A",
+      "goals": [
+        {
+          "postId": "1so7d98",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1so7d98",
+          "scorer": "Cristian Volpato",
+          "minute": 42,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/73846d3e",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776446316000
+        }
+      ]
+    },
     {
       "home": "GKS Katowice",
       "away": "Motor Lublin",
@@ -32,6 +118,65 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/96g4nf0s2svg1/CMAF_720.mp4?source=fallback",
           "postedAt": 1776443587000
+        },
+        {
+          "postId": "1so6bha",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1so6bha",
+          "scorer": "Bartosz Nowak",
+          "minute": 39,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/sopq61l84svg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/sopq61l84svg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1776444081000
+        },
+        {
+          "postId": "1so6lgv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1so6lgv",
+          "scorer": "Eman Markovic",
+          "minute": 45,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/8t8f8twy5svg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776444670000
+        },
+        {
+          "postId": "1so7a3d",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1so7a3d",
+          "scorer": "Bartosz Wolski",
+          "minute": 49,
+          "homeScore": 3,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/bxtjrb0casvg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/bxtjrb0casvg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1776446124000
+        }
+      ]
+    },
+    {
+      "home": "Elversberg",
+      "away": "Karlsruhe",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1so78hv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1so78hv",
+          "scorer": "Immanuel Pherai",
+          "minute": 26,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/xyUAeHxClRiZbcK/watch",
+          "videoEmbed": "https://streamain.com/xyUAeHxClRiZbcK/watch",
+          "directMp4": null,
+          "postedAt": 1776446023000
         }
       ]
     },
