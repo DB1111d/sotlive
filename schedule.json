@@ -1,70 +1,9 @@
 {
-  "updated": "2026-04-16 16:50 EDT",
+  "updated": "2026-04-16 22:39 EDT",
   "days": {
     "20260416": {
       "date": "Thursday, April 16",
-      "games": [
-        {
-          "league": "UEFA Europa League",
-          "time": "3:00 PM",
-          "match": "Aston Villa vs Bologna",
-          "source": "Paramount+",
-          "kick_utc": "2026-04-16T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
-          "round_label": "Quarter-final \u00b7 Leg 2"
-        },
-        {
-          "league": "UEFA Europa League",
-          "time": "3:00 PM",
-          "match": "Nottingham Forest vs FC Porto",
-          "source": "Paramount+",
-          "kick_utc": "2026-04-16T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
-          "round_label": "Quarter-final \u00b7 Leg 2"
-        },
-        {
-          "league": "UEFA Europa League",
-          "time": "3:00 PM",
-          "match": "Real Betis vs Braga",
-          "source": "Paramount+",
-          "kick_utc": "2026-04-16T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2994.png",
-          "round_label": "Quarter-final \u00b7 Leg 2"
-        },
-        {
-          "league": "UEFA Europa Conference League",
-          "time": "3:00 PM",
-          "match": "AEK Athens vs Rayo Vallecano",
-          "source": "Paramount+",
-          "kick_utc": "2026-04-16T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/887.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
-          "round_label": "Quarter-final \u00b7 Leg 2"
-        },
-        {
-          "league": "UEFA Europa Conference League",
-          "time": "3:00 PM",
-          "match": "Fiorentina vs Crystal Palace",
-          "source": "Paramount+",
-          "kick_utc": "2026-04-16T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
-          "round_label": "Quarter-final \u00b7 Leg 2"
-        },
-        {
-          "league": "UEFA Europa Conference League",
-          "time": "3:00 PM",
-          "match": "Strasbourg vs Mainz",
-          "source": "Paramount+",
-          "kick_utc": "2026-04-16T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png",
-          "round_label": "Quarter-final \u00b7 Leg 2"
-        }
-      ]
+      "games": []
     },
     "20260417": {
       "date": "Friday, April 17",
