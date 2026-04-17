@@ -1,5 +1,26 @@
 {
-  "updated": "2026-04-17T11:50:20Z",
+  "updated": "2026-04-17T13:13:39Z",
   "date": "2026-04-17",
-  "matches": []
+  "matches": [
+    {
+      "home": "Melbourne Victory",
+      "away": "Newcastle Jets",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1snys1w",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1snys1w",
+          "scorer": "Eli Adams free kick",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/8vnxku78oqvg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/8vnxku78oqvg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1776426868000
+        }
+      ]
+    }
+  ]
 }
