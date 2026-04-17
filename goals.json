@@ -1,7 +1,60 @@
 {
-  "updated": "2026-04-17T15:42:03Z",
+  "updated": "2026-04-17T16:35:49Z",
   "date": "2026-04-17",
   "matches": [
+    {
+      "home": "GKS Katowice",
+      "away": "Motor Lublin",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1so5y76",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1so5y76",
+          "scorer": "Eman Markovic",
+          "minute": 23,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/c4s0j8rv1svg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/c4s0j8rv1svg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1776443301000
+        },
+        {
+          "postId": "1so634r",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1so634r",
+          "scorer": "Karol Czubak",
+          "minute": 29,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/96g4nf0s2svg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/96g4nf0s2svg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1776443587000
+        }
+      ]
+    },
+    {
+      "home": "Al Ahli",
+      "away": "Johor Daraul Ta'zim",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1so5hkd",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1so5hkd",
+          "scorer": "Wenderson Galeno",
+          "minute": 54,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/dmzksgt0zrvg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/dmzksgt0zrvg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1776442306000
+        }
+      ]
+    },
     {
       "home": "Melbourne Victory",
       "away": "Newcastle Jets",
