@@ -1,5 +1,26 @@
 {
-  "updated": "2026-04-18T09:12:17Z",
+  "updated": "2026-04-18T10:02:22Z",
   "date": "2026-04-18",
-  "matches": []
+  "matches": [
+    {
+      "home": "Brisbane Roar",
+      "away": "Melbourne City",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1soszfh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1soszfh",
+          "scorer": "Youstin Salas",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/5hi03nb54xvg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/5hi03nb54xvg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1776504565000
+        }
+      ]
+    }
+  ]
 }
