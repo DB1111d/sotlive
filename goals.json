@@ -1,7 +1,146 @@
 {
-  "updated": "2026-04-18T16:20:13Z",
+  "updated": "2026-04-18T17:04:09Z",
   "date": "2026-04-18",
   "matches": [
+    {
+      "home": "Eintracht Frankfurt",
+      "away": "RB Leipzig",
+      "league": "German Bundesliga",
+      "goals": [
+        {
+          "postId": "1sp32m3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sp32m3",
+          "scorer": "Yan Diomande",
+          "minute": 27,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/9603b2b3",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776531663000
+        }
+      ]
+    },
+    {
+      "home": "Buriram",
+      "away": "Al-Ahli Dubai",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sp2n6y",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sp2n6y",
+          "scorer": "Own Goal",
+          "minute": 13,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/DT5yVK3gHArThra/watch",
+          "videoEmbed": "https://streamain.com/DT5yVK3gHArThra/watch",
+          "directMp4": null,
+          "postedAt": 1776530685000
+        }
+      ]
+    },
+    {
+      "home": "Sparta Praha",
+      "away": "Jablonec",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sp27dp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sp27dp",
+          "scorer": "Jan Kuchta",
+          "minute": 21,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/vr3d6i8q6zvg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/vr3d6i8q6zvg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1776529668000
+        },
+        {
+          "postId": "1sp27nz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sp27nz",
+          "scorer": "Sebastian Nebyla",
+          "minute": 24,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/0i074ilq6zvg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/0i074ilq6zvg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1776529688000
+        },
+        {
+          "postId": "1sp2jm7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sp2jm7",
+          "scorer": "Lukáš Haraslín",
+          "minute": 37,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/j3ik4jl29zvg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/j3ik4jl29zvg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1776530456000
+        }
+      ]
+    },
+    {
+      "home": "Nacional",
+      "away": "Alverca",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sp26iz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sp26iz",
+          "scorer": "Jesus Andres Ramirez Diaz",
+          "minute": 67,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/MFcl4l4eDmChA0H/watch",
+          "videoEmbed": "https://streamain.com/MFcl4l4eDmChA0H/watch",
+          "directMp4": null,
+          "postedAt": 1776529613000
+        }
+      ]
+    },
+    {
+      "home": "Lorient",
+      "away": "Olympique de Marseille",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sp1c8i",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sp1c8i",
+          "scorer": "Panos Katseris",
+          "minute": 27,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/3CAfxBbRaklbt9D/watch",
+          "videoEmbed": "https://streamain.com/3CAfxBbRaklbt9D/watch",
+          "directMp4": null,
+          "postedAt": 1776527666000
+        },
+        {
+          "postId": "1sp1yxe",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sp1yxe",
+          "scorer": "Bamba Dieng",
+          "minute": 58,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/JwpU638l7Xfv3Sv/watch",
+          "videoEmbed": "https://streamain.com/JwpU638l7Xfv3Sv/watch",
+          "directMp4": null,
+          "postedAt": 1776529116000
+        }
+      ]
+    },
     {
       "home": "Napoli",
       "away": "Lazio",
@@ -131,26 +270,6 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1776527715000
-        }
-      ]
-    },
-    {
-      "home": "Lorient",
-      "away": "Olympique de Marseille",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1sp1c8i",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sp1c8i",
-          "scorer": "Panos Katseris",
-          "minute": 27,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamain.com/3CAfxBbRaklbt9D/watch",
-          "videoEmbed": "https://streamain.com/3CAfxBbRaklbt9D/watch",
-          "directMp4": null,
-          "postedAt": 1776527666000
         }
       ]
     },
