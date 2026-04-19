@@ -1,7 +1,132 @@
 {
-  "updated": "2026-04-19T15:41:24Z",
+  "updated": "2026-04-19T16:20:24Z",
   "date": "2026-04-19",
   "matches": [
+    {
+      "home": "Arka Gdynia",
+      "away": "Jagiellonia Białystok",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1spwen8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1spwen8",
+          "scorer": "Jesús Imaz",
+          "minute": 9,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/mn78n00e36wg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/mn78n00e36wg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1776613293000
+        },
+        {
+          "postId": "1spx73n",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1spx73n",
+          "scorer": "Jesús Imaz",
+          "minute": 38,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/nyqx47rq86wg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/nyqx47rq86wg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1776615088000
+        }
+      ]
+    },
+    {
+      "home": "Bayern Munich",
+      "away": "VfB Stuttgart",
+      "league": "German Bundesliga",
+      "goals": [
+        {
+          "postId": "1spwt1h",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1spwt1h",
+          "scorer": "Chris Führich",
+          "minute": 21,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/a9d7401a",
+          "videoEmbed": "https://streamff.link/v/a9d7401a",
+          "directMp4": null,
+          "postedAt": 1776614209000
+        },
+        {
+          "postId": "1spwzka",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1spwzka",
+          "scorer": "R. Guerreiro",
+          "minute": 32,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/792f4a60",
+          "videoEmbed": "https://streamff.link/v/792f4a60",
+          "directMp4": null,
+          "postedAt": 1776614603000
+        },
+        {
+          "postId": "1spx0oi",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1spx0oi",
+          "scorer": "Nicolas Jackson",
+          "minute": 33,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/721c741d",
+          "videoEmbed": "https://streamff.link/v/721c741d",
+          "directMp4": null,
+          "postedAt": 1776614672000
+        },
+        {
+          "postId": "1spx45g",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1spx45g",
+          "scorer": "Alphonso Davies",
+          "minute": 37,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/5de9294b",
+          "videoEmbed": "https://streamff.link/v/5de9294b",
+          "directMp4": null,
+          "postedAt": 1776614896000
+        }
+      ]
+    },
+    {
+      "home": "Manchester City",
+      "away": "Arsenal",
+      "league": "Premier League",
+      "goals": [
+        {
+          "postId": "1spwjj1",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1spwjj1",
+          "scorer": "Rayan Cherki",
+          "minute": 16,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/b087b6fc",
+          "videoEmbed": "https://streamff.link/v/b087b6fc",
+          "directMp4": null,
+          "postedAt": 1776613601000
+        },
+        {
+          "postId": "1spwli5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1spwli5",
+          "scorer": "Kai Havertz",
+          "minute": 18,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/887bb3b5",
+          "videoEmbed": "https://streamff.link/v/887bb3b5",
+          "directMp4": null,
+          "postedAt": 1776613731000
+        }
+      ]
+    },
     {
       "home": "SC Freiburg",
       "away": "1. FC Heidenheim 1846",
