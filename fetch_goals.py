@@ -132,6 +132,33 @@ TEAM_ALIASES = {
     "ssc napoli":          "SSC Napoli",
     "fiorentina":          "ACF Fiorentina",
     "acf fiorentina":      "ACF Fiorentina",
+    # Bundesliga — FC prefix / TSG prefix often dropped
+    "augsburg":            "FC Augsburg",
+    "fc augsburg":         "FC Augsburg",
+    "hoffenheim":          "TSG Hoffenheim",
+    "tsg hoffenheim":      "TSG Hoffenheim",
+    "tsg 1899 hoffenheim": "TSG Hoffenheim",
+    "freiburg":            "SC Freiburg",
+    "sc freiburg":         "SC Freiburg",
+    "mainz":               "FSV Mainz 05",
+    "mainz 05":            "FSV Mainz 05",
+    "wolfsburg":           "VfL Wolfsburg",
+    "vfl wolfsburg":       "VfL Wolfsburg",
+    "bochum":              "VfL Bochum",
+    "st pauli":            "FC St. Pauli",
+    "fc st pauli":         "FC St. Pauli",
+    "union berlin":        "1. FC Union Berlin",
+    "koln":                "FC Koln",
+    "fc koln":             "FC Koln",
+    # 2. Bundesliga
+    "hamburger sv":        "Hamburger SV",
+    "hsv":                 "Hamburger SV",
+    "hamburg":             "Hamburger SV",
+    "karlsruhe":           "Karlsruher SC",
+    "karlsruher sc":       "Karlsruher SC",
+    # Premier League — AFC prefix
+    "bournemouth":         "AFC Bournemouth",
+    "afc bournemouth":     "AFC Bournemouth",
 }
 
 
@@ -466,13 +493,14 @@ def main():
     for key in matches:
         matches[key]["goals"].sort(key=lambda g: (g["homeScore"] + g["awayScore"], g["minute"] or 0))
 
-    # Detect disallowed goals — sort by postedAt, compare consecutive goals.
-    # If home score OR away score drops between posts, the previous goal was disallowed.
+    # Detect disallowed goals — sort by total goals scored, then postedAt as tiebreak.
+    # Using score order avoids false positives when a replaced video post has a later timestamp.
     for key in matches:
-        goals_by_time = sorted(matches[key]["goals"], key=lambda g: g["postedAt"])
-        for i in range(1, len(goals_by_time)):
-            prev = goals_by_time[i - 1]
-            curr = goals_by_time[i]
+        goals_by_score = sorted(matches[key]["goals"],
+                                key=lambda g: (g["homeScore"] + g["awayScore"], g["postedAt"]))
+        for i in range(1, len(goals_by_score)):
+            prev = goals_by_score[i - 1]
+            curr = goals_by_score[i]
             if curr["homeScore"] < prev["homeScore"] or curr["awayScore"] < prev["awayScore"]:
                 prev["disallowed"] = True
 
