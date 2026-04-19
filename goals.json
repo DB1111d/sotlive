@@ -1,7 +1,86 @@
 {
-  "updated": "2026-04-19T18:44:27Z",
+  "updated": "2026-04-19T19:30:58Z",
   "date": "2026-04-19",
   "matches": [
+    {
+      "home": "Sporting CP",
+      "away": "Benfica",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1spzsig",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1spzsig",
+          "scorer": "Andreas Schjelderup penalty",
+          "minute": 27,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/da619ca8",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776620838000
+        },
+        {
+          "postId": "1sq1n3l",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sq1n3l",
+          "scorer": "Hidemasa Morita",
+          "minute": 72,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/5ad0a182",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776624858000
+        },
+        {
+          "postId": "1sq2akg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sq2akg",
+          "scorer": "Rafa Silva",
+          "minute": 90,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/b8c75122",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776626292000
+        }
+      ]
+    },
+    {
+      "home": "Paris Saint-Germain",
+      "away": "Olympique Lyonnais",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sq1pnq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sq1pnq",
+          "scorer": "Endrick",
+          "minute": 6,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/89ad24e8",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776625017000
+        },
+        {
+          "postId": "1sq241z",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sq241z",
+          "scorer": "Moreira",
+          "minute": 17,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/ui6dfxvw47wg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ui6dfxvw47wg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1776625893000
+        }
+      ]
+    },
     {
       "home": "Trabzonspor",
       "away": "Basaksehir",
@@ -19,6 +98,39 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1776623881000
+        },
+        {
+          "postId": "1sq1peg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sq1peg",
+          "scorer": "Davie Selke",
+          "minute": 90,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/18617087",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776625000000
+        }
+      ]
+    },
+    {
+      "home": "Juventus",
+      "away": "Bologna",
+      "league": "Serie A",
+      "goals": [
+        {
+          "postId": "1sq1odu",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sq1odu",
+          "scorer": "Jonathan David",
+          "minute": 2,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/bsrj7ri127wg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/bsrj7ri127wg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1776624938000
         }
       ]
     },
@@ -124,26 +236,6 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1776621158000
-        }
-      ]
-    },
-    {
-      "home": "Sporting CP",
-      "away": "Benfica",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1spzsig",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1spzsig",
-          "scorer": "Andreas Schjelderup penalty",
-          "minute": 27,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/da619ca8",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1776620838000
         }
       ]
     },
