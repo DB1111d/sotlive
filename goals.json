@@ -1,7 +1,60 @@
 {
-  "updated": "2026-04-19T11:06:07Z",
+  "updated": "2026-04-19T11:50:08Z",
   "date": "2026-04-19",
   "matches": [
+    {
+      "home": "Eintracht Braunschweig",
+      "away": "Hertha BSC",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1spqq74",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1spqq74",
+          "scorer": "Fabian Reese",
+          "minute": 11,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/2bcf57dc",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776599077000
+        }
+      ]
+    },
+    {
+      "home": "Ipswich Town",
+      "away": "Middlesbrough",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1spqi38",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1spqi38",
+          "scorer": "David Strelec",
+          "minute": 26,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/qXKyMwJjANs1rDv/watch",
+          "videoEmbed": "https://streamain.com/qXKyMwJjANs1rDv/watch",
+          "directMp4": null,
+          "postedAt": 1776598381000
+        },
+        {
+          "postId": "1spqj0q",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1spqj0q",
+          "scorer": "Kasey McAteer",
+          "minute": 30,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/en/39VSuUiSkyAdlsL/watch",
+          "videoEmbed": "https://streamain.com/en/39VSuUiSkyAdlsL/watch",
+          "directMp4": null,
+          "postedAt": 1776598462000
+        }
+      ]
+    },
     {
       "home": "Bruk-Bet Termalica Nieciecza",
       "away": "Wisła Płock",
@@ -32,6 +85,19 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/7kjydlhjo4wg1/CMAF_720.mp4?source=fallback",
           "postedAt": 1776596200000
+        },
+        {
+          "postId": "1spqfcx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1spqfcx",
+          "scorer": "Giannis Niarchos",
+          "minute": 51,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/bw7q446du4wg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776598148000
         }
       ]
     },
