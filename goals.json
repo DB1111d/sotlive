@@ -1,7 +1,113 @@
 {
-  "updated": "2026-04-19T19:30:58Z",
+  "updated": "2026-04-19T20:05:48Z",
   "date": "2026-04-19",
   "matches": [
+    {
+      "home": "Coritiba",
+      "away": "Atlético Mineiro",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sq3hz9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sq3hz9",
+          "scorer": "Breno Lopes",
+          "minute": 7,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/wts540k8e7wg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776629050000
+        }
+      ]
+    },
+    {
+      "home": "Santos",
+      "away": "Fluminense",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sq3dec",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sq3dec",
+          "scorer": "Gabriel Barbosa",
+          "minute": 9,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/9m64ewocd7wg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776628763000
+        },
+        {
+          "postId": "1sq3fzz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sq3fzz",
+          "scorer": "Savarino",
+          "minute": 24,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/8qjeituud7wg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776628921000
+        }
+      ]
+    },
+    {
+      "home": "Braga",
+      "away": "Famalicao",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sq30sg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sq30sg",
+          "scorer": "Fran Navarro",
+          "minute": 3,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/20b52306",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776627950000
+        }
+      ]
+    },
+    {
+      "home": "Monchengladbach",
+      "away": "FSV Mainz 05",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1spzxyt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1spzxyt",
+          "scorer": "Joe Scally",
+          "minute": 7,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/7899d716",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776621158000
+        },
+        {
+          "postId": "1sq2mvu",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sq2mvu",
+          "scorer": "Nadiem Amiri penalty",
+          "minute": 90,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/b038754f",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776627073000
+        }
+      ]
+    },
     {
       "home": "Sporting CP",
       "away": "Benfica",
@@ -216,26 +322,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/ylwpnghwt6wg1/CMAF_1080.mp4?source=fallback",
           "postedAt": 1776622224000
-        }
-      ]
-    },
-    {
-      "home": "Monchengladbach",
-      "away": "FSV Mainz 05",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1spzxyt",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1spzxyt",
-          "scorer": "Joe Scally",
-          "minute": 7,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamin.link/v/7899d716",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1776621158000
         }
       ]
     },
