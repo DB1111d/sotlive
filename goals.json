@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-19T00:05:02Z",
+  "updated": "2026-04-19T03:49:19Z",
   "date": "2026-04-19",
   "matches": [
     {
@@ -893,52 +893,6 @@
     },
     {
       "home": "Newcastle United",
-      "away": "AFC Bournemouth",
-      "league": "Premier League",
-      "goals": [
-        {
-          "postId": "1soz7z4",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1soz7z4",
-          "scorer": "Marcus Tavernier",
-          "minute": 32,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/1b8ae37d",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1776522777000
-        },
-        {
-          "postId": "1sp0ofg",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sp0ofg",
-          "scorer": "William Osula",
-          "minute": 68,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/093efee2",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1776526144000
-        },
-        {
-          "postId": "1sp12kl",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sp12kl",
-          "scorer": "Adrien Truffert",
-          "minute": 85,
-          "homeScore": 1,
-          "awayScore": 2,
-          "videoUrl": "https://streamin.link/v/b14f0b1f",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1776527037000
-        }
-      ]
-    },
-    {
-      "home": "Newcastle United",
       "away": "Bournemouth",
       "league": "Rest of World",
       "goals": [
@@ -980,52 +934,6 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1776527037000
-        }
-      ]
-    },
-    {
-      "home": "TSG Hoffenheim",
-      "away": "Borussia Dortmund",
-      "league": "German Bundesliga",
-      "goals": [
-        {
-          "postId": "1soytej",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1soytej",
-          "scorer": "Andrej Kramaric",
-          "minute": 41,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamain.com/C1sY0Ra5eMQIFCz/watch",
-          "videoEmbed": "https://streamain.com/C1sY0Ra5eMQIFCz/watch",
-          "directMp4": null,
-          "postedAt": 1776521806000
-        },
-        {
-          "postId": "1sp0hd9",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sp0hd9",
-          "scorer": "Serhou Guirassy",
-          "minute": 87,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/pqpww0oyuyvg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/pqpww0oyuyvg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1776525690000
-        },
-        {
-          "postId": "1sp0rrx",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sp0rrx",
-          "scorer": "Andrej Kramarić",
-          "minute": 90,
-          "homeScore": 2,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/d7utsq5xwyvg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/d7utsq5xwyvg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1776526348000
         }
       ]
     },
@@ -1077,39 +985,6 @@
     },
     {
       "home": "Bayer Leverkusen",
-      "away": "FC Augsburg",
-      "league": "German Bundesliga",
-      "goals": [
-        {
-          "postId": "1soy4fz",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1soy4fz",
-          "scorer": "Fabian Rieder",
-          "minute": 15,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://streamain.com/HOtXG47wXMkz8YQ/watch",
-          "videoEmbed": "https://streamain.com/HOtXG47wXMkz8YQ/watch",
-          "directMp4": null,
-          "postedAt": 1776520091000
-        },
-        {
-          "postId": "1sp0ohx",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sp0ohx",
-          "scorer": "Fabian Rieder",
-          "minute": 90,
-          "homeScore": 1,
-          "awayScore": 2,
-          "videoUrl": "https://v.redd.it/8toyc4ebwyvg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/8toyc4ebwyvg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1776526148000
-        }
-      ]
-    },
-    {
-      "home": "Bayer Leverkusen",
       "away": "Augsburg",
       "league": "Rest of World",
       "goals": [
@@ -1138,39 +1013,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/8toyc4ebwyvg1/CMAF_720.mp4?source=fallback",
           "postedAt": 1776526148000
-        }
-      ]
-    },
-    {
-      "home": "Werder Bremen",
-      "away": "HSV",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1sozn5b",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sozn5b",
-          "scorer": "Jens Stage",
-          "minute": 57,
-          "homeScore": 2,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/likogskapyvg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/likogskapyvg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1776523786000
-        },
-        {
-          "postId": "1sp0jfa",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sp0jfa",
-          "scorer": "Cameron Puertas",
-          "minute": 90,
-          "homeScore": 3,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/r311sygcvyvg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/r311sygcvyvg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1776525820000
         }
       ]
     },
@@ -1249,7 +1091,8 @@
           "videoUrl": "https://streamain.com/MGwNvlFrBst4A4q/watch",
           "videoEmbed": "https://streamain.com/MGwNvlFrBst4A4q/watch",
           "directMp4": null,
-          "postedAt": 1776523011000
+          "postedAt": 1776523011000,
+          "disallowed": true
         },
         {
           "postId": "1sp092x",
@@ -1262,7 +1105,8 @@
           "videoUrl": "https://streamain.com/NKhFgoKMovC0u4T/watch",
           "videoEmbed": "https://streamain.com/NKhFgoKMovC0u4T/watch",
           "directMp4": null,
-          "postedAt": 1776525174000
+          "postedAt": 1776525174000,
+          "disallowed": true
         },
         {
           "postId": "1sozcmx",
@@ -1290,52 +1134,6 @@
           "videoEmbed": "https://streamain.com/pcWMRdYweTrP3s8/watch",
           "directMp4": null,
           "postedAt": 1776525634000
-        }
-      ]
-    },
-    {
-      "home": "1. FC Union Berlin",
-      "away": "VfL Wolfsburg",
-      "league": "German Bundesliga",
-      "goals": [
-        {
-          "postId": "1soy892",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1soy892",
-          "scorer": "Patrick Wimmer",
-          "minute": 11,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/c27ba87c",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1776520367000
-        },
-        {
-          "postId": "1sozf8j",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sozf8j",
-          "scorer": "Dzenan Pejcinovic",
-          "minute": 46,
-          "homeScore": 0,
-          "awayScore": 2,
-          "videoUrl": "https://streamin.link/v/c909adc7",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1776523257000
-        },
-        {
-          "postId": "1sp0fgh",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sp0fgh",
-          "scorer": "Oliver Burke",
-          "minute": 86,
-          "homeScore": 1,
-          "awayScore": 2,
-          "videoUrl": "https://streamin.link/v/20e77b79",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1776525571000
         }
       ]
     },
