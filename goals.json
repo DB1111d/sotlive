@@ -1,7 +1,40 @@
 {
-  "updated": "2026-04-19T08:31:37Z",
+  "updated": "2026-04-19T09:30:33Z",
   "date": "2026-04-19",
   "matches": [
+    {
+      "home": "Dynamic Herb Cebu",
+      "away": "Stallion Laguna",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1spo356",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1spo356",
+          "scorer": "Denzel Vasquez ‘12 ()",
+          "minute": null,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/ari8nukr64wg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ari8nukr64wg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1776590199000
+        },
+        {
+          "postId": "1spo67p",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1spo67p",
+          "scorer": "Abou Sy ‘17",
+          "minute": 17,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/cd4uhaio74wg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776590507000
+        }
+      ]
+    },
     {
       "home": "Monterrey",
       "away": "Pachuca",
