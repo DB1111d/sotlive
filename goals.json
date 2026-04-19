@@ -1,7 +1,40 @@
 {
-  "updated": "2026-04-19T10:24:00Z",
+  "updated": "2026-04-19T11:06:07Z",
   "date": "2026-04-19",
   "matches": [
+    {
+      "home": "Bruk-Bet Termalica Nieciecza",
+      "away": "Wisła Płock",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sppr4x",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sppr4x",
+          "scorer": "Wiktor Nowak",
+          "minute": 36,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/soc75av2o4wg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/soc75av2o4wg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1776596033000
+        },
+        {
+          "postId": "1sppsxk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sppsxk",
+          "scorer": "Žan Rogelj",
+          "minute": 39,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/7kjydlhjo4wg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/7kjydlhjo4wg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1776596200000
+        }
+      ]
+    },
     {
       "home": "Dynamic Herb Cebu",
       "away": "Stallion Laguna",
