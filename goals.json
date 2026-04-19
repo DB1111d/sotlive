@@ -1,7 +1,40 @@
 {
-  "updated": "2026-04-19T22:04:44Z",
+  "updated": "2026-04-19T22:55:34Z",
   "date": "2026-04-19",
   "matches": [
+    {
+      "home": "Safi",
+      "away": "USM Alger",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sq5bnr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sq5bnr",
+          "scorer": "Ahmed Khaldi penalty",
+          "minute": 45,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/z6ftWRK7ZfAb0vi/watch",
+          "videoEmbed": "https://streamain.com/z6ftWRK7ZfAb0vi/watch",
+          "directMp4": null,
+          "postedAt": 1776633219000
+        },
+        {
+          "postId": "1sq6ry2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sq6ry2",
+          "scorer": "Moussa Kone",
+          "minute": 75,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/zK65oRciUvZKE5u/watch",
+          "videoEmbed": "https://streamain.com/zK65oRciUvZKE5u/watch",
+          "directMp4": null,
+          "postedAt": 1776636702000
+        }
+      ]
+    },
     {
       "home": "Palmeiras",
       "away": "Athletico Paranaense",
@@ -78,26 +111,6 @@
           "videoEmbed": "https://streamain.com/tSgwC4GlhEVwhfj/watch",
           "directMp4": null,
           "postedAt": 1776634420000
-        }
-      ]
-    },
-    {
-      "home": "Safi",
-      "away": "USM Alger",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1sq5bnr",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sq5bnr",
-          "scorer": "Ahmed Khaldi penalty",
-          "minute": 45,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamain.com/z6ftWRK7ZfAb0vi/watch",
-          "videoEmbed": "https://streamain.com/z6ftWRK7ZfAb0vi/watch",
-          "directMp4": null,
-          "postedAt": 1776633219000
         }
       ]
     },
