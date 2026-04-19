@@ -1,24 +1,24 @@
 {
-  "updated": "2026-04-19T21:33:12Z",
+  "updated": "2026-04-19T22:04:44Z",
   "date": "2026-04-19",
   "matches": [
     {
-      "home": "Safi",
-      "away": "USM Alger",
+      "home": "Palmeiras",
+      "away": "Athletico Paranaense",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1sq5bnr",
+          "postId": "1sq67pt",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1sq5bnr",
-          "scorer": "Ahmed Khaldi penalty",
-          "minute": 45,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamain.com/z6ftWRK7ZfAb0vi/watch",
-          "videoEmbed": "https://streamain.com/z6ftWRK7ZfAb0vi/watch",
-          "directMp4": null,
-          "postedAt": 1776633219000
+          "permalink": "https://redd.it/1sq67pt",
+          "scorer": "Gustavo Gómez",
+          "minute": 15,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/xsl5pqqvw7wg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/xsl5pqqvw7wg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1776635337000
         }
       ]
     },
@@ -65,6 +65,39 @@
           "videoEmbed": "https://streamain.com/sUCR1Mq1gQO5zoo/watch",
           "directMp4": null,
           "postedAt": 1776632784000
+        },
+        {
+          "postId": "1sq5u3p",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sq5u3p",
+          "scorer": "Ricardo Horta penalty",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/tSgwC4GlhEVwhfj/watch",
+          "videoEmbed": "https://streamain.com/tSgwC4GlhEVwhfj/watch",
+          "directMp4": null,
+          "postedAt": 1776634420000
+        }
+      ]
+    },
+    {
+      "home": "Safi",
+      "away": "USM Alger",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sq5bnr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sq5bnr",
+          "scorer": "Ahmed Khaldi penalty",
+          "minute": 45,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/z6ftWRK7ZfAb0vi/watch",
+          "videoEmbed": "https://streamain.com/z6ftWRK7ZfAb0vi/watch",
+          "directMp4": null,
+          "postedAt": 1776633219000
         }
       ]
     },
