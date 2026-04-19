@@ -1,24 +1,24 @@
 {
-  "updated": "2026-04-19T17:52:58Z",
+  "updated": "2026-04-19T18:44:27Z",
   "date": "2026-04-19",
   "matches": [
     {
-      "home": "Sporting CP",
-      "away": "Benfica",
+      "home": "Trabzonspor",
+      "away": "Basaksehir",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1spzsig",
+          "postId": "1sq17cx",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1spzsig",
-          "scorer": "Andreas Schjelderup penalty",
-          "minute": 27,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/da619ca8",
+          "permalink": "https://redd.it/1sq17cx",
+          "scorer": "Felipe Augusto",
+          "minute": 73,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/d89581fd",
           "videoEmbed": null,
           "directMp4": null,
-          "postedAt": 1776620838000
+          "postedAt": 1776623881000
         }
       ]
     },
@@ -65,6 +65,85 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1776620597000
+        },
+        {
+          "postId": "1spzz3g",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1spzz3g",
+          "scorer": "Koki Ogawa",
+          "minute": 78,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/87gqqz11r6wg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/87gqqz11r6wg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1776621227000
+        },
+        {
+          "postId": "1sq0axp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sq0axp",
+          "scorer": "Kees Smit",
+          "minute": 90,
+          "homeScore": 4,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/zm6kk833t6wg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/zm6kk833t6wg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1776621925000
+        },
+        {
+          "postId": "1sq0g10",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sq0g10",
+          "scorer": "Troy Parrott",
+          "minute": 90,
+          "homeScore": 5,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/ylwpnghwt6wg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ylwpnghwt6wg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1776622224000
+        }
+      ]
+    },
+    {
+      "home": "Monchengladbach",
+      "away": "FSV Mainz 05",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1spzxyt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1spzxyt",
+          "scorer": "Joe Scally",
+          "minute": 7,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/7899d716",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776621158000
+        }
+      ]
+    },
+    {
+      "home": "Sporting CP",
+      "away": "Benfica",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1spzsig",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1spzsig",
+          "scorer": "Andreas Schjelderup penalty",
+          "minute": 27,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/da619ca8",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776620838000
         }
       ]
     },
