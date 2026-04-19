@@ -1,50 +1,70 @@
 {
-  "updated": "2026-04-19T20:53:44Z",
+  "updated": "2026-04-19T21:33:12Z",
   "date": "2026-04-19",
   "matches": [
     {
-      "home": "Paris Saint-Germain",
-      "away": "Olympique Lyonnais",
+      "home": "Safi",
+      "away": "USM Alger",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1sq1pnq",
+          "postId": "1sq5bnr",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1sq1pnq",
-          "scorer": "Endrick",
-          "minute": 6,
+          "permalink": "https://redd.it/1sq5bnr",
+          "scorer": "Ahmed Khaldi penalty",
+          "minute": 45,
           "homeScore": 0,
           "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/89ad24e8",
+          "videoUrl": "https://streamain.com/z6ftWRK7ZfAb0vi/watch",
+          "videoEmbed": "https://streamain.com/z6ftWRK7ZfAb0vi/watch",
+          "directMp4": null,
+          "postedAt": 1776633219000
+        }
+      ]
+    },
+    {
+      "home": "Braga",
+      "away": "Famalicao",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sq30sg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sq30sg",
+          "scorer": "Fran Navarro",
+          "minute": 3,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/20b52306",
           "videoEmbed": null,
           "directMp4": null,
-          "postedAt": 1776625017000
+          "postedAt": 1776627950000
         },
         {
-          "postId": "1sq241z",
+          "postId": "1sq3yt5",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1sq241z",
-          "scorer": "Moreira",
-          "minute": 17,
-          "homeScore": 0,
-          "awayScore": 2,
-          "videoUrl": "https://v.redd.it/ui6dfxvw47wg1",
+          "permalink": "https://redd.it/1sq3yt5",
+          "scorer": "Gil Dias",
+          "minute": 40,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/63ef2953",
           "videoEmbed": null,
-          "directMp4": "https://v.redd.it/ui6dfxvw47wg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1776625893000
+          "directMp4": null,
+          "postedAt": 1776630110000
         },
         {
-          "postId": "1sq4o8l",
+          "postId": "1sq54tg",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1sq4o8l",
-          "scorer": "Khvicha Kvaratskhelia",
-          "minute": 90,
+          "permalink": "https://redd.it/1sq54tg",
+          "scorer": "Rafa Soares",
+          "minute": 65,
           "homeScore": 1,
           "awayScore": 2,
-          "videoUrl": "https://streamain.com/EcqGwpOEfIljxaG/watch",
-          "videoEmbed": "https://streamain.com/EcqGwpOEfIljxaG/watch",
+          "videoUrl": "https://streamain.com/sUCR1Mq1gQO5zoo/watch",
+          "videoEmbed": "https://streamain.com/sUCR1Mq1gQO5zoo/watch",
           "directMp4": null,
-          "postedAt": 1776631728000
+          "postedAt": 1776632784000
         }
       ]
     },
@@ -65,6 +85,19 @@
           "videoEmbed": "https://streamain.com/DTFooD1h2EmBty9/watch",
           "directMp4": null,
           "postedAt": 1776631507000
+        },
+        {
+          "postId": "1sq50yc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sq50yc",
+          "scorer": "Victor Froholdt",
+          "minute": 66,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/g587jgODMHdytNd/watch",
+          "videoEmbed": "https://streamain.com/g587jgODMHdytNd/watch",
+          "directMp4": null,
+          "postedAt": 1776632531000
         }
       ]
     },
@@ -124,6 +157,39 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1776631300000
+        },
+        {
+          "postId": "1sq4yoo",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sq4yoo",
+          "scorer": "John Kennedy",
+          "minute": 86,
+          "homeScore": 2,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/jsiuf1k6o7wg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776632396000
+        }
+      ]
+    },
+    {
+      "home": "River Plate",
+      "away": "Boca Juniors",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sq4wrw",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sq4wrw",
+          "scorer": "Leandro Paredes",
+          "minute": 45,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/587319c6",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776632273000
         }
       ]
     },
@@ -170,6 +236,78 @@
           "videoEmbed": "https://streamain.com/QCDJRuNdHYpy0kU/watch",
           "directMp4": null,
           "postedAt": 1776631044000
+        },
+        {
+          "postId": "1sq4siu",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sq4siu",
+          "scorer": "Haitam Abaida",
+          "minute": 84,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/fdjTaGJt40J8w9h/watch",
+          "videoEmbed": "https://streamain.com/fdjTaGJt40J8w9h/watch",
+          "directMp4": null,
+          "postedAt": 1776632001000
+        },
+        {
+          "postId": "1sq4t6j",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sq4t6j",
+          "scorer": "Leo Baptistao",
+          "minute": 90,
+          "homeScore": 3,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/Geoa1bqLJqtgoI1/watch",
+          "videoEmbed": "https://streamain.com/Geoa1bqLJqtgoI1/watch",
+          "directMp4": null,
+          "postedAt": 1776632041000
+        }
+      ]
+    },
+    {
+      "home": "Paris Saint-Germain",
+      "away": "Olympique Lyonnais",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sq1pnq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sq1pnq",
+          "scorer": "Endrick",
+          "minute": 6,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/89ad24e8",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776625017000
+        },
+        {
+          "postId": "1sq241z",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sq241z",
+          "scorer": "Moreira",
+          "minute": 17,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/ui6dfxvw47wg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ui6dfxvw47wg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1776625893000
+        },
+        {
+          "postId": "1sq4o8l",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sq4o8l",
+          "scorer": "Khvicha Kvaratskhelia",
+          "minute": 90,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/EcqGwpOEfIljxaG/watch",
+          "videoEmbed": "https://streamain.com/EcqGwpOEfIljxaG/watch",
+          "directMp4": null,
+          "postedAt": 1776631728000
         }
       ]
     },
@@ -203,39 +341,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/n6zdmichj7wg1/CMAF_1080.mp4?source=fallback",
           "postedAt": 1776630825000
-        }
-      ]
-    },
-    {
-      "home": "Braga",
-      "away": "Famalicao",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1sq30sg",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sq30sg",
-          "scorer": "Fran Navarro",
-          "minute": 3,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamin.link/v/20b52306",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1776627950000
-        },
-        {
-          "postId": "1sq3yt5",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1sq3yt5",
-          "scorer": "Gil Dias",
-          "minute": 40,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/63ef2953",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1776630110000
         }
       ]
     },
