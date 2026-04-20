@@ -1,7 +1,79 @@
 {
-  "updated": "2026-04-19T23:34:59Z",
-  "date": "2026-04-19",
+  "updated": "2026-04-20T01:09:49Z",
+  "date": "2026-04-20",
   "matches": [
+    {
+      "home": "LAFC",
+      "away": "San Jose",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sq9y4h",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sq9y4h",
+          "scorer": "Ousseni Bouda",
+          "minute": 53,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/b14ecd5d",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776645035000
+        },
+        {
+          "postId": "1sq9zhn",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sq9zhn",
+          "scorer": "Timo Werner",
+          "minute": 56,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/c564d2c3",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776645131000
+        },
+        {
+          "postId": "1sqa0es",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sqa0es",
+          "scorer": "Own Goal",
+          "minute": 58,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://streamin.link/v/3385ecbc",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776645202000
+        },
+        {
+          "postId": "1sqaapl",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sqaapl",
+          "scorer": "Own Goal",
+          "minute": 74,
+          "homeScore": 1,
+          "awayScore": 3,
+          "videoUrl": "https://streamin.link/v/adf4f13e",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776645967000
+        },
+        {
+          "postId": "1sqafii",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sqafii",
+          "scorer": "Ousseni Bouda",
+          "minute": 80,
+          "homeScore": 1,
+          "awayScore": 4,
+          "videoUrl": "https://streamin.link/v/1f3678f9",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1776646326000
+        }
+      ]
+    },
     {
       "home": "Safi",
       "away": "USM Alger",
