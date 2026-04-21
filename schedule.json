@@ -1,10 +1,6 @@
 {
-  "updated": "2026-04-20 22:41 EDT",
+  "updated": "2026-04-21 02:03 EDT",
   "days": {
-    "20260420": {
-      "date": "Monday, April 20",
-      "games": []
-    },
     "20260421": {
       "date": "Tuesday, April 21",
       "games": [
@@ -328,6 +324,389 @@
           "kick_utc": "2026-04-24T19:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png"
+        }
+      ]
+    },
+    "20260425": {
+      "date": "Saturday, April 25",
+      "games": [
+        {
+          "league": "Premier League",
+          "time": "7:30 AM",
+          "match": "Fulham vs Aston Villa",
+          "source": "USA Network",
+          "kick_utc": "2026-04-25T11:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
+        },
+        {
+          "league": "Premier League",
+          "time": "10:00 AM",
+          "match": "Liverpool vs Crystal Palace",
+          "source": "Peacock",
+          "kick_utc": "2026-04-25T14:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png"
+        },
+        {
+          "league": "Premier League",
+          "time": "10:00 AM",
+          "match": "West Ham United vs Everton",
+          "source": "Peacock",
+          "kick_utc": "2026-04-25T14:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/371.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png"
+        },
+        {
+          "league": "Premier League",
+          "time": "10:00 AM",
+          "match": "Wolverhampton Wanderers vs Tottenham Hotspur",
+          "source": "USA Network",
+          "kick_utc": "2026-04-25T14:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/380.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png"
+        },
+        {
+          "league": "Premier League",
+          "time": "12:30 PM",
+          "match": "Arsenal vs Newcastle United",
+          "source": "USA Network",
+          "kick_utc": "2026-04-25T16:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png"
+        },
+        {
+          "league": "MLS",
+          "time": "1:00 PM",
+          "match": "Toronto FC vs Atlanta United FC",
+          "source": "Apple TV",
+          "kick_utc": "2026-04-25T17:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7318.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18418.png"
+        },
+        {
+          "league": "MLS",
+          "time": "2:30 PM",
+          "match": "CF Montr\u00e9al vs New York City FC",
+          "source": "Apple TV",
+          "kick_utc": "2026-04-25T18:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9720.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17606.png"
+        },
+        {
+          "league": "MLS",
+          "time": "2:45 PM",
+          "match": "Minnesota United FC vs LAFC",
+          "source": "FOX \u00b7 Apple TV",
+          "kick_utc": "2026-04-25T18:45Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17362.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png"
+        },
+        {
+          "league": "MLS",
+          "time": "7:30 PM",
+          "match": "Columbus Crew vs Philadelphia Union",
+          "source": "Apple TV",
+          "kick_utc": "2026-04-25T23:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10739.png"
+        },
+        {
+          "league": "MLS",
+          "time": "7:30 PM",
+          "match": "D.C. United vs Orlando City SC",
+          "source": "Apple TV",
+          "kick_utc": "2026-04-25T23:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/193.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/12011.png"
+        },
+        {
+          "league": "MLS",
+          "time": "7:30 PM",
+          "match": "FC Cincinnati vs Red Bull New York",
+          "source": "Apple TV",
+          "kick_utc": "2026-04-25T23:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/190.png"
+        },
+        {
+          "league": "MLS",
+          "time": "7:30 PM",
+          "match": "Inter Miami CF vs New England Revolution",
+          "source": "Apple TV",
+          "kick_utc": "2026-04-25T23:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/189.png"
+        },
+        {
+          "league": "MLS",
+          "time": "8:30 PM",
+          "match": "Austin FC vs Houston Dynamo FC",
+          "source": "Apple TV",
+          "kick_utc": "2026-04-26T00:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20906.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6077.png"
+        },
+        {
+          "league": "MLS",
+          "time": "8:30 PM",
+          "match": "Chicago Fire FC vs Sporting Kansas City",
+          "source": "Apple TV",
+          "kick_utc": "2026-04-26T00:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/186.png"
+        },
+        {
+          "league": "MLS",
+          "time": "8:30 PM",
+          "match": "Nashville SC vs Charlotte FC",
+          "source": "Apple TV",
+          "kick_utc": "2026-04-26T00:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21300.png"
+        },
+        {
+          "league": "MLS",
+          "time": "8:30 PM",
+          "match": "St. Louis CITY SC vs San Jose Earthquakes",
+          "source": "Apple TV",
+          "kick_utc": "2026-04-26T00:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png"
+        },
+        {
+          "league": "MLS",
+          "time": "9:30 PM",
+          "match": "San Diego FC vs Portland Timbers",
+          "source": "Apple TV",
+          "kick_utc": "2026-04-26T01:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22529.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9723.png"
+        },
+        {
+          "league": "MLS",
+          "time": "10:30 PM",
+          "match": "Seattle Sounders FC vs FC Dallas",
+          "source": "Apple TV",
+          "kick_utc": "2026-04-26T02:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/185.png"
+        },
+        {
+          "league": "MLS",
+          "time": "10:30 PM",
+          "match": "Vancouver Whitecaps vs Colorado Rapids",
+          "source": "Apple TV",
+          "kick_utc": "2026-04-26T02:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9727.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/184.png"
+        },
+        {
+          "league": "English FA Cup",
+          "time": "12:15 PM",
+          "match": "Manchester City vs Southampton",
+          "source": "ESPN+",
+          "kick_utc": "2026-04-25T16:15Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/376.png"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "7:30 AM",
+          "match": "Charlton Athletic vs Hull City",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-25T11:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/372.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "7:30 AM",
+          "match": "Middlesbrough vs Watford",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-25T11:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/369.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/395.png"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "7:30 AM",
+          "match": "West Bromwich Albion vs Ipswich Town",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-25T11:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/383.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "10:00 AM",
+          "match": "Norwich City vs Swansea City",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-25T14:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/381.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/318.png"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "10:00 AM",
+          "match": "Queens Park Rangers vs Derby County",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-25T14:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/334.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/374.png"
+        },
+        {
+          "league": "Serie A",
+          "time": "9:00 AM",
+          "match": "Parma vs Pisa",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-25T13:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3956.png"
+        },
+        {
+          "league": "Serie A",
+          "time": "12:00 PM",
+          "match": "Bologna vs AS Roma",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-25T16:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png"
+        },
+        {
+          "league": "Serie A",
+          "time": "2:45 PM",
+          "match": "Hellas Verona vs Lecce",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-25T18:45Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/119.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png"
+        },
+        {
+          "league": "German Bundesliga",
+          "time": "9:30 AM",
+          "match": "1. FC Heidenheim 1846 vs St. Pauli",
+          "source": "ESPN+",
+          "kick_utc": "2026-04-25T13:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6418.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/270.png"
+        },
+        {
+          "league": "German Bundesliga",
+          "time": "9:30 AM",
+          "match": "FC Augsburg vs Eintracht Frankfurt",
+          "source": "ESPN+",
+          "kick_utc": "2026-04-25T13:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png"
+        },
+        {
+          "league": "German Bundesliga",
+          "time": "9:30 AM",
+          "match": "FC Cologne vs Bayer Leverkusen",
+          "source": "ESPN+",
+          "kick_utc": "2026-04-25T13:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png"
+        },
+        {
+          "league": "German Bundesliga",
+          "time": "9:30 AM",
+          "match": "Mainz vs Bayern Munich",
+          "source": "ESPN+",
+          "kick_utc": "2026-04-25T13:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png"
+        },
+        {
+          "league": "German Bundesliga",
+          "time": "9:30 AM",
+          "match": "VfL Wolfsburg vs Borussia M\u00f6nchengladbach",
+          "source": "ESPN+",
+          "kick_utc": "2026-04-25T13:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/138.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png"
+        },
+        {
+          "league": "German Bundesliga",
+          "time": "12:30 PM",
+          "match": "Hamburg SV vs TSG Hoffenheim",
+          "source": "ESPN+",
+          "kick_utc": "2026-04-25T16:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png"
+        },
+        {
+          "league": "La Liga",
+          "time": "8:00 AM",
+          "match": "Alav\u00e9s vs Mallorca",
+          "source": "ESPN+",
+          "kick_utc": "2026-04-25T12:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/84.png"
+        },
+        {
+          "league": "La Liga",
+          "time": "10:15 AM",
+          "match": "Getafe vs Barcelona",
+          "source": "ESPN+",
+          "kick_utc": "2026-04-25T14:15Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png"
+        },
+        {
+          "league": "La Liga",
+          "time": "12:30 PM",
+          "match": "Valencia vs Girona",
+          "source": "ESPN+",
+          "kick_utc": "2026-04-25T16:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png"
+        },
+        {
+          "league": "La Liga",
+          "time": "3:00 PM",
+          "match": "Atl\u00e9tico Madrid vs Athletic Club",
+          "source": "ESPN+",
+          "kick_utc": "2026-04-25T19:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "10:30 AM",
+          "match": "Feyenoord Rotterdam vs FC Groningen",
+          "source": "ESPN+",
+          "kick_utc": "2026-04-25T14:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/145.png"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "12:45 PM",
+          "match": "Heerenveen vs Fortuna Sittard",
+          "source": "ESPN+",
+          "kick_utc": "2026-04-25T16:45Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/146.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/143.png"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "2:00 PM",
+          "match": "NAC Breda vs Ajax Amsterdam",
+          "source": "ESPN+",
+          "kick_utc": "2026-04-25T18:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/141.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/139.png"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "3:00 PM",
+          "match": "FC Twente vs NEC Nijmegen",
+          "source": "ESPN+",
+          "kick_utc": "2026-04-25T19:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/152.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/147.png"
         }
       ]
     }
