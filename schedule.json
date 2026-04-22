@@ -1,20 +1,6 @@
 {
-  "updated": "2026-04-21 22:39 EDT",
+  "updated": "2026-04-22 02:00 EDT",
   "days": {
-    "20260421": {
-      "date": "Tuesday, April 21",
-      "games": [
-        {
-          "league": "USL Championship",
-          "time": "7:00 PM",
-          "match": "Brooklyn FC vs Sacramento Republic FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-04-21T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131579.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17828.png"
-        }
-      ]
-    },
     "20260422": {
       "date": "Wednesday, April 22",
       "games": [
@@ -689,6 +675,146 @@
           "kick_utc": "2026-04-25T19:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/152.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/147.png"
+        }
+      ]
+    },
+    "20260426": {
+      "date": "Sunday, April 26",
+      "games": [
+        {
+          "league": "MLS",
+          "time": "7:00 PM",
+          "match": "LA Galaxy vs Real Salt Lake",
+          "source": "Apple TV",
+          "kick_utc": "2026-04-26T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/187.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4771.png"
+        },
+        {
+          "league": "English FA Cup",
+          "time": "10:00 AM",
+          "match": "Chelsea vs Leeds United",
+          "source": "ESPN2 \u00b7 ESPN+",
+          "kick_utc": "2026-04-26T14:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "7:00 AM",
+          "match": "Coventry City vs Wrexham",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-26T11:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/352.png"
+        },
+        {
+          "league": "Serie A",
+          "time": "6:30 AM",
+          "match": "Fiorentina vs Sassuolo",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-26T10:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png"
+        },
+        {
+          "league": "Serie A",
+          "time": "9:00 AM",
+          "match": "Genoa vs Como",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-26T13:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png"
+        },
+        {
+          "league": "Serie A",
+          "time": "12:00 PM",
+          "match": "Torino vs Internazionale",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-26T16:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png"
+        },
+        {
+          "league": "Serie A",
+          "time": "2:45 PM",
+          "match": "AC Milan vs Juventus",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-26T18:45Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png"
+        },
+        {
+          "league": "German Bundesliga",
+          "time": "9:30 AM",
+          "match": "VfB Stuttgart vs Werder Bremen",
+          "source": "ESPN+",
+          "kick_utc": "2026-04-26T13:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png"
+        },
+        {
+          "league": "German Bundesliga",
+          "time": "11:30 AM",
+          "match": "Borussia Dortmund vs SC Freiburg",
+          "source": "ESPN+",
+          "kick_utc": "2026-04-26T15:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png"
+        },
+        {
+          "league": "La Liga",
+          "time": "8:00 AM",
+          "match": "Rayo Vallecano vs Real Sociedad",
+          "source": "ESPN+",
+          "kick_utc": "2026-04-26T12:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png"
+        },
+        {
+          "league": "La Liga",
+          "time": "10:15 AM",
+          "match": "Real Oviedo vs Elche",
+          "source": "ESPN+",
+          "kick_utc": "2026-04-26T14:15Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/92.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png"
+        },
+        {
+          "league": "La Liga",
+          "time": "12:30 PM",
+          "match": "Osasuna vs Sevilla",
+          "source": "ESPN+",
+          "kick_utc": "2026-04-26T16:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png"
+        },
+        {
+          "league": "La Liga",
+          "time": "3:00 PM",
+          "match": "Villarreal vs Celta Vigo",
+          "source": "ESPN+",
+          "kick_utc": "2026-04-26T19:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "6:15 AM",
+          "match": "Excelsior vs FC Utrecht",
+          "source": "ESPN+",
+          "kick_utc": "2026-04-26T10:15Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2566.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/153.png"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "8:30 AM",
+          "match": "Heracles Almelo vs FC Volendam",
+          "source": "ESPN+",
+          "kick_utc": "2026-04-26T12:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3708.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2727.png"
         }
       ]
     }
