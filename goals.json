@@ -1,5 +1,59 @@
 {
-  "updated": "2026-04-24T15:45:45Z",
+  "updated": "2026-04-24T16:53:02Z",
   "date": "2026-04-24",
-  "matches": []
+  "matches": [
+    {
+      "home": "Fortuna Düsseldorf",
+      "away": "Dynamo Dresden",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sul3ma",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sul3ma",
+          "scorer": "Cedric Itten",
+          "minute": 11,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/UEAXxvHZFTxpnN6/watch",
+          "videoEmbed": "https://streamain.com/UEAXxvHZFTxpnN6/watch",
+          "directMp4": null,
+          "postedAt": 1777049066000
+        },
+        {
+          "postId": "1sul88o",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sul88o",
+          "scorer": "Emmanuel Iyoha",
+          "minute": 17,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/kGRPG2phHzujt2v/watch",
+          "videoEmbed": "https://streamain.com/kGRPG2phHzujt2v/watch",
+          "directMp4": null,
+          "postedAt": 1777049353000
+        }
+      ]
+    },
+    {
+      "home": "Zagłębie Lubin",
+      "away": "Bruk-Bet Termalica Nieciecza",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sul7ih",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sul7ih",
+          "scorer": "Marcel Reguła",
+          "minute": 20,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/6c3fqanv36xg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/6c3fqanv36xg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1777049308000
+        }
+      ]
+    }
+  ]
 }
