@@ -1,10 +1,6 @@
 {
-  "updated": "2026-04-24 22:32 EDT",
+  "updated": "2026-04-25 01:48 EDT",
   "days": {
-    "20260424": {
-      "date": "Friday, April 24",
-      "games": []
-    },
     "20260425": {
       "date": "Saturday, April 25",
       "games": [
@@ -609,6 +605,94 @@
           "kick_utc": "2026-04-29T02:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17362.png"
+        }
+      ]
+    },
+    "20260429": {
+      "date": "Wednesday, April 29",
+      "games": [
+        {
+          "league": "UEFA Champions League",
+          "time": "3:00 PM",
+          "match": "Atl\u00e9tico Madrid vs Arsenal",
+          "source": "CBS \u00b7 Paramount+",
+          "kick_utc": "2026-04-29T19:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+          "round_label": "Semi-final \u00b7 Leg 1"
+        },
+        {
+          "league": "CONCACAF Champions Cup",
+          "time": "10:30 PM",
+          "match": "LAFC vs Toluca",
+          "source": "FS2",
+          "kick_utc": "2026-04-30T02:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/223.png",
+          "round_label": "Semi-final \u00b7 Leg 1"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "7:00 PM",
+          "match": "Red Bull New York vs New York City FC",
+          "source": "Paramount+ \u00b7 CBSSN",
+          "kick_utc": "2026-04-29T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/190.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17606.png"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "7:30 PM",
+          "match": "Columbus Crew vs One Knoxville",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-29T23:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21821.png"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "7:30 PM",
+          "match": "New England Revolution vs Orlando City SC",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-29T23:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/189.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/12011.png"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "8:00 PM",
+          "match": "Chicago Fire FC vs St. Louis CITY SC",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-30T00:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "8:00 PM",
+          "match": "Houston Dynamo FC vs Louisville City FC",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-30T00:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6077.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17832.png"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "9:00 PM",
+          "match": "Colorado Rapids vs Colorado Springs Switchbacks FC",
+          "source": "Paramount+",
+          "kick_utc": "2026-04-30T01:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/184.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17830.png"
+        },
+        {
+          "league": "USL Championship",
+          "time": "9:00 PM",
+          "match": "El Paso Locomotive FC vs FC Tulsa",
+          "source": "ESPN+",
+          "kick_utc": "2026-04-30T01:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19407.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18446.png"
         }
       ]
     }
