@@ -1,7 +1,80 @@
 {
-  "updated": "2026-04-25T11:22:41Z",
+  "updated": "2026-04-25T12:00:27Z",
   "date": "2026-04-25",
   "matches": [
+    {
+      "home": "Charlton Athletic",
+      "away": "Hull City",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sva6n3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sva6n3",
+          "scorer": "Charlie Kelman",
+          "minute": 20,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/en/LNcTj7YNzCLxWwQ/watch",
+          "videoEmbed": "https://streamain.com/en/LNcTj7YNzCLxWwQ/watch",
+          "directMp4": null,
+          "postedAt": 1777118225000
+        }
+      ]
+    },
+    {
+      "home": "Karlsruher SC",
+      "away": "Hannover",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sv9xar",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sv9xar",
+          "scorer": "Mustapha Bundu",
+          "minute": 18,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/rfX3b9yt1FbmCiv/watch",
+          "videoEmbed": "https://streamain.com/rfX3b9yt1FbmCiv/watch",
+          "directMp4": null,
+          "postedAt": 1777117440000
+        },
+        {
+          "postId": "1sva1xz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sva1xz",
+          "scorer": "Fabian Schleusener",
+          "minute": 44,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/en/9YKolkmY3kyuoWM/watch",
+          "videoEmbed": "https://streamain.com/en/9YKolkmY3kyuoWM/watch",
+          "directMp4": null,
+          "postedAt": 1777117837000
+        }
+      ]
+    },
+    {
+      "home": "Middlesbrough",
+      "away": "Watford",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sv9uty",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sv9uty",
+          "scorer": "Morgan Whittaker",
+          "minute": 6,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/GujUzhGdELqjd9W/watch",
+          "videoEmbed": "https://streamain.com/GujUzhGdELqjd9W/watch",
+          "directMp4": null,
+          "postedAt": 1777117232000
+        }
+      ]
+    },
     {
       "home": "Preußen Münster",
       "away": "Arminia Bielefeld",
@@ -45,6 +118,19 @@
           "videoEmbed": "https://streamain.com/n2ejwRGxjlYhqwz/watch",
           "directMp4": null,
           "postedAt": 1777115986000
+        },
+        {
+          "postId": "1sv9u7s",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sv9u7s",
+          "scorer": "Mael Corboz",
+          "minute": 34,
+          "homeScore": 1,
+          "awayScore": 3,
+          "videoUrl": "https://streamain.com/en/4R6AOxuAXNFUiER/watch",
+          "videoEmbed": "https://streamain.com/en/4R6AOxuAXNFUiER/watch",
+          "directMp4": null,
+          "postedAt": 1777117180000
         }
       ]
     }
