@@ -1,7 +1,113 @@
 {
-  "updated": "2026-04-25T18:03:13Z",
+  "updated": "2026-04-25T19:11:07Z",
   "date": "2026-04-25",
   "matches": [
+    {
+      "home": "Darmstadt",
+      "away": "Elversberg",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1svknkh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svknkh",
+          "scorer": "Tom Zimmerschied",
+          "minute": 26,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/fjLXFXWfVDfaemM/watch",
+          "videoEmbed": "https://streamain.com/fjLXFXWfVDfaemM/watch",
+          "directMp4": null,
+          "postedAt": 1777143516000
+        },
+        {
+          "postId": "1svkv2e",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svkv2e",
+          "scorer": "Maximilian Rohr",
+          "minute": 34,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/CqXpjwUKAPejit1/watch",
+          "videoEmbed": "https://streamain.com/CqXpjwUKAPejit1/watch",
+          "directMp4": null,
+          "postedAt": 1777143968000
+        }
+      ]
+    },
+    {
+      "home": "Cracovia",
+      "away": "Pogoń Szczecin",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1svk573",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svk573",
+          "scorer": "Kellyn Acosta",
+          "minute": 18,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/q0i6gbojsdxg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/q0i6gbojsdxg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1777142354000
+        }
+      ]
+    },
+    {
+      "home": "AFC Champions League Elite Final: Al-Ahli",
+      "away": "Machida Zelvia",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1svjsj7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svjsj7",
+          "scorer": "Firas Al-Buraikan",
+          "minute": 96,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/dsg2zz26qdxg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/dsg2zz26qdxg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1777141528000
+        }
+      ]
+    },
+    {
+      "home": "Angers",
+      "away": "Paris Saint-Germain",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1svinyp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svinyp",
+          "scorer": "Senny Mayulu 39‎'‎",
+          "minute": null,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamff.link/v/6c8012ae",
+          "videoEmbed": "https://streamff.link/v/6c8012ae",
+          "directMp4": null,
+          "postedAt": 1777138973000
+        },
+        {
+          "postId": "1svji31",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svji31",
+          "scorer": "Lucas Beraldo 52‎'‎",
+          "minute": null,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://streamff.link/v/91cc7506",
+          "videoEmbed": "https://streamff.link/v/91cc7506",
+          "directMp4": null,
+          "postedAt": 1777140861000
+        }
+      ]
+    },
     {
       "home": "Manchester City",
       "away": "Southampton",
@@ -78,26 +184,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/3pqxn2x3kdxg1/CMAF_720.mp4?source=fallback",
           "postedAt": 1777139499000
-        }
-      ]
-    },
-    {
-      "home": "Angers",
-      "away": "Paris Saint-Germain",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1svinyp",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1svinyp",
-          "scorer": "Senny Mayulu 39‎'‎",
-          "minute": null,
-          "homeScore": 0,
-          "awayScore": 2,
-          "videoUrl": "https://streamff.link/v/6c8012ae",
-          "videoEmbed": "https://streamff.link/v/6c8012ae",
-          "directMp4": null,
-          "postedAt": 1777138973000
         }
       ]
     },
