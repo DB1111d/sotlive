@@ -1,7 +1,106 @@
 {
-  "updated": "2026-04-25T17:23:58Z",
+  "updated": "2026-04-25T18:03:13Z",
   "date": "2026-04-25",
   "matches": [
+    {
+      "home": "Manchester City",
+      "away": "Southampton",
+      "league": "English FA Cup",
+      "goals": [
+        {
+          "postId": "1svixpy",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svixpy",
+          "scorer": "Finn Azaz 79‎'‎",
+          "minute": null,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/5dd3dc6b",
+          "videoEmbed": "https://streamff.link/v/5dd3dc6b",
+          "directMp4": null,
+          "postedAt": 1777139602000
+        },
+        {
+          "postId": "1svj157",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svj157",
+          "scorer": "Jeremy Doku 82‎'‎",
+          "minute": null,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/85cdf38c",
+          "videoEmbed": "https://streamff.link/v/85cdf38c",
+          "directMp4": null,
+          "postedAt": 1777139821000
+        },
+        {
+          "postId": "1svj6iu",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svj6iu",
+          "scorer": "Nico Gonzalez 87‎'‎",
+          "minute": null,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/d5aa1a21",
+          "videoEmbed": "https://streamff.link/v/d5aa1a21",
+          "directMp4": null,
+          "postedAt": 1777140144000
+        }
+      ]
+    },
+    {
+      "home": "Bayern Munich",
+      "away": "Barcelona",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1svgtoj",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svgtoj",
+          "scorer": "Ewa Pajor",
+          "minute": 8,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/tvy25kqp5dxg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/tvy25kqp5dxg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1777134681000
+        },
+        {
+          "postId": "1sviw4h",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sviw4h",
+          "scorer": "Franziska Kett",
+          "minute": 69,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/3pqxn2x3kdxg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/3pqxn2x3kdxg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1777139499000
+        }
+      ]
+    },
+    {
+      "home": "Angers",
+      "away": "Paris Saint-Germain",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1svinyp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svinyp",
+          "scorer": "Senny Mayulu 39‎'‎",
+          "minute": null,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamff.link/v/6c8012ae",
+          "videoEmbed": "https://streamff.link/v/6c8012ae",
+          "directMp4": null,
+          "postedAt": 1777138973000
+        }
+      ]
+    },
     {
       "home": "SL Benfica",
       "away": "Moreirense",
@@ -19,6 +118,65 @@
           "videoEmbed": "https://streamain.com/A8l7y9Q0AzSFtjE/watch",
           "directMp4": null,
           "postedAt": 1777137478000
+        },
+        {
+          "postId": "1svig6a",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svig6a",
+          "scorer": "Travassos",
+          "minute": 26,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/03cdd1c3",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777138475000
+        }
+      ]
+    },
+    {
+      "home": "Lechia Gdańsk",
+      "away": "Raków Częstochowa",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1svgxzn",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svgxzn",
+          "scorer": "Tomáš Bobček penalty",
+          "minute": 10,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/v1zr77xj6dxg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/v1zr77xj6dxg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1777134967000
+        },
+        {
+          "postId": "1svgyeh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svgyeh",
+          "scorer": "Oskar Repka",
+          "minute": 20,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/6yoirvvo6dxg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/6yoirvvo6dxg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1777134994000
+        },
+        {
+          "postId": "1svi9yg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svi9yg",
+          "scorer": "Jonatan Braut Brunes",
+          "minute": 90,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/bghkmp7tfdxg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/bghkmp7tfdxg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1777138069000
         }
       ]
     },
@@ -85,59 +243,6 @@
           "videoEmbed": "https://streamff.link/v/407862f2",
           "directMp4": null,
           "postedAt": 1777135175000
-        }
-      ]
-    },
-    {
-      "home": "Lechia Gdańsk",
-      "away": "Raków Częstochowa",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1svgxzn",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1svgxzn",
-          "scorer": "Tomáš Bobček penalty",
-          "minute": 10,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/v1zr77xj6dxg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/v1zr77xj6dxg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1777134967000
-        },
-        {
-          "postId": "1svgyeh",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1svgyeh",
-          "scorer": "Oskar Repka",
-          "minute": 20,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/6yoirvvo6dxg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/6yoirvvo6dxg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1777134994000
-        }
-      ]
-    },
-    {
-      "home": "Bayern Munich",
-      "away": "Barcelona",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1svgtoj",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1svgtoj",
-          "scorer": "Ewa Pajor",
-          "minute": 8,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/tvy25kqp5dxg1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/tvy25kqp5dxg1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1777134681000
         }
       ]
     },
