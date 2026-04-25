@@ -1,7 +1,27 @@
 {
-  "updated": "2026-04-25T20:35:37Z",
+  "updated": "2026-04-25T21:21:02Z",
   "date": "2026-04-25",
   "matches": [
+    {
+      "home": "Domagnano",
+      "away": "Folgore",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1svoas9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svoas9",
+          "scorer": "Mattia Fusco",
+          "minute": 19,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/36u4rqx8lexg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/36u4rqx8lexg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1777151985000
+        }
+      ]
+    },
     {
       "home": "Toulouse",
       "away": "Monaco",
@@ -45,6 +65,19 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1777148796000
+        },
+        {
+          "postId": "1svnpyr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svnpyr",
+          "scorer": "Emersonn",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/5f2667d2",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777150587000
         }
       ]
     },
@@ -414,6 +447,72 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1777137458000
+        }
+      ]
+    },
+    {
+      "home": "Hamburger SV",
+      "away": "TSG Hoffenheim",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1svhe0j",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svhe0j",
+          "scorer": "Fisnik Asllani",
+          "minute": 19,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/bc0571a0",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777136018000
+        },
+        {
+          "postId": "1svhrk6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svhrk6",
+          "scorer": "Robert Glatzel",
+          "minute": 34,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/206cdabb",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777136874000
+        },
+        {
+          "postId": "1svi0h8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svi0h8",
+          "scorer": "Tim Lemperle",
+          "minute": 45,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/71cbfea8",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777137458000
+        }
+      ]
+    },
+    {
+      "home": "Arsenal",
+      "away": "Newcastle United Eberechi Eze ‘10",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1svh5zv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svh5zv",
+          "scorer": "",
+          "minute": null,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/z9b1ig188dxg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/z9b1ig188dxg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1777135495000
         }
       ]
     },
@@ -819,6 +918,26 @@
       ]
     },
     {
+      "home": "FSV Mainz 05",
+      "away": "Bayern",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1svelz7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svelz7",
+          "scorer": "Olise",
+          "minute": 73,
+          "homeScore": 3,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/1c173247",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777129513000
+        }
+      ]
+    },
+    {
       "home": "Korona Kielce",
       "away": "GKS Katowice",
       "league": "Rest of World",
@@ -1006,6 +1125,26 @@
       "home": "1. FC Heidenheim 1846",
       "away": "St. Pauli",
       "league": "German Bundesliga",
+      "goals": [
+        {
+          "postId": "1svcn76",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svcn76",
+          "scorer": "Budu Zivzivadze",
+          "minute": 3,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/6da358ee",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777124758000
+        }
+      ]
+    },
+    {
+      "home": "Heidenheim",
+      "away": "FC St. Pauli",
+      "league": "Rest of World",
       "goals": [
         {
           "postId": "1svcn76",
