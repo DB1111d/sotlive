@@ -1,5 +1,52 @@
 {
-  "updated": "2026-04-25T10:29:12Z",
+  "updated": "2026-04-25T11:22:41Z",
   "date": "2026-04-25",
-  "matches": []
+  "matches": [
+    {
+      "home": "Preußen Münster",
+      "away": "Arminia Bielefeld",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sv98l3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sv98l3",
+          "scorer": "Yassine Bouchama",
+          "minute": 2,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/Aqhi5leh60HxRkN/watch",
+          "videoEmbed": "https://streamain.com/Aqhi5leh60HxRkN/watch",
+          "directMp4": null,
+          "postedAt": 1777115275000
+        },
+        {
+          "postId": "1sv9dvy",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sv9dvy",
+          "scorer": "Monju Momuluh",
+          "minute": 10,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/UPftiVDc291lLW3/watch",
+          "videoEmbed": "https://streamain.com/UPftiVDc291lLW3/watch",
+          "directMp4": null,
+          "postedAt": 1777115744000
+        },
+        {
+          "postId": "1sv9gm7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sv9gm7",
+          "scorer": "Roberts Uldrikis",
+          "minute": 16,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/n2ejwRGxjlYhqwz/watch",
+          "videoEmbed": "https://streamain.com/n2ejwRGxjlYhqwz/watch",
+          "directMp4": null,
+          "postedAt": 1777115986000
+        }
+      ]
+    }
+  ]
 }
