@@ -1,7 +1,93 @@
 {
-  "updated": "2026-04-25T16:38:11Z",
+  "updated": "2026-04-25T17:23:58Z",
   "date": "2026-04-25",
   "matches": [
+    {
+      "home": "SL Benfica",
+      "away": "Moreirense",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1svi0sl",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svi0sl",
+          "scorer": "António Silva",
+          "minute": 2,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/A8l7y9Q0AzSFtjE/watch",
+          "videoEmbed": "https://streamain.com/A8l7y9Q0AzSFtjE/watch",
+          "directMp4": null,
+          "postedAt": 1777137478000
+        }
+      ]
+    },
+    {
+      "home": "Hamburg SV",
+      "away": "TSG Hoffenheim",
+      "league": "German Bundesliga",
+      "goals": [
+        {
+          "postId": "1svhe0j",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svhe0j",
+          "scorer": "Fisnik Asllani",
+          "minute": 19,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/bc0571a0",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777136018000
+        },
+        {
+          "postId": "1svhrk6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svhrk6",
+          "scorer": "Robert Glatzel",
+          "minute": 34,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/206cdabb",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777136874000
+        },
+        {
+          "postId": "1svi0h8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svi0h8",
+          "scorer": "Tim Lemperle",
+          "minute": 45,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/71cbfea8",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777137458000
+        }
+      ]
+    },
+    {
+      "home": "Arsenal",
+      "away": "Newcastle United",
+      "league": "Premier League",
+      "goals": [
+        {
+          "postId": "1svh14c",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svh14c",
+          "scorer": "Eberechi Eze 9‎'‎",
+          "minute": null,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/407862f2",
+          "videoEmbed": "https://streamff.link/v/407862f2",
+          "directMp4": null,
+          "postedAt": 1777135175000
+        }
+      ]
+    },
     {
       "home": "Lechia Gdańsk",
       "away": "Raków Częstochowa",
