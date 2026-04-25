@@ -1,7 +1,231 @@
 {
-  "updated": "2026-04-25T13:38:43Z",
+  "updated": "2026-04-25T14:28:08Z",
   "date": "2026-04-25",
   "matches": [
+    {
+      "home": "FC Augsburg",
+      "away": "Eintracht Frankfurt",
+      "league": "German Bundesliga",
+      "goals": [
+        {
+          "postId": "1svdh2g",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svdh2g",
+          "scorer": "Anton Kade",
+          "minute": 45,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/843a147c",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777126797000
+        }
+      ]
+    },
+    {
+      "home": "Mainz",
+      "away": "Bayern Munich",
+      "league": "German Bundesliga",
+      "goals": [
+        {
+          "postId": "1svcnyg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svcnyg",
+          "scorer": "Dominik Kohr",
+          "minute": 15,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/NHQjIoMKUl3jECb/watch",
+          "videoEmbed": "https://streamain.com/NHQjIoMKUl3jECb/watch",
+          "directMp4": null,
+          "postedAt": 1777124808000
+        },
+        {
+          "postId": "1svd00p",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svd00p",
+          "scorer": "Paul Nebel",
+          "minute": 29,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/LeiVyRFTA4tZAVQ/watch",
+          "videoEmbed": "https://streamain.com/LeiVyRFTA4tZAVQ/watch",
+          "directMp4": null,
+          "postedAt": 1777125647000
+        },
+        {
+          "postId": "1svdh25",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svdh25",
+          "scorer": "Sheraldo Becker 45‎+‎2‎'‎",
+          "minute": null,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/af279809",
+          "videoEmbed": "https://streamff.link/v/af279809",
+          "directMp4": null,
+          "postedAt": 1777126797000
+        }
+      ]
+    },
+    {
+      "home": "Köln",
+      "away": "Bayer Leverkusen",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1svdeiu",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svdeiu",
+          "scorer": "Patrik Schick",
+          "minute": 43,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/zH2XixoPIFPPs6D/watch",
+          "videoEmbed": "https://streamain.com/zH2XixoPIFPPs6D/watch",
+          "directMp4": null,
+          "postedAt": 1777126632000
+        }
+      ]
+    },
+    {
+      "home": "1860 München",
+      "away": "Ulm",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1svcl7r",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svcl7r",
+          "scorer": "Tim Danhof",
+          "minute": 73,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/GXXg4dJLIqL9Ix4/watch",
+          "videoEmbed": "https://streamain.com/GXXg4dJLIqL9Ix4/watch",
+          "directMp4": null,
+          "postedAt": 1777124618000
+        },
+        {
+          "postId": "1svcq48",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svcq48",
+          "scorer": "Sigurd Haugen",
+          "minute": 77,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/yCJbnjMeLeMT6qE/watch",
+          "videoEmbed": "https://streamain.com/yCJbnjMeLeMT6qE/watch",
+          "directMp4": null,
+          "postedAt": 1777124954000
+        },
+        {
+          "postId": "1svctb1",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svctb1",
+          "scorer": "Elias Löder",
+          "minute": 83,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/xYxKLBzwrMNMI9d/watch",
+          "videoEmbed": "https://streamain.com/xYxKLBzwrMNMI9d/watch",
+          "directMp4": null,
+          "postedAt": 1777125183000
+        },
+        {
+          "postId": "1svcw6x",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svcw6x",
+          "scorer": "Florian Niederlechner",
+          "minute": 84,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/mANQCYMU6pAWHUO/watch",
+          "videoEmbed": "https://streamain.com/mANQCYMU6pAWHUO/watch",
+          "directMp4": null,
+          "postedAt": 1777125386000
+        },
+        {
+          "postId": "1svd5bx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svd5bx",
+          "scorer": "Evan Brown",
+          "minute": 90,
+          "homeScore": 3,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/rztSC0GYG4mJR4O/watch",
+          "videoEmbed": "https://streamain.com/rztSC0GYG4mJR4O/watch",
+          "directMp4": null,
+          "postedAt": 1777126001000
+        }
+      ]
+    },
+    {
+      "home": "Osnabrück",
+      "away": "Verl",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1svaybd",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svaybd",
+          "scorer": "Berkan Taz",
+          "minute": 27,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/k4jwGUDTsHFEsVn/watch",
+          "videoEmbed": "https://streamain.com/k4jwGUDTsHFEsVn/watch",
+          "directMp4": null,
+          "postedAt": 1777120363000
+        },
+        {
+          "postId": "1svcz6s",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svcz6s",
+          "scorer": "Bjarke Jacobsen",
+          "minute": 46,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/qXYV7nkEFz9g7RB/watch",
+          "videoEmbed": "https://streamain.com/qXYV7nkEFz9g7RB/watch",
+          "directMp4": null,
+          "postedAt": 1777125598000
+        },
+        {
+          "postId": "1svd1wz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svd1wz",
+          "scorer": "Bernd Riesselmann",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/AUJaAW677SPpvXJ/watch",
+          "videoEmbed": "https://streamain.com/AUJaAW677SPpvXJ/watch",
+          "directMp4": null,
+          "postedAt": 1777125765000
+        }
+      ]
+    },
+    {
+      "home": "1. FC Heidenheim 1846",
+      "away": "St. Pauli",
+      "league": "German Bundesliga",
+      "goals": [
+        {
+          "postId": "1svcn76",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svcn76",
+          "scorer": "Budu Zivzivadze",
+          "minute": 3,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/6da358ee",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777124758000
+        }
+      ]
+    },
     {
       "home": "Olympique Lyonnais",
       "away": "Auxerre",
@@ -321,26 +545,6 @@
           "videoEmbed": "https://streamain.com/GZdIgBUszN3Mm1D/watch",
           "directMp4": null,
           "postedAt": 1777121390000
-        }
-      ]
-    },
-    {
-      "home": "Osnabrück",
-      "away": "Verl",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1svaybd",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1svaybd",
-          "scorer": "Berkan Taz",
-          "minute": 27,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamain.com/k4jwGUDTsHFEsVn/watch",
-          "videoEmbed": "https://streamain.com/k4jwGUDTsHFEsVn/watch",
-          "directMp4": null,
-          "postedAt": 1777120363000
         }
       ]
     },
