@@ -1,7 +1,27 @@
 {
-  "updated": "2026-04-26T23:05:16Z",
+  "updated": "2026-04-26T23:55:39Z",
   "date": "2026-04-26",
   "matches": [
+    {
+      "home": "LA Galaxy",
+      "away": "Real Salt Lake",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1swmxo8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1swmxo8",
+          "scorer": "Marco Reus free kick",
+          "minute": 9,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/8zne7qzfcmxg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/8zne7qzfcmxg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1777245899000
+        }
+      ]
+    },
     {
       "home": "AFS",
       "away": "Sporting CP",
