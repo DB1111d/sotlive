@@ -1,7 +1,80 @@
 {
-  "updated": "2026-04-26T15:01:20Z",
+  "updated": "2026-04-26T15:57:07Z",
   "date": "2026-04-26",
   "matches": [
+    {
+      "home": "Borussia Dortmund",
+      "away": "SC Freiburg",
+      "league": "German Bundesliga",
+      "goals": [
+        {
+          "postId": "1swav7m",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1swav7m",
+          "scorer": "Maximilian Beier",
+          "minute": 8,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/750c8a12",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777217996000
+        },
+        {
+          "postId": "1swb0bp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1swb0bp",
+          "scorer": "Serhou Guirassy",
+          "minute": 14,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/70ceabe6",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777218319000
+        }
+      ]
+    },
+    {
+      "home": "Hibernian",
+      "away": "Hearts",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1swaxcx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1swaxcx",
+          "scorer": "Martin Boyle",
+          "minute": 7,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/94bisf9v1kxg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777218130000
+        }
+      ]
+    },
+    {
+      "home": "Lech Poznań",
+      "away": "Legia Warszawa",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1swarh3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1swarh3",
+          "scorer": "Ali Gholizadeh",
+          "minute": 3,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/qtgq2fbs0kxg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/qtgq2fbs0kxg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1777217760000
+        }
+      ]
+    },
     {
       "home": "Genoa",
       "away": "Como",
