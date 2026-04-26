@@ -1,7 +1,27 @@
 {
-  "updated": "2026-04-26T20:03:45Z",
+  "updated": "2026-04-26T20:57:13Z",
   "date": "2026-04-26",
   "matches": [
+    {
+      "home": "AFS",
+      "away": "Sporting CP",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1swj3jl",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1swj3jl",
+          "scorer": "Rafael Nel",
+          "minute": 47,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/2aXsfW7i69zMP9k/watch",
+          "videoEmbed": "https://streamain.com/2aXsfW7i69zMP9k/watch",
+          "directMp4": null,
+          "postedAt": 1777236376000
+        }
+      ]
+    },
     {
       "home": "Villarreal",
       "away": "Celta Vigo",
@@ -32,6 +52,72 @@
           "videoEmbed": "https://streamain.com/6SQjWAUwW7FAnA9/watch",
           "directMp4": null,
           "postedAt": 1777231980000
+        },
+        {
+          "postId": "1swixeh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1swixeh",
+          "scorer": "Borja Iglesias penalty",
+          "minute": 73,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/btECmR1GRiTEmLP/watch",
+          "videoEmbed": "https://streamain.com/btECmR1GRiTEmLP/watch",
+          "directMp4": null,
+          "postedAt": 1777235978000
+        }
+      ]
+    },
+    {
+      "home": "Olympique de Marseille",
+      "away": "Nice",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1swi8qs",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1swi8qs",
+          "scorer": "Pierre-Emile Hojbjerg",
+          "minute": 66,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/Sdw7q3hAXvAbMN3/watch",
+          "videoEmbed": "https://streamain.com/Sdw7q3hAXvAbMN3/watch",
+          "directMp4": null,
+          "postedAt": 1777234390000
+        },
+        {
+          "postId": "1swis34",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1swis34",
+          "scorer": "Elye Wahi penalty",
+          "minute": 87,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/SNQwS0EBiRauFiP/watch",
+          "videoEmbed": "https://streamain.com/SNQwS0EBiRauFiP/watch",
+          "directMp4": null,
+          "postedAt": 1777235630000
+        }
+      ]
+    },
+    {
+      "home": "Raja Casablanca",
+      "away": "FUS Rabat",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1swinmn",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1swinmn",
+          "scorer": "",
+          "minute": null,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/fncqomi2hlxg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777235342000
         }
       ]
     },
@@ -646,6 +732,26 @@
       "home": "VfB Stuttgart",
       "away": "Werder Bremen",
       "league": "German Bundesliga",
+      "goals": [
+        {
+          "postId": "1sw8b2z",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sw8b2z",
+          "scorer": "Jens Stage",
+          "minute": 18,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/0337d83a",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777212012000
+        }
+      ]
+    },
+    {
+      "home": "Stuttgart",
+      "away": "Werder Bremen",
+      "league": "Rest of World",
       "goals": [
         {
           "postId": "1sw8b2z",
