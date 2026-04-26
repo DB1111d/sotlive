@@ -1,7 +1,27 @@
 {
-  "updated": "2026-04-25T23:35:15Z",
-  "date": "2026-04-25",
+  "updated": "2026-04-26T01:13:21Z",
+  "date": "2026-04-26",
   "matches": [
+    {
+      "home": "Inter Miami",
+      "away": "NE Revolution",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1svt8gk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1svt8gk",
+          "scorer": "Carles Gil",
+          "minute": 57,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/42c4c7e0",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777164995000
+        }
+      ]
+    },
     {
       "home": "Domagnano",
       "away": "Folgore",
