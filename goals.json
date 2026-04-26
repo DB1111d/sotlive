@@ -1,7 +1,93 @@
 {
-  "updated": "2026-04-26T16:49:00Z",
+  "updated": "2026-04-26T17:35:56Z",
   "date": "2026-04-26",
   "matches": [
+    {
+      "home": "Santa Clara",
+      "away": "Braga",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1swdy94",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1swdy94",
+          "scorer": "Rodrigo Zalazar Martinez",
+          "minute": 30,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/bkbWPd7CWLrI6yb/watch",
+          "videoEmbed": "https://streamain.com/bkbWPd7CWLrI6yb/watch",
+          "directMp4": null,
+          "postedAt": 1777224856000
+        }
+      ]
+    },
+    {
+      "home": "Torino",
+      "away": "Internazionale",
+      "league": "Serie A",
+      "goals": [
+        {
+          "postId": "1swc2w0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1swc2w0",
+          "scorer": "Marcus Thuram 23‎'‎",
+          "minute": null,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/7d66c0fd",
+          "videoEmbed": "https://streamff.link/v/7d66c0fd",
+          "directMp4": null,
+          "postedAt": 1777220713000
+        },
+        {
+          "postId": "1swdjw0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1swdjw0",
+          "scorer": "Yann Bisseck 61‎'‎",
+          "minute": null,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamff.link/v/d7c3deb3",
+          "videoEmbed": "https://streamff.link/v/d7c3deb3",
+          "directMp4": null,
+          "postedAt": 1777223977000
+        },
+        {
+          "postId": "1swdt3n",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1swdt3n",
+          "scorer": "Giovanni Simeone 70‎'‎",
+          "minute": null,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamff.link/v/c247e2fb",
+          "videoEmbed": "https://streamff.link/v/c247e2fb",
+          "directMp4": null,
+          "postedAt": 1777224550000
+        }
+      ]
+    },
+    {
+      "home": "Estrela",
+      "away": "FC Porto",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1swdo8y",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1swdo8y",
+          "scorer": "Deniz Gul penalty",
+          "minute": 17,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/vAqPH5NKfZmtYrB/watch",
+          "videoEmbed": "https://streamain.com/vAqPH5NKfZmtYrB/watch",
+          "directMp4": null,
+          "postedAt": 1777224247000
+        }
+      ]
+    },
     {
       "home": "Borussia Dortmund",
       "away": "SC Freiburg",
@@ -57,27 +143,54 @@
           "videoUrl": "https://streamin.link/v/5155467f",
           "videoEmbed": null,
           "directMp4": null,
-          "postedAt": 1777221898000
+          "postedAt": 1777221898000,
+          "disallowed": true
+        },
+        {
+          "postId": "1swdi9m",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1swdi9m",
+          "scorer": "Fabio Silva",
+          "minute": 87,
+          "homeScore": 4,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/e958bf7a",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777223878000
         }
       ]
     },
     {
-      "home": "Torino",
-      "away": "Internazionale",
-      "league": "Serie A",
+      "home": "Hibernian",
+      "away": "Hearts",
+      "league": "Rest of World",
       "goals": [
         {
-          "postId": "1swc2w0",
+          "postId": "1swaxcx",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1swc2w0",
-          "scorer": "Marcus Thuram 23‎'‎",
-          "minute": null,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamff.link/v/7d66c0fd",
-          "videoEmbed": "https://streamff.link/v/7d66c0fd",
+          "permalink": "https://redd.it/1swaxcx",
+          "scorer": "Martin Boyle",
+          "minute": 7,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/94bisf9v1kxg1",
+          "videoEmbed": null,
           "directMp4": null,
-          "postedAt": 1777220713000
+          "postedAt": 1777218130000
+        },
+        {
+          "postId": "1swd5s5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1swd5s5",
+          "scorer": "Own Goal",
+          "minute": 65,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/w0w8uckogkxg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777223096000
         }
       ]
     },
@@ -157,26 +270,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/dhwtb3f56kxg1/CMAF_720.mp4?source=fallback",
           "postedAt": 1777219547000
-        }
-      ]
-    },
-    {
-      "home": "Hibernian",
-      "away": "Hearts",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1swaxcx",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1swaxcx",
-          "scorer": "Martin Boyle",
-          "minute": 7,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/94bisf9v1kxg1",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1777218130000
         }
       ]
     },
