@@ -1,7 +1,100 @@
 {
-  "updated": "2026-04-26T13:01:47Z",
+  "updated": "2026-04-26T14:09:21Z",
   "date": "2026-04-26",
   "matches": [
+    {
+      "home": "VfB Stuttgart",
+      "away": "Werder Bremen",
+      "league": "German Bundesliga",
+      "goals": [
+        {
+          "postId": "1sw8b2z",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sw8b2z",
+          "scorer": "Jens Stage",
+          "minute": 18,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/0337d83a",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777212012000
+        }
+      ]
+    },
+    {
+      "home": "Heracles",
+      "away": "Volendam",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sw809o",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sw809o",
+          "scorer": "Anthony Descotte",
+          "minute": 55,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/blsa6kwghjxg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777211251000
+        },
+        {
+          "postId": "1sw869e",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sw869e",
+          "scorer": "Robert Mühren",
+          "minute": 62,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/m0wka4hqijxg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777211675000
+        }
+      ]
+    },
+    {
+      "home": "Genoa",
+      "away": "Como",
+      "league": "Serie A",
+      "goals": [
+        {
+          "postId": "1sw796v",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sw796v",
+          "scorer": "Anastasios Douvikas",
+          "minute": 10,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/1d8efd4d",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777209315000
+        }
+      ]
+    },
+    {
+      "home": "Widzew Łódź",
+      "away": "Motor Lublin",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1sw7035",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1sw7035",
+          "scorer": "Carlos Isaac Muñoz",
+          "minute": 15,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/l1igkw6n9jxg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/l1igkw6n9jxg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1777208632000
+        }
+      ]
+    },
     {
       "home": "Coventry City",
       "away": "Wrexham",
