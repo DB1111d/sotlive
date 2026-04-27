@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-26 16:40 EDT",
+  "updated": "2026-04-26 22:52 EDT",
   "days": {
     "20260426": {
       "date": "Sunday, April 26",
@@ -12,24 +12,6 @@
           "kick_utc": "2026-04-26T23:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/187.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4771.png"
-        },
-        {
-          "league": "Serie A",
-          "time": "2:45 PM",
-          "match": "AC Milan vs Juventus",
-          "source": "Paramount+",
-          "kick_utc": "2026-04-26T18:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png"
-        },
-        {
-          "league": "La Liga",
-          "time": "3:00 PM",
-          "match": "Villarreal vs Celta Vigo",
-          "source": "ESPN+",
-          "kick_utc": "2026-04-26T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png"
         }
       ]
     },
