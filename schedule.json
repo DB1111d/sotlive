@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-27 13:23 EDT",
+  "updated": "2026-04-27 17:03 EDT",
   "days": {
     "20260427": {
       "date": "Monday, April 27",
@@ -12,15 +12,6 @@
           "kick_utc": "2026-04-27T19:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png"
-        },
-        {
-          "league": "Serie A",
-          "time": "12:30 PM",
-          "match": "Cagliari vs Atalanta",
-          "source": "Paramount+",
-          "kick_utc": "2026-04-27T16:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png"
         },
         {
           "league": "Serie A",
