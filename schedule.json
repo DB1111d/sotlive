@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-28 02:29 EDT",
+  "updated": "2026-04-28 06:14 EDT",
   "days": {
     "20260428": {
       "date": "Tuesday, April 28",
@@ -286,19 +286,19 @@
         },
         {
           "league": "MLS",
-          "time": "4:30 PM",
+          "time": "4:45 PM",
           "match": "Real Salt Lake vs Portland Timbers",
           "source": "FOX \u00b7 Apple TV",
-          "kick_utc": "2026-05-02T20:30Z",
+          "kick_utc": "2026-05-02T20:45Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4771.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9723.png"
         },
         {
           "league": "MLS",
-          "time": "7:00 PM",
+          "time": "7:15 PM",
           "match": "Inter Miami CF vs Orlando City SC",
           "source": "FS1 \u00b7 Apple TV",
-          "kick_utc": "2026-05-02T23:00Z",
+          "kick_utc": "2026-05-02T23:15Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/12011.png"
         },
