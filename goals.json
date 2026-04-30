@@ -1,7 +1,60 @@
 {
-  "updated": "2026-04-30T18:08:39Z",
+  "updated": "2026-04-30T19:49:18Z",
   "date": "2026-04-30",
   "matches": [
+    {
+      "home": "Braga",
+      "away": "SC Freiburg",
+      "league": "UEFA Europa League",
+      "goals": [
+        {
+          "postId": "1t05t9e",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t05t9e",
+          "scorer": "Demir Ege Tiknaz",
+          "minute": 8,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/geSAuJegbgmSHpi/watch",
+          "videoEmbed": "https://streamain.com/geSAuJegbgmSHpi/watch",
+          "directMp4": null,
+          "postedAt": 1777576142000
+        },
+        {
+          "postId": "1t061pm",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t061pm",
+          "scorer": "Vincenzo Grifo",
+          "minute": 16,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/FPuGD0RjkDCiRKO/watch",
+          "videoEmbed": "https://streamain.com/FPuGD0RjkDCiRKO/watch",
+          "directMp4": null,
+          "postedAt": 1777576652000
+        }
+      ]
+    },
+    {
+      "home": "Shakhtar Donetsk",
+      "away": "Crystal Palace",
+      "league": "UEFA Europa Conference League",
+      "goals": [
+        {
+          "postId": "1t05q5t",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t05q5t",
+          "scorer": "Ismaila Sarr",
+          "minute": 1,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/TkbvVcpt10wJT21/watch",
+          "videoEmbed": "https://streamain.com/TkbvVcpt10wJT21/watch",
+          "directMp4": null,
+          "postedAt": 1777575948000
+        }
+      ]
+    },
     {
       "home": "LAFC",
       "away": "Toluca",
