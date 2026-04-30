@@ -1,19 +1,9 @@
 {
-  "updated": "2026-04-29 17:06 EDT",
+  "updated": "2026-04-29 22:58 EDT",
   "days": {
     "20260429": {
       "date": "Wednesday, April 29",
       "games": [
-        {
-          "league": "UEFA Champions League",
-          "time": "3:00 PM",
-          "match": "Atl\u00e9tico Madrid vs Arsenal",
-          "source": "CBS \u00b7 Paramount+",
-          "kick_utc": "2026-04-29T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-          "round_label": "Semi-final \u00b7 Leg 1"
-        },
         {
           "league": "CONCACAF Champions Cup",
           "time": "10:30 PM",
