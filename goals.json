@@ -1,7 +1,40 @@
 {
-  "updated": "2026-04-30T23:58:09Z",
-  "date": "2026-04-30",
+  "updated": "2026-05-01T03:52:50Z",
+  "date": "2026-05-01",
   "matches": [
+    {
+      "home": "Corinthians",
+      "away": "Peñarol",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1t0drrs",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t0drrs",
+          "scorer": "Gustavo Henrique",
+          "minute": 10,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/akt0d8ea6fyg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/akt0d8ea6fyg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1777594908000
+        },
+        {
+          "postId": "1t0dwq4",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t0dwq4",
+          "scorer": "Jesse Lingard",
+          "minute": 25,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/jjdy3x987fyg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777595277000
+        }
+      ]
+    },
     {
       "home": "Bolivar",
       "away": "Fluminense",
@@ -233,9 +266,88 @@
       ]
     },
     {
+      "home": "Sporting Braga",
+      "away": "SC Freiburg",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1t08pjg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t08pjg",
+          "scorer": "Mario Dorgeles",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/02p554w45eyg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/02p554w45eyg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1777582429000
+        }
+      ]
+    },
+    {
       "home": "Shakhtar Donetsk",
       "away": "Crystal Palace",
       "league": "UEFA Europa Conference League",
+      "goals": [
+        {
+          "postId": "1t05q5t",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t05q5t",
+          "scorer": "Ismaila Sarr",
+          "minute": 1,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/TkbvVcpt10wJT21/watch",
+          "videoEmbed": "https://streamain.com/TkbvVcpt10wJT21/watch",
+          "directMp4": null,
+          "postedAt": 1777575948000
+        },
+        {
+          "postId": "1t07dyt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t07dyt",
+          "scorer": "Oleg Ocheretko",
+          "minute": 48,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/52ShYw6FvFG1P97/watch",
+          "videoEmbed": "https://streamain.com/52ShYw6FvFG1P97/watch",
+          "directMp4": null,
+          "postedAt": 1777579562000
+        },
+        {
+          "postId": "1t07ovv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t07ovv",
+          "scorer": "Daichi Kamada",
+          "minute": 58,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/G2PvZ9Vo72BFkQa/watch",
+          "videoEmbed": "https://streamain.com/G2PvZ9Vo72BFkQa/watch",
+          "directMp4": null,
+          "postedAt": 1777580201000
+        },
+        {
+          "postId": "1t08fhc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t08fhc",
+          "scorer": "Jorgen Strand Larsen",
+          "minute": 84,
+          "homeScore": 1,
+          "awayScore": 3,
+          "videoUrl": "https://streamain.com/tIPMTHOhHu4IYGw/watch",
+          "videoEmbed": "https://streamain.com/tIPMTHOhHu4IYGw/watch",
+          "directMp4": null,
+          "postedAt": 1777581800000
+        }
+      ]
+    },
+    {
+      "home": "Shakhtar",
+      "away": "Crystal Palace",
+      "league": "Rest of World",
       "goals": [
         {
           "postId": "1t05q5t",
