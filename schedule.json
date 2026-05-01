@@ -1,50 +1,9 @@
 {
-  "updated": "2026-04-30 17:02 EDT",
+  "updated": "2026-04-30 23:30 EDT",
   "days": {
     "20260430": {
       "date": "Thursday, April 30",
-      "games": [
-        {
-          "league": "UEFA Europa League",
-          "time": "3:00 PM",
-          "match": "Braga vs SC Freiburg",
-          "source": "Paramount+",
-          "kick_utc": "2026-04-30T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2994.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
-          "round_label": "Semi-final \u00b7 Leg 1"
-        },
-        {
-          "league": "UEFA Europa League",
-          "time": "3:00 PM",
-          "match": "Nottingham Forest vs Aston Villa",
-          "source": "Paramount+ \u00b7 CBSSN",
-          "kick_utc": "2026-04-30T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-          "round_label": "Semi-final \u00b7 Leg 1"
-        },
-        {
-          "league": "UEFA Europa Conference League",
-          "time": "3:00 PM",
-          "match": "Rayo Vallecano vs Strasbourg",
-          "source": "Paramount+",
-          "kick_utc": "2026-04-30T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
-          "round_label": "Semi-final \u00b7 Leg 1"
-        },
-        {
-          "league": "UEFA Europa Conference League",
-          "time": "3:00 PM",
-          "match": "Shakhtar Donetsk vs Crystal Palace",
-          "source": "Paramount+",
-          "kick_utc": "2026-04-30T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/493.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
-          "round_label": "Semi-final \u00b7 Leg 1"
-        }
-      ]
+      "games": []
     },
     "20260501": {
       "date": "Friday, May 1",
