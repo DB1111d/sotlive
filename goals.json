@@ -1,7 +1,27 @@
 {
-  "updated": "2026-05-01T20:33:06Z",
+  "updated": "2026-05-01T21:37:23Z",
   "date": "2026-05-01",
   "matches": [
+    {
+      "home": "Legia Warszawa",
+      "away": "Widzew Łódź",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1t15393",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t15393",
+          "scorer": "Rafał Adamski",
+          "minute": 90,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/3abimlra6lyg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777667579000
+        }
+      ]
+    },
     {
       "home": "Leeds United",
       "away": "Burnley",
