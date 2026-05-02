@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-02 09:14 EDT",
+  "updated": "2026-05-02 12:50 EDT",
   "days": {
     "20260502": {
       "date": "Saturday, May 2",
@@ -158,60 +158,6 @@
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9727.png"
         },
         {
-          "league": "EFL Championship",
-          "time": "7:30 AM",
-          "match": "Derby County vs Sheffield United",
-          "source": "Paramount+",
-          "kick_utc": "2026-05-02T11:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/374.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/398.png"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "7:30 AM",
-          "match": "Hull City vs Norwich City",
-          "source": "Paramount+",
-          "kick_utc": "2026-05-02T11:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/381.png"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "7:30 AM",
-          "match": "Ipswich Town vs Queens Park Rangers",
-          "source": "Paramount+",
-          "kick_utc": "2026-05-02T11:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/334.png"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "7:30 AM",
-          "match": "Millwall vs Oxford United",
-          "source": "Paramount+",
-          "kick_utc": "2026-05-02T11:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/391.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/311.png"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "7:30 AM",
-          "match": "Preston North End vs Southampton",
-          "source": "Paramount+",
-          "kick_utc": "2026-05-02T11:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/394.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/376.png"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "7:30 AM",
-          "match": "Wrexham vs Middlesbrough",
-          "source": "Paramount+",
-          "kick_utc": "2026-05-02T11:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/352.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/369.png"
-        },
-        {
           "league": "Serie A",
           "time": "9:00 AM",
           "match": "Udinese vs Torino",
@@ -291,15 +237,6 @@
           "kick_utc": "2026-05-02T16:30Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png"
-        },
-        {
-          "league": "La Liga",
-          "time": "8:00 AM",
-          "match": "Villarreal vs Levante",
-          "source": "ESPN+",
-          "kick_utc": "2026-05-02T12:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png"
         },
         {
           "league": "La Liga",
