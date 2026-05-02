@@ -159,6 +159,11 @@ TEAM_ALIASES = {
     # Premier League — AFC prefix
     "bournemouth":         "AFC Bournemouth",
     "afc bournemouth":     "AFC Bournemouth",
+    # Union Berlin — with/without 1. and FC prefix
+    "union berlin":        "1. FC Union Berlin",
+    "fc union berlin":     "1. FC Union Berlin",
+    "1 fc union berlin":   "1. FC Union Berlin",
+    "1. fc union berlin":  "1. FC Union Berlin",
 }
 
 
