@@ -1,7 +1,53 @@
 {
-  "updated": "2026-05-02T20:24:22Z",
+  "updated": "2026-05-02T21:06:44Z",
   "date": "2026-05-02",
   "matches": [
+    {
+      "home": "Osasuna",
+      "away": "Barcelona",
+      "league": "La Liga",
+      "goals": [
+        {
+          "postId": "1t212n8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t212n8",
+          "scorer": "Robert Lewandowski 81‎'‎",
+          "minute": null,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/ef05c035",
+          "videoEmbed": "https://streamff.link/v/ef05c035",
+          "directMp4": null,
+          "postedAt": 1777754220000
+        },
+        {
+          "postId": "1t217py",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t217py",
+          "scorer": "Ferran Torres 86‎'‎",
+          "minute": null,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamff.link/v/d86b1d76",
+          "videoEmbed": "https://streamff.link/v/d86b1d76",
+          "directMp4": null,
+          "postedAt": 1777754554000
+        },
+        {
+          "postId": "1t219rr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t219rr",
+          "scorer": "Raul Garcia 89‎'‎",
+          "minute": null,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamff.link/v/c1a06489",
+          "videoEmbed": "https://streamff.link/v/c1a06489",
+          "directMp4": null,
+          "postedAt": 1777754693000
+        }
+      ]
+    },
     {
       "home": "Famalicão",
       "away": "Benfica",
@@ -681,6 +727,91 @@
       ]
     },
     {
+      "home": "Bayern Munich",
+      "away": "Heidenheim",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1t1qiz7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t1qiz7",
+          "scorer": "Budu Zivzivadze",
+          "minute": 22,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/04d92528",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777729977000
+        },
+        {
+          "postId": "1t1qr25",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t1qr25",
+          "scorer": "Eren Dinkci",
+          "minute": 31,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/c7284da5",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777730518000
+        },
+        {
+          "postId": "1t1r2a3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t1r2a3",
+          "scorer": "Leon Goretzka Freekick",
+          "minute": 44,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/efcea19b",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777731253000
+        },
+        {
+          "postId": "1t1rxb7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t1rxb7",
+          "scorer": "Leon Goretzka",
+          "minute": 57,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/ff2b9c6b",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777733307000
+        },
+        {
+          "postId": "1t1sf33",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t1sf33",
+          "scorer": "Budu Zivzivadze",
+          "minute": 76,
+          "homeScore": 2,
+          "awayScore": 3,
+          "videoUrl": "https://streamin.link/v/a671d321",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777734439000
+        },
+        {
+          "postId": "1t1t24h",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t1t24h",
+          "scorer": "Own Goal",
+          "minute": 90,
+          "homeScore": 3,
+          "awayScore": 3,
+          "videoUrl": "https://streamin.link/v/94aec289",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777735898000
+        }
+      ]
+    },
+    {
       "home": "Górnik Zabrze",
       "away": "Raków Częstochowa",
       "league": "Rest of World",
@@ -717,6 +848,91 @@
       "home": "TSG Hoffenheim",
       "away": "VfB Stuttgart",
       "league": "German Bundesliga",
+      "goals": [
+        {
+          "postId": "1t1q6w2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t1q6w2",
+          "scorer": "Andrej Kramaric",
+          "minute": 8,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/Mpv2wTIc00kkV47/watch",
+          "videoEmbed": "https://streamain.com/Mpv2wTIc00kkV47/watch",
+          "directMp4": null,
+          "postedAt": 1777729154000
+        },
+        {
+          "postId": "1t1qjf3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t1qjf3",
+          "scorer": "Chris Fuhrich",
+          "minute": 21,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/HzDJBuuYyzzAsaA/watch",
+          "videoEmbed": "https://streamain.com/HzDJBuuYyzzAsaA/watch",
+          "directMp4": null,
+          "postedAt": 1777730008000
+        },
+        {
+          "postId": "1t1qu2b",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t1qu2b",
+          "scorer": "Bazoumana Touré",
+          "minute": 24,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/0b0b2ae5",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777730717000
+        },
+        {
+          "postId": "1t1rrje",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t1rrje",
+          "scorer": "Andrej Kramaric",
+          "minute": 49,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/WwDvr8eDWkXx6e4/watch",
+          "videoEmbed": "https://streamain.com/WwDvr8eDWkXx6e4/watch",
+          "directMp4": null,
+          "postedAt": 1777732932000
+        },
+        {
+          "postId": "1t1s3uv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t1s3uv",
+          "scorer": "Ermedin Demirovic",
+          "minute": 65,
+          "homeScore": 3,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/XstSQc3FYt4AJhM/watch",
+          "videoEmbed": "https://streamain.com/XstSQc3FYt4AJhM/watch",
+          "directMp4": null,
+          "postedAt": 1777733741000
+        },
+        {
+          "postId": "1t1szt2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t1szt2",
+          "scorer": "Tiago Tomas",
+          "minute": 90,
+          "homeScore": 3,
+          "awayScore": 3,
+          "videoUrl": "https://streamain.com/GZueLOOZe1zViie/watch",
+          "videoEmbed": "https://streamain.com/GZueLOOZe1zViie/watch",
+          "directMp4": null,
+          "postedAt": 1777735752000
+        }
+      ]
+    },
+    {
+      "home": "TSG Hoffenheim",
+      "away": "Stuttgart",
+      "league": "Rest of World",
       "goals": [
         {
           "postId": "1t1q6w2",
