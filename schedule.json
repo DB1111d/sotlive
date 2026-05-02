@@ -1,36 +1,9 @@
 {
-  "updated": "2026-05-01 16:54 EDT",
+  "updated": "2026-05-01 22:47 EDT",
   "days": {
     "20260501": {
       "date": "Friday, May 1",
       "games": [
-        {
-          "league": "Premier League",
-          "time": "3:00 PM",
-          "match": "Leeds United vs Burnley",
-          "source": "USA Network",
-          "kick_utc": "2026-05-01T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/379.png"
-        },
-        {
-          "league": "Serie A",
-          "time": "2:45 PM",
-          "match": "Pisa vs Lecce",
-          "source": "Paramount+",
-          "kick_utc": "2026-05-01T18:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3956.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png"
-        },
-        {
-          "league": "La Liga",
-          "time": "3:00 PM",
-          "match": "Girona vs Mallorca",
-          "source": "ESPN+",
-          "kick_utc": "2026-05-01T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/84.png"
-        },
         {
           "league": "USL League One",
           "time": "7:00 PM",
