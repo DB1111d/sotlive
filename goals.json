@@ -1,7 +1,27 @@
 {
-  "updated": "2026-05-03T07:19:41Z",
+  "updated": "2026-05-03T09:02:01Z",
   "date": "2026-05-03",
   "matches": [
+    {
+      "home": "Arsenal",
+      "away": "Fulham Gyökeres 9",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1t2en7v",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t2en7v",
+          "scorer": "",
+          "minute": null,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/6giq4b1hjvyg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/6giq4b1hjvyg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1777793087000
+        }
+      ]
+    },
     {
       "home": "Barcelona",
       "away": "Osasuna",
