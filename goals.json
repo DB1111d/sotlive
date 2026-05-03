@@ -1,7 +1,47 @@
 {
-  "updated": "2026-05-03T11:57:14Z",
+  "updated": "2026-05-03T13:17:21Z",
   "date": "2026-05-03",
   "matches": [
+    {
+      "home": "AFC Bournemouth",
+      "away": "Crystal Palace",
+      "league": "Premier League",
+      "goals": [
+        {
+          "postId": "1t2l37y",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t2l37y",
+          "scorer": "Evanilson",
+          "minute": 10,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/c06110e8",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777813856000
+        }
+      ]
+    },
+    {
+      "home": "Sassuolo",
+      "away": "AC Milan",
+      "league": "Serie A",
+      "goals": [
+        {
+          "postId": "1t2l1a3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t2l1a3",
+          "scorer": "Domenico Berardi",
+          "minute": 5,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/0e573105",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777813714000
+        }
+      ]
+    },
     {
       "home": "Elversberg",
       "away": "Paderborn",
@@ -32,6 +72,243 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1777809022000
+        },
+        {
+          "postId": "1t2jkbj",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t2jkbj",
+          "scorer": "Lukas Petkov",
+          "minute": 28,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/c1b4fb51",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777809720000
+        },
+        {
+          "postId": "1t2jtv6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t2jtv6",
+          "scorer": "Lukas Petkov",
+          "minute": 42,
+          "homeScore": 4,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/8cf7fed8",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777810495000
+        },
+        {
+          "postId": "1t2kzph",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t2kzph",
+          "scorer": "Calvin Brackelmann",
+          "minute": 65,
+          "homeScore": 4,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/7fc12d1d",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777813599000
+        }
+      ]
+    },
+    {
+      "home": "Karlsruher SC",
+      "away": "Darmstadt",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1t2knyq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t2knyq",
+          "scorer": "Marvin Wanitzek",
+          "minute": 58,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/e2b2a74a",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777812780000
+        },
+        {
+          "postId": "1t2kxb7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t2kxb7",
+          "scorer": "Isac Lidberg",
+          "minute": 70,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/db696af9",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777813421000
+        }
+      ]
+    },
+    {
+      "home": "Magdeburg",
+      "away": "Hertha BSC",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1t2kqg1",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t2kqg1",
+          "scorer": "Laurin Ulrich",
+          "minute": 61,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/2daf5eba",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777812956000
+        }
+      ]
+    },
+    {
+      "home": "Duisburg",
+      "away": "Energie Cottbus",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1t2jn81",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t2jn81",
+          "scorer": "Thilo Töpken",
+          "minute": 32,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/236e5dd5",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777809958000
+        },
+        {
+          "postId": "1t2kkep",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t2kkep",
+          "scorer": "Dominik Kother",
+          "minute": 57,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/b40892b0",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777812523000
+        }
+      ]
+    },
+    {
+      "home": "Hibernian",
+      "away": "Celtic",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1t2kdz8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t2kdz8",
+          "scorer": "Kelechi Iheanacho",
+          "minute": 72,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/O2uUETglZciVMSG/watch",
+          "videoEmbed": "https://streamain.com/O2uUETglZciVMSG/watch",
+          "directMp4": null,
+          "postedAt": 1777812045000
+        }
+      ]
+    },
+    {
+      "home": "Celta Vigo",
+      "away": "Elche",
+      "league": "La Liga",
+      "goals": [
+        {
+          "postId": "1t2jwci",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t2jwci",
+          "scorer": "Hugo Alvarez Antunez",
+          "minute": 14,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/GMTPkGZlVY7hWOM/watch",
+          "videoEmbed": "https://streamain.com/GMTPkGZlVY7hWOM/watch",
+          "directMp4": null,
+          "postedAt": 1777810697000
+        },
+        {
+          "postId": "1t2kau0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t2kau0",
+          "scorer": "Iago Aspas",
+          "minute": 30,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/PptbMqmN579rziV/watch",
+          "videoEmbed": "https://streamain.com/PptbMqmN579rziV/watch",
+          "directMp4": null,
+          "postedAt": 1777811816000
+        }
+      ]
+    },
+    {
+      "home": "Hannover",
+      "away": "Preußen Münster",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1t2jgyp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t2jgyp",
+          "scorer": "Imad Rondic",
+          "minute": 25,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/c478a865",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777809463000
+        },
+        {
+          "postId": "1t2jrs4",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t2jrs4",
+          "scorer": "Shin Yamada",
+          "minute": 39,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/3f3c8974",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777810329000
+        },
+        {
+          "postId": "1t2jwr3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t2jwr3",
+          "scorer": "Mustapha Bundu",
+          "minute": 45,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/ee5e372c",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777810728000
+        },
+        {
+          "postId": "1t2k1vo",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t2k1vo",
+          "scorer": "Mustapha Bundu",
+          "minute": 45,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/bb780985",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777811140000
         }
       ]
     },
@@ -52,6 +329,19 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1777808823000
+        },
+        {
+          "postId": "1t2jzpy",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t2jzpy",
+          "scorer": "Fabio Gruber",
+          "minute": 45,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/8056b219",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777810964000
         }
       ]
     },
