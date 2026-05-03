@@ -1,7 +1,66 @@
 {
-  "updated": "2026-05-03T10:15:24Z",
+  "updated": "2026-05-03T11:10:43Z",
   "date": "2026-05-03",
   "matches": [
+    {
+      "home": "GKS Katowice",
+      "away": "Bruk-Bet Termalica Nieciecza",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1t2hxmq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t2hxmq",
+          "scorer": "Own Goal",
+          "minute": 18,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/geps5shnhwyg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/geps5shnhwyg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1777804564000
+        },
+        {
+          "postId": "1t2hzxn",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t2hzxn",
+          "scorer": "Ilya Shkurin",
+          "minute": 22,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/7vyeux7biwyg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/7vyeux7biwyg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1777804780000
+        },
+        {
+          "postId": "1t2i63i",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t2i63i",
+          "scorer": "Eman Markovic",
+          "minute": 31,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/49w07qb2kwyg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/49w07qb2kwyg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1777805379000
+        },
+        {
+          "postId": "1t2ics5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t2ics5",
+          "scorer": "Kamil Zapolnik",
+          "minute": 42,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/vqnflcsylwyg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/vqnflcsylwyg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1777806007000
+        }
+      ]
+    },
     {
       "home": "Arsenal",
       "away": "Fulham Gyökeres 9",
