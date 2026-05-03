@@ -1,7 +1,60 @@
 {
-  "updated": "2026-05-03T11:10:43Z",
+  "updated": "2026-05-03T11:57:14Z",
   "date": "2026-05-03",
   "matches": [
+    {
+      "home": "Elversberg",
+      "away": "Paderborn",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1t2j3g6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t2j3g6",
+          "scorer": "Maximilian Rohr",
+          "minute": 4,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/5c0108fc",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777808300000
+        },
+        {
+          "postId": "1t2jbv8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t2jbv8",
+          "scorer": "David Mokwa",
+          "minute": 18,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/8c6db164",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777809022000
+        }
+      ]
+    },
+    {
+      "home": "Greuther Fürth",
+      "away": "Nürnberg",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1t2j9h4",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t2j9h4",
+          "scorer": "Noel Futkeu",
+          "minute": 13,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/297332f3",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777808823000
+        }
+      ]
+    },
     {
       "home": "GKS Katowice",
       "away": "Bruk-Bet Termalica Nieciecza",
@@ -58,6 +111,32 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/vqnflcsylwyg1/CMAF_720.mp4?source=fallback",
           "postedAt": 1777806007000
+        },
+        {
+          "postId": "1t2j14f",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t2j14f",
+          "scorer": "Mateusz Kowalczyk",
+          "minute": 58,
+          "homeScore": 4,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/gbbn2x66swyg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/gbbn2x66swyg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1777808100000
+        },
+        {
+          "postId": "1t2j5ef",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t2j5ef",
+          "scorer": "Eman Markovic",
+          "minute": 64,
+          "homeScore": 5,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/o0mggr0atwyg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/o0mggr0atwyg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1777808467000
         }
       ]
     },
