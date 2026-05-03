@@ -1,37 +1,37 @@
 {
-  "updated": "2026-05-03T22:55:11Z",
+  "updated": "2026-05-03T23:41:27Z",
   "date": "2026-05-03",
   "matches": [
     {
-      "home": "Internacional",
-      "away": "Fluminense",
+      "home": "Austin FC",
+      "away": "St. Louis City",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1t2z9mc",
+          "postId": "1t30z00",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1t2z9mc",
-          "scorer": "Alexandro Bernabei",
-          "minute": 39,
+          "permalink": "https://redd.it/1t30z00",
+          "scorer": "Christian Ramirez",
+          "minute": 69,
           "homeScore": 1,
           "awayScore": 0,
-          "videoUrl": "https://v.redd.it/p93h5c09yzyg1",
-          "videoEmbed": null,
+          "videoUrl": "https://streamain.com/X0ATBzQtGGdxODl/watch",
+          "videoEmbed": "https://streamain.com/X0ATBzQtGGdxODl/watch",
           "directMp4": null,
-          "postedAt": 1777846486000
+          "postedAt": 1777850864000
         },
         {
-          "postId": "1t300j1",
+          "postId": "1t310ow",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1t300j1",
-          "scorer": "Alerrandro",
-          "minute": 49,
+          "permalink": "https://redd.it/1t310ow",
+          "scorer": "Myrto Uzuni",
+          "minute": 81,
           "homeScore": 2,
           "awayScore": 0,
-          "videoUrl": "https://v.redd.it/hobdw23w30zg1",
-          "videoEmbed": null,
+          "videoUrl": "https://streamain.com/C5MnKblAoeQe5hY/watch",
+          "videoEmbed": "https://streamain.com/C5MnKblAoeQe5hY/watch",
           "directMp4": null,
-          "postedAt": 1777848368000
+          "postedAt": 1777850996000
         }
       ]
     },
@@ -65,6 +65,52 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1777847190000
+        },
+        {
+          "postId": "1t30rzw",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t30rzw",
+          "scorer": "Lucas Barbosa",
+          "minute": 73,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/pcscec3t90zg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/pcscec3t90zg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1777850349000
+        }
+      ]
+    },
+    {
+      "home": "Internacional",
+      "away": "Fluminense",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1t2z9mc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t2z9mc",
+          "scorer": "Alexandro Bernabei",
+          "minute": 39,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/p93h5c09yzyg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777846486000
+        },
+        {
+          "postId": "1t300j1",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t300j1",
+          "scorer": "Alerrandro",
+          "minute": 49,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/hobdw23w30zg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777848368000
         }
       ]
     },
