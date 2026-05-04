@@ -1,7 +1,27 @@
 {
-  "updated": "2026-05-04T21:06:13Z",
+  "updated": "2026-05-04T22:14:30Z",
   "date": "2026-05-04",
   "matches": [
+    {
+      "home": "Altach",
+      "away": "LASK",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1t3vkh0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t3vkh0",
+          "scorer": "Samuel Adeniran",
+          "minute": 66,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/g0t2b6p2w6zg1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777930620000
+        }
+      ]
+    },
     {
       "home": "Sporting CP",
       "away": "Vitoria Guimaraes",
@@ -71,6 +91,19 @@
           "videoEmbed": "https://streamain.com/lNbpZODl0z99s8q/watch",
           "directMp4": null,
           "postedAt": 1777928207000
+        },
+        {
+          "postId": "1t3ushw",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t3ushw",
+          "scorer": "Own Goal",
+          "minute": 85,
+          "homeScore": 5,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/fb7SigX2efyPjr4/watch",
+          "videoEmbed": "https://streamain.com/fb7SigX2efyPjr4/watch",
+          "directMp4": null,
+          "postedAt": 1777928879000
         }
       ]
     },
@@ -393,6 +426,65 @@
       "home": "Chelsea",
       "away": "Nottingham Forest",
       "league": "Premier League",
+      "goals": [
+        {
+          "postId": "1t3imw0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t3imw0",
+          "scorer": "Taiwo Awoniyi",
+          "minute": 2,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/107e4f08",
+          "videoEmbed": "https://streamff.link/v/107e4f08",
+          "directMp4": null,
+          "postedAt": 1777903371000
+        },
+        {
+          "postId": "1t3izfj",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t3izfj",
+          "scorer": "Igor Jesus Penalty",
+          "minute": 15,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/d24462fe",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777904150000
+        },
+        {
+          "postId": "1t3kv5k",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t3kv5k",
+          "scorer": "T. Awoniyi",
+          "minute": 52,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://streamin.link/v/7331fcaa",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777908153000
+        },
+        {
+          "postId": "1t3m161",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t3m161",
+          "scorer": "Joao Pedro",
+          "minute": 90,
+          "homeScore": 1,
+          "awayScore": 3,
+          "videoUrl": "https://streamin.link/v/7292dfcd",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777910618000
+        }
+      ]
+    },
+    {
+      "home": "Chelsea",
+      "away": "Nottingham",
+      "league": "Rest of World",
       "goals": [
         {
           "postId": "1t3imw0",
