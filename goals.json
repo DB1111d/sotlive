@@ -1,7 +1,106 @@
 {
-  "updated": "2026-05-04T17:59:04Z",
+  "updated": "2026-05-04T19:50:44Z",
   "date": "2026-05-04",
   "matches": [
+    {
+      "home": "Sporting CP",
+      "away": "Vitoria Guimaraes",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1t3rzv5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t3rzv5",
+          "scorer": "Gonçalo Inacio",
+          "minute": 9,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/W5tFd0w82WN74Zr/watch",
+          "videoEmbed": "https://streamain.com/W5tFd0w82WN74Zr/watch",
+          "directMp4": null,
+          "postedAt": 1777922968000
+        },
+        {
+          "postId": "1t3sey5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t3sey5",
+          "scorer": "Daniel Braganca",
+          "minute": 23,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/wtTEHfKU8j7VkBO/watch",
+          "videoEmbed": "https://streamain.com/wtTEHfKU8j7VkBO/watch",
+          "directMp4": null,
+          "postedAt": 1777923858000
+        }
+      ]
+    },
+    {
+      "home": "Everton",
+      "away": "Manchester City",
+      "league": "Premier League",
+      "goals": [
+        {
+          "postId": "1t3se0z",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t3se0z",
+          "scorer": "Jeremy Doku 43‎'‎",
+          "minute": null,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/57bebd65",
+          "videoEmbed": "https://streamff.link/v/57bebd65",
+          "directMp4": null,
+          "postedAt": 1777923803000
+        }
+      ]
+    },
+    {
+      "home": "AS Roma",
+      "away": "Fiorentina",
+      "league": "Serie A",
+      "goals": [
+        {
+          "postId": "1t3r86e",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t3r86e",
+          "scorer": "Gianluca Mancini",
+          "minute": 13,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/8b6b1b20",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777921363000
+        },
+        {
+          "postId": "1t3rbfp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t3rbfp",
+          "scorer": "Wesley França",
+          "minute": 17,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/kqrutzbk56zg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/kqrutzbk56zg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1777921549000
+        },
+        {
+          "postId": "1t3rta5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t3rta5",
+          "scorer": "Mario Hermoso",
+          "minute": 34,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/43ee2314",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777922592000
+        }
+      ]
+    },
     {
       "home": "Radomiak Radom",
       "away": "Lechia Gdańsk",
@@ -32,6 +131,32 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/d4emdc4tr5zg1/CMAF_720.mp4?source=fallback",
           "postedAt": 1777916936000
+        },
+        {
+          "postId": "1t3pv6v",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t3pv6v",
+          "scorer": "Abdoul Tapsoba hat-trick",
+          "minute": 48,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/6swhk8ykw5zg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/6swhk8ykw5zg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1777918541000
+        },
+        {
+          "postId": "1t3qbwc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t3qbwc",
+          "scorer": "Tomáš Bobček penalty",
+          "minute": 67,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/nln5snnfz5zg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/nln5snnfz5zg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1777919511000
         }
       ]
     },
@@ -65,6 +190,19 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1777916906000
+        },
+        {
+          "postId": "1t3q8gl",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t3q8gl",
+          "scorer": "Tijjani Noslin",
+          "minute": 90,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/8eb7e0f8",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1777919320000
         }
       ]
     },
@@ -98,6 +236,19 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/r0wd2iayq5zg1/CMAF_720.mp4?source=fallback",
           "postedAt": 1777916636000
+        },
+        {
+          "postId": "1t3pft6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t3pft6",
+          "scorer": "Lawrence Shankland",
+          "minute": 71,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/mx3qeiiyt5zg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/mx3qeiiyt5zg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1777917646000
         }
       ]
     },
