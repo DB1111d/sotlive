@@ -1,7 +1,27 @@
 {
-  "updated": "2026-05-05T21:13:32Z",
+  "updated": "2026-05-05T22:13:57Z",
   "date": "2026-05-05",
   "matches": [
+    {
+      "home": "Al-Khaleej",
+      "away": "Al Hilal",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1t4u3ld",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t4u3ld",
+          "scorer": "(Potential match fixing) Al-Khaleej defender literally gifts the ball away",
+          "minute": null,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/sro4aigx6ezg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/sro4aigx6ezg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1778018947000
+        }
+      ]
+    },
     {
       "home": "Dunfermline",
       "away": "Arbroath",
