@@ -1,37 +1,9 @@
 {
-  "updated": "2026-05-04 17:09 EDT",
+  "updated": "2026-05-04 22:49 EDT",
   "days": {
     "20260504": {
       "date": "Monday, May 4",
-      "games": [
-        {
-          "league": "Premier League",
-          "time": "3:00 PM",
-          "match": "Everton vs Manchester City",
-          "source": "USA Network",
-          "kick_utc": "2026-05-04T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png"
-        },
-        {
-          "league": "Serie A",
-          "time": "2:45 PM",
-          "match": "AS Roma vs Fiorentina",
-          "source": "Paramount+",
-          "kick_utc": "2026-05-04T18:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png"
-        },
-        {
-          "league": "La Liga",
-          "time": "3:00 PM",
-          "match": "Sevilla vs Real Sociedad",
-          "source": "ESPN+",
-          "kick_utc": "2026-05-04T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png"
-        }
-      ]
+      "games": []
     },
     "20260505": {
       "date": "Tuesday, May 5",
