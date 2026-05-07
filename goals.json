@@ -1,5 +1,26 @@
 {
-  "updated": "2026-05-07T17:03:20Z",
+  "updated": "2026-05-07T18:58:00Z",
   "date": "2026-05-07",
-  "matches": []
+  "matches": [
+    {
+      "home": "Steaua Bucharest",
+      "away": "Sepsi",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1t6h77v",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t6h77v",
+          "scorer": "Alin Techereș",
+          "minute": 31,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/vmrcrk291rzg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/vmrcrk291rzg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1778174650000
+        }
+      ]
+    }
+  ]
 }
