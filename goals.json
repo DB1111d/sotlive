@@ -1,7 +1,251 @@
 {
-  "updated": "2026-05-07T18:58:00Z",
+  "updated": "2026-05-07T20:17:49Z",
   "date": "2026-05-07",
   "matches": [
+    {
+      "home": "Crystal Palace",
+      "away": "Shakhtar Donetsk",
+      "league": "UEFA Europa Conference League",
+      "goals": [
+        {
+          "postId": "1t6kq1q",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t6kq1q",
+          "scorer": "Daniel Munoz",
+          "minute": 25,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/1c471d4e",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1778181988000
+        },
+        {
+          "postId": "1t6kyr3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t6kyr3",
+          "scorer": "Eguinaldo",
+          "minute": 34,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/8219238c",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1778182518000
+        },
+        {
+          "postId": "1t6m0uk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t6m0uk",
+          "scorer": "Ismaila Sarr",
+          "minute": 52,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/b8b883ca",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1778184742000
+        }
+      ]
+    },
+    {
+      "home": "Al-Shabab",
+      "away": "Al-Nassr",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1t6kzcf",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t6kzcf",
+          "scorer": "Cristiano Ronaldo",
+          "minute": 75,
+          "homeScore": 1,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/fp8cx86oprzg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/fp8cx86oprzg1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1778182554000
+        },
+        {
+          "postId": "1t6l6wt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t6l6wt",
+          "scorer": "Ali Al-Bulayhi",
+          "minute": 80,
+          "homeScore": 2,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/3o77jo60rrzg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/3o77jo60rrzg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1778183004000
+        },
+        {
+          "postId": "1t6lnf5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t6lnf5",
+          "scorer": "João Félix",
+          "minute": 98,
+          "homeScore": 2,
+          "awayScore": 4,
+          "videoUrl": "https://v.redd.it/t4opq1uwtrzg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/t4opq1uwtrzg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1778183979000
+        }
+      ]
+    },
+    {
+      "home": "Strasbourg",
+      "away": "Rayo Vallecano",
+      "league": "UEFA Europa Conference League",
+      "goals": [
+        {
+          "postId": "1t6l94j",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t6l94j",
+          "scorer": "Alemao",
+          "minute": 42,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/3a15ecd2",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1778183132000
+        }
+      ]
+    },
+    {
+      "home": "SC Freiburg",
+      "away": "Braga",
+      "league": "UEFA Europa League",
+      "goals": [
+        {
+          "postId": "1t6kjyr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t6kjyr",
+          "scorer": "Lukas Kübler",
+          "minute": 19,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/ivt4argumrzg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ivt4argumrzg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1778181620000
+        },
+        {
+          "postId": "1t6l69p",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t6l69p",
+          "scorer": "Johan Manzambi",
+          "minute": 41,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/tvxhjsuuqrzg1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/tvxhjsuuqrzg1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1778182966000
+        }
+      ]
+    },
+    {
+      "home": "Aston Villa",
+      "away": "Nottingham Forest",
+      "league": "UEFA Europa League",
+      "goals": [
+        {
+          "postId": "1t6l1l3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t6l1l3",
+          "scorer": "Ollie Watkins",
+          "minute": 36,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/000e48ac",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1778182687000
+        }
+      ]
+    },
+    {
+      "home": "Al Shabab",
+      "away": "Al-Nassr",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1t6k1zo",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t6k1zo",
+          "scorer": "Joao Felix",
+          "minute": 3,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/fae0aed5",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1778180561000
+        },
+        {
+          "postId": "1t6k3bc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t6k3bc",
+          "scorer": "Joao Felix",
+          "minute": 10,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/867ffb3f",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1778180637000
+        },
+        {
+          "postId": "1t6k4oz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t6k4oz",
+          "scorer": "Yannick Carrasco",
+          "minute": 30,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/ba60bb2e",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1778180713000
+        },
+        {
+          "postId": "1t6kzdk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t6kzdk",
+          "scorer": "Cristiano Ronaldo",
+          "minute": 75,
+          "homeScore": 1,
+          "awayScore": 3,
+          "videoUrl": "https://streamin.link/v/caf4e69e",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1778182556000
+        }
+      ]
+    },
+    {
+      "home": "Frieburg",
+      "away": "Braga",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1t6kjz8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t6kjz8",
+          "scorer": "Lukas Kubler",
+          "minute": 19,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/r642ajC6Jy1vHT6/watch",
+          "videoEmbed": "https://streamain.com/r642ajC6Jy1vHT6/watch",
+          "directMp4": null,
+          "postedAt": 1778181621000
+        }
+      ]
+    },
     {
       "home": "Steaua Bucharest",
       "away": "Sepsi",
