@@ -1,19 +1,9 @@
 {
-  "updated": "2026-05-06 17:11 EDT",
+  "updated": "2026-05-06 22:55 EDT",
   "days": {
     "20260506": {
       "date": "Wednesday, May 6",
       "games": [
-        {
-          "league": "UEFA Champions League",
-          "time": "3:00 PM",
-          "match": "Bayern Munich vs Paris Saint-Germain",
-          "source": "CBS \u00b7 Paramount+",
-          "kick_utc": "2026-05-06T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-          "round_label": "Semi-final \u00b7 Leg 2"
-        },
         {
           "league": "CONCACAF Champions Cup",
           "time": "9:30 PM",
