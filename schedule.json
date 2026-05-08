@@ -1,49 +1,9 @@
 {
-  "updated": "2026-05-07 17:05 EDT",
+  "updated": "2026-05-07 22:57 EDT",
   "days": {
     "20260507": {
       "date": "Thursday, May 7",
       "games": [
-        {
-          "league": "UEFA Europa League",
-          "time": "3:00 PM",
-          "match": "Aston Villa vs Nottingham Forest",
-          "source": "Paramount+",
-          "kick_utc": "2026-05-07T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
-          "round_label": "Semi-final \u00b7 Leg 2"
-        },
-        {
-          "league": "UEFA Europa League",
-          "time": "3:00 PM",
-          "match": "SC Freiburg vs Braga",
-          "source": "Paramount+",
-          "kick_utc": "2026-05-07T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2994.png",
-          "round_label": "Semi-final \u00b7 Leg 2"
-        },
-        {
-          "league": "UEFA Europa Conference League",
-          "time": "3:00 PM",
-          "match": "Crystal Palace vs Shakhtar Donetsk",
-          "source": "Paramount+",
-          "kick_utc": "2026-05-07T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/493.png",
-          "round_label": "Semi-final \u00b7 Leg 2"
-        },
-        {
-          "league": "UEFA Europa Conference League",
-          "time": "3:00 PM",
-          "match": "Strasbourg vs Rayo Vallecano",
-          "source": "Paramount+",
-          "kick_utc": "2026-05-07T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
-          "round_label": "Semi-final \u00b7 Leg 2"
-        },
         {
           "league": "USL Championship",
           "time": "8:00 PM",
