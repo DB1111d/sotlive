@@ -1,7 +1,86 @@
 {
-  "updated": "2026-05-09T20:28:46Z",
+  "updated": "2026-05-09T21:12:09Z",
   "date": "2026-05-09",
   "matches": [
+    {
+      "home": "USM Alger",
+      "away": "Zamalek",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1t8mwpx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t8mwpx",
+          "scorer": "Ahmed Khaldi penalty",
+          "minute": 90,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/54Xy39fFQG8fWn5/watch",
+          "videoEmbed": "https://streamain.com/54Xy39fFQG8fWn5/watch",
+          "directMp4": null,
+          "postedAt": 1778360393000
+        }
+      ]
+    },
+    {
+      "home": "Real Sociedad",
+      "away": "Real Betis",
+      "league": "La Liga",
+      "goals": [
+        {
+          "postId": "1t8hj3j",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t8hj3j",
+          "scorer": "Antony",
+          "minute": 39,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/d67ff1f8",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1778356016000
+        },
+        {
+          "postId": "1t8l8ur",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t8l8ur",
+          "scorer": "Abde Ezzalzouli",
+          "minute": 47,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/JKYWHyanVLOl0MX/watch",
+          "videoEmbed": "https://streamain.com/JKYWHyanVLOl0MX/watch",
+          "directMp4": null,
+          "postedAt": 1778358928000
+        },
+        {
+          "postId": "1t8lp7s",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t8lp7s",
+          "scorer": "Orri Oskarsson",
+          "minute": 80,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/kssgiJMNVarcYN3/watch",
+          "videoEmbed": "https://streamain.com/kssgiJMNVarcYN3/watch",
+          "directMp4": null,
+          "postedAt": 1778359294000
+        },
+        {
+          "postId": "1t8mko1",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t8mko1",
+          "scorer": "Mikel Oyarzabal penalty",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/oBgKKgT6bXSvlpH/watch",
+          "videoEmbed": "https://streamain.com/oBgKKgT6bXSvlpH/watch",
+          "directMp4": null,
+          "postedAt": 1778359999000
+        }
+      ]
+    },
     {
       "home": "Bolton",
       "away": "Bradford",
@@ -98,26 +177,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/doezb6w1360h1/CMAF_720.mp4?source=fallback",
           "postedAt": 1778356586000
-        }
-      ]
-    },
-    {
-      "home": "Real Sociedad",
-      "away": "Real Betis",
-      "league": "La Liga",
-      "goals": [
-        {
-          "postId": "1t8hj3j",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1t8hj3j",
-          "scorer": "Antony",
-          "minute": 39,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/d67ff1f8",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1778356016000
         }
       ]
     },
@@ -883,6 +942,65 @@
       "home": "VfB Stuttgart",
       "away": "Bayer Leverkusen",
       "league": "German Bundesliga",
+      "goals": [
+        {
+          "postId": "1t855fv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t855fv",
+          "scorer": "Aleix Garcia",
+          "minute": 1,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/90a3d0f2",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1778333576000
+        },
+        {
+          "postId": "1t858w9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t858w9",
+          "scorer": "Ermedin Demirovic",
+          "minute": 6,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/84b53954",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1778333818000
+        },
+        {
+          "postId": "1t86i8u",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t86i8u",
+          "scorer": "Maximilian Mittelstädt",
+          "minute": 45,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/5123270a",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1778336918000
+        },
+        {
+          "postId": "1t8752x",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t8752x",
+          "scorer": "Deniz Undav",
+          "minute": 58,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/cdd62898",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1778338430000
+        }
+      ]
+    },
+    {
+      "home": "Stuttgart",
+      "away": "Bayer Leverkusen",
+      "league": "Rest of World",
       "goals": [
         {
           "postId": "1t855fv",
