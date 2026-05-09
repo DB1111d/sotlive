@@ -1,5 +1,79 @@
 {
-  "updated": "2026-05-09T11:10:42Z",
+  "updated": "2026-05-09T11:59:59Z",
   "date": "2026-05-09",
-  "matches": []
+  "matches": [
+    {
+      "home": "Holstein Kiel",
+      "away": "Magdeburg",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1t82ov4",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t82ov4",
+          "scorer": "Jean Hugonet",
+          "minute": 40,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/b555ce77",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1778326974000
+        },
+        {
+          "postId": "1t82ujw",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t82ujw",
+          "scorer": "Dariusz Stalmach",
+          "minute": 45,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/7cbff584",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1778327433000
+        }
+      ]
+    },
+    {
+      "home": "Liverpool",
+      "away": "Chelsea",
+      "league": "Premier League",
+      "goals": [
+        {
+          "postId": "1t82knv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t82knv",
+          "scorer": "Gravenberch",
+          "minute": 6,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/nF23kqKhaeYZQpR/watch",
+          "videoEmbed": "https://streamain.com/nF23kqKhaeYZQpR/watch",
+          "directMp4": null,
+          "postedAt": 1778326620000
+        }
+      ]
+    },
+    {
+      "home": "Eintracht Braunschweig",
+      "away": "Dynamo Dresden",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1t82b0e",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t82b0e",
+          "scorer": "Florian Flick",
+          "minute": 20,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/d5a3d3c9",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1778325780000
+        }
+      ]
+    }
+  ]
 }
