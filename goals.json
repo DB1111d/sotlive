@@ -1,7 +1,40 @@
 {
-  "updated": "2026-05-10T13:55:24Z",
+  "updated": "2026-05-10T14:50:47Z",
   "date": "2026-05-10",
   "matches": [
+    {
+      "home": "Hamburger SV",
+      "away": "SC Freiburg",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1t97qg6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t97qg6",
+          "scorer": "Bakery Jatta",
+          "minute": 14,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/fe3b4f74",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1778421638000
+        },
+        {
+          "postId": "1t97ftx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t97ftx",
+          "scorer": "Igor Matanovic",
+          "minute": 16,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/c04aed06",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1778420916000
+        }
+      ]
+    },
     {
       "home": "Cremonese",
       "away": "Pisa",
@@ -19,26 +52,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/4982xnyveb0h1/CMAF_720.mp4?source=fallback",
           "postedAt": 1778421069000
-        }
-      ]
-    },
-    {
-      "home": "Hamburger SV",
-      "away": "SC Freiburg",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1t97ftx",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1t97ftx",
-          "scorer": "Igor Matanovic",
-          "minute": 16,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/c04aed06",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1778420916000
         }
       ]
     },
