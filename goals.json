@@ -1,7 +1,80 @@
 {
-  "updated": "2026-05-10T12:04:45Z",
+  "updated": "2026-05-10T13:55:24Z",
   "date": "2026-05-10",
   "matches": [
+    {
+      "home": "Cremonese",
+      "away": "Pisa",
+      "league": "Serie A",
+      "goals": [
+        {
+          "postId": "1t97i0q",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t97i0q",
+          "scorer": "Jamie Vardy",
+          "minute": 31,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/4982xnyveb0h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/4982xnyveb0h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1778421069000
+        }
+      ]
+    },
+    {
+      "home": "Hamburger SV",
+      "away": "SC Freiburg",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1t97ftx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t97ftx",
+          "scorer": "Igor Matanovic",
+          "minute": 16,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/c04aed06",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1778420916000
+        }
+      ]
+    },
+    {
+      "home": "Wisła Płock",
+      "away": "Motor Lublin",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1t9794o",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t9794o",
+          "scorer": "Bartosz Wolski",
+          "minute": 7,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/3vkvkm3zcb0h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/3vkvkm3zcb0h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1778420438000
+        },
+        {
+          "postId": "1t97b6t",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t97b6t",
+          "scorer": "Karol Czubak",
+          "minute": 31,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/sfd0xikfdb0h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/sfd0xikfdb0h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1778420591000
+        }
+      ]
+    },
     {
       "home": "Fortuna Düsseldorf",
       "away": "Elversberg",
@@ -19,6 +92,151 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1778414607000
+        },
+        {
+          "postId": "1t95dim",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t95dim",
+          "scorer": "Cedric Itten",
+          "minute": 43,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/2e88e9e4",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1778415377000
+        },
+        {
+          "postId": "1t95yxs",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t95yxs",
+          "scorer": "Cedric Itten",
+          "minute": 51,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/9bade88a",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1778417105000
+        },
+        {
+          "postId": "1t971k7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t971k7",
+          "scorer": "Own Goal",
+          "minute": 90,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/04595762",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1778419900000
+        }
+      ]
+    },
+    {
+      "home": "Hertha BSC",
+      "away": "Greuther Fürth",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1t9634x",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t9634x",
+          "scorer": "Kennet Eichhorn",
+          "minute": 55,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/da5e9590",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1778417432000
+        },
+        {
+          "postId": "1t96s21",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t96s21",
+          "scorer": "Michael Cuisance",
+          "minute": 84,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/31db3b27",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1778419230000
+        },
+        {
+          "postId": "1t96v78",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t96v78",
+          "scorer": "Noel Futkeu",
+          "minute": 88,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/dc2ce64a",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1778419454000
+        }
+      ]
+    },
+    {
+      "home": "Celtic",
+      "away": "Rangers",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1t95nv3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t95nv3",
+          "scorer": "Maeda",
+          "minute": null,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/cyawzd7g0b0h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/cyawzd7g0b0h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1778416212000
+        }
+      ]
+    },
+    {
+      "home": "Znicz Pruszków",
+      "away": "Polonia Bytom",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1t95eud",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t95eud",
+          "scorer": "Konrad Andrzejczak",
+          "minute": 54,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/8hnmik46ya0h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/8hnmik46ya0h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1778415483000
+        }
+      ]
+    },
+    {
+      "home": "Hellas Verona",
+      "away": "Como",
+      "league": "Serie A",
+      "goals": [
+        {
+          "postId": "1t957li",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1t957li",
+          "scorer": "Anastasios Douvikas",
+          "minute": 71,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/shxpYK8PgVqeNv7/watch",
+          "videoEmbed": "https://streamain.com/shxpYK8PgVqeNv7/watch",
+          "directMp4": null,
+          "postedAt": 1778414915000
         }
       ]
     },
