@@ -1,46 +1,9 @@
 {
-  "updated": "2026-05-11 17:18 EDT",
+  "updated": "2026-05-11 23:23 EDT",
   "days": {
     "20260511": {
       "date": "Monday, May 11",
-      "games": [
-        {
-          "league": "Premier League",
-          "time": "3:00 PM",
-          "match": "Tottenham Hotspur vs Leeds United",
-          "source": "USA Network",
-          "kick_utc": "2026-05-11T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "3:00 PM",
-          "match": "Millwall vs Hull City",
-          "source": "Paramount+",
-          "kick_utc": "2026-05-11T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/391.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png"
-        },
-        {
-          "league": "Serie A",
-          "time": "2:45 PM",
-          "match": "Napoli vs Bologna",
-          "source": "Paramount+",
-          "kick_utc": "2026-05-11T18:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png"
-        },
-        {
-          "league": "La Liga",
-          "time": "3:00 PM",
-          "match": "Rayo Vallecano vs Girona",
-          "source": "ESPN+",
-          "kick_utc": "2026-05-11T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png"
-        }
-      ]
+      "games": []
     },
     "20260512": {
       "date": "Tuesday, May 12",
