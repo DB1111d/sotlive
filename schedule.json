@@ -1,18 +1,9 @@
 {
-  "updated": "2026-05-14 13:50 EDT",
+  "updated": "2026-05-14 17:10 EDT",
   "days": {
     "20260514": {
       "date": "Thursday, May 14",
       "games": [
-        {
-          "league": "La Liga",
-          "time": "1:00 PM",
-          "match": "Valencia vs Rayo Vallecano",
-          "source": "ESPN+",
-          "kick_utc": "2026-05-14T17:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png"
-        },
         {
           "league": "La Liga",
           "time": "2:00 PM",
@@ -345,46 +336,46 @@
         },
         {
           "league": "Serie A",
-          "time": "6:30 AM",
+          "time": "6:00 AM",
           "match": "AS Roma vs Lazio",
           "source": "Paramount+",
-          "kick_utc": "2026-05-17T10:30Z",
+          "kick_utc": "2026-05-17T10:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png"
         },
         {
           "league": "Serie A",
-          "time": "6:30 AM",
+          "time": "6:00 AM",
           "match": "Como vs Parma",
           "source": "Paramount+",
-          "kick_utc": "2026-05-17T10:30Z",
+          "kick_utc": "2026-05-17T10:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png"
         },
         {
           "league": "Serie A",
-          "time": "6:30 AM",
+          "time": "6:00 AM",
           "match": "Genoa vs AC Milan",
           "source": "Paramount+",
-          "kick_utc": "2026-05-17T10:30Z",
+          "kick_utc": "2026-05-17T10:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png"
         },
         {
           "league": "Serie A",
-          "time": "6:30 AM",
+          "time": "6:00 AM",
           "match": "Juventus vs Fiorentina",
           "source": "Paramount+",
-          "kick_utc": "2026-05-17T10:30Z",
+          "kick_utc": "2026-05-17T10:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png"
         },
         {
           "league": "Serie A",
-          "time": "6:30 AM",
+          "time": "6:00 AM",
           "match": "Pisa vs Napoli",
           "source": "Paramount+",
-          "kick_utc": "2026-05-17T10:30Z",
+          "kick_utc": "2026-05-17T10:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3956.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png"
         },
