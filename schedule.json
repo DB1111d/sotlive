@@ -1,10 +1,6 @@
 {
-  "updated": "2026-05-14 23:34 EDT",
+  "updated": "2026-05-15 02:56 EDT",
   "days": {
-    "20260514": {
-      "date": "Thursday, May 14",
-      "games": []
-    },
     "20260515": {
       "date": "Friday, May 15",
       "games": [
@@ -589,6 +585,47 @@
           "kick_utc": "2026-05-18T19:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/379.png"
+        }
+      ]
+    },
+    "20260519": {
+      "date": "Tuesday, May 19",
+      "games": [
+        {
+          "league": "Premier League",
+          "time": "2:30 PM",
+          "match": "AFC Bournemouth vs Manchester City",
+          "source": "USA Network",
+          "kick_utc": "2026-05-19T18:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png"
+        },
+        {
+          "league": "Premier League",
+          "time": "3:15 PM",
+          "match": "Chelsea vs Tottenham Hotspur",
+          "source": "Peacock",
+          "kick_utc": "2026-05-19T19:15Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "7:30 PM",
+          "match": "Orlando City SC vs Atlanta United FC",
+          "source": "Paramount+",
+          "kick_utc": "2026-05-19T23:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/12011.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18418.png"
+        },
+        {
+          "league": "US Open Cup",
+          "time": "8:00 PM",
+          "match": "St. Louis CITY SC vs Houston Dynamo FC",
+          "source": "CBSSN \u00b7 Paramount+",
+          "kick_utc": "2026-05-20T00:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6077.png"
         }
       ]
     }
