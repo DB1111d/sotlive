@@ -1,19 +1,9 @@
 {
-  "updated": "2026-05-15 17:01 EDT",
+  "updated": "2026-05-15 22:57 EDT",
   "days": {
     "20260515": {
       "date": "Friday, May 15",
-      "games": [
-        {
-          "league": "Premier League",
-          "time": "3:00 PM",
-          "match": "Aston Villa vs Liverpool",
-          "source": "Peacock",
-          "kick_utc": "2026-05-15T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
-        }
-      ]
+      "games": []
     },
     "20260516": {
       "date": "Saturday, May 16",
