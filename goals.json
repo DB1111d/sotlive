@@ -1,5 +1,26 @@
 {
-  "updated": "2026-05-17T04:31:11Z",
+  "updated": "2026-05-17T07:26:45Z",
   "date": "2026-05-17",
-  "matches": []
+  "matches": [
+    {
+      "home": "San Jose Earthquakes",
+      "away": "FC Dallas",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tffecu",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tffecu",
+          "scorer": "Sam Sarver",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/vmd92p21nm1h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/vmd92p21nm1h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1778992852000
+        }
+      ]
+    }
+  ]
 }
