@@ -1,7 +1,27 @@
 {
-  "updated": "2026-05-18T20:16:03Z",
+  "updated": "2026-05-18T21:45:18Z",
   "date": "2026-05-18",
   "matches": [
+    {
+      "home": "Arsenal",
+      "away": "Burnley",
+      "league": "Premier League",
+      "goals": [
+        {
+          "postId": "1tgyncr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tgyncr",
+          "scorer": "Kai Havertz 37‎'‎",
+          "minute": null,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/e4f38c90",
+          "videoEmbed": "https://streamff.link/v/e4f38c90",
+          "directMp4": null,
+          "postedAt": 1779133045000
+        }
+      ]
+    },
     {
       "home": "Arka Gdynia",
       "away": "Bruk-Bet Termalica Nieciecza",
