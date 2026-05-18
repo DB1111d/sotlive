@@ -1,18 +1,9 @@
 {
-  "updated": "2026-05-17 16:53 EDT",
+  "updated": "2026-05-17 23:46 EDT",
   "days": {
     "20260517": {
       "date": "Sunday, May 17",
       "games": [
-        {
-          "league": "MLS",
-          "time": "6:00 PM",
-          "match": "Inter Miami CF vs Portland Timbers",
-          "source": "Apple TV",
-          "kick_utc": "2026-05-17T22:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9723.png"
-        },
         {
           "league": "MLS",
           "time": "8:00 PM",
@@ -21,123 +12,6 @@
           "kick_utc": "2026-05-18T00:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png"
-        },
-        {
-          "league": "Serie A",
-          "time": "2:45 PM",
-          "match": "Cagliari vs Torino",
-          "source": "Paramount+",
-          "kick_utc": "2026-05-17T18:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png"
-        },
-        {
-          "league": "Serie A",
-          "time": "2:45 PM",
-          "match": "Sassuolo vs Lecce",
-          "source": "Paramount+",
-          "kick_utc": "2026-05-17T18:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png"
-        },
-        {
-          "league": "Serie A",
-          "time": "2:45 PM",
-          "match": "Udinese vs Cremonese",
-          "source": "Paramount+",
-          "kick_utc": "2026-05-17T18:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4050.png"
-        },
-        {
-          "league": "La Liga",
-          "time": "1:00 PM",
-          "match": "Athletic Club vs Celta Vigo",
-          "source": "ESPN+",
-          "kick_utc": "2026-05-17T17:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png"
-        },
-        {
-          "league": "La Liga",
-          "time": "1:00 PM",
-          "match": "Atl\u00e9tico Madrid vs Girona",
-          "source": "ESPN+",
-          "kick_utc": "2026-05-17T17:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png"
-        },
-        {
-          "league": "La Liga",
-          "time": "1:00 PM",
-          "match": "Elche vs Getafe",
-          "source": "ESPN+",
-          "kick_utc": "2026-05-17T17:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png"
-        },
-        {
-          "league": "La Liga",
-          "time": "1:00 PM",
-          "match": "Levante vs Mallorca",
-          "source": "ESPN+",
-          "kick_utc": "2026-05-17T17:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/84.png"
-        },
-        {
-          "league": "La Liga",
-          "time": "1:00 PM",
-          "match": "Osasuna vs Espanyol",
-          "source": "ESPN+",
-          "kick_utc": "2026-05-17T17:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png"
-        },
-        {
-          "league": "La Liga",
-          "time": "1:00 PM",
-          "match": "Rayo Vallecano vs Villarreal",
-          "source": "ESPN+",
-          "kick_utc": "2026-05-17T17:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png"
-        },
-        {
-          "league": "La Liga",
-          "time": "1:00 PM",
-          "match": "Real Oviedo vs Alav\u00e9s",
-          "source": "ESPN+",
-          "kick_utc": "2026-05-17T17:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/92.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png"
-        },
-        {
-          "league": "La Liga",
-          "time": "1:00 PM",
-          "match": "Real Sociedad vs Valencia",
-          "source": "ESPN+",
-          "kick_utc": "2026-05-17T17:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png"
-        },
-        {
-          "league": "La Liga",
-          "time": "1:00 PM",
-          "match": "Sevilla vs Real Madrid",
-          "source": "ESPN+",
-          "kick_utc": "2026-05-17T17:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png"
-        },
-        {
-          "league": "La Liga",
-          "time": "3:15 PM",
-          "match": "Barcelona vs Real Betis",
-          "source": "ESPN+",
-          "kick_utc": "2026-05-17T19:15Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png"
         }
       ]
     },
