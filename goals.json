@@ -1,7 +1,73 @@
 {
-  "updated": "2026-05-19T19:24:42Z",
+  "updated": "2026-05-19T20:57:55Z",
   "date": "2026-05-19",
   "matches": [
+    {
+      "home": "Chelsea",
+      "away": "Tottenham Hotspur",
+      "league": "Premier League",
+      "goals": [
+        {
+          "postId": "1thxps0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1thxps0",
+          "scorer": "E. Fernández",
+          "minute": 18,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/2ff00de3",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1779219219000
+        },
+        {
+          "postId": "1thzlzv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1thzlzv",
+          "scorer": "Andrey Santos",
+          "minute": 67,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/e769882c",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1779223144000
+        },
+        {
+          "postId": "1thzsf3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1thzsf3",
+          "scorer": "Richarlison",
+          "minute": 74,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/5c084ba9",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1779223522000
+        }
+      ]
+    },
+    {
+      "home": "Morocco U17",
+      "away": "Egypt U17",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1thzjd0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1thzjd0",
+          "scorer": "Ziad Saoudi",
+          "minute": 49,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/of2u3xo1n52h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/of2u3xo1n52h1/CMAF_480.mp4?source=fallback",
+          "postedAt": 1779222999000
+        }
+      ]
+    },
     {
       "home": "AFC Bournemouth",
       "away": "Manchester City",
@@ -19,6 +85,98 @@
           "videoEmbed": "https://streamff.link/v/6a5df7a4",
           "directMp4": null,
           "postedAt": 1779217778000
+        },
+        {
+          "postId": "1thz5f3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1thz5f3",
+          "scorer": "Erling Haaland",
+          "minute": 90,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/31935a37",
+          "videoEmbed": "https://streamff.link/v/31935a37",
+          "directMp4": null,
+          "postedAt": 1779222200000
+        }
+      ]
+    },
+    {
+      "home": "Rouen",
+      "away": "Laval",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1thyyd3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1thyyd3",
+          "scorer": "Cyril Mandouki",
+          "minute": 18,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/tQBnqQTyOWsLEpb/watch",
+          "videoEmbed": "https://streamain.com/tQBnqQTyOWsLEpb/watch",
+          "directMp4": null,
+          "postedAt": 1779221797000
+        },
+        {
+          "postId": "1thyyx3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1thyyx3",
+          "scorer": "Valentin Fuss penalty",
+          "minute": 48,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/HNyAH8fy6USPk9k/watch",
+          "videoEmbed": "https://streamain.com/HNyAH8fy6USPk9k/watch",
+          "directMp4": null,
+          "postedAt": 1779221832000
+        }
+      ]
+    },
+    {
+      "home": "Monza",
+      "away": "Juve Stabia",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1thy6if",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1thy6if",
+          "scorer": "Patrick Cutrone",
+          "minute": 85,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/qr5llqi0f52h1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1779220181000
+        },
+        {
+          "postId": "1thyaon",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1thyaon",
+          "scorer": "Rares Burnete",
+          "minute": 90,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/qmpck4mqf52h1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1779220422000
+        },
+        {
+          "postId": "1thyf5u",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1thyf5u",
+          "scorer": "Patrick Cutrone",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/sxq6raajg52h1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1779220686000
         }
       ]
     },
