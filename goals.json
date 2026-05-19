@@ -1,7 +1,27 @@
 {
-  "updated": "2026-05-19T17:24:14Z",
+  "updated": "2026-05-19T19:24:42Z",
   "date": "2026-05-19",
   "matches": [
+    {
+      "home": "AFC Bournemouth",
+      "away": "Manchester City",
+      "league": "Premier League",
+      "goals": [
+        {
+          "postId": "1thwzig",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1thwzig",
+          "scorer": "Eli Junior Kroupi",
+          "minute": 39,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/6a5df7a4",
+          "videoEmbed": "https://streamff.link/v/6a5df7a4",
+          "directMp4": null,
+          "postedAt": 1779217778000
+        }
+      ]
+    },
     {
       "home": "Tallinna Kalev III",
       "away": "Ida-Viru JK Noova",
