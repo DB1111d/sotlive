@@ -1,7 +1,53 @@
 {
-  "updated": "2026-05-20T18:13:44Z",
+  "updated": "2026-05-20T20:30:37Z",
   "date": "2026-05-20",
   "matches": [
+    {
+      "home": "SC Freiburg",
+      "away": "Aston Villa",
+      "league": "UEFA Europa League",
+      "goals": [
+        {
+          "postId": "1tiwmlb",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tiwmlb",
+          "scorer": "Youri Tielemans",
+          "minute": 42,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/d4f50fd0",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1779306195000
+        },
+        {
+          "postId": "1tiwszq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tiwszq",
+          "scorer": "Emiliano Buendia",
+          "minute": 45,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/13a5be3b",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1779306575000
+        },
+        {
+          "postId": "1tixn7k",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tixn7k",
+          "scorer": "Morgan Rogers",
+          "minute": 58,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://streamin.link/v/46d110a3",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1779308336000
+        }
+      ]
+    },
     {
       "home": "Palermo",
       "away": "Catanzaro",
@@ -19,6 +65,19 @@
           "videoEmbed": "https://streamain.com/umWQZDj6yKZ2sYX/watch",
           "directMp4": null,
           "postedAt": 1779300682000
+        },
+        {
+          "postId": "1tix5xf",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tix5xf",
+          "scorer": "Rui Modesto",
+          "minute": 89,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/jZPf8WMxotSDNq6/watch",
+          "videoEmbed": "https://streamain.com/jZPf8WMxotSDNq6/watch",
+          "directMp4": null,
+          "postedAt": 1779307313000
         }
       ]
     },
