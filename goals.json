@@ -1,5 +1,72 @@
 {
-  "updated": "2026-05-20T15:54:44Z",
+  "updated": "2026-05-20T18:13:44Z",
   "date": "2026-05-20",
-  "matches": []
+  "matches": [
+    {
+      "home": "Palermo",
+      "away": "Catanzaro",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1titw1m",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1titw1m",
+          "scorer": "Joel Pohjanpalo",
+          "minute": 3,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/umWQZDj6yKZ2sYX/watch",
+          "videoEmbed": "https://streamain.com/umWQZDj6yKZ2sYX/watch",
+          "directMp4": null,
+          "postedAt": 1779300682000
+        }
+      ]
+    },
+    {
+      "home": "Willem II",
+      "away": "FC Volendam",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tirv37",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tirv37",
+          "scorer": "Bilal Ould-Chikh",
+          "minute": 13,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/FFkQXtSUrEDAYvy/watch",
+          "videoEmbed": "https://streamain.com/FFkQXtSUrEDAYvy/watch",
+          "directMp4": null,
+          "postedAt": 1779296553000
+        },
+        {
+          "postId": "1tirzff",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tirzff",
+          "scorer": "Henk Veerman",
+          "minute": 18,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/n2PupCy9mUavAAJ/watch",
+          "videoEmbed": "https://streamain.com/n2PupCy9mUavAAJ/watch",
+          "directMp4": null,
+          "postedAt": 1779296810000
+        },
+        {
+          "postId": "1titnvv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1titnvv",
+          "scorer": "Nick Doodeman",
+          "minute": 54,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/7YW4HRUDesSyX16/watch",
+          "videoEmbed": "https://streamain.com/7YW4HRUDesSyX16/watch",
+          "directMp4": null,
+          "postedAt": 1779300229000
+        }
+      ]
+    }
+  ]
 }
