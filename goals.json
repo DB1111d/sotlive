@@ -1,7 +1,27 @@
 {
-  "updated": "2026-05-23T12:42:15Z",
+  "updated": "2026-05-23T14:16:17Z",
   "date": "2026-05-23",
   "matches": [
+    {
+      "home": "Sigma Olomouc",
+      "away": "Karviná",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tlfzrc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tlfzrc",
+          "scorer": "Baráth",
+          "minute": 29,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/qijfnc6lwv2h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/qijfnc6lwv2h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1779541544000
+        }
+      ]
+    },
     {
       "home": "Galway United",
       "away": "Bohemians",
