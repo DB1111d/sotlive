@@ -1,7 +1,73 @@
 {
-  "updated": "2026-05-23T23:54:42Z",
-  "date": "2026-05-23",
+  "updated": "2026-05-24T02:57:29Z",
+  "date": "2026-05-24",
   "matches": [
+    {
+      "home": "San Diego FC",
+      "away": "Vancouver Whitecaps",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tlz4k2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tlz4k2",
+          "scorer": "Brian White",
+          "minute": 30,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/xedcnwy4vz2h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/xedcnwy4vz2h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1779588849000
+        }
+      ]
+    },
+    {
+      "home": "Flamengo",
+      "away": "Palmeiras",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tlx54j",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tlx54j",
+          "scorer": "Flaco López",
+          "minute": 38,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/izz5zmakez2h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/izz5zmakez2h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1779583248000
+        },
+        {
+          "postId": "1tlxywm",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tlxywm",
+          "scorer": "Allan",
+          "minute": 56,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/rpdc0eqllz2h1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1779585598000
+        },
+        {
+          "postId": "1tlyrhf",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tlyrhf",
+          "scorer": "Paulinho",
+          "minute": 90,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/6lpllvq8sz2h1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1779587836000
+        }
+      ]
+    },
     {
       "home": "Grêmio",
       "away": "Santos",
