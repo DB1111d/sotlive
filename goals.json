@@ -1,7 +1,27 @@
 {
-  "updated": "2026-05-24T13:52:22Z",
+  "updated": "2026-05-24T15:00:53Z",
   "date": "2026-05-24",
   "matches": [
+    {
+      "home": "Wieczysta Kraków",
+      "away": "Chrobry Głogów",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tmeb8y",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tmeb8y",
+          "scorer": "Stefan Feiertag",
+          "minute": 19,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/0lm2tcwfm33h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/0lm2tcwfm33h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1779634324000
+        }
+      ]
+    },
     {
       "home": "Bolton",
       "away": "Stockport",
@@ -58,6 +78,19 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1779630558000
+        },
+        {
+          "postId": "1tmd0pg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tmd0pg",
+          "scorer": "Rúben Rodrigues penalty",
+          "minute": 90,
+          "homeScore": 4,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/13xy0kxed33h1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1779631274000
         }
       ]
     },
