@@ -1,7 +1,259 @@
 {
-  "updated": "2026-05-24T15:00:53Z",
+  "updated": "2026-05-24T16:13:55Z",
   "date": "2026-05-24",
   "matches": [
+    {
+      "home": "Brighton & Hove Albion",
+      "away": "Manchester Utd",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tmgfj0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tmgfj0",
+          "scorer": "Bruno Fernandes",
+          "minute": 48,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://streamin.link/v/4d384ea0",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1779639129000
+        }
+      ]
+    },
+    {
+      "home": "Manchester City",
+      "away": "Aston Villa",
+      "league": "Premier League",
+      "goals": [
+        {
+          "postId": "1tmf65g",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tmf65g",
+          "scorer": "Antoine Semenyo",
+          "minute": 23,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/7xyrm76as33h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/7xyrm76as33h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1779636269000
+        },
+        {
+          "postId": "1tmgffl",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tmgffl",
+          "scorer": "",
+          "minute": null,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/301ca111",
+          "videoEmbed": "https://streamff.link/v/301ca111",
+          "directMp4": null,
+          "postedAt": 1779639122000
+        }
+      ]
+    },
+    {
+      "home": "Brighton & Hove Albion",
+      "away": "Manchester United",
+      "league": "Premier League",
+      "goals": [
+        {
+          "postId": "1tmfgbz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tmfgbz",
+          "scorer": "Patrick Dorgu 33‎'",
+          "minute": null,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/d83be686",
+          "videoEmbed": "https://streamff.link/v/d83be686",
+          "directMp4": null,
+          "postedAt": 1779636918000
+        },
+        {
+          "postId": "1tmfq2h",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tmfq2h",
+          "scorer": "Bryan Mbeumo 44‎'",
+          "minute": null,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamff.link/v/9d6f7782",
+          "videoEmbed": "https://streamff.link/v/9d6f7782",
+          "directMp4": null,
+          "postedAt": 1779637537000
+        },
+        {
+          "postId": "1tmgf7x",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tmgf7x",
+          "scorer": "Bruno Fernandes 48‎'",
+          "minute": null,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://streamff.link/v/c55cdb9e",
+          "videoEmbed": "https://streamff.link/v/c55cdb9e",
+          "directMp4": null,
+          "postedAt": 1779639109000
+        }
+      ]
+    },
+    {
+      "home": "Sunderland",
+      "away": "Chelsea",
+      "league": "Premier League",
+      "goals": [
+        {
+          "postId": "1tmf8l7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tmf8l7",
+          "scorer": "Trai Hume",
+          "minute": 26,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/0fb7b918",
+          "videoEmbed": "https://streamff.link/v/0fb7b918",
+          "directMp4": null,
+          "postedAt": 1779636426000
+        },
+        {
+          "postId": "1tmge8i",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tmge8i",
+          "scorer": "M. Gusto",
+          "minute": 50,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/e5f0868e",
+          "videoEmbed": "https://streamff.link/v/e5f0868e",
+          "directMp4": null,
+          "postedAt": 1779639048000
+        }
+      ]
+    },
+    {
+      "home": "Tottenham Hotspur",
+      "away": "Everton",
+      "league": "Premier League",
+      "goals": [
+        {
+          "postId": "1tmfowt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tmfowt",
+          "scorer": "João Palhinha",
+          "minute": 43,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/0fb7b918",
+          "videoEmbed": "https://streamff.link/v/0fb7b918",
+          "directMp4": null,
+          "postedAt": 1779637464000
+        }
+      ]
+    },
+    {
+      "home": "Crystal Palace",
+      "away": "Arsenal",
+      "league": "Premier League",
+      "goals": [
+        {
+          "postId": "1tmfopj",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tmfopj",
+          "scorer": "Gabriel Jesus",
+          "minute": 42,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/e6d36fb4",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1779637451000
+        }
+      ]
+    },
+    {
+      "home": "Nottingham Forest",
+      "away": "AFC Bournemouth",
+      "league": "Premier League",
+      "goals": [
+        {
+          "postId": "1tmfma2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tmfma2",
+          "scorer": "Morgan Gibbs-White",
+          "minute": 34,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/Q9AV1buaaWHn1mt/watch",
+          "videoEmbed": "https://streamain.com/Q9AV1buaaWHn1mt/watch",
+          "directMp4": null,
+          "postedAt": 1779637298000
+        }
+      ]
+    },
+    {
+      "home": "ŁKS Łódź",
+      "away": "Górnik Łęczna",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tmf8ul",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tmf8ul",
+          "scorer": "Adam Deja free-kick",
+          "minute": 43,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/d439z3qqs33h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/d439z3qqs33h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1779636445000
+        }
+      ]
+    },
+    {
+      "home": "Fulham",
+      "away": "Newcastle United",
+      "league": "Premier League",
+      "goals": [
+        {
+          "postId": "1tmf3vn",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tmf3vn",
+          "scorer": "Issa Diop",
+          "minute": 20,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/f37ed5b1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1779636120000
+        }
+      ]
+    },
+    {
+      "home": "Burnley",
+      "away": "Wolverhampton Wanderers",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tmeqh6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tmeqh6",
+          "scorer": "Adam Armstrong penalty",
+          "minute": 5,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/nz9sjmzcp33h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/nz9sjmzcp33h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1779635279000
+        }
+      ]
+    },
     {
       "home": "Wieczysta Kraków",
       "away": "Chrobry Głogów",
@@ -19,6 +271,19 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/0lm2tcwfm33h1/CMAF_720.mp4?source=fallback",
           "postedAt": 1779634324000
+        },
+        {
+          "postId": "1tmeo4a",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tmeo4a",
+          "scorer": "Sebastian Bonecki",
+          "minute": 33,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/vmpenldvo33h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/vmpenldvo33h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1779635131000
         }
       ]
     },
