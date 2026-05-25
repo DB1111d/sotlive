@@ -1,5 +1,125 @@
 {
-  "updated": "2026-05-25T12:13:29Z",
+  "updated": "2026-05-25T15:28:51Z",
   "date": "2026-05-25",
-  "matches": []
+  "matches": [
+    {
+      "home": "EB/Streymur",
+      "away": "NSÍ Runavík",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tncb9g",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tncb9g",
+          "scorer": "Petur Knudsen",
+          "minute": 55,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/qvkeqzkmwa3h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/qvkeqzkmwa3h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1779722472000
+        }
+      ]
+    },
+    {
+      "home": "Notts County",
+      "away": "Salford",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tnb1bb",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tnb1bb",
+          "scorer": "Alassana Jatta",
+          "minute": 32,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/wt134ufgoa3h1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1779719730000
+        },
+        {
+          "postId": "1tnbdtx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tnbdtx",
+          "scorer": "Lucas Ness",
+          "minute": 45,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/fzjqg0frqa3h1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1779720504000
+        }
+      ]
+    },
+    {
+      "home": "Klaksvík",
+      "away": "AB Argir",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tnb48m",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tnb48m",
+          "scorer": "Deni Pavlovic",
+          "minute": 34,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/rt5q6g80pa3h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/rt5q6g80pa3h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1779719909000
+        },
+        {
+          "postId": "1tnb9el",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tnb9el",
+          "scorer": "Jákup Andreasen",
+          "minute": 42,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/ong1gf5zpa3h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ong1gf5zpa3h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1779720234000
+        }
+      ]
+    },
+    {
+      "home": "Croatia U17",
+      "away": "Belgium U17",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tn7wgz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tn7wgz",
+          "scorer": "Jelle Driessen",
+          "minute": 9,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/ICfL74z6XGxZTfd/watch",
+          "videoEmbed": "https://streamain.com/ICfL74z6XGxZTfd/watch",
+          "directMp4": null,
+          "postedAt": 1779712583000
+        },
+        {
+          "postId": "1tn7wvg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tn7wvg",
+          "scorer": "Tinus Moorthamer",
+          "minute": 13,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/P8iBArP7o3eb61N/watch",
+          "videoEmbed": "https://streamain.com/P8iBArP7o3eb61N/watch",
+          "directMp4": null,
+          "postedAt": 1779712611000
+        }
+      ]
+    }
+  ]
 }
