@@ -1,7 +1,40 @@
 {
-  "updated": "2026-05-26T19:27:30Z",
+  "updated": "2026-05-26T21:10:43Z",
   "date": "2026-05-26",
   "matches": [
+    {
+      "home": "Nigeria",
+      "away": "Zimbabwe",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1toj3ke",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1toj3ke",
+          "scorer": "Femi Azeez",
+          "minute": 5,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/d4rdruxDK4lWQAX/watch",
+          "videoEmbed": "https://streamain.com/d4rdruxDK4lWQAX/watch",
+          "directMp4": null,
+          "postedAt": 1779827095000
+        },
+        {
+          "postId": "1toj40i",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1toj40i",
+          "scorer": "Femi Azeez",
+          "minute": 63,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/rHxgsoZfAgRPvIM/watch",
+          "videoEmbed": "https://streamain.com/rHxgsoZfAgRPvIM/watch",
+          "directMp4": null,
+          "postedAt": 1779827118000
+        }
+      ]
+    },
     {
       "home": "Greuther Fürth",
       "away": "RW Essen",
@@ -19,6 +52,19 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1779822236000
+        },
+        {
+          "postId": "1tohqqb",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tohqqb",
+          "scorer": "Branimir Hrgota",
+          "minute": 47,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/9b869754",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1779824321000
         }
       ]
     },
