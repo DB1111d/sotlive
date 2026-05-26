@@ -1,7 +1,27 @@
 {
-  "updated": "2026-05-26T17:00:53Z",
+  "updated": "2026-05-26T19:27:30Z",
   "date": "2026-05-26",
   "matches": [
+    {
+      "home": "Greuther Fürth",
+      "away": "RW Essen",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1togqjx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1togqjx",
+          "scorer": "Noel Futkeu",
+          "minute": 29,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/68554b36",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1779822236000
+        }
+      ]
+    },
     {
       "home": "Italy U17",
       "away": "France U17",
