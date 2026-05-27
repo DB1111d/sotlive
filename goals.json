@@ -1,7 +1,27 @@
 {
-  "updated": "2026-05-27T19:49:26Z",
+  "updated": "2026-05-27T21:51:36Z",
   "date": "2026-05-27",
   "matches": [
+    {
+      "home": "Crystal Palace",
+      "away": "Rayo Vallecano",
+      "league": "UEFA Europa Conference League",
+      "goals": [
+        {
+          "postId": "1tph6l5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tph6l5",
+          "scorer": "J. Mateta",
+          "minute": 51,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/cd1699d6",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1779912755000
+        }
+      ]
+    },
     {
       "home": "Jamaica",
       "away": "India",
@@ -19,6 +39,19 @@
           "videoEmbed": "https://streamain.com/vNa6hafk8Uh3yIk/watch",
           "directMp4": null,
           "postedAt": 1779908113000
+        },
+        {
+          "postId": "1tph3f9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tph3f9",
+          "scorer": "Kaheim Dixon",
+          "minute": 78,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/e8sGPw3f8GPDVVZ/watch",
+          "videoEmbed": "https://streamain.com/e8sGPw3f8GPDVVZ/watch",
+          "directMp4": null,
+          "postedAt": 1779912577000
         }
       ]
     }
