@@ -1,28 +1,9 @@
 {
-  "updated": "2026-05-27 17:55 EDT",
+  "updated": "2026-05-27 23:41 EDT",
   "days": {
     "20260527": {
       "date": "Wednesday, May 27",
       "games": [
-        {
-          "league": "UEFA Europa Conference League",
-          "time": "3:00 PM",
-          "match": "Crystal Palace vs Rayo Vallecano",
-          "source": "CBSSN \u00b7 Paramount+",
-          "kick_utc": "2026-05-27T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
-          "round_label": "Final"
-        },
-        {
-          "league": "USL League One",
-          "time": "7:00 PM",
-          "match": "New York Cosmos vs Union Omaha",
-          "source": "ESPN+",
-          "kick_utc": "2026-05-27T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131582.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20684.png"
-        },
         {
           "league": "USL League One",
           "time": "9:00 PM",
