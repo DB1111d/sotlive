@@ -1,7 +1,126 @@
 {
-  "updated": "2026-05-28T16:33:09Z",
+  "updated": "2026-05-28T19:21:22Z",
   "date": "2026-05-28",
   "matches": [
+    {
+      "home": "Wieczysta Kraków",
+      "away": "Polonia Warszawa",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tqcul9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tqcul9",
+          "scorer": "Stefan Feiertag",
+          "minute": 26,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/b3txqbeydx3h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/b3txqbeydx3h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1779994678000
+        },
+        {
+          "postId": "1tqd020",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tqd020",
+          "scorer": "İlkay Durmuş",
+          "minute": 31,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/p2nr6ufwex3h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/p2nr6ufwex3h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1779994985000
+        },
+        {
+          "postId": "1tqd6mi",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tqd6mi",
+          "scorer": "Lisandro Semedo",
+          "minute": 38,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/u79n1b12gx3h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/u79n1b12gx3h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1779995374000
+        }
+      ]
+    },
+    {
+      "home": "Ireland",
+      "away": "Qatar",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tqcsqn",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tqcsqn",
+          "scorer": "Nathan Collins",
+          "minute": 5,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/m0lbwvdpdx3h1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1779994571000
+        }
+      ]
+    },
+    {
+      "home": "Lokomotive Leipzig",
+      "away": "Würzburger Kickers",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tqbqg3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tqbqg3",
+          "scorer": "Liam Omore",
+          "minute": 50,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/9ffd3a77",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1779992303000
+        }
+      ]
+    },
+    {
+      "home": "Chrobry Głogów",
+      "away": "ŁKS Łódź",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tq9b6b",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tq9b6b",
+          "scorer": "Andreu Arasa",
+          "minute": 61,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/w4epn7bvrw3h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/w4epn7bvrw3h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1779987237000
+        },
+        {
+          "postId": "1tq9qhf",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tq9qhf",
+          "scorer": "Kacper Laskowski",
+          "minute": 76,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/frzk04djuw3h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/frzk04djuw3h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1779988141000
+        }
+      ]
+    },
     {
       "home": "Belgium U17",
       "away": "Spain U17",
