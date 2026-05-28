@@ -1,20 +1,6 @@
 {
-  "updated": "2026-05-27 23:41 EDT",
+  "updated": "2026-05-28 03:59 EDT",
   "days": {
-    "20260527": {
-      "date": "Wednesday, May 27",
-      "games": [
-        {
-          "league": "USL League One",
-          "time": "9:00 PM",
-          "match": "Athletic Club Boise vs Sarasota Paradise",
-          "source": "ESPN+",
-          "kick_utc": "2026-05-28T01:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131581.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22542.png"
-        }
-      ]
-    },
     "20260528": {
       "date": "Thursday, May 28",
       "games": []
@@ -206,6 +192,10 @@
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131579.png"
         }
       ]
+    },
+    "20260601": {
+      "date": "Monday, June 1",
+      "games": []
     }
   }
 }
