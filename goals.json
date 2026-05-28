@@ -1,7 +1,66 @@
 {
-  "updated": "2026-05-28T21:30:01Z",
+  "updated": "2026-05-28T22:54:43Z",
   "date": "2026-05-28",
   "matches": [
+    {
+      "home": "Palmeiras",
+      "away": "Junior",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tqibvv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tqibvv",
+          "scorer": "Jhon Arias",
+          "minute": 6,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/SSkyu0iDHW7wTW4/watch",
+          "videoEmbed": "https://streamain.com/SSkyu0iDHW7wTW4/watch",
+          "directMp4": null,
+          "postedAt": 1780006430000
+        },
+        {
+          "postId": "1tqj010",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tqj010",
+          "scorer": "Luis Muriel",
+          "minute": 36,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/y4gJApXkoVwJ2OP/watch",
+          "videoEmbed": "https://streamain.com/y4gJApXkoVwJ2OP/watch",
+          "directMp4": null,
+          "postedAt": 1780008027000
+        },
+        {
+          "postId": "1tqj4b3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tqj4b3",
+          "scorer": "Allan Elias",
+          "minute": 40,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/TLSSaw25u4IFFyJ/watch",
+          "videoEmbed": "https://streamain.com/TLSSaw25u4IFFyJ/watch",
+          "directMp4": null,
+          "postedAt": 1780008326000
+        },
+        {
+          "postId": "1tqj61b",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tqj61b",
+          "scorer": "Jhon Arias",
+          "minute": 45,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/Jm1tOMyge0GHzPy/watch",
+          "videoEmbed": "https://streamain.com/Jm1tOMyge0GHzPy/watch",
+          "directMp4": null,
+          "postedAt": 1780008445000
+        }
+      ]
+    },
     {
       "home": "Casa Pia",
       "away": "Torreense",
