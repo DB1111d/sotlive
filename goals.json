@@ -1,5 +1,26 @@
 {
-  "updated": "2026-05-28T08:40:48Z",
+  "updated": "2026-05-28T12:06:07Z",
   "date": "2026-05-28",
-  "matches": []
+  "matches": [
+    {
+      "home": "Belgium U17",
+      "away": "Spain U17",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tq1cbx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tq1cbx",
+          "scorer": "Abdou Badji",
+          "minute": 9,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/Cx3ZYMukTZL5IJz/watch",
+          "videoEmbed": "https://streamain.com/Cx3ZYMukTZL5IJz/watch",
+          "directMp4": null,
+          "postedAt": 1779969218000
+        }
+      ]
+    }
+  ]
 }
