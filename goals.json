@@ -1,7 +1,112 @@
 {
-  "updated": "2026-05-29T18:18:23Z",
+  "updated": "2026-05-29T20:41:46Z",
   "date": "2026-05-29",
   "matches": [
+    {
+      "home": "Nice",
+      "away": "Saint-Etienne",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tre2qy",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tre2qy",
+          "scorer": "Jonathan Clauss",
+          "minute": 62,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/91KhXUKq1qdWyj1/watch",
+          "videoEmbed": "https://streamain.com/91KhXUKq1qdWyj1/watch",
+          "directMp4": null,
+          "postedAt": 1780085303000
+        },
+        {
+          "postId": "1trejpq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1trejpq",
+          "scorer": "Zuriko Davitashvili penalty",
+          "minute": 79,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/4l7VEnkZhGqmYgx/watch",
+          "videoEmbed": "https://streamain.com/4l7VEnkZhGqmYgx/watch",
+          "directMp4": null,
+          "postedAt": 1780086322000
+        },
+        {
+          "postId": "1trelyv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1trelyv",
+          "scorer": "Kail Boudache",
+          "minute": 81,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/Ze6aL6ekuT8J4iB/watch",
+          "videoEmbed": "https://streamain.com/Ze6aL6ekuT8J4iB/watch",
+          "directMp4": null,
+          "postedAt": 1780086456000
+        },
+        {
+          "postId": "1tresrl",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tresrl",
+          "scorer": "Elye Wahi",
+          "minute": 87,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/d5UGBAivNvAfqd3/watch",
+          "videoEmbed": "https://streamain.com/d5UGBAivNvAfqd3/watch",
+          "directMp4": null,
+          "postedAt": 1780086855000
+        },
+        {
+          "postId": "1trexbb",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1trexbb",
+          "scorer": "Elye Wahi",
+          "minute": 90,
+          "homeScore": 4,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/e5W9EO5dtjmlk9L/watch",
+          "videoEmbed": "https://streamain.com/e5W9EO5dtjmlk9L/watch",
+          "directMp4": null,
+          "postedAt": 1780087120000
+        }
+      ]
+    },
+    {
+      "home": "Monza",
+      "away": "Catanzaro",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1trbuc3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1trbuc3",
+          "scorer": "Fellipe Jack",
+          "minute": 39,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/ckcGrhao8zI77WK/watch",
+          "videoEmbed": "https://streamain.com/ckcGrhao8zI77WK/watch",
+          "directMp4": null,
+          "postedAt": 1780080885000
+        },
+        {
+          "postId": "1trdiwx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1trdiwx",
+          "scorer": "Ruggero Frosinini",
+          "minute": 78,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/EcRmsTzhmARNZHn/watch",
+          "videoEmbed": "https://streamain.com/EcRmsTzhmARNZHn/watch",
+          "directMp4": null,
+          "postedAt": 1780084149000
+        }
+      ]
+    },
     {
       "home": "Iran",
       "away": "Gambia",
