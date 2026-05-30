@@ -1,7 +1,27 @@
 {
-  "updated": "2026-05-30T15:35:23Z",
+  "updated": "2026-05-30T16:42:23Z",
   "date": "2026-05-30",
   "matches": [
+    {
+      "home": "Paris Saint-Germain",
+      "away": "Arsenal",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ts3xkr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ts3xkr",
+          "scorer": "Kai Havertz",
+          "minute": 6,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/99c21812",
+          "videoEmbed": "https://streamff.link/v/99c21812",
+          "directMp4": null,
+          "postedAt": 1780157219000
+        }
+      ]
+    },
     {
       "home": "Scotland",
       "away": "Curacao",
