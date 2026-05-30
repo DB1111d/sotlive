@@ -1,5 +1,85 @@
 {
-  "updated": "2026-05-30T12:03:35Z",
+  "updated": "2026-05-30T14:03:29Z",
   "date": "2026-05-30",
-  "matches": []
+  "matches": [
+    {
+      "home": "Scotland",
+      "away": "Curacao",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1trz3fn",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1trz3fn",
+          "scorer": "Findlay Curtis",
+          "minute": 45,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/j2XWqz8k8twsEtF/watch",
+          "videoEmbed": "https://streamain.com/j2XWqz8k8twsEtF/watch",
+          "directMp4": null,
+          "postedAt": 1780145383000
+        },
+        {
+          "postId": "1trzzf0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1trzzf0",
+          "scorer": "Tommy Conway.",
+          "minute": 60,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/XCiibTAYfXznbQM/watch",
+          "videoEmbed": "https://streamain.com/XCiibTAYfXznbQM/watch",
+          "directMp4": null,
+          "postedAt": 1780147672000
+        },
+        {
+          "postId": "1ts030e",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ts030e",
+          "scorer": "Shankland",
+          "minute": 65,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/hlsfRE7IKe0ZqOq/watch",
+          "videoEmbed": "https://streamain.com/hlsfRE7IKe0ZqOq/watch",
+          "directMp4": null,
+          "postedAt": 1780147919000
+        },
+        {
+          "postId": "1ts0i8b",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ts0i8b",
+          "scorer": "Ryan Christie",
+          "minute": 81,
+          "homeScore": 4,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/XSl2IjoKOdCCUCT/watch",
+          "videoEmbed": "https://streamain.com/XSl2IjoKOdCCUCT/watch",
+          "directMp4": null,
+          "postedAt": 1780148977000
+        }
+      ]
+    },
+    {
+      "home": "Scotland",
+      "away": "Curaçao",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tryk4a",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tryk4a",
+          "scorer": "Tahith Chong",
+          "minute": 17,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/xl1t7dspp94h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/xl1t7dspp94h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780143904000
+        }
+      ]
+    }
+  ]
 }
