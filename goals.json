@@ -1,7 +1,73 @@
 {
-  "updated": "2026-05-30T21:31:53Z",
+  "updated": "2026-05-30T22:38:20Z",
   "date": "2026-05-30",
   "matches": [
+    {
+      "home": "Bahia",
+      "away": "Botafogo",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tsdbf3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tsdbf3",
+          "scorer": "Huguinho",
+          "minute": 6,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/9rpr6d6wnc4h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/9rpr6d6wnc4h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780179615000
+        },
+        {
+          "postId": "1tsdct0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tsdct0",
+          "scorer": "Own Goal",
+          "minute": 56,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/ksl0qju5oc4h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ksl0qju5oc4h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780179709000
+        },
+        {
+          "postId": "1tsdnkz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tsdnkz",
+          "scorer": "David Duarte",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/x1z4k7bfqc4h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/x1z4k7bfqc4h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780180486000
+        }
+      ]
+    },
+    {
+      "home": "Grêmio",
+      "away": "Corinthians",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tsdenk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tsdenk",
+          "scorer": "André",
+          "minute": 64,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/uh6vwy6moc4h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/uh6vwy6moc4h1/CMAF_360.mp4?source=fallback",
+          "postedAt": 1780179841000
+        }
+      ]
+    },
     {
       "home": "Jamaica",
       "away": "Nigeria",
