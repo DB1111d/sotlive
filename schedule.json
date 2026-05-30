@@ -1,19 +1,9 @@
 {
-  "updated": "2026-05-30 13:06 EDT",
+  "updated": "2026-05-30 16:59 EDT",
   "days": {
     "20260530": {
       "date": "Saturday, May 30",
       "games": [
-        {
-          "league": "UEFA Champions League",
-          "time": "12:00 PM",
-          "match": "Paris Saint-Germain vs Arsenal",
-          "source": "CBS \u00b7 Paramount+",
-          "kick_utc": "2026-05-30T16:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-          "round_label": "Final"
-        },
         {
           "league": "CONCACAF Champions Cup",
           "time": "8:00 PM",
