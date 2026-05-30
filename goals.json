@@ -1,7 +1,27 @@
 {
-  "updated": "2026-05-30T17:46:10Z",
+  "updated": "2026-05-30T19:08:36Z",
   "date": "2026-05-30",
   "matches": [
+    {
+      "home": "Jamaica",
+      "away": "Nigeria",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ts83my",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ts83my",
+          "scorer": "Alhassan Yusuf",
+          "minute": 3,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/en/oYixVh8Fm38LrU7/watch",
+          "videoEmbed": "https://streamain.com/en/oYixVh8Fm38LrU7/watch",
+          "directMp4": null,
+          "postedAt": 1780167060000
+        }
+      ]
+    },
     {
       "home": "Paris Saint-Germain",
       "away": "Arsenal",
