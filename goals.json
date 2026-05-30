@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-30T19:08:36Z",
+  "updated": "2026-05-30T20:16:30Z",
   "date": "2026-05-30",
   "matches": [
     {
@@ -19,6 +19,19 @@
           "videoEmbed": "https://streamain.com/en/oYixVh8Fm38LrU7/watch",
           "directMp4": null,
           "postedAt": 1780167060000
+        },
+        {
+          "postId": "1ts9r5e",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ts9r5e",
+          "scorer": "Terem Moffi",
+          "minute": 59,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/uXgMLGD6ZBkndPT/watch",
+          "videoEmbed": "https://streamain.com/uXgMLGD6ZBkndPT/watch",
+          "directMp4": null,
+          "postedAt": 1780170953000
         }
       ]
     },
