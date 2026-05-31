@@ -1,7 +1,40 @@
 {
-  "updated": "2026-05-31T20:56:24Z",
+  "updated": "2026-05-31T21:59:40Z",
   "date": "2026-05-31",
   "matches": [
+    {
+      "home": "Brazil",
+      "away": "Panama",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tt85sy",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tt85sy",
+          "scorer": "Vinicius Junior",
+          "minute": 2,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/d39de9c8",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1780263172000
+        },
+        {
+          "postId": "1tt8h9t",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tt8h9t",
+          "scorer": "Amir Murillo",
+          "minute": 14,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/4ujf4p2pmj4h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/4ujf4p2pmj4h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780263942000
+        }
+      ]
+    },
     {
       "home": "USA",
       "away": "Senegal",
@@ -47,18 +80,17 @@
           "postedAt": 1780258955000
         },
         {
-          "postId": "1tt70b6",
+          "postId": "1tt7co5",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1tt70b6",
+          "permalink": "https://redd.it/1tt7co5",
           "scorer": "Folarin Balogun",
           "minute": 49,
           "homeScore": 3,
           "awayScore": 1,
-          "videoUrl": "https://v.redd.it/ha1fd8oecj4h1",
+          "videoUrl": "https://streamin.link/v/775d38b8",
           "videoEmbed": null,
-          "directMp4": "https://v.redd.it/ha1fd8oecj4h1/CMAF_1080.mp4?source=fallback",
-          "postedAt": 1780260494000,
-          "disallowed": true
+          "directMp4": null,
+          "postedAt": 1780261289000
         },
         {
           "postId": "1tt74ic",
@@ -71,7 +103,21 @@
           "videoUrl": "https://v.redd.it/x4j3dff8dj4h1",
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/x4j3dff8dj4h1/CMAF_1080.mp4?source=fallback",
-          "postedAt": 1780260773000
+          "postedAt": 1780260773000,
+          "disallowed": true
+        },
+        {
+          "postId": "1tt7dq2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tt7dq2",
+          "scorer": "Folarin Balogun",
+          "minute": 63,
+          "homeScore": 3,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/y80mxirzej4h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/y80mxirzej4h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780261358000
         }
       ]
     },
