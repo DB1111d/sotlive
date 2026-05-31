@@ -1,7 +1,40 @@
 {
-  "updated": "2026-05-31T15:55:35Z",
+  "updated": "2026-05-31T17:04:21Z",
   "date": "2026-05-31",
   "matches": [
+    {
+      "home": "Poland",
+      "away": "Ukraine",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tszi2e",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tszi2e",
+          "scorer": "Roman Yaremchuk",
+          "minute": 34,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/tt71h3dpyh4h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/tt71h3dpyh4h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780243771000
+        },
+        {
+          "postId": "1tszr4g",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tszr4g",
+          "scorer": "Andriy Yarmolenko",
+          "minute": 44,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/z7m3iwmd0i4h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/z7m3iwmd0i4h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780244336000
+        }
+      ]
+    },
     {
       "home": "RB Bragantino",
       "away": "Internacional",
