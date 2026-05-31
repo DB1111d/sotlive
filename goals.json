@@ -1,7 +1,139 @@
 {
-  "updated": "2026-05-31T18:16:59Z",
+  "updated": "2026-05-31T19:48:06Z",
   "date": "2026-05-31",
   "matches": [
+    {
+      "home": "USA",
+      "away": "Senegal",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tt5bpf",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tt5bpf",
+          "scorer": "Sergino Dest",
+          "minute": 7,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/9vlheeb41j4h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/9vlheeb41j4h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780256687000
+        }
+      ]
+    },
+    {
+      "home": "England",
+      "away": "World XI",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tt4krg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tt4krg",
+          "scorer": "Jermain Defoe",
+          "minute": 58,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/27emvrk1wi4h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/27emvrk1wi4h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780255023000
+        },
+        {
+          "postId": "1tt4u4k",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tt4u4k",
+          "scorer": "Jermain Defoe",
+          "minute": 60,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/ewukoxypxi4h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ewukoxypxi4h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780255580000
+        },
+        {
+          "postId": "1tt4zh7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tt4zh7",
+          "scorer": "Michael Essien",
+          "minute": 74,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/co9xjc8ryi4h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/co9xjc8ryi4h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780255911000
+        },
+        {
+          "postId": "1tt56jp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tt56jp",
+          "scorer": "Tim Cahill",
+          "minute": 82,
+          "homeScore": 3,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/r0cetw630j4h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/r0cetw630j4h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780256364000
+        }
+      ]
+    },
+    {
+      "home": "Germany",
+      "away": "Finland",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tt4q3g",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tt4q3g",
+          "scorer": "Deniz Undav",
+          "minute": 34,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/6h7prcj3xi4h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/6h7prcj3xi4h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780255334000
+        }
+      ]
+    },
+    {
+      "home": "Wieczysta Kraków",
+      "away": "Chrobry Głogów",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tt45ay",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tt45ay",
+          "scorer": "Myroslav Mazur",
+          "minute": 14,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/90vf4o3ati4h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/90vf4o3ati4h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780254075000
+        },
+        {
+          "postId": "1tt4l07",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tt4l07",
+          "scorer": "Lisandro Semedo",
+          "minute": 30,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/sgqsa956wi4h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/sgqsa956wi4h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780255036000
+        }
+      ]
+    },
     {
       "home": "Real Zaragoza",
       "away": "Malaga",
