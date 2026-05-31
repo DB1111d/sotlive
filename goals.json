@@ -1,7 +1,132 @@
 {
-  "updated": "2026-05-30T23:41:35Z",
-  "date": "2026-05-30",
+  "updated": "2026-05-31T01:51:56Z",
+  "date": "2026-05-31",
   "matches": [
+    {
+      "home": "Korea Republic",
+      "away": "Trinidad and Tobago",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tshsbe",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tshsbe",
+          "scorer": "Son Heung-Min",
+          "minute": 40,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/dGc46f81c2rLzwR/watch",
+          "videoEmbed": "https://streamain.com/dGc46f81c2rLzwR/watch",
+          "directMp4": null,
+          "postedAt": 1780191909000
+        },
+        {
+          "postId": "1tshvja",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tshvja",
+          "scorer": "Son Heung-Min",
+          "minute": 43,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/DQOsXk1ETO7Hska/watch",
+          "videoEmbed": "https://streamain.com/DQOsXk1ETO7Hska/watch",
+          "directMp4": null,
+          "postedAt": 1780192167000
+        }
+      ]
+    },
+    {
+      "home": "Ecuador",
+      "away": "Saudi Arabia",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tsgi5r",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tsgi5r",
+          "scorer": "Jackson Porozo",
+          "minute": 35,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/5c8l8nkedd4h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/5c8l8nkedd4h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780188201000
+        },
+        {
+          "postId": "1tshbmo",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tshbmo",
+          "scorer": "Anthony Valencia",
+          "minute": 51,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/b4uxmgmfkd4h1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1780190560000
+        }
+      ]
+    },
+    {
+      "home": "Santos",
+      "away": "Vitória",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tsf9ag",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tsf9ag",
+          "scorer": "Miguelito",
+          "minute": 19,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/1zcy8tj33d4h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/1zcy8tj33d4h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780184739000
+        },
+        {
+          "postId": "1tsgalq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tsgalq",
+          "scorer": "Álvaro Barreal",
+          "minute": 53,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/mn3l8j6kbd4h1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1780187610000
+        },
+        {
+          "postId": "1tsgcoi",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tsgcoi",
+          "scorer": "Gabriel Barbosa",
+          "minute": 55,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/k5q1bb75cd4h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/k5q1bb75cd4h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780187769000
+        },
+        {
+          "postId": "1tsgkjb",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tsgkjb",
+          "scorer": "Renê",
+          "minute": 73,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/z4s70icydd4h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/z4s70icydd4h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780188391000
+        }
+      ]
+    },
     {
       "home": "Bahia",
       "away": "Botafogo",
