@@ -1,7 +1,139 @@
 {
-  "updated": "2026-05-31T12:56:19Z",
+  "updated": "2026-05-31T14:44:28Z",
   "date": "2026-05-31",
   "matches": [
+    {
+      "home": "RB Bragantino",
+      "away": "Internacional",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tsx5ac",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tsx5ac",
+          "scorer": "Fernando",
+          "minute": 18,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/8yme9hloih4h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/8yme9hloih4h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780238414000
+        }
+      ]
+    },
+    {
+      "home": "Czech Republic",
+      "away": "Kosovo",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tswi5f",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tswi5f",
+          "scorer": "Tomas Ladra",
+          "minute": 12,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/9c13f9ab",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1780236853000
+        },
+        {
+          "postId": "1tswzp9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tswzp9",
+          "scorer": "Adam Hlozek",
+          "minute": 32,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/5be53214",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1780238038000
+        }
+      ]
+    },
+    {
+      "home": "Switzerland",
+      "away": "Jordan",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tsvgo3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tsvgo3",
+          "scorer": "Breel Embolo",
+          "minute": 28,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/1e1fdf71",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1780234274000
+        },
+        {
+          "postId": "1tsvm95",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tsvm95",
+          "scorer": "Dan Ndoye",
+          "minute": 33,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/6a4fd7b4",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1780234670000
+        },
+        {
+          "postId": "1tsw4ei",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tsw4ei",
+          "scorer": "Granit Xhaka",
+          "minute": 45,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/e500e74c",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1780235920000
+        },
+        {
+          "postId": "1tswpdj",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tswpdj",
+          "scorer": "Odeh Al Fakhouri",
+          "minute": 52,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/949ef686",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1780237336000
+        }
+      ]
+    },
+    {
+      "home": "Spain U17",
+      "away": "Croatia U17",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tsupdh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tsupdh",
+          "scorer": "Joaquín Sánchez Flores",
+          "minute": 56,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.me/v/484f891e",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1780232362000
+        }
+      ]
+    },
     {
       "home": "Japan",
       "away": "Iceland",
