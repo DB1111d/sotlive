@@ -1,5 +1,26 @@
 {
-  "updated": "2026-05-31T11:16:30Z",
+  "updated": "2026-05-31T12:56:19Z",
   "date": "2026-05-31",
-  "matches": []
+  "matches": [
+    {
+      "home": "Japan",
+      "away": "Iceland",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tstp2h",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tstp2h",
+          "scorer": "Koki Ogawa",
+          "minute": 87,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/72699315",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1780229643000
+        }
+      ]
+    }
+  ]
 }
