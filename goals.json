@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-31T23:10:57Z",
-  "date": "2026-05-31",
+  "updated": "2026-06-01T00:15:15Z",
+  "date": "2026-06-01",
   "matches": [
     {
       "home": "Brazil",
@@ -84,6 +84,32 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/5dajzu8jzj4h1/CMAF_1080.mp4?source=fallback",
           "postedAt": 1780268260000
+        },
+        {
+          "postId": "1ttamjg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ttamjg",
+          "scorer": "Danilo Oliveira",
+          "minute": 81,
+          "homeScore": 6,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/qbbgi86n2k4h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/qbbgi86n2k4h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780269308000
+        },
+        {
+          "postId": "1ttaoye",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ttaoye",
+          "scorer": "Carlos Harvey",
+          "minute": 84,
+          "homeScore": 6,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/dyol8hp53k4h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/dyol8hp53k4h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780269481000
         }
       ]
     },
