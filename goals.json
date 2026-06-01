@@ -1,5 +1,98 @@
 {
-  "updated": "2026-06-01T10:36:39Z",
+  "updated": "2026-06-01T16:28:34Z",
   "date": "2026-06-01",
-  "matches": []
+  "matches": [
+    {
+      "home": "Slovakia",
+      "away": "Malta",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ttx51p",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ttx51p",
+          "scorer": "Lukas Haraslin",
+          "minute": 9,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/SL07UB1PcHUkdxj/watch",
+          "videoEmbed": "https://streamain.com/SL07UB1PcHUkdxj/watch",
+          "directMp4": null,
+          "postedAt": 1780330597000
+        }
+      ]
+    },
+    {
+      "home": "France U17",
+      "away": "Montenegro U17",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ttrlcr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ttrlcr",
+          "scorer": "Noah Loufoundou",
+          "minute": 31,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/PsfToRclnnpi9ej/watch",
+          "videoEmbed": "https://streamain.com/PsfToRclnnpi9ej/watch",
+          "directMp4": null,
+          "postedAt": 1780319038000
+        },
+        {
+          "postId": "1ttrluo",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ttrluo",
+          "scorer": "Christ Batola penalty",
+          "minute": 45,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/4lXliba723SFl2Z/watch",
+          "videoEmbed": "https://streamain.com/4lXliba723SFl2Z/watch",
+          "directMp4": null,
+          "postedAt": 1780319068000
+        },
+        {
+          "postId": "1ttrmb1",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ttrmb1",
+          "scorer": "Mamadou Meite",
+          "minute": 56,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/lAawbnapwX4JYLI/watch",
+          "videoEmbed": "https://streamain.com/lAawbnapwX4JYLI/watch",
+          "directMp4": null,
+          "postedAt": 1780319095000
+        },
+        {
+          "postId": "1ttrmqt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ttrmqt",
+          "scorer": "Joshua Dago",
+          "minute": 68,
+          "homeScore": 4,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/frETjiwZWbK7qWu/watch",
+          "videoEmbed": "https://streamain.com/frETjiwZWbK7qWu/watch",
+          "directMp4": null,
+          "postedAt": 1780319121000
+        },
+        {
+          "postId": "1ttrtjt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ttrtjt",
+          "scorer": "Kenan Doganay",
+          "minute": 70,
+          "homeScore": 5,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/TjX05FLSfXTLbcB/watch",
+          "videoEmbed": "https://streamain.com/TjX05FLSfXTLbcB/watch",
+          "directMp4": null,
+          "postedAt": 1780319548000
+        }
+      ]
+    }
+  ]
 }
