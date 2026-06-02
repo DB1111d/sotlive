@@ -1,7 +1,53 @@
 {
-  "updated": "2026-06-01T22:52:22Z",
-  "date": "2026-06-01",
+  "updated": "2026-06-02T00:11:05Z",
+  "date": "2026-06-02",
   "matches": [
+    {
+      "home": "Colombia",
+      "away": "Costa Rica",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tu9ibs",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tu9ibs",
+          "scorer": "Davinson Sanchez",
+          "minute": 17,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/wqtzezef9r4h1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1780356339000
+        },
+        {
+          "postId": "1tu9opm",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tu9opm",
+          "scorer": "Luis Diaz",
+          "minute": 23,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/5ad7nlupar4h1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1780356785000
+        },
+        {
+          "postId": "1tu9wrj",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tu9wrj",
+          "scorer": "Andrey Soto",
+          "minute": 33,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/pi8elxlgcr4h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/pi8elxlgcr4h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780357367000
+        }
+      ]
+    },
     {
       "home": "Austria",
       "away": "Tunisia",
