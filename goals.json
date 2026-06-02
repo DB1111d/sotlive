@@ -1,5 +1,26 @@
 {
-  "updated": "2026-06-02T12:55:31Z",
+  "updated": "2026-06-02T17:20:59Z",
   "date": "2026-06-02",
-  "matches": []
+  "matches": [
+    {
+      "home": "Croatia",
+      "away": "Belgium",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tuwhfh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tuwhfh",
+          "scorer": "Youri Tielemans",
+          "minute": 38,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/e9f8dd16",
+          "videoEmbed": "https://streamff.link/v/e9f8dd16",
+          "directMp4": null,
+          "postedAt": 1780418420000
+        }
+      ]
+    }
+  ]
 }
