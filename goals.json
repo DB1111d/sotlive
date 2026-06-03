@@ -1,7 +1,139 @@
 {
-  "updated": "2026-06-03T15:13:29Z",
+  "updated": "2026-06-03T18:59:51Z",
   "date": "2026-06-03",
   "matches": [
+    {
+      "home": "Turkey U21",
+      "away": "Kosovo U21",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tvyvit",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tvyvit",
+          "scorer": "Salih Malkocoglu",
+          "minute": 82,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/jh56wEA3CedQFXL/watch",
+          "videoEmbed": "https://streamain.com/jh56wEA3CedQFXL/watch",
+          "directMp4": null,
+          "postedAt": 1780512681000
+        }
+      ]
+    },
+    {
+      "home": "Portugal U21",
+      "away": "Northern Ireland U21",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tvyupd",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tvyupd",
+          "scorer": "Gustavo Sa penalty",
+          "minute": 14,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/lPnsPGp9u3ClYb6/watch",
+          "videoEmbed": "https://streamain.com/lPnsPGp9u3ClYb6/watch",
+          "directMp4": null,
+          "postedAt": 1780512636000
+        }
+      ]
+    },
+    {
+      "home": "Gibraltar",
+      "away": "British Virgin Islands",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tvvwuv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tvvwuv",
+          "scorer": "Own Goal",
+          "minute": 10,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/x7q33asqo35h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/x7q33asqo35h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780506789000
+        },
+        {
+          "postId": "1tvwkki",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tvwkki",
+          "scorer": "James Scanlon",
+          "minute": 32,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/cvwek9drs35h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/cvwek9drs35h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780508122000
+        },
+        {
+          "postId": "1tvwumh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tvwumh",
+          "scorer": "Leon Mason",
+          "minute": 42,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/bwla3swgu35h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/bwla3swgu35h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780508702000
+        },
+        {
+          "postId": "1tvy4v5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tvy4v5",
+          "scorer": "James Scanlon",
+          "minute": 64,
+          "homeScore": 4,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/8o4ucdtr145h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/8o4ucdtr145h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780511156000
+        }
+      ]
+    },
+    {
+      "home": "Croatia U21",
+      "away": "Qatar U23",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tvv4hh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tvv4hh",
+          "scorer": "Dominik Prpic",
+          "minute": 57,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/eaDdp9z0bFXLTS7/watch",
+          "videoEmbed": "https://streamain.com/eaDdp9z0bFXLTS7/watch",
+          "directMp4": null,
+          "postedAt": 1780505213000
+        },
+        {
+          "postId": "1tvvytu",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tvvytu",
+          "scorer": "Matia Barzic",
+          "minute": 83,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/E1NuTLdnbHKZCAe/watch",
+          "videoEmbed": "https://streamain.com/E1NuTLdnbHKZCAe/watch",
+          "directMp4": null,
+          "postedAt": 1780506902000
+        }
+      ]
+    },
     {
       "home": "Philippines",
       "away": "Guam",
