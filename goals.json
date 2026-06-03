@@ -1,24 +1,83 @@
 {
-  "updated": "2026-06-03T18:59:51Z",
+  "updated": "2026-06-03T21:55:51Z",
   "date": "2026-06-03",
   "matches": [
     {
-      "home": "Turkey U21",
-      "away": "Kosovo U21",
+      "home": "Poland",
+      "away": "Nigeria",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1tvyvit",
+          "postId": "1tvzjsk",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1tvyvit",
-          "scorer": "Salih Malkocoglu",
-          "minute": 82,
+          "permalink": "https://redd.it/1tvzjsk",
+          "scorer": "Terem Moffi",
+          "minute": 23,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/gqccjtnea45h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/gqccjtnea45h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780514067000
+        },
+        {
+          "postId": "1tw072w",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tw072w",
+          "scorer": "Kacper Potulski",
+          "minute": 45,
           "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamain.com/jh56wEA3CedQFXL/watch",
-          "videoEmbed": "https://streamain.com/jh56wEA3CedQFXL/watch",
-          "directMp4": null,
-          "postedAt": 1780512681000
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/912yo1mfe45h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/912yo1mfe45h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780515414000
+        },
+        {
+          "postId": "1tw1oml",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tw1oml",
+          "scorer": "Paul Onuachu penalty",
+          "minute": 77,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/vi4ak82rn45h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/vi4ak82rn45h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780518555000
+        },
+        {
+          "postId": "1tw26ot",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tw26ot",
+          "scorer": "Przemysław Wiśniewski",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/t9sv5mr0r45h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/t9sv5mr0r45h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780519648000
+        }
+      ]
+    },
+    {
+      "home": "Netherlands",
+      "away": "Algeria",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tw1tgw",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tw1tgw",
+          "scorer": "Hadj Moussa great strike",
+          "minute": 86,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/78fyxwymo45h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/78fyxwymo45h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780518846000
         }
       ]
     },
@@ -39,6 +98,105 @@
           "videoEmbed": "https://streamain.com/lPnsPGp9u3ClYb6/watch",
           "directMp4": null,
           "postedAt": 1780512636000
+        },
+        {
+          "postId": "1tvzdg5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tvzdg5",
+          "scorer": "Geovany Quenda",
+          "minute": 35,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/O0YlyNzXFEizhYU/watch",
+          "videoEmbed": "https://streamain.com/O0YlyNzXFEizhYU/watch",
+          "directMp4": null,
+          "postedAt": 1780513703000
+        },
+        {
+          "postId": "1tw14ea",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tw14ea",
+          "scorer": "Geovany Quenda",
+          "minute": 72,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/dsIFd7GsU1keVPy/watch",
+          "videoEmbed": "https://streamain.com/dsIFd7GsU1keVPy/watch",
+          "directMp4": null,
+          "postedAt": 1780517371000
+        },
+        {
+          "postId": "1tw1fqj",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tw1fqj",
+          "scorer": "Own Goal",
+          "minute": 90,
+          "homeScore": 4,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/mtXdlFyhE8hKHOZ/watch",
+          "videoEmbed": "https://streamain.com/mtXdlFyhE8hKHOZ/watch",
+          "directMp4": null,
+          "postedAt": 1780518024000
+        }
+      ]
+    },
+    {
+      "home": "Luxembourg",
+      "away": "Italy",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tw0mo2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tw0mo2",
+          "scorer": "Pio Esposito",
+          "minute": 49,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/n31nfr76h45h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/n31nfr76h45h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780516344000
+        }
+      ]
+    },
+    {
+      "home": "Albania",
+      "away": "Israel",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tw09v6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tw09v6",
+          "scorer": "Oscar Gloukh",
+          "minute": 73,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/1cbdbinxe45h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/1cbdbinxe45h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780515581000
+        }
+      ]
+    },
+    {
+      "home": "Turkey U21",
+      "away": "Kosovo U21",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tvyvit",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tvyvit",
+          "scorer": "Salih Malkocoglu",
+          "minute": 82,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/jh56wEA3CedQFXL/watch",
+          "videoEmbed": "https://streamain.com/jh56wEA3CedQFXL/watch",
+          "directMp4": null,
+          "postedAt": 1780512681000
         }
       ]
     },
