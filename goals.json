@@ -1,5 +1,91 @@
 {
-  "updated": "2026-06-03T10:17:49Z",
+  "updated": "2026-06-03T15:13:29Z",
   "date": "2026-06-03",
-  "matches": []
+  "matches": [
+    {
+      "home": "Philippines",
+      "away": "Guam",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tvnfbq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tvnfbq",
+          "scorer": "Cole Mrowka",
+          "minute": 6,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/Ym0xwn2nsr1NVVc/watch",
+          "videoEmbed": "https://streamain.com/Ym0xwn2nsr1NVVc/watch",
+          "directMp4": null,
+          "postedAt": 1780488618000
+        },
+        {
+          "postId": "1tvnfx3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tvnfx3",
+          "scorer": "Javier Gayoso",
+          "minute": 18,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/PAkz9NinPUK4aMc/watch",
+          "videoEmbed": "https://streamain.com/PAkz9NinPUK4aMc/watch",
+          "directMp4": null,
+          "postedAt": 1780488655000
+        },
+        {
+          "postId": "1tvnmni",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tvnmni",
+          "scorer": "Santiago Rublico",
+          "minute": 44,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/yNytTI3P3MTvThd/watch",
+          "videoEmbed": "https://streamain.com/yNytTI3P3MTvThd/watch",
+          "directMp4": null,
+          "postedAt": 1780489125000
+        },
+        {
+          "postId": "1tvof9k",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tvof9k",
+          "scorer": "Levi Berg",
+          "minute": 60,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/1d6YKSUETaPYsz9/watch",
+          "videoEmbed": "https://streamain.com/1d6YKSUETaPYsz9/watch",
+          "directMp4": null,
+          "postedAt": 1780491112000
+        },
+        {
+          "postId": "1tvogsq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tvogsq",
+          "scorer": "Andre Leipold",
+          "minute": 63,
+          "homeScore": 4,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/Zfzsxz3aJgsONJt/watch",
+          "videoEmbed": "https://streamain.com/Zfzsxz3aJgsONJt/watch",
+          "directMp4": null,
+          "postedAt": 1780491211000
+        },
+        {
+          "postId": "1tvpbiv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tvpbiv",
+          "scorer": "Andre Leipold",
+          "minute": 90,
+          "homeScore": 5,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/GCaqS4ZAy6MWOPv/watch",
+          "videoEmbed": "https://streamain.com/GCaqS4ZAy6MWOPv/watch",
+          "directMp4": null,
+          "postedAt": 1780493159000
+        }
+      ]
+    }
+  ]
 }
