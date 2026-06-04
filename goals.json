@@ -1,5 +1,144 @@
 {
-  "updated": "2026-06-04T10:37:55Z",
+  "updated": "2026-06-04T13:47:42Z",
   "date": "2026-06-04",
-  "matches": []
+  "matches": [
+    {
+      "home": "Cambodia",
+      "away": "Bhutan",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1twm2d6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1twm2d6",
+          "scorer": "Rotana Sor",
+          "minute": 7,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/cFR7VQcdzjVfeQU/watch",
+          "videoEmbed": "https://streamain.com/cFR7VQcdzjVfeQU/watch",
+          "directMp4": null,
+          "postedAt": 1780575756000
+        },
+        {
+          "postId": "1twmits",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1twmits",
+          "scorer": "Abdel Coulibaly",
+          "minute": 39,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/Xe5fypmHeNjfMFg/watch",
+          "videoEmbed": "https://streamain.com/Xe5fypmHeNjfMFg/watch",
+          "directMp4": null,
+          "postedAt": 1780576916000
+        },
+        {
+          "postId": "1twnq1h",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1twnq1h",
+          "scorer": "Dimong Sophal",
+          "minute": 69,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/3REPLWyyx91Q5UU/watch",
+          "videoEmbed": "https://streamain.com/3REPLWyyx91Q5UU/watch",
+          "directMp4": null,
+          "postedAt": 1780579756000
+        }
+      ]
+    },
+    {
+      "home": "Belgium U17",
+      "away": "France U17",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1twlqdc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1twlqdc",
+          "scorer": "Jayden Onia Seke",
+          "minute": 25,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/So0ZMgefNLyqWmL/watch",
+          "videoEmbed": "https://streamain.com/So0ZMgefNLyqWmL/watch",
+          "directMp4": null,
+          "postedAt": 1780574885000
+        },
+        {
+          "postId": "1twmkqo",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1twmkqo",
+          "scorer": "Ilyas Benktib",
+          "minute": 52,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/kmbUcsR7GRanHnz/watch",
+          "videoEmbed": "https://streamain.com/kmbUcsR7GRanHnz/watch",
+          "directMp4": null,
+          "postedAt": 1780577053000
+        },
+        {
+          "postId": "1twmuh7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1twmuh7",
+          "scorer": "Arone Gadou",
+          "minute": 64,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/tZk14UbDPDdZWcq/watch",
+          "videoEmbed": "https://streamain.com/tZk14UbDPDdZWcq/watch",
+          "directMp4": null,
+          "postedAt": 1780577725000
+        }
+      ]
+    },
+    {
+      "home": "Maldives",
+      "away": "Pakistan",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1twlz6z",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1twlz6z",
+          "scorer": "Umar Nawaz",
+          "minute": 54,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/s8hN5kzHE4DZcO8/watch",
+          "videoEmbed": "https://streamain.com/s8hN5kzHE4DZcO8/watch",
+          "directMp4": null,
+          "postedAt": 1780575526000
+        },
+        {
+          "postId": "1twmmi5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1twmmi5",
+          "scorer": "Abdul Arshad",
+          "minute": 83,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/j5L18eSDxU0w0AR/watch",
+          "videoEmbed": "https://streamain.com/j5L18eSDxU0w0AR/watch",
+          "directMp4": null,
+          "postedAt": 1780577176000
+        },
+        {
+          "postId": "1twmpcd",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1twmpcd",
+          "scorer": "Harun Hamid",
+          "minute": 87,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://streamain.com/mW3BswnUe8mzWUe/watch",
+          "videoEmbed": "https://streamain.com/mW3BswnUe8mzWUe/watch",
+          "directMp4": null,
+          "postedAt": 1780577376000
+        }
+      ]
+    }
+  ]
 }
