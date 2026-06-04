@@ -1,7 +1,53 @@
 {
-  "updated": "2026-06-03T23:42:06Z",
-  "date": "2026-06-03",
+  "updated": "2026-06-04T02:10:43Z",
+  "date": "2026-06-04",
   "matches": [
+    {
+      "home": "Panama",
+      "away": "Dominican Republic",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tw8uoc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tw8uoc",
+          "scorer": "Tomás Rodríguez",
+          "minute": 16,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/gfyd18vc265h1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1780535602000
+        },
+        {
+          "postId": "1tw9h1r",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tw9h1r",
+          "scorer": "Victor Griffith",
+          "minute": 44,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/sp16xo0c765h1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1780537274000
+        },
+        {
+          "postId": "1twa0jg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1twa0jg",
+          "scorer": "Mariano Díaz",
+          "minute": 47,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/83r93ctlb65h1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1780538707000
+        }
+      ]
+    },
     {
       "home": "Poland",
       "away": "Nigeria",
