@@ -1,24 +1,123 @@
 {
-  "updated": "2026-06-04T16:52:03Z",
+  "updated": "2026-06-04T19:22:06Z",
   "date": "2026-06-04",
   "matches": [
     {
-      "home": "Northern Ireland",
-      "away": "Guinea",
+      "home": "Spain",
+      "away": "Iraq",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1twsqbi",
+          "postId": "1twxo3p",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1twsqbi",
-          "scorer": "Tom Atcheson",
-          "minute": 9,
+          "permalink": "https://redd.it/1twxo3p",
+          "scorer": "Ferran Torres",
+          "minute": 16,
           "homeScore": 1,
           "awayScore": 0,
-          "videoUrl": "https://v.redd.it/6yaf79sqla5h1",
+          "videoUrl": "https://v.redd.it/2v705b8dgb5h1",
           "videoEmbed": null,
-          "directMp4": "https://v.redd.it/6yaf79sqla5h1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1780590514000
+          "directMp4": "https://v.redd.it/2v705b8dgb5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780600809000
+        }
+      ]
+    },
+    {
+      "home": "Sweden",
+      "away": "Greece",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1twu4xa",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1twu4xa",
+          "scorer": "Konstantinos Tsimikas",
+          "minute": 10,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/st52laeiua5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/st52laeiua5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780593461000
+        },
+        {
+          "postId": "1twwak4",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1twwak4",
+          "scorer": "Gustaf Nilsson",
+          "minute": 69,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/hm0yfvvr7b5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/hm0yfvvr7b5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780597928000
+        },
+        {
+          "postId": "1twx0xj",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1twx0xj",
+          "scorer": "Giorgos Masouras",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/c61l0nqacb5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/c61l0nqacb5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780599453000
+        }
+      ]
+    },
+    {
+      "home": "Andorra",
+      "away": "Liechtenstein",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tww97d",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tww97d",
+          "scorer": "Àlex Martínez",
+          "minute": 73,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/edsk252j7b5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/edsk252j7b5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780597850000
+        },
+        {
+          "postId": "1twwgqr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1twwgqr",
+          "scorer": "Jordi Aláez penalty",
+          "minute": 80,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/elarnftu8b5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/elarnftu8b5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780598293000
+        }
+      ]
+    },
+    {
+      "home": "Sweden",
+      "away": "Ukraine",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1twvxvk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1twvxvk",
+          "scorer": "Viktor Gyökeres free-kick",
+          "minute": 53,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/mje1gd3l5b5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/mje1gd3l5b5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780597190000
         }
       ]
     },
@@ -39,6 +138,39 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/px6vy8vfla5h1/CMAF_720.mp4?source=fallback",
           "postedAt": 1780590412000
+        },
+        {
+          "postId": "1twug3g",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1twug3g",
+          "scorer": "Vanja Drkušić",
+          "minute": 65,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/gpmkfpgewa5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/gpmkfpgewa5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780594107000
+        }
+      ]
+    },
+    {
+      "home": "Northern Ireland",
+      "away": "Guinea",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1twsqbi",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1twsqbi",
+          "scorer": "Tom Atcheson",
+          "minute": 9,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/6yaf79sqla5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/6yaf79sqla5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780590514000
         }
       ]
     },
