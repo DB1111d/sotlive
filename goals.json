@@ -1,7 +1,80 @@
 {
-  "updated": "2026-06-04T13:47:42Z",
+  "updated": "2026-06-04T16:52:03Z",
   "date": "2026-06-04",
   "matches": [
+    {
+      "home": "Northern Ireland",
+      "away": "Guinea",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1twsqbi",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1twsqbi",
+          "scorer": "Tom Atcheson",
+          "minute": 9,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/6yaf79sqla5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/6yaf79sqla5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780590514000
+        }
+      ]
+    },
+    {
+      "home": "Slovenia",
+      "away": "Cyprus",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1twsojx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1twsojx",
+          "scorer": "Marinos Tzionis",
+          "minute": 7,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/px6vy8vfla5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/px6vy8vfla5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780590412000
+        }
+      ]
+    },
+    {
+      "home": "Sweden U21",
+      "away": "Finland U21",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1twqsca",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1twqsca",
+          "scorer": "Neo Jonsson",
+          "minute": 2,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/iKmGw4N1AdAX53D/watch",
+          "videoEmbed": "https://streamain.com/iKmGw4N1AdAX53D/watch",
+          "directMp4": null,
+          "postedAt": 1780586466000
+        },
+        {
+          "postId": "1twr3ur",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1twr3ur",
+          "scorer": "Otso Liimatta",
+          "minute": 23,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/en/DHYBAw9vJC6jGvy/watch",
+          "videoEmbed": "https://streamain.com/en/DHYBAw9vJC6jGvy/watch",
+          "directMp4": null,
+          "postedAt": 1780587148000
+        }
+      ]
+    },
     {
       "home": "Cambodia",
       "away": "Bhutan",
@@ -45,6 +118,19 @@
           "videoEmbed": "https://streamain.com/3REPLWyyx91Q5UU/watch",
           "directMp4": null,
           "postedAt": 1780579756000
+        },
+        {
+          "postId": "1twocqs",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1twocqs",
+          "scorer": "Rado Mon",
+          "minute": 86,
+          "homeScore": 4,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/NPwGggFti4L6oGt/watch",
+          "videoEmbed": "https://streamain.com/NPwGggFti4L6oGt/watch",
+          "directMp4": null,
+          "postedAt": 1780581188000
         }
       ]
     },
