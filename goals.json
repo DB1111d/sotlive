@@ -1,7 +1,66 @@
 {
-  "updated": "2026-06-04T19:22:06Z",
+  "updated": "2026-06-04T21:10:50Z",
   "date": "2026-06-04",
   "matches": [
+    {
+      "home": "France",
+      "away": "Cote d'Ivoire",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1twyqyq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1twyqyq",
+          "scorer": "Cherki with a cheeky flick to set up a chance for Tchouaméni",
+          "minute": 40,
+          "homeScore": 0,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/p232gmeanb5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/p232gmeanb5h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780603160000
+        },
+        {
+          "postId": "1twyyl7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1twyyl7",
+          "scorer": "Kessié bodies the referee",
+          "minute": 45,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/9rfc7kjmob5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/9rfc7kjmob5h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780603610000
+        },
+        {
+          "postId": "1twzn6e",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1twzn6e",
+          "scorer": "Guéla Doué",
+          "minute": 53,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/0By2iohZV1ER6ck/watch",
+          "videoEmbed": "https://streamain.com/0By2iohZV1ER6ck/watch",
+          "directMp4": null,
+          "postedAt": 1780605141000
+        },
+        {
+          "postId": "1tx0d0n",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tx0d0n",
+          "scorer": "Amad Diallo",
+          "minute": 84,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/Uw7QzBgJuIi8byD/watch",
+          "videoEmbed": "https://streamain.com/Uw7QzBgJuIi8byD/watch",
+          "directMp4": null,
+          "postedAt": 1780606748000
+        }
+      ]
+    },
     {
       "home": "Spain",
       "away": "Iraq",
@@ -19,6 +78,19 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/2v705b8dgb5h1/CMAF_720.mp4?source=fallback",
           "postedAt": 1780600809000
+        },
+        {
+          "postId": "1twxyt2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1twxyt2",
+          "scorer": "Merchas Doski",
+          "minute": 27,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/1keiw628ib5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/1keiw628ib5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780601436000
         }
       ]
     },
