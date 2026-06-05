@@ -1,10 +1,6 @@
 {
-  "updated": "2026-06-04 23:52 EDT",
+  "updated": "2026-06-05 04:07 EDT",
   "days": {
-    "20260604": {
-      "date": "Thursday, June 4",
-      "games": []
-    },
     "20260605": {
       "date": "Friday, June 5",
       "games": []
@@ -76,6 +72,20 @@
     "20260608": {
       "date": "Monday, June 8",
       "games": []
+    },
+    "20260609": {
+      "date": "Tuesday, June 9",
+      "games": [
+        {
+          "league": "International Friendly",
+          "time": "9:00 PM",
+          "match": "Argentina vs Iceland",
+          "source": "ESPN",
+          "kick_utc": "2026-06-10T01:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/isl.png"
+        }
+      ]
     }
   }
 }
