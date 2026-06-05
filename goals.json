@@ -1,7 +1,125 @@
 {
-  "updated": "2026-06-04T23:54:19Z",
-  "date": "2026-06-04",
+  "updated": "2026-06-05T03:30:21Z",
+  "date": "2026-06-05",
   "matches": [
+    {
+      "home": "Mexico",
+      "away": "Serbia",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tx81b7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tx81b7",
+          "scorer": "Petar Stanic",
+          "minute": 19,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/42sdm57xjd5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/42sdm57xjd5h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780626233000
+        },
+        {
+          "postId": "1tx8c7b",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tx8c7b",
+          "scorer": "Vásquez",
+          "minute": 34,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/en/1zraOMzHAuTFLi0/watch",
+          "videoEmbed": "https://streamain.com/en/1zraOMzHAuTFLi0/watch",
+          "directMp4": null,
+          "postedAt": 1780627077000
+        },
+        {
+          "postId": "1tx8n3r",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tx8n3r",
+          "scorer": "Own Goal",
+          "minute": 45,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/okU9NYMrnTt15Ep/watch",
+          "videoEmbed": "https://streamain.com/okU9NYMrnTt15Ep/watch",
+          "directMp4": null,
+          "postedAt": 1780627942000
+        },
+        {
+          "postId": "1tx98oh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tx98oh",
+          "scorer": "R. Jiménez",
+          "minute": 57,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/PInAqqZGkMnTVz5/watch",
+          "videoEmbed": "https://streamain.com/PInAqqZGkMnTVz5/watch",
+          "directMp4": null,
+          "postedAt": 1780629669000
+        }
+      ]
+    },
+    {
+      "home": "Czechia",
+      "away": "Guatemala",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tx55wv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tx55wv",
+          "scorer": "Patrick Schick",
+          "minute": 11,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/x37c6huswc5h1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1780618469000
+        },
+        {
+          "postId": "1tx5uhb",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tx5uhb",
+          "scorer": "William Jehu Fajardo",
+          "minute": 40,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/egqcjo172d5h1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1780620275000
+        },
+        {
+          "postId": "1tx6zib",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tx6zib",
+          "scorer": "Tomas Chory",
+          "minute": 72,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/aw9bq9wcbd5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/aw9bq9wcbd5h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780623350000
+        },
+        {
+          "postId": "1tx7530",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tx7530",
+          "scorer": "Denis Visinsky",
+          "minute": 79,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/gyyd7e5mcd5h1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1780623779000
+        }
+      ]
+    },
     {
       "home": "France",
       "away": "Cote d'Ivoire",
