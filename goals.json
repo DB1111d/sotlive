@@ -1,7 +1,40 @@
 {
-  "updated": "2026-06-05T20:27:19Z",
+  "updated": "2026-06-05T21:56:51Z",
   "date": "2026-06-05",
   "matches": [
+    {
+      "home": "Angola",
+      "away": "Mauritania",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1txx92n",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txx92n",
+          "scorer": "Manuel Keliano",
+          "minute": 85,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/E5I427FsV8aaqcv/watch",
+          "videoEmbed": "https://streamain.com/E5I427FsV8aaqcv/watch",
+          "directMp4": null,
+          "postedAt": 1780693021000
+        },
+        {
+          "postId": "1txxcpb",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txxcpb",
+          "scorer": "Idrissa Thiam",
+          "minute": 90,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/2MuiN80X9RPF72u/watch",
+          "videoEmbed": "https://streamain.com/2MuiN80X9RPF72u/watch",
+          "directMp4": null,
+          "postedAt": 1780693250000
+        }
+      ]
+    },
     {
       "home": "Azerbaijan",
       "away": "Malta",
