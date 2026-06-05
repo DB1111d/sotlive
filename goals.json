@@ -1,7 +1,257 @@
 {
-  "updated": "2026-06-05T16:39:34Z",
+  "updated": "2026-06-05T18:27:49Z",
   "date": "2026-06-05",
   "matches": [
+    {
+      "home": "Moldova",
+      "away": "Bulgaria",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1txsuw9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txsuw9",
+          "scorer": "Georgi Rusev",
+          "minute": 23,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/cmncWiePQb6ll65/watch",
+          "videoEmbed": "https://streamain.com/cmncWiePQb6ll65/watch",
+          "directMp4": null,
+          "postedAt": 1780683291000
+        },
+        {
+          "postId": "1txt5hb",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txt5hb",
+          "scorer": "Victor Bogaciuc",
+          "minute": 60,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/u9NBAIMdasBYENN/watch",
+          "videoEmbed": "https://streamain.com/u9NBAIMdasBYENN/watch",
+          "directMp4": null,
+          "postedAt": 1780683925000
+        }
+      ]
+    },
+    {
+      "home": "Hungary",
+      "away": "Finland",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1txt005",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txt005",
+          "scorer": "Barnabas Varga",
+          "minute": 26,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/sgsF6pIbE3F2Fr8/watch",
+          "videoEmbed": "https://streamain.com/sgsF6pIbE3F2Fr8/watch",
+          "directMp4": null,
+          "postedAt": 1780683600000
+        }
+      ]
+    },
+    {
+      "home": "Slovakia",
+      "away": "Montenegro",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1txqnt6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txqnt6",
+          "scorer": "Robert Bozenik",
+          "minute": 5,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/rMBMQeX6wbVyHSB/watch",
+          "videoEmbed": "https://streamain.com/rMBMQeX6wbVyHSB/watch",
+          "directMp4": null,
+          "postedAt": 1780678584000
+        },
+        {
+          "postId": "1txrrt5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txrrt5",
+          "scorer": "Milutin Osmajic",
+          "minute": 44,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/4Yv4lPZJc1xANdY/watch",
+          "videoEmbed": "https://streamain.com/4Yv4lPZJc1xANdY/watch",
+          "directMp4": null,
+          "postedAt": 1780680929000
+        },
+        {
+          "postId": "1txsqxb",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txsqxb",
+          "scorer": "Milutin Osmajic penalty",
+          "minute": 65,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/ACAjxbhqNFUFYvB/watch",
+          "videoEmbed": "https://streamain.com/ACAjxbhqNFUFYvB/watch",
+          "directMp4": null,
+          "postedAt": 1780683051000
+        },
+        {
+          "postId": "1txsrjt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txsrjt",
+          "scorer": "Ondrej Duda",
+          "minute": 74,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/i9s8yduECB3U9jh/watch",
+          "videoEmbed": "https://streamain.com/i9s8yduECB3U9jh/watch",
+          "directMp4": null,
+          "postedAt": 1780683088000
+        }
+      ]
+    },
+    {
+      "home": "Georgia",
+      "away": "Bahrain",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1txrc70",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txrc70",
+          "scorer": "Luka Lochoshvili",
+          "minute": 52,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/FHxGIBC5BWJcEcv/watch",
+          "videoEmbed": "https://streamain.com/FHxGIBC5BWJcEcv/watch",
+          "directMp4": null,
+          "postedAt": 1780679995000
+        },
+        {
+          "postId": "1txsct4",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txsct4",
+          "scorer": "Khvicha Kvaratskhelia penalty",
+          "minute": 77,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/6NnZwME0D8Avhox/watch",
+          "videoEmbed": "https://streamain.com/6NnZwME0D8Avhox/watch",
+          "directMp4": null,
+          "postedAt": 1780682209000
+        }
+      ]
+    },
+    {
+      "home": "Belarus",
+      "away": "Syria",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1txpg1s",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txpg1s",
+          "scorer": "Vladislav Morozov",
+          "minute": 3,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/p7kxiyrsnh5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/p7kxiyrsnh5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780675963000
+        },
+        {
+          "postId": "1txpjb8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txpjb8",
+          "scorer": "Artem Kontsevoy",
+          "minute": 11,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/gbcy4riboh5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/gbcy4riboh5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780676153000
+        },
+        {
+          "postId": "1txrl6j",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txrl6j",
+          "scorer": "Artem Shumansky",
+          "minute": 48,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/3fGVwaP9i1Nys8k/watch",
+          "videoEmbed": "https://streamain.com/3fGVwaP9i1Nys8k/watch",
+          "directMp4": null,
+          "postedAt": 1780680533000
+        },
+        {
+          "postId": "1txs12e",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txs12e",
+          "scorer": "Evgeniy Yablonskiy",
+          "minute": 78,
+          "homeScore": 4,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/VU9Lr8DAtcx5LT0/watch",
+          "videoEmbed": "https://streamain.com/VU9Lr8DAtcx5LT0/watch",
+          "directMp4": null,
+          "postedAt": 1780681498000
+        },
+        {
+          "postId": "1txsavg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txsavg",
+          "scorer": "Mahmoud Al Mawas penalty",
+          "minute": 88,
+          "homeScore": 4,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/eUoW3dHNSMYsL5M/watch",
+          "videoEmbed": "https://streamain.com/eUoW3dHNSMYsL5M/watch",
+          "directMp4": null,
+          "postedAt": 1780682088000
+        }
+      ]
+    },
+    {
+      "home": "San Marino",
+      "away": "Bangladesh",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1txrh5g",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txrh5g",
+          "scorer": "Topu Barman",
+          "minute": 19,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/cxixw4xo0i5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/cxixw4xo0i5h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780680283000
+        },
+        {
+          "postId": "1txrs7x",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txrs7x",
+          "scorer": "Nicolas Giacopetti",
+          "minute": 31,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/ght0y6lo2i5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ght0y6lo2i5h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780680954000
+        }
+      ]
+    },
     {
       "home": "USA U21",
       "away": "Ukraine U21",
@@ -32,6 +282,32 @@
           "videoEmbed": "https://streamain.com/3SaUPGhGUVdoF2h/watch",
           "directMp4": null,
           "postedAt": 1780677305000
+        },
+        {
+          "postId": "1txqkl7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txqkl7",
+          "scorer": "Damion Downs",
+          "minute": 43,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/qaQhqgHno91ZnDN/watch",
+          "videoEmbed": "https://streamain.com/qaQhqgHno91ZnDN/watch",
+          "directMp4": null,
+          "postedAt": 1780678387000
+        },
+        {
+          "postId": "1txrore",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txrore",
+          "scorer": "Cole Campbell",
+          "minute": 57,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/OauGSAixCA3vvHq/watch",
+          "videoEmbed": "https://streamain.com/OauGSAixCA3vvHq/watch",
+          "directMp4": null,
+          "postedAt": 1780680749000
         }
       ]
     },
@@ -78,39 +354,19 @@
           "videoEmbed": "https://streamain.com/PMYFkp27BgCpGxy/watch",
           "directMp4": null,
           "postedAt": 1780677081000
-        }
-      ]
-    },
-    {
-      "home": "Belarus",
-      "away": "Syria",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1txpg1s",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1txpg1s",
-          "scorer": "Vladislav Morozov",
-          "minute": 3,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/p7kxiyrsnh5h1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/p7kxiyrsnh5h1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1780675963000
         },
         {
-          "postId": "1txpjb8",
+          "postId": "1txqh6j",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1txpjb8",
-          "scorer": "Artem Kontsevoy",
-          "minute": 11,
-          "homeScore": 2,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/gbcy4riboh5h1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/gbcy4riboh5h1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1780676153000
+          "permalink": "https://redd.it/1txqh6j",
+          "scorer": "Farukh Choudhary",
+          "minute": 89,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/wEO6oA0Z7f7sbFg/watch",
+          "videoEmbed": "https://streamain.com/wEO6oA0Z7f7sbFg/watch",
+          "directMp4": null,
+          "postedAt": 1780678186000
         }
       ]
     }
