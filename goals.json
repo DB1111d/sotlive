@@ -1,7 +1,264 @@
 {
-  "updated": "2026-06-05T18:27:49Z",
+  "updated": "2026-06-05T20:27:19Z",
   "date": "2026-06-05",
   "matches": [
+    {
+      "home": "Azerbaijan",
+      "away": "Malta",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1txv8hf",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txv8hf",
+          "scorer": "Joseph Mbong",
+          "minute": 65,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/xim7WeIkAoAAiwE/watch",
+          "videoEmbed": "https://streamain.com/xim7WeIkAoAAiwE/watch",
+          "directMp4": null,
+          "postedAt": 1780688497000
+        },
+        {
+          "postId": "1txvfnn",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txvfnn",
+          "scorer": "Alexander Satariano",
+          "minute": 86,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/gPllbjqkkIsNCGr/watch",
+          "videoEmbed": "https://streamain.com/gPllbjqkkIsNCGr/watch",
+          "directMp4": null,
+          "postedAt": 1780688942000
+        }
+      ]
+    },
+    {
+      "home": "Slovenia U21",
+      "away": "Albania U21",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1txufg8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txufg8",
+          "scorer": "Etnik Brruti penalty",
+          "minute": 26,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/RgVEEeoYxoHeZRG/watch",
+          "videoEmbed": "https://streamain.com/RgVEEeoYxoHeZRG/watch",
+          "directMp4": null,
+          "postedAt": 1780686702000
+        },
+        {
+          "postId": "1txvaxy",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txvaxy",
+          "scorer": "Mitja Ilenic",
+          "minute": 56,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/XXoG9WANajJjirV/watch",
+          "videoEmbed": "https://streamain.com/XXoG9WANajJjirV/watch",
+          "directMp4": null,
+          "postedAt": 1780688643000
+        }
+      ]
+    },
+    {
+      "home": "Central Africa",
+      "away": "Togo",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1txub0m",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txub0m",
+          "scorer": "Goduine Koyalipou",
+          "minute": 26,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/IBQ9BZJlTWuKpYP/watch",
+          "videoEmbed": "https://streamain.com/IBQ9BZJlTWuKpYP/watch",
+          "directMp4": null,
+          "postedAt": 1780686436000
+        },
+        {
+          "postId": "1txv5wb",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txv5wb",
+          "scorer": "Kevin Denkey",
+          "minute": 60,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/q6Yp8PFQDb2jrxW/watch",
+          "videoEmbed": "https://streamain.com/q6Yp8PFQDb2jrxW/watch",
+          "directMp4": null,
+          "postedAt": 1780688338000
+        }
+      ]
+    },
+    {
+      "home": "Hungary",
+      "away": "Finland",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1txt005",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txt005",
+          "scorer": "Barnabas Varga",
+          "minute": 26,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/sgsF6pIbE3F2Fr8/watch",
+          "videoEmbed": "https://streamain.com/sgsF6pIbE3F2Fr8/watch",
+          "directMp4": null,
+          "postedAt": 1780683600000
+        },
+        {
+          "postId": "1txtu6d",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txtu6d",
+          "scorer": "Barnabas Varga",
+          "minute": 43,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/FAuCx8xMCe0FAK2/watch",
+          "videoEmbed": "https://streamain.com/FAuCx8xMCe0FAK2/watch",
+          "directMp4": null,
+          "postedAt": 1780685437000
+        },
+        {
+          "postId": "1txul6f",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txul6f",
+          "scorer": "Tony Miettinen",
+          "minute": 72,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/UUNMPaF3iZlaJXA/watch",
+          "videoEmbed": "https://streamain.com/UUNMPaF3iZlaJXA/watch",
+          "directMp4": null,
+          "postedAt": 1780687048000
+        }
+      ]
+    },
+    {
+      "home": "Benin",
+      "away": "Niger",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1txu7y9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txu7y9",
+          "scorer": "Amiro Amadou",
+          "minute": 35,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/T7gn2S7l4q3zFiE/watch",
+          "videoEmbed": "https://streamain.com/T7gn2S7l4q3zFiE/watch",
+          "directMp4": null,
+          "postedAt": 1780686252000
+        }
+      ]
+    },
+    {
+      "home": "Russia",
+      "away": "Burkina Faso",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1txtdus",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txtdus",
+          "scorer": "Lechi Sadulaev",
+          "minute": 15,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/wJxvMARNCQRcY0D/watch",
+          "videoEmbed": "https://streamain.com/wJxvMARNCQRcY0D/watch",
+          "directMp4": null,
+          "postedAt": 1780684440000
+        },
+        {
+          "postId": "1txtech",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txtech",
+          "scorer": "Aleksey Miranchuk",
+          "minute": 20,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/W4GnQWXT4SmDjF4/watch",
+          "videoEmbed": "https://streamain.com/W4GnQWXT4SmDjF4/watch",
+          "directMp4": null,
+          "postedAt": 1780684470000
+        },
+        {
+          "postId": "1txtrsn",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txtrsn",
+          "scorer": "Ilya Vakhania",
+          "minute": 73,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/18SAxJPQGwRdQkW/watch",
+          "videoEmbed": "https://streamain.com/18SAxJPQGwRdQkW/watch",
+          "directMp4": null,
+          "postedAt": 1780685295000
+        }
+      ]
+    },
+    {
+      "home": "San Marino",
+      "away": "Bangladesh",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1txrh5g",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txrh5g",
+          "scorer": "Topu Barman",
+          "minute": 19,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/cxixw4xo0i5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/cxixw4xo0i5h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780680283000
+        },
+        {
+          "postId": "1txrs7x",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txrs7x",
+          "scorer": "Nicolas Giacopetti",
+          "minute": 31,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/ght0y6lo2i5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ght0y6lo2i5h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780680954000
+        },
+        {
+          "postId": "1txtrr1",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txtrr1",
+          "scorer": "Tapu Barman",
+          "minute": 86,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/uc8baeykfi5h1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1780685292000
+        }
+      ]
+    },
     {
       "home": "Moldova",
       "away": "Bulgaria",
@@ -32,26 +289,32 @@
           "videoEmbed": "https://streamain.com/u9NBAIMdasBYENN/watch",
           "directMp4": null,
           "postedAt": 1780683925000
-        }
-      ]
-    },
-    {
-      "home": "Hungary",
-      "away": "Finland",
-      "league": "Rest of World",
-      "goals": [
+        },
         {
-          "postId": "1txt005",
+          "postId": "1txtmwq",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1txt005",
-          "scorer": "Barnabas Varga",
-          "minute": 26,
+          "permalink": "https://redd.it/1txtmwq",
+          "scorer": "Marin Petkov",
+          "minute": 76,
           "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamain.com/sgsF6pIbE3F2Fr8/watch",
-          "videoEmbed": "https://streamain.com/sgsF6pIbE3F2Fr8/watch",
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/bCRK2tFgjjLgD7m/watch",
+          "videoEmbed": "https://streamain.com/bCRK2tFgjjLgD7m/watch",
           "directMp4": null,
-          "postedAt": 1780683600000
+          "postedAt": 1780684998000
+        },
+        {
+          "postId": "1txtpvf",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1txtpvf",
+          "scorer": "Vladyslav Baboglo",
+          "minute": 86,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/Ht7YThkYbGeRBIH/watch",
+          "videoEmbed": "https://streamain.com/Ht7YThkYbGeRBIH/watch",
+          "directMp4": null,
+          "postedAt": 1780685173000
         }
       ]
     },
@@ -216,39 +479,6 @@
           "videoEmbed": "https://streamain.com/eUoW3dHNSMYsL5M/watch",
           "directMp4": null,
           "postedAt": 1780682088000
-        }
-      ]
-    },
-    {
-      "home": "San Marino",
-      "away": "Bangladesh",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1txrh5g",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1txrh5g",
-          "scorer": "Topu Barman",
-          "minute": 19,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/cxixw4xo0i5h1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/cxixw4xo0i5h1/CMAF_1080.mp4?source=fallback",
-          "postedAt": 1780680283000
-        },
-        {
-          "postId": "1txrs7x",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1txrs7x",
-          "scorer": "Nicolas Giacopetti",
-          "minute": 31,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/ght0y6lo2i5h1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/ght0y6lo2i5h1/CMAF_1080.mp4?source=fallback",
-          "postedAt": 1780680954000
         }
       ]
     },
