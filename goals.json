@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-06T22:15:46Z",
+  "updated": "2026-06-06T23:34:04Z",
   "date": "2026-06-06",
   "matches": [
     {
@@ -19,6 +19,78 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/r8g7t3q5lq5h1/CMAF_1080.mp4?source=fallback",
           "postedAt": 1780784026000
+        },
+        {
+          "postId": "1tyui50",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tyui50",
+          "scorer": "Mostafa Ziko",
+          "minute": 11,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/8cf6110e",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1780784232000
+        },
+        {
+          "postId": "1tyvzox",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tyvzox",
+          "scorer": "Endrick",
+          "minute": 52,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/78kticofxq5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/78kticofxq5h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780788156000
+        }
+      ]
+    },
+    {
+      "home": "Venezuela",
+      "away": "Türkiye",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tyuhm0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tyuhm0",
+          "scorer": "Gleiker Mendoza",
+          "minute": 13,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/vsq66srklq5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/vsq66srklq5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780784195000
+        },
+        {
+          "postId": "1tyv72l",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tyv72l",
+          "scorer": "Barış Alper Yılmaz",
+          "minute": 44,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/qcp9rbt2rq5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/qcp9rbt2rq5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780786028000
+        },
+        {
+          "postId": "1tyvt4w",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tyvt4w",
+          "scorer": "Yunus Akgün",
+          "minute": 54,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/7j67c1lzvq5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/7j67c1lzvq5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780787670000
         }
       ]
     },
