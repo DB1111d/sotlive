@@ -1,7 +1,47 @@
 {
-  "updated": "2026-06-05T23:11:21Z",
-  "date": "2026-06-05",
+  "updated": "2026-06-06T00:19:28Z",
+  "date": "2026-06-06",
   "matches": [
+    {
+      "home": "Canada",
+      "away": "Ireland",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ty1xt3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ty1xt3",
+          "scorer": "Own Goal",
+          "minute": 24,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/gVTLJOhNsFttUEL/watch",
+          "videoEmbed": "https://streamain.com/gVTLJOhNsFttUEL/watch",
+          "directMp4": null,
+          "postedAt": 1780704603000
+        }
+      ]
+    },
+    {
+      "home": "Paraguay",
+      "away": "Nicaragua",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ty1kzl",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ty1kzl",
+          "scorer": "Miguel Almiron",
+          "minute": 42,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/Wd93zofGRIryDbn/watch",
+          "videoEmbed": "https://streamain.com/Wd93zofGRIryDbn/watch",
+          "directMp4": null,
+          "postedAt": 1780703669000
+        }
+      ]
+    },
     {
       "home": "Angola",
       "away": "Mauritania",
