@@ -1,7 +1,86 @@
 {
-  "updated": "2026-06-06T19:52:32Z",
+  "updated": "2026-06-06T21:01:19Z",
   "date": "2026-06-06",
   "matches": [
+    {
+      "home": "Bolivia",
+      "away": "Scotland",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tyrkep",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tyrkep",
+          "scorer": "Lawrence Shankland",
+          "minute": 5,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/lg0ng5nlzp5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/lg0ng5nlzp5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780776783000
+        },
+        {
+          "postId": "1tyrxlz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tyrxlz",
+          "scorer": "Scott McTominay",
+          "minute": 23,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/sgi1zbx92q5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/sgi1zbx92q5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780777676000
+        },
+        {
+          "postId": "1tys48r",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tys48r",
+          "scorer": "Ché Adams",
+          "minute": 30,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/fvnikzrm3q5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/fvnikzrm3q5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780778132000
+        },
+        {
+          "postId": "1tysgtu",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tysgtu",
+          "scorer": "Ché Adams",
+          "minute": 45,
+          "homeScore": 0,
+          "awayScore": 4,
+          "videoUrl": "https://v.redd.it/8qun86kb6q5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/8qun86kb6q5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780779033000
+        }
+      ]
+    },
+    {
+      "home": "England",
+      "away": "New Zealand",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tysfx2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tysfx2",
+          "scorer": "Harry Kane",
+          "minute": 45,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/cda18773",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1780778968000
+        }
+      ]
+    },
     {
       "home": "Castellon",
       "away": "Almeria",
@@ -19,6 +98,98 @@
           "videoEmbed": "https://streamain.com/vIlCWdOKfIGOR5z/watch",
           "directMp4": null,
           "postedAt": 1780775266000
+        },
+        {
+          "postId": "1tyrx3a",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tyrx3a",
+          "scorer": "Sergio Arribas",
+          "minute": 66,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/MqehX8BGYiqnAEL/watch",
+          "videoEmbed": "https://streamain.com/MqehX8BGYiqnAEL/watch",
+          "directMp4": null,
+          "postedAt": 1780777640000
+        }
+      ]
+    },
+    {
+      "home": "Switzerland",
+      "away": "Australia",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tyq4el",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tyq4el",
+          "scorer": "Dan Ndoye",
+          "minute": 14,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/s9m4g7tcpp5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/s9m4g7tcpp5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780773336000
+        },
+        {
+          "postId": "1tyrp0i",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tyrp0i",
+          "scorer": "Tete Yengi",
+          "minute": 56,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/uaoddvei0q5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/uaoddvei0q5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780777089000
+        }
+      ]
+    },
+    {
+      "home": "USA",
+      "away": "Germany",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1typbr5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1typbr5",
+          "scorer": "Kai Havertz",
+          "minute": 2,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/fyoqw46wjp5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/fyoqw46wjp5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780771485000
+        },
+        {
+          "postId": "1tyq8kp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tyq8kp",
+          "scorer": "Antonee Robinson",
+          "minute": 37,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/b9y8ewi8qp5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/b9y8ewi8qp5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780773618000
+        },
+        {
+          "postId": "1tyr74s",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tyr74s",
+          "scorer": "Leroy Sane",
+          "minute": 57,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/xu2cc9o1xp5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/xu2cc9o1xp5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780775908000
         }
       ]
     },
@@ -52,6 +223,19 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/uh2xxhayrp5h1/CMAF_720.mp4?source=fallback",
           "postedAt": 1780774219000
+        },
+        {
+          "postId": "1tyr2jk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tyr2jk",
+          "scorer": "Lucas Cepeda",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/WRq4Zh6mzQztzzq/watch",
+          "videoEmbed": "https://streamain.com/WRq4Zh6mzQztzzq/watch",
+          "directMp4": null,
+          "postedAt": 1780775599000
         }
       ]
     },
@@ -98,59 +282,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/5ios70uyqp5h1/CMAF_1080.mp4?source=fallback",
           "postedAt": 1780773875000
-        }
-      ]
-    },
-    {
-      "home": "USA",
-      "away": "Germany",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1typbr5",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1typbr5",
-          "scorer": "Kai Havertz",
-          "minute": 2,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/fyoqw46wjp5h1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/fyoqw46wjp5h1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1780771485000
-        },
-        {
-          "postId": "1tyq8kp",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1tyq8kp",
-          "scorer": "Antonee Robinson",
-          "minute": 37,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/b9y8ewi8qp5h1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/b9y8ewi8qp5h1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1780773618000
-        }
-      ]
-    },
-    {
-      "home": "Switzerland",
-      "away": "Australia",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1tyq4el",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1tyq4el",
-          "scorer": "Dan Ndoye",
-          "minute": 14,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/s9m4g7tcpp5h1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/s9m4g7tcpp5h1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1780773336000
         }
       ]
     },
