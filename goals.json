@@ -1,37 +1,77 @@
 {
-  "updated": "2026-06-06T14:27:42Z",
+  "updated": "2026-06-06T15:51:07Z",
   "date": "2026-06-06",
   "matches": [
     {
-      "home": "Lithuania",
-      "away": "Latvia",
+      "home": "Croatia U21",
+      "away": "Ireland U21",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1tyhcx5",
+          "postId": "1tyksgr",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1tyhcx5",
-          "scorer": "Armandas Kučys",
-          "minute": 28,
+          "permalink": "https://redd.it/1tyksgr",
+          "scorer": "Luka Vrbančić penalty",
+          "minute": 7,
           "homeScore": 1,
           "awayScore": 0,
-          "videoUrl": "https://v.redd.it/c5nev4juzn5h1",
+          "videoUrl": "https://streamain.com/gxwDW8BnukYKc6M/watch",
+          "videoEmbed": "https://streamain.com/gxwDW8BnukYKc6M/watch",
+          "directMp4": null,
+          "postedAt": 1780760996000
+        }
+      ]
+    },
+    {
+      "home": "Armenia",
+      "away": "Kazakhstan",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tyjs7t",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tyjs7t",
+          "scorer": "Maksim Samorodov",
+          "minute": 50,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/v2ya3ixiho5h1",
           "videoEmbed": null,
-          "directMp4": "https://v.redd.it/c5nev4juzn5h1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1780752655000
+          "directMp4": "https://v.redd.it/v2ya3ixiho5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780758603000
         },
         {
-          "postId": "1tyilwa",
+          "postId": "1tyjvfk",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1tyilwa",
-          "scorer": "Maksims Toņiševs",
-          "minute": 60,
+          "permalink": "https://redd.it/1tyjvfk",
+          "scorer": "Eduard Spertsyan",
+          "minute": 53,
           "homeScore": 1,
           "awayScore": 1,
-          "videoUrl": "https://v.redd.it/dffjjy939o5h1",
+          "videoUrl": "https://v.redd.it/eg8e4be5io5h1",
           "videoEmbed": null,
-          "directMp4": "https://v.redd.it/dffjjy939o5h1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1780755777000
+          "directMp4": "https://v.redd.it/eg8e4be5io5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780758809000
+        }
+      ]
+    },
+    {
+      "home": "Barça Legends",
+      "away": "Liverpool Legends",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tyjr5z",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tyjr5z",
+          "scorer": "Tello",
+          "minute": 85,
+          "homeScore": 8,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/s5zwyq1cho5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/s5zwyq1cho5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780758532000
         }
       ]
     },
@@ -65,6 +105,78 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1780755225000
+        },
+        {
+          "postId": "1tyivaw",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tyivaw",
+          "scorer": "Kevin De Bruyne",
+          "minute": 65,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/0fa77a8a",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1780756403000
+        },
+        {
+          "postId": "1tyjk3w",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tyjk3w",
+          "scorer": "Dodi Lukébakio",
+          "minute": 85,
+          "homeScore": 4,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/58e7p19vfo5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/58e7p19vfo5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780758080000
+        },
+        {
+          "postId": "1tyjkav",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tyjkav",
+          "scorer": "Nicolas Raskin",
+          "minute": 87,
+          "homeScore": 5,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/aa1mvmkvfo5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/aa1mvmkvfo5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780758093000
+        }
+      ]
+    },
+    {
+      "home": "Lithuania",
+      "away": "Latvia",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tyhcx5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tyhcx5",
+          "scorer": "Armandas Kučys",
+          "minute": 28,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/c5nev4juzn5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/c5nev4juzn5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780752655000
+        },
+        {
+          "postId": "1tyilwa",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tyilwa",
+          "scorer": "Maksims Toņiševs",
+          "minute": 60,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/dffjjy939o5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/dffjjy939o5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780755777000
         }
       ]
     }
