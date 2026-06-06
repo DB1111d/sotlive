@@ -1,7 +1,27 @@
 {
-  "updated": "2026-06-06T21:01:19Z",
+  "updated": "2026-06-06T22:15:46Z",
   "date": "2026-06-06",
   "matches": [
+    {
+      "home": "Brazil",
+      "away": "Egypt",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tyufa5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tyufa5",
+          "scorer": "Bruno Guimaraes",
+          "minute": 8,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/r8g7t3q5lq5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/r8g7t3q5lq5h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780784026000
+        }
+      ]
+    },
     {
       "home": "Bolivia",
       "away": "Scotland",
