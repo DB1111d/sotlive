@@ -1,5 +1,72 @@
 {
-  "updated": "2026-06-06T12:50:38Z",
+  "updated": "2026-06-06T14:27:42Z",
   "date": "2026-06-06",
-  "matches": []
+  "matches": [
+    {
+      "home": "Lithuania",
+      "away": "Latvia",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tyhcx5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tyhcx5",
+          "scorer": "Armandas Kučys",
+          "minute": 28,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/c5nev4juzn5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/c5nev4juzn5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780752655000
+        },
+        {
+          "postId": "1tyilwa",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tyilwa",
+          "scorer": "Maksims Toņiševs",
+          "minute": 60,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/dffjjy939o5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/dffjjy939o5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780755777000
+        }
+      ]
+    },
+    {
+      "home": "Belgium",
+      "away": "Tunisia",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tyhcwa",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tyhcwa",
+          "scorer": "Leandro Trossard",
+          "minute": 29,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/507a9fa3",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1780752654000
+        },
+        {
+          "postId": "1tyidjc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tyidjc",
+          "scorer": "Charles De Ketelaere",
+          "minute": 53,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/812ba598",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1780755225000
+        }
+      ]
+    }
+  ]
 }
