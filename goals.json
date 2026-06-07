@@ -1,7 +1,27 @@
 {
-  "updated": "2026-06-07T15:22:06Z",
+  "updated": "2026-06-07T16:50:20Z",
   "date": "2026-06-07",
   "matches": [
+    {
+      "home": "Denmark",
+      "away": "Ukraine",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tzh87n",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tzh87n",
+          "scorer": "Patrick Dorgu great strike",
+          "minute": 13,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/qk6og02x3w5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/qk6og02x3w5h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780850899000
+        }
+      ]
+    },
     {
       "home": "Liechtenstein",
       "away": "Cyprus",
