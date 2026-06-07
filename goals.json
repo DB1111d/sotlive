@@ -1,7 +1,40 @@
 {
-  "updated": "2026-06-06T23:34:04Z",
-  "date": "2026-06-06",
+  "updated": "2026-06-07T01:54:39Z",
+  "date": "2026-06-07",
   "matches": [
+    {
+      "home": "Argentina",
+      "away": "Honduras",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tyxuf5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tyxuf5",
+          "scorer": "Martinez '37",
+          "minute": 37,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/ohnk4ynxcr5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ohnk4ynxcr5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780793368000
+        },
+        {
+          "postId": "1tyykg4",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tyykg4",
+          "scorer": "imeone",
+          "minute": 54,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/en/7j4ijmEVcxBPMPS/watch",
+          "videoEmbed": "https://streamain.com/en/7j4ijmEVcxBPMPS/watch",
+          "directMp4": null,
+          "postedAt": 1780795499000
+        }
+      ]
+    },
     {
       "home": "Brazil",
       "away": "Egypt",
