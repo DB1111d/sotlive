@@ -1,7 +1,126 @@
 {
-  "updated": "2026-06-07T19:45:21Z",
+  "updated": "2026-06-07T21:09:45Z",
   "date": "2026-06-07",
   "matches": [
+    {
+      "home": "Ecuador",
+      "away": "Guatemala",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tznqun",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tznqun",
+          "scorer": "Jordy Caicedo penalty",
+          "minute": 19,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/owNeQjs4w3NvtYH/watch",
+          "videoEmbed": "https://streamain.com/owNeQjs4w3NvtYH/watch",
+          "directMp4": null,
+          "postedAt": 1780865599000
+        }
+      ]
+    },
+    {
+      "home": "Morocco",
+      "away": "Norway",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tzl3ru",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tzl3ru",
+          "scorer": "Brahim Díaz",
+          "minute": 8,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/04ec22ca",
+          "videoEmbed": "https://streamff.link/v/04ec22ca",
+          "directMp4": null,
+          "postedAt": 1780859509000
+        },
+        {
+          "postId": "1tznjxk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tznjxk",
+          "scorer": "Martin Odegaard",
+          "minute": 75,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/2b373e37",
+          "videoEmbed": "https://streamff.link/v/2b373e37",
+          "directMp4": null,
+          "postedAt": 1780865150000
+        }
+      ]
+    },
+    {
+      "home": "Croatia",
+      "away": "Slovenia",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tzmar6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tzmar6",
+          "scorer": "Luka Modric",
+          "minute": 51,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/d9895497",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1780862246000
+        },
+        {
+          "postId": "1tzn4h7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tzn4h7",
+          "scorer": "Andraz Sporar",
+          "minute": 83,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/f15c0ac0",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1780864159000
+        },
+        {
+          "postId": "1tzne3k",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tzne3k",
+          "scorer": "Mario Pasalic",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/00e496db",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1780864768000
+        }
+      ]
+    },
+    {
+      "home": "Las Palmas",
+      "away": "Malaga",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tzmts2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tzmts2",
+          "scorer": "David Larrubia",
+          "minute": 57,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/DFiUkhgVlQOHXQb/watch",
+          "videoEmbed": "https://streamain.com/DFiUkhgVlQOHXQb/watch",
+          "directMp4": null,
+          "postedAt": 1780863458000
+        }
+      ]
+    },
     {
       "home": "Kosovo",
       "away": "Andorra",
@@ -65,26 +184,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/za09ie4bvw5h1/CMAF_720.mp4?source=fallback",
           "postedAt": 1780860085000
-        }
-      ]
-    },
-    {
-      "home": "Morocco",
-      "away": "Norway",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1tzl3ru",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1tzl3ru",
-          "scorer": "Brahim Díaz",
-          "minute": 8,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamff.link/v/04ec22ca",
-          "videoEmbed": "https://streamff.link/v/04ec22ca",
-          "directMp4": null,
-          "postedAt": 1780859509000
         }
       ]
     },
