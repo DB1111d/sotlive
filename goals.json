@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-07T16:50:20Z",
+  "updated": "2026-06-07T18:01:21Z",
   "date": "2026-06-07",
   "matches": [
     {
@@ -19,6 +19,32 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/qk6og02x3w5h1/CMAF_1080.mp4?source=fallback",
           "postedAt": 1780850899000
+        },
+        {
+          "postId": "1tzhsyg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tzhsyg",
+          "scorer": "Joakim Mæhle",
+          "minute": 36,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/n4ghtcor7w5h1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1780852212000
+        },
+        {
+          "postId": "1tzi0gn",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tzi0gn",
+          "scorer": "Viktor Tsygankov",
+          "minute": 44,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/v2fyzhs89w5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/v2fyzhs89w5h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780852683000
         }
       ]
     },
