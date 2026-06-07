@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-07T13:46:47Z",
+  "updated": "2026-06-07T15:22:06Z",
   "date": "2026-06-07",
   "matches": [
     {
@@ -19,6 +19,19 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/smga8spv6v5h1/CMAF_720.mp4?source=fallback",
           "postedAt": 1780839775000
+        },
+        {
+          "postId": "1tzdos4",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tzdos4",
+          "scorer": "Konstantinos Sotiriou",
+          "minute": 70,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/zo45yogffv5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/zo45yogffv5h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780842644000
         }
       ]
     }
