@@ -1,29 +1,6 @@
 {
-  "updated": "2026-06-07 17:13 EDT",
+  "updated": "2026-06-08 00:05 EDT",
   "days": {
-    "20260607": {
-      "date": "Sunday, June 7",
-      "games": [
-        {
-          "league": "International Friendly",
-          "time": "3:00 PM",
-          "match": "Morocco vs Norway",
-          "source": "ESPN Unlmtd",
-          "kick_utc": "2026-06-07T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png"
-        },
-        {
-          "league": "International Friendly",
-          "time": "7:00 PM",
-          "match": "Colombia vs Jordan",
-          "source": "ESPN Unlmtd",
-          "kick_utc": "2026-06-07T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png"
-        }
-      ]
-    },
     "20260608": {
       "date": "Monday, June 8",
       "games": []
@@ -112,6 +89,10 @@
     },
     "20260611": {
       "date": "Thursday, June 11",
+      "games": []
+    },
+    "20260612": {
+      "date": "Friday, June 12",
       "games": []
     }
   }
