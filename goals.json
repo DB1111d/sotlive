@@ -1,7 +1,73 @@
 {
-  "updated": "2026-06-08T18:14:20Z",
+  "updated": "2026-06-08T20:35:33Z",
   "date": "2026-06-08",
   "matches": [
+    {
+      "home": "France",
+      "away": "Northern Ireland",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u0isrr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u0isrr",
+          "scorer": "Michael Olise",
+          "minute": 43,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/1v3peimu546h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/1v3peimu546h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780948369000
+        },
+        {
+          "postId": "1u0joyp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u0joyp",
+          "scorer": "Olise",
+          "minute": 49,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/g8ub1huhb46h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/g8ub1huhb46h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780950267000
+        },
+        {
+          "postId": "1u0jybi",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u0jybi",
+          "scorer": "Patrick Kelly",
+          "minute": 64,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/7y8d3mr6d46h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/7y8d3mr6d46h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780950841000
+        }
+      ]
+    },
+    {
+      "home": "Netherlands",
+      "away": "Uzbekistan",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u0ibl2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u0ibl2",
+          "scorer": "Cody Gakpo penalty",
+          "minute": 31,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/Zu76zjIber1ZIGz/watch",
+          "videoEmbed": "https://streamain.com/Zu76zjIber1ZIGz/watch",
+          "directMp4": null,
+          "postedAt": 1780947341000
+        }
+      ]
+    },
     {
       "home": "Italy U21",
       "away": "Albania U21",
