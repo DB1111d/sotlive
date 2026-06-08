@@ -1,5 +1,151 @@
 {
-  "updated": "2026-06-08T11:54:56Z",
+  "updated": "2026-06-08T15:43:48Z",
   "date": "2026-06-08",
-  "matches": []
+  "matches": [
+    {
+      "home": "Belarus U21",
+      "away": "Kazakhstan U21",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u0ba6b",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u0ba6b",
+          "scorer": "Ramazan Karimov penalty",
+          "minute": 25,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/AAQnD1fDsaR5sfN/watch",
+          "videoEmbed": "https://streamain.com/AAQnD1fDsaR5sfN/watch",
+          "directMp4": null,
+          "postedAt": 1780932672000
+        }
+      ]
+    },
+    {
+      "home": "Japan U21",
+      "away": "Ukraine U21",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u07fau",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u07fau",
+          "scorer": "Uche Brian Seo Nwadike",
+          "minute": 1,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/qlOAhZuzmCVF1D4/watch",
+          "videoEmbed": "https://streamain.com/qlOAhZuzmCVF1D4/watch",
+          "directMp4": null,
+          "postedAt": 1780924126000
+        },
+        {
+          "postId": "1u07glh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u07glh",
+          "scorer": "Rei Umeki",
+          "minute": 8,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/u1ws0qh7TjJNaDs/watch",
+          "videoEmbed": "https://streamain.com/u1ws0qh7TjJNaDs/watch",
+          "directMp4": null,
+          "postedAt": 1780924206000
+        },
+        {
+          "postId": "1u0a5o9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u0a5o9",
+          "scorer": "Uche Brian Seo Nwadike",
+          "minute": 61,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/r8jkddfsjdMuy4R/watch",
+          "videoEmbed": "https://streamain.com/r8jkddfsjdMuy4R/watch",
+          "directMp4": null,
+          "postedAt": 1780930265000
+        }
+      ]
+    },
+    {
+      "home": "North Macedonia U21",
+      "away": "USA U20",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u07nca",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u07nca",
+          "scorer": "",
+          "minute": 45,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/Kfph4il8DDcpnw0/watch",
+          "videoEmbed": "https://streamain.com/Kfph4il8DDcpnw0/watch",
+          "directMp4": null,
+          "postedAt": 1780924634000
+        }
+      ]
+    },
+    {
+      "home": "Sri Lanka",
+      "away": "Bhutan",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u05w35",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u05w35",
+          "scorer": "Wade Dekker",
+          "minute": 16,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/vMMM9ywzMApCwQK/watch",
+          "videoEmbed": "https://streamain.com/vMMM9ywzMApCwQK/watch",
+          "directMp4": null,
+          "postedAt": 1780920176000
+        },
+        {
+          "postId": "1u07aip",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u07aip",
+          "scorer": "Barath Suresh",
+          "minute": 64,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/tezFjiWwzB2JVMM/watch",
+          "videoEmbed": "https://streamain.com/tezFjiWwzB2JVMM/watch",
+          "directMp4": null,
+          "postedAt": 1780923803000
+        },
+        {
+          "postId": "1u07jh1",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u07jh1",
+          "scorer": "Ahmed Waseem Razeek",
+          "minute": 78,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/xxXyK0K75jmBOYr/watch",
+          "videoEmbed": "https://streamain.com/xxXyK0K75jmBOYr/watch",
+          "directMp4": null,
+          "postedAt": 1780924385000
+        },
+        {
+          "postId": "1u07jxs",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u07jxs",
+          "scorer": "Rinzin Dorji",
+          "minute": 80,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/dkRKA4v0he6C6vK/watch",
+          "videoEmbed": "https://streamain.com/dkRKA4v0he6C6vK/watch",
+          "directMp4": null,
+          "postedAt": 1780924417000
+        }
+      ]
+    }
+  ]
 }
