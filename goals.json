@@ -1,7 +1,40 @@
 {
-  "updated": "2026-06-07T23:35:02Z",
-  "date": "2026-06-07",
+  "updated": "2026-06-08T01:59:38Z",
+  "date": "2026-06-08",
   "matches": [
+    {
+      "home": "Colombia",
+      "away": "Jordan",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1tzruc8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tzruc8",
+          "scorer": "Jhon Arias",
+          "minute": 41,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/0j9y2skr6y5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/0j9y2skr6y5h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780876035000
+        },
+        {
+          "postId": "1tzslnq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1tzslnq",
+          "scorer": "Jhon Arias",
+          "minute": 55,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/qj3g51yvcy5h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/qj3g51yvcy5h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780878095000
+        }
+      ]
+    },
     {
       "home": "Ecuador",
       "away": "Guatemala",
