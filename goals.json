@@ -1,7 +1,60 @@
 {
-  "updated": "2026-06-08T15:43:48Z",
+  "updated": "2026-06-08T18:14:20Z",
   "date": "2026-06-08",
   "matches": [
+    {
+      "home": "Italy U21",
+      "away": "Albania U21",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u0faud",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u0faud",
+          "scorer": "Gabriele Calvani",
+          "minute": 63,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/YE27848nC3o5UYa/watch",
+          "videoEmbed": "https://streamain.com/YE27848nC3o5UYa/watch",
+          "directMp4": null,
+          "postedAt": 1780941172000
+        }
+      ]
+    },
+    {
+      "home": "Norway U21",
+      "away": "Finland U21",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u0cvkj",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u0cvkj",
+          "scorer": "Onni Helen",
+          "minute": 14,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/Du7x8qpwbBrbWqT/watch",
+          "videoEmbed": "https://streamain.com/Du7x8qpwbBrbWqT/watch",
+          "directMp4": null,
+          "postedAt": 1780936072000
+        },
+        {
+          "postId": "1u0e47m",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u0e47m",
+          "scorer": "Matias Siltanen penalty",
+          "minute": 51,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/dyPdUdqewTuW5nW/watch",
+          "videoEmbed": "https://streamain.com/dyPdUdqewTuW5nW/watch",
+          "directMp4": null,
+          "postedAt": 1780938715000
+        }
+      ]
+    },
     {
       "home": "Belarus U21",
       "away": "Kazakhstan U21",
@@ -19,6 +72,32 @@
           "videoEmbed": "https://streamain.com/AAQnD1fDsaR5sfN/watch",
           "directMp4": null,
           "postedAt": 1780932672000
+        },
+        {
+          "postId": "1u0d6p1",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u0d6p1",
+          "scorer": "Daniil Galyata",
+          "minute": 64,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/rtPDA7Uj5IYW9cg/watch",
+          "videoEmbed": "https://streamain.com/rtPDA7Uj5IYW9cg/watch",
+          "directMp4": null,
+          "postedAt": 1780936741000
+        },
+        {
+          "postId": "1u0d76d",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u0d76d",
+          "scorer": "Mark Mokin",
+          "minute": 70,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/sDUXR5aFEtCXF2s/watch",
+          "videoEmbed": "https://streamain.com/sDUXR5aFEtCXF2s/watch",
+          "directMp4": null,
+          "postedAt": 1780936769000
         }
       ]
     },
