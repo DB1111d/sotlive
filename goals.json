@@ -1,7 +1,73 @@
 {
-  "updated": "2026-06-08T20:35:33Z",
+  "updated": "2026-06-08T22:14:45Z",
   "date": "2026-06-08",
   "matches": [
+    {
+      "home": "The Michael Olise rocket + hat trick",
+      "away": "Northern Ireland",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u0kv75",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u0kv75",
+          "scorer": "",
+          "minute": null,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/fhl23327j46h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/fhl23327j46h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780952852000
+        }
+      ]
+    },
+    {
+      "home": "Netherlands",
+      "away": "Uzbekistan",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u0ibl2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u0ibl2",
+          "scorer": "Cody Gakpo penalty",
+          "minute": 31,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/Zu76zjIber1ZIGz/watch",
+          "videoEmbed": "https://streamain.com/Zu76zjIber1ZIGz/watch",
+          "directMp4": null,
+          "postedAt": 1780947341000
+        },
+        {
+          "postId": "1u0k7j6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u0k7j6",
+          "scorer": "Igor Sergeev",
+          "minute": 90,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/heudn8gve46h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/heudn8gve46h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780951415000
+        },
+        {
+          "postId": "1u0kcvj",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u0kcvj",
+          "scorer": "Cody Gakpo penalty",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/8b1s8p0vf46h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/8b1s8p0vf46h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1780951747000
+        }
+      ]
+    },
     {
       "home": "France",
       "away": "Northern Ireland",
@@ -45,26 +111,19 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/7y8d3mr6d46h1/CMAF_1080.mp4?source=fallback",
           "postedAt": 1780950841000
-        }
-      ]
-    },
-    {
-      "home": "Netherlands",
-      "away": "Uzbekistan",
-      "league": "Rest of World",
-      "goals": [
+        },
         {
-          "postId": "1u0ibl2",
+          "postId": "1u0k8pp",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1u0ibl2",
-          "scorer": "Cody Gakpo penalty",
-          "minute": 31,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamain.com/Zu76zjIber1ZIGz/watch",
-          "videoEmbed": "https://streamain.com/Zu76zjIber1ZIGz/watch",
-          "directMp4": null,
-          "postedAt": 1780947341000
+          "permalink": "https://redd.it/1u0k8pp",
+          "scorer": "Michael Olise hattrick",
+          "minute": 74,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/bfh90rm3f46h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/bfh90rm3f46h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1780951489000
         }
       ]
     },
