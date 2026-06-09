@@ -1,5 +1,119 @@
 {
-  "updated": "2026-06-09T12:25:25Z",
+  "updated": "2026-06-09T15:37:38Z",
   "date": "2026-06-09",
-  "matches": []
+  "matches": [
+    {
+      "home": "Tajikistan",
+      "away": "India",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u18d5u",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u18d5u",
+          "scorer": "Vikram Partap Singh",
+          "minute": 25,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/231250fa",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781019054000
+        }
+      ]
+    },
+    {
+      "home": "Ethiopia",
+      "away": "Malawi",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u188yx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u188yx",
+          "scorer": "Babatunde Adepoju",
+          "minute": 19,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/92d301d3",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781018821000
+        }
+      ]
+    },
+    {
+      "home": "Indonesia",
+      "away": "Mozambique",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u14vjq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u14vjq",
+          "scorer": "Ole ter Haar Romeny",
+          "minute": 12,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/UZANuP14mcRdoTC/watch",
+          "videoEmbed": "https://streamain.com/UZANuP14mcRdoTC/watch",
+          "directMp4": null,
+          "postedAt": 1781011374000
+        }
+      ]
+    },
+    {
+      "home": "Cambodia",
+      "away": "Hong Kong",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u149dr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u149dr",
+          "scorer": "Yudai Ogawa",
+          "minute": 45,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/0Q3aoBom5JSyLkO/watch",
+          "videoEmbed": "https://streamain.com/0Q3aoBom5JSyLkO/watch",
+          "directMp4": null,
+          "postedAt": 1781009914000
+        },
+        {
+          "postId": "1u14qwk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u14qwk",
+          "scorer": "Chanthea Sieng",
+          "minute": 50,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/5Aoj4gDnyrzBnqO/watch",
+          "videoEmbed": "https://streamain.com/5Aoj4gDnyrzBnqO/watch",
+          "directMp4": null,
+          "postedAt": 1781011064000
+        }
+      ]
+    },
+    {
+      "home": "Philippines",
+      "away": "Myanmar",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u147w4",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u147w4",
+          "scorer": "Paul Tabinas",
+          "minute": 54,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/k0HMsFzBKGEpb3Z/watch",
+          "videoEmbed": "https://streamain.com/k0HMsFzBKGEpb3Z/watch",
+          "directMp4": null,
+          "postedAt": 1781009804000
+        }
+      ]
+    }
+  ]
 }
