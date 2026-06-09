@@ -1,7 +1,80 @@
 {
-  "updated": "2026-06-09T15:37:38Z",
+  "updated": "2026-06-09T17:35:38Z",
   "date": "2026-06-09",
   "matches": [
+    {
+      "home": "Hungary",
+      "away": "Kazakhstan",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u1b896",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u1b896",
+          "scorer": "Serhiy Malyi",
+          "minute": 9,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/s9s3bz2oha6h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/s9s3bz2oha6h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1781024999000
+        }
+      ]
+    },
+    {
+      "home": "Armenia",
+      "away": "Moldova",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u1am5o",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u1am5o",
+          "scorer": "Artur Serobyan",
+          "minute": 89,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/x7fvp6cyda6h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/x7fvp6cyda6h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1781023747000
+        },
+        {
+          "postId": "1u1ap4d",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u1ap4d",
+          "scorer": "Victor Bogaciuc",
+          "minute": 90,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/9c90dkfhea6h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/9c90dkfhea6h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1781023928000
+        }
+      ]
+    },
+    {
+      "home": "Latvia",
+      "away": "Faroe Islands",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u1ahlv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u1ahlv",
+          "scorer": "Hanus Sørensen",
+          "minute": 81,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/wwu9ghnzca6h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/wwu9ghnzca6h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1781023491000
+        }
+      ]
+    },
     {
       "home": "Tajikistan",
       "away": "India",
