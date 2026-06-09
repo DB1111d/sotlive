@@ -1,7 +1,73 @@
 {
-  "updated": "2026-06-09T17:35:38Z",
+  "updated": "2026-06-09T19:47:59Z",
   "date": "2026-06-09",
   "matches": [
+    {
+      "home": "Northern Ireland",
+      "away": "Switzerland",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u1es7a",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u1es7a",
+          "scorer": "Emily Cassap (",
+          "minute": 85,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/bvzr2i0y3b6h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/bvzr2i0y3b6h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1781032496000
+        }
+      ]
+    },
+    {
+      "home": "Azerbaijan",
+      "away": "San Marino",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u1cy2y",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u1cy2y",
+          "scorer": "Nicola Nanni",
+          "minute": 9,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/g693gzqdsa6h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/g693gzqdsa6h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1781028599000
+        },
+        {
+          "postId": "1u1diti",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u1diti",
+          "scorer": "Rahman Dashdamirov",
+          "minute": 27,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/tqcyrg4zva6h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/tqcyrg4zva6h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1781029810000
+        },
+        {
+          "postId": "1u1eokv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u1eokv",
+          "scorer": "Renat Dadashov",
+          "minute": 49,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/de7p5smb3b6h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/de7p5smb3b6h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1781032282000
+        }
+      ]
+    },
     {
       "home": "Hungary",
       "away": "Kazakhstan",
@@ -19,6 +85,144 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/s9s3bz2oha6h1/CMAF_720.mp4?source=fallback",
           "postedAt": 1781024999000
+        },
+        {
+          "postId": "1u1d3vz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u1d3vz",
+          "scorer": "Dominik Szoboszlai",
+          "minute": 52,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/ierckisdta6h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ierckisdta6h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1781028937000
+        },
+        {
+          "postId": "1u1dk3q",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u1dk3q",
+          "scorer": "András Schäfer",
+          "minute": 67,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/2zq39pm6wa6h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/2zq39pm6wa6h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1781029878000
+        },
+        {
+          "postId": "1u1e93e",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u1e93e",
+          "scorer": "Rajmund Tóth",
+          "minute": 90,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/g4y8ztln0b6h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/g4y8ztln0b6h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1781031383000
+        }
+      ]
+    },
+    {
+      "home": "Belarus",
+      "away": "Burkina Faso",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u1cerc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u1cerc",
+          "scorer": "Vladislav Malkevich",
+          "minute": 56,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/gylu9320pa6h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/gylu9320pa6h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1781027476000
+        },
+        {
+          "postId": "1u1cp8c",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u1cp8c",
+          "scorer": "Karen Vardanyan",
+          "minute": 67,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/c4rhi93wqa6h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/c4rhi93wqa6h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1781028095000
+        },
+        {
+          "postId": "1u1cw64",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u1cw64",
+          "scorer": "Elohim Kaboré",
+          "minute": 72,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/775f2so0sa6h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/775f2so0sa6h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1781028482000
+        },
+        {
+          "postId": "1u1d94u",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u1d94u",
+          "scorer": "Abdoul Tapsoba",
+          "minute": 85,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/3hmx305aua6h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/3hmx305aua6h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1781029243000
+        }
+      ]
+    },
+    {
+      "home": "Chile",
+      "away": "Congo",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u1cisc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u1cisc",
+          "scorer": "Dario Osorio",
+          "minute": 51,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/5y3u797ppa6h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/5y3u797ppa6h1/CMAF_480.mp4?source=fallback",
+          "postedAt": 1781027723000
+        }
+      ]
+    },
+    {
+      "home": "Estonia",
+      "away": "Lithuania",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u1c288",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u1c288",
+          "scorer": "Karel Mustmaa",
+          "minute": 80,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/8hxz412uma6h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/8hxz412uma6h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1781026737000
         }
       ]
     },
