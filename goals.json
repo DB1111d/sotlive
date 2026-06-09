@@ -1,7 +1,79 @@
 {
-  "updated": "2026-06-09T19:47:59Z",
+  "updated": "2026-06-09T21:45:33Z",
   "date": "2026-06-09",
   "matches": [
+    {
+      "home": "Almeria",
+      "away": "Castellon",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u1gzu2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u1gzu2",
+          "scorer": "Adrian Embarba",
+          "minute": 41,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/BjtcOH9foMsfcO6/watch",
+          "videoEmbed": "https://streamain.com/BjtcOH9foMsfcO6/watch",
+          "directMp4": null,
+          "postedAt": 1781037271000
+        },
+        {
+          "postId": "1u1h0ko",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u1h0ko",
+          "scorer": "Alex Calatrava",
+          "minute": 57,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/5lfs4aAT2J59d7Q/watch",
+          "videoEmbed": "https://streamain.com/5lfs4aAT2J59d7Q/watch",
+          "directMp4": null,
+          "postedAt": 1781037317000
+        },
+        {
+          "postId": "1u1h16k",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u1h16k",
+          "scorer": "Agustin Sienra",
+          "minute": 69,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/V3hn6wdL8wtxEDn/watch",
+          "videoEmbed": "https://streamain.com/V3hn6wdL8wtxEDn/watch",
+          "directMp4": null,
+          "postedAt": 1781037354000
+        },
+        {
+          "postId": "1u1hdi6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u1hdi6",
+          "scorer": "Alex Munoz",
+          "minute": 80,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/moAuUXlSGdL1nx9/watch",
+          "videoEmbed": "https://streamain.com/moAuUXlSGdL1nx9/watch",
+          "directMp4": null,
+          "postedAt": 1781038116000
+        },
+        {
+          "postId": "1u1hlxl",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u1hlxl",
+          "scorer": "Stefan Dzodic",
+          "minute": 90,
+          "homeScore": 3,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/ZotqlwE2LSAsc8E/watch",
+          "videoEmbed": "https://streamain.com/ZotqlwE2LSAsc8E/watch",
+          "directMp4": null,
+          "postedAt": 1781038629000
+        }
+      ]
+    },
     {
       "home": "Northern Ireland",
       "away": "Switzerland",
