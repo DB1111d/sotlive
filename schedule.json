@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-10 04:08 EDT",
+  "updated": "2026-06-10 08:32 EDT",
   "days": {
     "20260610": {
       "date": "Wednesday, June 10",
@@ -71,15 +71,80 @@
     },
     "20260611": {
       "date": "Thursday, June 11",
-      "games": []
+      "games": [
+        {
+          "league": "FIFA World Cup",
+          "time": "3:00 PM",
+          "match": "Mexico vs South Africa",
+          "source": "FOX \u00b7 Peacock",
+          "kick_utc": "2026-06-11T19:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png"
+        },
+        {
+          "league": "FIFA World Cup",
+          "time": "10:00 PM",
+          "match": "South Korea vs Czechia",
+          "source": "FS1 \u00b7 Peacock",
+          "kick_utc": "2026-06-12T02:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png"
+        }
+      ]
     },
     "20260612": {
       "date": "Friday, June 12",
-      "games": []
+      "games": [
+        {
+          "league": "FIFA World Cup",
+          "time": "3:00 PM",
+          "match": "Canada vs Bosnia-Herzegovina",
+          "source": "FOX \u00b7 Peacock",
+          "kick_utc": "2026-06-12T19:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png"
+        },
+        {
+          "league": "FIFA World Cup",
+          "time": "9:00 PM",
+          "match": "United States vs Paraguay",
+          "source": "FOX \u00b7 Peacock",
+          "kick_utc": "2026-06-13T01:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png"
+        }
+      ]
     },
     "20260613": {
       "date": "Saturday, June 13",
       "games": [
+        {
+          "league": "FIFA World Cup",
+          "time": "3:00 PM",
+          "match": "Qatar vs Switzerland",
+          "source": "FOX \u00b7 Peacock",
+          "kick_utc": "2026-06-13T19:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png"
+        },
+        {
+          "league": "FIFA World Cup",
+          "time": "6:00 PM",
+          "match": "Brazil vs Morocco",
+          "source": "FOX \u00b7 Peacock",
+          "kick_utc": "2026-06-13T22:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png"
+        },
+        {
+          "league": "FIFA World Cup",
+          "time": "9:00 PM",
+          "match": "Haiti vs Scotland",
+          "source": "FOX \u00b7 Peacock",
+          "kick_utc": "2026-06-14T01:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png"
+        },
         {
           "league": "USL Championship",
           "time": "6:00 PM",
@@ -247,6 +312,51 @@
     "20260614": {
       "date": "Sunday, June 14",
       "games": [
+        {
+          "league": "FIFA World Cup",
+          "time": "12:00 AM",
+          "match": "Australia vs T\u00fcrkiye",
+          "source": "FS1 \u00b7 Peacock",
+          "kick_utc": "2026-06-14T04:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png"
+        },
+        {
+          "league": "FIFA World Cup",
+          "time": "1:00 PM",
+          "match": "Germany vs Cura\u00e7ao",
+          "source": "FOX \u00b7 Peacock",
+          "kick_utc": "2026-06-14T17:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png"
+        },
+        {
+          "league": "FIFA World Cup",
+          "time": "4:00 PM",
+          "match": "Netherlands vs Japan",
+          "source": "FOX \u00b7 Peacock",
+          "kick_utc": "2026-06-14T20:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png"
+        },
+        {
+          "league": "FIFA World Cup",
+          "time": "7:00 PM",
+          "match": "Ivory Coast vs Ecuador",
+          "source": "FS1 \u00b7 Peacock",
+          "kick_utc": "2026-06-14T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png"
+        },
+        {
+          "league": "FIFA World Cup",
+          "time": "10:00 PM",
+          "match": "Sweden vs Tunisia",
+          "source": "FS1 \u00b7 Peacock",
+          "kick_utc": "2026-06-15T02:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png"
+        },
         {
           "league": "USL League One",
           "time": "7:00 PM",
