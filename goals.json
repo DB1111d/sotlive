@@ -1,7 +1,27 @@
 {
-  "updated": "2026-06-10T17:33:58Z",
+  "updated": "2026-06-10T19:57:10Z",
   "date": "2026-06-10",
   "matches": [
+    {
+      "home": "Malaga",
+      "away": "Las Palmas",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u2bu9u",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u2bu9u",
+          "scorer": "Jese",
+          "minute": 3,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/ex6K8J7fXlo7qSY/watch",
+          "videoEmbed": "https://streamain.com/ex6K8J7fXlo7qSY/watch",
+          "directMp4": null,
+          "postedAt": 1781118778000
+        }
+      ]
+    },
     {
       "home": "Pakistan",
       "away": "Afghanistan",
@@ -19,6 +39,19 @@
           "videoEmbed": "https://streamain.com/9TPZeVQvaz3cwsQ/watch",
           "directMp4": null,
           "postedAt": 1781109334000
+        },
+        {
+          "postId": "1u29r0n",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u29r0n",
+          "scorer": "Harun Hamid",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/41dtbJI5DJG3YSN/watch",
+          "videoEmbed": "https://streamain.com/41dtbJI5DJG3YSN/watch",
+          "directMp4": null,
+          "postedAt": 1781114333000
         }
       ]
     }
