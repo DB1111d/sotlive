@@ -1,5 +1,26 @@
 {
-  "updated": "2026-06-10T14:01:08Z",
+  "updated": "2026-06-10T17:33:58Z",
   "date": "2026-06-10",
-  "matches": []
+  "matches": [
+    {
+      "home": "Pakistan",
+      "away": "Afghanistan",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u27cpn",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u27cpn",
+          "scorer": "Shayak Dost",
+          "minute": 24,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/9TPZeVQvaz3cwsQ/watch",
+          "videoEmbed": "https://streamain.com/9TPZeVQvaz3cwsQ/watch",
+          "directMp4": null,
+          "postedAt": 1781109334000
+        }
+      ]
+    }
+  ]
 }
