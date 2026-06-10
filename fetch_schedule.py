@@ -36,6 +36,7 @@ ESPN_LEAGUES = {
     "fifa.worldq.concacaf.ofc":    "World Cup Qualifying",
     "fifa.wcq.ply":                "World Cup Qualifying",
     "fifa.worldq.afc.conmebol":    "World Cup Qualifying",
+    "fifa.world":                 "FIFA World Cup",
     "fifa.friendly":               "International Friendly",
     "eng.1":          "Premier League",
     "eng.2":          "EFL Championship",
@@ -131,6 +132,7 @@ SHOW_KEYWORDS = [
 ]
 
 LEAGUE_ORDER = [
+    "FIFA World Cup",
     "World Cup Qualifying",
     "International Friendly",
     "UEFA Champions League",

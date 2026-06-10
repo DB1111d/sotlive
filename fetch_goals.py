@@ -83,6 +83,7 @@ TEAM_ALIASES = {
     # Premier League
     "man city":            "Manchester City",
     "man utd":             "Manchester United",
+    "manchester utd":      "Manchester United",
     "man united":          "Manchester United",
     "spurs":               "Tottenham Hotspur",
     "tottenham":           "Tottenham Hotspur",
@@ -357,7 +358,7 @@ def parse_title(title):
     if len(dash_parts) > 1:
         # Try to extract minute from scorer string if not already found in title
         if minute is None:
-            minute_in_scorer = re.search(r"(\d{1,3})(?:\+\d+)?\s*['\u2019\u2032\u02bc]", dash_parts[1])
+            minute_in_scorer = re.search(r"(\d{1,3})(?:\+\d+)?\s*[\u0027\u2019\u2032\u02bc\u0060\u00b4]", dash_parts[1])
             if minute_in_scorer:
                 m = int(minute_in_scorer.group(1))
                 if 1 <= m <= 120:
@@ -506,7 +507,9 @@ def main():
         for i in range(1, len(goals_by_score)):
             prev = goals_by_score[i - 1]
             curr = goals_by_score[i]
-            if curr["homeScore"] < prev["homeScore"] or curr["awayScore"] < prev["awayScore"]:
+            # Only flag disallowed if the TOTAL score drops — one side dropping alone
+            # is normal when goals alternate (e.g. 3-1 then 2-2 is not a disallowed goal)
+            if (curr["homeScore"] + curr["awayScore"]) < (prev["homeScore"] + prev["awayScore"]):
                 prev["disallowed"] = True
 
     match_list = list(matches.values())
