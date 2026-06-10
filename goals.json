@@ -1,7 +1,27 @@
 {
-  "updated": "2026-06-09T23:15:46Z",
-  "date": "2026-06-09",
+  "updated": "2026-06-10T01:35:12Z",
+  "date": "2026-06-10",
   "matches": [
+    {
+      "home": "Argentina",
+      "away": "Iceland",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u1nwyy",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u1nwyy",
+          "scorer": "Valentin Barco",
+          "minute": 8,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/1a41bd7f",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781054290000
+        }
+      ]
+    },
     {
       "home": "Almeria",
       "away": "Castellon",
