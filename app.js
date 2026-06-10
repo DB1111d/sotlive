@@ -24,6 +24,7 @@ function formatTime(kick_utc, iana) {
 
 // ── League order (soccer) ─────────────────────────────────────────
 const LEAGUE_ORDER = [
+  'FIFA World Cup',
   'UEFA Champions League',
   'UEFA Europa League',
   'UEFA Europa Conference League',
@@ -296,7 +297,7 @@ function buildPanel(key, day) {
     grouped[g.league].items.push(g);
   }
 
-  const PRIORITY_LEAGUES = ['World Cup Qualifying', 'International Friendly', 'Friendly'];
+  const PRIORITY_LEAGUES = ['FIFA World Cup', 'World Cup Qualifying', 'International Friendly', 'Friendly'];
 
   const sortedGrouped = Object.fromEntries(
     Object.entries(grouped).sort(([a], [b]) => {
