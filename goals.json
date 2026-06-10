@@ -1,7 +1,53 @@
 {
-  "updated": "2026-06-10T22:04:32Z",
+  "updated": "2026-06-10T23:49:20Z",
   "date": "2026-06-10",
   "matches": [
+    {
+      "home": "England",
+      "away": "Costa Rica",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u2f4mg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u2f4mg",
+          "scorer": "D. Rice",
+          "minute": 9,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/b5b2e0e5",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781126021000
+        },
+        {
+          "postId": "1u2h7uj",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u2h7uj",
+          "scorer": "Anthony Gordon (penalty) 68‎'‎",
+          "minute": null,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/76273452",
+          "videoEmbed": "https://streamff.link/v/76273452",
+          "directMp4": null,
+          "postedAt": 1781130939000
+        },
+        {
+          "postId": "1u2hodr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u2hodr",
+          "scorer": "Ollie Watkins",
+          "minute": 87,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/99c56681",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781132107000
+        }
+      ]
+    },
     {
       "home": "Portugal",
       "away": "Nigeria",
@@ -45,26 +91,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/l2qp0of4wi6h1/CMAF_1080.mp4?source=fallback",
           "postedAt": 1781126710000
-        }
-      ]
-    },
-    {
-      "home": "England",
-      "away": "Costa Rica",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1u2f4mg",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1u2f4mg",
-          "scorer": "D. Rice",
-          "minute": 9,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamin.link/v/b5b2e0e5",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1781126021000
         }
       ]
     },
