@@ -1,7 +1,73 @@
 {
-  "updated": "2026-06-10T19:57:10Z",
+  "updated": "2026-06-10T22:04:32Z",
   "date": "2026-06-10",
   "matches": [
+    {
+      "home": "Portugal",
+      "away": "Nigeria",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u2dhqw",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u2dhqw",
+          "scorer": "Pedro Neto",
+          "minute": 23,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/0d80e24e",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781122357000
+        },
+        {
+          "postId": "1u2dvnx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u2dvnx",
+          "scorer": "A. Adams",
+          "minute": 37,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/77e7dba6",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781123212000
+        },
+        {
+          "postId": "1u2ffmr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u2ffmr",
+          "scorer": "Francisco Conceicao",
+          "minute": 75,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/l2qp0of4wi6h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/l2qp0of4wi6h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1781126710000
+        }
+      ]
+    },
+    {
+      "home": "England",
+      "away": "Costa Rica",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u2f4mg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u2f4mg",
+          "scorer": "D. Rice",
+          "minute": 9,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/b5b2e0e5",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781126021000
+        }
+      ]
+    },
     {
       "home": "Malaga",
       "away": "Las Palmas",
@@ -19,6 +85,19 @@
           "videoEmbed": "https://streamain.com/ex6K8J7fXlo7qSY/watch",
           "directMp4": null,
           "postedAt": 1781118778000
+        },
+        {
+          "postId": "1u2dyh1",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u2dyh1",
+          "scorer": "Joaquin Munoz",
+          "minute": 69,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/0SifMLYHQxIuAHb/watch",
+          "videoEmbed": "https://streamain.com/0SifMLYHQxIuAHb/watch",
+          "directMp4": null,
+          "postedAt": 1781123387000
         }
       ]
     },
