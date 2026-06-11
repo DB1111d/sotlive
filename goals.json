@@ -1,5 +1,26 @@
 {
-  "updated": "2026-06-11T16:35:05Z",
+  "updated": "2026-06-11T19:22:53Z",
   "date": "2026-06-11",
-  "matches": []
+  "matches": [
+    {
+      "home": "Mexico",
+      "away": "South Africa",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u38ii8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u38ii8",
+          "scorer": "Julián Quiñones",
+          "minute": 9,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/72223324",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781205287000
+        }
+      ]
+    }
+  ]
 }
