@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-12T19:23:47Z",
+  "updated": "2026-06-12T21:12:13Z",
   "date": "2026-06-12",
   "matches": [
     {
@@ -19,6 +19,39 @@
           "videoEmbed": "https://streamff.link/v/685f5f3f",
           "directMp4": null,
           "postedAt": 1781292186000
+        },
+        {
+          "postId": "1u46z07",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u46z07",
+          "scorer": "C. Larin",
+          "minute": 79,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/a48510e4",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781296798000
+        }
+      ]
+    },
+    {
+      "home": "Canada",
+      "away": "Bosnia and Herzegovina",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u4500k",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u4500k",
+          "scorer": "Jovo Lukić",
+          "minute": 21,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/g7clvan8kw6h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/g7clvan8kw6h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1781292208000
         }
       ]
     }
