@@ -1,5 +1,26 @@
 {
-  "updated": "2026-06-12T17:14:43Z",
+  "updated": "2026-06-12T19:23:47Z",
   "date": "2026-06-12",
-  "matches": []
+  "matches": [
+    {
+      "home": "Canada",
+      "away": "Bosnia & Herzegovina",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u44zov",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u44zov",
+          "scorer": "Jovo Lukić",
+          "minute": 21,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/685f5f3f",
+          "videoEmbed": "https://streamff.link/v/685f5f3f",
+          "directMp4": null,
+          "postedAt": 1781292186000
+        }
+      ]
+    }
+  ]
 }
