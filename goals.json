@@ -1,39 +1,5 @@
 {
-  "updated": "2026-06-12T01:39:10Z",
+  "updated": "2026-06-12T06:18:35Z",
   "date": "2026-06-12",
-  "matches": [
-    {
-      "home": "Mexico",
-      "away": "South Africa",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1u38ii8",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1u38ii8",
-          "scorer": "Julián Quiñones",
-          "minute": 9,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamin.link/v/72223324",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1781205287000
-        },
-        {
-          "postId": "1u3anmt",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1u3anmt",
-          "scorer": "Raúl Jiménez",
-          "minute": 67,
-          "homeScore": 2,
-          "awayScore": 0,
-          "videoUrl": "https://streamff.link/v/9c636c6e",
-          "videoEmbed": "https://streamff.link/v/9c636c6e",
-          "directMp4": null,
-          "postedAt": 1781210082000
-        }
-      ]
-    }
-  ]
+  "matches": []
 }
