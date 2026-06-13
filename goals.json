@@ -1,5 +1,59 @@
 {
-  "updated": "2026-06-13T10:57:58Z",
+  "updated": "2026-06-13T12:52:33Z",
   "date": "2026-06-13",
-  "matches": []
+  "matches": [
+    {
+      "home": "Real Madrid Legends",
+      "away": "Inter Legends",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u4onko",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u4onko",
+          "scorer": "Pepe",
+          "minute": 70,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/18pgbuttd17h1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781350579000
+        },
+        {
+          "postId": "1u4osz6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u4osz6",
+          "scorer": "Barral",
+          "minute": 75,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/qr6abz88f17h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/qr6abz88f17h1/CMAF_480.mp4?source=fallback",
+          "postedAt": 1781351048000
+        }
+      ]
+    },
+    {
+      "home": "Real Madrid Legends",
+      "away": "Inter Milan Legends",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u4oobl",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u4oobl",
+          "scorer": "Pepe",
+          "minute": 70,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/3fe3a4f4",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781350644000
+        }
+      ]
+    }
+  ]
 }
