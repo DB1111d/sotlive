@@ -1,7 +1,47 @@
 {
-  "updated": "2026-06-13T23:20:26Z",
-  "date": "2026-06-13",
+  "updated": "2026-06-14T01:41:55Z",
+  "date": "2026-06-14",
   "matches": [
+    {
+      "home": "Haiti",
+      "away": "Scotland'",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u57vdx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u57vdx",
+          "scorer": "McGinn",
+          "minute": 28,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/sGZVsvSl4kQqR4Q/watch",
+          "videoEmbed": "https://streamain.com/sGZVsvSl4kQqR4Q/watch",
+          "directMp4": null,
+          "postedAt": 1781400735000
+        }
+      ]
+    },
+    {
+      "home": "Haiti",
+      "away": "Scotland",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u57u6u",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u57u6u",
+          "scorer": "J. McGinn",
+          "minute": 28,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/76a24637",
+          "videoEmbed": "https://streamff.link/v/76a24637",
+          "directMp4": null,
+          "postedAt": 1781400635000
+        }
+      ]
+    },
     {
       "home": "Brazil",
       "away": "Morocco",
