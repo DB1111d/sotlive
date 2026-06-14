@@ -1,163 +1,77 @@
 {
-  "updated": "2026-06-14T01:41:55Z",
+  "updated": "2026-06-14T06:21:02Z",
   "date": "2026-06-14",
   "matches": [
     {
-      "home": "Haiti",
-      "away": "Scotland'",
+      "home": "Metcalfe scores Australia",
+      "away": "Turkey",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1u57vdx",
+          "postId": "1u5cpnm",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1u57vdx",
-          "scorer": "McGinn",
-          "minute": 28,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamain.com/sGZVsvSl4kQqR4Q/watch",
-          "videoEmbed": "https://streamain.com/sGZVsvSl4kQqR4Q/watch",
-          "directMp4": null,
-          "postedAt": 1781400735000
+          "permalink": "https://redd.it/1u5cpnm",
+          "scorer": "",
+          "minute": null,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/65h1x6wyq67h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/65h1x6wyq67h1/CMAF_360.mp4?source=fallback",
+          "postedAt": 1781415529000
         }
       ]
     },
     {
-      "home": "Haiti",
-      "away": "Scotland",
+      "home": "Australia",
+      "away": "Turkey",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1u57u6u",
+          "postId": "1u5bgq5",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1u57u6u",
-          "scorer": "J. McGinn",
-          "minute": 28,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamff.link/v/76a24637",
-          "videoEmbed": "https://streamff.link/v/76a24637",
-          "directMp4": null,
-          "postedAt": 1781400635000
-        }
-      ]
-    },
-    {
-      "home": "Brazil",
-      "away": "Morocco",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1u53yvs",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1u53yvs",
-          "scorer": "I. Saibari",
-          "minute": 21,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamff.link/v/8a645c08",
-          "videoEmbed": "https://streamff.link/v/8a645c08",
-          "directMp4": null,
-          "postedAt": 1781389484000
+          "permalink": "https://redd.it/1u5bgq5",
+          "scorer": "N. Irankunda",
+          "minute": 27,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/dr6bo8hxe67h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/dr6bo8hxe67h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1781411528000
         },
         {
-          "postId": "1u548oy",
+          "postId": "1u5cngy",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1u548oy",
-          "scorer": "Vinicius",
-          "minute": 32,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://streamain.com/en/3csROadpwhW65Df/watch",
-          "videoEmbed": "https://streamain.com/en/3csROadpwhW65Df/watch",
-          "directMp4": null,
-          "postedAt": 1781390239000
-        }
-      ]
-    },
-    {
-      "home": "Qatar",
-      "away": "Switzerland",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1u4zny1",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1u4zny1",
-          "scorer": "Breel Embolo penalty",
-          "minute": 17,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/97733521",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1781378485000
-        },
-        {
-          "postId": "1u527r0",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1u527r0",
-          "scorer": "Boualem Khoukhi",
-          "minute": 90,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/86000f77",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1781384841000
-        }
-      ]
-    },
-    {
-      "home": "Real Madrid Legends",
-      "away": "Inter Legends",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1u4onko",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1u4onko",
-          "scorer": "Pepe",
-          "minute": 70,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/18pgbuttd17h1",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1781350579000
-        },
-        {
-          "postId": "1u4osz6",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1u4osz6",
-          "scorer": "Barral",
+          "permalink": "https://redd.it/1u5cngy",
+          "scorer": "Connor Metcalfe",
           "minute": 75,
           "homeScore": 2,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/qr6abz88f17h1",
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/48c63c74",
           "videoEmbed": null,
-          "directMp4": "https://v.redd.it/qr6abz88f17h1/CMAF_480.mp4?source=fallback",
-          "postedAt": 1781351048000
+          "directMp4": null,
+          "postedAt": 1781415327000
         }
       ]
     },
     {
-      "home": "Real Madrid Legends",
-      "away": "Inter Milan Legends",
+      "home": "Australia",
+      "away": "Turkiye",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1u4oobl",
+          "postId": "1u5bgkp",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1u4oobl",
-          "scorer": "Pepe",
-          "minute": 70,
+          "permalink": "https://redd.it/1u5bgkp",
+          "scorer": "Nystrom Irankunda",
+          "minute": 27,
           "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/3fe3a4f4",
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/nge15tw0f67h1",
           "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1781350644000
+          "directMp4": "https://v.redd.it/nge15tw0f67h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1781411514000
         }
       ]
     }
