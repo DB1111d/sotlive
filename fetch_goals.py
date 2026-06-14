@@ -165,6 +165,10 @@ TEAM_ALIASES = {
     "fc union berlin":     "1. FC Union Berlin",
     "1 fc union berlin":   "1. FC Union Berlin",
     "1. fc union berlin":  "1. FC Union Berlin",
+    # Turkey / Turkiye (FIFA renamed the country in 2022)
+    "turkey":              "Turkiye",
+    "turkiye":             "Turkiye",
+    "türkiye":             "Turkiye",
 }
 
 
@@ -339,6 +343,10 @@ def parse_title(title):
     score_idx = title.index(score_match.group(0))
     home = clean_team(title[:score_idx])
     if not home or len(home) > 50 or ',' in home or '~' in home:
+        return None
+    # Reject highlight-recap titles like "Metcalfe Scores Australia [2]-0 Turkey"
+    # where a scorer name + "scores/scored" got swept into the home team field
+    if re.search(r'\b(scores?|scored)\b', home, re.IGNORECASE):
         return None
     after_score = title[score_idx + len(score_match.group(0)):].strip()
     # Support both " - " and " | " as separators between away team and scorer
