@@ -1,7 +1,40 @@
 {
-  "updated": "2026-06-14T16:11:12Z",
+  "updated": "2026-06-14T17:47:05Z",
   "date": "2026-06-14",
   "matches": [
+    {
+      "home": "Germany",
+      "away": "Curacao",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u5r1dl",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u5r1dl",
+          "scorer": "Livano Comenencia",
+          "minute": 21,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/4954168c",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781457774000
+        },
+        {
+          "postId": "1u5rgmr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u5rgmr",
+          "scorer": "A. Pavlović",
+          "minute": 38,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/653c7adb",
+          "videoEmbed": "https://streamff.link/v/653c7adb",
+          "directMp4": null,
+          "postedAt": 1781458764000
+        }
+      ]
+    },
     {
       "home": "Metcalfe scores Australia",
       "away": "Turkey",
