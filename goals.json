@@ -1,7 +1,66 @@
 {
-  "updated": "2026-06-14T20:46:12Z",
+  "updated": "2026-06-14T22:06:40Z",
   "date": "2026-06-14",
   "matches": [
+    {
+      "home": "Netherlands",
+      "away": "Japan",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u5wufh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u5wufh",
+          "scorer": "Virgil van Dijk",
+          "minute": 51,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/3f977687",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781471371000
+        },
+        {
+          "postId": "1u5x0ev",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u5x0ev",
+          "scorer": "Keito Nakamura",
+          "minute": 57,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/3cd57a52",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781471775000
+        },
+        {
+          "postId": "1u5x5yj",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u5x5yj",
+          "scorer": "Crysencio Summerville",
+          "minute": 64,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/d4acada4",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781472153000
+        },
+        {
+          "postId": "1u5xta2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u5xta2",
+          "scorer": "Daichi Kamada",
+          "minute": 89,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/4267ab7b",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781473743000
+        }
+      ]
+    },
     {
       "home": "Germany",
       "away": "Curacao",
