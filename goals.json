@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-14T19:21:52Z",
+  "updated": "2026-06-14T20:46:12Z",
   "date": "2026-06-14",
   "matches": [
     {
@@ -122,39 +122,6 @@
     },
     {
       "home": "Australia",
-      "away": "Turkey",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1u5bgq5",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1u5bgq5",
-          "scorer": "N. Irankunda",
-          "minute": 27,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/dr6bo8hxe67h1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/dr6bo8hxe67h1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1781411528000
-        },
-        {
-          "postId": "1u5cngy",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1u5cngy",
-          "scorer": "Connor Metcalfe",
-          "minute": 75,
-          "homeScore": 2,
-          "awayScore": 0,
-          "videoUrl": "https://streamin.link/v/48c63c74",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1781415327000
-        }
-      ]
-    },
-    {
-      "home": "Australia",
       "away": "Turkiye",
       "league": "Rest of World",
       "goals": [
@@ -170,6 +137,19 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/nge15tw0f67h1/CMAF_720.mp4?source=fallback",
           "postedAt": 1781411514000
+        },
+        {
+          "postId": "1u5cngy",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u5cngy",
+          "scorer": "Connor Metcalfe",
+          "minute": 75,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/48c63c74",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781415327000
         }
       ]
     }
