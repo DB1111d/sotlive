@@ -1,18 +1,9 @@
 {
-  "updated": "2026-06-15 15:48 EDT",
+  "updated": "2026-06-15 18:20 EDT",
   "days": {
     "20260615": {
       "date": "Monday, June 15",
       "games": [
-        {
-          "league": "FIFA World Cup",
-          "time": "12:00 PM",
-          "match": "Spain vs Cape Verde",
-          "source": "FOX \u00b7 Peacock",
-          "kick_utc": "2026-06-15T16:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png"
-        },
         {
           "league": "FIFA World Cup",
           "time": "3:00 PM",
