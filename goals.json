@@ -1,7 +1,27 @@
 {
-  "updated": "2026-06-14T23:36:57Z",
-  "date": "2026-06-14",
+  "updated": "2026-06-15T02:04:03Z",
+  "date": "2026-06-15",
   "matches": [
+    {
+      "home": "Cote d'Ivoire",
+      "away": "Ecuador",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u61z8l",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u61z8l",
+          "scorer": "A. Diallo",
+          "minute": 90,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/b667643d",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781484927000
+        }
+      ]
+    },
     {
       "home": "Netherlands",
       "away": "Japan",
