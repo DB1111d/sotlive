@@ -1,7 +1,40 @@
 {
-  "updated": "2026-06-15T18:15:32Z",
+  "updated": "2026-06-15T21:29:24Z",
   "date": "2026-06-15",
   "matches": [
+    {
+      "home": "Belgium",
+      "away": "Egypt",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u6qfaa",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u6qfaa",
+          "scorer": "Emam Ashour",
+          "minute": 19,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/a7500933",
+          "videoEmbed": "https://streamff.link/v/a7500933",
+          "directMp4": null,
+          "postedAt": 1781551188000
+        },
+        {
+          "postId": "1u6sdyj",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u6sdyj",
+          "scorer": "Own Goal",
+          "minute": 66,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/059e6f7b",
+          "videoEmbed": "https://streamff.link/v/059e6f7b",
+          "directMp4": null,
+          "postedAt": 1781555387000
+        }
+      ]
+    },
     {
       "home": "Sweden",
       "away": "Tunisia",
