@@ -1,7 +1,27 @@
 {
-  "updated": "2026-06-15T21:29:24Z",
+  "updated": "2026-06-15T23:19:46Z",
   "date": "2026-06-15",
   "matches": [
+    {
+      "home": "Saudi Arabia",
+      "away": "Uruguay",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u6vxii",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u6vxii",
+          "scorer": "Abdulelah Al Amri",
+          "minute": 41,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/da93cb2a",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781563465000
+        }
+      ]
+    },
     {
       "home": "Belgium",
       "away": "Egypt",
