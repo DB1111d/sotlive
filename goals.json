@@ -1,5 +1,39 @@
 {
-  "updated": "2026-06-16T17:48:25Z",
+  "updated": "2026-06-16T20:46:48Z",
   "date": "2026-06-16",
-  "matches": []
+  "matches": [
+    {
+      "home": "France",
+      "away": "Senegal",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u7p85f",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u7p85f",
+          "scorer": "K. Mbappé",
+          "minute": 66,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/7fe17452",
+          "videoEmbed": "https://streamff.link/v/7fe17452",
+          "directMp4": null,
+          "postedAt": 1781641792000
+        },
+        {
+          "postId": "1u7pnly",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u7pnly",
+          "scorer": "Bradley Barcola",
+          "minute": 82,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/bb3b566e",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781642767000
+        }
+      ]
+    }
+  ]
 }
