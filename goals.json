@@ -1,7 +1,73 @@
 {
-  "updated": "2026-06-16T20:46:48Z",
+  "updated": "2026-06-16T22:51:19Z",
   "date": "2026-06-16",
   "matches": [
+    {
+      "home": "Iraq",
+      "away": "Norway",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u7sbkp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u7sbkp",
+          "scorer": "Erling Haaland",
+          "minute": 29,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/1a457dd7",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781648975000
+        },
+        {
+          "postId": "1u7sl5r",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u7sl5r",
+          "scorer": "Aymen Hussein",
+          "minute": 39,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/gsOOZdvwT5pGfnL/watch",
+          "videoEmbed": "https://streamain.com/gsOOZdvwT5pGfnL/watch",
+          "directMp4": null,
+          "postedAt": 1781649642000
+        },
+        {
+          "postId": "1u7so3j",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u7so3j",
+          "scorer": "Erling Haaland",
+          "minute": 43,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/b6c275c0",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781649850000
+        }
+      ]
+    },
+    {
+      "home": "Ibrahim Mbaye injury time goal. France",
+      "away": "Senegal",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u7qo1o",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u7qo1o",
+          "scorer": "",
+          "minute": null,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/nsgha48mpp7h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/nsgha48mpp7h1/CMAF_360.mp4?source=fallback",
+          "postedAt": 1781645106000
+        }
+      ]
+    },
     {
       "home": "France",
       "away": "Senegal",
@@ -32,6 +98,32 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1781642767000
+        },
+        {
+          "postId": "1u7pzqf",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u7pzqf",
+          "scorer": "Ibrahim Mbaye",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/f1961cb1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781643552000
+        },
+        {
+          "postId": "1u7q8d2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u7q8d2",
+          "scorer": "Kylian Mbappe",
+          "minute": 90,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/12b6bc99",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781644106000
         }
       ]
     }
