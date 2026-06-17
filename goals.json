@@ -1,7 +1,66 @@
 {
-  "updated": "2026-06-17T19:34:21Z",
+  "updated": "2026-06-17T21:34:01Z",
   "date": "2026-06-17",
   "matches": [
+    {
+      "home": "England",
+      "away": "Croatia",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u8l6uj",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u8l6uj",
+          "scorer": "H. Kane",
+          "minute": 12,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/135fedcf",
+          "videoEmbed": "https://streamff.link/v/135fedcf",
+          "directMp4": null,
+          "postedAt": 1781727090000
+        },
+        {
+          "postId": "1u8lw85",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u8lw85",
+          "scorer": "M. Baturina",
+          "minute": 36,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamff.link/v/833fd1af",
+          "videoEmbed": "https://streamff.link/v/833fd1af",
+          "directMp4": null,
+          "postedAt": 1781728685000
+        },
+        {
+          "postId": "1u8m8l6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u8m8l6",
+          "scorer": "P. Musa",
+          "minute": 45,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamff.link/v/37f2d09b",
+          "videoEmbed": "https://streamff.link/v/37f2d09b",
+          "directMp4": null,
+          "postedAt": 1781729476000
+        },
+        {
+          "postId": "1u8mrry",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u8mrry",
+          "scorer": "Jude Bellingham",
+          "minute": 47,
+          "homeScore": 3,
+          "awayScore": 2,
+          "videoUrl": "https://streamff.link/v/fcf7f70b",
+          "videoEmbed": "https://streamff.link/v/fcf7f70b",
+          "directMp4": null,
+          "postedAt": 1781730683000
+        }
+      ]
+    },
     {
       "home": "Portugal",
       "away": "D.R. Congo",
