@@ -1,7 +1,27 @@
 {
-  "updated": "2026-06-17T14:01:17Z",
+  "updated": "2026-06-17T17:22:28Z",
   "date": "2026-06-17",
   "matches": [
+    {
+      "home": "Portugal",
+      "away": "D.R. Congo",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u8g5be",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u8g5be",
+          "scorer": "Joao Neves",
+          "minute": 7,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/9d9878d3",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781716115000
+        }
+      ]
+    },
     {
       "home": "Austria",
       "away": "Jordan",
