@@ -1,18 +1,9 @@
 {
-  "updated": "2026-06-17 14:18 EDT",
+  "updated": "2026-06-17 18:01 EDT",
   "days": {
     "20260617": {
       "date": "Wednesday, June 17",
       "games": [
-        {
-          "league": "FIFA World Cup",
-          "time": "1:00 PM",
-          "match": "Portugal vs Congo DR",
-          "source": "FOX \u00b7 Peacock",
-          "kick_utc": "2026-06-17T17:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png"
-        },
         {
           "league": "FIFA World Cup",
           "time": "4:00 PM",
