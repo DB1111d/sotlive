@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-16T22:51:19Z",
-  "date": "2026-06-16",
+  "updated": "2026-06-17T00:13:23Z",
+  "date": "2026-06-17",
   "matches": [
     {
       "home": "Iraq",
@@ -45,6 +45,52 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1781649850000
+        },
+        {
+          "postId": "1u7tyz2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u7tyz2",
+          "scorer": "Leo Østigård",
+          "minute": 76,
+          "homeScore": 1,
+          "awayScore": 3,
+          "videoUrl": "https://streamin.link/v/73761df8",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781653164000
+        },
+        {
+          "postId": "1u7uhb0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u7uhb0",
+          "scorer": "Own Goal",
+          "minute": 90,
+          "homeScore": 1,
+          "awayScore": 4,
+          "videoUrl": "https://streamin.link/v/1d330bbc",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781654488000
+        }
+      ]
+    },
+    {
+      "home": "Ostigard w/ 76th min goal. Norway",
+      "away": "Iraq",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u7u53p",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u7u53p",
+          "scorer": "",
+          "minute": null,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/e1zjnkcweq7h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/e1zjnkcweq7h1/CMAF_360.mp4?source=fallback",
+          "postedAt": 1781653613000
         }
       ]
     },
