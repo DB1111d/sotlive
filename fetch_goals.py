@@ -16,7 +16,7 @@ EASTERN = ZoneInfo("America/New_York")
 SUBREDDIT   = "soccer"
 VIDEO_HOSTS = {"streamff.link", "streamff.com", "streamable.com",
                "youtu.be", "youtube.com", "v.redd.it", "streamain.com",
-               "streamin.link", "streamin.top", "streamin.me"}
+               "streamin.link", "streamin.top", "streamin.me", "dropr.co"}
 
 # Leagues to include — everything except USL Championship, USL League One, Dutch Eredivisie, EFL Championship, MLS, US Open Cup
 ALLOWED_LEAGUES = {
@@ -165,10 +165,6 @@ TEAM_ALIASES = {
     "fc union berlin":     "1. FC Union Berlin",
     "1 fc union berlin":   "1. FC Union Berlin",
     "1. fc union berlin":  "1. FC Union Berlin",
-    # Turkey / Turkiye (FIFA renamed the country in 2022)
-    "turkey":              "Turkiye",
-    "turkiye":             "Turkiye",
-    "türkiye":             "Turkiye",
 }
 
 
@@ -344,10 +340,6 @@ def parse_title(title):
     home = clean_team(title[:score_idx])
     if not home or len(home) > 50 or ',' in home or '~' in home:
         return None
-    # Reject highlight-recap titles like "Metcalfe Scores Australia [2]-0 Turkey"
-    # where a scorer name + "scores/scored" got swept into the home team field
-    if re.search(r'\b(scores?|scored)\b', home, re.IGNORECASE):
-        return None
     after_score = title[score_idx + len(score_match.group(0)):].strip()
     # Support both " - " and " | " as separators between away team and scorer
     if " - " in after_score:
@@ -407,6 +399,7 @@ def build_embed(url, post_id):
             v = urllib.parse.parse_qs(u.query).get("v", [vid_id])[0]
             return f"https://www.youtube.com/embed/{v}"
         if host == "streamain.com":  return url
+        if host == "dropr.co":       return url
         if host == "streamin.link":  return None
         if host == "streamin.top":   return None
         if host == "streamin.me":    return None
