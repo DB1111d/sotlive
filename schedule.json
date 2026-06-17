@@ -1,18 +1,9 @@
 {
-  "updated": "2026-06-17 00:12 EDT",
+  "updated": "2026-06-17 08:16 EDT",
   "days": {
     "20260617": {
       "date": "Wednesday, June 17",
       "games": [
-        {
-          "league": "FIFA World Cup",
-          "time": "12:00 AM",
-          "match": "Austria vs Jordan",
-          "source": "FS1 \u00b7 Peacock",
-          "kick_utc": "2026-06-17T04:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png"
-        },
         {
           "league": "FIFA World Cup",
           "time": "1:00 PM",
