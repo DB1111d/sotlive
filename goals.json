@@ -1,7 +1,53 @@
 {
-  "updated": "2026-06-18T19:39:45Z",
+  "updated": "2026-06-18T21:49:52Z",
   "date": "2026-06-18",
   "matches": [
+    {
+      "home": "Switzerland",
+      "away": "Bosnia and Herzegovina",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u9hzxp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u9hzxp",
+          "scorer": "Johan Manzambi",
+          "minute": 90,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/e4689106",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781815735000
+        },
+        {
+          "postId": "1u9i2wp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u9i2wp",
+          "scorer": "Ermin Mahmić",
+          "minute": 90,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/1d9d2b8f",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781815932000
+        },
+        {
+          "postId": "1u9i6pl",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u9i6pl",
+          "scorer": "Granit Xhaka penalty",
+          "minute": 90,
+          "homeScore": 4,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/a2dbb830",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781816174000
+        }
+      ]
+    },
     {
       "home": "Czechia",
       "away": "South Africa",
