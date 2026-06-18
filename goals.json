@@ -1,5 +1,26 @@
 {
-  "updated": "2026-06-18T14:07:51Z",
+  "updated": "2026-06-18T17:28:19Z",
   "date": "2026-06-18",
-  "matches": []
+  "matches": [
+    {
+      "home": "Czech Republic",
+      "away": "South Africa",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u9adv2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u9adv2",
+          "scorer": "M. Sadílek",
+          "minute": 6,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/9801698f",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781798744000
+        }
+      ]
+    }
+  ]
 }
