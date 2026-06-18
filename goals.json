@@ -1,7 +1,53 @@
 {
-  "updated": "2026-06-18T21:49:52Z",
+  "updated": "2026-06-18T23:42:28Z",
   "date": "2026-06-18",
   "matches": [
+    {
+      "home": "Canada",
+      "away": "Qatar",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u9kz3y",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u9kz3y",
+          "scorer": "Jonathan David",
+          "minute": 45,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/AZ8T9nzwUS4tkKR/watch",
+          "videoEmbed": "https://streamain.com/AZ8T9nzwUS4tkKR/watch",
+          "directMp4": null,
+          "postedAt": 1781822970000
+        },
+        {
+          "postId": "1u9lsue",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u9lsue",
+          "scorer": "N. Saliba",
+          "minute": 64,
+          "homeScore": 4,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/a9ba84ab",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781825119000
+        },
+        {
+          "postId": "1u9m4a9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u9m4a9",
+          "scorer": "Own Goal",
+          "minute": 75,
+          "homeScore": 5,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/13fc586d",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781825979000
+        }
+      ]
+    },
     {
       "home": "Switzerland",
       "away": "Bosnia and Herzegovina",
