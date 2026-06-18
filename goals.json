@@ -1,7 +1,27 @@
 {
-  "updated": "2026-06-17T23:07:21Z",
-  "date": "2026-06-17",
+  "updated": "2026-06-18T01:41:15Z",
+  "date": "2026-06-18",
   "matches": [
+    {
+      "home": "Ghana",
+      "away": "Panama",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u8s3j7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u8s3j7",
+          "scorer": "Caleb Yirenkyi",
+          "minute": 90,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamff.link/v/88d3c6cc",
+          "videoEmbed": "https://streamff.link/v/88d3c6cc",
+          "directMp4": null,
+          "postedAt": 1781744190000
+        }
+      ]
+    },
     {
       "home": "England",
       "away": "Croatia",
