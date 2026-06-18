@@ -1,7 +1,27 @@
 {
-  "updated": "2026-06-18T17:28:19Z",
+  "updated": "2026-06-18T19:39:45Z",
   "date": "2026-06-18",
   "matches": [
+    {
+      "home": "Czechia",
+      "away": "South Africa",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u9d1zb",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u9d1zb",
+          "scorer": "Teboho Mokoena penalty",
+          "minute": 81,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/2b4c978d",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781804656000
+        }
+      ]
+    },
     {
       "home": "Czech Republic",
       "away": "South Africa",
@@ -19,6 +39,19 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1781798744000
+        },
+        {
+          "postId": "1u9d1yc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u9d1yc",
+          "scorer": "Teboho Mokoena penalty",
+          "minute": 83,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://dropr.co/v/7f93c891",
+          "videoEmbed": "https://dropr.co/v/7f93c891",
+          "directMp4": null,
+          "postedAt": 1781804654000
         }
       ]
     }
