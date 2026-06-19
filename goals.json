@@ -1,5 +1,26 @@
 {
-  "updated": "2026-06-19T08:18:24Z",
+  "updated": "2026-06-19T12:30:00Z",
   "date": "2026-06-19",
-  "matches": []
+  "matches": [
+    {
+      "home": "Mexico",
+      "away": "Korea Republic",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ua0i9i",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ua0i9i",
+          "scorer": "Mexican fans celebrating a ball that Lee Kang-in hit into the stands",
+          "minute": 78,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/gu1p44ywe88h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/gu1p44ywe88h1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1781871589000
+        }
+      ]
+    }
+  ]
 }
