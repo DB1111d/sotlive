@@ -1,7 +1,27 @@
 {
-  "updated": "2026-06-18T23:42:28Z",
-  "date": "2026-06-18",
+  "updated": "2026-06-19T02:31:39Z",
+  "date": "2026-06-19",
   "matches": [
+    {
+      "home": "Mexico",
+      "away": "Korea Republic",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1u9pan1",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u9pan1",
+          "scorer": "Luis Romo",
+          "minute": 49,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/4041446e",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781835003000
+        }
+      ]
+    },
     {
       "home": "Canada",
       "away": "Qatar",
@@ -45,6 +65,19 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1781825979000
+        },
+        {
+          "postId": "1u9mfnm",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1u9mfnm",
+          "scorer": "Jonathan David",
+          "minute": 90,
+          "homeScore": 6,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/AthyYb1q1pjpfxw/watch",
+          "videoEmbed": "https://streamain.com/AthyYb1q1pjpfxw/watch",
+          "directMp4": null,
+          "postedAt": 1781826849000
         }
       ]
     },
