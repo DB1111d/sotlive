@@ -1,7 +1,27 @@
 {
-  "updated": "2026-06-19T21:07:32Z",
+  "updated": "2026-06-19T22:13:05Z",
   "date": "2026-06-19",
   "matches": [
+    {
+      "home": "Scotland",
+      "away": "Morocco",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uaf3rd",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uaf3rd",
+          "scorer": "Saibari",
+          "minute": 2,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/KJk0v4SVHnnZP2A/watch",
+          "videoEmbed": "https://streamain.com/KJk0v4SVHnnZP2A/watch",
+          "directMp4": null,
+          "postedAt": 1781906541000
+        }
+      ]
+    },
     {
       "home": "USA",
       "away": "Australia",
