@@ -1,7 +1,60 @@
 {
-  "updated": "2026-06-19T17:53:24Z",
+  "updated": "2026-06-19T19:45:43Z",
   "date": "2026-06-19",
   "matches": [
+    {
+      "home": "USA",
+      "away": "Australia",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uaawqf",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uaawqf",
+          "scorer": "Own Goal",
+          "minute": 11,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/3ecf97f5",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781896297000
+        },
+        {
+          "postId": "1uabqtq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uabqtq",
+          "scorer": "Malik Tillman",
+          "minute": 45,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/3ecf97f5",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781898312000
+        }
+      ]
+    },
+    {
+      "home": "USA",
+      "away": "Australia. Own goal by Burgess",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uaayj2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uaayj2",
+          "scorer": "Own Goal",
+          "minute": null,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/38636fd6",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781896412000
+        }
+      ]
+    },
     {
       "home": "Mexico",
       "away": "Korea Republic",
