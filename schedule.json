@@ -1,38 +1,6 @@
 {
-  "updated": "2026-06-18 18:09 EDT",
+  "updated": "2026-06-19 00:22 EDT",
   "days": {
-    "20260618": {
-      "date": "Thursday, June 18",
-      "games": [
-        {
-          "league": "FIFA World Cup",
-          "time": "3:00 PM",
-          "match": "Switzerland vs Bosnia-Herzegovina",
-          "source": "FOX",
-          "kick_utc": "2026-06-18T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png"
-        },
-        {
-          "league": "FIFA World Cup",
-          "time": "6:00 PM",
-          "match": "Canada vs Qatar",
-          "source": "FS1",
-          "kick_utc": "2026-06-18T22:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png"
-        },
-        {
-          "league": "FIFA World Cup",
-          "time": "9:00 PM",
-          "match": "Mexico vs South Korea",
-          "source": "FOX",
-          "kick_utc": "2026-06-19T01:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png"
-        }
-      ]
-    },
     "20260619": {
       "date": "Friday, June 19",
       "games": [
@@ -329,6 +297,47 @@
           "kick_utc": "2026-06-23T03:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png"
+        }
+      ]
+    },
+    "20260623": {
+      "date": "Tuesday, June 23",
+      "games": [
+        {
+          "league": "FIFA World Cup",
+          "time": "1:00 PM",
+          "match": "Portugal vs Uzbekistan",
+          "source": "FOX",
+          "kick_utc": "2026-06-23T17:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png"
+        },
+        {
+          "league": "FIFA World Cup",
+          "time": "4:00 PM",
+          "match": "England vs Ghana",
+          "source": "FOX",
+          "kick_utc": "2026-06-23T20:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png"
+        },
+        {
+          "league": "FIFA World Cup",
+          "time": "7:00 PM",
+          "match": "Panama vs Croatia",
+          "source": "FOX",
+          "kick_utc": "2026-06-23T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png"
+        },
+        {
+          "league": "FIFA World Cup",
+          "time": "10:00 PM",
+          "match": "Colombia vs Congo DR",
+          "source": "FS1",
+          "kick_utc": "2026-06-24T02:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png"
         }
       ]
     }
