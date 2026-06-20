@@ -1,7 +1,53 @@
 {
-  "updated": "2026-06-19T23:15:35Z",
-  "date": "2026-06-19",
+  "updated": "2026-06-20T01:34:39Z",
+  "date": "2026-06-20",
   "matches": [
+    {
+      "home": "Brazil",
+      "away": "Haiti",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uaix2b",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uaix2b",
+          "scorer": "Matheus Cunha",
+          "minute": 24,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/c8df5eec",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781916986000
+        },
+        {
+          "postId": "1uaj5z4",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uaj5z4",
+          "scorer": "Matheus Cunha",
+          "minute": 36,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/454a0cc1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781917709000
+        },
+        {
+          "postId": "1uaje8s",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uaje8s",
+          "scorer": "Vinicius Junior",
+          "minute": 45,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/e1804b49",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781918395000
+        }
+      ]
+    },
     {
       "home": "Scotland",
       "away": "Morocco",
