@@ -1,18 +1,9 @@
 {
-  "updated": "2026-06-20 13:27 EDT",
+  "updated": "2026-06-20 17:19 EDT",
   "days": {
     "20260620": {
       "date": "Saturday, June 20",
       "games": [
-        {
-          "league": "FIFA World Cup",
-          "time": "1:00 PM",
-          "match": "Netherlands vs Sweden",
-          "source": "FOX",
-          "kick_utc": "2026-06-20T17:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png"
-        },
         {
           "league": "FIFA World Cup",
           "time": "4:00 PM",
