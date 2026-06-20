@@ -1,5 +1,39 @@
 {
-  "updated": "2026-06-20T16:52:51Z",
+  "updated": "2026-06-20T18:08:27Z",
   "date": "2026-06-20",
-  "matches": []
+  "matches": [
+    {
+      "home": "Netherlands",
+      "away": "Sweden",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ub2082",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ub2082",
+          "scorer": "Brobbey B. goal",
+          "minute": 16,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://dropr.co/v/799a8b23",
+          "videoEmbed": "https://dropr.co/v/799a8b23",
+          "directMp4": null,
+          "postedAt": 1781975781000
+        },
+        {
+          "postId": "1ub2omr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ub2omr",
+          "scorer": "Lagerbielke G. goal",
+          "minute": 44,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://dropr.co/v/22e983f1",
+          "videoEmbed": "https://dropr.co/v/22e983f1",
+          "directMp4": null,
+          "postedAt": 1781977454000
+        }
+      ]
+    }
+  ]
 }
