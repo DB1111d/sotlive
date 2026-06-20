@@ -1,7 +1,126 @@
 {
-  "updated": "2026-06-20T19:56:20Z",
+  "updated": "2026-06-20T21:18:25Z",
   "date": "2026-06-20",
   "matches": [
+    {
+      "home": "Almeria",
+      "away": "Malaga",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ub7dib",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ub7dib",
+          "scorer": "Chupe",
+          "minute": 65,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/3Shr5f9wjRnYCl5/watch",
+          "videoEmbed": "https://streamain.com/3Shr5f9wjRnYCl5/watch",
+          "directMp4": null,
+          "postedAt": 1781989163000
+        },
+        {
+          "postId": "1ub7hah",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ub7hah",
+          "scorer": "David Larrubia",
+          "minute": 71,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/RZkJSN5xOb3xlYW/watch",
+          "videoEmbed": "https://streamain.com/RZkJSN5xOb3xlYW/watch",
+          "directMp4": null,
+          "postedAt": 1781989419000
+        },
+        {
+          "postId": "1ub7m6s",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ub7m6s",
+          "scorer": "Leo Baptistao",
+          "minute": 76,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/nX8sG2q8rCWgNpF/watch",
+          "videoEmbed": "https://streamain.com/nX8sG2q8rCWgNpF/watch",
+          "directMp4": null,
+          "postedAt": 1781989759000
+        }
+      ]
+    },
+    {
+      "home": "Almería",
+      "away": "Málaga",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ub7dfl",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ub7dfl",
+          "scorer": "Chupete",
+          "minute": 65,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/zah9kd9l4i8h1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1781989157000
+        }
+      ]
+    },
+    {
+      "home": "Germany",
+      "away": "Cote d'Ivoire",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ub6ho9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ub6ho9",
+          "scorer": "Pavlovic A. goal",
+          "minute": 21,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://dropr.co/v/a2314e26",
+          "videoEmbed": "https://dropr.co/v/a2314e26",
+          "directMp4": null,
+          "postedAt": 1781986865000
+        },
+        {
+          "postId": "1ub6vws",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ub6vws",
+          "scorer": "Havertz K. goal",
+          "minute": 38,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://dropr.co/v/06bd9d43",
+          "videoEmbed": "https://dropr.co/v/06bd9d43",
+          "directMp4": null,
+          "postedAt": 1781987890000
+        }
+      ]
+    },
+    {
+      "home": "Germany",
+      "away": "Cote d’Ivoire",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ub6p8p",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ub6p8p",
+          "scorer": "Franck Kessie",
+          "minute": 30,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/AqEbop68wU8wYxu/watch",
+          "videoEmbed": "https://streamain.com/AqEbop68wU8wYxu/watch",
+          "directMp4": null,
+          "postedAt": 1781987411000
+        }
+      ]
+    },
     {
       "home": "Netherlands",
       "away": "Sweden",
