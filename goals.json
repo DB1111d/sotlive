@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T18:08:27Z",
+  "updated": "2026-06-20T19:56:20Z",
   "date": "2026-06-20",
   "matches": [
     {
@@ -32,6 +32,45 @@
           "videoEmbed": "https://dropr.co/v/22e983f1",
           "directMp4": null,
           "postedAt": 1781977454000
+        },
+        {
+          "postId": "1ub3fm6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ub3fm6",
+          "scorer": "Gakpo C. goal",
+          "minute": 54,
+          "homeScore": 4,
+          "awayScore": 0,
+          "videoUrl": "https://dropr.co/v/9f2a8ce8",
+          "videoEmbed": "https://dropr.co/v/9f2a8ce8",
+          "directMp4": null,
+          "postedAt": 1781979303000
+        },
+        {
+          "postId": "1ub3k7g",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ub3k7g",
+          "scorer": "Anthony Elanga",
+          "minute": 59,
+          "homeScore": 4,
+          "awayScore": 1,
+          "videoUrl": "https://dropr.co/v/296932ad",
+          "videoEmbed": "https://dropr.co/v/296932ad",
+          "directMp4": null,
+          "postedAt": 1781979611000
+        },
+        {
+          "postId": "1ub4b8e",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ub4b8e",
+          "scorer": "Summerville C. goal",
+          "minute": 89,
+          "homeScore": 5,
+          "awayScore": 1,
+          "videoUrl": "https://dropr.co/v/1a8f5a63",
+          "videoEmbed": "https://dropr.co/v/1a8f5a63",
+          "directMp4": null,
+          "postedAt": 1781981453000
         }
       ]
     }
