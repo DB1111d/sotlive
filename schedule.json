@@ -1,155 +1,6 @@
 {
-  "updated": "2026-06-20 17:19 EDT",
+  "updated": "2026-06-21 00:18 EDT",
   "days": {
-    "20260620": {
-      "date": "Saturday, June 20",
-      "games": [
-        {
-          "league": "FIFA World Cup",
-          "time": "4:00 PM",
-          "match": "Germany vs Ivory Coast",
-          "source": "FOX",
-          "kick_utc": "2026-06-20T20:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png"
-        },
-        {
-          "league": "FIFA World Cup",
-          "time": "8:00 PM",
-          "match": "Ecuador vs Cura\u00e7ao",
-          "source": "FS1",
-          "kick_utc": "2026-06-21T00:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png"
-        },
-        {
-          "league": "USL Championship",
-          "time": "7:00 PM",
-          "match": "Brooklyn FC vs Tampa Bay Rowdies",
-          "source": "ESPN+",
-          "kick_utc": "2026-06-20T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131579.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17361.png"
-        },
-        {
-          "league": "USL Championship",
-          "time": "7:00 PM",
-          "match": "Hartford Athletic vs Pittsburgh Riverhounds",
-          "source": "ESPN+",
-          "kick_utc": "2026-06-20T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19411.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17827.png"
-        },
-        {
-          "league": "USL Championship",
-          "time": "7:00 PM",
-          "match": "Sporting JAX vs Charleston Battery",
-          "source": "ESPN+",
-          "kick_utc": "2026-06-20T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131578.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9729.png"
-        },
-        {
-          "league": "USL Championship",
-          "time": "8:00 PM",
-          "match": "Birmingham Legion FC vs Loudoun United FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-06-21T00:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19405.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19410.png"
-        },
-        {
-          "league": "USL Championship",
-          "time": "8:30 PM",
-          "match": "FC Tulsa vs Colorado Springs Switchbacks FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-06-21T00:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18446.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17830.png"
-        },
-        {
-          "league": "USL Championship",
-          "time": "10:00 PM",
-          "match": "Monterey Bay vs El Paso Locomotive FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-06-21T02:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21370.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19407.png"
-        },
-        {
-          "league": "USL Championship",
-          "time": "10:30 PM",
-          "match": "Phoenix Rising FC vs Oakland Roots",
-          "source": "ESPN+",
-          "kick_utc": "2026-06-21T02:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17850.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20687.png"
-        },
-        {
-          "league": "USL Championship",
-          "time": "11:00 PM",
-          "match": "Sacramento Republic FC vs New Mexico United",
-          "source": "ESPN+",
-          "kick_utc": "2026-06-21T03:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17828.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19408.png"
-        },
-        {
-          "league": "USL League One",
-          "time": "7:00 PM",
-          "match": "Chattanooga Red Wolves vs FC Naples",
-          "source": "ESPN+",
-          "kick_utc": "2026-06-20T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20000.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22525.png"
-        },
-        {
-          "league": "USL League One",
-          "time": "7:00 PM",
-          "match": "Greenville Triumph vs AV Alta FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-06-20T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19964.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22526.png"
-        },
-        {
-          "league": "USL League One",
-          "time": "7:00 PM",
-          "match": "Richmond Kickers vs Fort Wayne",
-          "source": "ESPN+",
-          "kick_utc": "2026-06-20T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17545.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131580.png"
-        },
-        {
-          "league": "USL League One",
-          "time": "8:30 PM",
-          "match": "Corpus Christi FC vs Sarasota Paradise",
-          "source": "ESPN+",
-          "kick_utc": "2026-06-21T00:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20671.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22542.png"
-        },
-        {
-          "league": "USL League One",
-          "time": "9:00 PM",
-          "match": "Spokane Velocity FC vs One Knoxville",
-          "source": "ESPN+",
-          "kick_utc": "2026-06-21T01:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22130.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21821.png"
-        },
-        {
-          "league": "USL League One",
-          "time": "9:30 PM",
-          "match": "Athletic Club Boise vs Union Omaha",
-          "source": "ESPN+",
-          "kick_utc": "2026-06-21T01:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131581.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20684.png"
-        }
-      ]
-    },
     "20260621": {
       "date": "Sunday, June 21",
       "games": [
@@ -392,6 +243,65 @@
           "kick_utc": "2026-06-25T01:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22130.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22524.png"
+        }
+      ]
+    },
+    "20260625": {
+      "date": "Thursday, June 25",
+      "games": [
+        {
+          "league": "FIFA World Cup",
+          "time": "4:00 PM",
+          "match": "Cura\u00e7ao vs Ivory Coast",
+          "source": "FS1",
+          "kick_utc": "2026-06-25T20:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png"
+        },
+        {
+          "league": "FIFA World Cup",
+          "time": "4:00 PM",
+          "match": "Ecuador vs Germany",
+          "source": "FOX",
+          "kick_utc": "2026-06-25T20:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png"
+        },
+        {
+          "league": "FIFA World Cup",
+          "time": "7:00 PM",
+          "match": "Japan vs Sweden",
+          "source": "FS1",
+          "kick_utc": "2026-06-25T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png"
+        },
+        {
+          "league": "FIFA World Cup",
+          "time": "7:00 PM",
+          "match": "Tunisia vs Netherlands",
+          "source": "FOX",
+          "kick_utc": "2026-06-25T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
+        },
+        {
+          "league": "FIFA World Cup",
+          "time": "10:00 PM",
+          "match": "Paraguay vs Australia",
+          "source": "FS1",
+          "kick_utc": "2026-06-26T02:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png"
+        },
+        {
+          "league": "FIFA World Cup",
+          "time": "10:00 PM",
+          "match": "T\u00fcrkiye vs United States",
+          "source": "FOX",
+          "kick_utc": "2026-06-26T02:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png"
         }
       ]
     }
