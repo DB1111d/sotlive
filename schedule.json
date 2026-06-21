@@ -1,18 +1,9 @@
 {
-  "updated": "2026-06-21 13:39 EDT",
+  "updated": "2026-06-21 17:14 EDT",
   "days": {
     "20260621": {
       "date": "Sunday, June 21",
       "games": [
-        {
-          "league": "FIFA World Cup",
-          "time": "12:00 PM",
-          "match": "Spain vs Saudi Arabia",
-          "source": "FOX",
-          "kick_utc": "2026-06-21T16:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png"
-        },
         {
           "league": "FIFA World Cup",
           "time": "3:00 PM",
