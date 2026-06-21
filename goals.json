@@ -1,7 +1,53 @@
 {
-  "updated": "2026-06-21T15:24:01Z",
+  "updated": "2026-06-21T17:02:54Z",
   "date": "2026-06-21",
   "matches": [
+    {
+      "home": "Spain",
+      "away": "Saudi Arabia",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ubtxxk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ubtxxk",
+          "scorer": "Lamine Yamal",
+          "minute": 11,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/1fc2fa99",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782058261000
+        },
+        {
+          "postId": "1ubu7uv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ubu7uv",
+          "scorer": "Oyarzabal",
+          "minute": 21,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/S1O1rqkoR0ymHlX/watch",
+          "videoEmbed": "https://streamain.com/S1O1rqkoR0ymHlX/watch",
+          "directMp4": null,
+          "postedAt": 1782058939000
+        },
+        {
+          "postId": "1ubu9z9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ubu9z9",
+          "scorer": "Oyarzabal",
+          "minute": 25,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/yFy1OUuVVbZj39j/watch",
+          "videoEmbed": "https://streamain.com/yFy1OUuVVbZj39j/watch",
+          "directMp4": null,
+          "postedAt": 1782059077000
+        }
+      ]
+    },
     {
       "home": "Tunisia",
       "away": "Japan",
