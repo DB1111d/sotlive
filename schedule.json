@@ -1,38 +1,6 @@
 {
-  "updated": "2026-06-21 17:14 EDT",
+  "updated": "2026-06-22 00:19 EDT",
   "days": {
-    "20260621": {
-      "date": "Sunday, June 21",
-      "games": [
-        {
-          "league": "FIFA World Cup",
-          "time": "3:00 PM",
-          "match": "Belgium vs Iran",
-          "source": "FS1",
-          "kick_utc": "2026-06-21T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png"
-        },
-        {
-          "league": "FIFA World Cup",
-          "time": "6:00 PM",
-          "match": "Uruguay vs Cape Verde",
-          "source": "FS1",
-          "kick_utc": "2026-06-21T22:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png"
-        },
-        {
-          "league": "FIFA World Cup",
-          "time": "9:00 PM",
-          "match": "New Zealand vs Egypt",
-          "source": "FS1",
-          "kick_utc": "2026-06-22T01:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png"
-        }
-      ]
-    },
     "20260622": {
       "date": "Monday, June 22",
       "games": [
@@ -284,6 +252,65 @@
           "kick_utc": "2026-06-26T02:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png"
+        }
+      ]
+    },
+    "20260626": {
+      "date": "Friday, June 26",
+      "games": [
+        {
+          "league": "FIFA World Cup",
+          "time": "3:00 PM",
+          "match": "Norway vs France",
+          "source": "FOX",
+          "kick_utc": "2026-06-26T19:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
+        },
+        {
+          "league": "FIFA World Cup",
+          "time": "3:00 PM",
+          "match": "Senegal vs Iraq",
+          "source": "FS1",
+          "kick_utc": "2026-06-26T19:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png"
+        },
+        {
+          "league": "FIFA World Cup",
+          "time": "8:00 PM",
+          "match": "Cape Verde vs Saudi Arabia",
+          "source": "FS1",
+          "kick_utc": "2026-06-27T00:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png"
+        },
+        {
+          "league": "FIFA World Cup",
+          "time": "8:00 PM",
+          "match": "Uruguay vs Spain",
+          "source": "FOX",
+          "kick_utc": "2026-06-27T00:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png"
+        },
+        {
+          "league": "FIFA World Cup",
+          "time": "11:00 PM",
+          "match": "Egypt vs Iran",
+          "source": "FS1",
+          "kick_utc": "2026-06-27T03:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png"
+        },
+        {
+          "league": "FIFA World Cup",
+          "time": "11:00 PM",
+          "match": "New Zealand vs Belgium",
+          "source": "FOX",
+          "kick_utc": "2026-06-27T03:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png"
         }
       ]
     }
