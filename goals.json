@@ -1,5 +1,46 @@
 {
-  "updated": "2026-06-22T20:42:50Z",
+  "updated": "2026-06-22T22:26:22Z",
   "date": "2026-06-22",
-  "matches": []
+  "matches": [
+    {
+      "home": "France",
+      "away": "Iraq",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ucxbzb",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ucxbzb",
+          "scorer": "K. Mbappé",
+          "minute": 14,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://dropr.co/v/c6e119d5",
+          "videoEmbed": "https://dropr.co/v/c6e119d5",
+          "directMp4": null,
+          "postedAt": 1782163082000
+        }
+      ]
+    },
+    {
+      "home": "Shelbourne",
+      "away": "Bohemians",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ucwi7z",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ucwi7z",
+          "scorer": "Harry Vaughan",
+          "minute": 1,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/clrof7lybw8h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/clrof7lybw8h1/CMAF_360.mp4?source=fallback",
+          "postedAt": 1782161223000
+        }
+      ]
+    }
+  ]
 }
