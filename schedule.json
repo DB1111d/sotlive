@@ -1,18 +1,9 @@
 {
-  "updated": "2026-06-23 13:56 EDT",
+  "updated": "2026-06-23 17:42 EDT",
   "days": {
     "20260623": {
       "date": "Tuesday, June 23",
       "games": [
-        {
-          "league": "FIFA World Cup",
-          "time": "1:00 PM",
-          "match": "Portugal vs Uzbekistan",
-          "source": "FOX",
-          "kick_utc": "2026-06-23T17:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png"
-        },
         {
           "league": "FIFA World Cup",
           "time": "4:00 PM",
