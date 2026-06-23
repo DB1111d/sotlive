@@ -1,136 +1,24 @@
 {
-  "updated": "2026-06-23T02:55:14Z",
+  "updated": "2026-06-23T06:49:13Z",
   "date": "2026-06-23",
   "matches": [
     {
-      "home": "Norway",
-      "away": "Senegal",
+      "home": "Jordan",
+      "away": "Algeria",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1ud2bwx",
+          "postId": "1ud75h9",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1ud2bwx",
-          "scorer": "M. Pedersen",
-          "minute": 43,
+          "permalink": "https://redd.it/1ud75h9",
+          "scorer": "Nadir Benbouali",
+          "minute": 69,
           "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamin.link/v/8b63417f",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1782175395000
-        },
-        {
-          "postId": "1ud2uwv",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1ud2uwv",
-          "scorer": "E. Haaland",
-          "minute": 48,
-          "homeScore": 2,
-          "awayScore": 0,
-          "videoUrl": "https://streamin.link/v/fb470e01",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1782176823000
-        },
-        {
-          "postId": "1ud2z34",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1ud2z34",
-          "scorer": "I. Sarr",
-          "minute": 53,
-          "homeScore": 2,
           "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/10d7ea0c",
+          "videoUrl": "https://streamin.link/v/00f5f180",
           "videoEmbed": null,
           "directMp4": null,
-          "postedAt": 1782177136000
-        },
-        {
-          "postId": "1ud32mo",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1ud32mo",
-          "scorer": "Erling Haaland",
-          "minute": 58,
-          "homeScore": 3,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/4fb5d376",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1782177401000
-        },
-        {
-          "postId": "1ud3udr",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1ud3udr",
-          "scorer": "Ismaïla Sarr",
-          "minute": 90,
-          "homeScore": 3,
-          "awayScore": 2,
-          "videoUrl": "https://streamin.link/v/2d6f8396",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1782179509000
-        }
-      ]
-    },
-    {
-      "home": "Haaland Goal Norway",
-      "away": "Senegal",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1ud35oe",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1ud35oe",
-          "scorer": "",
-          "minute": null,
-          "homeScore": 3,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/6q4dpybxox8h1",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1782177629000
-        }
-      ]
-    },
-    {
-      "home": "France",
-      "away": "Iraq",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1ucxbzb",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1ucxbzb",
-          "scorer": "K. Mbappé",
-          "minute": 14,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://dropr.co/v/c6e119d5",
-          "videoEmbed": "https://dropr.co/v/c6e119d5",
-          "directMp4": null,
-          "postedAt": 1782163082000
-        }
-      ]
-    },
-    {
-      "home": "Shelbourne",
-      "away": "Bohemians",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1ucwi7z",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1ucwi7z",
-          "scorer": "Harry Vaughan",
-          "minute": 1,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/clrof7lybw8h1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/clrof7lybw8h1/CMAF_360.mp4?source=fallback",
-          "postedAt": 1782161223000
+          "postedAt": 1782189102000
         }
       ]
     }
