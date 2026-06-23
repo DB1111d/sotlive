@@ -1,7 +1,99 @@
 {
-  "updated": "2026-06-22T23:49:45Z",
-  "date": "2026-06-22",
+  "updated": "2026-06-23T02:55:14Z",
+  "date": "2026-06-23",
   "matches": [
+    {
+      "home": "Norway",
+      "away": "Senegal",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ud2bwx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ud2bwx",
+          "scorer": "M. Pedersen",
+          "minute": 43,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/8b63417f",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782175395000
+        },
+        {
+          "postId": "1ud2uwv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ud2uwv",
+          "scorer": "E. Haaland",
+          "minute": 48,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/fb470e01",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782176823000
+        },
+        {
+          "postId": "1ud2z34",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ud2z34",
+          "scorer": "I. Sarr",
+          "minute": 53,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/10d7ea0c",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782177136000
+        },
+        {
+          "postId": "1ud32mo",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ud32mo",
+          "scorer": "Erling Haaland",
+          "minute": 58,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/4fb5d376",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782177401000
+        },
+        {
+          "postId": "1ud3udr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ud3udr",
+          "scorer": "Ismaïla Sarr",
+          "minute": 90,
+          "homeScore": 3,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/2d6f8396",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782179509000
+        }
+      ]
+    },
+    {
+      "home": "Haaland Goal Norway",
+      "away": "Senegal",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ud35oe",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ud35oe",
+          "scorer": "",
+          "minute": null,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/6q4dpybxox8h1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782177629000
+        }
+      ]
+    },
     {
       "home": "France",
       "away": "Iraq",
