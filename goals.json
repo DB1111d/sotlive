@@ -1,7 +1,47 @@
 {
-  "updated": "2026-06-23T16:13:10Z",
+  "updated": "2026-06-23T18:15:02Z",
   "date": "2026-06-23",
   "matches": [
+    {
+      "home": "Nino Mendes Free Kick goal 17’ Portugal",
+      "away": "Uzbekistan",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1udne26",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1udne26",
+          "scorer": "",
+          "minute": 17,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/glvqkb69g29h1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782235210000
+        }
+      ]
+    },
+    {
+      "home": "Portugal",
+      "away": "Uzbekistan",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1udn07p",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1udn07p",
+          "scorer": "Cristiano Ronaldo goal",
+          "minute": 6,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://dropr.co/v/c38111b3",
+          "videoEmbed": "https://dropr.co/v/c38111b3",
+          "directMp4": null,
+          "postedAt": 1782234364000
+        }
+      ]
+    },
     {
       "home": "Ponte Preta",
       "away": "Novohorizontino",
