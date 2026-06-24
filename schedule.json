@@ -1,27 +1,9 @@
 {
-  "updated": "2026-06-23 17:42 EDT",
+  "updated": "2026-06-23 23:38 EDT",
   "days": {
     "20260623": {
       "date": "Tuesday, June 23",
       "games": [
-        {
-          "league": "FIFA World Cup",
-          "time": "4:00 PM",
-          "match": "England vs Ghana",
-          "source": "FOX",
-          "kick_utc": "2026-06-23T20:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png"
-        },
-        {
-          "league": "FIFA World Cup",
-          "time": "7:00 PM",
-          "match": "Panama vs Croatia",
-          "source": "FOX",
-          "kick_utc": "2026-06-23T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png"
-        },
         {
           "league": "FIFA World Cup",
           "time": "10:00 PM",
