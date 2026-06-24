@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T20:06:11Z",
+  "updated": "2026-06-24T21:45:26Z",
   "date": "2026-06-24",
   "matches": [
     {
@@ -19,6 +19,39 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1782329717000
+        },
+        {
+          "postId": "1uepcps",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uepcps",
+          "scorer": "Ermin Mahmić",
+          "minute": 81,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/c7bbba99",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782333766000
+        }
+      ]
+    },
+    {
+      "home": "Switzerland",
+      "away": "Canada",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uep5if",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uep5if",
+          "scorer": "Promise David",
+          "minute": 76,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/550eb9eb",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782333305000
         }
       ]
     }
