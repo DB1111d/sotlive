@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24 13:54 EDT",
+  "updated": "2026-06-24 17:22 EDT",
   "days": {
     "20260624": {
       "date": "Wednesday, June 24",
@@ -297,11 +297,11 @@
         {
           "league": "FIFA World Cup",
           "time": "3:00 PM",
-          "match": "Group A 2nd Place vs Group B 2nd Place",
+          "match": "Group A 2nd Place vs Canada",
           "source": "FOX",
           "kick_utc": "2026-06-28T19:00Z",
           "home_logo": "",
-          "away_logo": ""
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png"
         }
       ]
     }
