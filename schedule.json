@@ -1,20 +1,6 @@
 {
-  "updated": "2026-06-23 23:38 EDT",
+  "updated": "2026-06-24 03:41 EDT",
   "days": {
-    "20260623": {
-      "date": "Tuesday, June 23",
-      "games": [
-        {
-          "league": "FIFA World Cup",
-          "time": "10:00 PM",
-          "match": "Colombia vs Congo DR",
-          "source": "FS1",
-          "kick_utc": "2026-06-24T02:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png"
-        }
-      ]
-    },
     "20260624": {
       "date": "Wednesday, June 24",
       "games": [
@@ -302,6 +288,20 @@
           "kick_utc": "2026-06-28T02:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png"
+        }
+      ]
+    },
+    "20260628": {
+      "date": "Sunday, June 28",
+      "games": [
+        {
+          "league": "FIFA World Cup",
+          "time": "3:00 PM",
+          "match": "Group A 2nd Place vs Group B 2nd Place",
+          "source": "FOX",
+          "kick_utc": "2026-06-28T19:00Z",
+          "home_logo": "",
+          "away_logo": ""
         }
       ]
     }
