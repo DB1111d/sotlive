@@ -1,5 +1,26 @@
 {
-  "updated": "2026-06-24T18:06:42Z",
+  "updated": "2026-06-24T20:06:11Z",
   "date": "2026-06-24",
-  "matches": []
+  "matches": [
+    {
+      "home": "Bosnia and Herzegovina",
+      "away": "Qatar",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uenj4q",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uenj4q",
+          "scorer": "Own Goal",
+          "minute": 34,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/c573f9d0",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782329717000
+        }
+      ]
+    }
+  ]
 }
