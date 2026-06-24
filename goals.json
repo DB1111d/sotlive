@@ -1,7 +1,73 @@
 {
-  "updated": "2026-06-24T21:45:26Z",
+  "updated": "2026-06-24T23:01:36Z",
   "date": "2026-06-24",
   "matches": [
+    {
+      "home": "Morocco",
+      "away": "Haiti",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uero6x",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uero6x",
+          "scorer": "Lenny Joseph",
+          "minute": 11,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/ddc9b5d0",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782339072000
+        },
+        {
+          "postId": "1uesgzs",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uesgzs",
+          "scorer": "Wilson Isidor",
+          "minute": 41,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/ea2a0bfd",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782341020000
+        }
+      ]
+    },
+    {
+      "home": "Scotland",
+      "away": "Brazil",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uerljd",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uerljd",
+          "scorer": "Vinicius Junior",
+          "minute": 7,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/4903cdcd",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782338893000
+        },
+        {
+          "postId": "1uerzgi",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uerzgi",
+          "scorer": "Vinicius Junior",
+          "minute": 22,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/hcRN1bLIK9BZuuF/watch",
+          "videoEmbed": "https://streamain.com/hcRN1bLIK9BZuuF/watch",
+          "directMp4": null,
+          "postedAt": 1782339820000
+        }
+      ]
+    },
     {
       "home": "Bosnia and Herzegovina",
       "away": "Qatar",
