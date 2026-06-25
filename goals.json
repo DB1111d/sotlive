@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-24T23:01:36Z",
-  "date": "2026-06-24",
+  "updated": "2026-06-25T00:20:50Z",
+  "date": "2026-06-25",
   "matches": [
     {
       "home": "Morocco",
@@ -32,6 +32,32 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1782341020000
+        },
+        {
+          "postId": "1uettg5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uettg5",
+          "scorer": "Soufiane Rahimi",
+          "minute": 78,
+          "homeScore": 3,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/3a87041c",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782344438000
+        },
+        {
+          "postId": "1ueu2nr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ueu2nr",
+          "scorer": "Gessime Yassine",
+          "minute": 89,
+          "homeScore": 4,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/ef3a523c",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782345110000
         }
       ]
     },
