@@ -1,45 +1,9 @@
 {
-  "updated": "2026-06-24 17:22 EDT",
+  "updated": "2026-06-24 23:38 EDT",
   "days": {
     "20260624": {
       "date": "Wednesday, June 24",
       "games": [
-        {
-          "league": "FIFA World Cup",
-          "time": "3:00 PM",
-          "match": "Bosnia-Herzegovina vs Qatar",
-          "source": "FS1",
-          "kick_utc": "2026-06-24T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png"
-        },
-        {
-          "league": "FIFA World Cup",
-          "time": "3:00 PM",
-          "match": "Switzerland vs Canada",
-          "source": "FOX",
-          "kick_utc": "2026-06-24T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png"
-        },
-        {
-          "league": "FIFA World Cup",
-          "time": "6:00 PM",
-          "match": "Morocco vs Haiti",
-          "source": "FS1",
-          "kick_utc": "2026-06-24T22:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png"
-        },
-        {
-          "league": "FIFA World Cup",
-          "time": "6:00 PM",
-          "match": "Scotland vs Brazil",
-          "source": "FOX",
-          "kick_utc": "2026-06-24T22:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png"
-        },
         {
           "league": "FIFA World Cup",
           "time": "9:00 PM",
@@ -60,39 +24,12 @@
         },
         {
           "league": "USL Championship",
-          "time": "7:00 PM",
-          "match": "Charleston Battery vs Loudoun United FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-06-24T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9729.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19410.png"
-        },
-        {
-          "league": "USL Championship",
-          "time": "7:00 PM",
-          "match": "Miami FC vs Orange County SC",
-          "source": "ESPN+",
-          "kick_utc": "2026-06-24T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18159.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18455.png"
-        },
-        {
-          "league": "USL Championship",
           "time": "8:00 PM",
           "match": "Colorado Springs Switchbacks FC vs San Antonio FC",
           "source": "ESPN2",
           "kick_utc": "2026-06-25T00:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17830.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18265.png"
-        },
-        {
-          "league": "USL League One",
-          "time": "7:00 PM",
-          "match": "Portland Hearts of Pine vs Richmond Kickers",
-          "source": "ESPN+",
-          "kick_utc": "2026-06-24T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22528.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17545.png"
         },
         {
           "league": "USL League One",
@@ -297,10 +234,10 @@
         {
           "league": "FIFA World Cup",
           "time": "3:00 PM",
-          "match": "Group A 2nd Place vs Canada",
+          "match": "South Africa vs Canada",
           "source": "FOX",
           "kick_utc": "2026-06-28T19:00Z",
-          "home_logo": "",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png"
         }
       ]
