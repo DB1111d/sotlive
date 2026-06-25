@@ -1,5 +1,39 @@
 {
-  "updated": "2026-06-25T18:24:43Z",
+  "updated": "2026-06-25T20:29:31Z",
   "date": "2026-06-25",
-  "matches": []
+  "matches": [
+    {
+      "home": "Ecuador",
+      "away": "Germany",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ufkvey",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ufkvey",
+          "scorer": "L. Sané",
+          "minute": 2,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/7c558a68",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782417731000
+        },
+        {
+          "postId": "1ufl1q7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ufl1q7",
+          "scorer": "N. Angulo",
+          "minute": 9,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/44e3a7e4",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782418124000
+        }
+      ]
+    }
+  ]
 }
