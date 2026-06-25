@@ -1,7 +1,40 @@
 {
-  "updated": "2026-06-25T22:06:35Z",
+  "updated": "2026-06-25T23:44:08Z",
   "date": "2026-06-25",
   "matches": [
+    {
+      "home": "Tunisia",
+      "away": "Netherlands",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ufpj0c",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ufpj0c",
+          "scorer": "Own Goal",
+          "minute": 3,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/bce43898",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782428719000
+        },
+        {
+          "postId": "1ufpkjs",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ufpkjs",
+          "scorer": "B. Brobbey",
+          "minute": 7,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/082a4369",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782428833000
+        }
+      ]
+    },
     {
       "home": "Ecuador",
       "away": "Germany",
