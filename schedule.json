@@ -1,29 +1,6 @@
 {
-  "updated": "2026-06-25 23:46 EDT",
+  "updated": "2026-06-26 03:54 EDT",
   "days": {
-    "20260625": {
-      "date": "Thursday, June 25",
-      "games": [
-        {
-          "league": "FIFA World Cup",
-          "time": "10:00 PM",
-          "match": "Paraguay vs Australia",
-          "source": "FS1",
-          "kick_utc": "2026-06-26T02:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png"
-        },
-        {
-          "league": "FIFA World Cup",
-          "time": "10:00 PM",
-          "match": "T\u00fcrkiye vs United States",
-          "source": "FOX",
-          "kick_utc": "2026-06-26T02:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png"
-        }
-      ]
-    },
     "20260626": {
       "date": "Friday, June 26",
       "games": [
@@ -185,6 +162,38 @@
           "kick_utc": "2026-06-30T01:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png"
+        }
+      ]
+    },
+    "20260630": {
+      "date": "Tuesday, June 30",
+      "games": [
+        {
+          "league": "FIFA World Cup",
+          "time": "1:00 PM",
+          "match": "Ivory Coast vs Group I 2nd Place",
+          "source": "FOX",
+          "kick_utc": "2026-06-30T17:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+          "away_logo": ""
+        },
+        {
+          "league": "FIFA World Cup",
+          "time": "5:00 PM",
+          "match": "Group I Winner vs Third Place Group C/D/F/G/H",
+          "source": "FOX",
+          "kick_utc": "2026-06-30T21:00Z",
+          "home_logo": "",
+          "away_logo": ""
+        },
+        {
+          "league": "FIFA World Cup",
+          "time": "9:00 PM",
+          "match": "Mexico vs Third Place Group C/E/F/H/I",
+          "source": "FOX",
+          "kick_utc": "2026-07-01T01:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+          "away_logo": ""
         }
       ]
     }
