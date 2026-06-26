@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26 13:48 EDT",
+  "updated": "2026-06-26 17:19 EDT",
   "days": {
     "20260626": {
       "date": "Friday, June 26",
@@ -171,19 +171,19 @@
         {
           "league": "FIFA World Cup",
           "time": "1:00 PM",
-          "match": "Ivory Coast vs Group I 2nd Place",
+          "match": "Ivory Coast vs Norway",
           "source": "FOX",
           "kick_utc": "2026-06-30T17:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
-          "away_logo": ""
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png"
         },
         {
           "league": "FIFA World Cup",
           "time": "5:00 PM",
-          "match": "Group I Winner vs Third Place Group C/D/F/G/H",
+          "match": "France vs Third Place Group C/D/F/G/H",
           "source": "FOX",
           "kick_utc": "2026-06-30T21:00Z",
-          "home_logo": "",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
           "away_logo": ""
         },
         {
