@@ -1,5 +1,52 @@
 {
-  "updated": "2026-06-26T18:56:15Z",
+  "updated": "2026-06-26T20:46:04Z",
   "date": "2026-06-26",
-  "matches": []
+  "matches": [
+    {
+      "home": "Norway",
+      "away": "France",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ugfxlz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ugfxlz",
+          "scorer": "Ousmane Dembélé goal",
+          "minute": 6,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://dropr.co/v/81cdf4b3",
+          "videoEmbed": "https://dropr.co/v/81cdf4b3",
+          "directMp4": null,
+          "postedAt": 1782500862000
+        },
+        {
+          "postId": "1uggaal",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uggaal",
+          "scorer": "Ousmane Dembélé goal",
+          "minute": 20,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://dropr.co/v/3f6afbfa",
+          "videoEmbed": "https://dropr.co/v/3f6afbfa",
+          "directMp4": null,
+          "postedAt": 1782501649000
+        },
+        {
+          "postId": "1uggm1i",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uggm1i",
+          "scorer": "Ousmane Dembélé goal",
+          "minute": 32,
+          "homeScore": 1,
+          "awayScore": 3,
+          "videoUrl": "https://dropr.co/v/bab57de9",
+          "videoEmbed": "https://dropr.co/v/bab57de9",
+          "directMp4": null,
+          "postedAt": 1782502400000
+        }
+      ]
+    }
+  ]
 }
