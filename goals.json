@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T21:44:35Z",
+  "updated": "2026-06-27T22:45:17Z",
   "date": "2026-06-27",
   "matches": [
     {
@@ -19,6 +19,65 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/zoc28waj9w9h1/CMAF_720.mp4?source=fallback",
           "postedAt": 1782596147000
+        },
+        {
+          "postId": "1uhg2bj",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uhg2bj",
+          "scorer": "Derrick Luckassen",
+          "minute": 73,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/4d24ff92",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782599691000
+        },
+        {
+          "postId": "1uhg9sa",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uhg9sa",
+          "scorer": "Nikola Vlašić",
+          "minute": 83,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/af70546f",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782600246000
+        }
+      ]
+    },
+    {
+      "home": "Panama",
+      "away": "England",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uhfum3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uhfum3",
+          "scorer": "Jude Bellingham",
+          "minute": 61,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/4d4ac686",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782599146000
+        },
+        {
+          "postId": "1uhfx0c",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uhfx0c",
+          "scorer": "Harry Kane",
+          "minute": 67,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/ia0fyxlyiw9h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ia0fyxlyiw9h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1782599317000
         }
       ]
     },
