@@ -1,83 +1,96 @@
 {
-  "updated": "2026-06-27T01:33:38Z",
+  "updated": "2026-06-27T05:37:56Z",
   "date": "2026-06-27",
   "matches": [
     {
-      "home": "Uruguay",
-      "away": "Spain",
+      "home": "Egypt",
+      "away": "Iran",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1ugo9ld",
+          "postId": "1ugtg0j",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1ugo9ld",
-          "scorer": "Baena",
-          "minute": 42,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamain.com/HgR0c9d04KmQmZd/watch",
-          "videoEmbed": "https://streamain.com/HgR0c9d04KmQmZd/watch",
+          "permalink": "https://redd.it/1ugtg0j",
+          "scorer": "S. Khalilzadeh",
+          "minute": 90,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/53f3b365",
+          "videoEmbed": null,
           "directMp4": null,
-          "postedAt": 1782521007000
+          "postedAt": 1782536226000
         }
       ]
     },
     {
-      "home": "Norway",
-      "away": "France",
+      "home": "New Zealand",
+      "away": "Belgium",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1ugfxlz",
+          "postId": "1ugsksg",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1ugfxlz",
-          "scorer": "Ousmane Dembélé goal",
-          "minute": 6,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://dropr.co/v/81cdf4b3",
-          "videoEmbed": "https://dropr.co/v/81cdf4b3",
-          "directMp4": null,
-          "postedAt": 1782500862000
-        },
-        {
-          "postId": "1uggaal",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1uggaal",
-          "scorer": "Ousmane Dembélé goal",
-          "minute": 20,
+          "permalink": "https://redd.it/1ugsksg",
+          "scorer": "L. Trossard",
+          "minute": 50,
           "homeScore": 0,
           "awayScore": 2,
-          "videoUrl": "https://dropr.co/v/3f6afbfa",
-          "videoEmbed": "https://dropr.co/v/3f6afbfa",
+          "videoUrl": "https://streamin.link/v/a6d569bc",
+          "videoEmbed": null,
           "directMp4": null,
-          "postedAt": 1782501649000
+          "postedAt": 1782533545000
         },
         {
-          "postId": "1uggm1i",
+          "postId": "1ugswdv",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1uggm1i",
-          "scorer": "Ousmane Dembélé goal",
-          "minute": 32,
+          "permalink": "https://redd.it/1ugswdv",
+          "scorer": "K. De Bruyne",
+          "minute": 66,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://streamin.link/v/54018301",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782534521000
+        },
+        {
+          "postId": "1ugt8mi",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ugt8mi",
+          "scorer": "E. Just",
+          "minute": 84,
           "homeScore": 1,
           "awayScore": 3,
-          "videoUrl": "https://dropr.co/v/bab57de9",
-          "videoEmbed": "https://dropr.co/v/bab57de9",
+          "videoUrl": "https://streamin.link/v/4356872e",
+          "videoEmbed": null,
           "directMp4": null,
-          "postedAt": 1782502400000
+          "postedAt": 1782535571000
         },
         {
-          "postId": "1ugitlk",
+          "postId": "1ugt9w6",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1ugitlk",
-          "scorer": "Désiré Doué goal",
-          "minute": 90,
+          "permalink": "https://redd.it/1ugt9w6",
+          "scorer": "R. Lukaku",
+          "minute": 86,
           "homeScore": 1,
           "awayScore": 4,
-          "videoUrl": "https://dropr.co/v/3ba36501",
-          "videoEmbed": "https://dropr.co/v/3ba36501",
+          "videoUrl": "https://streamin.link/v/1fa435a9",
+          "videoEmbed": null,
           "directMp4": null,
-          "postedAt": 1782507447000
+          "postedAt": 1782535683000
+        },
+        {
+          "postId": "1ugtfp8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ugtfp8",
+          "scorer": "A. Saelemaekers",
+          "minute": 90,
+          "homeScore": 1,
+          "awayScore": 5,
+          "videoUrl": "https://streamin.link/v/5fc76d91",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782536198000
         }
       ]
     }
