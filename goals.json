@@ -1,7 +1,27 @@
 {
-  "updated": "2026-06-27T22:45:17Z",
+  "updated": "2026-06-27T23:59:01Z",
   "date": "2026-06-27",
   "matches": [
+    {
+      "home": "DR Congo",
+      "away": "Uzbekistan",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uhhqnr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uhhqnr",
+          "scorer": "Nathanaël Mbuku",
+          "minute": 17,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/1dbebfc7",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782604144000
+        }
+      ]
+    },
     {
       "home": "Croatia",
       "away": "Ghana",
