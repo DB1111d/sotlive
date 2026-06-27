@@ -1,7 +1,27 @@
 {
-  "updated": "2026-06-26T23:34:00Z",
-  "date": "2026-06-26",
+  "updated": "2026-06-27T01:33:38Z",
+  "date": "2026-06-27",
   "matches": [
+    {
+      "home": "Uruguay",
+      "away": "Spain",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ugo9ld",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ugo9ld",
+          "scorer": "Baena",
+          "minute": 42,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/HgR0c9d04KmQmZd/watch",
+          "videoEmbed": "https://streamain.com/HgR0c9d04KmQmZd/watch",
+          "directMp4": null,
+          "postedAt": 1782521007000
+        }
+      ]
+    },
     {
       "home": "Norway",
       "away": "France",
