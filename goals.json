@@ -1,7 +1,27 @@
 {
-  "updated": "2026-06-27T20:42:29Z",
+  "updated": "2026-06-27T21:44:35Z",
   "date": "2026-06-27",
   "matches": [
+    {
+      "home": "Croatia",
+      "away": "Ghana",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uhent9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uhent9",
+          "scorer": "Petar Sučić",
+          "minute": 31,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/zoc28waj9w9h1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/zoc28waj9w9h1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1782596147000
+        }
+      ]
+    },
     {
       "home": "Norway",
       "away": "France",
