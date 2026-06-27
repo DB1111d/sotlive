@@ -1,7 +1,27 @@
 {
-  "updated": "2026-06-27T05:37:56Z",
+  "updated": "2026-06-27T08:16:18Z",
   "date": "2026-06-27",
   "matches": [
+    {
+      "home": "Norway",
+      "away": "France",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ugvzoh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ugvzoh",
+          "scorer": "Ousmane Dembele",
+          "minute": 20,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/e359c939",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782544603000
+        }
+      ]
+    },
     {
       "home": "Egypt",
       "away": "Iran",
