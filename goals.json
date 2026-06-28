@@ -1,5 +1,137 @@
 {
-  "updated": "2026-06-28T18:02:56Z",
+  "updated": "2026-06-28T19:44:28Z",
   "date": "2026-06-28",
-  "matches": []
+  "matches": [
+    {
+      "home": "Germany U19",
+      "away": "Denmark U19",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ui5vl2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ui5vl2",
+          "scorer": "Francis Onyeka penalty",
+          "minute": 5,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/4cOM6Qpj9IakZyq/watch",
+          "videoEmbed": "https://streamain.com/4cOM6Qpj9IakZyq/watch",
+          "directMp4": null,
+          "postedAt": 1782673857000
+        },
+        {
+          "postId": "1ui69zt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ui69zt",
+          "scorer": "Own Goal",
+          "minute": 15,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/XVtVbc4ohkPSHeL/watch",
+          "videoEmbed": "https://streamain.com/XVtVbc4ohkPSHeL/watch",
+          "directMp4": null,
+          "postedAt": 1782674794000
+        }
+      ]
+    },
+    {
+      "home": "Wales U19",
+      "away": "Spain U19",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ui4cxj",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ui4cxj",
+          "scorer": "Daniel Yanez",
+          "minute": 16,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/eBFPoalqP0ZtoWO/watch",
+          "videoEmbed": "https://streamain.com/eBFPoalqP0ZtoWO/watch",
+          "directMp4": null,
+          "postedAt": 1782670356000
+        },
+        {
+          "postId": "1ui4dnq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ui4dnq",
+          "scorer": "Xavi Espart",
+          "minute": 24,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/naweKPPcfaBczVi/watch",
+          "videoEmbed": "https://streamain.com/naweKPPcfaBczVi/watch",
+          "directMp4": null,
+          "postedAt": 1782670404000
+        },
+        {
+          "postId": "1ui4eaf",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ui4eaf",
+          "scorer": "Jose Morante",
+          "minute": 25,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://streamain.com/iQShyKWbd0JE1EV/watch",
+          "videoEmbed": "https://streamain.com/iQShyKWbd0JE1EV/watch",
+          "directMp4": null,
+          "postedAt": 1782670446000
+        },
+        {
+          "postId": "1ui4enm",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ui4enm",
+          "scorer": "Jose Morante",
+          "minute": 34,
+          "homeScore": 0,
+          "awayScore": 4,
+          "videoUrl": "https://streamain.com/HzRjLaMkb8Cks39/watch",
+          "videoEmbed": "https://streamain.com/HzRjLaMkb8Cks39/watch",
+          "directMp4": null,
+          "postedAt": 1782670471000
+        },
+        {
+          "postId": "1ui4f8i",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ui4f8i",
+          "scorer": "Quim Junyent Casanova",
+          "minute": 46,
+          "homeScore": 0,
+          "awayScore": 5,
+          "videoUrl": "https://streamain.com/6Yh3bsirhGBlrNH/watch",
+          "videoEmbed": "https://streamain.com/6Yh3bsirhGBlrNH/watch",
+          "directMp4": null,
+          "postedAt": 1782670508000
+        },
+        {
+          "postId": "1ui53ga",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ui53ga",
+          "scorer": "Sergio Esteban",
+          "minute": 77,
+          "homeScore": 0,
+          "awayScore": 6,
+          "videoUrl": "https://streamain.com/UbiyV3SFSUQv04W/watch",
+          "videoEmbed": "https://streamain.com/UbiyV3SFSUQv04W/watch",
+          "directMp4": null,
+          "postedAt": 1782672064000
+        },
+        {
+          "postId": "1ui57h2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ui57h2",
+          "scorer": "Own Goal",
+          "minute": 82,
+          "homeScore": 0,
+          "awayScore": 7,
+          "videoUrl": "https://streamain.com/YA07SRp24MPsOpt/watch",
+          "videoEmbed": "https://streamain.com/YA07SRp24MPsOpt/watch",
+          "directMp4": null,
+          "postedAt": 1782672320000
+        }
+      ]
+    }
+  ]
 }
