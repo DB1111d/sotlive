@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T19:44:28Z",
+  "updated": "2026-06-28T20:45:30Z",
   "date": "2026-06-28",
   "matches": [
     {
@@ -32,6 +32,71 @@
           "videoEmbed": "https://streamain.com/XVtVbc4ohkPSHeL/watch",
           "directMp4": null,
           "postedAt": 1782674794000
+        },
+        {
+          "postId": "1ui6wd0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ui6wd0",
+          "scorer": "Otto Stange",
+          "minute": 32,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/zwlQeA4ucsTs919/watch",
+          "videoEmbed": "https://streamain.com/zwlQeA4ucsTs919/watch",
+          "directMp4": null,
+          "postedAt": 1782676255000
+        },
+        {
+          "postId": "1ui6xjk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ui6xjk",
+          "scorer": "Olti Hyseni penalty",
+          "minute": 39,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/eizAfeVdHHIAOBX/watch",
+          "videoEmbed": "https://streamain.com/eizAfeVdHHIAOBX/watch",
+          "directMp4": null,
+          "postedAt": 1782676331000
+        },
+        {
+          "postId": "1ui7h5p",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ui7h5p",
+          "scorer": "William Martin",
+          "minute": 52,
+          "homeScore": 3,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/cmTVs6KjgojAsJD/watch",
+          "videoEmbed": "https://streamain.com/cmTVs6KjgojAsJD/watch",
+          "directMp4": null,
+          "postedAt": 1782677604000
+        },
+        {
+          "postId": "1ui7puy",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ui7puy",
+          "scorer": "Otto Stange penalty",
+          "minute": 61,
+          "homeScore": 4,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/6i9oFMMQVmmjbus/watch",
+          "videoEmbed": "https://streamain.com/6i9oFMMQVmmjbus/watch",
+          "directMp4": null,
+          "postedAt": 1782678179000
+        },
+        {
+          "postId": "1ui834v",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ui834v",
+          "scorer": "Alfred Gothler",
+          "minute": 72,
+          "homeScore": 4,
+          "awayScore": 3,
+          "videoUrl": "https://streamain.com/Wa5N3CcKKqXxBRM/watch",
+          "videoEmbed": "https://streamain.com/Wa5N3CcKKqXxBRM/watch",
+          "directMp4": null,
+          "postedAt": 1782679055000
         }
       ]
     },
