@@ -1,7 +1,27 @@
 {
-  "updated": "2026-06-28T20:45:30Z",
+  "updated": "2026-06-28T21:59:51Z",
   "date": "2026-06-28",
   "matches": [
+    {
+      "home": "South Africa",
+      "away": "Canada",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ui8g96",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ui8g96",
+          "scorer": "Stephen Eustaquio",
+          "minute": 90,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/ffa2a5a8",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782679945000
+        }
+      ]
+    },
     {
       "home": "Germany U19",
       "away": "Denmark U19",
