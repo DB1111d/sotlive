@@ -1,7 +1,53 @@
 {
-  "updated": "2026-06-29T17:11:37Z",
+  "updated": "2026-06-29T19:15:26Z",
   "date": "2026-06-29",
   "matches": [
+    {
+      "home": "Brazil",
+      "away": "Japan",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uiz2fy",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uiz2fy",
+          "scorer": "Sano",
+          "minute": 29,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/en/7ZWDw8M1uxyFqIH/watch",
+          "videoEmbed": "https://streamain.com/en/7ZWDw8M1uxyFqIH/watch",
+          "directMp4": null,
+          "postedAt": 1782754203000
+        },
+        {
+          "postId": "1uj0d33",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uj0d33",
+          "scorer": "Casemiro",
+          "minute": 56,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/f98acd5b",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782757026000
+        },
+        {
+          "postId": "1uj1ftx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uj1ftx",
+          "scorer": "Gabriel Martinelli",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/beb05353",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782759420000
+        }
+      ]
+    },
     {
       "home": "Italy U19",
       "away": "Serbia U19",
