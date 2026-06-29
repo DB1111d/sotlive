@@ -1,20 +1,6 @@
 {
-  "updated": "2026-06-29 00:00 EDT",
+  "updated": "2026-06-29 05:04 EDT",
   "days": {
-    "20260628": {
-      "date": "Sunday, June 28",
-      "games": [
-        {
-          "league": "FIFA World Cup",
-          "time": "3:00 PM",
-          "match": "South Africa vs Canada",
-          "source": "FOX",
-          "kick_utc": "2026-06-28T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png"
-        }
-      ]
-    },
     "20260629": {
       "date": "Monday, June 29",
       "games": [
@@ -185,6 +171,65 @@
           "kick_utc": "2026-07-03T01:30Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131581.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21821.png"
+        }
+      ]
+    },
+    "20260703": {
+      "date": "Friday, July 3",
+      "games": [
+        {
+          "league": "FIFA World Cup",
+          "time": "2:00 PM",
+          "match": "Australia vs Egypt",
+          "source": "FOX",
+          "kick_utc": "2026-07-03T18:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png"
+        },
+        {
+          "league": "FIFA World Cup",
+          "time": "6:00 PM",
+          "match": "Argentina vs Cape Verde",
+          "source": "FOX",
+          "kick_utc": "2026-07-03T22:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png"
+        },
+        {
+          "league": "FIFA World Cup",
+          "time": "9:30 PM",
+          "match": "Colombia vs Ghana",
+          "source": "FOX",
+          "kick_utc": "2026-07-04T01:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png"
+        },
+        {
+          "league": "USL Championship",
+          "time": "7:00 PM",
+          "match": "Loudoun United FC vs Sporting JAX",
+          "source": "ESPN+",
+          "kick_utc": "2026-07-03T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19410.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131578.png"
+        },
+        {
+          "league": "USL League One",
+          "time": "7:30 PM",
+          "match": "FC Naples vs Portland Hearts of Pine",
+          "source": "ESPN+",
+          "kick_utc": "2026-07-03T23:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22525.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22528.png"
+        },
+        {
+          "league": "USL League One",
+          "time": "7:30 PM",
+          "match": "Richmond Kickers vs Sarasota Paradise",
+          "source": "ESPN+",
+          "kick_utc": "2026-07-03T23:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17545.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22542.png"
         }
       ]
     }
