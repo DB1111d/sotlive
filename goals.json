@@ -1,7 +1,27 @@
 {
-  "updated": "2026-06-29T21:06:25Z",
+  "updated": "2026-06-29T22:19:34Z",
   "date": "2026-06-29",
   "matches": [
+    {
+      "home": "Germany",
+      "away": "Paraguay",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uj53rw",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uj53rw",
+          "scorer": "Julio Enciso goal",
+          "minute": 41,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://dropr.co/v/27965dbb",
+          "videoEmbed": "https://dropr.co/v/27965dbb",
+          "directMp4": null,
+          "postedAt": 1782767498000
+        }
+      ]
+    },
     {
       "home": "Croatia U19",
       "away": "Ukraine U19",
