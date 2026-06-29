@@ -1,5 +1,39 @@
 {
-  "updated": "2026-06-29T14:08:48Z",
+  "updated": "2026-06-29T17:11:37Z",
   "date": "2026-06-29",
-  "matches": []
+  "matches": [
+    {
+      "home": "Italy U19",
+      "away": "Serbia U19",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uiwhgl",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uiwhgl",
+          "scorer": "Mattia Liberali penalty",
+          "minute": 11,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/tN0uAJzcTmF2tv2/watch",
+          "videoEmbed": "https://streamain.com/tN0uAJzcTmF2tv2/watch",
+          "directMp4": null,
+          "postedAt": 1782748615000
+        },
+        {
+          "postId": "1uixonk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uixonk",
+          "scorer": "Jamal Iddrissou",
+          "minute": 76,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/5NPvry0pXh9mSba/watch",
+          "videoEmbed": "https://streamain.com/5NPvry0pXh9mSba/watch",
+          "directMp4": null,
+          "postedAt": 1782751201000
+        }
+      ]
+    }
+  ]
 }
