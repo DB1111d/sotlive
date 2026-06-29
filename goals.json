@@ -1,7 +1,66 @@
 {
-  "updated": "2026-06-29T19:15:26Z",
+  "updated": "2026-06-29T21:06:25Z",
   "date": "2026-06-29",
   "matches": [
+    {
+      "home": "Croatia U19",
+      "away": "Ukraine U19",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uj2ecx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uj2ecx",
+          "scorer": "Ivan Baric penalty",
+          "minute": 22,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/4d715daf",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782761468000
+        },
+        {
+          "postId": "1uj2epn",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uj2epn",
+          "scorer": "Dmytro Bogdanov",
+          "minute": 26,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/d847ce3f",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782761490000
+        },
+        {
+          "postId": "1uj3hrs",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uj3hrs",
+          "scorer": "Nikita Kaliuzhnyi",
+          "minute": 48,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/9e0ef313",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782763874000
+        },
+        {
+          "postId": "1uj3wot",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uj3wot",
+          "scorer": "Pavlo Lyusin",
+          "minute": 57,
+          "homeScore": 1,
+          "awayScore": 3,
+          "videoUrl": "https://streamin.link/v/16177b7a",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782764820000
+        }
+      ]
+    },
     {
       "home": "Brazil",
       "away": "Japan",
