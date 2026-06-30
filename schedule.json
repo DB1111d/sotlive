@@ -1,18 +1,9 @@
 {
-  "updated": "2026-06-29 17:27 EDT",
+  "updated": "2026-06-29 23:42 EDT",
   "days": {
     "20260629": {
       "date": "Monday, June 29",
       "games": [
-        {
-          "league": "FIFA World Cup",
-          "time": "4:30 PM",
-          "match": "Germany vs Paraguay",
-          "source": "FOX",
-          "kick_utc": "2026-06-29T20:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png"
-        },
         {
           "league": "FIFA World Cup",
           "time": "9:00 PM",
