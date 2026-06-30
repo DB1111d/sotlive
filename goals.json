@@ -1,5 +1,85 @@
 {
-  "updated": "2026-06-30T17:14:38Z",
+  "updated": "2026-06-30T19:08:28Z",
   "date": "2026-06-30",
-  "matches": []
+  "matches": [
+    {
+      "home": "Côte d'Ivoire",
+      "away": "Norway",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ujvyfo",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ujvyfo",
+          "scorer": "Antonio Nusa goal",
+          "minute": 39,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://dropr.co/v/fe0b376e",
+          "videoEmbed": "https://dropr.co/v/fe0b376e",
+          "directMp4": null,
+          "postedAt": 1782841153000
+        },
+        {
+          "postId": "1ujxh4z",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ujxh4z",
+          "scorer": "Amad Diallo goal",
+          "minute": 74,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://dropr.co/v/43ecf72f",
+          "videoEmbed": "https://dropr.co/v/43ecf72f",
+          "directMp4": null,
+          "postedAt": 1782844418000
+        },
+        {
+          "postId": "1ujxsx6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ujxsx6",
+          "scorer": "Erling Haaland goal",
+          "minute": 85,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://dropr.co/v/afa24df2",
+          "videoEmbed": "https://dropr.co/v/afa24df2",
+          "directMp4": null,
+          "postedAt": 1782845127000
+        }
+      ]
+    },
+    {
+      "home": "Cote d'Ivoire",
+      "away": "Norway",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ujwcyc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ujwcyc",
+          "scorer": "Antonio Nusa",
+          "minute": 39,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/2bb945ea",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782842032000
+        },
+        {
+          "postId": "1ujxhbt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ujxhbt",
+          "scorer": "A. Diallo",
+          "minute": 74,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/54c7a1b6",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782844431000
+        }
+      ]
+    }
+  ]
 }
