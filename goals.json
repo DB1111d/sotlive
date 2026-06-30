@@ -1,7 +1,53 @@
 {
-  "updated": "2026-06-30T21:03:47Z",
+  "updated": "2026-06-30T22:38:47Z",
   "date": "2026-06-30",
   "matches": [
+    {
+      "home": "France",
+      "away": "Sweden",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uk2pa1",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uk2pa1",
+          "scorer": "K. Mbappe",
+          "minute": 45,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/bf245fca",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782856064000
+        },
+        {
+          "postId": "1uk3bmy",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uk3bmy",
+          "scorer": "Barcola",
+          "minute": 53,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/KospvIyCoc4yanG/watch",
+          "videoEmbed": "https://streamain.com/KospvIyCoc4yanG/watch",
+          "directMp4": null,
+          "postedAt": 1782857533000
+        },
+        {
+          "postId": "1uk3tsp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uk3tsp",
+          "scorer": "Kylian Mbappé goal",
+          "minute": 73,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://dropr.co/v/5a8269f5",
+          "videoEmbed": "https://dropr.co/v/5a8269f5",
+          "directMp4": null,
+          "postedAt": 1782858750000
+        }
+      ]
+    },
     {
       "home": "Côte d'Ivoire",
       "away": "Norway",
