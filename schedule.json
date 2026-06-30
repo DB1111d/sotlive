@@ -1,18 +1,9 @@
 {
-  "updated": "2026-06-30 13:54 EDT",
+  "updated": "2026-06-30 17:28 EDT",
   "days": {
     "20260630": {
       "date": "Tuesday, June 30",
       "games": [
-        {
-          "league": "FIFA World Cup",
-          "time": "1:00 PM",
-          "match": "Ivory Coast vs Norway",
-          "source": "FOX",
-          "kick_utc": "2026-06-30T17:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png"
-        },
         {
           "league": "FIFA World Cup",
           "time": "5:00 PM",
