@@ -1,7 +1,53 @@
 {
-  "updated": "2026-07-01T20:23:05Z",
+  "updated": "2026-07-01T21:58:52Z",
   "date": "2026-07-01",
   "matches": [
+    {
+      "home": "Belgium",
+      "away": "Senegal",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ukx080",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ukx080",
+          "scorer": "Habib Diarra goal",
+          "minute": 24,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://dropr.co/v/5e61279e",
+          "videoEmbed": "https://dropr.co/v/5e61279e",
+          "directMp4": null,
+          "postedAt": 1782937542000
+        },
+        {
+          "postId": "1uky9x0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uky9x0",
+          "scorer": "Ismaïla Sarr goal",
+          "minute": 51,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://dropr.co/v/3b6f1c49",
+          "videoEmbed": "https://dropr.co/v/3b6f1c49",
+          "directMp4": null,
+          "postedAt": 1782940391000
+        },
+        {
+          "postId": "1ukz9hn",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ukz9hn",
+          "scorer": "Youri Tielemans",
+          "minute": 89,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/an4m324yvoah1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/an4m324yvoah1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1782942682000
+        }
+      ]
+    },
     {
       "home": "Wales U19",
       "away": "Germany U19",
@@ -45,6 +91,19 @@
           "videoEmbed": "https://streamain.com/QhysyjDh5b8D0WM/watch",
           "directMp4": null,
           "postedAt": 1782937154000
+        },
+        {
+          "postId": "1ukxsio",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ukxsio",
+          "scorer": "Jykese Fields",
+          "minute": 90,
+          "homeScore": 0,
+          "awayScore": 4,
+          "videoUrl": "https://streamain.com/er0bt8XO0N0X7yt/watch",
+          "videoEmbed": "https://streamain.com/er0bt8XO0N0X7yt/watch",
+          "directMp4": null,
+          "postedAt": 1782939294000
         }
       ]
     },
