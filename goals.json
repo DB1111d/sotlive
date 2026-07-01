@@ -1,5 +1,46 @@
 {
-  "updated": "2026-07-01T13:51:53Z",
+  "updated": "2026-07-01T16:24:22Z",
   "date": "2026-07-01",
-  "matches": []
+  "matches": [
+    {
+      "home": "England",
+      "away": "DR Congo",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ukpysu",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ukpysu",
+          "scorer": "Cipenga",
+          "minute": 7,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/en/40Gb6kaGqSJw5XJ/watch",
+          "videoEmbed": "https://streamain.com/en/40Gb6kaGqSJw5XJ/watch",
+          "directMp4": null,
+          "postedAt": 1782922075000
+        }
+      ]
+    },
+    {
+      "home": "England",
+      "away": "Congo",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ukpxua",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ukpxua",
+          "scorer": "B. Cipenga",
+          "minute": 7,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/2d964c0b",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782922018000
+        }
+      ]
+    }
+  ]
 }
