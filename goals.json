@@ -1,7 +1,40 @@
 {
-  "updated": "2026-06-30T23:48:56Z",
-  "date": "2026-06-30",
+  "updated": "2026-07-01T03:32:39Z",
+  "date": "2026-07-01",
   "matches": [
+    {
+      "home": "Mexico",
+      "away": "Ecuador",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uk8yij",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uk8yij",
+          "scorer": "J. Quiñones",
+          "minute": 22,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/b7b9e495",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782872542000
+        },
+        {
+          "postId": "1uk9596",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uk9596",
+          "scorer": "R. Jiménez",
+          "minute": 31,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/139018a6",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1782873087000
+        }
+      ]
+    },
     {
       "home": "France",
       "away": "Sweden",
