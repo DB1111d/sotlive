@@ -1,5 +1,26 @@
 {
-  "updated": "2026-07-02T18:55:49Z",
+  "updated": "2026-07-02T20:16:59Z",
   "date": "2026-07-02",
-  "matches": []
+  "matches": [
+    {
+      "home": "Spain",
+      "away": "Austria",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uls8gy",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uls8gy",
+          "scorer": "Mikel Oyarzabal",
+          "minute": 37,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/gv19oplucvah1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/gv19oplucvah1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1783021002000
+        }
+      ]
+    }
+  ]
 }
