@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02 13:48 EDT",
+  "updated": "2026-07-02 17:07 EDT",
   "days": {
     "20260702": {
       "date": "Thursday, July 2",
@@ -297,11 +297,11 @@
         {
           "league": "FIFA World Cup",
           "time": "3:00 PM",
-          "match": "Round of 32 11 Winner vs Round of 32 12 Winner",
+          "match": "Round of 32 11 Winner vs Spain",
           "source": "FOX",
           "kick_utc": "2026-07-06T19:00Z",
           "home_logo": "",
-          "away_logo": ""
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png"
         },
         {
           "league": "FIFA World Cup",
