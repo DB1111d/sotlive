@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-01T23:20:10Z",
-  "date": "2026-07-01",
+  "updated": "2026-07-02T01:31:45Z",
+  "date": "2026-07-02",
   "matches": [
+    {
+      "home": "USA",
+      "away": "Bosnia and Herzegovina",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ul3e1v",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ul3e1v",
+          "scorer": "Balogun",
+          "minute": 45,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/aphVfXaI5F2AbFK/watch",
+          "videoEmbed": "https://streamain.com/aphVfXaI5F2AbFK/watch",
+          "directMp4": null,
+          "postedAt": 1782953153000
+        }
+      ]
+    },
     {
       "home": "Belgium",
       "away": "Senegal",
