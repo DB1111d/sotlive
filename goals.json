@@ -1,5 +1,26 @@
 {
-  "updated": "2026-07-03T04:06:41Z",
+  "updated": "2026-07-03T07:34:39Z",
   "date": "2026-07-03",
-  "matches": []
+  "matches": [
+    {
+      "home": "Switzerland",
+      "away": "Algeria",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1um3x3g",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1um3x3g",
+          "scorer": "Ndoye",
+          "minute": 46,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/3225860b",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1783051608000
+        }
+      ]
+    }
+  ]
 }
