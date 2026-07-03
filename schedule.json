@@ -1,27 +1,9 @@
 {
-  "updated": "2026-07-02 17:07 EDT",
+  "updated": "2026-07-02 23:20 EDT",
   "days": {
     "20260702": {
       "date": "Thursday, July 2",
       "games": [
-        {
-          "league": "FIFA World Cup",
-          "time": "3:00 PM",
-          "match": "Spain vs Austria",
-          "source": "FOX",
-          "kick_utc": "2026-07-02T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png"
-        },
-        {
-          "league": "FIFA World Cup",
-          "time": "7:00 PM",
-          "match": "Portugal vs Croatia",
-          "source": "FOX",
-          "kick_utc": "2026-07-02T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png"
-        },
         {
           "league": "FIFA World Cup",
           "time": "11:00 PM",
@@ -297,10 +279,10 @@
         {
           "league": "FIFA World Cup",
           "time": "3:00 PM",
-          "match": "Round of 32 11 Winner vs Spain",
+          "match": "Portugal vs Spain",
           "source": "FOX",
           "kick_utc": "2026-07-06T19:00Z",
-          "home_logo": "",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png"
         },
         {
