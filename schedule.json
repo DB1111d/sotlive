@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03 13:26 EDT",
+  "updated": "2026-07-03 17:07 EDT",
   "days": {
     "20260703": {
       "date": "Friday, July 3",
@@ -270,11 +270,11 @@
         {
           "league": "FIFA World Cup",
           "time": "12:00 PM",
-          "match": "Round of 32 14 Winner vs Round of 32 16 Winner",
+          "match": "Round of 32 14 Winner vs Egypt",
           "source": "FOX",
           "kick_utc": "2026-07-07T16:00Z",
           "home_logo": "",
-          "away_logo": ""
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png"
         },
         {
           "league": "FIFA World Cup",
