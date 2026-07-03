@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-03T17:48:23Z",
+  "updated": "2026-07-03T19:15:53Z",
   "date": "2026-07-03",
   "matches": [
+    {
+      "home": "Australia",
+      "away": "Egypt",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1umltz0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1umltz0",
+          "scorer": "Ashour",
+          "minute": 13,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/AqD3r4Kc0j0Z66t/watch",
+          "videoEmbed": "https://streamain.com/AqD3r4Kc0j0Z66t/watch",
+          "directMp4": null,
+          "postedAt": 1783102414000
+        }
+      ]
+    },
     {
       "home": "Switzerland",
       "away": "Algeria",
