@@ -1,5 +1,26 @@
 {
-  "updated": "2026-07-04T17:15:38Z",
+  "updated": "2026-07-04T18:30:29Z",
   "date": "2026-07-04",
-  "matches": []
+  "matches": [
+    {
+      "home": "Canada",
+      "away": "Morocco",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ung1gm",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ung1gm",
+          "scorer": "Ounahi",
+          "minute": 51,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/tqkg6okb89bh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/tqkg6okb89bh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1783188972000
+        }
+      ]
+    }
+  ]
 }
