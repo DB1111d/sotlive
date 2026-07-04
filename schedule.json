@@ -1,47 +1,6 @@
 {
-  "updated": "2026-07-03 22:58 EDT",
+  "updated": "2026-07-04 02:46 EDT",
   "days": {
-    "20260703": {
-      "date": "Friday, July 3",
-      "games": [
-        {
-          "league": "FIFA World Cup",
-          "time": "9:30 PM",
-          "match": "Colombia vs Ghana",
-          "source": "FOX",
-          "kick_utc": "2026-07-04T01:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png"
-        },
-        {
-          "league": "USL Championship",
-          "time": "7:30 PM",
-          "match": "Loudoun United FC vs Sporting JAX",
-          "source": "ESPN+",
-          "kick_utc": "2026-07-03T23:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19410.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131578.png"
-        },
-        {
-          "league": "USL League One",
-          "time": "7:30 PM",
-          "match": "FC Naples vs Portland Hearts of Pine",
-          "source": "ESPN+",
-          "kick_utc": "2026-07-03T23:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22525.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22528.png"
-        },
-        {
-          "league": "USL League One",
-          "time": "7:30 PM",
-          "match": "Richmond Kickers vs Sarasota Paradise",
-          "source": "ESPN+",
-          "kick_utc": "2026-07-03T23:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17545.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22542.png"
-        }
-      ]
-    },
     "20260704": {
       "date": "Saturday, July 4",
       "games": [
@@ -261,11 +220,52 @@
         {
           "league": "FIFA World Cup",
           "time": "4:00 PM",
-          "match": "Switzerland vs Round of 32 15 Winner",
+          "match": "Switzerland vs Colombia",
           "source": "FOX",
           "kick_utc": "2026-07-07T20:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
-          "away_logo": ""
+          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png"
+        }
+      ]
+    },
+    "20260708": {
+      "date": "Wednesday, July 8",
+      "games": [
+        {
+          "league": "USL Championship",
+          "time": "7:00 PM",
+          "match": "Hartford Athletic vs Orange County SC",
+          "source": "ESPN+",
+          "kick_utc": "2026-07-08T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19411.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18455.png"
+        },
+        {
+          "league": "USL Championship",
+          "time": "10:30 PM",
+          "match": "Sacramento Republic FC vs Rhode Island FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-07-09T02:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17828.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22164.png"
+        },
+        {
+          "league": "USL League One",
+          "time": "7:00 PM",
+          "match": "Greenville Triumph vs Sarasota Paradise",
+          "source": "ESPN+",
+          "kick_utc": "2026-07-08T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19964.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22542.png"
+        },
+        {
+          "league": "USL League One",
+          "time": "7:00 PM",
+          "match": "New York Cosmos vs FC Naples",
+          "source": "ESPN+",
+          "kick_utc": "2026-07-08T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131582.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22525.png"
         }
       ]
     }
