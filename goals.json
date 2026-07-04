@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-04T21:56:26Z",
+  "updated": "2026-07-04T22:57:35Z",
   "date": "2026-07-04",
   "matches": [
+    {
+      "home": "Paraguay",
+      "away": "France",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1unlz30",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1unlz30",
+          "scorer": "K. Mbappé Penalty",
+          "minute": 70,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/57a6b8c4",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1783204418000
+        }
+      ]
+    },
     {
       "home": "Canada",
       "away": "Morocco",
