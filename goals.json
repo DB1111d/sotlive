@@ -1,7 +1,40 @@
 {
-  "updated": "2026-07-05T21:40:57Z",
+  "updated": "2026-07-05T22:39:24Z",
   "date": "2026-07-05",
   "matches": [
+    {
+      "home": "Brazil",
+      "away": "Norway",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uoem4o",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uoem4o",
+          "scorer": "Erling Haaland",
+          "minute": 90,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/3678a668",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1783288330000
+        },
+        {
+          "postId": "1uoeume",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uoeume",
+          "scorer": "Neymar penalty",
+          "minute": 90,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/3b94a272",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1783288928000
+        }
+      ]
+    },
     {
       "home": "Serbia U19",
       "away": "Croatia U19",
