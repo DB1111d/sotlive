@@ -1,5 +1,26 @@
 {
-  "updated": "2026-07-06T10:13:53Z",
+  "updated": "2026-07-06T14:02:44Z",
   "date": "2026-07-06",
-  "matches": []
+  "matches": [
+    {
+      "home": "Norway fans' reaction: Brazil",
+      "away": "Norway",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uov2d6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uov2d6",
+          "scorer": "Erling Haaland",
+          "minute": 79,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/wfpc8rt5llbh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/wfpc8rt5llbh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1783338605000
+        }
+      ]
+    }
+  ]
 }
