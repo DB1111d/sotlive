@@ -1,29 +1,6 @@
 {
-  "updated": "2026-07-05 23:36 EDT",
+  "updated": "2026-07-06 04:20 EDT",
   "days": {
-    "20260705": {
-      "date": "Sunday, July 5",
-      "games": [
-        {
-          "league": "FIFA World Cup",
-          "time": "9:00 PM",
-          "match": "Mexico vs England",
-          "source": "FOX",
-          "kick_utc": "2026-07-06T01:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
-        },
-        {
-          "league": "USL League One",
-          "time": "11:00 PM",
-          "match": "AV Alta FC vs Charlotte Independence",
-          "source": "ESPN+",
-          "kick_utc": "2026-07-06T03:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22526.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17826.png"
-        }
-      ]
-    },
     "20260706": {
       "date": "Monday, July 6",
       "games": [
@@ -122,6 +99,20 @@
           "kick_utc": "2026-07-09T20:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png"
+        }
+      ]
+    },
+    "20260710": {
+      "date": "Friday, July 10",
+      "games": [
+        {
+          "league": "FIFA World Cup",
+          "time": "3:00 PM",
+          "match": "Round of 16 5 Winner vs Round of 16 6 Winner",
+          "source": "FOX",
+          "kick_utc": "2026-07-10T19:00Z",
+          "home_logo": "",
+          "away_logo": ""
         }
       ]
     }
