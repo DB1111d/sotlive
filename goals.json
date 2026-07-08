@@ -1,5 +1,65 @@
 {
-  "updated": "2026-07-08T18:43:12Z",
+  "updated": "2026-07-08T20:10:31Z",
   "date": "2026-07-08",
-  "matches": []
+  "matches": [
+    {
+      "home": "Ukraine U19",
+      "away": "Germany U19",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1ur38oq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ur38oq",
+          "scorer": "Vitaliy Glyut",
+          "minute": 43,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/PvP3tsS1AxEEUJ0/watch",
+          "videoEmbed": "https://streamain.com/PvP3tsS1AxEEUJ0/watch",
+          "directMp4": null,
+          "postedAt": 1783539588000
+        },
+        {
+          "postId": "1ur39dw",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ur39dw",
+          "scorer": "Otto Stange",
+          "minute": 45,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/XauHaBkMryvt0ft/watch",
+          "videoEmbed": "https://streamain.com/XauHaBkMryvt0ft/watch",
+          "directMp4": null,
+          "postedAt": 1783539630000
+        },
+        {
+          "postId": "1ur3km2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ur3km2",
+          "scorer": "Francis Onyeka",
+          "minute": 90,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/nvdOV3qWjq1vCvJ/watch",
+          "videoEmbed": "https://streamain.com/nvdOV3qWjq1vCvJ/watch",
+          "directMp4": null,
+          "postedAt": 1783540289000
+        },
+        {
+          "postId": "1ur3jr5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1ur3jr5",
+          "scorer": "Francis Onyeka",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/ea7bw3bq82ch1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1783540238000
+        }
+      ]
+    }
+  ]
 }
