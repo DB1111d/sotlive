@@ -1,7 +1,40 @@
 {
-  "updated": "2026-07-09T21:06:24Z",
+  "updated": "2026-07-09T22:42:31Z",
   "date": "2026-07-09",
   "matches": [
+    {
+      "home": "France",
+      "away": "Morocco",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1us3s27",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1us3s27",
+          "scorer": "Kylian Mbappe",
+          "minute": 60,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/c019ff5e",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1783632791000
+        },
+        {
+          "postId": "1us3pnh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1us3pnh",
+          "scorer": "Ousmane Dembele",
+          "minute": 66,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/f870de0e",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1783632638000
+        }
+      ]
+    },
     {
       "home": "Petrovac",
       "away": "Zalgiris",
