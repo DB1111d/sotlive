@@ -1,19 +1,9 @@
 {
-  "updated": "2026-07-09 17:24 EDT",
+  "updated": "2026-07-09 23:23 EDT",
   "days": {
     "20260709": {
       "date": "Thursday, July 9",
-      "games": [
-        {
-          "league": "FIFA World Cup",
-          "time": "4:00 PM",
-          "match": "France vs Morocco",
-          "source": "FOX",
-          "kick_utc": "2026-07-09T20:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png"
-        }
-      ]
+      "games": []
     },
     "20260710": {
       "date": "Friday, July 10",
