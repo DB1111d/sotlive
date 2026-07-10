@@ -1,5 +1,26 @@
 {
-  "updated": "2026-07-10T20:25:51Z",
+  "updated": "2026-07-10T21:34:16Z",
   "date": "2026-07-10",
-  "matches": []
+  "matches": [
+    {
+      "home": "Spain",
+      "away": "Belgium",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uszuk3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uszuk3",
+          "scorer": "Mikel Merino",
+          "minute": 88,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.top/v/7505b615",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1783716748000
+        }
+      ]
+    }
+  ]
 }
