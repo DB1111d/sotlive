@@ -1,5 +1,26 @@
 {
-  "updated": "2026-07-11T12:04:41Z",
+  "updated": "2026-07-11T13:53:14Z",
   "date": "2026-07-11",
-  "matches": []
+  "matches": [
+    {
+      "home": "Feyenoord",
+      "away": "Club Brugge",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1utijg3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1utijg3",
+          "scorer": "Shaqueel van Persie",
+          "minute": 64,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/bbrzjor5elch1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/bbrzjor5elch1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1783772097000
+        }
+      ]
+    }
+  ]
 }
