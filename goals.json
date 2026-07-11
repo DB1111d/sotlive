@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-11T20:06:00Z",
+  "updated": "2026-07-11T21:04:54Z",
   "date": "2026-07-11",
   "matches": [
+    {
+      "home": "Wallace Yan  - Benfica",
+      "away": "Flamengo",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1utuh4q",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1utuh4q",
+          "scorer": "2026 Friendly",
+          "minute": 68,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/o6kz6l06snch1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/o6kz6l06snch1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1783800989000
+        }
+      ]
+    },
     {
       "home": "Feyenoord",
       "away": "Club Brugge",
