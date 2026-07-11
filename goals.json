@@ -1,7 +1,40 @@
 {
-  "updated": "2026-07-11T21:04:54Z",
+  "updated": "2026-07-11T22:06:49Z",
   "date": "2026-07-11",
   "matches": [
+    {
+      "home": "Norway",
+      "away": "England",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1utwg8i",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1utwg8i",
+          "scorer": "Andreas Schjelderup",
+          "minute": 36,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/497da54e",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1783805836000
+        },
+        {
+          "postId": "1utwp1q",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1utwp1q",
+          "scorer": "Jude Bellingham",
+          "minute": 45,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/61a95819",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1783806484000
+        }
+      ]
+    },
     {
       "home": "Wallace Yan  - Benfica",
       "away": "Flamengo",
