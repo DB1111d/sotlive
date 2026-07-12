@@ -1,18 +1,9 @@
 {
-  "updated": "2026-07-11 16:48 EDT",
+  "updated": "2026-07-11 22:49 EDT",
   "days": {
     "20260711": {
       "date": "Saturday, July 11",
       "games": [
-        {
-          "league": "FIFA World Cup",
-          "time": "5:00 PM",
-          "match": "Norway vs England",
-          "source": "FOX",
-          "kick_utc": "2026-07-11T21:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
-        },
         {
           "league": "FIFA World Cup",
           "time": "9:00 PM",
@@ -52,10 +43,10 @@
         {
           "league": "FIFA World Cup",
           "time": "3:00 PM",
-          "match": "Quarterfinal 3 Winner vs Quarterfinal 4 Winner",
+          "match": "England vs Quarterfinal 4 Winner",
           "source": "FOX",
           "kick_utc": "2026-07-15T19:00Z",
-          "home_logo": "",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
           "away_logo": ""
         },
         {
