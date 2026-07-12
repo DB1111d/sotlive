@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-11T23:09:55Z",
-  "date": "2026-07-11",
+  "updated": "2026-07-12T00:09:50Z",
+  "date": "2026-07-12",
   "matches": [
+    {
+      "home": "The Norway goal kick leading to England",
+      "away": "goal seems to hit a stadium camera cable",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1utzvpo",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1utzvpo",
+          "scorer": "",
+          "minute": null,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/i9igjpxaxoch1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/i9igjpxaxoch1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1783814837000
+        }
+      ]
+    },
     {
       "home": "Norway",
       "away": "England",
@@ -45,6 +65,19 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1783808279000
+        },
+        {
+          "postId": "1utykj5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1utykj5",
+          "scorer": "Jude Bellingham",
+          "minute": 93,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/b2558e93",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1783811430000
         }
       ]
     },
