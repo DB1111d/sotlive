@@ -1,7 +1,66 @@
 {
-  "updated": "2026-07-12T00:09:50Z",
+  "updated": "2026-07-12T03:55:42Z",
   "date": "2026-07-12",
   "matches": [
+    {
+      "home": "Argentina",
+      "away": "Switzerland",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uu1agf",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uu1agf",
+          "scorer": "A. Mac Allister",
+          "minute": 10,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/26dfe82b",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1783818629000
+        },
+        {
+          "postId": "1uu2xdb",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uu2xdb",
+          "scorer": "Ndoye",
+          "minute": 68,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/wGccbzygiHYdahq/watch",
+          "videoEmbed": "https://streamain.com/wGccbzygiHYdahq/watch",
+          "directMp4": null,
+          "postedAt": 1783823352000
+        },
+        {
+          "postId": "1uu45qf",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uu45qf",
+          "scorer": "J. Alvarez",
+          "minute": 112,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/3ed60939",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1783827135000
+        },
+        {
+          "postId": "1uu4bwk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uu4bwk",
+          "scorer": "Lautaro Martínez",
+          "minute": 120,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/92ba871c",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1783827679000
+        }
+      ]
+    },
     {
       "home": "The Norway goal kick leading to England",
       "away": "goal seems to hit a stadium camera cable",
