@@ -1,39 +1,5 @@
 {
-  "updated": "2026-07-14T02:27:43Z",
+  "updated": "2026-07-14T05:14:18Z",
   "date": "2026-07-14",
-  "matches": [
-    {
-      "home": "Djurgårdens IF",
-      "away": "Halmstads BK",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1uvker1",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1uvker1",
-          "scorer": "Bo Hegland",
-          "minute": 28,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/npr1wzvml1dh1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/npr1wzvml1dh1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1783968501000
-        },
-        {
-          "postId": "1uvkfrn",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1uvkfrn",
-          "scorer": "Kristian Lien",
-          "minute": 57,
-          "homeScore": 3,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/8tfwxhkfm1dh1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/8tfwxhkfm1dh1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1783968559000
-        }
-      ]
-    }
-  ]
+  "matches": []
 }
