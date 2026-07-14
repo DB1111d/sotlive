@@ -1,5 +1,460 @@
 {
-  "updated": "2026-07-14T17:22:05Z",
+  "updated": "2026-07-14T18:37:22Z",
   "date": "2026-07-14",
-  "matches": []
+  "matches": [
+    {
+      "home": "Sporting CP",
+      "away": "Celtic",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uwf9u8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uwf9u8",
+          "scorer": "Geny Catamo",
+          "minute": 24,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/0qfmcqrqc8dh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/0qfmcqrqc8dh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1784050051000
+        },
+        {
+          "postId": "1uwh9s3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uwh9s3",
+          "scorer": "Camilo Duran",
+          "minute": 69,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/wnmreln2p8dh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/wnmreln2p8dh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1784054203000
+        }
+      ]
+    },
+    {
+      "home": "Drita",
+      "away": "Kauno Žalgiris",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uwgsgd",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uwgsgd",
+          "scorer": "Vykintas Slivka",
+          "minute": 9,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/4zyjjd8nl8dh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/4zyjjd8nl8dh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1784053179000
+        },
+        {
+          "postId": "1uwgxnd",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uwgxnd",
+          "scorer": "Igball Jashari",
+          "minute": 20,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/sm9qea4vm8dh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/sm9qea4vm8dh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1784053486000
+        }
+      ]
+    },
+    {
+      "home": "Riga FC",
+      "away": "Ararat-Armenia",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uwexx9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uwexx9",
+          "scorer": "Iago Siqueira",
+          "minute": 14,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/BDUy7Qk38ROy5RK/watch",
+          "videoEmbed": "https://streamain.com/BDUy7Qk38ROy5RK/watch",
+          "directMp4": null,
+          "postedAt": 1784049348000
+        },
+        {
+          "postId": "1uwfdtl",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uwfdtl",
+          "scorer": "Ahmed Ankrah",
+          "minute": 23,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/tjKUTP6ZBsTMua7/watch",
+          "videoEmbed": "https://streamain.com/tjKUTP6ZBsTMua7/watch",
+          "directMp4": null,
+          "postedAt": 1784050283000
+        },
+        {
+          "postId": "1uwggtx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uwggtx",
+          "scorer": "Zhirayr Shaghoyan",
+          "minute": 46,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/wI1sfeu19KXUZft/watch",
+          "videoEmbed": "https://streamain.com/wI1sfeu19KXUZft/watch",
+          "directMp4": null,
+          "postedAt": 1784052521000
+        },
+        {
+          "postId": "1uwgwq8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uwgwq8",
+          "scorer": "Sandro Lima",
+          "minute": 63,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/PPig4P3lIEdaArm/watch",
+          "videoEmbed": "https://streamain.com/PPig4P3lIEdaArm/watch",
+          "directMp4": null,
+          "postedAt": 1784053433000
+        }
+      ]
+    },
+    {
+      "home": "Győr",
+      "away": "Vikingur Reykjavik",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uwfjt3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uwfjt3",
+          "scorer": "Daniel Hafsteinsson",
+          "minute": 34,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/CyDV7RbPndTzLkj/watch",
+          "videoEmbed": "https://streamain.com/CyDV7RbPndTzLkj/watch",
+          "directMp4": null,
+          "postedAt": 1784050629000
+        },
+        {
+          "postId": "1uwfo0x",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uwfo0x",
+          "scorer": "Milan Vitalis penalty",
+          "minute": 38,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/JLpMZBmOc6HmY3Y/watch",
+          "videoEmbed": "https://streamain.com/JLpMZBmOc6HmY3Y/watch",
+          "directMp4": null,
+          "postedAt": 1784050886000
+        },
+        {
+          "postId": "1uwfzl3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uwfzl3",
+          "scorer": "Own Goal",
+          "minute": 45,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/tQc3BQwJXOy0Bt8/watch",
+          "videoEmbed": "https://streamain.com/tQc3BQwJXOy0Bt8/watch",
+          "directMp4": null,
+          "postedAt": 1784051554000
+        },
+        {
+          "postId": "1uwgr8i",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uwgr8i",
+          "scorer": "Daniel Hafsteinsson",
+          "minute": 55,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/yMENe4FjK63zT1L/watch",
+          "videoEmbed": "https://streamain.com/yMENe4FjK63zT1L/watch",
+          "directMp4": null,
+          "postedAt": 1784053109000
+        }
+      ]
+    },
+    {
+      "home": "TNS",
+      "away": "Sabah Baku",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uwg8en",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uwg8en",
+          "scorer": "Joy-Lance Mickels",
+          "minute": 28,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/EcRQ1zD6I5sZ4K4/watch",
+          "videoEmbed": "https://streamain.com/EcRQ1zD6I5sZ4K4/watch",
+          "directMp4": null,
+          "postedAt": 1784052053000
+        },
+        {
+          "postId": "1uwgne3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uwgne3",
+          "scorer": "Rahman Dashdamirov",
+          "minute": 43,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/NnlFq6vCFycjUIV/watch",
+          "videoEmbed": "https://streamain.com/NnlFq6vCFycjUIV/watch",
+          "directMp4": null,
+          "postedAt": 1784052892000
+        }
+      ]
+    },
+    {
+      "home": "Inter d'Escaldes",
+      "away": "Lincoln Red Imps",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uwf7a3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uwf7a3",
+          "scorer": "Alex Mula",
+          "minute": 62,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/s8i337lac8dh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/s8i337lac8dh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1784049899000
+        },
+        {
+          "postId": "1uwfruc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uwfruc",
+          "scorer": "Dacu",
+          "minute": 80,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/tnfo1c0wf8dh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/tnfo1c0wf8dh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1784051109000
+        }
+      ]
+    },
+    {
+      "home": "Iberia 1999",
+      "away": "Flora",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uwd7ds",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uwd7ds",
+          "scorer": "Nika Sikharulashvili",
+          "minute": 13,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/vZ4KRWhdcUqzc38/watch",
+          "videoEmbed": "https://streamain.com/vZ4KRWhdcUqzc38/watch",
+          "directMp4": null,
+          "postedAt": 1784045643000
+        },
+        {
+          "postId": "1uwdvro",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uwdvro",
+          "scorer": "Nika Sikharulashvili",
+          "minute": 36,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/sYAaCdKHcjmmU4r/watch",
+          "videoEmbed": "https://streamain.com/sYAaCdKHcjmmU4r/watch",
+          "directMp4": null,
+          "postedAt": 1784047075000
+        },
+        {
+          "postId": "1uweoiv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uweoiv",
+          "scorer": "Zviad Natchkebia",
+          "minute": 47,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/9FJ5g1AZbaRQHYS/watch",
+          "videoEmbed": "https://streamain.com/9FJ5g1AZbaRQHYS/watch",
+          "directMp4": null,
+          "postedAt": 1784048789000
+        },
+        {
+          "postId": "1uwfa8a",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uwfa8a",
+          "scorer": "Tony Varjund",
+          "minute": 69,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/m0DhPSU3oy1GTd2/watch",
+          "videoEmbed": "https://streamain.com/m0DhPSU3oy1GTd2/watch",
+          "directMp4": null,
+          "postedAt": 1784050075000
+        },
+        {
+          "postId": "1uwfq6j",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uwfq6j",
+          "scorer": "Rauno Sappinen penalty",
+          "minute": 84,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/82BiEwnfSxxIogh/watch",
+          "videoEmbed": "https://streamain.com/82BiEwnfSxxIogh/watch",
+          "directMp4": null,
+          "postedAt": 1784051009000
+        }
+      ]
+    },
+    {
+      "home": "Győr",
+      "away": "Víkingur Reykjavik",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uwflfw",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uwflfw",
+          "scorer": "Daníel Hafsteinsson",
+          "minute": 34,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/2r91a1are8dh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/2r91a1are8dh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1784050729000
+        }
+      ]
+    },
+    {
+      "home": "KuPS",
+      "away": "Vardar",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uwdfre",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uwdfre",
+          "scorer": "Azer Omeragic",
+          "minute": 59,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/jB9nDfF0qthsjCX/watch",
+          "videoEmbed": "https://streamain.com/jB9nDfF0qthsjCX/watch",
+          "directMp4": null,
+          "postedAt": 1784046126000
+        },
+        {
+          "postId": "1uwebiq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uwebiq",
+          "scorer": "Goran Zakaric penalty",
+          "minute": 90,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/wD2ecvQqtCE2oWV/watch",
+          "videoEmbed": "https://streamain.com/wD2ecvQqtCE2oWV/watch",
+          "directMp4": null,
+          "postedAt": 1784048023000
+        },
+        {
+          "postId": "1uwf1mu",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uwf1mu",
+          "scorer": "Bob Armah",
+          "minute": 100,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/9XN7FE9mJVYFRbN/watch",
+          "videoEmbed": "https://streamain.com/9XN7FE9mJVYFRbN/watch",
+          "directMp4": null,
+          "postedAt": 1784049568000
+        },
+        {
+          "postId": "1uwf417",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uwf417",
+          "scorer": "Ian Puleio",
+          "minute": 102,
+          "homeScore": 1,
+          "awayScore": 3,
+          "videoUrl": "https://streamain.com/l0LZ0nwhtNe0MoZ/watch",
+          "videoEmbed": "https://streamain.com/l0LZ0nwhtNe0MoZ/watch",
+          "directMp4": null,
+          "postedAt": 1784049702000
+        },
+        {
+          "postId": "1uwf73o",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uwf73o",
+          "scorer": "Piotr Parzyszek penalty",
+          "minute": 105,
+          "homeScore": 2,
+          "awayScore": 3,
+          "videoUrl": "https://streamain.com/TLMX4zJ1ztG90aI/watch",
+          "videoEmbed": "https://streamain.com/TLMX4zJ1ztG90aI/watch",
+          "directMp4": null,
+          "postedAt": 1784049888000
+        }
+      ]
+    },
+    {
+      "home": "Sporting CP",
+      "away": "Glasgow FC",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uwf67z",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uwf67z",
+          "scorer": "Geny Catamo",
+          "minute": 24,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/vf2u0h41c8dh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/vf2u0h41c8dh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1784049834000
+        }
+      ]
+    },
+    {
+      "home": "FC Iberia 1999",
+      "away": "Flora",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uwdacr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uwdacr",
+          "scorer": "Nika Sikharulashvili",
+          "minute": 13,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/vZ4KRWhdcUqzc38/watch",
+          "videoEmbed": "https://streamain.com/vZ4KRWhdcUqzc38/watch",
+          "directMp4": null,
+          "postedAt": 1784045814000
+        }
+      ]
+    }
+  ]
 }
