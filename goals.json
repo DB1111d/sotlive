@@ -1,5 +1,79 @@
 {
-  "updated": "2026-07-15T17:56:52Z",
+  "updated": "2026-07-15T19:12:43Z",
   "date": "2026-07-15",
-  "matches": []
+  "matches": [
+    {
+      "home": "Egnatia",
+      "away": "Petrocub",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uxf9ig",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uxf9ig",
+          "scorer": "Eneo Bitri",
+          "minute": 2,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/83da9913",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1784142240000
+        }
+      ]
+    },
+    {
+      "home": "Decic",
+      "away": "FK Liepaja",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uxeyoc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uxeyoc",
+          "scorer": "Davor Kontic",
+          "minute": 12,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/b3788a21",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1784141566000
+        }
+      ]
+    },
+    {
+      "home": "Bissen",
+      "away": "Klaksvik",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uxe8fv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uxe8fv",
+          "scorer": "Arni Frederiksberg",
+          "minute": 8,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/3925def7",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1784139960000
+        },
+        {
+          "postId": "1uxeu97",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uxeu97",
+          "scorer": "Roman Ferber",
+          "minute": 25,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/eee49bd5",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1784141303000
+        }
+      ]
+    }
+  ]
 }
