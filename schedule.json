@@ -1,19 +1,9 @@
 {
-  "updated": "2026-07-14 17:00 EDT",
+  "updated": "2026-07-14 22:30 EDT",
   "days": {
     "20260714": {
       "date": "Tuesday, July 14",
-      "games": [
-        {
-          "league": "FIFA World Cup",
-          "time": "3:00 PM",
-          "match": "France vs Spain",
-          "source": "FOX",
-          "kick_utc": "2026-07-14T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png"
-        }
-      ]
+      "games": []
     },
     "20260715": {
       "date": "Wednesday, July 15",
@@ -131,7 +121,7 @@
           "league": "MLS",
           "time": "10:25 PM",
           "match": "LA Galaxy vs LAFC",
-          "source": "FS1 \u00b7 Apple TV",
+          "source": "FOX \u00b7 Apple TV",
           "kick_utc": "2026-07-18T02:25Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/187.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png"
@@ -144,10 +134,10 @@
         {
           "league": "FIFA World Cup",
           "time": "5:00 PM",
-          "match": "Semifinal 1 Loser vs Semifinal 2 Loser",
+          "match": "France vs Semifinal 2 Loser",
           "source": "FOX",
           "kick_utc": "2026-07-18T21:00Z",
-          "home_logo": "",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
           "away_logo": ""
         },
         {
