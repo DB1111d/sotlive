@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-15T21:28:45Z",
+  "updated": "2026-07-15T22:31:53Z",
   "date": "2026-07-15",
   "matches": [
+    {
+      "home": "GOAL: England",
+      "away": "Argentina",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uxje5u",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uxje5u",
+          "scorer": "",
+          "minute": 85,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/xr0vql0jrgdh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/xr0vql0jrgdh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1784151875000
+        }
+      ]
+    },
     {
       "home": "England",
       "away": "Argentina",
