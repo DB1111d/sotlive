@@ -1,10 +1,6 @@
 {
-  "updated": "2026-07-14 22:30 EDT",
+  "updated": "2026-07-15 02:14 EDT",
   "days": {
-    "20260714": {
-      "date": "Tuesday, July 14",
-      "games": []
-    },
     "20260715": {
       "date": "Wednesday, July 15",
       "games": [
@@ -247,6 +243,20 @@
           "kick_utc": "2026-07-19T00:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20684.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22524.png"
+        }
+      ]
+    },
+    "20260719": {
+      "date": "Sunday, July 19",
+      "games": [
+        {
+          "league": "FIFA World Cup",
+          "time": "3:00 PM",
+          "match": "Spain vs Semifinal 2 Winner",
+          "source": "FOX",
+          "kick_utc": "2026-07-19T19:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+          "away_logo": ""
         }
       ]
     }
