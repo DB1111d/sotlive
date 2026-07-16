@@ -1,5 +1,39 @@
 {
-  "updated": "2026-07-16T16:19:24Z",
+  "updated": "2026-07-16T17:45:06Z",
   "date": "2026-07-16",
-  "matches": []
+  "matches": [
+    {
+      "home": "Lech Poznań",
+      "away": "Górnik Zabrze",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uy95ml",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uy95ml",
+          "scorer": "Maksym Khlan",
+          "minute": 14,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/p7eb2hoykmdh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/p7eb2hoykmdh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1784222334000
+        },
+        {
+          "postId": "1uy9hu7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uy9hu7",
+          "scorer": "Antoni Kozubal",
+          "minute": 27,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/4izoh3n3nmdh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1784223057000
+        }
+      ]
+    }
+  ]
 }
