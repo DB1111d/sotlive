@@ -1,5 +1,39 @@
 {
-  "updated": "2026-07-17T19:46:47Z",
+  "updated": "2026-07-17T20:50:57Z",
   "date": "2026-07-17",
-  "matches": []
+  "matches": [
+    {
+      "home": "SL Benfica",
+      "away": "Villarreal",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uzateu",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uzateu",
+          "scorer": "Rafa Silva",
+          "minute": 52,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/8qxrox50ludh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/8qxrox50ludh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1784319183000
+        },
+        {
+          "postId": "1uzb676",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uzb676",
+          "scorer": "Pavlidis",
+          "minute": 76,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/h8yew9kdnudh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/h8yew9kdnudh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1784319981000
+        }
+      ]
+    }
+  ]
 }
