@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-18T16:01:47Z",
+  "updated": "2026-07-18T17:13:28Z",
   "date": "2026-07-18",
   "matches": [
+    {
+      "home": "York City",
+      "away": "Sunderland",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v00l8v",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v00l8v",
+          "scorer": "Timur Tutierov",
+          "minute": 43,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/3szz0xl1n0eh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/3szz0xl1n0eh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1784392641000
+        }
+      ]
+    },
     {
       "home": "Ajax",
       "away": "Olympiakos",
