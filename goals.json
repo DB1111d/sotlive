@@ -1,7 +1,47 @@
 {
-  "updated": "2026-07-18T13:58:26Z",
+  "updated": "2026-07-18T14:58:42Z",
   "date": "2026-07-18",
   "matches": [
+    {
+      "home": "Celtic",
+      "away": "Middlesbrough",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uzxgpd",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uzxgpd",
+          "scorer": "David Strelec",
+          "minute": 26,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/en/1bLas7GhGRbGnUy/watch",
+          "videoEmbed": "https://streamain.com/en/1bLas7GhGRbGnUy/watch",
+          "directMp4": null,
+          "postedAt": 1784385150000
+        }
+      ]
+    },
+    {
+      "home": "Notts County",
+      "away": "Nottingham Forest",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1uzxfdc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1uzxfdc",
+          "scorer": "Igor Jesus",
+          "minute": 26,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/en/95Eh9rGnz4j74Sk/watch",
+          "videoEmbed": "https://streamain.com/en/95Eh9rGnz4j74Sk/watch",
+          "directMp4": null,
+          "postedAt": 1784385061000
+        }
+      ]
+    },
     {
       "home": "LA Galaxy",
       "away": "LAFC",
