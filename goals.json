@@ -1,26 +1,5 @@
 {
-  "updated": "2026-07-20T01:05:23Z",
+  "updated": "2026-07-20T04:50:53Z",
   "date": "2026-07-20",
-  "matches": [
-    {
-      "home": "Byline angle of Messi and Spence prior to England",
-      "away": "Argentina",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1v0m84h",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1v0m84h",
-          "scorer": "",
-          "minute": null,
-          "homeScore": 1,
-          "awayScore": 2,
-          "videoUrl": "https://v.redd.it/5hs0rkk8q5eh1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/5hs0rkk8q5eh1/CMAF_480.mp4?source=fallback",
-          "postedAt": 1784454113000
-        }
-      ]
-    }
-  ]
+  "matches": []
 }
