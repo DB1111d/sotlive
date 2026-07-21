@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-21T22:11:40Z",
+  "updated": "2026-07-21T23:11:15Z",
   "date": "2026-07-21",
   "matches": [
+    {
+      "home": "AGF",
+      "away": "Lech Poznań",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v2yb51",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v2yb51",
+          "scorer": "Terry Yegbe",
+          "minute": 61,
+          "homeScore": 1,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/uhoevblzyneh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1784674989000
+        }
+      ]
+    },
     {
       "home": "Thun",
       "away": "Dinamo Zagreb",
