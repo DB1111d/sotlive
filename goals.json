@@ -1,7 +1,47 @@
 {
-  "updated": "2026-07-21T18:13:55Z",
+  "updated": "2026-07-21T19:53:32Z",
   "date": "2026-07-21",
   "matches": [
+    {
+      "home": "Thun",
+      "away": "Dinamo Zagreb",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v2t4b3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v2t4b3",
+          "scorer": "Miha Zajc",
+          "minute": 86,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/87abfq320neh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/87abfq320neh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1784663238000
+        }
+      ]
+    },
+    {
+      "home": "Fenerbahçe",
+      "away": "Górnik Zabrze",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v2r56y",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v2r56y",
+          "scorer": "Anderson Talisca free-kick",
+          "minute": 37,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/8s8zn4bonmeh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/8s8zn4bonmeh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1784659077000
+        }
+      ]
+    },
     {
       "home": "Aarhus",
       "away": "Lech Poznań",
@@ -45,6 +85,45 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/91ifrc0yfmeh1/CMAF_720.mp4?source=fallback",
           "postedAt": 1784656518000
+        },
+        {
+          "postId": "1v2qlri",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v2qlri",
+          "scorer": "Kristian Arnstad",
+          "minute": 55,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/qg5b4e8ekmeh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/qg5b4e8ekmeh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1784657973000
+        },
+        {
+          "postId": "1v2qtcg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v2qtcg",
+          "scorer": "Terry Yegbe",
+          "minute": 61,
+          "homeScore": 1,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/zyc0mn7nlmeh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/zyc0mn7nlmeh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1784658402000
+        },
+        {
+          "postId": "1v2qxjh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v2qxjh",
+          "scorer": "Patrik Wålemark",
+          "minute": 65,
+          "homeScore": 1,
+          "awayScore": 4,
+          "videoUrl": "https://v.redd.it/fm1w7uxcmmeh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/fm1w7uxcmmeh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1784658639000
         }
       ]
     }
