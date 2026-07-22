@@ -1,10 +1,6 @@
 {
-  "updated": "2026-07-21 22:41 EDT",
+  "updated": "2026-07-22 02:28 EDT",
   "days": {
-    "20260721": {
-      "date": "Tuesday, July 21",
-      "games": []
-    },
     "20260722": {
       "date": "Wednesday, July 22",
       "games": [
@@ -472,6 +468,10 @@
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22524.png"
         }
       ]
+    },
+    "20260726": {
+      "date": "Sunday, July 26",
+      "games": []
     }
   }
 }
