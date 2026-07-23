@@ -1,7 +1,66 @@
 {
-  "updated": "2026-07-22T23:42:20Z",
-  "date": "2026-07-22",
+  "updated": "2026-07-23T01:13:13Z",
+  "date": "2026-07-23",
   "matches": [
+    {
+      "home": "Inter Miami",
+      "away": "Chicago Fire",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v3xkmy",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v3xkmy",
+          "scorer": "Own Goal",
+          "minute": 18,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/1j4bb7i4eveh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/1j4bb7i4eveh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1784764822000
+        },
+        {
+          "postId": "1v3xr9v",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v3xr9v",
+          "scorer": "Luis Suarez penalty",
+          "minute": 27,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/x5npjbsgfveh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/x5npjbsgfveh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1784765271000
+        },
+        {
+          "postId": "1v3yqy1",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v3yqy1",
+          "scorer": "Luis Suarez",
+          "minute": 51,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/w724jwjcnveh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/w724jwjcnveh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1784767923000
+        },
+        {
+          "postId": "1v3z40e",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v3z40e",
+          "scorer": "Puso Dithejane",
+          "minute": 67,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/iy5uulr8qveh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/iy5uulr8qveh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1784768900000
+        }
+      ]
+    },
     {
       "home": "Bohemian FC",
       "away": "FC Ballkani",
