@@ -1,7 +1,47 @@
 {
-  "updated": "2026-07-23T13:49:38Z",
+  "updated": "2026-07-23T15:52:29Z",
   "date": "2026-07-23",
   "matches": [
+    {
+      "home": "Liepaja",
+      "away": "Austria Wien",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v4hgpm",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v4hgpm",
+          "scorer": "Florian Wustinger",
+          "minute": 31,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/5c4nhtpk10fh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/5c4nhtpk10fh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1784821138000
+        }
+      ]
+    },
+    {
+      "home": "Alashkert",
+      "away": "CFR Cluj",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v4he64",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v4he64",
+          "scorer": "Rafael Jesus",
+          "minute": 35,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/ipllb46410fh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ipllb46410fh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1784820984000
+        }
+      ]
+    },
     {
       "home": "LAFC",
       "away": "Real Salt Lake",
