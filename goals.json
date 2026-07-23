@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-23T04:35:25Z",
+  "updated": "2026-07-23T07:17:39Z",
   "date": "2026-07-23",
   "matches": [
+    {
+      "home": "LAFC",
+      "away": "Real Salt Lake",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v43lp7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v43lp7",
+          "scorer": "Own Goal",
+          "minute": 68,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/qip2fs1drweh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/qip2fs1drweh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1784781447000
+        }
+      ]
+    },
     {
       "home": "San Jose Earthquakes",
       "away": "Orlando City SC",
