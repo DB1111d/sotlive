@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-23T20:00:56Z",
+  "updated": "2026-07-23T21:20:09Z",
   "date": "2026-07-23",
   "matches": [
+    {
+      "home": "Hajduk Split",
+      "away": "Pafos",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v4pm8f",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v4pm8f",
+          "scorer": "Dario Melnjak",
+          "minute": 65,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/ipzsqsqmg1fh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ipzsqsqmg1fh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1784838307000
+        }
+      ]
+    },
     {
       "home": "St. Gallen",
       "away": "Benfica",
