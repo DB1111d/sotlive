@@ -1,5 +1,26 @@
 {
-  "updated": "2026-07-24T11:25:29Z",
+  "updated": "2026-07-24T12:56:02Z",
   "date": "2026-07-24",
-  "matches": []
+  "matches": [
+    {
+      "home": "Inter Miami",
+      "away": "Chicago Fire",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v59b4s",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v59b4s",
+          "scorer": "Own Goal",
+          "minute": 17,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/m4jk7ah536fh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/m4jk7ah536fh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1784894313000
+        }
+      ]
+    }
+  ]
 }
