@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-24T19:41:07Z",
+  "updated": "2026-07-24T20:49:22Z",
   "date": "2026-07-24",
   "matches": [
+    {
+      "home": "Pogoń Szczecin",
+      "away": "Legia Warszawa",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v5mpbk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v5mpbk",
+          "scorer": "Paul Mukairu chance",
+          "minute": 79,
+          "homeScore": 0,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/d77fhwf0k8fh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/d77fhwf0k8fh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1784924199000
+        }
+      ]
+    },
     {
       "home": "Rosenborg",
       "away": "Manchester United",
