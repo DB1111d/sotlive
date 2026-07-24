@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-23T23:30:14Z",
-  "date": "2026-07-23",
+  "updated": "2026-07-24T01:08:01Z",
+  "date": "2026-07-24",
   "matches": [
     {
       "home": "Corinthians",
@@ -19,6 +19,19 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/gnr6p71jd2fh1/CMAF_720.mp4?source=fallback",
           "postedAt": 1784849366000
+        },
+        {
+          "postId": "1v4ujuy",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v4ujuy",
+          "scorer": "Kaio César",
+          "minute": 39,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/897rw5ope2fh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/897rw5ope2fh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1784849764000
         }
       ]
     },
