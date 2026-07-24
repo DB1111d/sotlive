@@ -1,10 +1,6 @@
 {
-  "updated": "2026-07-23 22:42 EDT",
+  "updated": "2026-07-24 02:26 EDT",
   "days": {
-    "20260723": {
-      "date": "Thursday, July 23",
-      "games": []
-    },
     "20260724": {
       "date": "Friday, July 24",
       "games": [
@@ -309,6 +305,10 @@
     },
     "20260727": {
       "date": "Monday, July 27",
+      "games": []
+    },
+    "20260728": {
+      "date": "Tuesday, July 28",
       "games": []
     }
   }
