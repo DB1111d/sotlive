@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-24T14:53:00Z",
+  "updated": "2026-07-24T16:31:39Z",
   "date": "2026-07-24",
   "matches": [
+    {
+      "home": "Cambodia",
+      "away": "Singapore",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v5el1y",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v5el1y",
+          "scorer": "Ilhan Fandi",
+          "minute": null,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/squnuxbe47fh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/squnuxbe47fh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1784906830000
+        }
+      ]
+    },
     {
       "home": "Inter Miami",
       "away": "Chicago Fire",
