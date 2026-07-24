@@ -1,7 +1,99 @@
 {
-  "updated": "2026-07-24T16:31:39Z",
+  "updated": "2026-07-24T17:59:53Z",
   "date": "2026-07-24",
   "matches": [
+    {
+      "home": "Rosenborg",
+      "away": "Manchester United",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v5gmz3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v5gmz3",
+          "scorer": "Lacey",
+          "minute": 31,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/en/yNTbyMg8VPIYl7K/watch",
+          "videoEmbed": "https://streamain.com/en/yNTbyMg8VPIYl7K/watch",
+          "directMp4": null,
+          "postedAt": 1784911249000
+        },
+        {
+          "postId": "1v5hkcp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v5hkcp",
+          "scorer": "Joshua Zirkzee",
+          "minute": 56,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/0158986f",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1784913202000
+        },
+        {
+          "postId": "1v5iiti",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v5iiti",
+          "scorer": "Ethan Williams",
+          "minute": 84,
+          "homeScore": 0,
+          "awayScore": 5,
+          "videoUrl": "https://v.redd.it/gwavqiz9t7fh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1784915216000
+        }
+      ]
+    },
+    {
+      "home": "Radomiak Radom",
+      "away": "Wieczysta Kraków",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v5gvrd",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v5gvrd",
+          "scorer": "Roberto Alves",
+          "minute": 43,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/jrcoioqzi7fh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1784911775000
+        },
+        {
+          "postId": "1v5hi8k",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v5hi8k",
+          "scorer": "Jan Grzesik",
+          "minute": 49,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/dyycj58vm7fh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/dyycj58vm7fh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1784913081000
+        },
+        {
+          "postId": "1v5hrcx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v5hrcx",
+          "scorer": "Stefan Feiertag",
+          "minute": 57,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/ukvddsxfo7fh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ukvddsxfo7fh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1784913601000
+        }
+      ]
+    },
     {
       "home": "Cambodia",
       "away": "Singapore",
