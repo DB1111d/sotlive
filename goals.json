@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T17:59:53Z",
+  "updated": "2026-07-24T19:41:07Z",
   "date": "2026-07-24",
   "matches": [
     {
@@ -32,6 +32,32 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1784913202000
+        },
+        {
+          "postId": "1v5jbvh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v5jbvh",
+          "scorer": "Jacob Devaney",
+          "minute": 63,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/83mnaj5vx7fh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1784916899000
+        },
+        {
+          "postId": "1v5jc4q",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v5jc4q",
+          "scorer": "Harry Amass",
+          "minute": 72,
+          "homeScore": 0,
+          "awayScore": 4,
+          "videoUrl": "https://v.redd.it/2lk7gg09y7fh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/2lk7gg09y7fh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1784916915000
         },
         {
           "postId": "1v5iiti",
