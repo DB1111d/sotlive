@@ -1,5 +1,46 @@
 {
-  "updated": "2026-07-25T10:06:49Z",
+  "updated": "2026-07-25T11:33:04Z",
   "date": "2026-07-25",
-  "matches": []
+  "matches": [
+    {
+      "home": "Fortuna Dusseldorf",
+      "away": "Borussia Dortmund",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v65tq7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v65tq7",
+          "scorer": "Mathis Albert",
+          "minute": 20,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/en/h76PQYDbgFibT39/watch",
+          "videoEmbed": "https://streamain.com/en/h76PQYDbgFibT39/watch",
+          "directMp4": null,
+          "postedAt": 1784978801000
+        }
+      ]
+    },
+    {
+      "home": "Myanmar",
+      "away": "Malaysia",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v64lhv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v64lhv",
+          "scorer": "Myat Kaung",
+          "minute": 10,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/en/4WHErHvGGOzliJ9/watch",
+          "videoEmbed": "https://streamain.com/en/4WHErHvGGOzliJ9/watch",
+          "directMp4": null,
+          "postedAt": 1784974917000
+        }
+      ]
+    }
+  ]
 }
