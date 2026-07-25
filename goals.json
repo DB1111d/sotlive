@@ -1,7 +1,60 @@
 {
-  "updated": "2026-07-25T12:43:40Z",
+  "updated": "2026-07-25T14:19:17Z",
   "date": "2026-07-25",
   "matches": [
+    {
+      "home": "Wehen",
+      "away": "Bayern Munich",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v69jhc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v69jhc",
+          "scorer": "Ibrahim Ati Allah",
+          "minute": 10,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/b5400882",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1784988873000
+        }
+      ]
+    },
+    {
+      "home": "Kickers Offenbach",
+      "away": "Bayer Leverkusen",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v682sv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v682sv",
+          "scorer": "Staude",
+          "minute": 10,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/en/D9BaDJ9mgpKDjf5/watch",
+          "videoEmbed": "https://streamain.com/en/D9BaDJ9mgpKDjf5/watch",
+          "directMp4": null,
+          "postedAt": 1784985193000
+        },
+        {
+          "postId": "1v68skh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v68skh",
+          "scorer": "Christian Kofane",
+          "minute": 38,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/en/0xWqTBuyWOhBpfW/watch",
+          "videoEmbed": "https://streamain.com/en/0xWqTBuyWOhBpfW/watch",
+          "directMp4": null,
+          "postedAt": 1784987023000
+        }
+      ]
+    },
     {
       "home": "Gateshead FC",
       "away": "Newcastle United",
