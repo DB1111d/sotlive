@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-25T15:37:59Z",
+  "updated": "2026-07-25T16:33:54Z",
   "date": "2026-07-25",
   "matches": [
+    {
+      "home": "Fukushima United FC",
+      "away": "Iwaki Furukawa FC",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v6cte5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v6cte5",
+          "scorer": "Kazuyoshi Miura",
+          "minute": 45,
+          "homeScore": 5,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/gqwoonbpjefh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/gqwoonbpjefh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1784996855000
+        }
+      ]
+    },
     {
       "home": "Wehen",
       "away": "Bayern Munich",
