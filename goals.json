@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-25T11:33:04Z",
+  "updated": "2026-07-25T12:43:40Z",
   "date": "2026-07-25",
   "matches": [
+    {
+      "home": "Gateshead FC",
+      "away": "Newcastle United",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v66xx3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v66xx3",
+          "scorer": "Luke Supyk",
+          "minute": 34,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/hsfxo735cdfh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/hsfxo735cdfh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1784982077000
+        }
+      ]
+    },
     {
       "home": "Fortuna Dusseldorf",
       "away": "Borussia Dortmund",
@@ -19,6 +39,19 @@
           "videoEmbed": "https://streamain.com/en/h76PQYDbgFibT39/watch",
           "directMp4": null,
           "postedAt": 1784978801000
+        },
+        {
+          "postId": "1v66qmq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v66qmq",
+          "scorer": "Schleusener",
+          "minute": 50,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/en/fuQ3iwZYmRIVSsr/watch",
+          "videoEmbed": "https://streamain.com/en/fuQ3iwZYmRIVSsr/watch",
+          "directMp4": null,
+          "postedAt": 1784981495000
         }
       ]
     },
