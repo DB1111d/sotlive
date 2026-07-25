@@ -1,7 +1,73 @@
 {
-  "updated": "2026-07-25T19:56:04Z",
+  "updated": "2026-07-25T20:51:53Z",
   "date": "2026-07-25",
   "matches": [
+    {
+      "home": "Górnik Zabrze",
+      "away": "Śląsk Wrocław",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v6idif",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v6idif",
+          "scorer": "Przemysław Banaszak",
+          "minute": 7,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/zwdse8xolffh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/zwdse8xolffh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785009715000
+        },
+        {
+          "postId": "1v6idor",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v6idor",
+          "scorer": "Own Goal",
+          "minute": 65,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/u38yd41vlffh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/u38yd41vlffh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785009727000
+        },
+        {
+          "postId": "1v6idrn",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v6idrn",
+          "scorer": "Yvan Ikia Dimi",
+          "minute": 79,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/yo3lxap2mffh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/yo3lxap2mffh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785009732000
+        }
+      ]
+    },
+    {
+      "home": "Jagiellonia Białystok",
+      "away": "Korona Kielce",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v6icv2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v6icv2",
+          "scorer": "Nik Prelec",
+          "minute": 89,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/wbc5aqvllffh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/wbc5aqvllffh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785009673000
+        }
+      ]
+    },
     {
       "home": "Fukushima United FC",
       "away": "Iwaki Furukawa FC",
