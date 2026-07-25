@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-24T23:15:01Z",
-  "date": "2026-07-24",
+  "updated": "2026-07-25T00:16:35Z",
+  "date": "2026-07-25",
   "matches": [
     {
       "home": "Pogoń Szczecin",
@@ -19,6 +19,19 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/d77fhwf0k8fh1/CMAF_720.mp4?source=fallback",
           "postedAt": 1784924199000
+        },
+        {
+          "postId": "1v5n62s",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v5n62s",
+          "scorer": "Zoran Arsenić",
+          "minute": 90,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/0y5etv3ym8fh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/0y5etv3ym8fh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1784925200000
         }
       ]
     },
