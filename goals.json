@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25T14:19:17Z",
+  "updated": "2026-07-25T15:37:59Z",
   "date": "2026-07-25",
   "matches": [
     {
@@ -19,6 +19,85 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1784988873000
+        },
+        {
+          "postId": "1v6agif",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v6agif",
+          "scorer": "Tom Bischof Penalty",
+          "minute": 59,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/6ea472d5",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1784991142000
+        },
+        {
+          "postId": "1v6b359",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v6b359",
+          "scorer": "Lukas Schleimer",
+          "minute": 85,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/8633a071",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1784992742000
+        }
+      ]
+    },
+    {
+      "home": "Celtic",
+      "away": "Milan",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v69wmg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v69wmg",
+          "scorer": "James\n\nForrest",
+          "minute": 28,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/en/KfQfjIlhu4Z9bHj/watch",
+          "videoEmbed": "https://streamain.com/en/KfQfjIlhu4Z9bHj/watch",
+          "directMp4": null,
+          "postedAt": 1784989772000
+        },
+        {
+          "postId": "1v6avc2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v6avc2",
+          "scorer": "Francesco Camarda",
+          "minute": 53,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/498c90e2",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1784992169000
+        }
+      ]
+    },
+    {
+      "home": "Offenbach",
+      "away": "Bayer Leverkusen",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v69qo6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v69qo6",
+          "scorer": "Jonas Hofmann",
+          "minute": 49,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamain.com/en/qmoEwlqoM9XtLhX/watch",
+          "videoEmbed": "https://streamain.com/en/qmoEwlqoM9XtLhX/watch",
+          "directMp4": null,
+          "postedAt": 1784989367000
         }
       ]
     },
