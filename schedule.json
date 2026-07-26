@@ -1,18 +1,9 @@
 {
-  "updated": "2026-07-25 16:54 EDT",
+  "updated": "2026-07-25 22:49 EDT",
   "days": {
     "20260725": {
       "date": "Saturday, July 25",
       "games": [
-        {
-          "league": "MLS",
-          "time": "6:30 PM",
-          "match": "Red Bull New York vs Charlotte FC",
-          "source": "Apple TV",
-          "kick_utc": "2026-07-25T22:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/190.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21300.png"
-        },
         {
           "league": "MLS",
           "time": "7:15 PM",
@@ -61,15 +52,6 @@
         {
           "league": "MLS",
           "time": "7:30 PM",
-          "match": "Orlando City SC vs Nashville SC",
-          "source": "Apple TV",
-          "kick_utc": "2026-07-25T23:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/12011.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png"
-        },
-        {
-          "league": "MLS",
-          "time": "7:30 PM",
           "match": "Philadelphia Union vs Seattle Sounders FC",
           "source": "Apple TV",
           "kick_utc": "2026-07-25T23:30Z",
@@ -102,6 +84,15 @@
           "kick_utc": "2026-07-26T00:30Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/184.png"
+        },
+        {
+          "league": "MLS",
+          "time": "8:46 PM",
+          "match": "Orlando City SC vs Nashville SC",
+          "source": "Apple TV",
+          "kick_utc": "2026-07-26T00:46Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/12011.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png"
         },
         {
           "league": "MLS",
@@ -138,15 +129,6 @@
           "kick_utc": "2026-07-26T02:30Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/187.png"
-        },
-        {
-          "league": "USL Championship",
-          "time": "7:00 PM",
-          "match": "Birmingham Legion FC vs New Mexico United",
-          "source": "ESPN+",
-          "kick_utc": "2026-07-25T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19405.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19408.png"
         },
         {
           "league": "USL Championship",
@@ -237,6 +219,13 @@
           "kick_utc": "2026-07-26T02:30Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17850.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19411.png"
+        },
+        {
+          "league": "USL Championship",
+          "time": "Postponed",
+          "match": "Birmingham Legion FC vs New Mexico United",
+          "source": "",
+          "kick_utc": "2026-07-25T23:00Z"
         },
         {
           "league": "USL League One",
