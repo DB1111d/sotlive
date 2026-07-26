@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-26T15:46:48Z",
+  "updated": "2026-07-26T16:55:30Z",
   "date": "2026-07-26",
   "matches": [
     {
@@ -19,6 +19,85 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/p3w9q2sfhlfh1/CMAF_720.mp4?source=fallback",
           "postedAt": 1785080733000
+        },
+        {
+          "postId": "1v77n2r",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v77n2r",
+          "scorer": "Mariusz Fornalczyk",
+          "minute": 20,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/t092jyipilfh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785081159000
+        },
+        {
+          "postId": "1v77x8b",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v77x8b",
+          "scorer": "Sebastian Bergier penalty",
+          "minute": 28,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/nhbjzhkhklfh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/nhbjzhkhklfh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785081780000
+        },
+        {
+          "postId": "1v793r3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v793r3",
+          "scorer": "Mbaye N'Diaye",
+          "minute": 49,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/opg6chx9slfh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/opg6chx9slfh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785084381000
+        }
+      ]
+    },
+    {
+      "home": "Cannes",
+      "away": "AS Roma",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v790z6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v790z6",
+          "scorer": "Paulo Dybala",
+          "minute": 34,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/wtf0skwtrlfh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/wtf0skwtrlfh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785084211000
+        }
+      ]
+    },
+    {
+      "home": "Vasas",
+      "away": "ETO",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v77x41",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v77x41",
+          "scorer": "Jozef Urblík",
+          "minute": 71,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/azvf164aklfh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785081774000
         }
       ]
     },
