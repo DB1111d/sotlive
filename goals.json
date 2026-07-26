@@ -1,7 +1,60 @@
 {
-  "updated": "2026-07-26T16:55:30Z",
+  "updated": "2026-07-26T17:59:40Z",
   "date": "2026-07-26",
   "matches": [
+    {
+      "home": "Algeria",
+      "away": "Senegal",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v7ax9y",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v7ax9y",
+          "scorer": "Marine Dafeur",
+          "minute": 42,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamable.com/4njv1a",
+          "videoEmbed": "https://streamable.com/e/4njv1a",
+          "directMp4": null,
+          "postedAt": 1785088384000
+        }
+      ]
+    },
+    {
+      "home": "Karlsruher SC",
+      "away": "Inter Milan",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v7a77i",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v7a77i",
+          "scorer": "Andy Diouf",
+          "minute": 90,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/8dw7ypihzlfh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/8dw7ypihzlfh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785086782000
+        },
+        {
+          "postId": "1v7a7zt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v7a7zt",
+          "scorer": "Andy Diouf",
+          "minute": 90,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/3vc53xxmzlfh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/3vc53xxmzlfh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785086832000
+        }
+      ]
+    },
     {
       "home": "Widzew Łódź",
       "away": "Motor Lublin",
