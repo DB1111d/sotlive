@@ -1,7 +1,53 @@
 {
-  "updated": "2026-07-26T19:22:53Z",
+  "updated": "2026-07-26T20:28:35Z",
   "date": "2026-07-26",
   "matches": [
+    {
+      "home": "Wisła Kraków",
+      "away": "GKS Katowice",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v7dvez",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v7dvez",
+          "scorer": "Marko Božić penalty",
+          "minute": 56,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/2f1n7bcjnmfh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/2f1n7bcjnmfh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785094892000
+        },
+        {
+          "postId": "1v7dxq2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v7dxq2",
+          "scorer": "Jordi Sánchez",
+          "minute": 60,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/9epvqd6znmfh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785095036000
+        },
+        {
+          "postId": "1v7ebpk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v7ebpk",
+          "scorer": "Szymon Bartlewicz",
+          "minute": 79,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/7da47xymqmfh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/7da47xymqmfh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785095929000
+        }
+      ]
+    },
     {
       "home": "Algeria",
       "away": "Senegal",
