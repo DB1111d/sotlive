@@ -1,7 +1,73 @@
 {
-  "updated": "2026-07-26T13:13:38Z",
+  "updated": "2026-07-26T14:44:17Z",
   "date": "2026-07-26",
   "matches": [
+    {
+      "home": "Raków Częstochowa",
+      "away": "Wisła Płock",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v74a6p",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v74a6p",
+          "scorer": "Marcin Flis",
+          "minute": 37,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/356vwf4pvkfh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/356vwf4pvkfh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785073415000
+        },
+        {
+          "postId": "1v74ky2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v74ky2",
+          "scorer": "Žan Rogelj",
+          "minute": 49,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/lshhsh2uxkfh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/lshhsh2uxkfh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785074155000
+        },
+        {
+          "postId": "1v751ov",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v751ov",
+          "scorer": "Patryk Makuch penalty",
+          "minute": 68,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/0ghwxiu41lfh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/0ghwxiu41lfh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785075253000
+        }
+      ]
+    },
+    {
+      "home": "Bruk-Bet Termalica Nieciecza",
+      "away": "Ruch Chorzów",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v74nb8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v74nb8",
+          "scorer": "Kamil Zapolnik bicycle kick",
+          "minute": 47,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/0cgga2kcykfh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/0cgga2kcykfh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785074314000
+        }
+      ]
+    },
     {
       "home": "Feyenoord",
       "away": "Rayo Vallecano",
