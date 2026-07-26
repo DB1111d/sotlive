@@ -1,7 +1,192 @@
 {
-  "updated": "2026-07-25T23:57:35Z",
-  "date": "2026-07-25",
+  "updated": "2026-07-26T03:20:20Z",
+  "date": "2026-07-26",
   "matches": [
+    {
+      "home": "Auckland",
+      "away": "Tottenham Hotspur",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v6s5e7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v6s5e7",
+          "scorer": "Dane Scarlett",
+          "minute": 12,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/en/mWowc1lOG1QbcZi/watch",
+          "videoEmbed": "https://streamain.com/en/mWowc1lOG1QbcZi/watch",
+          "directMp4": null,
+          "postedAt": 1785035884000
+        }
+      ]
+    },
+    {
+      "home": "Los Angeles FC",
+      "away": "Sporting KC",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v6rhz3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v6rhz3",
+          "scorer": "Son\n\nHeung-min",
+          "minute": 5,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/en/llVcM8nlnFMo20z/watch",
+          "videoEmbed": "https://streamain.com/en/llVcM8nlnFMo20z/watch",
+          "directMp4": null,
+          "postedAt": 1785033954000
+        }
+      ]
+    },
+    {
+      "home": "Montreal Impact",
+      "away": "Inter Miami FC",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v6ppug",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v6ppug",
+          "scorer": "Luis\n\nSuárez",
+          "minute": 81,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamain.com/en/jf44paU84G5QxUU/watch",
+          "videoEmbed": "https://streamain.com/en/jf44paU84G5QxUU/watch",
+          "directMp4": null,
+          "postedAt": 1785028777000
+        }
+      ]
+    },
+    {
+      "home": "Vasco",
+      "away": "Mirassol",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v6pnld",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v6pnld",
+          "scorer": "Andrés Gómez",
+          "minute": 80,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/drhii45b6hfh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785028597000
+        }
+      ]
+    },
+    {
+      "home": "Wrexham",
+      "away": "Leeds United",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v6nn4m",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v6nn4m",
+          "scorer": "Kieffer Moore '1",
+          "minute": 1,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/zn990elwpgfh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/zn990elwpgfh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785023031000
+        },
+        {
+          "postId": "1v6nma5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v6nma5",
+          "scorer": "Kieffer Moore",
+          "minute": 1,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/0fxmmu6ppgfh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/0fxmmu6ppgfh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785022963000
+        },
+        {
+          "postId": "1v6o5v1",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v6o5v1",
+          "scorer": "Joel Piroe",
+          "minute": 29,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/8bfa00b7",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785024411000
+        },
+        {
+          "postId": "1v6oi5h",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v6oi5h",
+          "scorer": "Bailey Cadamarteri",
+          "minute": 41,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/a2ff9a2c",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785025330000
+        },
+        {
+          "postId": "1v6ojox",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v6ojox",
+          "scorer": "Sean Longstaff",
+          "minute": 45,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/0ff95caa",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785025445000
+        }
+      ]
+    },
+    {
+      "home": "Santos",
+      "away": "Chapecoense-SC",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v6mkad",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v6mkad",
+          "scorer": "Neymar",
+          "minute": 36,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/7aed5d08",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785020143000
+        },
+        {
+          "postId": "1v6o8hb",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v6o8hb",
+          "scorer": "Neymar Penalty",
+          "minute": 88,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/1c0ea69f",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785024602000
+        }
+      ]
+    },
     {
       "home": "Liverpool",
       "away": "Sunderland",
@@ -84,59 +269,6 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1785023573000
-        }
-      ]
-    },
-    {
-      "home": "Wrexham",
-      "away": "Leeds United",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1v6nn4m",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1v6nn4m",
-          "scorer": "Kieffer Moore '1",
-          "minute": 1,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/zn990elwpgfh1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/zn990elwpgfh1/CMAF_1080.mp4?source=fallback",
-          "postedAt": 1785023031000
-        },
-        {
-          "postId": "1v6nma5",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1v6nma5",
-          "scorer": "Kieffer Moore",
-          "minute": 1,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/0fxmmu6ppgfh1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/0fxmmu6ppgfh1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1785022963000
-        }
-      ]
-    },
-    {
-      "home": "Santos",
-      "away": "Chapecoense-SC",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1v6mkad",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1v6mkad",
-          "scorer": "Neymar",
-          "minute": 36,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamin.link/v/7aed5d08",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1785020143000
         }
       ]
     },
