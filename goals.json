@@ -1,7 +1,66 @@
 {
-  "updated": "2026-07-26T20:28:35Z",
+  "updated": "2026-07-26T21:28:24Z",
   "date": "2026-07-26",
   "matches": [
+    {
+      "home": "Morocco",
+      "away": "Kenya",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v7gkzd",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v7gkzd",
+          "scorer": "S. O. Diki",
+          "minute": 19,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamable.com/hk07jo",
+          "videoEmbed": "https://streamable.com/e/hk07jo",
+          "directMp4": null,
+          "postedAt": 1785100998000
+        },
+        {
+          "postId": "1v7gm8q",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v7gm8q",
+          "scorer": "M. Atiq",
+          "minute": 28,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamable.com/tdjb53",
+          "videoEmbed": "https://streamable.com/e/tdjb53",
+          "directMp4": null,
+          "postedAt": 1785101079000
+        },
+        {
+          "postId": "1v7gn8i",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v7gn8i",
+          "scorer": "I. Jraïdi",
+          "minute": 31,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamable.com/ila62o",
+          "videoEmbed": "https://streamable.com/e/ila62o",
+          "directMp4": null,
+          "postedAt": 1785101142000
+        },
+        {
+          "postId": "1v7gouq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v7gouq",
+          "scorer": "I. Jraïdi",
+          "minute": 46,
+          "homeScore": 4,
+          "awayScore": 0,
+          "videoUrl": "https://streamable.com/vt972f",
+          "videoEmbed": "https://streamable.com/e/vt972f",
+          "directMp4": null,
+          "postedAt": 1785101252000
+        }
+      ]
+    },
     {
       "home": "Wisła Kraków",
       "away": "GKS Katowice",
