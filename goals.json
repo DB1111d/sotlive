@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-27T18:54:00Z",
+  "updated": "2026-07-27T20:19:33Z",
   "date": "2026-07-27",
   "matches": [
+    {
+      "home": "Galatasaray",
+      "away": "Venezia",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v8ao0z",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v8ao0z",
+          "scorer": "John Yeboah",
+          "minute": 71,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/1p0aaxt0rtfh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785180795000
+        }
+      ]
+    },
     {
       "home": "Zagłębie Lubin",
       "away": "Piast Gliwice",
