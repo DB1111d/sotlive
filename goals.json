@@ -1,7 +1,40 @@
 {
-  "updated": "2026-07-27T17:16:32Z",
+  "updated": "2026-07-27T18:54:00Z",
   "date": "2026-07-27",
   "matches": [
+    {
+      "home": "Zagłębie Lubin",
+      "away": "Piast Gliwice",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v890ul",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v890ul",
+          "scorer": "Jakub Sypek",
+          "minute": 72,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/2vfm4feogtfh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/2vfm4feogtfh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785177331000
+        },
+        {
+          "postId": "1v89ef8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v89ef8",
+          "scorer": "Marcel Reguła",
+          "minute": 86,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/7728erq0jtfh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785178138000
+        }
+      ]
+    },
     {
       "home": "Kazuyoshi Miura goal vs Iwaki Furukawa",
       "away": "- First Goal in almost 4 years",
