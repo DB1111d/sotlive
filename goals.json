@@ -1,7 +1,53 @@
 {
-  "updated": "2026-07-26T23:40:37Z",
-  "date": "2026-07-26",
+  "updated": "2026-07-27T01:18:07Z",
+  "date": "2026-07-27",
   "matches": [
+    {
+      "home": "Palmeiras",
+      "away": "Atlético Mineiro",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v7k9dj",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v7k9dj",
+          "scorer": "Victor Hugo",
+          "minute": 54,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/wzuljxqlwnfh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/wzuljxqlwnfh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785110110000
+        },
+        {
+          "postId": "1v7kjf3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v7kjf3",
+          "scorer": "Felipe Anderson",
+          "minute": 75,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/bjvhznvrynfh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785110804000
+        },
+        {
+          "postId": "1v7klvs",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v7klvs",
+          "scorer": "Igor Gomes",
+          "minute": 77,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/z7r5uo4fznfh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785110994000
+        }
+      ]
+    },
     {
       "home": "Morocco",
       "away": "Kenya",
