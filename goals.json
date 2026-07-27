@@ -1,5 +1,26 @@
 {
-  "updated": "2026-07-27T12:18:45Z",
+  "updated": "2026-07-27T15:22:19Z",
   "date": "2026-07-27",
-  "matches": []
+  "matches": [
+    {
+      "home": "Kazuyoshi Miura goal vs Iwaki Furukawa",
+      "away": "- First Goal in almost 4 years",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v838cu",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v838cu",
+          "scorer": "",
+          "minute": null,
+          "homeScore": 5,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/ch3oh8ocgsfh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ch3oh8ocgsfh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785165200000
+        }
+      ]
+    }
+  ]
 }
