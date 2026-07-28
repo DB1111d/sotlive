@@ -1,5 +1,85 @@
 {
-  "updated": "2026-07-28T09:48:25Z",
+  "updated": "2026-07-28T11:54:43Z",
   "date": "2026-07-28",
-  "matches": []
+  "matches": [
+    {
+      "home": "Chelsea",
+      "away": "WS Wanderers",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v8voh6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v8voh6",
+          "scorer": "Jamie Gittens",
+          "minute": 66,
+          "homeScore": 3,
+          "awayScore": 3,
+          "videoUrl": "https://streamin.top/v/007f34a1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785238071000
+        },
+        {
+          "postId": "1v8vkoc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v8vkoc",
+          "scorer": "Joao Pedro",
+          "minute": 80,
+          "homeScore": 4,
+          "awayScore": 4,
+          "videoUrl": "https://streamin.link/v/122c880c",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785237789000
+        },
+        {
+          "postId": "1v8vq63",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v8vq63",
+          "scorer": "Joao Pedro",
+          "minute": 85,
+          "homeScore": 5,
+          "awayScore": 4,
+          "videoUrl": "https://streamin.link/v/b1d46c79",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785238196000
+        },
+        {
+          "postId": "1v8w2c0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v8w2c0",
+          "scorer": "Joao Pedro Hattrick",
+          "minute": 89,
+          "homeScore": 6,
+          "awayScore": 4,
+          "videoUrl": "https://streamin.link/v/fb0f6cc7",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785239077000
+        }
+      ]
+    },
+    {
+      "home": "Chelsea",
+      "away": "Western Sydney Wanderers",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v8treg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v8treg",
+          "scorer": "Dastan Satpaev",
+          "minute": 7,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/mab0qrsj0yfh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785232570000
+        }
+      ]
+    }
+  ]
 }
