@@ -1,7 +1,86 @@
 {
-  "updated": "2026-07-28T18:57:35Z",
+  "updated": "2026-07-28T20:17:06Z",
   "date": "2026-07-28",
   "matches": [
+    {
+      "home": "Stoke City",
+      "away": "Everton",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v99ocv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v99ocv",
+          "scorer": "Gabriel Kelly",
+          "minute": 59,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/e5d36990",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785269214000
+        }
+      ]
+    },
+    {
+      "home": "Dinamo Zagreb",
+      "away": "Thun",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v96av9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v96av9",
+          "scorer": "Brighton Labeau",
+          "minute": 4,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/5f6h491wg0gh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/5f6h491wg0gh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785262135000
+        },
+        {
+          "postId": "1v96s28",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v96s28",
+          "scorer": "Marco Bürki",
+          "minute": 22,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/36200040",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785263117000
+        },
+        {
+          "postId": "1v98t0x",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v98t0x",
+          "scorer": "Dion Drena Beljo",
+          "minute": 74,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/97d76a4e",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785267375000
+        },
+        {
+          "postId": "1v98xga",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v98xga",
+          "scorer": "Lukas Kačavenda",
+          "minute": 78,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/488efcd4",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785267633000
+        }
+      ]
+    },
     {
       "home": "Celje",
       "away": "Egnatia",
@@ -59,39 +138,6 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1785263307000
-        }
-      ]
-    },
-    {
-      "home": "Dinamo Zagreb",
-      "away": "Thun",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1v96av9",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1v96av9",
-          "scorer": "Brighton Labeau",
-          "minute": 4,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/5f6h491wg0gh1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/5f6h491wg0gh1/CMAF_1080.mp4?source=fallback",
-          "postedAt": 1785262135000
-        },
-        {
-          "postId": "1v96s28",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1v96s28",
-          "scorer": "Marco Bürki",
-          "minute": 22,
-          "homeScore": 0,
-          "awayScore": 2,
-          "videoUrl": "https://streamin.link/v/36200040",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1785263117000
         }
       ]
     },
