@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-27T23:44:38Z",
-  "date": "2026-07-27",
+  "updated": "2026-07-28T01:06:37Z",
+  "date": "2026-07-28",
   "matches": [
     {
       "home": "Galatasaray",
@@ -8,17 +8,17 @@
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1v8ao0z",
+          "postId": "1v8hd13",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1v8ao0z",
+          "permalink": "https://redd.it/1v8hd13",
           "scorer": "John Yeboah",
           "minute": 71,
           "homeScore": 0,
           "awayScore": 1,
-          "videoUrl": "https://v.redd.it/1p0aaxt0rtfh1",
-          "videoEmbed": null,
+          "videoUrl": "https://streamain.com/en/th6if9GHPKb27NA/watch",
+          "videoEmbed": "https://streamain.com/en/th6if9GHPKb27NA/watch",
           "directMp4": null,
-          "postedAt": 1785180795000
+          "postedAt": 1785195980000
         }
       ]
     },
