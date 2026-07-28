@@ -1,27 +1,7 @@
 {
-  "updated": "2026-07-28T20:17:06Z",
+  "updated": "2026-07-28T21:37:30Z",
   "date": "2026-07-28",
   "matches": [
-    {
-      "home": "Stoke City",
-      "away": "Everton",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1v99ocv",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1v99ocv",
-          "scorer": "Gabriel Kelly",
-          "minute": 59,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamin.link/v/e5d36990",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1785269214000
-        }
-      ]
-    },
     {
       "home": "Dinamo Zagreb",
       "away": "Thun",
@@ -78,6 +58,39 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1785267633000
+        },
+        {
+          "postId": "1v9aaqf",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v9aaqf",
+          "scorer": "Moris Valinčić",
+          "minute": 112,
+          "homeScore": 3,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/a4e7af14",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785270588000
+        }
+      ]
+    },
+    {
+      "home": "Stoke City",
+      "away": "Everton",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v99ocv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v99ocv",
+          "scorer": "Gabriel Kelly",
+          "minute": 59,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/e5d36990",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785269214000
         }
       ]
     },
