@@ -1,7 +1,100 @@
 {
-  "updated": "2026-07-28T17:44:06Z",
+  "updated": "2026-07-28T18:57:35Z",
   "date": "2026-07-28",
   "matches": [
+    {
+      "home": "Celje",
+      "away": "Egnatia",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v97ij2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v97ij2",
+          "scorer": "Mario Kvesic free kick",
+          "minute": 34,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/ycm1icubo0gh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ycm1icubo0gh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785264636000
+        }
+      ]
+    },
+    {
+      "home": "Drita",
+      "away": "Floriana",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v978lw",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v978lw",
+          "scorer": "Paul Mbong",
+          "minute": 40,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/117cpq8mm0gh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/117cpq8mm0gh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785264060000
+        }
+      ]
+    },
+    {
+      "home": "Riga FC",
+      "away": "Vardar",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v96vcb",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v96vcb",
+          "scorer": "Azer Omeragic",
+          "minute": 66,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/pxnz7t7dk0gh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785263307000
+        }
+      ]
+    },
+    {
+      "home": "Dinamo Zagreb",
+      "away": "Thun",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v96av9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v96av9",
+          "scorer": "Brighton Labeau",
+          "minute": 4,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/5f6h491wg0gh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/5f6h491wg0gh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785262135000
+        },
+        {
+          "postId": "1v96s28",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v96s28",
+          "scorer": "Marco Bürki",
+          "minute": 22,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/36200040",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785263117000
+        }
+      ]
+    },
     {
       "home": "Real Madrid",
       "away": "Leganes",
