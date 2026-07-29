@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29 06:39 EDT",
+  "updated": "2026-07-29 10:10 EDT",
   "days": {
     "20260729": {
       "date": "Wednesday, July 29",
@@ -182,10 +182,10 @@
         },
         {
           "league": "MLS",
-          "time": "10:30 PM",
+          "time": "10:45 PM",
           "match": "Portland Timbers vs Seattle Sounders FC",
           "source": "FS1 \u00b7 Apple TV",
-          "kick_utc": "2026-08-02T02:30Z",
+          "kick_utc": "2026-08-02T02:45Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9723.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png"
         },
