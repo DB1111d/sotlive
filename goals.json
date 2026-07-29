@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29T18:40:47Z",
+  "updated": "2026-07-29T20:00:16Z",
   "date": "2026-07-29",
   "matches": [
     {
@@ -45,6 +45,32 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/mpl9jajiq7gh1/CMAF_720.mp4?source=fallback",
           "postedAt": 1785350127000
+        },
+        {
+          "postId": "1va5q6f",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1va5q6f",
+          "scorer": "Filip Jagiełło",
+          "minute": 95,
+          "homeScore": 1,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/ex9xd4c1w7gh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ex9xd4c1w7gh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785351986000
+        },
+        {
+          "postId": "1va5w1o",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1va5w1o",
+          "scorer": "Tómas Kristjánsson",
+          "minute": 100,
+          "homeScore": 1,
+          "awayScore": 4,
+          "videoUrl": "https://v.redd.it/0sq2pkl0x7gh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/0sq2pkl0x7gh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785352322000
         }
       ]
     },
@@ -65,6 +91,19 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1785348734000
+        },
+        {
+          "postId": "1va5fs6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1va5fs6",
+          "scorer": "Michal Sáček",
+          "minute": 45,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/xg7je4w9u7gh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/xg7je4w9u7gh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785351389000
         }
       ]
     },
