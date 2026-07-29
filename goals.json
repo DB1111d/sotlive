@@ -1,5 +1,39 @@
 {
-  "updated": "2026-07-29T10:06:02Z",
+  "updated": "2026-07-29T12:19:50Z",
   "date": "2026-07-29",
-  "matches": []
+  "matches": [
+    {
+      "home": "Tottenham Hotspur",
+      "away": "Sydney FC",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v9siv5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v9siv5",
+          "scorer": "Mathys Tel Freekick",
+          "minute": 29,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/284afe82",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785321762000
+        },
+        {
+          "postId": "1v9stwt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v9stwt",
+          "scorer": "Takahiro Sekine",
+          "minute": 55,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/fddeca3b",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785322691000
+        }
+      ]
+    }
+  ]
 }
