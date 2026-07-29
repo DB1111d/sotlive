@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29T17:37:22Z",
+  "updated": "2026-07-29T18:40:47Z",
   "date": "2026-07-29",
   "matches": [
     {
@@ -19,6 +19,52 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/vzurucovf7gh1/CMAF_720.mp4?source=fallback",
           "postedAt": 1785346551000
+        },
+        {
+          "postId": "1va4b3y",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1va4b3y",
+          "scorer": "Kristian Arnstad penalty",
+          "minute": 55,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/ku55gli6n7gh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ku55gli6n7gh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785349011000
+        },
+        {
+          "postId": "1va4u4m",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1va4u4m",
+          "scorer": "Frederik Tingager",
+          "minute": 75,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/mpl9jajiq7gh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/mpl9jajiq7gh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785350127000
+        }
+      ]
+    },
+    {
+      "home": "Górnik Zabrze",
+      "away": "Fenerbahçe",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1va46c5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1va46c5",
+          "scorer": "Anderson Talisca",
+          "minute": 12,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/cceeb920",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785348734000
         }
       ]
     },
