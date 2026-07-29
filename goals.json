@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-29T14:40:06Z",
+  "updated": "2026-07-29T16:09:41Z",
   "date": "2026-07-29",
   "matches": [
+    {
+      "home": "Kairat",
+      "away": "Omonia",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1v9zsn9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1v9zsn9",
+          "scorer": "Edmilson",
+          "minute": 37,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/5o93hdsbv6gh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/5o93hdsbv6gh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785339630000
+        }
+      ]
+    },
     {
       "home": "Tottenham Hotspur",
       "away": "Sydney FC",
