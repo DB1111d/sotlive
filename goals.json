@@ -1,5 +1,39 @@
 {
-  "updated": "2026-07-30T12:54:24Z",
+  "updated": "2026-07-30T15:07:57Z",
   "date": "2026-07-30",
-  "matches": []
+  "matches": [
+    {
+      "home": "Tobol",
+      "away": "Panevezys",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vavfhc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vavfhc",
+          "scorer": "Nauris Petkevicius",
+          "minute": 33,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/nrjhijyqodgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/nrjhijyqodgh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785422166000
+        },
+        {
+          "postId": "1vavsnv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vavsnv",
+          "scorer": "Amine Talal",
+          "minute": 45,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/iu36ada7rdgh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785422992000
+        }
+      ]
+    }
+  ]
 }
