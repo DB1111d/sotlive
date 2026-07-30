@@ -1,24 +1,70 @@
 {
-  "updated": "2026-07-30T19:53:14Z",
+  "updated": "2026-07-30T21:05:11Z",
   "date": "2026-07-30",
   "matches": [
     {
-      "home": "FC Sion",
-      "away": "BATE",
+      "home": "SL Benfica",
+      "away": "St Gallen",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1vb47w9",
+          "postId": "1vb5jnd",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1vb47w9",
-          "scorer": "Baltazar Costa",
-          "minute": 58,
-          "homeScore": 3,
+          "permalink": "https://redd.it/1vb5jnd",
+          "scorer": "Vangelis Pavlidis (",
+          "minute": 74,
+          "homeScore": 4,
           "awayScore": 0,
-          "videoUrl": "https://v.redd.it/5bd7313v8fgh1",
+          "videoUrl": "https://v.redd.it/v42lcrbghfgh1",
           "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1785441071000
+          "directMp4": "https://v.redd.it/v42lcrbghfgh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785443928000
+        },
+        {
+          "postId": "1vb5mpi",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb5mpi",
+          "scorer": "Lenglet (",
+          "minute": 82,
+          "homeScore": 5,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/9ad0azc1ifgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/9ad0azc1ifgh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785444122000
+        }
+      ]
+    },
+    {
+      "home": "Koper",
+      "away": "NSÍ Runavík",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vb3epo",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb3epo",
+          "scorer": "Beinir Nolsøe",
+          "minute": 35,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/7u9ysitn3fgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/7u9ysitn3fgh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785439291000
+        },
+        {
+          "postId": "1vb4ya9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb4ya9",
+          "scorer": "Marius Lindh",
+          "minute": 70,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/uud60ugodfgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/uud60ugodfgh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785442662000
         }
       ]
     },
@@ -52,6 +98,52 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/h1vmev8d8fgh1/CMAF_720.mp4?source=fallback",
           "postedAt": 1785440882000
+        },
+        {
+          "postId": "1vb4mvb",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb4mvb",
+          "scorer": "Mateusz Wdowiak",
+          "minute": 79,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/ipeje3vlbfgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ipeje3vlbfgh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785441969000
+        },
+        {
+          "postId": "1vb4ptm",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb4ptm",
+          "scorer": "Ilya Shkurin",
+          "minute": 82,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/ozv38l05cfgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ozv38l05cfgh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785442150000
+        }
+      ]
+    },
+    {
+      "home": "FC Sion",
+      "away": "BATE",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vb47w9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb47w9",
+          "scorer": "Baltazar Costa",
+          "minute": 58,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/5bd7313v8fgh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785441071000
         }
       ]
     },
@@ -112,26 +204,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/p76w65574fgh1/CMAF_1080.mp4?source=fallback",
           "postedAt": 1785439471000
-        }
-      ]
-    },
-    {
-      "home": "Koper",
-      "away": "NSÍ Runavík",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1vb3epo",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1vb3epo",
-          "scorer": "Beinir Nolsøe",
-          "minute": 35,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/7u9ysitn3fgh1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/7u9ysitn3fgh1/CMAF_1080.mp4?source=fallback",
-          "postedAt": 1785439291000
         }
       ]
     },
