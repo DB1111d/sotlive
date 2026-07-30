@@ -1,7 +1,166 @@
 {
-  "updated": "2026-07-30T16:48:27Z",
+  "updated": "2026-07-30T18:13:09Z",
   "date": "2026-07-30",
   "matches": [
+    {
+      "home": "Valletta",
+      "away": "Raków Częstochowa",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vb0xk2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb0xk2",
+          "scorer": "Michael Ameyaw",
+          "minute": 22,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/577zsapxnegh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/577zsapxnegh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785434011000
+        },
+        {
+          "postId": "1vb17at",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb17at",
+          "scorer": "Tomasz Pieńko",
+          "minute": 31,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/c7fhgvckpegh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/c7fhgvckpegh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785434558000
+        }
+      ]
+    },
+    {
+      "home": "Auda",
+      "away": "FCSB",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vaz3co",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vaz3co",
+          "scorer": "Barthelemy Diedhiou",
+          "minute": 45,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/enanpxbgcegh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785430138000
+        },
+        {
+          "postId": "1vb0qcc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb0qcc",
+          "scorer": "Kader Kone",
+          "minute": 84,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/qgd57e2pmegh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/qgd57e2pmegh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785433583000
+        }
+      ]
+    },
+    {
+      "home": "Pafos",
+      "away": "Hajduk Split",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vb0l9w",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb0l9w",
+          "scorer": "Guga",
+          "minute": 40,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/9820eaf7",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785433287000
+        }
+      ]
+    },
+    {
+      "home": "Kalju",
+      "away": "Shelbourne",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vb0grh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb0grh",
+          "scorer": "Ibrahim Jabir",
+          "minute": 75,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/lcj5wcw0legh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/lcj5wcw0legh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785433022000
+        }
+      ]
+    },
+    {
+      "home": "FC Nordsjaelland",
+      "away": "GAIS",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vb09oz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb09oz",
+          "scorer": "Runar Norheim",
+          "minute": 11,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/kvw2umzfjegh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/kvw2umzfjegh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785432610000
+        },
+        {
+          "postId": "1vb0c6t",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb0c6t",
+          "scorer": "Own Goal",
+          "minute": 14,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/kh0tr1o4kegh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/kh0tr1o4kegh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785432755000
+        }
+      ]
+    },
+    {
+      "home": "Ilves",
+      "away": "Stjarnan",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vazqac",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vazqac",
+          "scorer": "Jesse Kilo",
+          "minute": 53,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/u2w9h5zfgegh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/u2w9h5zfgegh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785431479000
+        }
+      ]
+    },
     {
       "home": "Inter Turku",
       "away": "Basaksehir",
@@ -19,6 +178,19 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/nsj9lzc77egh1/CMAF_1080.mp4?source=fallback",
           "postedAt": 1785428374000
+        },
+        {
+          "postId": "1vaznh6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vaznh6",
+          "scorer": "Clinton Jephta",
+          "minute": 47,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/zke96z3yfegh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/zke96z3yfegh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785431313000
         }
       ]
     },
