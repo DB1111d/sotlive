@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-30T15:07:57Z",
+  "updated": "2026-07-30T16:48:27Z",
   "date": "2026-07-30",
   "matches": [
+    {
+      "home": "Inter Turku",
+      "away": "Basaksehir",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vay9zd",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vay9zd",
+          "scorer": "Jasse Tuominen",
+          "minute": 18,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/nsj9lzc77egh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/nsj9lzc77egh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785428374000
+        }
+      ]
+    },
     {
       "home": "Tobol",
       "away": "Panevezys",
