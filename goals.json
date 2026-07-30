@@ -1,7 +1,106 @@
 {
-  "updated": "2026-07-30T00:12:17Z",
+  "updated": "2026-07-30T03:29:25Z",
   "date": "2026-07-30",
   "matches": [
+    {
+      "home": "MLS All-Stars",
+      "away": "Liga MX All-Stars",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vaenpz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vaenpz",
+          "scorer": "Son Heung-Min",
+          "minute": 23,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/aee64e56",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785372724000
+        },
+        {
+          "postId": "1vaewg5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vaewg5",
+          "scorer": "Philip Zinckernagel",
+          "minute": 42,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/581aa48c",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785373371000
+        },
+        {
+          "postId": "1vag292",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vag292",
+          "scorer": "Evander",
+          "minute": 58,
+          "homeScore": 4,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/457bv0zzw9gh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785376524000
+        }
+      ]
+    },
+    {
+      "home": "Liverpool",
+      "away": "Wrexham",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vaf2c1",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vaf2c1",
+          "scorer": "Rio Ngumoha",
+          "minute": 75,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/4002a40b",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785373810000
+        }
+      ]
+    },
+    {
+      "home": "MLS All Stars",
+      "away": "Liga MX All Stars",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vaejdt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vaejdt",
+          "scorer": "Son Heung-min",
+          "minute": 20,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/nbpsitumk9gh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/nbpsitumk9gh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785372400000
+        },
+        {
+          "postId": "1vaemxl",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vaemxl",
+          "scorer": "Son Heung-min",
+          "minute": 23,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/azxwi5bkl9gh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785372668000
+        }
+      ]
+    },
     {
       "home": "Vasco",
       "away": "Ind. Medellín",
