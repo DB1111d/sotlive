@@ -1,7 +1,173 @@
 {
-  "updated": "2026-07-30T18:13:09Z",
+  "updated": "2026-07-30T19:53:14Z",
   "date": "2026-07-30",
   "matches": [
+    {
+      "home": "FC Sion",
+      "away": "BATE",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vb47w9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb47w9",
+          "scorer": "Baltazar Costa",
+          "minute": 58,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/5bd7313v8fgh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785441071000
+        }
+      ]
+    },
+    {
+      "home": "GKS Katowice",
+      "away": "Žilina",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vb3rw2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb3rw2",
+          "scorer": "Adam Zreľák",
+          "minute": 49,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/vbjzokm06fgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/vbjzokm06fgh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785440099000
+        },
+        {
+          "postId": "1vb44vx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb44vx",
+          "scorer": "František Kóša",
+          "minute": 57,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/h1vmev8d8fgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/h1vmev8d8fgh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785440882000
+        }
+      ]
+    },
+    {
+      "home": "Benfica",
+      "away": "FC St.Gallen",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vb3nw5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb3nw5",
+          "scorer": "Vangelis Pavlidis",
+          "minute": 11,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/lx3vg5o75fgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/lx3vg5o75fgh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785439863000
+        }
+      ]
+    },
+    {
+      "home": "Dinamo City",
+      "away": "Aluminij",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vb3lb7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb3lb7",
+          "scorer": "Lorenco Vila",
+          "minute": 24,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/jm8fyf4t4fgh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785439697000
+        }
+      ]
+    },
+    {
+      "home": "TNS",
+      "away": "Flora",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vb3hma",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb3hma",
+          "scorer": "Ben Wilson",
+          "minute": 90,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/p76w65574fgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/p76w65574fgh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785439471000
+        }
+      ]
+    },
+    {
+      "home": "Koper",
+      "away": "NSÍ Runavík",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vb3epo",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb3epo",
+          "scorer": "Beinir Nolsøe",
+          "minute": 35,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/7u9ysitn3fgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/7u9ysitn3fgh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785439291000
+        }
+      ]
+    },
+    {
+      "home": "Zrinjski Mostar",
+      "away": "Valur",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vb39ai",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb39ai",
+          "scorer": "Tryggvi Hrafn Haraldsson",
+          "minute": 44,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/4k6a24iq2fgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/4k6a24iq2fgh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785438977000
+        },
+        {
+          "postId": "1vb3c9c",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb3c9c",
+          "scorer": "Tryggvi Hrafn Haraldsson",
+          "minute": 45,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/f2gejp293fgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/f2gejp293fgh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785439151000
+        }
+      ]
+    },
     {
       "home": "Valletta",
       "away": "Raków Częstochowa",
@@ -32,6 +198,144 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/c7fhgvckpegh1/CMAF_720.mp4?source=fallback",
           "postedAt": 1785434558000
+        },
+        {
+          "postId": "1vb2dnf",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb2dnf",
+          "scorer": "Ádin Molnár",
+          "minute": 54,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/8vnrlrjywegh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/8vnrlrjywegh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785437059000
+        },
+        {
+          "postId": "1vb313r",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb313r",
+          "scorer": "Patryk Makuch",
+          "minute": 78,
+          "homeScore": 0,
+          "awayScore": 4,
+          "videoUrl": "https://v.redd.it/0lx3glm91fgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/0lx3glm91fgh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785438490000
+        }
+      ]
+    },
+    {
+      "home": "Zalgiris",
+      "away": "Dinamo Tbilisi",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vb2aon",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb2aon",
+          "scorer": "Stanislav Bilenkyi",
+          "minute": 82,
+          "homeScore": 5,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/l26qiociwegh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/l26qiociwegh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785436882000
+        },
+        {
+          "postId": "1vb2gda",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb2gda",
+          "scorer": "Nemanja Mihajlovic",
+          "minute": 88,
+          "homeScore": 6,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/b4761zcjxegh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/b4761zcjxegh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785437229000
+        },
+        {
+          "postId": "1vb2ipn",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb2ipn",
+          "scorer": "Stanislav Bilenkyi",
+          "minute": 90,
+          "homeScore": 7,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/p61wh3zxxegh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/p61wh3zxxegh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785437370000
+        }
+      ]
+    },
+    {
+      "home": "Ilves",
+      "away": "Stjarnan",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vazqac",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vazqac",
+          "scorer": "Jesse Kilo",
+          "minute": 53,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/u2w9h5zfgegh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/u2w9h5zfgegh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785431479000
+        },
+        {
+          "postId": "1vb1rvz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb1rvz",
+          "scorer": "Own Goal",
+          "minute": 107,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/txw5ug46tegh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785435760000
+        }
+      ]
+    },
+    {
+      "home": "Vestri",
+      "away": "RFS",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vb1j12",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb1j12",
+          "scorer": "Þórður Gunnar Hafþórsson",
+          "minute": 12,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/1bpgbkilregh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/1bpgbkilregh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785435232000
+        },
+        {
+          "postId": "1vb1n27",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb1n27",
+          "scorer": "Mamadou Sylla",
+          "minute": 16,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/gnqq7b5asegh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/gnqq7b5asegh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785435469000
         }
       ]
     },
@@ -138,26 +442,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/kh0tr1o4kegh1/CMAF_1080.mp4?source=fallback",
           "postedAt": 1785432755000
-        }
-      ]
-    },
-    {
-      "home": "Ilves",
-      "away": "Stjarnan",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1vazqac",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1vazqac",
-          "scorer": "Jesse Kilo",
-          "minute": 53,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/u2w9h5zfgegh1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/u2w9h5zfgegh1/CMAF_1080.mp4?source=fallback",
-          "postedAt": 1785431479000
         }
       ]
     },
