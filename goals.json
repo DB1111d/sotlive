@@ -1,37 +1,24 @@
 {
-  "updated": "2026-07-30T21:05:11Z",
+  "updated": "2026-07-30T22:18:15Z",
   "date": "2026-07-30",
   "matches": [
     {
-      "home": "SL Benfica",
-      "away": "St Gallen",
+      "home": "Morocco",
+      "away": "Algeria",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1vb5jnd",
+          "postId": "1vb7fax",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1vb5jnd",
-          "scorer": "Vangelis Pavlidis (",
-          "minute": 74,
-          "homeScore": 4,
+          "permalink": "https://redd.it/1vb7fax",
+          "scorer": "S. Mssoudy",
+          "minute": 84,
+          "homeScore": 1,
           "awayScore": 0,
-          "videoUrl": "https://v.redd.it/v42lcrbghfgh1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/v42lcrbghfgh1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1785443928000
-        },
-        {
-          "postId": "1vb5mpi",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1vb5mpi",
-          "scorer": "Lenglet (",
-          "minute": 82,
-          "homeScore": 5,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/9ad0azc1ifgh1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/9ad0azc1ifgh1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1785444122000
+          "videoUrl": "https://streamable.com/48llxl",
+          "videoEmbed": "https://streamable.com/e/48llxl",
+          "directMp4": null,
+          "postedAt": 1785448196000
         }
       ]
     },
@@ -65,6 +52,52 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/uud60ugodfgh1/CMAF_1080.mp4?source=fallback",
           "postedAt": 1785442662000
+        },
+        {
+          "postId": "1vb6rav",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb6rav",
+          "scorer": "Michal Przybylski",
+          "minute": 120,
+          "homeScore": 1,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/bu50ivaipfgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/bu50ivaipfgh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785446639000
+        }
+      ]
+    },
+    {
+      "home": "SL Benfica",
+      "away": "St Gallen",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vb5jnd",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb5jnd",
+          "scorer": "Vangelis Pavlidis (",
+          "minute": 74,
+          "homeScore": 4,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/v42lcrbghfgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/v42lcrbghfgh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785443928000
+        },
+        {
+          "postId": "1vb5mpi",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vb5mpi",
+          "scorer": "Lenglet (",
+          "minute": 82,
+          "homeScore": 5,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/9ad0azc1ifgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/9ad0azc1ifgh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785444122000
         }
       ]
     },
