@@ -1,64 +1,63 @@
 {
-  "updated": "2026-07-31T20:02:29Z",
+  "updated": "2026-07-31T21:20:39Z",
   "date": "2026-07-31",
   "matches": [
     {
-      "home": "Dundee United",
-      "away": "Rangers",
+      "home": "Sporting CP",
+      "away": "Nottingham Forest",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1vc13ja",
+          "postId": "1vc34xy",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1vc13ja",
-          "scorer": "Lachlan Rose",
-          "minute": 38,
+          "permalink": "https://redd.it/1vc34xy",
+          "scorer": "Gonçalo Inácio",
+          "minute": 14,
           "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/bj083898cmgh1",
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/x1xodwcppmgh1",
           "videoEmbed": null,
-          "directMp4": "https://v.redd.it/bj083898cmgh1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1785526932000
-        }
-      ]
-    },
-    {
-      "home": "Birmingham",
-      "away": "Barcelona",
-      "league": "Rest of World",
-      "goals": [
+          "directMp4": "https://v.redd.it/x1xodwcppmgh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785531537000
+        },
         {
-          "postId": "1vc0srx",
+          "postId": "1vc35nf",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1vc0srx",
-          "scorer": "August Priske",
-          "minute": 31,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/i5hkrrv9amgh1",
+          "permalink": "https://redd.it/1vc35nf",
+          "scorer": "Issa Doumbia",
+          "minute": 61,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/xzh44yp2qmgh1",
           "videoEmbed": null,
-          "directMp4": "https://v.redd.it/i5hkrrv9amgh1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1785526261000
-        }
-      ]
-    },
-    {
-      "home": "Birmingham City",
-      "away": "Barcelona",
-      "league": "Rest of World",
-      "goals": [
+          "directMp4": "https://v.redd.it/xzh44yp2qmgh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785531582000
+        },
         {
-          "postId": "1vc0kd2",
+          "postId": "1vc36vo",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1vc0kd2",
-          "scorer": "August Priske",
-          "minute": 31,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/d9x0cj4l8mgh1",
+          "permalink": "https://redd.it/1vc36vo",
+          "scorer": "Rafael Nel",
+          "minute": 65,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/k39mhtb7qmgh1",
           "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1785525719000
+          "directMp4": "https://v.redd.it/k39mhtb7qmgh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785531655000
+        },
+        {
+          "postId": "1vc37me",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vc37me",
+          "scorer": "Rafael Nel",
+          "minute": 84,
+          "homeScore": 4,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/urw1tckfqmgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/urw1tckfqmgh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785531699000
         }
       ]
     },
@@ -79,6 +78,131 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/xj7jkh6b7mgh1/CMAF_720.mp4?source=fallback",
           "postedAt": 1785525294000
+        },
+        {
+          "postId": "1vc2bi2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vc2bi2",
+          "scorer": "Karol Czubak",
+          "minute": 83,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/f19mbv1bkmgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/f19mbv1bkmgh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785529665000
+        },
+        {
+          "postId": "1vc2e0k",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vc2e0k",
+          "scorer": "Sergio Lozano",
+          "minute": 85,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/t00u5tvrkmgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/t00u5tvrkmgh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785529822000
+        }
+      ]
+    },
+    {
+      "home": "Dundee United",
+      "away": "Rangers",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vc13ja",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vc13ja",
+          "scorer": "Lachlan Rose",
+          "minute": 38,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/bj083898cmgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/bj083898cmgh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785526932000
+        },
+        {
+          "postId": "1vc28t9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vc28t9",
+          "scorer": "Thelo Aasgaard",
+          "minute": 56,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/g5dx9yptjmgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/g5dx9yptjmgh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785529494000
+        }
+      ]
+    },
+    {
+      "home": "Birmingham",
+      "away": "Barcelona",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vc0srx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vc0srx",
+          "scorer": "August Priske",
+          "minute": 31,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/i5hkrrv9amgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/i5hkrrv9amgh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785526261000
+        },
+        {
+          "postId": "1vc1rzk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vc1rzk",
+          "scorer": "Hamza Abdelkarim",
+          "minute": 60,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/jdjy6dlsgmgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/jdjy6dlsgmgh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785528454000
+        },
+        {
+          "postId": "1vc22gz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vc22gz",
+          "scorer": "Jhon Solís",
+          "minute": 68,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/gb3jbptqimgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/gb3jbptqimgh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785529110000
+        }
+      ]
+    },
+    {
+      "home": "Birmingham City",
+      "away": "Barcelona",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vc0kd2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vc0kd2",
+          "scorer": "August Priske",
+          "minute": 31,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/d9x0cj4l8mgh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785525719000
         }
       ]
     },
