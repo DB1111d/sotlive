@@ -1,5 +1,106 @@
 {
-  "updated": "2026-07-31T18:17:11Z",
+  "updated": "2026-07-31T20:02:29Z",
   "date": "2026-07-31",
-  "matches": []
+  "matches": [
+    {
+      "home": "Dundee United",
+      "away": "Rangers",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vc13ja",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vc13ja",
+          "scorer": "Lachlan Rose",
+          "minute": 38,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/bj083898cmgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/bj083898cmgh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785526932000
+        }
+      ]
+    },
+    {
+      "home": "Birmingham",
+      "away": "Barcelona",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vc0srx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vc0srx",
+          "scorer": "August Priske",
+          "minute": 31,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/i5hkrrv9amgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/i5hkrrv9amgh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785526261000
+        }
+      ]
+    },
+    {
+      "home": "Birmingham City",
+      "away": "Barcelona",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vc0kd2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vc0kd2",
+          "scorer": "August Priske",
+          "minute": 31,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/d9x0cj4l8mgh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785525719000
+        }
+      ]
+    },
+    {
+      "home": "Motor Lublin",
+      "away": "Jagiellonia Białystok",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vc0dkd",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vc0dkd",
+          "scorer": "Nik Prelec",
+          "minute": 33,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/xj7jkh6b7mgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/xj7jkh6b7mgh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785525294000
+        }
+      ]
+    },
+    {
+      "home": "I. Jesus  - Sporting",
+      "away": "Nottingham Forest",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vbzzqm",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vbzzqm",
+          "scorer": "2026 Friendly",
+          "minute": 2,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/yfqfv1ev4mgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/yfqfv1ev4mgh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785524439000
+        }
+      ]
+    }
+  ]
 }
