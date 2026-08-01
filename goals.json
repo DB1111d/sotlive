@@ -1,7 +1,47 @@
 {
-  "updated": "2026-08-01T19:34:08Z",
+  "updated": "2026-08-01T20:31:44Z",
   "date": "2026-08-01",
   "matches": [
+    {
+      "home": "Ferro",
+      "away": "Godoy Cruz",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vcx22z",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vcx22z",
+          "scorer": "Tomás Rossi",
+          "minute": 41,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/wilf9waojtgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/wilf9waojtgh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785614280000
+        }
+      ]
+    },
+    {
+      "home": "Egypt",
+      "away": "Malawi",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vcwgpe",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vcwgpe",
+          "scorer": "Temwa Chawinga",
+          "minute": 68,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/72x2n6aqftgh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785612842000
+        }
+      ]
+    },
     {
       "home": "Girona",
       "away": "Arsenal",
