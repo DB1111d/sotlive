@@ -1,7 +1,93 @@
 {
-  "updated": "2026-08-01T12:01:26Z",
+  "updated": "2026-08-01T13:53:20Z",
   "date": "2026-08-01",
   "matches": [
+    {
+      "home": "Piast Gliwice",
+      "away": "Wisła Kraków",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vcn3qp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vcn3qp",
+          "scorer": "Samuel Ntamack",
+          "minute": 17,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/g2adhocijrgh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785589977000
+        },
+        {
+          "postId": "1vcneh0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vcneh0",
+          "scorer": "Hugo Vallejo",
+          "minute": 32,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/65ouql9ylrgh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785590758000
+        },
+        {
+          "postId": "1vcnjdy",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vcnjdy",
+          "scorer": "Jordi Sánchez",
+          "minute": 38,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/0gezsvg1nrgh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785591117000
+        }
+      ]
+    },
+    {
+      "home": "Manchester United",
+      "away": "A.Madrid",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vcnggg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vcnggg",
+          "scorer": "Arnau Ortiz",
+          "minute": 5,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/e65666f8",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785590907000
+        }
+      ]
+    },
+    {
+      "home": "East Bengal",
+      "away": "CISF",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vcmw2p",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vcmw2p",
+          "scorer": "PV Vishnu",
+          "minute": null,
+          "homeScore": 4,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/nrtkf4nohrgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/nrtkf4nohrgh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785589418000
+        }
+      ]
+    },
     {
       "home": "Manchester City",
       "away": "Inter Milan",
