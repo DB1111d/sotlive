@@ -1,7 +1,86 @@
 {
-  "updated": "2026-08-01T10:56:21Z",
+  "updated": "2026-08-01T12:01:26Z",
   "date": "2026-08-01",
   "matches": [
+    {
+      "home": "Manchester City",
+      "away": "Inter Milan",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vcla1t",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vcla1t",
+          "scorer": "Divin Mubama",
+          "minute": 15,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/ed01755e",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785584912000
+        },
+        {
+          "postId": "1vclchl",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vclchl",
+          "scorer": "Benjamin Pavard",
+          "minute": 20,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/cc40b61d",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785585117000
+        }
+      ]
+    },
+    {
+      "home": "Chelsea",
+      "away": "Tottenham Hotspur",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vcjc84",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vcjc84",
+          "scorer": "Sandro Tonali",
+          "minute": 17,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/c11213d2",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785578596000
+        },
+        {
+          "postId": "1vcjfb4",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vcjfb4",
+          "scorer": "Estêvão",
+          "minute": 21,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/9282020c",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785578882000
+        },
+        {
+          "postId": "1vcl19w",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vcl19w",
+          "scorer": "Richarlison",
+          "minute": 90,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/a2cbc693",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785584152000
+        }
+      ]
+    },
     {
       "home": "Strasbourg",
       "away": "Brighton & Hove Albion",
@@ -58,39 +137,19 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1785580467000
-        }
-      ]
-    },
-    {
-      "home": "Chelsea",
-      "away": "Tottenham Hotspur",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1vcjc84",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1vcjc84",
-          "scorer": "Sandro Tonali",
-          "minute": 17,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/c11213d2",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1785578596000
         },
         {
-          "postId": "1vcjfb4",
+          "postId": "1vckkeg",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1vcjfb4",
-          "scorer": "Estêvão",
-          "minute": 21,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/9282020c",
+          "permalink": "https://redd.it/1vckkeg",
+          "scorer": "Cashin '47",
+          "minute": 47,
+          "homeScore": 2,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/pcykkr2yxqgh1",
           "videoEmbed": null,
           "directMp4": null,
-          "postedAt": 1785578882000
+          "postedAt": 1785582685000
         }
       ]
     }
