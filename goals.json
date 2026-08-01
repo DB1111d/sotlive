@@ -1,5 +1,98 @@
 {
-  "updated": "2026-08-01T09:23:01Z",
+  "updated": "2026-08-01T10:56:21Z",
   "date": "2026-08-01",
-  "matches": []
+  "matches": [
+    {
+      "home": "Strasbourg",
+      "away": "Brighton & Hove Albion",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vcjhx3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vcjhx3",
+          "scorer": "Sam Amo-Ameyaw '6",
+          "minute": 6,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/iek443wdnqgh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785579119000
+        },
+        {
+          "postId": "1vcjm5z",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vcjm5z",
+          "scorer": "Sam Amo-Ameyaw '14",
+          "minute": 14,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/7jo70lgkoqgh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785579528000
+        },
+        {
+          "postId": "1vcjraz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vcjraz",
+          "scorer": "Pascal Gross '22",
+          "minute": 22,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/topcnb54qqgh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785580029000
+        },
+        {
+          "postId": "1vcjvt1",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vcjvt1",
+          "scorer": "Boscagli '30",
+          "minute": 30,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/p6g1lvx9rqgh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785580467000
+        }
+      ]
+    },
+    {
+      "home": "Chelsea",
+      "away": "Tottenham Hotspur",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vcjc84",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vcjc84",
+          "scorer": "Sandro Tonali",
+          "minute": 17,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/c11213d2",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785578596000
+        },
+        {
+          "postId": "1vcjfb4",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vcjfb4",
+          "scorer": "Estêvão",
+          "minute": 21,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/9282020c",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785578882000
+        }
+      ]
+    }
+  ]
 }
