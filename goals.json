@@ -1,7 +1,66 @@
 {
-  "updated": "2026-08-02T11:06:20Z",
+  "updated": "2026-08-02T12:15:05Z",
   "date": "2026-08-02",
   "matches": [
+    {
+      "home": "Tampa Bay Rowdies",
+      "away": "Louisville City",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vdfzxn",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vdfzxn",
+          "scorer": "Jake Morris",
+          "minute": 29,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/0ltd5f6s8ygh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/0ltd5f6s8ygh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785671216000
+        },
+        {
+          "postId": "1vdg3u8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vdg3u8",
+          "scorer": "Russell Cicerone",
+          "minute": 48,
+          "homeScore": 1,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/0njywe21aygh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/0njywe21aygh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785671578000
+        },
+        {
+          "postId": "1vdg4j6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vdg4j6",
+          "scorer": "Marco Micaletto",
+          "minute": 51,
+          "homeScore": 2,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/d7jmgkagaygh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/d7jmgkagaygh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785671639000
+        },
+        {
+          "postId": "1vdg70x",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vdg70x",
+          "scorer": "Russell Cicerone",
+          "minute": 86,
+          "homeScore": 4,
+          "awayScore": 4,
+          "videoUrl": "https://v.redd.it/ey699785bygh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ey699785bygh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785671864000
+        }
+      ]
+    },
     {
       "home": "Hertha Wels",
       "away": "Austria Salzburg",
