@@ -1,7 +1,86 @@
 {
-  "updated": "2026-08-02T19:35:40Z",
+  "updated": "2026-08-02T20:34:42Z",
   "date": "2026-08-02",
   "matches": [
+    {
+      "home": "GKS Katowice",
+      "away": "Radomiak Radom",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vdsdea",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vdsdea",
+          "scorer": "Ibrahima Camará",
+          "minute": 37,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/mga6dca5s0hh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/mga6dca5s0hh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785701852000
+        },
+        {
+          "postId": "1vdsdgt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vdsdgt",
+          "scorer": "Own Goal",
+          "minute": 58,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/z3uoann5s0hh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/z3uoann5s0hh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785701857000
+        },
+        {
+          "postId": "1vdsdkk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vdsdkk",
+          "scorer": "Ilya Shkurin",
+          "minute": 66,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/l6ujsk36s0hh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/l6ujsk36s0hh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785701863000
+        },
+        {
+          "postId": "1vdsdmz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vdsdmz",
+          "scorer": "Bartosz Nowak",
+          "minute": 90,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/zj2y9cj6s0hh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785701867000
+        }
+      ]
+    },
+    {
+      "home": "Liverpool",
+      "away": "Leeds United",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vds9uw",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vds9uw",
+          "scorer": "Luke Chambers",
+          "minute": 7,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/beb8dd97",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785701622000
+        }
+      ]
+    },
     {
       "home": "Pogoń Grodzisk Mazowiecki",
       "away": "Puszcza Niepołomice",
