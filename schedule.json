@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01 16:53 EDT",
+  "updated": "2026-08-01 22:49 EDT",
   "days": {
     "20260801": {
       "date": "Saturday, August 1",
@@ -21,24 +21,6 @@
           "kick_utc": "2026-08-01T23:30Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/193.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png"
-        },
-        {
-          "league": "MLS",
-          "time": "7:30 PM",
-          "match": "FC Cincinnati vs San Jose Earthquakes",
-          "source": "Apple TV",
-          "kick_utc": "2026-08-01T23:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png"
-        },
-        {
-          "league": "MLS",
-          "time": "7:30 PM",
-          "match": "Inter Miami CF vs Columbus Crew",
-          "source": "Apple TV",
-          "kick_utc": "2026-08-01T23:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png"
         },
         {
           "league": "MLS",
@@ -66,6 +48,15 @@
           "kick_utc": "2026-08-01T23:30Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9727.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png"
+        },
+        {
+          "league": "MLS",
+          "time": "8:10 PM",
+          "match": "Inter Miami CF vs Columbus Crew",
+          "source": "Apple TV",
+          "kick_utc": "2026-08-02T00:10Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png"
         },
         {
           "league": "MLS",
@@ -114,6 +105,15 @@
         },
         {
           "league": "MLS",
+          "time": "9:46 PM",
+          "match": "FC Cincinnati vs San Jose Earthquakes",
+          "source": "Apple TV",
+          "kick_utc": "2026-08-02T01:46Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png"
+        },
+        {
+          "league": "MLS",
           "time": "10:30 PM",
           "match": "LA Galaxy vs FC Dallas",
           "source": "Apple TV",
@@ -150,15 +150,6 @@
         },
         {
           "league": "USL Championship",
-          "time": "7:00 PM",
-          "match": "Miami FC vs Detroit City FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-08-01T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18159.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19179.png"
-        },
-        {
-          "league": "USL Championship",
           "time": "7:30 PM",
           "match": "Charleston Battery vs Brooklyn FC",
           "source": "ESPN+",
@@ -169,20 +160,20 @@
         {
           "league": "USL Championship",
           "time": "8:00 PM",
-          "match": "Birmingham Legion FC vs Rhode Island FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-08-02T00:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19405.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22164.png"
-        },
-        {
-          "league": "USL Championship",
-          "time": "8:00 PM",
           "match": "Tampa Bay Rowdies vs Louisville City FC",
           "source": "ESPN2",
           "kick_utc": "2026-08-02T00:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17361.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17832.png"
+        },
+        {
+          "league": "USL Championship",
+          "time": "8:06 PM",
+          "match": "Miami FC vs Detroit City FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-08-02T00:06Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18159.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19179.png"
         },
         {
           "league": "USL Championship",
@@ -232,15 +223,6 @@
         {
           "league": "USL League One",
           "time": "7:00 PM",
-          "match": "Chattanooga Red Wolves vs Spokane Velocity FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-08-01T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20000.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22130.png"
-        },
-        {
-          "league": "USL League One",
-          "time": "7:00 PM",
           "match": "Greenville Triumph vs Portland Hearts of Pine",
           "source": "ESPN+",
           "kick_utc": "2026-08-01T23:00Z",
@@ -255,15 +237,6 @@
           "kick_utc": "2026-08-01T23:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17545.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22526.png"
-        },
-        {
-          "league": "USL League One",
-          "time": "7:30 PM",
-          "match": "Sarasota Paradise vs FC Naples",
-          "source": "ESPN+",
-          "kick_utc": "2026-08-01T23:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22542.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22525.png"
         },
         {
           "league": "USL League One",
@@ -282,12 +255,36 @@
           "kick_utc": "2026-08-02T01:30Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131581.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20671.png"
+        },
+        {
+          "league": "USL League One",
+          "time": "Suspended",
+          "match": "Chattanooga Red Wolves vs Spokane Velocity FC",
+          "source": "",
+          "kick_utc": "2026-08-01T23:00Z"
+        },
+        {
+          "league": "USL League One",
+          "time": "Postponed",
+          "match": "Sarasota Paradise vs FC Naples",
+          "source": "",
+          "kick_utc": "2026-08-02T00:36Z"
         }
       ]
     },
     "20260802": {
       "date": "Sunday, August 2",
-      "games": []
+      "games": [
+        {
+          "league": "USL Championship",
+          "time": "7:00 PM",
+          "match": "Birmingham Legion FC vs Rhode Island FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-08-02T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19405.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22164.png"
+        }
+      ]
     },
     "20260803": {
       "date": "Monday, August 3",
