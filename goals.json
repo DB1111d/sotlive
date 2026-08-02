@@ -1,27 +1,7 @@
 {
-  "updated": "2026-08-02T13:59:45Z",
+  "updated": "2026-08-02T15:09:16Z",
   "date": "2026-08-02",
   "matches": [
-    {
-      "home": "FC Midtjylland",
-      "away": "AC Horsens",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1vdi2nm",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1vdi2nm",
-          "scorer": "Franculino Djú '33",
-          "minute": 33,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/8kdsdudvqygh1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/8kdsdudvqygh1/CMAF_480.mp4?source=fallback",
-          "postedAt": 1785677187000
-        }
-      ]
-    },
     {
       "home": "Legia Warszawa",
       "away": "Zagłębie Lubin",
@@ -65,6 +45,59 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/vvz3xnyhqygh1/CMAF_720.mp4?source=fallback",
           "postedAt": 1785677014000
+        },
+        {
+          "postId": "1vdjuta",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vdjuta",
+          "scorer": "Rafał Adamski",
+          "minute": 90,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/dq7h19bm4zgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/dq7h19bm4zgh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785681766000
+        }
+      ]
+    },
+    {
+      "home": "FC Vaduz",
+      "away": "FC St. Gallen",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vdjje5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vdjje5",
+          "scorer": "Aliou Baldé",
+          "minute": 1,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/1abpoh832zgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/1abpoh832zgh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785680969000
+        }
+      ]
+    },
+    {
+      "home": "FC Midtjylland",
+      "away": "AC Horsens",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vdi2nm",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vdi2nm",
+          "scorer": "Franculino Djú '33",
+          "minute": 33,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/8kdsdudvqygh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/8kdsdudvqygh1/CMAF_480.mp4?source=fallback",
+          "postedAt": 1785677187000
         }
       ]
     },
