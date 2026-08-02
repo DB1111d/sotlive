@@ -1,7 +1,146 @@
 {
-  "updated": "2026-08-01T23:40:18Z",
-  "date": "2026-08-01",
+  "updated": "2026-08-02T01:15:07Z",
+  "date": "2026-08-02",
   "matches": [
+    {
+      "home": "Flint City Bucks",
+      "away": "Vermont Green",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vd4668",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vd4668",
+          "scorer": "USL League Two Final",
+          "minute": null,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/vdct55wz1vgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/vdct55wz1vgh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785632830000
+        },
+        {
+          "postId": "1vd4bem",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vd4bem",
+          "scorer": "USL League Two Final",
+          "minute": null,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/3k02xhk94vgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/3k02xhk94vgh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785633257000
+        }
+      ]
+    },
+    {
+      "home": "Inter Miami",
+      "away": "Columbus Crew",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vd3dhi",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vd3dhi",
+          "scorer": "Luis Suarez",
+          "minute": 16,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/e83bd5a5",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785630515000
+        },
+        {
+          "postId": "1vd3prx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vd3prx",
+          "scorer": "Own Goal",
+          "minute": 34,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/286c9bb0",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785631504000
+        },
+        {
+          "postId": "1vd44g3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vd44g3",
+          "scorer": "Noah Allen",
+          "minute": 45,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/db1debf3",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785632687000
+        }
+      ]
+    },
+    {
+      "home": "Minnesota United",
+      "away": "San Diego FC",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vd3t71",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vd3t71",
+          "scorer": "Tomas Chancalay",
+          "minute": 3,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamain.com/en/aUJlesu8khDFVgd/watch",
+          "videoEmbed": "https://streamain.com/en/aUJlesu8khDFVgd/watch",
+          "directMp4": null,
+          "postedAt": 1785631779000
+        }
+      ]
+    },
+    {
+      "home": "Vancouver Whitecaps",
+      "away": "Los Angeles FC",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vd3a85",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vd3a85",
+          "scorer": "Son Heung-Min",
+          "minute": 37,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/7e79c058",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785630260000
+        }
+      ]
+    },
+    {
+      "home": "Atlanta United",
+      "away": "Philadelphia Union",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vd35bj",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vd35bj",
+          "scorer": "Miguel Almiron",
+          "minute": 30,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/0gbsszg4uugh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/0gbsszg4uugh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785629870000
+        }
+      ]
+    },
     {
       "home": "Ferro",
       "away": "Godoy Cruz",
