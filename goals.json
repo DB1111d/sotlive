@@ -1,7 +1,106 @@
 {
-  "updated": "2026-08-02T17:15:02Z",
+  "updated": "2026-08-02T18:12:57Z",
   "date": "2026-08-02",
   "matches": [
+    {
+      "home": "Pogoń Grodzisk Mazowiecki",
+      "away": "Puszcza Niepołomice",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vdoz7f",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vdoz7f",
+          "scorer": "Nikodem Niski",
+          "minute": 25,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/7jml28hw40hh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/7jml28hw40hh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785693978000
+        }
+      ]
+    },
+    {
+      "home": "NK Varaždin",
+      "away": "Hajduk Split",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vdojcj",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vdojcj",
+          "scorer": "Rokas Pukštas",
+          "minute": 56,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/y7p70qjy10hh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/y7p70qjy10hh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785692961000
+        }
+      ]
+    },
+    {
+      "home": "PSV",
+      "away": "AZ",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vdnq8m",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vdnq8m",
+          "scorer": "Mexx Meerdink",
+          "minute": 25,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/9m19la25wzgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/9m19la25wzgh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785691043000
+        },
+        {
+          "postId": "1vdnrg4",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vdnrg4",
+          "scorer": "Weslley Patati",
+          "minute": 51,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/scqd9yghwzgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/scqd9yghwzgh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785691124000
+        },
+        {
+          "postId": "1vdnz4r",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vdnz4r",
+          "scorer": "Elijah Dijkstra",
+          "minute": 58,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/q1w5ufuyxzgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/q1w5ufuyxzgh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785691629000
+        },
+        {
+          "postId": "1vdo7d1",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vdo7d1",
+          "scorer": "Ro-Zangelo Daal penalty",
+          "minute": 66,
+          "homeScore": 0,
+          "awayScore": 4,
+          "videoUrl": "https://v.redd.it/ki3zsxnjzzgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ki3zsxnjzzgh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785692162000
+        }
+      ]
+    },
     {
       "home": "Śląsk Wrocław",
       "away": "Raków Częstochowa",
@@ -19,6 +118,32 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1785690236000
+        },
+        {
+          "postId": "1vdo47k",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vdo47k",
+          "scorer": "Luka Marjanac",
+          "minute": 86,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/abwca3suyzgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/abwca3suyzgh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785691955000
+        },
+        {
+          "postId": "1vdo4ai",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vdo4ai",
+          "scorer": "Piotr Samiec-Talar",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/gqw1ti6vyzgh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/gqw1ti6vyzgh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785691960000
         }
       ]
     },
