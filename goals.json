@@ -1,7 +1,73 @@
 {
-  "updated": "2026-08-02T12:15:05Z",
+  "updated": "2026-08-02T13:59:45Z",
   "date": "2026-08-02",
   "matches": [
+    {
+      "home": "FC Midtjylland",
+      "away": "AC Horsens",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vdi2nm",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vdi2nm",
+          "scorer": "Franculino Djú '33",
+          "minute": 33,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/8kdsdudvqygh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/8kdsdudvqygh1/CMAF_480.mp4?source=fallback",
+          "postedAt": 1785677187000
+        }
+      ]
+    },
+    {
+      "home": "Legia Warszawa",
+      "away": "Zagłębie Lubin",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vdheej",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vdheej",
+          "scorer": "Filip Kocaba",
+          "minute": 4,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/s79styjjlygh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/s79styjjlygh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785675346000
+        },
+        {
+          "postId": "1vdhvnq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vdhvnq",
+          "scorer": "Łukasz Zjawiński",
+          "minute": 25,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/zmw0zqlfpygh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/zmw0zqlfpygh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785676655000
+        },
+        {
+          "postId": "1vdi0f8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vdi0f8",
+          "scorer": "Mileta Rajović",
+          "minute": 32,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/vvz3xnyhqygh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/vvz3xnyhqygh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785677014000
+        }
+      ]
+    },
     {
       "home": "Tampa Bay Rowdies",
       "away": "Louisville City",
