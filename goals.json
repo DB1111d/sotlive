@@ -1,5 +1,26 @@
 {
-  "updated": "2026-08-02T09:31:38Z",
+  "updated": "2026-08-02T11:06:20Z",
   "date": "2026-08-02",
-  "matches": []
+  "matches": [
+    {
+      "home": "Hertha Wels",
+      "away": "Austria Salzburg",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vde0di",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vde0di",
+          "scorer": "Tamar Crnkic",
+          "minute": 59,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/a24fd9a2",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785664513000
+        }
+      ]
+    }
+  ]
 }
