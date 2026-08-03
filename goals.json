@@ -1,7 +1,40 @@
 {
-  "updated": "2026-08-03T17:20:28Z",
+  "updated": "2026-08-03T19:04:57Z",
   "date": "2026-08-03",
   "matches": [
+    {
+      "home": "Cracovia",
+      "away": "Pogoń Szczecin",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vela5f",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vela5f",
+          "scorer": "Léo Borges",
+          "minute": 46,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/ahertxw7b7hh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ahertxw7b7hh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785780850000
+        },
+        {
+          "postId": "1vemkpr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vemkpr",
+          "scorer": "Paul Mukairu",
+          "minute": 90,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/wchtm4lkj7hh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/wchtm4lkj7hh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785783642000
+        }
+      ]
+    },
     {
       "home": "Indonesia",
       "away": "Vietnam",
