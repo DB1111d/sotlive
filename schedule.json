@@ -1,20 +1,6 @@
 {
-  "updated": "2026-08-02 22:50 EDT",
+  "updated": "2026-08-03 03:27 EDT",
   "days": {
-    "20260802": {
-      "date": "Sunday, August 2",
-      "games": [
-        {
-          "league": "USL Championship",
-          "time": "7:00 PM",
-          "match": "Birmingham Legion FC vs Rhode Island FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-08-02T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19405.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22164.png"
-        }
-      ]
-    },
     "20260803": {
       "date": "Monday, August 3",
       "games": [
@@ -76,6 +62,47 @@
           "kick_utc": "2026-08-06T18:45Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/333.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/401.png"
+        }
+      ]
+    },
+    "20260807": {
+      "date": "Friday, August 7",
+      "games": [
+        {
+          "league": "Carabao Cup",
+          "time": "2:45 PM",
+          "match": "Wolverhampton Wanderers vs Port Vale",
+          "source": "ESPN+",
+          "kick_utc": "2026-08-07T18:45Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/380.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/348.png"
+        },
+        {
+          "league": "Carabao Cup",
+          "time": "2:45 PM",
+          "match": "Wycombe Wanderers vs Stevenage",
+          "source": "ESPN+",
+          "kick_utc": "2026-08-07T18:45Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/344.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/285.png"
+        },
+        {
+          "league": "Carabao Cup",
+          "time": "3:00 PM",
+          "match": "Middlesbrough vs Wrexham",
+          "source": "ESPN+",
+          "kick_utc": "2026-08-07T19:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/369.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/352.png"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "2:00 PM",
+          "match": "SC Cambuur vs Excelsior",
+          "source": "ESPN+",
+          "kick_utc": "2026-08-07T18:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3736.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2566.png"
         }
       ]
     }
