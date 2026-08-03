@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-03T19:04:57Z",
+  "updated": "2026-08-03T20:38:50Z",
   "date": "2026-08-03",
   "matches": [
+    {
+      "home": "Celtic",
+      "away": "Dundee FC",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1veno39",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1veno39",
+          "scorer": "Benjamin Nygren",
+          "minute": 52,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/ei4mqe1oq7hh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ei4mqe1oq7hh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785786035000
+        }
+      ]
+    },
     {
       "home": "Cracovia",
       "away": "Pogoń Szczecin",
