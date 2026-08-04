@@ -1,7 +1,93 @@
 {
-  "updated": "2026-08-04T17:44:15Z",
+  "updated": "2026-08-04T19:11:47Z",
   "date": "2026-08-04",
   "matches": [
+    {
+      "home": "Royale USG",
+      "away": "Bodø/Glimt",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vfintq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vfintq",
+          "scorer": "Raul Florucz",
+          "minute": 25,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/7f811e01",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785868009000
+        },
+        {
+          "postId": "1vfje73",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vfje73",
+          "scorer": "Raul Florucz",
+          "minute": 45,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/8db96bf6",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785869592000
+        }
+      ]
+    },
+    {
+      "home": "Dinamo Zagreb",
+      "away": "Kauno Žalgiris",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vfiuau",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vfiuau",
+          "scorer": "Miha Zajc",
+          "minute": 31,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/1d8a58b9",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785868400000
+        },
+        {
+          "postId": "1vfiwgf",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vfiwgf",
+          "scorer": "Scott McKenna",
+          "minute": 33,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/b2486205",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785868530000
+        }
+      ]
+    },
+    {
+      "home": "Sparta Praha",
+      "away": "Olympique Lyonnais",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vfigzm",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vfigzm",
+          "scorer": "Jonatan Braut Brunes",
+          "minute": 19,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/782b3ad2",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785867612000
+        }
+      ]
+    },
     {
       "home": "UJ Kraków",
       "away": "Śląsk Wrocław",
