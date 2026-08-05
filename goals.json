@@ -1,5 +1,92 @@
 {
-  "updated": "2026-08-05T11:28:05Z",
+  "updated": "2026-08-05T13:11:40Z",
   "date": "2026-08-05",
-  "matches": []
+  "matches": [
+    {
+      "home": "Chelsea",
+      "away": "Juventus",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vg6pap",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vg6pap",
+          "scorer": "Edon Zhegrova Great-goal",
+          "minute": 68,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/39a1c070",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785934802000
+        }
+      ]
+    },
+    {
+      "home": "Milan",
+      "away": "Inter Milan",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vg5xtx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vg5xtx",
+          "scorer": "Federico Dimarco",
+          "minute": 53,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/d41942b3",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785932821000
+        },
+        {
+          "postId": "1vg6abu",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vg6abu",
+          "scorer": "Federico Dimarco",
+          "minute": 62,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/a41942b3",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785933738000
+        },
+        {
+          "postId": "1vg6p1x",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vg6p1x",
+          "scorer": "Christopher Nkunku Penalty",
+          "minute": 85,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/79ac2666",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785934783000
+        }
+      ]
+    },
+    {
+      "home": "K-League Stars",
+      "away": "Manchester City",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vg5qnw",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vg5qnw",
+          "scorer": "Tijjani Reijnders",
+          "minute": 20,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/64c5f81b",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785932279000
+        }
+      ]
+    }
+  ]
 }
