@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-05T22:44:17Z",
+  "updated": "2026-08-05T23:40:19Z",
   "date": "2026-08-05",
   "matches": [
+    {
+      "home": "Cruzeiro",
+      "away": "Chapecoense",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vgmtso",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vgmtso",
+          "scorer": "Matheus Henrique",
+          "minute": 45,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/0ld9bcjgzmhh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785970597000
+        }
+      ]
+    },
     {
       "home": "Unia Skierniewice",
       "away": "Sokół Kleczew",
