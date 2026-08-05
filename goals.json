@@ -1,7 +1,178 @@
 {
-  "updated": "2026-08-05T18:49:39Z",
+  "updated": "2026-08-05T20:23:33Z",
   "date": "2026-08-05",
   "matches": [
+    {
+      "home": "Mallorca",
+      "away": "Paris Saint-Germain",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vgh6dv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vgh6dv",
+          "scorer": "Zito Luvumbo",
+          "minute": 21,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/e72bb61c",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785957754000
+        },
+        {
+          "postId": "1vghobt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vghobt",
+          "scorer": "Jan Virgili",
+          "minute": 40,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/19ae037e",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785958835000
+        },
+        {
+          "postId": "1vgiiq2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vgiiq2",
+          "scorer": "Antonio Raillo",
+          "minute": 51,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/bef5b1ac",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785960610000
+        }
+      ]
+    },
+    {
+      "home": "Ferencváros",
+      "away": "Górnik Zabrze",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vgg26w",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vgg26w",
+          "scorer": "Lenny Joseph chance",
+          "minute": 23,
+          "homeScore": 0,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/j3df5sy7qlhh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/j3df5sy7qlhh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785955380000
+        },
+        {
+          "postId": "1vghmqs",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vghmqs",
+          "scorer": "Marius Corbu",
+          "minute": 65,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/f76e7bd80mhh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/f76e7bd80mhh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785958742000
+        }
+      ]
+    },
+    {
+      "home": "Arsenal",
+      "away": "Real Betis",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vggduh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vggduh",
+          "scorer": "Rodrigo Riquelme",
+          "minute": 9,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/6b36e84d",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785956067000
+        },
+        {
+          "postId": "1vggw1c",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vggw1c",
+          "scorer": "Nelson Deossa Great-strike",
+          "minute": 26,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/41dae803",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785957141000
+        },
+        {
+          "postId": "1vgh1pw",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vgh1pw",
+          "scorer": "Piero Hincapie",
+          "minute": 32,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/129c9ee3",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785957474000
+        },
+        {
+          "postId": "1vghd5x",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vghd5x",
+          "scorer": "Pablo Fornals",
+          "minute": 44,
+          "homeScore": 1,
+          "awayScore": 3,
+          "videoUrl": "https://streamin.link/v/e3123797",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785958173000
+        }
+      ]
+    },
+    {
+      "home": "Panathinaikos",
+      "away": "CSKA 1948 Sofia",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vgge1m",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vgge1m",
+          "scorer": "Adriano Jagusic",
+          "minute": 21,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/a72quiicslhh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/a72quiicslhh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785956078000
+        },
+        {
+          "postId": "1vggs5s",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vggs5s",
+          "scorer": "Georgi Rusev",
+          "minute": 31,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/7x8p79ssulhh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/7x8p79ssulhh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785956905000
+        }
+      ]
+    },
     {
       "home": "Fenerbahçe",
       "away": "Sturm Graz",
@@ -32,26 +203,6 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1785955632000
-        }
-      ]
-    },
-    {
-      "home": "Ferencváros",
-      "away": "Górnik Zabrze",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1vgg26w",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1vgg26w",
-          "scorer": "Lenny Joseph chance",
-          "minute": 23,
-          "homeScore": 0,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/j3df5sy7qlhh1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/j3df5sy7qlhh1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1785955380000
         }
       ]
     },
