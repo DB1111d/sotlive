@@ -1,7 +1,166 @@
 {
-  "updated": "2026-08-05T17:02:37Z",
+  "updated": "2026-08-05T18:49:39Z",
   "date": "2026-08-05",
   "matches": [
+    {
+      "home": "Fenerbahçe",
+      "away": "Sturm Graz",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vgf6o9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vgf6o9",
+          "scorer": "Anderson Talisca",
+          "minute": 10,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/894208e7",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785953497000
+        },
+        {
+          "postId": "1vgg6lc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vgg6lc",
+          "scorer": "Mason Greenwood",
+          "minute": 45,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/1dac11c1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785955632000
+        }
+      ]
+    },
+    {
+      "home": "Ferencváros",
+      "away": "Górnik Zabrze",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vgg26w",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vgg26w",
+          "scorer": "Lenny Joseph chance",
+          "minute": 23,
+          "homeScore": 0,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/j3df5sy7qlhh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/j3df5sy7qlhh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785955380000
+        }
+      ]
+    },
+    {
+      "home": "Aarhus GF",
+      "away": "Sabah Baku",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vgeex4",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vgeex4",
+          "scorer": "James Bogere",
+          "minute": 31,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/qr7i51jtflhh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/qr7i51jtflhh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785951867000
+        },
+        {
+          "postId": "1vgfue6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vgfue6",
+          "scorer": "James Bogere",
+          "minute": 63,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/l5dssqpvolhh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/l5dssqpvolhh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785954913000
+        },
+        {
+          "postId": "1vgfxj6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vgfxj6",
+          "scorer": "Veljko Simic",
+          "minute": 67,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/jbqdblrfplhh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/jbqdblrfplhh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785955101000
+        }
+      ]
+    },
+    {
+      "home": "Fenerbahce",
+      "away": "Sturm Graz",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vgf6pk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vgf6pk",
+          "scorer": "Talisca",
+          "minute": 10,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/acpu6k0oklhh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/acpu6k0oklhh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785953499000
+        }
+      ]
+    },
+    {
+      "home": "Brann",
+      "away": "Apollon Limassol",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vgdwwq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vgdwwq",
+          "scorer": "Alen Ozbolt",
+          "minute": 22,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/v598k80oclhh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/v598k80oclhh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785950806000
+        }
+      ]
+    },
+    {
+      "home": "SSC Napoli",
+      "away": "Osasuna",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vgdhr6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vgdhr6",
+          "scorer": "Matteo Politano",
+          "minute": 27,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/17af4942",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1785949922000
+        }
+      ]
+    },
     {
       "home": "Chelsea",
       "away": "Juventus",
