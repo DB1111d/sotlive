@@ -1,7 +1,47 @@
 {
-  "updated": "2026-08-05T23:40:19Z",
-  "date": "2026-08-05",
+  "updated": "2026-08-06T01:04:24Z",
+  "date": "2026-08-06",
   "matches": [
+    {
+      "home": "Inter Miami",
+      "away": "Atlético San Luis",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vgp02d",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vgp02d",
+          "scorer": "Lionel Messi",
+          "minute": 44,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/yvj7gru3gnhh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/yvj7gru3gnhh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1785976189000
+        }
+      ]
+    },
+    {
+      "home": "Richmond Kickers",
+      "away": "NY Cosmos FC",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vgo3t9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vgo3t9",
+          "scorer": "",
+          "minute": null,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/973w7at59nhh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/973w7at59nhh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1785973863000
+        }
+      ]
+    },
     {
       "home": "Cruzeiro",
       "away": "Chapecoense",
