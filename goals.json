@@ -1,5 +1,26 @@
 {
-  "updated": "2026-08-06T12:17:52Z",
+  "updated": "2026-08-06T14:52:03Z",
   "date": "2026-08-06",
-  "matches": []
+  "matches": [
+    {
+      "home": "China U17",
+      "away": "Arsenal U17",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vh4ooo",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vh4ooo",
+          "scorer": "Zhao Songyuan",
+          "minute": 23,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/zfkqb5kwdrhh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/zfkqb5kwdrhh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786023896000
+        }
+      ]
+    }
+  ]
 }
