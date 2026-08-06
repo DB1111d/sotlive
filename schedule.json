@@ -1,10 +1,6 @@
 {
-  "updated": "2026-08-05 22:35 EDT",
+  "updated": "2026-08-06 02:30 EDT",
   "days": {
-    "20260805": {
-      "date": "Wednesday, August 5",
-      "games": []
-    },
     "20260806": {
       "date": "Thursday, August 6",
       "games": []
@@ -19,6 +15,10 @@
     },
     "20260809": {
       "date": "Sunday, August 9",
+      "games": []
+    },
+    "20260810": {
+      "date": "Monday, August 10",
       "games": []
     }
   }
