@@ -1,7 +1,60 @@
 {
-  "updated": "2026-08-07T00:22:23Z",
+  "updated": "2026-08-07T03:26:22Z",
   "date": "2026-08-07",
   "matches": [
+    {
+      "home": "Union",
+      "away": "Lanús",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vhobuw",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vhobuw",
+          "scorer": "Joaquín Mosqueira",
+          "minute": 76,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/gvtwg2ji7vhh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/gvtwg2ji7vhh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786070140000
+        }
+      ]
+    },
+    {
+      "home": "Chicago Fire",
+      "away": "Necaxa",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vhmir8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vhmir8",
+          "scorer": "Jonathan Dean",
+          "minute": 31,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/gi3xq46gsuhh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/gi3xq46gsuhh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786065082000
+        },
+        {
+          "postId": "1vhnra6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vhnra6",
+          "scorer": "Andrew Gutman",
+          "minute": 69,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/hstp7r5p2vhh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/hstp7r5p2vhh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786068532000
+        }
+      ]
+    },
     {
       "home": "SL Benfica",
       "away": "Hearts",
