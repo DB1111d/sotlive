@@ -1,7 +1,53 @@
 {
-  "updated": "2026-08-07T18:09:49Z",
+  "updated": "2026-08-07T19:13:42Z",
   "date": "2026-08-07",
   "matches": [
+    {
+      "home": "Wisła Kraków",
+      "away": "Wisła Płock",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vi95vo",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vi95vo",
+          "scorer": "Ángel Rodado",
+          "minute": 14,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/1ni173qr00ih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/1ni173qr00ih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786128438000
+        },
+        {
+          "postId": "1vi9j2d",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vi9j2d",
+          "scorer": "Saïd Hamulic",
+          "minute": 28,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/d7cilmp830ih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/d7cilmp830ih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786129258000
+        },
+        {
+          "postId": "1vi9qxa",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vi9qxa",
+          "scorer": "Jordi Sánchez",
+          "minute": 36,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/5jyal2fo40ih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/5jyal2fo40ih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786129740000
+        }
+      ]
+    },
     {
       "home": "Waldhof Mannheim",
       "away": "Fortuna Düsseldorf",
@@ -19,6 +65,32 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1786123310000
+        },
+        {
+          "postId": "1vi85d6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vi85d6",
+          "scorer": "Julian Ulbricht",
+          "minute": 49,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/fba3d20e",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786126205000
+        },
+        {
+          "postId": "1vi8cyv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vi8cyv",
+          "scorer": "Fabian Schleusener",
+          "minute": 57,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/1c6ac77e",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786126663000
         }
       ]
     },
