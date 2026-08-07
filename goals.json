@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-07T17:21:08Z",
+  "updated": "2026-08-07T18:09:49Z",
   "date": "2026-08-07",
   "matches": [
+    {
+      "home": "Waldhof Mannheim",
+      "away": "Fortuna Düsseldorf",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vi6u4i",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vi6u4i",
+          "scorer": "Vincent Thill",
+          "minute": 19,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/fba0d660",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786123310000
+        }
+      ]
+    },
     {
       "home": "Bayern München",
       "away": "Aston Villa",
