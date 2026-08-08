@@ -193,22 +193,10 @@ def is_real_match(title: str) -> bool:
 def fetch_json(url: str) -> dict:
     req = urllib.request.Request(
         url,
-        headers={
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-            "Accept": "application/json, text/plain, */*",
-            "Accept-Language": "en-US,en;q=0.9",
-            "Accept-Encoding": "gzip, deflate, br",
-            "Origin": "https://www.espn.com",
-            "Referer": "https://www.espn.com/soccer/",
-            "Connection": "keep-alive",
-        }
+        headers={"User-Agent": "Mozilla/5.0 (compatible; SOTLive/1.0)"}
     )
     with urllib.request.urlopen(req, timeout=15) as resp:
-        raw = resp.read()
-        if resp.info().get("Content-Encoding") == "gzip":
-            import gzip
-            raw = gzip.decompress(raw)
-        return json.loads(raw.decode("utf-8"))
+        return json.loads(resp.read().decode("utf-8"))
 
 
 def date_range(days: int):
@@ -308,14 +296,13 @@ def slug_to_round_label(slug: str) -> str:
 def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> list:
     """Fetch games for one league on one date via ESPN's scoreboard API."""
     url = (
-        f"https://site.web.api.espn.com/apis/site/v2/sports/soccer"
+        f"https://site.api.espn.com/apis/site/v2/sports/soccer"
         f"/{league_slug}/scoreboard?dates={date_str}"
     )
     try:
         data = fetch_json(url)
     except Exception as e:
-        err = str(e)
-        if "400" not in err and "403" not in err:
+        if "400" not in str(e):
             print(f"    API error for {league_slug} on {date_str}: {e}")
         return []
 
@@ -420,7 +407,7 @@ def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> 
                     # No known broadcaster — skip the game entirely
                     continue
                 else:
-                    source_names = ["ESPN+"]
+                    continue
 
             source = " · ".join(source_names) if source_names else ""
 
