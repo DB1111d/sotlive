@@ -473,17 +473,18 @@ function buildLeagueFilter(matchList) {
   // Leagues present in data, ordered by LEAGUE_ORDER, Other always last
   const present = new Set(matchList.map(m => m.league).filter(Boolean));
   const ordered = LEAGUE_ORDER.filter(l => present.has(l));
+  const hasOther = matchList.some(m => !m.league || !LEAGUE_ORDER.includes(m.league) || m.league === 'Other');
 
   // No buttons at all — hide bar
-  if (ordered.length === 0) {
+  if (ordered.length === 0 && !hasOther) {
     bar.style.display = 'none';
     activeLeague = '';
     return;
   }
 
   // Auto-select on first load — first known league, or Other if none
-  if (!activeLeague || (!ordered.includes(activeLeague))) {
-    activeLeague = ordered.length > 0 ? ordered[0] : ordered[0];
+  if (!activeLeague || (!ordered.includes(activeLeague) && !(hasOther && activeLeague === 'Other'))) {
+    activeLeague = ordered.length > 0 ? ordered[0] : 'Other';
   }
 
   bar.style.display = 'flex';
@@ -498,7 +499,15 @@ function buildLeagueFilter(matchList) {
     bar.appendChild(btn);
   });
 
-
+  // Other always last — button hidden visually but functionality kept
+  if (hasOther) {
+    const otherBtn = document.createElement('button');
+    otherBtn.className = 'league-btn' + (activeLeague === 'Other' ? ' active' : '');
+    otherBtn.textContent = 'Other';
+    otherBtn.onclick = () => { activeLeague = 'Other'; render(); };
+    otherBtn.style.display = 'none';
+    bar.appendChild(otherBtn);
+  }
 }
 
 // ── Render ────────────────────────────────────────────────
@@ -525,10 +534,9 @@ function render() {
 
   buildLeagueFilter(matchList);
 
-  // Apply league filter
+  // Apply league filter — "Other" shows anything not in LEAGUE_ORDER
   const filtered = activeLeague === 'Other'
-    ? []
-    : matchList.filter(m => m.league === activeLeague)
+    ? matchList.filter(m => !m.league || !LEAGUE_ORDER.includes(m.league) || m.league === 'Other')
     : matchList.filter(m => m.league === activeLeague);
 
   if (filtered.length === 0) {
