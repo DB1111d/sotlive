@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08 14:27 EDT",
+  "updated": "2026-08-08 16:29 EDT",
   "days": {
     "20260808": {
       "date": "Saturday, August 8",
@@ -39,15 +39,6 @@
           "kick_utc": "2026-08-08T19:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2726.png"
-        },
-        {
-          "league": "USL Championship",
-          "time": "7:00 PM",
-          "match": "Brooklyn FC vs Birmingham Legion FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-08-08T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131579.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19405.png"
         },
         {
           "league": "USL Championship",
