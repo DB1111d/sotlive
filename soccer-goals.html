@@ -428,7 +428,7 @@ const POLL_MS = 15 * 60 * 1000;
 
 const LEAGUE_ORDER = [
   'UEFA Champions League', 'UEFA Europa League', 'UEFA Europa Conference League',
-  'Premier League', 'MLS', 'CONCACAF Champions Cup', 'US Open Cup',
+  'Premier League', 'MLS', 'Leagues Cup', 'CONCACAF Champions Cup', 'US Open Cup',
   'English FA Cup', 'EFL Championship', 'Serie A', 'German Bundesliga', 'La Liga',
 ];
 
@@ -473,18 +473,17 @@ function buildLeagueFilter(matchList) {
   // Leagues present in data, ordered by LEAGUE_ORDER, Other always last
   const present = new Set(matchList.map(m => m.league).filter(Boolean));
   const ordered = LEAGUE_ORDER.filter(l => present.has(l));
-  const hasOther = matchList.some(m => !m.league || !LEAGUE_ORDER.includes(m.league) || m.league === 'Other');
 
   // No buttons at all — hide bar
-  if (ordered.length === 0 && !hasOther) {
+  if (ordered.length === 0) {
     bar.style.display = 'none';
     activeLeague = '';
     return;
   }
 
   // Auto-select on first load — first known league, or Other if none
-  if (!activeLeague || (!ordered.includes(activeLeague) && !(hasOther && activeLeague === 'Other'))) {
-    activeLeague = ordered.length > 0 ? ordered[0] : 'Other';
+  if (!activeLeague || (!ordered.includes(activeLeague))) {
+    activeLeague = ordered.length > 0 ? ordered[0] : ordered[0];
   }
 
   bar.style.display = 'flex';
@@ -499,14 +498,7 @@ function buildLeagueFilter(matchList) {
     bar.appendChild(btn);
   });
 
-  // Other always last
-  if (hasOther) {
-    const otherBtn = document.createElement('button');
-    otherBtn.className = 'league-btn' + (activeLeague === 'Other' ? ' active' : '');
-    otherBtn.textContent = 'Other';
-    otherBtn.onclick = () => { activeLeague = 'Other'; render(); };
-    bar.appendChild(otherBtn);
-  }
+
 }
 
 // ── Render ────────────────────────────────────────────────
@@ -533,9 +525,10 @@ function render() {
 
   buildLeagueFilter(matchList);
 
-  // Apply league filter — "Other" shows anything not in LEAGUE_ORDER
+  // Apply league filter
   const filtered = activeLeague === 'Other'
-    ? matchList.filter(m => !m.league || !LEAGUE_ORDER.includes(m.league) || m.league === 'Other')
+    ? []
+    : matchList.filter(m => m.league === activeLeague)
     : matchList.filter(m => m.league === activeLeague);
 
   if (filtered.length === 0) {
