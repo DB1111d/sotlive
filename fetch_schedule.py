@@ -374,9 +374,6 @@ def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> 
                 if not isinstance(media, dict):
                     continue
                 short = media.get("shortName", "")
-                lang = b.get("lang", "en")
-                if lang != "en":
-                    continue
                 if short.lower() in SPANISH_EXCLUDE:
                     continue
                 mapped = ESPN_SOURCE_MAP.get(short)
