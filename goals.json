@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T20:58:04Z",
+  "updated": "2026-08-08T21:34:17Z",
   "date": "2026-08-08",
   "matches": [
     {
@@ -32,6 +32,52 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/eiyiqrdfr7ih1/CMAF_720.mp4?source=fallback",
           "postedAt": 1786222134000
+        },
+        {
+          "postId": "1vj6zhj",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vj6zhj",
+          "scorer": "Leandro Antonetti",
+          "minute": 72,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/ia05oqyqt7ih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ia05oqyqt7ih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786222915000
+        },
+        {
+          "postId": "1vj79vs",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vj79vs",
+          "scorer": "Bénito",
+          "minute": 84,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/1kx63kkzv7ih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/1kx63kkzv7ih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786223674000
+        }
+      ]
+    },
+    {
+      "home": "Morocco",
+      "away": "South Africa",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vj6wdy",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vj6wdy",
+          "scorer": "Sakina Ouzraoui",
+          "minute": 31,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/p4g00lums7ih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/p4g00lums7ih1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786222699000
         }
       ]
     },
