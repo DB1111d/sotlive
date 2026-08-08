@@ -1,5 +1,26 @@
 {
-  "updated": "2026-08-08T05:14:32Z",
+  "updated": "2026-08-08T05:58:44Z",
   "date": "2026-08-08",
-  "matches": []
+  "matches": [
+    {
+      "home": "SJK",
+      "away": "IF Gnistan",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vin8gu",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vin8gu",
+          "scorer": "Roman Eremenko",
+          "minute": 11,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/elol5zzx43ih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/elol5zzx43ih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786166138000
+        }
+      ]
+    }
+  ]
 }
