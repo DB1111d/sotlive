@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-08T17:25:40Z",
+  "updated": "2026-08-08T17:56:57Z",
   "date": "2026-08-08",
   "matches": [
+    {
+      "home": "Ferencvaros",
+      "away": "Real Madrid",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vj2fi5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vj2fi5",
+          "scorer": "Mario Rivas",
+          "minute": 41,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/e1c2680c",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786211572000
+        }
+      ]
+    },
     {
       "home": "Pogoń Szczecin",
       "away": "Motor Lublin",
@@ -32,6 +52,32 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/1gsrif9qe6ih1/CMAF_720.mp4?source=fallback",
           "postedAt": 1786205765000
+        },
+        {
+          "postId": "1vj1qqw",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vj1qqw",
+          "scorer": "Makan Aïko",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/frbmkdmzq6ih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/frbmkdmzq6ih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786209914000
+        },
+        {
+          "postId": "1vj1qza",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vj1qza",
+          "scorer": "Kellyn Acosta",
+          "minute": 90,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/qn3ydyyzq6ih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/qn3ydyyzq6ih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786209929000
         }
       ]
     },
