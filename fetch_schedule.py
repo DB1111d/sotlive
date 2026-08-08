@@ -296,7 +296,7 @@ def slug_to_round_label(slug: str) -> str:
 def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> list:
     """Fetch games for one league on one date via ESPN's scoreboard API."""
     url = (
-        f"https://site.api.espn.com/apis/site/v2/sports/soccer"
+        f"https://site.web.api.espn.com/apis/site/v2/sports/soccer"
         f"/{league_slug}/scoreboard?dates={date_str}"
     )
     try:
