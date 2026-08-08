@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T11:24:37Z",
+  "updated": "2026-08-08T11:52:44Z",
   "date": "2026-08-08",
   "matches": [
     {
@@ -19,6 +19,58 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1786188065000
+        },
+        {
+          "postId": "1vitke1",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vitke1",
+          "scorer": "Niklas Wiemann",
+          "minute": 23,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/b0325c44",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786188503000
+        },
+        {
+          "postId": "1vitpo9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vitpo9",
+          "scorer": "Marcel Costly",
+          "minute": 29,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/1c539e1b",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786188965000
+        },
+        {
+          "postId": "1vitukt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vitukt",
+          "scorer": "David Kopacz",
+          "minute": 34,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/0a31f49b",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786189398000
+        },
+        {
+          "postId": "1vitzd2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vitzd2",
+          "scorer": "Jan Schöppner",
+          "minute": 45,
+          "homeScore": 3,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/bccfc192",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786189823000
         }
       ]
     },
@@ -39,6 +91,85 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1786187560000
+        },
+        {
+          "postId": "1vity9v",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vity9v",
+          "scorer": "Phil Harres",
+          "minute": 42,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/a1a9931a",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786189724000
+        }
+      ]
+    },
+    {
+      "home": "Juventus",
+      "away": "Inter Milan",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vitp90",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vitp90",
+          "scorer": "Federico Dimarco",
+          "minute": 20,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/c9361641",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786188930000
+        }
+      ]
+    },
+    {
+      "home": "Magdeburg",
+      "away": "Eintracht Braunschweig",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1viti42",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1viti42",
+          "scorer": "Aaron Opoku",
+          "minute": 15,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/ab696520",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786188300000
+        },
+        {
+          "postId": "1vitm3n",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vitm3n",
+          "scorer": "Jan Urbich",
+          "minute": 21,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/796735bf",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786188652000
+        },
+        {
+          "postId": "1vito87",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vito87",
+          "scorer": "Jan Urbich",
+          "minute": 26,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://streamin.link/v/a0302225",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786188839000
         }
       ]
     },
