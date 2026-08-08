@@ -1,7 +1,40 @@
 {
-  "updated": "2026-08-08T19:15:38Z",
+  "updated": "2026-08-08T19:52:27Z",
   "date": "2026-08-08",
   "matches": [
+    {
+      "home": "Korona Kielce",
+      "away": "Legia Warszawa",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vj3qvk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vj3qvk",
+          "scorer": "Łukasz Zjawiński",
+          "minute": 28,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/mfayvxgd57ih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/mfayvxgd57ih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786214719000
+        },
+        {
+          "postId": "1vj596k",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vj596k",
+          "scorer": "Mariusz Stępiński",
+          "minute": 70,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/fghclbjkg7ih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/fghclbjkg7ih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786218484000
+        }
+      ]
+    },
     {
       "home": "Valencia",
       "away": "Newcastle United",
@@ -39,26 +72,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/o25hv4fy87ih1/CMAF_1080.mp4?source=fallback",
           "postedAt": 1786215972000
-        }
-      ]
-    },
-    {
-      "home": "Korona Kielce",
-      "away": "Legia Warszawa",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1vj3qvk",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1vj3qvk",
-          "scorer": "Łukasz Zjawiński",
-          "minute": 28,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/mfayvxgd57ih1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/mfayvxgd57ih1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1786214719000
         }
       ]
     },
