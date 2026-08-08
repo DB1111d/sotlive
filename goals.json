@@ -1,7 +1,67 @@
 {
-  "updated": "2026-08-08T18:38:34Z",
+  "updated": "2026-08-08T19:15:38Z",
   "date": "2026-08-08",
   "matches": [
+    {
+      "home": "Valencia",
+      "away": "Newcastle United",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vj4fao",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vj4fao",
+          "scorer": "Ugrinić",
+          "minute": 4,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/eo8oyd6ca7ih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/eo8oyd6ca7ih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786216377000
+        }
+      ]
+    },
+    {
+      "home": "Lausanne-Sport",
+      "away": "Young Boys",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vj499t",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vj499t",
+          "scorer": "Nathan Butler-Oyedej",
+          "minute": 89,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/o25hv4fy87ih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/o25hv4fy87ih1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786215972000
+        }
+      ]
+    },
+    {
+      "home": "Korona Kielce",
+      "away": "Legia Warszawa",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vj3qvk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vj3qvk",
+          "scorer": "Łukasz Zjawiński",
+          "minute": 28,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/mfayvxgd57ih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/mfayvxgd57ih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786214719000
+        }
+      ]
+    },
     {
       "home": "Ferencvaros",
       "away": "Real Madrid",
