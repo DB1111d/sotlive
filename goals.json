@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T16:02:04Z",
+  "updated": "2026-08-08T16:50:46Z",
   "date": "2026-08-08",
   "matches": [
     {
@@ -19,6 +19,19 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/mqmopmg4a6ih1/CMAF_720.mp4?source=fallback",
           "postedAt": 1786204216000
+        },
+        {
+          "postId": "1vj012a",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vj012a",
+          "scorer": "Attila Szalai",
+          "minute": 43,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/1gsrif9qe6ih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/1gsrif9qe6ih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786205765000
         }
       ]
     },
