@@ -407,6 +407,7 @@ def fetch_espn_league_day(league_slug: str, league_name: str, date_str: str) -> 
                     # No known broadcaster — skip the game entirely
                     continue
                 else:
+                    # No broadcaster found — skip, don't make one up
                     continue
 
             source = " · ".join(source_names) if source_names else ""
