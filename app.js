@@ -41,6 +41,7 @@ const LEAGUE_ORDER = [
   'USL Championship',
   'USL League One',
   'Liga MX',
+  'Leagues Cup',
   'World Cup Qualifying',
   'International Friendly',
   'Friendly',
