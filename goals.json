@@ -1,24 +1,37 @@
 {
-  "updated": "2026-08-08T12:19:19Z",
+  "updated": "2026-08-08T12:40:15Z",
   "date": "2026-08-08",
   "matches": [
     {
-      "home": "Duisburg",
-      "away": "Meppen",
+      "home": "Ingolstadt",
+      "away": "Würzburger Kickers",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1viuhx6",
+          "postId": "1viuto6",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1viuhx6",
-          "scorer": "Lex-Tyger Lobinger",
-          "minute": 8,
+          "permalink": "https://redd.it/1viuto6",
+          "scorer": "Lars Lokotsch",
+          "minute": 16,
           "homeScore": 1,
           "awayScore": 0,
-          "videoUrl": "https://streamin.link/v/acb616cf",
+          "videoUrl": "https://streamin.link/v/da45415c",
           "videoEmbed": null,
           "directMp4": null,
-          "postedAt": 1786191359000
+          "postedAt": 1786192317000
+        },
+        {
+          "postId": "1viuxzu",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1viuxzu",
+          "scorer": "Tarsis Bonga",
+          "minute": 21,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/82a3751d",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786192659000
         }
       ]
     },
@@ -78,6 +91,65 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1786190022000
+        },
+        {
+          "postId": "1viuor5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1viuor5",
+          "scorer": "Mateusz Zukowski",
+          "minute": 49,
+          "homeScore": 1,
+          "awayScore": 4,
+          "videoUrl": "https://streamin.link/v/e91d398f",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786191920000
+        },
+        {
+          "postId": "1viurbi",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1viurbi",
+          "scorer": "Samuele Di Benedetto",
+          "minute": 50,
+          "homeScore": 1,
+          "awayScore": 5,
+          "videoUrl": "https://streamin.link/v/33aa95da",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786192128000
+        },
+        {
+          "postId": "1viuvcu",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1viuvcu",
+          "scorer": "Florian Flick",
+          "minute": 61,
+          "homeScore": 1,
+          "awayScore": 6,
+          "videoUrl": "https://streamin.link/v/1c6f9ced",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786192450000
+        }
+      ]
+    },
+    {
+      "home": "Duisburg",
+      "away": "Meppen",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1viuhx6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1viuhx6",
+          "scorer": "Lex-Tyger Lobinger",
+          "minute": 8,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/acb616cf",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786191359000
         }
       ]
     },
