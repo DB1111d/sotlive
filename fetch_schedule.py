@@ -193,10 +193,22 @@ def is_real_match(title: str) -> bool:
 def fetch_json(url: str) -> dict:
     req = urllib.request.Request(
         url,
-        headers={"User-Agent": "Mozilla/5.0 (compatible; SOTLive/1.0)"}
+        headers={
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+            "Accept": "application/json, text/plain, */*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Accept-Encoding": "gzip, deflate, br",
+            "Origin": "https://www.espn.com",
+            "Referer": "https://www.espn.com/soccer/",
+            "Connection": "keep-alive",
+        }
     )
     with urllib.request.urlopen(req, timeout=15) as resp:
-        return json.loads(resp.read().decode("utf-8"))
+        raw = resp.read()
+        if resp.info().get("Content-Encoding") == "gzip":
+            import gzip
+            raw = gzip.decompress(raw)
+        return json.loads(raw.decode("utf-8"))
 
 
 def date_range(days: int):
