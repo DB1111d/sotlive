@@ -1,7 +1,40 @@
 {
-  "updated": "2026-08-08T20:24:19Z",
+  "updated": "2026-08-08T20:58:04Z",
   "date": "2026-08-08",
   "matches": [
+    {
+      "home": "Estrela da Amadora",
+      "away": "Sporting CP",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vj6ltl",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vj6ltl",
+          "scorer": "Rodrigo Zalazar",
+          "minute": 46,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/z96mqcesq7ih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/z96mqcesq7ih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786221935000
+        },
+        {
+          "postId": "1vj6ok2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vj6ok2",
+          "scorer": "Fotis Ioannidis",
+          "minute": 59,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/eiyiqrdfr7ih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/eiyiqrdfr7ih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786222134000
+        }
+      ]
+    },
     {
       "home": "Valencia",
       "away": "Newcastle United",
@@ -32,6 +65,59 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/ngg9rjwvm7ih1/CMAF_720.mp4?source=fallback",
           "postedAt": 1786220596000
+        },
+        {
+          "postId": "1vj6moh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vj6moh",
+          "scorer": "Wissa",
+          "minute": 75,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/5ct2y9u1r7ih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/5ct2y9u1r7ih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786221996000
+        }
+      ]
+    },
+    {
+      "home": "Vasas",
+      "away": "ZTE",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vj6et0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vj6et0",
+          "scorer": "Jozef Urblík",
+          "minute": 86,
+          "homeScore": 5,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/wpkq77ibp7ih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/wpkq77ibp7ih1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786221430000
+        }
+      ]
+    },
+    {
+      "home": "Servette FC",
+      "away": "Grasshoppers",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vj66c1",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vj66c1",
+          "scorer": "Mathis Lambourde",
+          "minute": 75,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/8a882nghn7ih1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786220820000
         }
       ]
     },
