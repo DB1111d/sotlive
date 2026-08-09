@@ -1,7 +1,60 @@
 {
-  "updated": "2026-08-09T11:44:01Z",
+  "updated": "2026-08-09T12:15:17Z",
   "date": "2026-08-09",
   "matches": [
+    {
+      "home": "Energie Cottbus",
+      "away": "Hannover",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vjnzpb",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vjnzpb",
+          "scorer": "Tolcay Cigerci",
+          "minute": 14,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/71b1d750",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786276575000
+        },
+        {
+          "postId": "1vjo9lr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vjo9lr",
+          "scorer": "Maurice Neubauer",
+          "minute": 28,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/b6c9651c",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786277398000
+        }
+      ]
+    },
+    {
+      "home": "Manchester City",
+      "away": "Atletico Madrid",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vjntf2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vjntf2",
+          "scorer": "Jorge Dominguez 43‎'‎",
+          "minute": null,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/58cd9584",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786276000000
+        }
+      ]
+    },
     {
       "home": "Brisbane Roar",
       "away": "Sydney FC",
