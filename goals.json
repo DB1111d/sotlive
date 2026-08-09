@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-09T09:10:20Z",
+  "updated": "2026-08-09T09:55:10Z",
   "date": "2026-08-09",
   "matches": [
+    {
+      "home": "Brisbane Roar",
+      "away": "Sydney FC",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vjlnij",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vjlnij",
+          "scorer": "Own Goal",
+          "minute": null,
+          "homeScore": 2,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/tli4mjpilbih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/tli4mjpilbih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786268593000
+        }
+      ]
+    },
     {
       "home": "Toluca",
       "away": "LAFC",
