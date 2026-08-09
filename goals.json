@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-09T14:08:28Z",
+  "updated": "2026-08-09T14:51:19Z",
   "date": "2026-08-09",
   "matches": [
     {
@@ -32,6 +32,124 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1786284087000
+        },
+        {
+          "postId": "1vjrbr8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vjrbr8",
+          "scorer": "Aleksandr Golovin Penalty",
+          "minute": 43,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/fee863dc",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786285786000
+        },
+        {
+          "postId": "1vjrpyd",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vjrpyd",
+          "scorer": "Mika Biereth",
+          "minute": 56,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/95372129",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786286784000
+        }
+      ]
+    },
+    {
+      "home": "Arsenal",
+      "away": "Borussia Dortmund",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vjpgqa",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vjpgqa",
+          "scorer": "Samuele Inacio",
+          "minute": 7,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/493c06e4",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786280890000
+        },
+        {
+          "postId": "1vjpzj7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vjpzj7",
+          "scorer": "Konstantinos Karetsas",
+          "minute": 29,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/c7d02db9",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786282310000
+        },
+        {
+          "postId": "1vjqy1g",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vjqy1g",
+          "scorer": "Ethan Nwaneri",
+          "minute": 55,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/8985e9e3",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786284818000
+        },
+        {
+          "postId": "1vjr1ak",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vjr1ak",
+          "scorer": "Joane Gadou",
+          "minute": 58,
+          "homeScore": 1,
+          "awayScore": 3,
+          "videoUrl": "https://streamin.link/v/99755595",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786285049000
+        },
+        {
+          "postId": "1vjraju",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vjraju",
+          "scorer": "Viktor Gyökeres Penalty",
+          "minute": 69,
+          "homeScore": 2,
+          "awayScore": 3,
+          "videoUrl": "https://streamin.link/v/5b0aa545",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786285699000
+        }
+      ]
+    },
+    {
+      "home": "FC Lugano",
+      "away": "FC Zürich",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vjr558",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vjr558",
+          "scorer": "Daniel Dos Santos",
+          "minute": 79,
+          "homeScore": 4,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/6q1etek6zcih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/6q1etek6zcih1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786285321000
         }
       ]
     },
@@ -91,39 +209,6 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1786283499000
-        }
-      ]
-    },
-    {
-      "home": "Arsenal",
-      "away": "Borussia Dortmund",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1vjpgqa",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1vjpgqa",
-          "scorer": "Samuele Inacio",
-          "minute": 7,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/493c06e4",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1786280890000
-        },
-        {
-          "postId": "1vjpzj7",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1vjpzj7",
-          "scorer": "Konstantinos Karetsas",
-          "minute": 29,
-          "homeScore": 0,
-          "awayScore": 2,
-          "videoUrl": "https://streamin.link/v/c7d02db9",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1786282310000
         }
       ]
     },
