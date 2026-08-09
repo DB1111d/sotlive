@@ -1,7 +1,60 @@
 {
-  "updated": "2026-08-09T19:19:40Z",
+  "updated": "2026-08-09T19:56:15Z",
   "date": "2026-08-09",
   "matches": [
+    {
+      "home": "Benfica",
+      "away": "Académico de Viseu",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vjzav7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vjzav7",
+          "scorer": "Vangelis Pavlidis",
+          "minute": 10,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/4652i1rxkeih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/4652i1rxkeih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786304717000
+        }
+      ]
+    },
+    {
+      "home": "Jagiellonia Białystok",
+      "away": "Widzew Łódź",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vjyue6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vjyue6",
+          "scorer": "Sebastian Bergier",
+          "minute": 52,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/6c28nlhpheih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/6c28nlhpheih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786303615000
+        },
+        {
+          "postId": "1vjywdh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vjywdh",
+          "scorer": "Fran Álvarez",
+          "minute": 54,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/m5g2f033ieih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/m5g2f033ieih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786303749000
+        }
+      ]
+    },
     {
       "home": "Lech Poznań",
       "away": "Piast Gliwice",
