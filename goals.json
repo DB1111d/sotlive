@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-09T20:30:55Z",
+  "updated": "2026-08-09T21:07:31Z",
   "date": "2026-08-09",
   "matches": [
     {
@@ -19,6 +19,45 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/4652i1rxkeih1/CMAF_720.mp4?source=fallback",
           "postedAt": 1786304717000
+        },
+        {
+          "postId": "1vk0twz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vk0twz",
+          "scorer": "Rúben Pereira",
+          "minute": 55,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/y31kxyfvveih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/y31kxyfvveih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786308382000
+        },
+        {
+          "postId": "1vk0xj5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vk0xj5",
+          "scorer": "Gianluca Prestianni",
+          "minute": 58,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/glixsaklweih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/glixsaklweih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786308623000
+        },
+        {
+          "postId": "1vk14xs",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vk14xs",
+          "scorer": "André Clóvis",
+          "minute": 67,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/dbd2ee45yeih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/dbd2ee45yeih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786309145000
         }
       ]
     },
