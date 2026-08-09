@@ -1,18 +1,9 @@
 {
-  "updated": "2026-08-09 12:35 EDT",
+  "updated": "2026-08-09 16:32 EDT",
   "days": {
     "20260809": {
       "date": "Sunday, August 9",
       "games": [
-        {
-          "league": "Carabao Cup",
-          "time": "11:00 AM",
-          "match": "Mansfield Town vs Sheffield United",
-          "source": "Paramount+",
-          "kick_utc": "2026-08-09T15:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/304.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/398.png"
-        },
         {
           "league": "Leagues Cup",
           "time": "3:30 PM",
