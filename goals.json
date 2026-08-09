@@ -1,5 +1,26 @@
 {
-  "updated": "2026-08-09T04:38:47Z",
+  "updated": "2026-08-09T05:34:25Z",
   "date": "2026-08-09",
-  "matches": []
+  "matches": [
+    {
+      "home": "Toluca",
+      "away": "LAFC",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vjh4qe",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vjh4qe",
+          "scorer": "Eddie Segura",
+          "minute": 90,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/89bjhtx4aaih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/89bjhtx4aaih1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786252626000
+        }
+      ]
+    }
+  ]
 }
