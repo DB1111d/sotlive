@@ -1,5 +1,46 @@
 {
-  "updated": "2026-08-10T07:25:11Z",
+  "updated": "2026-08-10T08:56:29Z",
   "date": "2026-08-10",
-  "matches": []
+  "matches": [
+    {
+      "home": "Pogoń Szczecin",
+      "away": "Górnik Łęczna",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vkf9xs",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vkf9xs",
+          "scorer": "Klaudia Lefeld",
+          "minute": 50,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/zvbvxq4nfiih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/zvbvxq4nfiih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786351453000
+        }
+      ]
+    },
+    {
+      "home": "Olimpia Grudziądz",
+      "away": "Świt Szczecin",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vkf267",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vkf267",
+          "scorer": "Own Goal",
+          "minute": 109,
+          "homeScore": 4,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/61w06g1bdiih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/61w06g1bdiih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786350636000
+        }
+      ]
+    }
+  ]
 }
