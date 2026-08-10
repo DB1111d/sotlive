@@ -1,7 +1,40 @@
 {
-  "updated": "2026-08-10T17:35:18Z",
+  "updated": "2026-08-10T18:32:53Z",
   "date": "2026-08-10",
   "matches": [
+    {
+      "home": "SC Delhi",
+      "away": "Indian Air Force",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vksegn",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vksegn",
+          "scorer": "Juan Peña",
+          "minute": 39,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/ewnjydnv7lih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ewnjydnv7lih1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786385068000
+        },
+        {
+          "postId": "1vksjdh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vksjdh",
+          "scorer": "Samuel Vanlalpeka",
+          "minute": 50,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/x2d1pjuh8lih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/x2d1pjuh8lih1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786385359000
+        }
+      ]
+    },
     {
       "home": "Pogoń Szczecin",
       "away": "Górnik Łęczna",
