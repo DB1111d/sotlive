@@ -1,7 +1,66 @@
 {
-  "updated": "2026-08-10T00:04:01Z",
+  "updated": "2026-08-10T02:33:21Z",
   "date": "2026-08-10",
   "matches": [
+    {
+      "home": "Chicago Fire",
+      "away": "Santos Laguna",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vk61d4",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vk61d4",
+          "scorer": "Ezequiel Bullaude",
+          "minute": 20,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/qlwbrgc50gih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/qlwbrgc50gih1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786321916000
+        },
+        {
+          "postId": "1vk7lgd",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vk7lgd",
+          "scorer": "Philip Zinckernagel",
+          "minute": 72,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/qlpx8ug3dgih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/qlpx8ug3dgih1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786326305000
+        },
+        {
+          "postId": "1vk7y96",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vk7y96",
+          "scorer": "Anton Saletros",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/8cq8kb1aggih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/8cq8kb1aggih1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786327337000
+        },
+        {
+          "postId": "1vk80x5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vk80x5",
+          "scorer": "Robert Lewandowski",
+          "minute": 90,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/zzm19rvwggih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/zzm19rvwggih1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786327549000
+        }
+      ]
+    },
     {
       "home": "Flamengo",
       "away": "Vitória",
@@ -19,6 +78,19 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/byhxwmfwofih1/CMAF_1080.mp4?source=fallback",
           "postedAt": 1786318167000
+        },
+        {
+          "postId": "1vk5lhc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vk5lhc",
+          "scorer": "Bruno Henrique",
+          "minute": 80,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/z3ogtytfwfih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/z3ogtytfwfih1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786320703000
         }
       ]
     },
