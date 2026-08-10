@@ -1,74 +1,6 @@
 {
-  "updated": "2026-08-09 21:48 EDT",
+  "updated": "2026-08-10 01:26 EDT",
   "days": {
-    "20260809": {
-      "date": "Sunday, August 9",
-      "games": [
-        {
-          "league": "Leagues Cup",
-          "time": "7:30 PM",
-          "match": "Cruz Azul vs New York City FC",
-          "source": "FS1 \u00b7 Apple TV",
-          "kick_utc": "2026-08-09T23:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/218.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17606.png"
-        },
-        {
-          "league": "Leagues Cup",
-          "time": "7:30 PM",
-          "match": "Philadelphia Union vs Necaxa",
-          "source": "Apple TV",
-          "kick_utc": "2026-08-09T23:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10739.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/229.png"
-        },
-        {
-          "league": "Leagues Cup",
-          "time": "8:00 PM",
-          "match": "Chicago Fire FC vs Santos",
-          "source": "Apple TV",
-          "kick_utc": "2026-08-10T00:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/225.png"
-        },
-        {
-          "league": "Leagues Cup",
-          "time": "8:00 PM",
-          "match": "Nashville SC vs Atl\u00e9tico de San Luis",
-          "source": "Apple TV",
-          "kick_utc": "2026-08-10T00:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/15720.png"
-        },
-        {
-          "league": "Leagues Cup",
-          "time": "9:00 PM",
-          "match": "Austin FC vs Puebla",
-          "source": "Apple TV",
-          "kick_utc": "2026-08-10T01:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20906.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/231.png"
-        },
-        {
-          "league": "Leagues Cup",
-          "time": "10:00 PM",
-          "match": "San Diego FC vs Tijuana",
-          "source": "Apple TV",
-          "kick_utc": "2026-08-10T02:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22529.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10125.png"
-        },
-        {
-          "league": "Leagues Cup",
-          "time": "10:15 PM",
-          "match": "Am\u00e9rica vs Portland Timbers",
-          "source": "FS1 \u00b7 Apple TV",
-          "kick_utc": "2026-08-10T02:15Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/227.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9723.png"
-        }
-      ]
-    },
     "20260810": {
       "date": "Monday, August 10",
       "games": [
@@ -266,6 +198,20 @@
           "kick_utc": "2026-08-14T02:30Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9723.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10125.png"
+        }
+      ]
+    },
+    "20260814": {
+      "date": "Friday, August 14",
+      "games": [
+        {
+          "league": "EFL Championship",
+          "time": "3:00 PM",
+          "match": "Wolverhampton Wanderers vs Blackburn Rovers",
+          "source": "Paramount+",
+          "kick_utc": "2026-08-14T19:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/380.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/365.png"
         }
       ]
     }
