@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-11T11:29:33Z",
+  "updated": "2026-08-11T12:24:07Z",
   "date": "2026-08-11",
   "matches": [
     {
@@ -19,6 +19,59 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/jnooyn5q8qih1/CMAF_720.mp4?source=fallback",
           "postedAt": 1786445880000
+        },
+        {
+          "postId": "1vlfdpr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vlfdpr",
+          "scorer": "Arkadiusz Milik",
+          "minute": 86,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/8mp8wx4djqih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/8mp8wx4djqih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786449446000
+        }
+      ]
+    },
+    {
+      "home": "SD Raiders",
+      "away": "Macarthur FC",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vlf9wn",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vlf9wn",
+          "scorer": "Zane Helweh",
+          "minute": null,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/iswnorqbiqih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/iswnorqbiqih1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786449133000
+        }
+      ]
+    },
+    {
+      "home": "Lions FC",
+      "away": "Melbourne City",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vlexvv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vlexvv",
+          "scorer": "Own Goal",
+          "minute": null,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/u4mzsolyeqih1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786448120000
         }
       ]
     },
