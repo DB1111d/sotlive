@@ -1,19 +1,9 @@
 {
-  "updated": "2026-08-10 16:42 EDT",
+  "updated": "2026-08-10 21:45 EDT",
   "days": {
     "20260810": {
       "date": "Monday, August 10",
-      "games": [
-        {
-          "league": "Carabao Cup",
-          "time": "3:00 PM",
-          "match": "Plymouth Argyle vs Exeter City",
-          "source": "Paramount+",
-          "kick_utc": "2026-08-10T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/307.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/324.png"
-        }
-      ]
+      "games": []
     },
     "20260811": {
       "date": "Tuesday, August 11",
