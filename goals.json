@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-11T19:18:12Z",
+  "updated": "2026-08-11T20:08:51Z",
   "date": "2026-08-11",
   "matches": [
+    {
+      "home": "NEC Nijmegen",
+      "away": "Olympiacos",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vlrpqg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vlrpqg",
+          "scorer": "Emre Mor",
+          "minute": 95,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/jhke9mwttsih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/jhke9mwttsih1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786477224000
+        }
+      ]
+    },
     {
       "home": "Bodø/Glimt",
       "away": "Royale USG",
