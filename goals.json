@@ -1,7 +1,185 @@
 {
-  "updated": "2026-08-12T18:35:56Z",
+  "updated": "2026-08-12T19:47:08Z",
   "date": "2026-08-12",
   "matches": [
+    {
+      "home": "Malaga",
+      "away": "Fulham",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vmobi6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vmobi6",
+          "scorer": "Ryan Sessegnon",
+          "minute": 24,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/ck10tk9iyzih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ck10tk9iyzih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786563500000
+        },
+        {
+          "postId": "1vmohnt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vmohnt",
+          "scorer": "Chupete",
+          "minute": 29,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/i4uajvdlzzih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/i4uajvdlzzih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786563886000
+        }
+      ]
+    },
+    {
+      "home": "Paris Saint-Germain",
+      "away": "Aston Villa",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vmnvjl",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vmnvjl",
+          "scorer": "Khvicha Kvaratskhelia",
+          "minute": 20,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/vdee6zyhvzih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/vdee6zyhvzih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786562493000
+        },
+        {
+          "postId": "1vmnx31",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vmnx31",
+          "scorer": "Maghnes Akliouche goal",
+          "minute": 22,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://dropr.co/v/7851a65a",
+          "videoEmbed": "https://dropr.co/v/7851a65a",
+          "directMp4": null,
+          "postedAt": 1786562586000
+        }
+      ]
+    },
+    {
+      "home": "Arsenal",
+      "away": "Como",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vmng3o",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vmng3o",
+          "scorer": "Myles Lewis-Skelly",
+          "minute": 33,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/rft2lxypszih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/rft2lxypszih1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786561559000
+        },
+        {
+          "postId": "1vmnqeg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vmnqeg",
+          "scorer": "Martin Baturina",
+          "minute": 44,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/3a61e89c",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786562177000
+        }
+      ]
+    },
+    {
+      "home": "Manchester United",
+      "away": "Leeds United",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vmmwc8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vmmwc8",
+          "scorer": "Joshua Zirkzee",
+          "minute": 15,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/xmtdb2y4pzih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/xmtdb2y4pzih1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786560366000
+        },
+        {
+          "postId": "1vmn94h",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vmn94h",
+          "scorer": "Brenden Aaronson",
+          "minute": 29,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/7ad9e60d",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786561139000
+        }
+      ]
+    },
+    {
+      "home": "Algeria",
+      "away": "Malawi",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vmmr3t",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vmmr3t",
+          "scorer": "Tabitha Chawinga",
+          "minute": 33,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/4p3vmk9aozih1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786560060000
+        },
+        {
+          "postId": "1vmmu1u",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vmmu1u",
+          "scorer": "Temwa Chawinga",
+          "minute": 45,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/26toyacsozih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/26toyacsozih1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786560232000
+        },
+        {
+          "postId": "1vmmyai",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vmmyai",
+          "scorer": "Ikram Adjabi",
+          "minute": 60,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/8tg32pwipzih1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786560479000
+        }
+      ]
+    },
     {
       "home": "Newcastle United",
       "away": "Everton",
