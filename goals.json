@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T17:40:53Z",
+  "updated": "2026-08-12T18:35:56Z",
   "date": "2026-08-12",
   "matches": [
     {
@@ -32,26 +32,52 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/j0a41o435zih1/CMAF_720.mp4?source=fallback",
           "postedAt": 1786553602000
+        },
+        {
+          "postId": "1vmlgh1",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vmlgh1",
+          "scorer": "Tyrique George",
+          "minute": 74,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://streamin.link/v/36264da0",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786557282000
+        },
+        {
+          "postId": "1vmllxq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vmllxq",
+          "scorer": "Harvey Barnes",
+          "minute": 85,
+          "homeScore": 1,
+          "awayScore": 3,
+          "videoUrl": "https://streamin.link/v/d7e276a3",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786557598000
         }
       ]
     },
     {
-      "home": "East Bengal",
-      "away": "Al Arabi SC",
+      "home": "AEK Athens",
+      "away": "OFI Crete",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1vmj5sv",
+          "postId": "1vmlfth",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1vmj5sv",
-          "scorer": "Basim Rashid",
-          "minute": 108,
-          "homeScore": 2,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/butiehqd1zih1",
+          "permalink": "https://redd.it/1vmlfth",
+          "scorer": "Luka Jovic",
+          "minute": 37,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/mp3i5amwfzih1",
           "videoEmbed": null,
-          "directMp4": "https://v.redd.it/butiehqd1zih1/CMAF_1080.mp4?source=fallback",
-          "postedAt": 1786552436000
+          "directMp4": "https://v.redd.it/mp3i5amwfzih1/CMAF_480.mp4?source=fallback",
+          "postedAt": 1786557246000
         }
       ]
     },
@@ -72,6 +98,52 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/xq2izslc0zih1/CMAF_720.mp4?source=fallback",
           "postedAt": 1786552020000
+        },
+        {
+          "postId": "1vml5f8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vml5f8",
+          "scorer": "Ilya Shkurin",
+          "minute": 83,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/nnxyap03ezih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/nnxyap03ezih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786556639000
+        },
+        {
+          "postId": "1vmlc68",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vmlc68",
+          "scorer": "Arkadiusz Jędrych penalty",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/if07fng9fzih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/if07fng9fzih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786557033000
+        }
+      ]
+    },
+    {
+      "home": "East Bengal",
+      "away": "Al Arabi SC",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vmj5sv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vmj5sv",
+          "scorer": "Basim Rashid",
+          "minute": 108,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/butiehqd1zih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/butiehqd1zih1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786552436000
         }
       ]
     },
