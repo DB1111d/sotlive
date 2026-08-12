@@ -1,5 +1,66 @@
 {
-  "updated": "2026-08-12T15:36:40Z",
+  "updated": "2026-08-12T16:35:11Z",
   "date": "2026-08-12",
-  "matches": []
+  "matches": [
+    {
+      "home": "East Bengal",
+      "away": "Al Arabi SC",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vmj5sv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vmj5sv",
+          "scorer": "Basim Rashid",
+          "minute": 108,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/butiehqd1zih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/butiehqd1zih1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786552436000
+        }
+      ]
+    },
+    {
+      "home": "GKS Katowice",
+      "away": "Hapoel Tel-Aviv",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vmiyq4",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vmiyq4",
+          "scorer": "Stav Turiel",
+          "minute": 23,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/xq2izslc0zih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/xq2izslc0zih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786552020000
+        }
+      ]
+    },
+    {
+      "home": "Copenhagen",
+      "away": "Debrecen",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vmii1b",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vmii1b",
+          "scorer": "Mohamed Elyounoussi",
+          "minute": 3,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/p7wreexexyih1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/p7wreexexyih1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786551019000
+        }
+      ]
+    }
+  ]
 }
