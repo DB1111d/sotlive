@@ -1,7 +1,106 @@
 {
-  "updated": "2026-08-13T17:41:30Z",
+  "updated": "2026-08-13T18:37:13Z",
   "date": "2026-08-13",
   "matches": [
+    {
+      "home": "DAC 1904",
+      "away": "FC Twente",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vngrwe",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vngrwe",
+          "scorer": "Max Bruns",
+          "minute": 7,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/p901b7fxc6jh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/p901b7fxc6jh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786640991000
+        },
+        {
+          "postId": "1vnijg2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vnijg2",
+          "scorer": "Marko Pjaca",
+          "minute": 51,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/exo6ydhxn6jh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786644693000
+        },
+        {
+          "postId": "1vnip44",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vnip44",
+          "scorer": "Abdoulaye Gueye",
+          "minute": 56,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/r948ge2wo6jh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/r948ge2wo6jh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786645017000
+        },
+        {
+          "postId": "1vnj02w",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vnj02w",
+          "scorer": "Klemen Nemanič",
+          "minute": 66,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/zej8qbprq6jh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786645654000
+        }
+      ]
+    },
+    {
+      "home": "Hammarby",
+      "away": "Raków Częstochowa",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vnhw04",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vnhw04",
+          "scorer": "Stratos Svarnas",
+          "minute": 45,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/266sx96vj6jh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/266sx96vj6jh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786643325000
+        }
+      ]
+    },
+    {
+      "home": "Górnik Zabrze",
+      "away": "Ferencváros",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vnhud3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vnhud3",
+          "scorer": "Kacper Urbański penalty",
+          "minute": 45,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/pwhzf1akj6jh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/pwhzf1akj6jh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786643234000
+        }
+      ]
+    },
     {
       "home": "RFS",
       "away": "Jablonec",
@@ -32,26 +131,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/zmlev771d6jh1/CMAF_720.mp4?source=fallback",
           "postedAt": 1786641048000
-        }
-      ]
-    },
-    {
-      "home": "DAC 1904",
-      "away": "FC Twente",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1vngrwe",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1vngrwe",
-          "scorer": "Max Bruns",
-          "minute": 7,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/p901b7fxc6jh1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/p901b7fxc6jh1/CMAF_1080.mp4?source=fallback",
-          "postedAt": 1786640991000
         }
       ]
     }
