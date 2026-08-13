@@ -1,7 +1,80 @@
 {
-  "updated": "2026-08-12T23:56:39Z",
-  "date": "2026-08-12",
+  "updated": "2026-08-13T02:01:50Z",
+  "date": "2026-08-13",
   "matches": [
+    {
+      "home": "Cruzeiro",
+      "away": "Flamengo",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vmxbty",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vmxbty",
+          "scorer": "Keny Arroyo",
+          "minute": 53,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/nhvhb6xas1jh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/nhvhb6xas1jh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786585651000
+        },
+        {
+          "postId": "1vmxltu",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vmxltu",
+          "scorer": "Lucas Paquetá",
+          "minute": 66,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/yr05jlhnu1jh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/yr05jlhnu1jh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786586427000
+        }
+      ]
+    },
+    {
+      "home": "Atlético Tucumán",
+      "away": "Independiente",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vmwhg2",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vmwhg2",
+          "scorer": "Nicolás Laméndola",
+          "minute": 70,
+          "homeScore": 4,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/ws2y49lel1jh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ws2y49lel1jh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786583337000
+        }
+      ]
+    },
+    {
+      "home": "Talleres",
+      "away": "Independiente",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vmvktt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vmvktt",
+          "scorer": "Nicolás Laméndola",
+          "minute": null,
+          "homeScore": 4,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/9bmh0jjge1jh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786580971000
+        }
+      ]
+    },
     {
       "home": "Bragantino",
       "away": "Atletico-MG",
