@@ -1,5 +1,59 @@
 {
-  "updated": "2026-08-13T16:33:56Z",
+  "updated": "2026-08-13T17:41:30Z",
   "date": "2026-08-13",
-  "matches": []
+  "matches": [
+    {
+      "home": "RFS",
+      "away": "Jablonec",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vnggu8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vnggu8",
+          "scorer": "Sebastian Nebyla penalty",
+          "minute": 22,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/096mkcmva6jh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/096mkcmva6jh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786640322000
+        },
+        {
+          "postId": "1vngsvm",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vngsvm",
+          "scorer": "Žiga Lipušček",
+          "minute": 38,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/zmlev771d6jh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/zmlev771d6jh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786641048000
+        }
+      ]
+    },
+    {
+      "home": "DAC 1904",
+      "away": "FC Twente",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vngrwe",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vngrwe",
+          "scorer": "Max Bruns",
+          "minute": 7,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/p901b7fxc6jh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/p901b7fxc6jh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786640991000
+        }
+      ]
+    }
+  ]
 }
