@@ -1,7 +1,145 @@
 {
-  "updated": "2026-08-14T20:14:11Z",
+  "updated": "2026-08-14T20:47:17Z",
   "date": "2026-08-14",
   "matches": [
+    {
+      "home": "ACF Fiorentina",
+      "away": "Benevento",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1voh5mj",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1voh5mj",
+          "scorer": "Albert Guðmundsson",
+          "minute": 2,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/r1hk5e5p7ejh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/r1hk5e5p7ejh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786736096000
+        },
+        {
+          "postId": "1vohpti",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vohpti",
+          "scorer": "Moise Kean",
+          "minute": 35,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/cfz1p1fhbejh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/cfz1p1fhbejh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786737362000
+        },
+        {
+          "postId": "1voilna",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1voilna",
+          "scorer": "Luca Ranieri",
+          "minute": 48,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/ly2d2z5fhejh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ly2d2z5fhejh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786739360000
+        },
+        {
+          "postId": "1voio46",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1voio46",
+          "scorer": "Cher Ndour",
+          "minute": 50,
+          "homeScore": 4,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/dg0u4frvhejh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/dg0u4frvhejh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786739519000
+        },
+        {
+          "postId": "1voirxb",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1voirxb",
+          "scorer": "Davide Lamesta",
+          "minute": 54,
+          "homeScore": 4,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/pw5ldfxliejh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/pw5ldfxliejh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786739768000
+        }
+      ]
+    },
+    {
+      "home": "Galatasaray",
+      "away": "Çorum FK",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1voifib",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1voifib",
+          "scorer": "Victor Osimhen",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/tajtnc09gejh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/tajtnc09gejh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786738961000
+        }
+      ]
+    },
+    {
+      "home": "Wolverhampton Wanderers",
+      "away": "Blackburn",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vogx5w",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vogx5w",
+          "scorer": "Marshall Munetsi",
+          "minute": 18,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/4dvuf6h36ejh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786735569000
+        },
+        {
+          "postId": "1voh3aw",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1voh3aw",
+          "scorer": "Sean McLoughlin",
+          "minute": 27,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/bmnnplf77ejh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786735950000
+        },
+        {
+          "postId": "1voi89k",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1voi89k",
+          "scorer": "Andri Gudjohnsen",
+          "minute": 48,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/vif8s54teejh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786738501000
+        }
+      ]
+    },
     {
       "home": "Sporting CP",
       "away": "Vitória SC",
@@ -45,39 +183,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/5yb6g0kccejh1/CMAF_720.mp4?source=fallback",
           "postedAt": 1786737669000
-        }
-      ]
-    },
-    {
-      "home": "ACF Fiorentina",
-      "away": "Benevento",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1voh5mj",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1voh5mj",
-          "scorer": "Albert Guðmundsson",
-          "minute": 2,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/r1hk5e5p7ejh1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/r1hk5e5p7ejh1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1786736096000
-        },
-        {
-          "postId": "1vohpti",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1vohpti",
-          "scorer": "Moise Kean",
-          "minute": 35,
-          "homeScore": 2,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/cfz1p1fhbejh1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/cfz1p1fhbejh1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1786737362000
         }
       ]
     },
@@ -268,39 +373,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/4cm4uwr99ejh1/CMAF_720.mp4?source=fallback",
           "postedAt": 1786736622000
-        }
-      ]
-    },
-    {
-      "home": "Wolverhampton Wanderers",
-      "away": "Blackburn",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1vogx5w",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1vogx5w",
-          "scorer": "Marshall Munetsi",
-          "minute": 18,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/4dvuf6h36ejh1",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1786735569000
-        },
-        {
-          "postId": "1voh3aw",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1voh3aw",
-          "scorer": "Sean McLoughlin",
-          "minute": 27,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/bmnnplf77ejh1",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1786735950000
         }
       ]
     },
