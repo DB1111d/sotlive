@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T20:46:51Z",
+  "updated": "2026-08-15T21:17:39Z",
   "date": "2026-08-15",
   "matches": [
     {
@@ -32,26 +32,19 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/xiy8vmmpjljh1/CMAF_1080.mp4?source=fallback",
           "postedAt": 1786824933000
-        }
-      ]
-    },
-    {
-      "home": "Sunderland",
-      "away": "Stade Rennais",
-      "league": "Rest of World",
-      "goals": [
+        },
         {
-          "postId": "1vpcaum",
+          "postId": "1vped1p",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1vpcaum",
-          "scorer": "Brian Brobbey",
-          "minute": 61,
+          "permalink": "https://redd.it/1vped1p",
+          "scorer": "Maurício",
+          "minute": 82,
           "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/98tqujnbfljh1",
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/n4ggmmqmuljh1",
           "videoEmbed": null,
-          "directMp4": "https://v.redd.it/98tqujnbfljh1/CMAF_1080.mp4?source=fallback",
-          "postedAt": 1786823414000
+          "directMp4": "https://v.redd.it/n4ggmmqmuljh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786828564000
         }
       ]
     },
@@ -72,6 +65,39 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/pk5zh604eljh1/CMAF_720.mp4?source=fallback",
           "postedAt": 1786823010000
+        },
+        {
+          "postId": "1vpdxdb",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vpdxdb",
+          "scorer": "Jon Guridi penalty",
+          "minute": 52,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/6qijiu5crljh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/6qijiu5crljh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786827454000
+        }
+      ]
+    },
+    {
+      "home": "Sunderland",
+      "away": "Stade Rennais",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vpcaum",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vpcaum",
+          "scorer": "Brian Brobbey",
+          "minute": 61,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/98tqujnbfljh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/98tqujnbfljh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786823414000
         }
       ]
     },
