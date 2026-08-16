@@ -1,24 +1,24 @@
 {
-  "updated": "2026-08-16T11:58:24Z",
+  "updated": "2026-08-16T12:49:33Z",
   "date": "2026-08-16",
   "matches": [
     {
-      "home": "Dynamo Dresden",
-      "away": "Darmstadt",
+      "home": "Watford",
+      "away": "Southampton",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1vpuwp7",
+          "postId": "1vpw7pq",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1vpuwp7",
-          "scorer": "Jonas Sterner",
+          "permalink": "https://redd.it/1vpw7pq",
+          "scorer": "Iker Bravo '12",
           "minute": 12,
           "homeScore": 1,
           "awayScore": 0,
-          "videoUrl": "https://streamin.link/v/997d8133",
+          "videoUrl": "https://v.redd.it/qcr1i4g4hqjh1",
           "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1786880676000
+          "directMp4": "https://v.redd.it/qcr1i4g4hqjh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786884542000
         }
       ]
     },
@@ -39,6 +39,111 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1786880379000
+        },
+        {
+          "postId": "1vpv8xw",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vpv8xw",
+          "scorer": "Julian Rieckmann",
+          "minute": 30,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/6f23859c",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786881703000
+        },
+        {
+          "postId": "1vpvlho",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vpvlho",
+          "scorer": "Andreas Voglsammer",
+          "minute": 45,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/60324d61",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786882764000
+        },
+        {
+          "postId": "1vpw1gp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vpw1gp",
+          "scorer": "Lovis Bierschenk",
+          "minute": 50,
+          "homeScore": 1,
+          "awayScore": 3,
+          "videoUrl": "https://streamin.link/v/66c17550",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786884055000
+        },
+        {
+          "postId": "1vpw6pr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vpw6pr",
+          "scorer": "Bernie Lennemann",
+          "minute": 55,
+          "homeScore": 2,
+          "awayScore": 3,
+          "videoUrl": "https://streamin.link/v/44d34ec5",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786884462000
+        }
+      ]
+    },
+    {
+      "home": "Arminia Bielefeld",
+      "away": "Energie Cottbus",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vpv6b9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vpv6b9",
+          "scorer": "Joel Grodowski",
+          "minute": 26,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/18dba07f",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786881523000
+        },
+        {
+          "postId": "1vpvdxh",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vpvdxh",
+          "scorer": "Joel Grodowski",
+          "minute": 37,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/2f5b35cc",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786882131000
+        }
+      ]
+    },
+    {
+      "home": "Dynamo Dresden",
+      "away": "Darmstadt",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vpuwp7",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vpuwp7",
+          "scorer": "Jonas Sterner",
+          "minute": 12,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/997d8133",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786880676000
         }
       ]
     }
