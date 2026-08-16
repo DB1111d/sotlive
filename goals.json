@@ -1,7 +1,244 @@
 {
-  "updated": "2026-08-16T18:31:36Z",
+  "updated": "2026-08-16T19:01:25Z",
   "date": "2026-08-16",
   "matches": [
+    {
+      "home": "Arouca",
+      "away": "Moreirense",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vq42wk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vq42wk",
+          "scorer": "Own Goal",
+          "minute": 23,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/0ca3550c",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786903657000
+        },
+        {
+          "postId": "1vq42zt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vq42zt",
+          "scorer": "Jose Fontan",
+          "minute": 30,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/3b76a679",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786903663000
+        },
+        {
+          "postId": "1vq432r",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vq432r",
+          "scorer": "Ivan Barbero",
+          "minute": 45,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/edad2dc9",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786903668000
+        },
+        {
+          "postId": "1vq5fqk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vq5fqk",
+          "scorer": "Dylan Nandin",
+          "minute": 90,
+          "homeScore": 4,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/688e0a0c",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786906773000
+        }
+      ]
+    },
+    {
+      "home": "Besiktas",
+      "away": "Eyupspor",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vq5dk6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vq5dk6",
+          "scorer": "Vaclav Cerny",
+          "minute": 25,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/268967f1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786906631000
+        }
+      ]
+    },
+    {
+      "home": "Górnik Zabrze",
+      "away": "Wisła Kraków",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vq57x0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vq57x0",
+          "scorer": "Lukáš Sadílek",
+          "minute": 27,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/pg1osp8o9sjh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786906263000
+        }
+      ]
+    },
+    {
+      "home": "Espanyol",
+      "away": "Levante",
+      "league": "La Liga",
+      "goals": [
+        {
+          "postId": "1vq2ku5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vq2ku5",
+          "scorer": "Roberto Fernández",
+          "minute": 5,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/lfafxpxprrjh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/lfafxpxprrjh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786900225000
+        },
+        {
+          "postId": "1vq3hm9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vq3hm9",
+          "scorer": "Roberto Fernández",
+          "minute": 40,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/2a0oevw1yrjh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/2a0oevw1yrjh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786902339000
+        },
+        {
+          "postId": "1vq54vl",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vq54vl",
+          "scorer": "Tyrhys Dolan",
+          "minute": 80,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/in8yub039sjh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/in8yub039sjh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786906060000
+        }
+      ]
+    },
+    {
+      "home": "Genoa",
+      "away": "Ascoli",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vq2dch",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vq2dch",
+          "scorer": "Andrea Silipo",
+          "minute": 25,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/9e74bbdb",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786899743000
+        },
+        {
+          "postId": "1vq330t",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vq330t",
+          "scorer": "Alessandro Marcandalli",
+          "minute": 42,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/fa88d690",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786901398000
+        },
+        {
+          "postId": "1vq33jn",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vq33jn",
+          "scorer": "Tommaso Baldanzi",
+          "minute": 45,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/30446e9a",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786901429000
+        },
+        {
+          "postId": "1vq3zg0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vq3zg0",
+          "scorer": "Lorenzo Colombo",
+          "minute": 61,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/2517bc2d",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786903443000
+        },
+        {
+          "postId": "1vq4gsa",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vq4gsa",
+          "scorer": "Elias Havel",
+          "minute": 80,
+          "homeScore": 4,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/3fe6f108",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786904527000
+        }
+      ]
+    },
+    {
+      "home": "Slovan Liberec",
+      "away": "Slavia Praha",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vq4clt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vq4clt",
+          "scorer": "Mubarak Suleiman",
+          "minute": 15,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/0in7j87q3sjh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/0in7j87q3sjh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786904265000
+        }
+      ]
+    },
     {
       "home": "FC Barcelona",
       "away": "FC Basel",
@@ -52,39 +289,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/w3he17mjyrjh1/CMAF_720.mp4?source=fallback",
           "postedAt": 1786902498000
-        }
-      ]
-    },
-    {
-      "home": "Espanyol",
-      "away": "Levante",
-      "league": "La Liga",
-      "goals": [
-        {
-          "postId": "1vq2ku5",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1vq2ku5",
-          "scorer": "Roberto Fernández",
-          "minute": 5,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/lfafxpxprrjh1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/lfafxpxprrjh1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1786900225000
-        },
-        {
-          "postId": "1vq3hm9",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1vq3hm9",
-          "scorer": "Roberto Fernández",
-          "minute": 40,
-          "homeScore": 2,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/2a0oevw1yrjh1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/2a0oevw1yrjh1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1786902339000
         }
       ]
     },
@@ -177,52 +381,6 @@
           "videoEmbed": null,
           "directMp4": null,
           "postedAt": 1786901788000
-        }
-      ]
-    },
-    {
-      "home": "Genoa",
-      "away": "Ascoli",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1vq2dch",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1vq2dch",
-          "scorer": "Andrea Silipo",
-          "minute": 25,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/9e74bbdb",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1786899743000
-        },
-        {
-          "postId": "1vq330t",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1vq330t",
-          "scorer": "Alessandro Marcandalli",
-          "minute": 42,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/fa88d690",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1786901398000
-        },
-        {
-          "postId": "1vq33jn",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1vq33jn",
-          "scorer": "Tommaso Baldanzi",
-          "minute": 45,
-          "homeScore": 2,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/30446e9a",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1786901429000
         }
       ]
     },
