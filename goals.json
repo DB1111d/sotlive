@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-16T19:01:25Z",
+  "updated": "2026-08-16T19:32:07Z",
   "date": "2026-08-16",
   "matches": [
+    {
+      "home": "RC Lens",
+      "away": "Paris Saint-Germain",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vq5wq4",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vq5wq4",
+          "scorer": "Florian Thauvin",
+          "minute": 32,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/catudeldesjh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/catudeldesjh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786907864000
+        }
+      ]
+    },
     {
       "home": "Arouca",
       "away": "Moreirense",
