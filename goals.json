@@ -1,7 +1,145 @@
 {
-  "updated": "2026-08-16T15:59:33Z",
+  "updated": "2026-08-16T16:34:09Z",
   "date": "2026-08-16",
   "matches": [
+    {
+      "home": "Basel",
+      "away": "Barcelona",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vpzfhb",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vpzfhb",
+          "scorer": "Karim Adeyemi",
+          "minute": 34,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/niw6vlum5rjh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/niw6vlum5rjh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786892796000
+        },
+        {
+          "postId": "1vpzp3j",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vpzp3j",
+          "scorer": "Jean Doucoure",
+          "minute": 43,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/po5nfavi7rjh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/po5nfavi7rjh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786893436000
+        },
+        {
+          "postId": "1vq0bxe",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vq0bxe",
+          "scorer": "Hamza Abdelkarim",
+          "minute": 49,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/0qqjw6wzbrjh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/0qqjw6wzbrjh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786894948000
+        },
+        {
+          "postId": "1vq1ehz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vq1ehz",
+          "scorer": "Jesse Bisiwu",
+          "minute": 89,
+          "homeScore": 2,
+          "awayScore": 4,
+          "videoUrl": "https://v.redd.it/o4lj610ljrjh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/o4lj610ljrjh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786897467000
+        },
+        {
+          "postId": "1vq1fwd",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vq1fwd",
+          "scorer": "Jesse Bisiwu",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 5,
+          "videoUrl": "https://v.redd.it/14xcuyuujrjh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/14xcuyuujrjh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786897559000
+        }
+      ]
+    },
+    {
+      "home": "Schalke",
+      "away": "Real Madrid",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vpzkwe",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vpzkwe",
+          "scorer": "Kylian Mbappe",
+          "minute": 6,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/t5z2il9s6rjh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/t5z2il9s6rjh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786893163000
+        },
+        {
+          "postId": "1vpzvqr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vpzvqr",
+          "scorer": "Dean Huijsen",
+          "minute": 20,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/o6s8iarv8rjh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/o6s8iarv8rjh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786893868000
+        },
+        {
+          "postId": "1vq19lm",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vq19lm",
+          "scorer": "Carlos Espi",
+          "minute": 57,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/3pqnxpkmirjh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/3pqnxpkmirjh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786897145000
+        }
+      ]
+    },
+    {
+      "home": "Cracovia",
+      "away": "Raków Częstochowa",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vq0z2n",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vq0z2n",
+          "scorer": "Patryk Makuch",
+          "minute": 31,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/wauqgoxjgrjh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/wauqgoxjgrjh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786896464000
+        }
+      ]
+    },
     {
       "home": "FC Saxon Sports",
       "away": "FC Thun",
@@ -82,52 +220,6 @@
       ]
     },
     {
-      "home": "Basel",
-      "away": "Barcelona",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1vpzfhb",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1vpzfhb",
-          "scorer": "Karim Adeyemi",
-          "minute": 34,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/niw6vlum5rjh1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/niw6vlum5rjh1/CMAF_1080.mp4?source=fallback",
-          "postedAt": 1786892796000
-        },
-        {
-          "postId": "1vpzp3j",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1vpzp3j",
-          "scorer": "Jean Doucoure",
-          "minute": 43,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/po5nfavi7rjh1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/po5nfavi7rjh1/CMAF_1080.mp4?source=fallback",
-          "postedAt": 1786893436000
-        },
-        {
-          "postId": "1vq0bxe",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1vq0bxe",
-          "scorer": "Hamza Abdelkarim",
-          "minute": 49,
-          "homeScore": 1,
-          "awayScore": 2,
-          "videoUrl": "https://v.redd.it/0qqjw6wzbrjh1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/0qqjw6wzbrjh1/CMAF_1080.mp4?source=fallback",
-          "postedAt": 1786894948000
-        }
-      ]
-    },
-    {
       "home": "Newcastle United",
       "away": "Strasbourg",
       "league": "Rest of World",
@@ -144,39 +236,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/0szhjyezbrjh1/CMAF_720.mp4?source=fallback",
           "postedAt": 1786894911000
-        }
-      ]
-    },
-    {
-      "home": "Schalke",
-      "away": "Real Madrid",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1vpzkwe",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1vpzkwe",
-          "scorer": "Kylian Mbappe",
-          "minute": 6,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/t5z2il9s6rjh1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/t5z2il9s6rjh1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1786893163000
-        },
-        {
-          "postId": "1vpzvqr",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1vpzvqr",
-          "scorer": "Dean Huijsen",
-          "minute": 20,
-          "homeScore": 0,
-          "awayScore": 2,
-          "videoUrl": "https://v.redd.it/o6s8iarv8rjh1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/o6s8iarv8rjh1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1786893868000
         }
       ]
     },
