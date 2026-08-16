@@ -1,7 +1,93 @@
 {
-  "updated": "2026-08-16T17:43:51Z",
+  "updated": "2026-08-16T17:57:30Z",
   "date": "2026-08-16",
   "matches": [
+    {
+      "home": "FC Barcelona",
+      "away": "FC Basel",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vq3mbj",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vq3mbj",
+          "scorer": "Lamine Yamal",
+          "minute": 81,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/8954346xyrjh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/8954346xyrjh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786902636000
+        }
+      ]
+    },
+    {
+      "home": "Liverpool",
+      "away": "Como",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vq317h",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vq317h",
+          "scorer": "Cody Gakpo",
+          "minute": 23,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/wv7rrdcwurjh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/wv7rrdcwurjh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786901272000
+        },
+        {
+          "postId": "1vq3k62",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vq3k62",
+          "scorer": "Jeremy Jacquet",
+          "minute": 44,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/w3he17mjyrjh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/w3he17mjyrjh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786902498000
+        }
+      ]
+    },
+    {
+      "home": "Espanyol",
+      "away": "Levante",
+      "league": "La Liga",
+      "goals": [
+        {
+          "postId": "1vq2ku5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vq2ku5",
+          "scorer": "Roberto Fernández",
+          "minute": 5,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/lfafxpxprrjh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/lfafxpxprrjh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786900225000
+        },
+        {
+          "postId": "1vq3hm9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vq3hm9",
+          "scorer": "Roberto Fernández",
+          "minute": 40,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/2a0oevw1yrjh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/2a0oevw1yrjh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786902339000
+        }
+      ]
+    },
     {
       "home": "Frosinone",
       "away": "Juve Stabia",
@@ -141,26 +227,6 @@
       ]
     },
     {
-      "home": "Liverpool",
-      "away": "Como",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1vq317h",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1vq317h",
-          "scorer": "Cody Gakpo",
-          "minute": 23,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/wv7rrdcwurjh1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/wv7rrdcwurjh1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1786901272000
-        }
-      ]
-    },
-    {
       "home": "Cracovia",
       "away": "Raków Częstochowa",
       "league": "Rest of World",
@@ -190,26 +256,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/w3rpiiv5srjh1/CMAF_720.mp4?source=fallback",
           "postedAt": 1786900384000
-        }
-      ]
-    },
-    {
-      "home": "Espanyol",
-      "away": "Levante",
-      "league": "La Liga",
-      "goals": [
-        {
-          "postId": "1vq2ku5",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1vq2ku5",
-          "scorer": "Roberto Fernández",
-          "minute": 5,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/lfafxpxprrjh1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/lfafxpxprrjh1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1786900225000
         }
       ]
     },
