@@ -1,7 +1,132 @@
 {
-  "updated": "2026-08-16T02:46:06Z",
+  "updated": "2026-08-16T03:44:12Z",
   "date": "2026-08-16",
   "matches": [
+    {
+      "home": "Nashville SC",
+      "away": "Inter Miami",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vpj89t",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vpj89t",
+          "scorer": "Andy Najar",
+          "minute": 17,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/e839eb81",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786841905000
+        },
+        {
+          "postId": "1vpjumq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vpjumq",
+          "scorer": "T. Segovia",
+          "minute": 45,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/248a73dc",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786843735000
+        },
+        {
+          "postId": "1vpkeca",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vpkeca",
+          "scorer": "H. Mukhtar",
+          "minute": 49,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/65051434",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786845396000
+        },
+        {
+          "postId": "1vpkkfz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vpkkfz",
+          "scorer": "S. Surridge",
+          "minute": 56,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/ddc447f0",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786845882000
+        },
+        {
+          "postId": "1vpkpep",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vpkpep",
+          "scorer": "H. Mukhtar",
+          "minute": 63,
+          "homeScore": 4,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/63aa2f57",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786846304000
+        }
+      ]
+    },
+    {
+      "home": "São Paulo",
+      "away": "Coritiba",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vpj75y",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vpj75y",
+          "scorer": "Pablo Maia",
+          "minute": 43,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/fcjpy49yxmjh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/fcjpy49yxmjh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786841811000
+        },
+        {
+          "postId": "1vpjqi1",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vpjqi1",
+          "scorer": "Tiago Cóser",
+          "minute": 57,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/acxjk0oq2njh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1786843400000
+        }
+      ]
+    },
+    {
+      "home": "CF Montreal",
+      "away": "DC United",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vpjifx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vpjifx",
+          "scorer": "Tai Baribo",
+          "minute": 67,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/bqo05u5p0njh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/bqo05u5p0njh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786842733000
+        }
+      ]
+    },
     {
       "home": "Sevilla",
       "away": "Rayo Vallecano",
@@ -210,6 +335,52 @@
       "home": "Alavés",
       "away": "Getafe",
       "league": "La Liga",
+      "goals": [
+        {
+          "postId": "1vpb7d9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vpb7d9",
+          "scorer": "Nahuel Tenaglia",
+          "minute": 73,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/lyf2rkpe7ljh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/lyf2rkpe7ljh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786820744000
+        },
+        {
+          "postId": "1vpbo2w",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vpbo2w",
+          "scorer": "Mariano Díaz",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/mml9a0moaljh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/mml9a0moaljh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786821859000
+        },
+        {
+          "postId": "1vpbpre",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vpbpre",
+          "scorer": "Mikel Rodríguez",
+          "minute": 90,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/8l8uffj2bljh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/8l8uffj2bljh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786821975000
+        }
+      ]
+    },
+    {
+      "home": "Deportivo Alavés",
+      "away": "Getafe",
+      "league": "Rest of World",
       "goals": [
         {
           "postId": "1vpb7d9",
