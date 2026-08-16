@@ -1,7 +1,60 @@
 {
-  "updated": "2026-08-16T14:18:32Z",
+  "updated": "2026-08-16T14:47:29Z",
   "date": "2026-08-16",
   "matches": [
+    {
+      "home": "Motor Lublin",
+      "away": "GKS Katowice",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vpyx8o",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vpyx8o",
+          "scorer": "Karol Czubak",
+          "minute": 86,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/ao3soc8s1rjh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ao3soc8s1rjh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786891592000
+        }
+      ]
+    },
+    {
+      "home": "Arsenal",
+      "away": "Manchester City",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vpy8qv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vpy8qv",
+          "scorer": "Riccardo Calafiori",
+          "minute": 1,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/kqkgp1y1xqjh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/kqkgp1y1xqjh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786889891000
+        },
+        {
+          "postId": "1vpym6b",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vpym6b",
+          "scorer": "Kai Havertz",
+          "minute": 28,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/rumxoixuzqjh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/rumxoixuzqjh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786890833000
+        }
+      ]
+    },
     {
       "home": "Djurgårdens IF",
       "away": "AIK",
