@@ -1,5 +1,26 @@
 {
-  "updated": "2026-08-17T04:24:46Z",
+  "updated": "2026-08-17T05:06:58Z",
   "date": "2026-08-17",
-  "matches": []
+  "matches": [
+    {
+      "home": "Seattle Sounders",
+      "away": "Vancouver Whitecaps",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vqibo3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vqibo3",
+          "scorer": "Thomas Müller",
+          "minute": 82,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/szkmpscf5vjh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/szkmpscf5vjh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786941183000
+        }
+      ]
+    }
+  ]
 }
