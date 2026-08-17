@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-17T06:47:08Z",
+  "updated": "2026-08-17T07:49:37Z",
   "date": "2026-08-17",
   "matches": [
+    {
+      "home": "Amed",
+      "away": "Erzurumspor",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vql0b8",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vql0b8",
+          "scorer": "Dia Saba",
+          "minute": 53,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/seqp3x1gvvjh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/seqp3x1gvvjh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786950144000
+        }
+      ]
+    },
     {
       "home": "Seattle Sounders",
       "away": "Vancouver Whitecaps",
