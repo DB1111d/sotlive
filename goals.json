@@ -1,7 +1,67 @@
 {
-  "updated": "2026-08-17T18:56:21Z",
+  "updated": "2026-08-17T19:27:03Z",
   "date": "2026-08-17",
   "matches": [
+    {
+      "home": "Deportivo",
+      "away": "Elche",
+      "league": "La Liga",
+      "goals": [
+        {
+          "postId": "1vr25k5",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vr25k5",
+          "scorer": "Pierre-Emerick Aubameyang",
+          "minute": 21,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/becj43askzjh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/becj43askzjh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786994766000
+        }
+      ]
+    },
+    {
+      "home": "Casa Pia",
+      "away": "SL Benfica",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vr2163",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vr2163",
+          "scorer": "Prestianni",
+          "minute": 3,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/hoyinrm2kzjh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/hoyinrm2kzjh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1786994502000
+        }
+      ]
+    },
+    {
+      "home": "Cardiff City",
+      "away": "Wrexham",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vr1jsq",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vr1jsq",
+          "scorer": "Kieffer Moore",
+          "minute": 3,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/h6uavsy1hzjh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/h6uavsy1hzjh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1786993474000
+        }
+      ]
+    },
     {
       "home": "Amed",
       "away": "Erzurumspor",
