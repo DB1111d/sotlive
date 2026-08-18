@@ -1,5 +1,26 @@
 {
-  "updated": "2026-08-18T07:23:27Z",
+  "updated": "2026-08-18T08:01:44Z",
   "date": "2026-08-18",
-  "matches": []
+  "matches": [
+    {
+      "home": "GKS Katowice",
+      "away": "Czarni Sosnowiec",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vri9dy",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vri9dy",
+          "scorer": "Patrycja Sarapata",
+          "minute": 42,
+          "homeScore": 3,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/bwfktqns53kh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/bwfktqns53kh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1787038130000
+        }
+      ]
+    }
+  ]
 }
