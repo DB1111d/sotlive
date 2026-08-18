@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T17:52:34Z",
+  "updated": "2026-08-18T18:32:31Z",
   "date": "2026-08-18",
   "matches": [
     {
@@ -45,6 +45,32 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/dpp0jccs26kh1/CMAF_1080.mp4?source=fallback",
           "postedAt": 1787073462000
+        },
+        {
+          "postId": "1vrw3ih",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vrw3ih",
+          "scorer": "Luis Diaz",
+          "minute": 78,
+          "homeScore": 2,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/5kcrsqcs56kh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1787074459000
+        },
+        {
+          "postId": "1vrw8x3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vrw8x3",
+          "scorer": "Nathaniel Brown",
+          "minute": 83,
+          "homeScore": 2,
+          "awayScore": 4,
+          "videoUrl": "https://v.redd.it/9nithhkr66kh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/9nithhkr66kh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1787074785000
         }
       ]
     },
