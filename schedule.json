@@ -1,28 +1,9 @@
 {
-  "updated": "2026-08-17 16:26 EDT",
+  "updated": "2026-08-17 21:13 EDT",
   "days": {
     "20260817": {
       "date": "Monday, August 17",
-      "games": [
-        {
-          "league": "EFL Championship",
-          "time": "3:00 PM",
-          "match": "Cardiff City vs Wrexham",
-          "source": "Paramount+",
-          "kick_utc": "2026-08-17T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/347.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/352.png"
-        },
-        {
-          "league": "La Liga",
-          "time": "3:00 PM",
-          "match": "Deportivo vs Elche",
-          "source": "ESPN+",
-          "kick_utc": "2026-08-17T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png"
-        }
-      ]
+      "games": []
     },
     "20260818": {
       "date": "Tuesday, August 18",
