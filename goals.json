@@ -1,7 +1,40 @@
 {
-  "updated": "2026-08-18T16:10:41Z",
+  "updated": "2026-08-18T16:47:16Z",
   "date": "2026-08-18",
   "matches": [
+    {
+      "home": "Heidenheim",
+      "away": "Bayern Munich",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vru38p",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vru38p",
+          "scorer": "Felipe Chavez free-kick",
+          "minute": 25,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/s8m2qdigt5kh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/s8m2qdigt5kh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1787070336000
+        },
+        {
+          "postId": "1vrunvp",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vrunvp",
+          "scorer": "Julian Niehues",
+          "minute": 44,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/3u9binqxw5kh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1787071500000
+        }
+      ]
+    },
     {
       "home": "GKS Katowice",
       "away": "Czarni Sosnowiec",
