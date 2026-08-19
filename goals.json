@@ -1,7 +1,153 @@
 {
-  "updated": "2026-08-19T19:37:41Z",
+  "updated": "2026-08-19T19:58:20Z",
   "date": "2026-08-19",
   "matches": [
+    {
+      "home": "NEC Nijmegen",
+      "away": "Bodoe/Glimt",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vswfj0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vswfj0",
+          "scorer": "Sondre Fet",
+          "minute": 25,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/1jygtb0nudkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/1jygtb0nudkh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1787167563000
+        },
+        {
+          "postId": "1vswyc6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vswyc6",
+          "scorer": "Andreas Helmersen penalty",
+          "minute": 44,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/abg0m3m4ydkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/abg0m3m4ydkh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1787168715000
+        }
+      ]
+    },
+    {
+      "home": "Slovan Bratislava",
+      "away": "NK Celje",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vswvde",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vswvde",
+          "scorer": "Milot Avdyli",
+          "minute": 41,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/18q3xteixdkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/18q3xteixdkh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1787168526000
+        }
+      ]
+    },
+    {
+      "home": "Celtic",
+      "away": "LASK",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vswgma",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vswgma",
+          "scorer": "Benjamin Nygren",
+          "minute": 26,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/av2ipy2uudkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/av2ipy2uudkh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1787167626000
+        },
+        {
+          "postId": "1vswrmv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vswrmv",
+          "scorer": "Camilo Duran",
+          "minute": 38,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/emjd9katwdkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/emjd9katwdkh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1787168295000
+        }
+      ]
+    },
+    {
+      "home": "FC Barcelona",
+      "away": "Al Ahly",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vswnzy",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vswnzy",
+          "scorer": "Ahmed Sayed Zizo",
+          "minute": 51,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/pvfwu1e5wdkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/pvfwu1e5wdkh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1787168069000
+        }
+      ]
+    },
+    {
+      "home": "Slovan Bratislava",
+      "away": "Celje",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vsw8tg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vsw8tg",
+          "scorer": "Roman Čerepkai",
+          "minute": 15,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/who8nv1htdkh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1787167165000
+        }
+      ]
+    },
+    {
+      "home": "Hapoel Beer Sheva",
+      "away": "Sabah FK",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vsvx8j",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vsvx8j",
+          "scorer": "Veljko Simic",
+          "minute": 6,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/7hsele4grdkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/7hsele4grdkh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1787166468000
+        }
+      ]
+    },
     {
       "home": "Barcelona",
       "away": "Al Ahly",
