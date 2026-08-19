@@ -1,5 +1,26 @@
 {
-  "updated": "2026-08-19T06:37:28Z",
+  "updated": "2026-08-19T07:24:11Z",
   "date": "2026-08-19",
-  "matches": []
+  "matches": [
+    {
+      "home": "Stal Stalowa Wola",
+      "away": "Avia Świdnik",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vsf2s6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vsf2s6",
+          "scorer": "Maksymilian Hebel",
+          "minute": 66,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/njpsq0mt6akh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/njpsq0mt6akh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1787123236000
+        }
+      ]
+    }
+  ]
 }
