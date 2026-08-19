@@ -1,50 +1,37 @@
 {
-  "updated": "2026-08-19T21:39:14Z",
+  "updated": "2026-08-19T21:59:35Z",
   "date": "2026-08-19",
   "matches": [
     {
-      "home": "Celtic",
-      "away": "LASK",
+      "home": "Atletico Madrid",
+      "away": "Malaga",
       "league": "Rest of World",
       "goals": [
         {
-          "postId": "1vswgma",
+          "postId": "1vsygql",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1vswgma",
-          "scorer": "Benjamin Nygren",
-          "minute": 26,
+          "permalink": "https://redd.it/1vsygql",
+          "scorer": "Kang-in Lee",
+          "minute": 70,
           "homeScore": 1,
           "awayScore": 0,
-          "videoUrl": "https://v.redd.it/av2ipy2uudkh1",
+          "videoUrl": "https://v.redd.it/emt6txtx7ekh1",
           "videoEmbed": null,
-          "directMp4": "https://v.redd.it/av2ipy2uudkh1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1787167626000
+          "directMp4": "https://v.redd.it/emt6txtx7ekh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1787172023000
         },
         {
-          "postId": "1vswrmv",
+          "postId": "1vsyu82",
           "subreddit": "soccer",
-          "permalink": "https://redd.it/1vswrmv",
-          "scorer": "Camilo Duran",
-          "minute": 38,
+          "permalink": "https://redd.it/1vsyu82",
+          "scorer": "Alex Baena free-kick",
+          "minute": 84,
           "homeScore": 2,
           "awayScore": 0,
-          "videoUrl": "https://v.redd.it/emjd9katwdkh1",
+          "videoUrl": "https://v.redd.it/5zsgxe7faekh1",
           "videoEmbed": null,
-          "directMp4": "https://v.redd.it/emjd9katwdkh1/CMAF_1080.mp4?source=fallback",
-          "postedAt": 1787168295000
-        },
-        {
-          "postId": "1vsy1j6",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1vsy1j6",
-          "scorer": "Camilo Duran",
-          "minute": 67,
-          "homeScore": 3,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/ft301nl45ekh1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/ft301nl45ekh1/CMAF_1080.mp4?source=fallback",
-          "postedAt": 1787171084000
+          "directMp4": "https://v.redd.it/5zsgxe7faekh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1787172854000
         }
       ]
     },
@@ -91,6 +78,65 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/8cyh5icn2ekh1/CMAF_1080.mp4?source=fallback",
           "postedAt": 1787170249000
+        },
+        {
+          "postId": "1vsylzr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vsylzr",
+          "scorer": "Clement Bischoff",
+          "minute": 85,
+          "homeScore": 1,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/1j8pykyu8ekh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/1j8pykyu8ekh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1787172343000
+        }
+      ]
+    },
+    {
+      "home": "Celtic",
+      "away": "LASK",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vswgma",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vswgma",
+          "scorer": "Benjamin Nygren",
+          "minute": 26,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/av2ipy2uudkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/av2ipy2uudkh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1787167626000
+        },
+        {
+          "postId": "1vswrmv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vswrmv",
+          "scorer": "Camilo Duran",
+          "minute": 38,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/emjd9katwdkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/emjd9katwdkh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1787168295000
+        },
+        {
+          "postId": "1vsy1j6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vsy1j6",
+          "scorer": "Camilo Duran",
+          "minute": 67,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/ft301nl45ekh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ft301nl45ekh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1787171084000
         }
       ]
     },
