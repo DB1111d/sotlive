@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-19T23:29:55Z",
+  "updated": "2026-08-19T23:50:00Z",
   "date": "2026-08-19",
   "matches": [
+    {
+      "home": "Orlando City",
+      "away": "Chicago Fire",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vt35gc",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vt35gc",
+          "scorer": "Puso Dithejane",
+          "minute": 4,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/0dyuh2ev4fkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/0dyuh2ev4fkh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1787183098000
+        }
+      ]
+    },
     {
       "home": "Atletico Madrid",
       "away": "Malaga",
