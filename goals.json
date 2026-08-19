@@ -1,60 +1,7 @@
 {
-  "updated": "2026-08-19T19:58:20Z",
+  "updated": "2026-08-19T20:33:32Z",
   "date": "2026-08-19",
   "matches": [
-    {
-      "home": "NEC Nijmegen",
-      "away": "Bodoe/Glimt",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1vswfj0",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1vswfj0",
-          "scorer": "Sondre Fet",
-          "minute": 25,
-          "homeScore": 0,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/1jygtb0nudkh1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/1jygtb0nudkh1/CMAF_1080.mp4?source=fallback",
-          "postedAt": 1787167563000
-        },
-        {
-          "postId": "1vswyc6",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1vswyc6",
-          "scorer": "Andreas Helmersen penalty",
-          "minute": 44,
-          "homeScore": 0,
-          "awayScore": 2,
-          "videoUrl": "https://v.redd.it/abg0m3m4ydkh1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/abg0m3m4ydkh1/CMAF_1080.mp4?source=fallback",
-          "postedAt": 1787168715000
-        }
-      ]
-    },
-    {
-      "home": "Slovan Bratislava",
-      "away": "NK Celje",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1vswvde",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1vswvde",
-          "scorer": "Milot Avdyli",
-          "minute": 41,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/18q3xteixdkh1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/18q3xteixdkh1/CMAF_1080.mp4?source=fallback",
-          "postedAt": 1787168526000
-        }
-      ]
-    },
     {
       "home": "Celtic",
       "away": "LASK",
@@ -85,6 +32,85 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/emjd9katwdkh1/CMAF_1080.mp4?source=fallback",
           "postedAt": 1787168295000
+        },
+        {
+          "postId": "1vsy1j6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vsy1j6",
+          "scorer": "Camilo Duran",
+          "minute": 67,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/ft301nl45ekh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ft301nl45ekh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1787171084000
+        }
+      ]
+    },
+    {
+      "home": "NEC Nijmegen",
+      "away": "Bodoe/Glimt",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vswfj0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vswfj0",
+          "scorer": "Sondre Fet",
+          "minute": 25,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/1jygtb0nudkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/1jygtb0nudkh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1787167563000
+        },
+        {
+          "postId": "1vswyc6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vswyc6",
+          "scorer": "Andreas Helmersen penalty",
+          "minute": 44,
+          "homeScore": 0,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/abg0m3m4ydkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/abg0m3m4ydkh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1787168715000
+        },
+        {
+          "postId": "1vsxnja",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vsxnja",
+          "scorer": "Haitam Aleesami",
+          "minute": 50,
+          "homeScore": 0,
+          "awayScore": 3,
+          "videoUrl": "https://v.redd.it/8cyh5icn2ekh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/8cyh5icn2ekh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1787170249000
+        }
+      ]
+    },
+    {
+      "home": "Slovan Bratislava",
+      "away": "NK Celje",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vswvde",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vswvde",
+          "scorer": "Milot Avdyli",
+          "minute": 41,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/18q3xteixdkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/18q3xteixdkh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1787168526000
         }
       ]
     },
