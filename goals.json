@@ -1,7 +1,40 @@
 {
-  "updated": "2026-08-19T18:29:21Z",
+  "updated": "2026-08-19T19:03:34Z",
   "date": "2026-08-19",
   "matches": [
+    {
+      "home": "Barcelona",
+      "away": "Al Ahly",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vsv71g",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vsv71g",
+          "scorer": "Hamza Abdelkarim",
+          "minute": 29,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/6hdf8e1qmdkh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1787164921000
+        },
+        {
+          "postId": "1vsvjsz",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vsvjsz",
+          "scorer": "Raphinha penalty",
+          "minute": 45,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/beph4ge3pdkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/beph4ge3pdkh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1787165687000
+        }
+      ]
+    },
     {
       "home": "Stal Stalowa Wola",
       "away": "Avia Świdnik",
