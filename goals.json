@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T17:44:13Z",
+  "updated": "2026-08-20T18:13:17Z",
   "date": "2026-08-20",
   "matches": [
     {
@@ -58,6 +58,32 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/o9hmrsadfkkh1/CMAF_720.mp4?source=fallback",
           "postedAt": 1787247158000
+        },
+        {
+          "postId": "1vtqhfu",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vtqhfu",
+          "scorer": "Radosław Murawski",
+          "minute": 45,
+          "homeScore": 5,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/s5yqxm8uhkkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/s5yqxm8uhkkh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1787247992000
+        },
+        {
+          "postId": "1vtr2i3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vtr2i3",
+          "scorer": "Daniel Håkans",
+          "minute": 48,
+          "homeScore": 6,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/nr8y9prklkkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/nr8y9prklkkh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1787249248000
         }
       ]
     },
@@ -104,6 +130,19 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/6gktdnncekkh1/CMAF_720.mp4?source=fallback",
           "postedAt": 1787246862000
+        },
+        {
+          "postId": "1vtqoyx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vtqoyx",
+          "scorer": "Sergio Lozano",
+          "minute": 90,
+          "homeScore": 4,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/v4966jr6jkkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/v4966jr6jkkh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1787248458000
         }
       ]
     },
