@@ -1,7 +1,66 @@
 {
-  "updated": "2026-08-20T22:02:39Z",
+  "updated": "2026-08-20T22:43:49Z",
   "date": "2026-08-20",
   "matches": [
+    {
+      "home": "SL Benfica",
+      "away": "AGF Aarhus",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vty5g0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vty5g0",
+          "scorer": "",
+          "minute": 2,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/nun0mriwvlkh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1787264866000
+        },
+        {
+          "postId": "1vty6m0",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vty6m0",
+          "scorer": "",
+          "minute": 31,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/1lsv2hq9wlkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/1lsv2hq9wlkh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1787264946000
+        },
+        {
+          "postId": "1vty7hy",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vty7hy",
+          "scorer": "",
+          "minute": 36,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/4tnyc40gwlkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/4tnyc40gwlkh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1787265007000
+        },
+        {
+          "postId": "1vty86i",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vty86i",
+          "scorer": "",
+          "minute": 45,
+          "homeScore": 3,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/44n9gvalwlkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/44n9gvalwlkh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1787265052000
+        }
+      ]
+    },
     {
       "home": "Getafe",
       "away": "Partizan Belgrade",
