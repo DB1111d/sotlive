@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-20T21:43:47Z",
+  "updated": "2026-08-20T22:02:39Z",
   "date": "2026-08-20",
   "matches": [
+    {
+      "home": "Getafe",
+      "away": "Partizan Belgrade",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vtwrf1",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vtwrf1",
+          "scorer": "'87 A. Garcia",
+          "minute": null,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/nl16rtybmlkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/nl16rtybmlkh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1787261599000
+        }
+      ]
+    },
     {
       "home": "Hajduk Split",
       "away": "Raków Częstochowa",
