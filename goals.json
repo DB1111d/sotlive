@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-20T02:30:04Z",
+  "updated": "2026-08-20T03:25:44Z",
   "date": "2026-08-20",
   "matches": [
+    {
+      "home": "Vancouver",
+      "away": "Houston",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vt7w4w",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vt7w4w",
+          "scorer": "Franco Negri goal",
+          "minute": 34,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/iusm158o6gkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/iusm158o6gkh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1787195810000
+        }
+      ]
+    },
     {
       "home": "Orlando City",
       "away": "Chicago Fire",
@@ -19,6 +39,138 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/0dyuh2ev4fkh1/CMAF_1080.mp4?source=fallback",
           "postedAt": 1787183098000
+        },
+        {
+          "postId": "1vt6sqd",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vt6sqd",
+          "scorer": "David Brekalo",
+          "minute": 52,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/jovl4ajjxfkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/jovl4ajjxfkh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1787192727000
+        },
+        {
+          "postId": "1vt75fg",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vt75fg",
+          "scorer": "Robert Lewandowski penalty",
+          "minute": 69,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/uupe7xvd0gkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/uupe7xvd0gkh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1787193682000
+        }
+      ]
+    },
+    {
+      "home": "Flamengo",
+      "away": "Cruzeiro",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vt52xf",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vt52xf",
+          "scorer": "Giorgian De Arrascaeta",
+          "minute": 35,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/xy99x9gjjfkh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1787188108000
+        },
+        {
+          "postId": "1vt5wy3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vt5wy3",
+          "scorer": "Lucas Romero",
+          "minute": 51,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/39srtsubqfkh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1787190356000
+        },
+        {
+          "postId": "1vt65dv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vt65dv",
+          "scorer": "Samuel Lino",
+          "minute": 62,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/cxys67d7sfkh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1787190970000
+        }
+      ]
+    },
+    {
+      "home": "Minnesota United",
+      "away": "Atlanta United",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vt5if9",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vt5if9",
+          "scorer": "Tomás Jacob '38",
+          "minute": 38,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/48ou81q3nfkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/48ou81q3nfkh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1787189279000
+        }
+      ]
+    },
+    {
+      "home": "Atlético Ottawa",
+      "away": "Vancouver FC",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vt4x8d",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vt4x8d",
+          "scorer": "Emiliano García",
+          "minute": 73,
+          "homeScore": 4,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/9zkuoxvjifkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/9zkuoxvjifkh1/CMAF_360.mp4?source=fallback",
+          "postedAt": 1787187684000
+        }
+      ]
+    },
+    {
+      "home": "Philadelphia Union",
+      "away": "Inter Miami",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vt3pho",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vt3pho",
+          "scorer": "Lionel Messi",
+          "minute": 26,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/ucdmtrow8fkh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1787184493000
         }
       ]
     },
