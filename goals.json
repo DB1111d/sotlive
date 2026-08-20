@@ -1,7 +1,132 @@
 {
-  "updated": "2026-08-20T17:05:05Z",
+  "updated": "2026-08-20T17:44:13Z",
   "date": "2026-08-20",
   "matches": [
+    {
+      "home": "Lech Poznań",
+      "away": "Thun",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vtphzx",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vtphzx",
+          "scorer": "Patrik Wålemark",
+          "minute": 10,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/j8zyqkoibkkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/j8zyqkoibkkh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1787245865000
+        },
+        {
+          "postId": "1vtps54",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vtps54",
+          "scorer": "Allahyar Sayyadmanesh",
+          "minute": 20,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/f6gksnyddkkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/f6gksnyddkkh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1787246493000
+        },
+        {
+          "postId": "1vtpzs6",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vtpzs6",
+          "scorer": "Patrik Wålemark",
+          "minute": 25,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/at3przfrekkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/at3przfrekkh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1787246957000
+        },
+        {
+          "postId": "1vtq35p",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vtq35p",
+          "scorer": "Mateusz Skrzypczak",
+          "minute": 31,
+          "homeScore": 4,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/o9hmrsadfkkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/o9hmrsadfkkh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1787247158000
+        }
+      ]
+    },
+    {
+      "home": "Jagiellonia Białystok",
+      "away": "Iberia 1999",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vtojbe",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vtojbe",
+          "scorer": "Jesús Imaz penalty",
+          "minute": 34,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/ae1wuhla5kkh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1787243785000
+        },
+        {
+          "postId": "1vtowhr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vtowhr",
+          "scorer": "Jeremy Agbonifo",
+          "minute": 45,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/zga29cml7kkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/zga29cml7kkh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1787244570000
+        },
+        {
+          "postId": "1vtpy8f",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vtpy8f",
+          "scorer": "Own Goal",
+          "minute": 62,
+          "homeScore": 3,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/6gktdnncekkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/6gktdnncekkh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1787246862000
+        }
+      ]
+    },
+    {
+      "home": "Trabzonspor",
+      "away": "Ferencvaros",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vtptz3",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vtptz3",
+          "scorer": "K. Zachariassen",
+          "minute": 17,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/cc1vbdkqdkkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/cc1vbdkqdkkh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1787246602000
+        }
+      ]
+    },
     {
       "home": "Real Salt Lake",
       "away": "FC Dallas",
