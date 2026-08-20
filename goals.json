@@ -1,7 +1,178 @@
 {
-  "updated": "2026-08-20T20:45:04Z",
+  "updated": "2026-08-20T21:11:54Z",
   "date": "2026-08-20",
   "matches": [
+    {
+      "home": "Hajduk Split",
+      "away": "Raków Częstochowa",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vtt8sa",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vtt8sa",
+          "scorer": "Michele Šego",
+          "minute": 21,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/lajsma0xykkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/lajsma0xykkh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1787253731000
+        },
+        {
+          "postId": "1vttewr",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vttewr",
+          "scorer": "Mahir Emreli",
+          "minute": 27,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/76kl1pa00lkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/76kl1pa00lkh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1787254099000
+        },
+        {
+          "postId": "1vtuhja",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vtuhja",
+          "scorer": "Dalisson de Almeida",
+          "minute": 47,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/6n6nvgfw6lkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/6n6nvgfw6lkh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1787256436000
+        },
+        {
+          "postId": "1vtvrun",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vtvrun",
+          "scorer": "Lamine Diaby-Fadiga",
+          "minute": 90,
+          "homeScore": 2,
+          "awayScore": 2,
+          "videoUrl": "https://v.redd.it/1tzd9odfflkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/1tzd9odfflkh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1787259289000
+        }
+      ]
+    },
+    {
+      "home": "Rayo Vallecano",
+      "away": "Alavés",
+      "league": "La Liga",
+      "goals": [
+        {
+          "postId": "1vtulcv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vtulcv",
+          "scorer": "Sergio Camello",
+          "minute": 48,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/dcugphrm7lkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/dcugphrm7lkh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1787256674000
+        },
+        {
+          "postId": "1vtvk71",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vtvk71",
+          "scorer": "Mariano Díaz",
+          "minute": 84,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/l2seau40elkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/l2seau40elkh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1787258809000
+        }
+      ]
+    },
+    {
+      "home": "Motherwell",
+      "away": "SC Freiburg",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vtruok",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vtruok",
+          "scorer": "Regan Charles-Cook",
+          "minute": 2,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://streamin.link/v/ca570eaf",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1787250925000
+        },
+        {
+          "postId": "1vtskgt",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vtskgt",
+          "scorer": "Matthias Ginter",
+          "minute": 28,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/44c83fb0",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1787252404000
+        },
+        {
+          "postId": "1vtu8wu",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vtu8wu",
+          "scorer": "Matthias Ginter",
+          "minute": 65,
+          "homeScore": 1,
+          "awayScore": 2,
+          "videoUrl": "https://streamin.link/v/7590df6c",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1787255933000
+        },
+        {
+          "postId": "1vtv1gi",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vtv1gi",
+          "scorer": "Keisuke Goto",
+          "minute": 90,
+          "homeScore": 1,
+          "awayScore": 3,
+          "videoUrl": "https://streamin.link/v/9ee219e0",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1787257657000
+        }
+      ]
+    },
+    {
+      "home": "Hearts",
+      "away": "Rapid Wien",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vtus9t",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vtus9t",
+          "scorer": "James Wilson",
+          "minute": 62,
+          "homeScore": 2,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/ptbx6lbg8lkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ptbx6lbg8lkh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1787257086000
+        }
+      ]
+    },
     {
       "home": "Górnik Zabrze",
       "away": "Monaco",
@@ -71,72 +242,6 @@
           "videoEmbed": null,
           "directMp4": "https://v.redd.it/txqva0k51lkh1/CMAF_720.mp4?source=fallback",
           "postedAt": 1787254499000
-        }
-      ]
-    },
-    {
-      "home": "Hajduk Split",
-      "away": "Raków Częstochowa",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1vtt8sa",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1vtt8sa",
-          "scorer": "Michele Šego",
-          "minute": 21,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://v.redd.it/lajsma0xykkh1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/lajsma0xykkh1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1787253731000
-        },
-        {
-          "postId": "1vttewr",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1vttewr",
-          "scorer": "Mahir Emreli",
-          "minute": 27,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://v.redd.it/76kl1pa00lkh1",
-          "videoEmbed": null,
-          "directMp4": "https://v.redd.it/76kl1pa00lkh1/CMAF_720.mp4?source=fallback",
-          "postedAt": 1787254099000
-        }
-      ]
-    },
-    {
-      "home": "Motherwell",
-      "away": "SC Freiburg",
-      "league": "Rest of World",
-      "goals": [
-        {
-          "postId": "1vtruok",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1vtruok",
-          "scorer": "Regan Charles-Cook",
-          "minute": 2,
-          "homeScore": 1,
-          "awayScore": 0,
-          "videoUrl": "https://streamin.link/v/ca570eaf",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1787250925000
-        },
-        {
-          "postId": "1vtskgt",
-          "subreddit": "soccer",
-          "permalink": "https://redd.it/1vtskgt",
-          "scorer": "Matthias Ginter",
-          "minute": 28,
-          "homeScore": 1,
-          "awayScore": 1,
-          "videoUrl": "https://streamin.link/v/44c83fb0",
-          "videoEmbed": null,
-          "directMp4": null,
-          "postedAt": 1787252404000
         }
       ]
     },
