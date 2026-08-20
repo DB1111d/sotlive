@@ -1,5 +1,26 @@
 {
-  "updated": "2026-08-20T05:56:12Z",
+  "updated": "2026-08-20T06:43:21Z",
   "date": "2026-08-20",
-  "matches": []
+  "matches": [
+    {
+      "home": "Real Salt Lake",
+      "away": "FC Dallas",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vtbizk",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vtbizk",
+          "scorer": "Ran Binyamin",
+          "minute": 90,
+          "homeScore": 3,
+          "awayScore": 4,
+          "videoUrl": "https://v.redd.it/ws4mx5ii4hkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/ws4mx5ii4hkh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1787207274000
+        }
+      ]
+    }
+  ]
 }
