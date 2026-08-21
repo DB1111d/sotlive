@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-21T19:22:51Z",
+  "updated": "2026-08-21T19:46:57Z",
   "date": "2026-08-21",
   "matches": [
+    {
+      "home": "Arsenal",
+      "away": "Coventry City",
+      "league": "Premier League",
+      "goals": [
+        {
+          "postId": "1vuq0nj",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vuq0nj",
+          "scorer": "Bukayo Saka 23‎'‎",
+          "minute": null,
+          "homeScore": 2,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/mkrpaiv74skh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/mkrpaiv74skh1/CMAF_1080.mp4?source=fallback",
+          "postedAt": 1787340269000
+        }
+      ]
+    },
     {
       "home": "Cracovia",
       "away": "Wieczysta Kraków",
