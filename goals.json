@@ -1,7 +1,60 @@
 {
-  "updated": "2026-08-21T18:54:47Z",
+  "updated": "2026-08-21T19:22:51Z",
   "date": "2026-08-21",
   "matches": [
+    {
+      "home": "Cracovia",
+      "away": "Wieczysta Kraków",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vup938",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vup938",
+          "scorer": "Mateusz Wieteska",
+          "minute": 23,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/8n4fw709zrkh1",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1787338601000
+        },
+        {
+          "postId": "1vupvey",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vupvey",
+          "scorer": "Mauro Perković",
+          "minute": 45,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/a81v4hs13skh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/a81v4hs13skh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1787339942000
+        }
+      ]
+    },
+    {
+      "home": "Waldhof Mannheim",
+      "away": "Kaiserslautern",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vuppow",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vuppow",
+          "scorer": "Ibrahim Kanaté",
+          "minute": 119,
+          "homeScore": 0,
+          "awayScore": 1,
+          "videoUrl": "https://streamin.link/v/fa28c797",
+          "videoEmbed": null,
+          "directMp4": null,
+          "postedAt": 1787339593000
+        }
+      ]
+    },
     {
       "home": "St. Tönis",
       "away": "Eintracht Frankfurt",
