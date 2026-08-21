@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-20T23:59:13Z",
-  "date": "2026-08-20",
+  "updated": "2026-08-21T01:49:29Z",
+  "date": "2026-08-21",
   "matches": [
+    {
+      "home": "Botafogo",
+      "away": "Cienciano",
+      "league": "Rest of World",
+      "goals": [
+        {
+          "postId": "1vu21ib",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vu21ib",
+          "scorer": "6 on agg.]",
+          "minute": 9,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://youtube.com/shorts/84Hl9Orzk3E",
+          "videoEmbed": "https://www.youtube.com/embed/84Hl9Orzk3E",
+          "directMp4": null,
+          "postedAt": 1787274815000
+        }
+      ]
+    },
     {
       "home": "SL Benfica",
       "away": "AGF Aarhus",
@@ -144,6 +164,39 @@
       "home": "Rayo Vallecano",
       "away": "Alavés",
       "league": "La Liga",
+      "goals": [
+        {
+          "postId": "1vtulcv",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vtulcv",
+          "scorer": "Sergio Camello",
+          "minute": 48,
+          "homeScore": 1,
+          "awayScore": 0,
+          "videoUrl": "https://v.redd.it/dcugphrm7lkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/dcugphrm7lkh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1787256674000
+        },
+        {
+          "postId": "1vtvk71",
+          "subreddit": "soccer",
+          "permalink": "https://redd.it/1vtvk71",
+          "scorer": "Mariano Díaz",
+          "minute": 84,
+          "homeScore": 1,
+          "awayScore": 1,
+          "videoUrl": "https://v.redd.it/l2seau40elkh1",
+          "videoEmbed": null,
+          "directMp4": "https://v.redd.it/l2seau40elkh1/CMAF_720.mp4?source=fallback",
+          "postedAt": 1787258809000
+        }
+      ]
+    },
+    {
+      "home": "Rayo Vallecano",
+      "away": "Deportivo Alavés",
+      "league": "Rest of World",
       "goals": [
         {
           "postId": "1vtulcv",
