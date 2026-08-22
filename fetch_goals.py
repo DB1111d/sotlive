@@ -255,40 +255,47 @@ def today_utc_midnight_ts():
     return int(eastern_midnight.astimezone(timezone.utc).timestamp())
 
 def fetch_posts(after_ts):
-    """Paginate through all posts since after_ts using before= cursor."""
+    """Paginate through r/soccer new posts since after_ts using Reddit's public JSON API."""
     all_posts = []
-    before_ts = None
+    after_fullname = None
+
+    headers = {
+        "User-Agent": "sotlive-goalfeed/1.0 (github.com/DB1111d/sotlive)",
+        "Accept": "application/json",
+    }
 
     while True:
-        url = (
-            f"https://arctic-shift.photon-reddit.com/api/posts/search"
-            f"?subreddit={SUBREDDIT}&after={after_ts}&limit=100&sort=desc"
-        )
-        if before_ts is not None:
-            url += f"&before={before_ts}"
+        url = f"https://www.reddit.com/r/{SUBREDDIT}/new.json?limit=100&raw_json=1"
+        if after_fullname:
+            url += f"&after={after_fullname}"
 
-        req = urllib.request.Request(url, headers=HEADERS)
+        req = urllib.request.Request(url, headers=headers)
         try:
             with urllib.request.urlopen(req, timeout=20) as resp:
                 data = json.loads(resp.read().decode("utf-8"))
-                posts = data.get("data", [])
         except Exception as e:
             print(f"  Fetch error: {e}")
             break
 
+        children = data.get("data", {}).get("children", [])
+        if not children:
+            break
+
+        posts = [c["data"] for c in children if c.get("kind") == "t3"]
         if not posts:
             break
 
-        all_posts.extend(posts)
-        print(f"  Fetched {len(posts)} posts (total so far: {len(all_posts)})")
-
-        if len(posts) < 100:
-            break
-
+        # Stop if oldest post is before today
         oldest_ts = min(int(p.get("created_utc", 0)) for p in posts)
-        if oldest_ts <= after_ts:
+        # Only keep posts from today
+        todays_posts = [p for p in posts if int(p.get("created_utc", 0)) >= after_ts]
+        all_posts.extend(todays_posts)
+        print(f"  Fetched {len(todays_posts)} posts from today (total: {len(all_posts)})")
+
+        if oldest_ts < after_ts or len(children) < 100:
             break
-        before_ts = oldest_ts - 1
+
+        after_fullname = children[-1]["data"]["name"]
 
     return all_posts
 
