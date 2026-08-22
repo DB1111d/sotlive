@@ -413,7 +413,7 @@
   <div style="text-align:center;margin-bottom:16px;margin-top:10px;">
     <span style="font-family:var(--display);font-size:3.2rem;letter-spacing:0.05em;color:var(--accent);"><span style="font-size:3.8rem;">🥅</span> GOAL<span style="color:var(--text);">FEED</span></span>
   </div>
-  <div id="league-filter-bar" style="display:none;"></div>
+  <div id="league-filter-bar" style="display:none !important;"></div>
   <div id="maintenance-banner" style="text-align:center;padding:60px 20px;">
     <div style="font-size:2em;margin-bottom:12px;">🛠️</div>
     <div style="font-size:16px;font-weight:600;margin-bottom:8px;">GoalFeed Maintenance</div>
@@ -487,6 +487,7 @@ function buildLeagueFilter(matchList) {
     activeLeague = ordered.length > 0 ? ordered[0] : 'Other';
   }
 
+  if (document.getElementById('maintenance-banner')) return;
   bar.style.display = 'flex';
   bar.innerHTML = '';
 
