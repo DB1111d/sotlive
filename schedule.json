@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23 08:39 EDT",
+  "updated": "2026-08-23 12:25 EDT",
   "days": {
     "20260823": {
       "date": "Sunday, August 23",
@@ -48,15 +48,6 @@
           "kick_utc": "2026-08-23T23:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18418.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/186.png"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "7:00 AM",
-          "match": "West Bromwich Albion vs Burnley",
-          "source": "Paramount+",
-          "kick_utc": "2026-08-23T11:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/383.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/379.png"
         },
         {
           "league": "Serie A",
