@@ -1,36 +1,9 @@
 {
-  "updated": "2026-08-26 12:47 EDT",
+  "updated": "2026-08-26 18:48 EDT",
   "days": {
     "20260826": {
       "date": "Wednesday, August 26",
       "games": [
-        {
-          "league": "Carabao Cup",
-          "time": "2:45 PM",
-          "match": "Bradford City vs Burnley",
-          "source": "Paramount+",
-          "kick_utc": "2026-08-26T18:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/387.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/379.png"
-        },
-        {
-          "league": "Carabao Cup",
-          "time": "2:45 PM",
-          "match": "Newcastle United vs West Bromwich Albion",
-          "source": "Paramount+",
-          "kick_utc": "2026-08-26T18:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/383.png"
-        },
-        {
-          "league": "Carabao Cup",
-          "time": "2:45 PM",
-          "match": "Tottenham Hotspur vs Charlton Athletic",
-          "source": "Paramount+",
-          "kick_utc": "2026-08-26T18:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/372.png"
-        },
         {
           "league": "Carabao Cup",
           "time": "3:00 PM",
