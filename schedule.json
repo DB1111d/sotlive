@@ -1,74 +1,6 @@
 {
-  "updated": "2026-08-26 18:48 EDT",
+  "updated": "2026-08-27 03:53 EDT",
   "days": {
-    "20260826": {
-      "date": "Wednesday, August 26",
-      "games": [
-        {
-          "league": "Carabao Cup",
-          "time": "3:00 PM",
-          "match": "Preston North End vs Everton",
-          "source": "Paramount+",
-          "kick_utc": "2026-08-26T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/394.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png"
-        },
-        {
-          "league": "La Liga",
-          "time": "3:00 PM",
-          "match": "Real Madrid vs Real Sociedad",
-          "source": "ESPN+",
-          "kick_utc": "2026-08-26T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png"
-        },
-        {
-          "league": "USL Championship",
-          "time": "9:00 PM",
-          "match": "El Paso Locomotive FC vs Pittsburgh Riverhounds",
-          "source": "ESPN+",
-          "kick_utc": "2026-08-27T01:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19407.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17827.png"
-        },
-        {
-          "league": "USL Championship",
-          "time": "9:30 PM",
-          "match": "New Mexico United vs Lexington",
-          "source": "ESPN+",
-          "kick_utc": "2026-08-27T01:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19408.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21822.png"
-        },
-        {
-          "league": "USL League One",
-          "time": "7:30 PM",
-          "match": "FC Naples vs Union Omaha",
-          "source": "ESPN+",
-          "kick_utc": "2026-08-26T23:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22525.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20684.png"
-        },
-        {
-          "league": "Leagues Cup",
-          "time": "8:30 PM",
-          "match": "Toluca vs Austin FC",
-          "source": "FS1 \u00b7 Apple TV",
-          "kick_utc": "2026-08-27T00:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/223.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20906.png"
-        },
-        {
-          "league": "Leagues Cup",
-          "time": "10:45 PM",
-          "match": "Am\u00e9rica vs Columbus Crew",
-          "source": "FS1 \u00b7 Apple TV",
-          "kick_utc": "2026-08-27T02:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/227.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png"
-        }
-      ]
-    },
     "20260827": {
       "date": "Thursday, August 27",
       "games": [
@@ -734,6 +666,56 @@
           "kick_utc": "2026-08-30T14:45Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3735.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/139.png"
+        }
+      ]
+    },
+    "20260831": {
+      "date": "Monday, August 31",
+      "games": [
+        {
+          "league": "Premier League",
+          "time": "3:00 PM",
+          "match": "Aston Villa vs Arsenal",
+          "source": "USA Network",
+          "kick_utc": "2026-08-31T19:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png"
+        },
+        {
+          "league": "Serie A",
+          "time": "12:30 PM",
+          "match": "Lecce vs AS Roma",
+          "source": "Paramount+",
+          "kick_utc": "2026-08-31T16:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png"
+        },
+        {
+          "league": "Serie A",
+          "time": "2:45 PM",
+          "match": "Atalanta vs Bologna",
+          "source": "Paramount+",
+          "kick_utc": "2026-08-31T18:45Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png"
+        },
+        {
+          "league": "La Liga",
+          "time": "1:30 PM",
+          "match": "Osasuna vs Getafe",
+          "source": "ESPN+",
+          "kick_utc": "2026-08-31T17:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png"
+        },
+        {
+          "league": "La Liga",
+          "time": "3:30 PM",
+          "match": "Barcelona vs Rayo Vallecano",
+          "source": "ESPN+",
+          "kick_utc": "2026-08-31T19:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png"
         }
       ]
     }
