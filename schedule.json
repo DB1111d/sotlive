@@ -1,47 +1,6 @@
 {
-  "updated": "2026-08-27 14:54 EDT",
+  "updated": "2026-08-28 00:04 EDT",
   "days": {
-    "20260827": {
-      "date": "Thursday, August 27",
-      "games": [
-        {
-          "league": "Carabao Cup",
-          "time": "2:30 PM",
-          "match": "Chelsea vs Luton Town",
-          "source": "Paramount+",
-          "kick_utc": "2026-08-27T18:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/301.png"
-        },
-        {
-          "league": "Carabao Cup",
-          "time": "3:00 PM",
-          "match": "Fulham vs AFC Wimbledon",
-          "source": "Paramount+",
-          "kick_utc": "2026-08-27T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3802.png"
-        },
-        {
-          "league": "La Liga",
-          "time": "2:30 PM",
-          "match": "Celta Vigo vs Osasuna",
-          "source": "ESPN+",
-          "kick_utc": "2026-08-27T18:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png"
-        },
-        {
-          "league": "La Liga",
-          "time": "3:00 PM",
-          "match": "Barcelona vs Athletic Club",
-          "source": "ESPN+",
-          "kick_utc": "2026-08-27T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png"
-        }
-      ]
-    },
     "20260828": {
       "date": "Friday, August 28",
       "games": [
@@ -716,6 +675,38 @@
           "kick_utc": "2026-08-31T19:30Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png"
+        }
+      ]
+    },
+    "20260901": {
+      "date": "Tuesday, September 1",
+      "games": [
+        {
+          "league": "EFL Championship",
+          "time": "2:45 PM",
+          "match": "West Ham United vs Wolverhampton Wanderers",
+          "source": "Paramount+",
+          "kick_utc": "2026-09-01T18:45Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/371.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/380.png"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "3:00 PM",
+          "match": "Birmingham City vs Southampton",
+          "source": "Paramount+",
+          "kick_utc": "2026-09-01T19:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/392.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/376.png"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "3:00 PM",
+          "match": "Stoke City vs Norwich City",
+          "source": "Paramount+",
+          "kick_utc": "2026-09-01T19:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/336.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/381.png"
         }
       ]
     }
