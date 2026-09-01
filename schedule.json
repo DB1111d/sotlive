@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01 05:14 EDT",
+  "updated": "2026-09-01 12:10 EDT",
   "days": {
     "20260901": {
       "date": "Tuesday, September 1",
@@ -503,10 +503,10 @@
         },
         {
           "league": "USL Championship",
-          "time": "10:00 PM",
+          "time": "9:00 PM",
           "match": "Orange County SC vs Sacramento Republic FC",
           "source": "ESPN+",
-          "kick_utc": "2026-09-06T02:00Z",
+          "kick_utc": "2026-09-06T01:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18455.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17828.png"
         },
