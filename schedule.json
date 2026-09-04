@@ -1,19 +1,9 @@
 {
-  "updated": "2026-09-03 18:20 EDT",
+  "updated": "2026-09-03 23:15 EDT",
   "days": {
     "20260903": {
       "date": "Thursday, September 3",
-      "games": [
-        {
-          "league": "La Liga",
-          "time": "3:00 PM",
-          "match": "Real Sociedad vs Celta Vigo",
-          "source": "ESPN+",
-          "kick_utc": "2026-09-03T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png"
-        }
-      ]
+      "games": []
     },
     "20260904": {
       "date": "Friday, September 4",
