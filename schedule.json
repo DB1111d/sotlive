@@ -1,45 +1,9 @@
 {
-  "updated": "2026-09-06 17:58 EDT",
+  "updated": "2026-09-06 23:16 EDT",
   "days": {
     "20260906": {
       "date": "Sunday, September 6",
       "games": [
-        {
-          "league": "Serie A",
-          "time": "2:45 PM",
-          "match": "Juventus vs AC Milan",
-          "source": "Paramount+",
-          "kick_utc": "2026-09-06T18:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png"
-        },
-        {
-          "league": "La Liga",
-          "time": "3:00 PM",
-          "match": "Espanyol vs Sevilla",
-          "source": "ESPN+",
-          "kick_utc": "2026-09-06T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png"
-        },
-        {
-          "league": "USL League One",
-          "time": "6:00 PM",
-          "match": "Portland Hearts of Pine vs Westchester SC",
-          "source": "ESPN+",
-          "kick_utc": "2026-09-06T22:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22528.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22524.png"
-        },
-        {
-          "league": "Leagues Cup",
-          "time": "6:00 PM",
-          "match": "Le\u00f3n vs Am\u00e9rica",
-          "source": "Apple TV",
-          "kick_utc": "2026-09-06T22:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/228.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/227.png"
-        },
         {
           "league": "Leagues Cup",
           "time": "9:15 PM",
