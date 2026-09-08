@@ -1,29 +1,9 @@
 {
-  "updated": "2026-09-08 12:07 EDT",
+  "updated": "2026-09-08 18:24 EDT",
   "days": {
     "20260908": {
       "date": "Tuesday, September 8",
       "games": [
-        {
-          "league": "UEFA Champions League",
-          "time": "12:45 PM",
-          "match": "AEK Athens vs LASK Linz",
-          "source": "Paramount+",
-          "kick_utc": "2026-09-08T16:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/887.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png",
-          "round_label": "Group"
-        },
-        {
-          "league": "UEFA Champions League",
-          "time": "12:45 PM",
-          "match": "Club Brugge vs Aston Villa",
-          "source": "CBSSN \u00b7 Paramount+",
-          "kick_utc": "2026-09-08T16:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-          "round_label": "Group"
-        },
         {
           "league": "UEFA Champions League",
           "time": "3:00 PM",
