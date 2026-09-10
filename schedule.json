@@ -1,29 +1,9 @@
 {
-  "updated": "2026-09-10 15:01 EDT",
+  "updated": "2026-09-10 18:17 EDT",
   "days": {
     "20260910": {
       "date": "Thursday, September 10",
       "games": [
-        {
-          "league": "UEFA Champions League",
-          "time": "12:45 PM",
-          "match": "Fenerbahce vs AS Roma",
-          "source": "CBSSN \u00b7 Paramount+",
-          "kick_utc": "2026-09-10T16:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
-          "round_label": "Group"
-        },
-        {
-          "league": "UEFA Champions League",
-          "time": "12:45 PM",
-          "match": "PSV Eindhoven vs Shakhtar Donetsk",
-          "source": "Paramount+",
-          "kick_utc": "2026-09-10T16:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/493.png",
-          "round_label": "Group"
-        },
         {
           "league": "UEFA Champions League",
           "time": "3:00 PM",
