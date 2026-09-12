@@ -1,36 +1,9 @@
 {
-  "updated": "2026-09-11 18:17 EDT",
+  "updated": "2026-09-11 23:28 EDT",
   "days": {
     "20260911": {
       "date": "Friday, September 11",
       "games": [
-        {
-          "league": "EFL Championship",
-          "time": "3:00 PM",
-          "match": "West Ham United vs Wrexham",
-          "source": "Paramount+",
-          "kick_utc": "2026-09-11T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/371.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/352.png"
-        },
-        {
-          "league": "Serie A",
-          "time": "2:45 PM",
-          "match": "Venezia vs Fiorentina",
-          "source": "Paramount+",
-          "kick_utc": "2026-09-11T18:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png"
-        },
-        {
-          "league": "La Liga",
-          "time": "3:00 PM",
-          "match": "Sevilla vs Valencia",
-          "source": "ESPN+",
-          "kick_utc": "2026-09-11T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png"
-        },
         {
           "league": "USL Championship",
           "time": "9:30 PM",
@@ -48,15 +21,6 @@
           "kick_utc": "2026-09-12T02:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17830.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18265.png"
-        },
-        {
-          "league": "USL League One",
-          "time": "7:00 PM",
-          "match": "One Knoxville vs FC Naples",
-          "source": "ESPN+",
-          "kick_utc": "2026-09-11T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21821.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22525.png"
         }
       ]
     },
