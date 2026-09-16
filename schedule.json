@@ -1,55 +1,9 @@
 {
-  "updated": "2026-09-15 18:44 EDT",
+  "updated": "2026-09-15 23:41 EDT",
   "days": {
     "20260915": {
       "date": "Tuesday, September 15",
-      "games": [
-        {
-          "league": "Carabao Cup",
-          "time": "2:45 PM",
-          "match": "West Ham United vs Fulham",
-          "source": "Paramount+",
-          "kick_utc": "2026-09-15T18:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/371.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
-        },
-        {
-          "league": "Carabao Cup",
-          "time": "3:00 PM",
-          "match": "Ipswich Town vs Arsenal",
-          "source": "Paramount+",
-          "kick_utc": "2026-09-15T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png"
-        },
-        {
-          "league": "Carabao Cup",
-          "time": "3:00 PM",
-          "match": "Liverpool vs Tottenham Hotspur",
-          "source": "Paramount+",
-          "kick_utc": "2026-09-15T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "2:45 PM",
-          "match": "Middlesbrough vs Millwall",
-          "source": "Paramount+",
-          "kick_utc": "2026-09-15T18:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/369.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/391.png"
-        },
-        {
-          "league": "La Liga",
-          "time": "3:30 PM",
-          "match": "Elche vs Real Madrid",
-          "source": "ESPN2 \u00b7 ESPN+",
-          "kick_utc": "2026-09-15T19:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png"
-        }
-      ]
+      "games": []
     },
     "20260916": {
       "date": "Wednesday, September 16",
@@ -68,7 +22,7 @@
           "league": "UEFA Europa League",
           "time": "12:45 PM",
           "match": "Omonia Nicosia vs Celta Vigo",
-          "source": "Paramount+",
+          "source": "CBSSN \u00b7 Paramount+",
           "kick_utc": "2026-09-16T16:45Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/617.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
@@ -78,7 +32,7 @@
           "league": "UEFA Europa League",
           "time": "3:00 PM",
           "match": "AC Milan vs Benfica",
-          "source": "Paramount+",
+          "source": "CBSSN \u00b7 Paramount+",
           "kick_utc": "2026-09-16T19:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png",
@@ -297,7 +251,7 @@
           "league": "UEFA Europa League",
           "time": "12:45 PM",
           "match": "Levski Sofia vs RB Salzburg",
-          "source": "Paramount+",
+          "source": "CBSSN \u00b7 Paramount+",
           "kick_utc": "2026-09-17T16:45Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/490.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2790.png",
@@ -367,7 +321,7 @@
           "league": "UEFA Europa League",
           "time": "3:00 PM",
           "match": "Real Sociedad vs AFC Bournemouth",
-          "source": "Paramount+",
+          "source": "CBSSN \u00b7 Paramount+",
           "kick_utc": "2026-09-17T19:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
@@ -505,7 +459,7 @@
           "league": "Premier League",
           "time": "12:30 PM",
           "match": "Nottingham Forest vs Coventry City",
-          "source": "Peacock",
+          "source": "NBC",
           "kick_utc": "2026-09-19T16:30Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png"
