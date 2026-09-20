@@ -1,45 +1,9 @@
 {
-  "updated": "2026-09-19 18:10 EDT",
+  "updated": "2026-09-19 23:46 EDT",
   "days": {
     "20260919": {
       "date": "Saturday, September 19",
       "games": [
-        {
-          "league": "MLS",
-          "time": "7:30 PM",
-          "match": "CF Montr\u00e9al vs Columbus Crew",
-          "source": "Apple TV",
-          "kick_utc": "2026-09-19T23:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9720.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png"
-        },
-        {
-          "league": "MLS",
-          "time": "7:30 PM",
-          "match": "D.C. United vs Charlotte FC",
-          "source": "Apple TV",
-          "kick_utc": "2026-09-19T23:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/193.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21300.png"
-        },
-        {
-          "league": "MLS",
-          "time": "7:30 PM",
-          "match": "New England Revolution vs Orlando City SC",
-          "source": "Apple TV",
-          "kick_utc": "2026-09-19T23:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/189.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/12011.png"
-        },
-        {
-          "league": "MLS",
-          "time": "7:30 PM",
-          "match": "San Jose Earthquakes vs LAFC",
-          "source": "Apple TV",
-          "kick_utc": "2026-09-19T23:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png"
-        },
         {
           "league": "MLS",
           "time": "8:30 PM",
@@ -122,78 +86,6 @@
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18418.png"
         },
         {
-          "league": "Serie A",
-          "time": "2:45 PM",
-          "match": "Venezia vs Lazio",
-          "source": "Paramount+",
-          "kick_utc": "2026-09-19T18:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png"
-        },
-        {
-          "league": "La Liga",
-          "time": "3:00 PM",
-          "match": "Sevilla vs Barcelona",
-          "source": "ESPN+",
-          "kick_utc": "2026-09-19T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png"
-        },
-        {
-          "league": "USL Championship",
-          "time": "7:00 PM",
-          "match": "Brooklyn FC vs FC Tulsa",
-          "source": "ESPN+",
-          "kick_utc": "2026-09-19T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131579.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18446.png"
-        },
-        {
-          "league": "USL Championship",
-          "time": "7:00 PM",
-          "match": "Charleston Battery vs Monterey Bay",
-          "source": "ESPN+",
-          "kick_utc": "2026-09-19T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9729.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21370.png"
-        },
-        {
-          "league": "USL Championship",
-          "time": "7:00 PM",
-          "match": "Lexington vs Orange County SC",
-          "source": "ESPN+",
-          "kick_utc": "2026-09-19T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21822.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18455.png"
-        },
-        {
-          "league": "USL Championship",
-          "time": "7:00 PM",
-          "match": "Louisville City FC vs Loudoun United FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-09-19T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17832.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19410.png"
-        },
-        {
-          "league": "USL Championship",
-          "time": "7:30 PM",
-          "match": "Rhode Island FC vs Miami FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-09-19T23:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22164.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18159.png"
-        },
-        {
-          "league": "USL Championship",
-          "time": "7:30 PM",
-          "match": "Tampa Bay Rowdies vs Birmingham Legion FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-09-19T23:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17361.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19405.png"
-        },
-        {
           "league": "USL Championship",
           "time": "9:00 PM",
           "match": "Colorado Springs Switchbacks FC vs New Mexico United",
@@ -222,66 +114,21 @@
         },
         {
           "league": "USL League One",
-          "time": "6:00 PM",
-          "match": "Richmond Kickers vs Charlotte Independence",
-          "source": "ESPN+",
-          "kick_utc": "2026-09-19T22:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17545.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17826.png"
-        },
-        {
-          "league": "USL League One",
-          "time": "7:00 PM",
-          "match": "Chattanooga Red Wolves vs Portland Hearts of Pine",
-          "source": "ESPN+",
-          "kick_utc": "2026-09-19T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20000.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22528.png"
-        },
-        {
-          "league": "USL League One",
-          "time": "7:00 PM",
-          "match": "Forward Madison FC vs AV Alta FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-09-19T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19995.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22526.png"
-        },
-        {
-          "league": "USL League One",
-          "time": "7:00 PM",
-          "match": "New York Cosmos vs Westchester SC",
-          "source": "ESPN+",
-          "kick_utc": "2026-09-19T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131582.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22524.png"
-        },
-        {
-          "league": "USL League One",
-          "time": "7:30 PM",
-          "match": "Fort Wayne vs FC Naples",
-          "source": "ESPN+",
-          "kick_utc": "2026-09-19T23:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131580.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22525.png"
-        },
-        {
-          "league": "USL League One",
-          "time": "7:30 PM",
-          "match": "Sarasota Paradise vs Greenville Triumph",
-          "source": "ESPN+",
-          "kick_utc": "2026-09-19T23:30Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22542.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19964.png"
-        },
-        {
-          "league": "USL League One",
           "time": "8:00 PM",
           "match": "Union Omaha vs One Knoxville",
           "source": "ESPN+",
           "kick_utc": "2026-09-20T00:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20684.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21821.png"
+        },
+        {
+          "league": "USL League One",
+          "time": "8:18 PM",
+          "match": "Sarasota Paradise vs Greenville Triumph",
+          "source": "ESPN+",
+          "kick_utc": "2026-09-20T00:18Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22542.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19964.png"
         }
       ]
     },
