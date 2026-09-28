@@ -1,38 +1,6 @@
 {
-  "updated": "2026-09-27 18:50 EDT",
+  "updated": "2026-09-28 00:04 EDT",
   "days": {
-    "20260927": {
-      "date": "Sunday, September 27",
-      "games": [
-        {
-          "league": "MLS",
-          "time": "7:00 PM",
-          "match": "Columbus Crew vs Inter Miami CF",
-          "source": "Apple TV",
-          "kick_utc": "2026-09-27T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png"
-        },
-        {
-          "league": "USL League One",
-          "time": "4:00 PM",
-          "match": "New York Cosmos vs Richmond Kickers",
-          "source": "ESPN+",
-          "kick_utc": "2026-09-27T20:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131582.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17545.png"
-        },
-        {
-          "league": "USL League One",
-          "time": "7:00 PM",
-          "match": "One Knoxville vs Westchester SC",
-          "source": "ESPN2",
-          "kick_utc": "2026-09-27T23:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21821.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22524.png"
-        }
-      ]
-    },
     "20260928": {
       "date": "Monday, September 28",
       "games": []
@@ -123,6 +91,10 @@
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/186.png"
         }
       ]
+    },
+    "20261002": {
+      "date": "Friday, October 2",
+      "games": []
     }
   }
 }
