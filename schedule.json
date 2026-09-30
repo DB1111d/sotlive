@@ -1,20 +1,6 @@
 {
-  "updated": "2026-09-29 19:29 EDT",
+  "updated": "2026-09-30 00:21 EDT",
   "days": {
-    "20260929": {
-      "date": "Tuesday, September 29",
-      "games": [
-        {
-          "league": "International Friendly",
-          "time": "8:00 PM",
-          "match": "United States vs Chile",
-          "source": "TNT \u00b7 truTV \u00b7 HBO Max \u00b7 Peacock",
-          "kick_utc": "2026-09-30T00:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/countries/500/chi.png"
-        }
-      ]
-    },
     "20260930": {
       "date": "Wednesday, September 30",
       "games": [
@@ -247,6 +233,20 @@
           "kick_utc": "2026-10-04T01:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22130.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22528.png"
+        }
+      ]
+    },
+    "20261004": {
+      "date": "Sunday, October 4",
+      "games": [
+        {
+          "league": "USL Championship",
+          "time": "6:00 PM",
+          "match": "New Mexico United vs Phoenix Rising FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-10-04T22:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19408.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17850.png"
         }
       ]
     }
