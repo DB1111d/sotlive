@@ -1,20 +1,6 @@
 {
-  "updated": "2026-10-04 18:48 EDT",
+  "updated": "2026-10-05 00:27 EDT",
   "days": {
-    "20261004": {
-      "date": "Sunday, October 4",
-      "games": [
-        {
-          "league": "USL Championship",
-          "time": "6:00 PM",
-          "match": "New Mexico United vs Phoenix Rising FC",
-          "source": "ESPN+",
-          "kick_utc": "2026-10-04T22:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19408.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17850.png"
-        }
-      ]
-    },
     "20261005": {
       "date": "Monday, October 5",
       "games": []
@@ -77,6 +63,29 @@
     "20261008": {
       "date": "Thursday, October 8",
       "games": []
+    },
+    "20261009": {
+      "date": "Friday, October 9",
+      "games": [
+        {
+          "league": "La Liga",
+          "time": "3:00 PM",
+          "match": "M\u00e1laga vs Espanyol",
+          "source": "ESPN+",
+          "kick_utc": "2026-10-09T19:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "2:00 PM",
+          "match": "PSV Eindhoven vs Heerenveen",
+          "source": "ESPN+",
+          "kick_utc": "2026-10-09T18:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/146.png"
+        }
+      ]
     }
   }
 }
