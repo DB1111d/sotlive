@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09 00:55 EDT",
+  "updated": "2026-10-09 11:01 EDT",
   "days": {
     "20261009": {
       "date": "Friday, October 9",
@@ -398,10 +398,10 @@
         },
         {
           "league": "USL Championship",
-          "time": "5:00 PM",
+          "time": "1:00 PM",
           "match": "Sporting JAX vs Birmingham Legion FC",
           "source": "ESPN+",
-          "kick_utc": "2026-10-10T21:00Z",
+          "kick_utc": "2026-10-10T17:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131578.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19405.png"
         },
