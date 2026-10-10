@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10 00:41 EDT",
+  "updated": "2026-10-10 10:17 EDT",
   "days": {
     "20261010": {
       "date": "Saturday, October 10",
@@ -312,15 +312,6 @@
         },
         {
           "league": "La Liga",
-          "time": "8:00 AM",
-          "match": "Rayo Vallecano vs Athletic Club",
-          "source": "ESPN+",
-          "kick_utc": "2026-10-10T12:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png"
-        },
-        {
-          "league": "La Liga",
           "time": "10:15 AM",
           "match": "Alav\u00e9s vs Atl\u00e9tico Madrid",
           "source": "ESPN+",
@@ -345,6 +336,13 @@
           "kick_utc": "2026-10-10T19:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png"
+        },
+        {
+          "league": "La Liga",
+          "time": "Suspended",
+          "match": "Rayo Vallecano vs Athletic Club",
+          "source": "",
+          "kick_utc": "2026-10-10T12:00Z"
         },
         {
           "league": "Dutch Eredivisie",
