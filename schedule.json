@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15 04:55 EDT",
+  "updated": "2026-10-15 12:26 EDT",
   "days": {
     "20261015": {
       "date": "Thursday, October 15",
@@ -736,10 +736,10 @@
         },
         {
           "league": "La Liga",
-          "time": "12:30 PM",
+          "time": "12:00 PM",
           "match": "Real Betis vs Barcelona",
           "source": "ESPN+",
-          "kick_utc": "2026-10-17T16:30Z",
+          "kick_utc": "2026-10-17T16:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png"
         },
