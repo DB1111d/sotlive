@@ -1,37 +1,9 @@
 {
-  "updated": "2026-10-16 18:36 EDT",
+  "updated": "2026-10-16 23:18 EDT",
   "days": {
     "20261016": {
       "date": "Friday, October 16",
-      "games": [
-        {
-          "league": "EFL Championship",
-          "time": "3:00 PM",
-          "match": "Burnley vs Wolverhampton Wanderers",
-          "source": "Paramount+",
-          "kick_utc": "2026-10-16T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/379.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/380.png"
-        },
-        {
-          "league": "Serie A",
-          "time": "2:45 PM",
-          "match": "Frosinone vs Sassuolo",
-          "source": "CBSSN \u00b7 Paramount+",
-          "kick_utc": "2026-10-16T18:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png"
-        },
-        {
-          "league": "La Liga",
-          "time": "3:00 PM",
-          "match": "Deportivo vs Levante",
-          "source": "ESPN+",
-          "kick_utc": "2026-10-16T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png"
-        }
-      ]
+      "games": []
     },
     "20261017": {
       "date": "Saturday, October 17",
