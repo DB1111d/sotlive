@@ -1,29 +1,9 @@
 {
-  "updated": "2026-10-20 12:27 EDT",
+  "updated": "2026-10-20 18:57 EDT",
   "days": {
     "20261020": {
       "date": "Tuesday, October 20",
       "games": [
-        {
-          "league": "UEFA Champions League",
-          "time": "12:45 PM",
-          "match": "Fenerbahce vs Slavia Prague",
-          "source": "Paramount+",
-          "kick_utc": "2026-10-20T16:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
-          "round_label": "Group"
-        },
-        {
-          "league": "UEFA Champions League",
-          "time": "12:45 PM",
-          "match": "Sabah FK vs Borussia Dortmund",
-          "source": "Paramount+",
-          "kick_utc": "2026-10-20T16:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
-          "round_label": "Group"
-        },
         {
           "league": "UEFA Champions League",
           "time": "3:00 PM",
@@ -93,15 +73,6 @@
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
           "round_label": "Group"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "2:45 PM",
-          "match": "Wolverhampton Wanderers vs Portsmouth",
-          "source": "Paramount+",
-          "kick_utc": "2026-10-20T18:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/380.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/385.png"
         }
       ]
     },
@@ -211,7 +182,7 @@
           "league": "US Open Cup",
           "time": "8:00 PM",
           "match": "Columbus Crew vs St. Louis CITY SC",
-          "source": "Paramount+ \u00b7 CBSSN",
+          "source": "CBSSN \u00b7 Paramount+",
           "kick_utc": "2026-10-22T00:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png"
@@ -291,7 +262,7 @@
           "league": "UEFA Europa League",
           "time": "12:45 PM",
           "match": "Juventus vs Stade Rennais",
-          "source": "Paramount+",
+          "source": "CBSSN \u00b7 Paramount+",
           "kick_utc": "2026-10-22T16:45Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
@@ -341,7 +312,7 @@
           "league": "UEFA Europa League",
           "time": "3:00 PM",
           "match": "AFC Bournemouth vs AC Milan",
-          "source": "Paramount+",
+          "source": "CBSSN \u00b7 Paramount+",
           "kick_utc": "2026-10-22T19:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
@@ -626,10 +597,19 @@
           "league": "Premier League",
           "time": "3:00 PM",
           "match": "Ipswich Town vs Nottingham Forest",
-          "source": "Peacock",
+          "source": "USA Network",
           "kick_utc": "2026-10-23T19:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png"
+        },
+        {
+          "league": "EFL Championship",
+          "time": "3:00 PM",
+          "match": "Bolton Wanderers vs Middlesbrough",
+          "source": "CBSSN \u00b7 Paramount+",
+          "kick_utc": "2026-10-23T19:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/358.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/369.png"
         },
         {
           "league": "Serie A",
@@ -658,7 +638,7 @@
           "league": "Premier League",
           "time": "7:30 AM",
           "match": "Aston Villa vs Manchester City",
-          "source": "Peacock",
+          "source": "USA Network",
           "kick_utc": "2026-10-24T11:30Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png"
@@ -667,7 +647,7 @@
           "league": "Premier League",
           "time": "10:00 AM",
           "match": "Arsenal vs Everton",
-          "source": "Peacock",
+          "source": "USA Network",
           "kick_utc": "2026-10-24T14:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png"
@@ -827,6 +807,15 @@
         },
         {
           "league": "EFL Championship",
+          "time": "7:30 AM",
+          "match": "Portsmouth vs Millwall",
+          "source": "CBSSN \u00b7 Paramount+",
+          "kick_utc": "2026-10-24T11:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/385.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/391.png"
+        },
+        {
+          "league": "EFL Championship",
           "time": "10:00 AM",
           "match": "Blackburn Rovers vs Wrexham",
           "source": "Paramount+",
@@ -874,7 +863,7 @@
           "league": "EFL Championship",
           "time": "10:00 AM",
           "match": "Wolverhampton Wanderers vs Watford",
-          "source": "Paramount+",
+          "source": "CBSSN \u00b7 Paramount+",
           "kick_utc": "2026-10-24T14:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/380.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/395.png"
