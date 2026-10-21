@@ -1,80 +1,9 @@
 {
-  "updated": "2026-10-20 18:57 EDT",
+  "updated": "2026-10-20 23:36 EDT",
   "days": {
     "20261020": {
       "date": "Tuesday, October 20",
-      "games": [
-        {
-          "league": "UEFA Champions League",
-          "time": "3:00 PM",
-          "match": "AS Roma vs Slovan Bratislava",
-          "source": "Paramount+",
-          "kick_utc": "2026-10-20T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/521.png",
-          "round_label": "Group"
-        },
-        {
-          "league": "UEFA Champions League",
-          "time": "3:00 PM",
-          "match": "FC Porto vs PSV Eindhoven",
-          "source": "CBSSN \u00b7 Paramount+",
-          "kick_utc": "2026-10-20T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
-          "round_label": "Group"
-        },
-        {
-          "league": "UEFA Champions League",
-          "time": "3:00 PM",
-          "match": "Liverpool vs Villarreal",
-          "source": "Paramount+",
-          "kick_utc": "2026-10-20T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
-          "round_label": "Group"
-        },
-        {
-          "league": "UEFA Champions League",
-          "time": "3:00 PM",
-          "match": "Manchester City vs AEK Athens",
-          "source": "Paramount+",
-          "kick_utc": "2026-10-20T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/887.png",
-          "round_label": "Group"
-        },
-        {
-          "league": "UEFA Champions League",
-          "time": "3:00 PM",
-          "match": "Napoli vs Bodo/Glimt",
-          "source": "Paramount+",
-          "kick_utc": "2026-10-20T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
-          "round_label": "Group"
-        },
-        {
-          "league": "UEFA Champions League",
-          "time": "3:00 PM",
-          "match": "Paris Saint-Germain vs Barcelona",
-          "source": "Paramount+",
-          "kick_utc": "2026-10-20T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-          "round_label": "Group"
-        },
-        {
-          "league": "UEFA Champions League",
-          "time": "3:00 PM",
-          "match": "VfB Stuttgart vs Atl\u00e9tico Madrid",
-          "source": "Paramount+",
-          "kick_utc": "2026-10-20T19:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-          "round_label": "Group"
-        }
-      ]
+      "games": []
     },
     "20261021": {
       "date": "Wednesday, October 21",
