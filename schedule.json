@@ -1,10 +1,6 @@
 {
-  "updated": "2026-11-03 19:25 EST",
+  "updated": "2026-11-04 06:53 EST",
   "days": {
-    "20261103": {
-      "date": "Tuesday, November 3",
-      "games": []
-    },
     "20261104": {
       "date": "Wednesday, November 4",
       "games": [
@@ -499,7 +495,7 @@
           "league": "Premier League",
           "time": "3:00 PM",
           "match": "Everton vs Coventry City",
-          "source": "Peacock",
+          "source": "USA Network",
           "kick_utc": "2026-11-06T20:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png"
@@ -549,7 +545,7 @@
           "league": "Premier League",
           "time": "7:30 AM",
           "match": "Leeds United vs Tottenham Hotspur",
-          "source": "Peacock",
+          "source": "USA Network",
           "kick_utc": "2026-11-07T12:30Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png"
@@ -567,7 +563,7 @@
           "league": "Premier League",
           "time": "10:00 AM",
           "match": "Fulham vs Newcastle United",
-          "source": "Peacock",
+          "source": "USA Network \u00b7 Peacock",
           "kick_utc": "2026-11-07T15:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png"
@@ -576,7 +572,7 @@
           "league": "Premier League",
           "time": "12:30 PM",
           "match": "Nottingham Forest vs Manchester City",
-          "source": "Peacock",
+          "source": "NBC",
           "kick_utc": "2026-11-07T17:30Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png"
@@ -844,6 +840,15 @@
         },
         {
           "league": "German Bundesliga",
+          "time": "9:30 AM",
+          "match": "Mainz vs Bayern Munich",
+          "source": "Hulu",
+          "kick_utc": "2026-11-07T14:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png"
+        },
+        {
+          "league": "German Bundesliga",
           "time": "12:30 PM",
           "match": "VfB Stuttgart vs Werder Bremen",
           "source": "USA Network",
@@ -931,6 +936,227 @@
           "kick_utc": "2026-11-08T02:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131581.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20000.png"
+        }
+      ]
+    },
+    "20261108": {
+      "date": "Sunday, November 8",
+      "games": [
+        {
+          "league": "Premier League",
+          "time": "9:00 AM",
+          "match": "Brighton & Hove Albion vs Brentford",
+          "source": "Peacock",
+          "kick_utc": "2026-11-08T14:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png"
+        },
+        {
+          "league": "Premier League",
+          "time": "9:00 AM",
+          "match": "Crystal Palace vs Liverpool",
+          "source": "Peacock",
+          "kick_utc": "2026-11-08T14:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
+        },
+        {
+          "league": "Premier League",
+          "time": "9:00 AM",
+          "match": "Ipswich Town vs AFC Bournemouth",
+          "source": "Peacock",
+          "kick_utc": "2026-11-08T14:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png"
+        },
+        {
+          "league": "Premier League",
+          "time": "9:00 AM",
+          "match": "Sunderland vs Chelsea",
+          "source": "USA Network",
+          "kick_utc": "2026-11-08T14:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png"
+        },
+        {
+          "league": "Premier League",
+          "time": "11:30 AM",
+          "match": "Manchester United vs Aston Villa",
+          "source": "USA Network",
+          "kick_utc": "2026-11-08T16:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
+        },
+        {
+          "league": "English FA Cup",
+          "time": "7:00 AM",
+          "match": "Stafford Rangers vs Grimsby Town",
+          "source": "ESPN+",
+          "kick_utc": "2026-11-08T12:00Z",
+          "home_logo": "",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/386.png"
+        },
+        {
+          "league": "English FA Cup",
+          "time": "9:15 AM",
+          "match": "Cray Wanderers vs Stockport County",
+          "source": "ESPN+",
+          "kick_utc": "2026-11-08T14:15Z",
+          "home_logo": "",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/400.png"
+        },
+        {
+          "league": "English FA Cup",
+          "time": "10:00 AM",
+          "match": "Wimborne Town vs Crawley Town",
+          "source": "ESPN+",
+          "kick_utc": "2026-11-08T15:00Z",
+          "home_logo": "",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2594.png"
+        },
+        {
+          "league": "English FA Cup",
+          "time": "12:15 PM",
+          "match": "Oldham Athletic vs Sheffield Wednesday",
+          "source": "ESPN+",
+          "kick_utc": "2026-11-08T17:15Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/332.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/399.png"
+        },
+        {
+          "league": "Serie A",
+          "time": "6:30 AM",
+          "match": "Napoli vs Lazio",
+          "source": "Paramount+",
+          "kick_utc": "2026-11-08T11:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png"
+        },
+        {
+          "league": "Serie A",
+          "time": "9:00 AM",
+          "match": "Genoa vs AC Milan",
+          "source": "Paramount+",
+          "kick_utc": "2026-11-08T14:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png"
+        },
+        {
+          "league": "Serie A",
+          "time": "9:00 AM",
+          "match": "Monza vs Atalanta",
+          "source": "Paramount+",
+          "kick_utc": "2026-11-08T14:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png"
+        },
+        {
+          "league": "Serie A",
+          "time": "12:00 PM",
+          "match": "Internazionale vs Como",
+          "source": "Paramount+",
+          "kick_utc": "2026-11-08T17:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png"
+        },
+        {
+          "league": "Serie A",
+          "time": "2:45 PM",
+          "match": "Fiorentina vs Juventus",
+          "source": "Paramount+",
+          "kick_utc": "2026-11-08T19:45Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png"
+        },
+        {
+          "league": "La Liga",
+          "time": "8:00 AM",
+          "match": "Elche vs Real Betis",
+          "source": "ESPN+",
+          "kick_utc": "2026-11-08T13:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png"
+        },
+        {
+          "league": "La Liga",
+          "time": "10:15 AM",
+          "match": "Real Sociedad vs Rayo Vallecano",
+          "source": "ESPN+",
+          "kick_utc": "2026-11-08T15:15Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png"
+        },
+        {
+          "league": "La Liga",
+          "time": "12:30 PM",
+          "match": "Celta Vigo vs Levante",
+          "source": "ESPN+",
+          "kick_utc": "2026-11-08T17:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png"
+        },
+        {
+          "league": "La Liga",
+          "time": "12:30 PM",
+          "match": "Villarreal vs Getafe",
+          "source": "ESPN+",
+          "kick_utc": "2026-11-08T17:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png"
+        },
+        {
+          "league": "La Liga",
+          "time": "3:00 PM",
+          "match": "Atl\u00e9tico Madrid vs Barcelona",
+          "source": "ESPN+",
+          "kick_utc": "2026-11-08T20:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "6:15 AM",
+          "match": "Heerenveen vs Feyenoord Rotterdam",
+          "source": "ESPN+",
+          "kick_utc": "2026-11-08T11:15Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/146.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/142.png"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "8:30 AM",
+          "match": "FC Twente vs Ajax Amsterdam",
+          "source": "ESPN+",
+          "kick_utc": "2026-11-08T13:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/152.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/139.png"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "10:45 AM",
+          "match": "AZ Alkmaar vs FC Groningen",
+          "source": "ESPN+",
+          "kick_utc": "2026-11-08T15:45Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/145.png"
+        },
+        {
+          "league": "Dutch Eredivisie",
+          "time": "10:45 AM",
+          "match": "SC Cambuur vs PSV Eindhoven",
+          "source": "ESPN+",
+          "kick_utc": "2026-11-08T15:45Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3736.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png"
+        },
+        {
+          "league": "USL League One",
+          "time": "7:00 PM",
+          "match": "Charlotte Independence vs Forward Madison FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-11-09T00:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17826.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19995.png"
         }
       ]
     }
