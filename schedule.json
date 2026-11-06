@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06 13:57 EST",
+  "updated": "2026-11-06 18:58 EST",
   "days": {
     "20261106": {
       "date": "Friday, November 6",
@@ -14,15 +14,6 @@
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png"
         },
         {
-          "league": "English FA Cup",
-          "time": "2:45 PM",
-          "match": "Oxford City vs Leicester City",
-          "source": "ESPN+",
-          "kick_utc": "2026-11-06T19:45Z",
-          "home_logo": "",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/375.png"
-        },
-        {
           "league": "EFL Championship",
           "time": "3:00 PM",
           "match": "Derby County vs Bolton Wanderers",
@@ -30,15 +21,6 @@
           "kick_utc": "2026-11-06T20:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/374.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/358.png"
-        },
-        {
-          "league": "Serie A",
-          "time": "2:45 PM",
-          "match": "Venezia vs Udinese",
-          "source": "CBSSN \u00b7 Paramount+",
-          "kick_utc": "2026-11-06T19:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png"
         },
         {
           "league": "La Liga",
