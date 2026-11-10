@@ -1,19 +1,9 @@
 {
-  "updated": "2026-11-09 13:24 EST",
+  "updated": "2026-11-09 21:34 EST",
   "days": {
     "20261109": {
       "date": "Monday, November 9",
-      "games": [
-        {
-          "league": "English FA Cup",
-          "time": "2:30 PM",
-          "match": "Plymouth Parkway vs Berkhamsted",
-          "source": "ESPN+",
-          "kick_utc": "2026-11-09T19:30Z",
-          "home_logo": "",
-          "away_logo": ""
-        }
-      ]
+      "games": []
     },
     "20261110": {
       "date": "Tuesday, November 10",
