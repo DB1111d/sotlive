@@ -1,10 +1,6 @@
 {
-  "updated": "2026-11-10 23:59 EST",
+  "updated": "2026-11-11 10:53 EST",
   "days": {
-    "20261110": {
-      "date": "Tuesday, November 10",
-      "games": []
-    },
     "20261111": {
       "date": "Wednesday, November 11",
       "games": []
@@ -19,6 +15,10 @@
     },
     "20261114": {
       "date": "Saturday, November 14",
+      "games": []
+    },
+    "20261115": {
+      "date": "Sunday, November 15",
       "games": []
     }
   }
