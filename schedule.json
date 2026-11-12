@@ -1,10 +1,6 @@
 {
-  "updated": "2026-11-11 17:30 EST",
+  "updated": "2026-11-12 01:01 EST",
   "days": {
-    "20261111": {
-      "date": "Wednesday, November 11",
-      "games": []
-    },
     "20261112": {
       "date": "Thursday, November 12",
       "games": []
@@ -15,10 +11,34 @@
     },
     "20261114": {
       "date": "Saturday, November 14",
-      "games": []
+      "games": [
+        {
+          "league": "USL Championship",
+          "time": "6:00 PM",
+          "match": "Charleston Battery vs Louisville City FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-11-14T23:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9729.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17832.png"
+        }
+      ]
     },
     "20261115": {
       "date": "Sunday, November 15",
+      "games": [
+        {
+          "league": "USL Championship",
+          "time": "7:00 PM",
+          "match": "New Mexico United vs Sacramento Republic FC",
+          "source": "ESPN+",
+          "kick_utc": "2026-11-16T00:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19408.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17828.png"
+        }
+      ]
+    },
+    "20261116": {
+      "date": "Monday, November 16",
       "games": []
     }
   }
