@@ -1,10 +1,6 @@
 {
-  "updated": "2026-11-15 15:51 EST",
+  "updated": "2026-11-16 00:07 EST",
   "days": {
-    "20261115": {
-      "date": "Sunday, November 15",
-      "games": []
-    },
     "20261116": {
       "date": "Monday, November 16",
       "games": [
@@ -47,6 +43,20 @@
           "kick_utc": "2026-11-20T03:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4771.png"
+        }
+      ]
+    },
+    "20261120": {
+      "date": "Friday, November 20",
+      "games": [
+        {
+          "league": "La Liga",
+          "time": "3:00 PM",
+          "match": "Athletic Club vs Espanyol",
+          "source": "ESPN+",
+          "kick_utc": "2026-11-20T20:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png"
         }
       ]
     }
