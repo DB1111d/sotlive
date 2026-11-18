@@ -1,10 +1,6 @@
 {
-  "updated": "2026-11-17 18:22 EST",
+  "updated": "2026-11-18 01:14 EST",
   "days": {
-    "20261117": {
-      "date": "Tuesday, November 17",
-      "games": []
-    },
     "20261118": {
       "date": "Wednesday, November 18",
       "games": []
@@ -35,6 +31,15 @@
     "20261120": {
       "date": "Friday, November 20",
       "games": [
+        {
+          "league": "German Bundesliga",
+          "time": "2:30 PM",
+          "match": "Bayern Munich vs FC Cologne",
+          "source": "USA Network",
+          "kick_utc": "2026-11-20T19:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png"
+        },
         {
           "league": "La Liga",
           "time": "3:00 PM",
@@ -264,6 +269,146 @@
           "kick_utc": "2026-11-21T20:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png"
+        }
+      ]
+    },
+    "20261122": {
+      "date": "Sunday, November 22",
+      "games": [
+        {
+          "league": "Premier League",
+          "time": "9:00 AM",
+          "match": "Hull City vs Brighton & Hove Albion",
+          "source": "Peacock",
+          "kick_utc": "2026-11-22T14:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
+        },
+        {
+          "league": "Premier League",
+          "time": "11:30 AM",
+          "match": "Liverpool vs Manchester United",
+          "source": "Peacock",
+          "kick_utc": "2026-11-22T16:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
+        },
+        {
+          "league": "MLS",
+          "time": "4:00 PM",
+          "match": "Nashville SC vs TBD Away",
+          "source": "FS1 \u00b7 Apple TV",
+          "kick_utc": "2026-11-22T21:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png",
+          "away_logo": ""
+        },
+        {
+          "league": "MLS",
+          "time": "6:30 PM",
+          "match": "Chicago Fire FC vs Charlotte FC",
+          "source": "FS1 \u00b7 Apple TV",
+          "kick_utc": "2026-11-22T23:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21300.png"
+        },
+        {
+          "league": "MLS",
+          "time": "8:30 PM",
+          "match": "Vancouver Whitecaps vs TBD Away",
+          "source": "Apple TV",
+          "kick_utc": "2026-11-23T01:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9727.png",
+          "away_logo": ""
+        },
+        {
+          "league": "EFL Championship",
+          "time": "7:00 AM",
+          "match": "Burnley vs Blackburn Rovers",
+          "source": "Paramount+",
+          "kick_utc": "2026-11-22T12:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/379.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/365.png"
+        },
+        {
+          "league": "Serie A",
+          "time": "6:30 AM",
+          "match": "Juventus vs Venezia",
+          "source": "Paramount+",
+          "kick_utc": "2026-11-22T11:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png"
+        },
+        {
+          "league": "Serie A",
+          "time": "9:00 AM",
+          "match": "Bologna vs Udinese",
+          "source": "Paramount+",
+          "kick_utc": "2026-11-22T14:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png"
+        },
+        {
+          "league": "Serie A",
+          "time": "9:00 AM",
+          "match": "Sassuolo vs Genoa",
+          "source": "Paramount+",
+          "kick_utc": "2026-11-22T14:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png"
+        },
+        {
+          "league": "Serie A",
+          "time": "12:00 PM",
+          "match": "AC Milan vs Frosinone",
+          "source": "Paramount+",
+          "kick_utc": "2026-11-22T17:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png"
+        },
+        {
+          "league": "Serie A",
+          "time": "2:45 PM",
+          "match": "Atalanta vs Internazionale",
+          "source": "Paramount+",
+          "kick_utc": "2026-11-22T19:45Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png"
+        },
+        {
+          "league": "La Liga",
+          "time": "8:00 AM",
+          "match": "Barcelona vs Villarreal",
+          "source": "ESPN+",
+          "kick_utc": "2026-11-22T13:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png"
+        },
+        {
+          "league": "La Liga",
+          "time": "10:15 AM",
+          "match": "Racing Santander vs Real Sociedad",
+          "source": "ESPN+",
+          "kick_utc": "2026-11-22T15:15Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png"
+        },
+        {
+          "league": "La Liga",
+          "time": "12:30 PM",
+          "match": "Osasuna vs M\u00e1laga",
+          "source": "ESPN+",
+          "kick_utc": "2026-11-22T17:30Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png"
+        },
+        {
+          "league": "La Liga",
+          "time": "3:00 PM",
+          "match": "Getafe vs Atl\u00e9tico Madrid",
+          "source": "ESPN+",
+          "kick_utc": "2026-11-22T20:00Z",
+          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png"
         }
       ]
     }
