@@ -1,18 +1,9 @@
 {
-  "updated": "2026-11-27 12:52 EST",
+  "updated": "2026-11-27 21:30 EST",
   "days": {
     "20261127": {
       "date": "Friday, November 27",
       "games": [
-        {
-          "league": "Premier League",
-          "time": "3:00 PM",
-          "match": "Nottingham Forest vs Chelsea",
-          "source": "USA Network",
-          "kick_utc": "2026-11-27T20:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png"
-        },
         {
           "league": "MLS",
           "time": "8:00 PM",
@@ -30,33 +21,6 @@
           "kick_utc": "2026-11-28T03:00Z",
           "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4771.png",
           "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9727.png"
-        },
-        {
-          "league": "EFL Championship",
-          "time": "3:00 PM",
-          "match": "Southampton vs Middlesbrough",
-          "source": "Paramount+",
-          "kick_utc": "2026-11-27T20:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/376.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/369.png"
-        },
-        {
-          "league": "Serie A",
-          "time": "2:45 PM",
-          "match": "Venezia vs Bologna",
-          "source": "Paramount+",
-          "kick_utc": "2026-11-27T19:45Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png"
-        },
-        {
-          "league": "La Liga",
-          "time": "3:00 PM",
-          "match": "Levante vs Racing Santander",
-          "source": "ESPN+",
-          "kick_utc": "2026-11-27T20:00Z",
-          "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
-          "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png"
         }
       ]
     },
